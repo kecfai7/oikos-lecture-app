@@ -17,26 +17,47 @@ export default function App() {
   const currentSlideData = SLIDES_SESSION_1[currentSlideIndex];
   const nextSlideData = currentSlideIndex < totalSlides - 1 ? SLIDES_SESSION_1[currentSlideIndex + 1] : null;
 
+  // BroadcastChannel for Dual-Monitor Multi-Window Sync
+  useEffect(() => {
+    const channel = new BroadcastChannel('oikos_slide_sync');
+    channel.onmessage = (event) => {
+      if (typeof event.data?.slideIndex === 'number') {
+        setCurrentSlideIndex(event.data.slideIndex);
+      }
+    };
+    return () => channel.close();
+  }, []);
+
+  const broadcastSlideChange = (newIndex) => {
+    setCurrentSlideIndex(newIndex);
+    try {
+      const channel = new BroadcastChannel('oikos_slide_sync');
+      channel.postMessage({ slideIndex: newIndex });
+      channel.close();
+    } catch (e) {
+      console.log('BroadcastChannel error:', e);
+    }
+  };
+
   const handlePrev = () => {
     if (currentSlideIndex > 0) {
-      setCurrentSlideIndex(i => i - 1);
+      broadcastSlideChange(currentSlideIndex - 1);
     }
   };
 
   const handleNext = () => {
     if (currentSlideIndex < totalSlides - 1) {
-      setCurrentSlideIndex(i => i + 1);
+      broadcastSlideChange(currentSlideIndex + 1);
     }
   };
 
   const handleSelectSlide = (num) => {
-    setCurrentSlideIndex(num - 1);
+    broadcastSlideChange(num - 1);
   };
 
   // Keyboard Shortcuts Listener
   useEffect(() => {
     const handleKeyDown = (e) => {
-      // Avoid shortcuts if typing in input fields
       if (['INPUT', 'TEXTAREA', 'SELECT'].includes(document.activeElement.tagName)) return;
 
       if (e.key === 'ArrowRight' || e.key === 'ArrowDown' || e.key === ' ') {
@@ -58,7 +79,6 @@ export default function App() {
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [currentSlideIndex, totalSlides]);
 
-  // Hide shortcut hint after 8 seconds
   useEffect(() => {
     const timer = setTimeout(() => setShowShortcutHint(false), 8000);
     return () => clearTimeout(timer);
