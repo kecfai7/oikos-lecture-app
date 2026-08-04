@@ -61,8 +61,9 @@ export default function App() {
     setIsPrinting(true);
     setTimeout(() => {
       window.print();
-      setIsPrinting(false);
-    }, 500);
+      // Keep isPrinting true briefly during print dialog
+      setTimeout(() => setIsPrinting(false), 2000);
+    }, 800);
   };
 
   // Keyboard Shortcuts Listener
