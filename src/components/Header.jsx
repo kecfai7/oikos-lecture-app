@@ -1,12 +1,11 @@
 import React from 'react';
 import { 
-  BookOpen, 
   ChevronLeft, 
   ChevronRight, 
   Grid, 
   Monitor, 
   Maximize, 
-  RotateCcw,
+  Printer,
   Sparkles
 } from 'lucide-react';
 import { SESSIONS } from '../data/slidesData';
@@ -19,6 +18,7 @@ export default function Header({
   onTogglePresenter, 
   isPresenterOpen,
   onToggleOverview,
+  onExportPDF,
   selectedSession,
   onSelectSession
 }) {
@@ -33,7 +33,7 @@ export default function Header({
   };
 
   return (
-    <header className="h-16 bg-[#0B132B]/90 backdrop-blur-md border-b border-cyan-500/20 px-4 flex items-center justify-between z-30 sticky top-0">
+    <header className="no-print h-16 bg-[#0B132B]/90 backdrop-blur-md border-b border-cyan-500/20 px-4 flex items-center justify-between z-30 sticky top-0">
       {/* Brand & Logo */}
       <div className="flex items-center gap-3">
         <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-cyan-400 to-blue-600 flex items-center justify-center shadow-lg shadow-cyan-500/30">
@@ -104,6 +104,16 @@ export default function Header({
         >
           <Grid className="w-3.5 h-3.5 text-cyan-400" />
           <span className="hidden sm:inline">Overview</span>
+        </button>
+
+        {/* Export PDF Button */}
+        <button 
+          onClick={onExportPDF}
+          className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-amber-500/20 hover:bg-amber-500/30 text-amber-300 border border-amber-500/40 text-xs font-bold transition shadow-md"
+          title="Export All 40 Slides to PDF (No Scripts)"
+        >
+          <Printer className="w-3.5 h-3.5 text-amber-400" />
+          <span>Export PDF</span>
         </button>
 
         {/* Presenter Teleprompter Mode Toggle */}

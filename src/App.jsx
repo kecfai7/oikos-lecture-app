@@ -3,8 +3,9 @@ import Header from './components/Header';
 import SlideDeck from './components/SlideDeck';
 import PresenterMode from './components/PresenterMode';
 import SlideOverviewModal from './components/SlideOverviewModal';
+import PrintSlidesView from './components/PrintSlidesView';
 import { SLIDES_SESSION_1 } from './data/slidesData';
-import { Info, Keyboard } from 'lucide-react';
+import { Keyboard } from 'lucide-react';
 
 export default function App() {
   const [selectedSession, setSelectedSession] = useState(1);
@@ -12,6 +13,7 @@ export default function App() {
   const [isPresenterOpen, setIsPresenterOpen] = useState(false);
   const [isOverviewOpen, setIsOverviewOpen] = useState(false);
   const [showShortcutHint, setShowShortcutHint] = useState(true);
+  const [isPrinting, setIsPrinting] = useState(false);
 
   const totalSlides = SLIDES_SESSION_1.length;
   const currentSlideData = SLIDES_SESSION_1[currentSlideIndex];
@@ -55,6 +57,14 @@ export default function App() {
     broadcastSlideChange(num - 1);
   };
 
+  const handleExportPDF = () => {
+    setIsPrinting(true);
+    setTimeout(() => {
+      window.print();
+      setIsPrinting(false);
+    }, 500);
+  };
+
   // Keyboard Shortcuts Listener
   useEffect(() => {
     const handleKeyDown = (e) => {
@@ -86,6 +96,9 @@ export default function App() {
 
   return (
     <div className="w-screen h-screen flex flex-col bg-[#0B132B] text-white overflow-hidden font-sans select-none">
+      {/* Printable All 40 Slides View (Rendered only during PDF Export / Print) */}
+      {isPrinting && <PrintSlidesView slides={SLIDES_SESSION_1} />}
+
       {/* Header Bar */}
       <Header
         currentSlide={currentSlideIndex + 1}
@@ -95,12 +108,13 @@ export default function App() {
         onTogglePresenter={() => setIsPresenterOpen(prev => !prev)}
         isPresenterOpen={isPresenterOpen}
         onToggleOverview={() => setIsOverviewOpen(prev => !prev)}
+        onExportPDF={handleExportPDF}
         selectedSession={selectedSession}
         onSelectSession={setSelectedSession}
       />
 
       {/* Main Slide Presentation Area */}
-      <main className="flex-1 relative overflow-hidden">
+      <main className="no-print flex-1 relative overflow-hidden">
         <SlideDeck slideData={currentSlideData} />
 
         {/* Presenter Teleprompter Sidebar Mode */}
@@ -119,9 +133,9 @@ export default function App() {
 
       {/* Keyboard Shortcut Hint Toast */}
       {showShortcutHint && (
-        <div className="fixed bottom-4 left-4 bg-slate-900/90 border border-cyan-500/30 text-xs text-slate-300 px-3 py-2 rounded-xl backdrop-blur-md shadow-lg flex items-center gap-2 z-20">
+        <div className="no-print fixed bottom-4 left-4 bg-slate-900/90 border border-cyan-500/30 text-xs text-slate-300 px-3 py-2 rounded-xl backdrop-blur-md shadow-lg flex items-center gap-2 z-20">
           <Keyboard className="w-4 h-4 text-cyan-400" />
-          <span>Use <b>← →</b> arrows for slides | <b>P</b> for Presenter Script | <b>M</b> for Overview</span>
+          <span>Use <b>← →</b> arrows for slides | <b>P</b> for Presenter Script | <b>Export PDF</b> to save slides</span>
           <button 
             onClick={() => setShowShortcutHint(false)}
             className="text-slate-500 hover:text-white ml-1 font-bold"
