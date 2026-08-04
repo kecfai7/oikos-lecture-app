@@ -96,7 +96,7 @@ export default function App() {
   }, []);
 
   return (
-    <div className="w-screen h-screen flex flex-col bg-[#0B132B] text-white overflow-hidden font-sans select-none">
+    <div className="w-screen h-screen flex flex-col bg-[#0B132B] text-white overflow-hidden font-sans select-text">
       {/* Printable All 40 Slides View (Rendered only during PDF Export / Print) */}
       {isPrinting && <PrintSlidesView slides={SLIDES_SESSION_1} />}
 

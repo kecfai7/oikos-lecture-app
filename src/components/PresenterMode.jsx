@@ -9,6 +9,7 @@ import {
   BookOpen, 
   Clock, 
   Volume2,
+  VolumeX,
   Globe,
   Type,
   CheckCircle2,
@@ -30,6 +31,7 @@ export default function PresenterMode({
   const [isActive, setIsActive] = useState(true);
   const [activeTab, setActiveTab] = useState('script'); // 'script' | 'korean' | 'terms'
   const [fontSize, setFontSize] = useState('text-base'); // 'text-sm' | 'text-base' | 'text-lg' | 'text-xl'
+  const [speakingText, setSpeakingText] = useState(null);
 
   useEffect(() => {
     let interval = null;
@@ -43,6 +45,14 @@ export default function PresenterMode({
     return () => clearInterval(interval);
   }, [isActive, seconds]);
 
+  // Cancel TTS when switching slides or closing
+  useEffect(() => {
+    if ('speechSynthesis' in window) {
+      window.speechSynthesis.cancel();
+      setSpeakingText(null);
+    }
+  }, [currentSlide, onClose]);
+
   const formatTime = (totalSeconds) => {
     const mins = Math.floor(totalSeconds / 60);
     const secs = totalSeconds % 60;
@@ -54,9 +64,35 @@ export default function PresenterMode({
     setIsActive(false);
   };
 
-  // Target time per slide for 60-min total across 40 slides is 90 seconds (1:30)
-  const targetSecondsPerSlide = 90;
-  const targetTotalMinutes = 60;
+  // Text-To-Speech Pronunciation Helper
+  const speakText = (textToSpeak) => {
+    if (!('speechSynthesis' in window)) return;
+
+    if (speakingText === textToSpeak) {
+      window.speechSynthesis.cancel();
+      setSpeakingText(null);
+      return;
+    }
+
+    window.speechSynthesis.cancel();
+    const utterance = new SpeechSynthesisUtterance(textToSpeak);
+    utterance.lang = 'en-US';
+    utterance.rate = 0.9; // natural, clear pacing for ESL learners
+    
+    utterance.onend = () => setSpeakingText(null);
+    utterance.onerror = () => setSpeakingText(null);
+
+    setSpeakingText(textToSpeak);
+    window.speechSynthesis.speak(utterance);
+  };
+
+  // Speak currently highlighted/selected text
+  const speakSelection = () => {
+    const selectedText = window.getSelection()?.toString().trim();
+    if (selectedText) {
+      speakText(selectedText);
+    }
+  };
 
   const cycleFontSize = () => {
     if (fontSize === 'text-sm') setFontSize('text-base');
@@ -66,18 +102,18 @@ export default function PresenterMode({
   };
 
   return (
-    <div className="fixed inset-y-0 right-0 w-full md:w-[540px] bg-slate-950/95 border-l border-cyan-500/30 backdrop-blur-2xl shadow-2xl z-50 flex flex-col justify-between overflow-hidden font-sans">
+    <div className="fixed inset-y-0 right-0 w-full md:w-[540px] bg-slate-950/95 border-l border-cyan-500/30 backdrop-blur-2xl shadow-2xl z-50 flex flex-col justify-between overflow-hidden font-sans select-text">
       {/* Presenter Teleprompter Header */}
       <div className="p-3.5 bg-slate-900/90 border-b border-slate-800 flex items-center justify-between">
         <div className="flex items-center gap-2">
           <div className="w-2.5 h-2.5 rounded-full bg-cyan-400 animate-ping" />
-          <h2 className="text-xs font-bold text-cyan-300 tracking-wider uppercase">
+          <h2 className="text-xs font-bold text-cyan-300 tracking-wider uppercase select-none">
             PRESENTER TELEPROMPTER
           </h2>
         </div>
         
         {/* Timer Control & Pacing Target */}
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 select-none">
           <div className="flex items-center gap-1.5 bg-slate-800/90 px-3 py-1 rounded-full border border-slate-700">
             <Clock className="w-3.5 h-3.5 text-cyan-400" />
             <span className="font-mono text-xs font-bold text-amber-300">{formatTime(seconds)}</span>
@@ -109,7 +145,7 @@ export default function PresenterMode({
       </div>
 
       {/* Slide Index & Control Header */}
-      <div className="px-4 py-2.5 bg-slate-900/60 border-b border-slate-800/80 flex items-center justify-between">
+      <div className="px-4 py-2.5 bg-slate-900/60 border-b border-slate-800/80 flex items-center justify-between select-none">
         <div className="flex items-center gap-2 truncate">
           <span className="px-2 py-0.5 rounded bg-cyan-500/20 text-cyan-300 font-mono font-bold text-[11px] border border-cyan-500/30">
             {currentSlide} / {totalSlides}
@@ -119,8 +155,17 @@ export default function PresenterMode({
           </h3>
         </div>
 
-        {/* Font Controls & Nav */}
+        {/* Font Controls & Pronunciation Button */}
         <div className="flex items-center gap-1.5">
+          <button
+            onClick={speakSelection}
+            className="px-2 py-1 rounded bg-indigo-500/20 hover:bg-indigo-500/30 text-indigo-300 border border-indigo-500/40 text-[11px] font-medium flex items-center gap-1 transition"
+            title="Highlight any text with mouse and click here to hear pronunciation"
+          >
+            <Volume2 className="w-3 h-3" />
+            <span>선택 발음 듣기</span>
+          </button>
+
           <button
             onClick={cycleFontSize}
             className="p-1.5 rounded bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-cyan-300 transition text-xs font-mono font-bold flex items-center gap-1"
@@ -129,7 +174,9 @@ export default function PresenterMode({
             <Type className="w-3.5 h-3.5" />
             <span className="text-[10px] uppercase">{fontSize.replace('text-', '')}</span>
           </button>
+
           <div className="h-4 w-px bg-slate-800" />
+
           <button 
             onClick={onPrev} 
             disabled={currentSlide === 1}
@@ -148,7 +195,7 @@ export default function PresenterMode({
       </div>
 
       {/* View Mode Selector Tabs */}
-      <div className="grid grid-cols-3 gap-1 p-2 bg-slate-900 border-b border-slate-800/90 text-xs font-bold">
+      <div className="grid grid-cols-3 gap-1 p-2 bg-slate-900 border-b border-slate-800/90 text-xs font-bold select-none">
         <button
           onClick={() => setActiveTab('script')}
           className={`py-2 px-2 rounded-lg flex items-center justify-center gap-1.5 transition ${
@@ -187,27 +234,47 @@ export default function PresenterMode({
       </div>
 
       {/* Teleprompter Main Content Area */}
-      <div className="flex-1 overflow-y-auto p-4 space-y-4">
+      <div className="flex-1 overflow-y-auto p-4 space-y-4 select-text">
         
         {/* TAB 1: EASY ENGLISH SPOKEN SCRIPT */}
         {activeTab === 'script' && (
           <div className="space-y-3">
-            <div className="flex items-center justify-between text-xs text-cyan-400 font-medium pb-1 border-b border-cyan-500/20">
+            <div className="flex items-center justify-between text-xs text-cyan-400 font-medium pb-1 border-b border-cyan-500/20 select-none">
               <span className="flex items-center gap-1.5">
                 <Sparkles className="w-3.5 h-3.5" />
                 Spoken Teleprompter Script (ESL Easy English)
               </span>
-              <span className="text-[10px] text-slate-400 bg-slate-900 px-2 py-0.5 rounded border border-slate-800">
-                🎯 Target Pace: ~1:30 min
-              </span>
+              <div className="flex items-center gap-2">
+                {slideData?.script && (
+                  <button
+                    onClick={() => speakText(slideData.script)}
+                    className="px-2 py-0.5 rounded bg-cyan-500/20 hover:bg-cyan-500/30 text-cyan-300 border border-cyan-500/40 text-[10px] font-bold flex items-center gap-1 transition"
+                  >
+                    {speakingText === slideData.script ? <VolumeX className="w-3 h-3 text-amber-400" /> : <Volume2 className="w-3 h-3" />}
+                    <span>{speakingText === slideData.script ? '정지' : '전체 낭독'}</span>
+                  </button>
+                )}
+                <span className="text-[10px] text-slate-400 bg-slate-900 px-2 py-0.5 rounded border border-slate-800">
+                  🎯 ~1:30 min
+                </span>
+              </div>
             </div>
 
-            <div className="p-4 rounded-xl bg-slate-900/90 border border-cyan-500/30 text-cyan-50 shadow-inner space-y-3">
+            <div className="p-4 rounded-xl bg-slate-900/90 border border-cyan-500/30 text-cyan-50 shadow-inner space-y-3 cursor-text">
               {slideData?.script ? (
                 slideData.script.split('\n\n').map((paragraph, idx) => (
-                  <p key={idx} className={`${fontSize} leading-relaxed font-normal text-slate-100`}>
-                    {paragraph}
-                  </p>
+                  <div key={idx} className="group relative pr-6">
+                    <p className={`${fontSize} leading-relaxed font-normal text-slate-100 selection:bg-cyan-500 selection:text-slate-950`}>
+                      {paragraph}
+                    </p>
+                    <button
+                      onClick={() => speakText(paragraph)}
+                      className="absolute right-0 top-0.5 opacity-40 group-hover:opacity-100 p-1 text-cyan-400 hover:text-white transition rounded bg-slate-800/80"
+                      title="Read this paragraph aloud"
+                    >
+                      <Volume2 className="w-3.5 h-3.5" />
+                    </button>
+                  </div>
                 ))
               ) : (
                 <p className="text-slate-400 italic">No spoken script provided for this slide.</p>
@@ -218,8 +285,8 @@ export default function PresenterMode({
 
         {/* TAB 2: KOREAN LECTURE & DELIVERY GUIDE */}
         {activeTab === 'korean' && (
-          <div className="space-y-4">
-            <div className="flex items-center justify-between text-xs text-amber-400 font-medium pb-1 border-b border-amber-500/20">
+          <div className="space-y-4 cursor-text">
+            <div className="flex items-center justify-between text-xs text-amber-400 font-medium pb-1 border-b border-amber-500/20 select-none">
               <span className="flex items-center gap-1.5">
                 <Globe className="w-3.5 h-3.5" />
                 한국어 강의 해설 및 내용 전달 가이드
@@ -233,23 +300,23 @@ export default function PresenterMode({
               <div className="space-y-3">
                 {/* Core Summary Box */}
                 <div className="p-3.5 rounded-xl bg-amber-500/10 border border-amber-500/30 text-amber-100 space-y-1.5">
-                  <div className="flex items-center gap-1.5 text-amber-300 text-xs font-bold uppercase">
+                  <div className="flex items-center gap-1.5 text-amber-300 text-xs font-bold uppercase select-none">
                     <CheckCircle2 className="w-3.5 h-3.5" />
                     <span>슬라이드 핵심 요지 (Core Summary)</span>
                   </div>
-                  <p className="text-sm font-medium leading-relaxed text-amber-200">
+                  <p className="text-sm font-medium leading-relaxed text-amber-200 selection:bg-amber-500 selection:text-slate-950">
                     {slideData.koreanGuide.summary}
                   </p>
                 </div>
 
                 {/* Main Explanation Points */}
                 <div className="p-3.5 rounded-xl bg-slate-900/80 border border-slate-800 space-y-2">
-                  <span className="text-xs font-bold text-cyan-300 block uppercase tracking-wider">
+                  <span className="text-xs font-bold text-cyan-300 block uppercase tracking-wider select-none">
                     📌 본문 설명 및 전달 포인트
                   </span>
                   <ul className="space-y-2">
                     {slideData.koreanGuide.points.map((point, idx) => (
-                      <li key={idx} className="text-xs text-slate-200 leading-relaxed flex items-start gap-2">
+                      <li key={idx} className="text-xs text-slate-200 leading-relaxed flex items-start gap-2 selection:bg-cyan-500 selection:text-slate-950">
                         <span className="w-1.5 h-1.5 rounded-full bg-cyan-400 mt-1.5 shrink-0" />
                         <span>{point}</span>
                       </li>
@@ -258,12 +325,12 @@ export default function PresenterMode({
                 </div>
 
                 {/* Delivery & Q&A Tip */}
-                <div className="p-3.5 rounded-xl bg-indigo-500/10 border border-indigo-500/30 text-indigo-100 space-y-1">
-                  <div className="flex items-center gap-1.5 text-indigo-300 text-xs font-bold uppercase">
+                <div className="p-3.5 rounded-xl bg-indigo500/10 border border-indigo-500/30 text-indigo-100 space-y-1">
+                  <div className="flex items-center gap-1.5 text-indigo-300 text-xs font-bold uppercase select-none">
                     <Lightbulb className="w-3.5 h-3.5" />
                     <span>강의 전달 & 학생 소통 팁</span>
                   </div>
-                  <p className="text-xs text-indigo-200 leading-relaxed">
+                  <p className="text-xs text-indigo-200 leading-relaxed selection:bg-indigo-500 selection:text-slate-950">
                     {slideData.koreanGuide.tips}
                   </p>
                 </div>
@@ -276,8 +343,8 @@ export default function PresenterMode({
 
         {/* TAB 3: KEY VOCABULARY & DEFINITIONS */}
         {activeTab === 'terms' && (
-          <div className="space-y-3">
-            <div className="flex items-center justify-between text-xs text-emerald-400 font-medium pb-1 border-b border-emerald-500/20">
+          <div className="space-y-3 cursor-text">
+            <div className="flex items-center justify-between text-xs text-emerald-400 font-medium pb-1 border-b border-emerald-500/20 select-none">
               <span className="flex items-center gap-1.5">
                 <BookOpen className="w-3.5 h-3.5" />
                 Key Terms & Korean Meanings (어휘 정리)
@@ -287,16 +354,26 @@ export default function PresenterMode({
             {slideData?.keyTerms && slideData.keyTerms.length > 0 ? (
               <div className="grid gap-2.5">
                 {slideData.keyTerms.map((kt, idx) => (
-                  <div key={idx} className="p-3 rounded-xl bg-slate-900/90 border border-emerald-500/30 space-y-1">
+                  <div key={idx} className="p-3 rounded-xl bg-slate-900/90 border border-emerald-500/30 space-y-1 relative group">
                     <div className="flex items-center justify-between">
-                      <span className="font-bold text-emerald-300 text-xs">{kt.term}</span>
+                      <div className="flex items-center gap-2">
+                        <span className="font-bold text-emerald-300 text-xs selection:bg-emerald-500 selection:text-slate-950">{kt.term}</span>
+                        <button
+                          onClick={() => speakText(kt.term)}
+                          className="p-0.5 text-emerald-400 hover:text-white transition rounded"
+                          title={`Listen to pronunciation of '${kt.term}'`}
+                        >
+                          <Volume2 className="w-3.5 h-3.5" />
+                        </button>
+                      </div>
+
                       {kt.defKo && (
-                        <span className="text-[11px] font-medium text-amber-300 bg-amber-500/10 px-2 py-0.5 rounded border border-amber-500/20">
+                        <span className="text-[11px] font-medium text-amber-300 bg-amber-500/10 px-2 py-0.5 rounded border border-amber-500/20 select-none">
                           {kt.defKo}
                         </span>
                       )}
                     </div>
-                    <p className="text-slate-300 text-xs leading-relaxed">{kt.def}</p>
+                    <p className="text-slate-300 text-xs leading-relaxed selection:bg-emerald-500 selection:text-slate-950">{kt.def}</p>
                   </div>
                 ))}
               </div>
@@ -308,7 +385,7 @@ export default function PresenterMode({
 
         {/* Next Slide Preview */}
         {nextSlideData && (
-          <div className="pt-3 border-t border-slate-800/80 space-y-1.5">
+          <div className="pt-3 border-t border-slate-800/80 space-y-1.5 select-none">
             <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block">
               NEXT SLIDE ({nextSlideData.num} / {totalSlides})
             </span>
@@ -321,7 +398,7 @@ export default function PresenterMode({
       </div>
 
       {/* Footer Navigation Bar */}
-      <div className="p-3 bg-slate-900 border-t border-slate-800 flex items-center justify-between">
+      <div className="p-3 bg-slate-900 border-t border-slate-800 flex items-center justify-between select-none">
         <button 
           onClick={onPrev}
           disabled={currentSlide === 1}
