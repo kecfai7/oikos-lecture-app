@@ -105,8 +105,8 @@ export default function Header({
           title="Course Syllabus & Master Table of Contents [S]"
         >
           <BookOpen className="w-3.5 h-3.5 text-cyan-400" />
-          <span className="hidden sm:inline">Syllabus / 전체 목차</span>
-          <span className="sm:hidden">목차</span>
+          <span className="hidden sm:inline">Course Syllabus</span>
+          <span className="sm:hidden">Syllabus</span>
         </button>
 
         {/* Grid Overview */}

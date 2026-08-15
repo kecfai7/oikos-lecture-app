@@ -2,52 +2,51 @@ const fs = require('fs');
 const path = require('path');
 const { COURSE_INFO, SESSIONS_CURRICULUM } = require('./src/data/courseCurriculum.js');
 
-let md = `# ${COURSE_INFO.courseTitle}\n`;
-md += `## ${COURSE_INFO.courseTitleKo}\n\n`;
+let md = `# ${COURSE_INFO.courseTitle}\n\n`;
+md += `**Course Code:** ${COURSE_INFO.courseCode}  \n`;
 md += `**Institution:** ${COURSE_INFO.institution}  \n`;
+md += `**Department:** ${COURSE_INFO.department}  \n`;
 md += `**Motto:** ${COURSE_INFO.motto}  \n`;
 md += `**Instructor:** ${COURSE_INFO.instructor}  \n`;
-md += `**Total Scale:** ${COURSE_INFO.totalSessions} Sessions • ${COURSE_INFO.totalSlides} Slides (60 Minutes per Session)  \n\n`;
-md += `> ${COURSE_INFO.descriptionKo}\n\n`;
-md += `---\n\n## 📌 Master Course Navigation (전체 강좌 종합 목차)\n\n`;
+md += `**Total Structure:** ${COURSE_INFO.duration}  \n\n`;
+md += `> **Course Overview:** ${COURSE_INFO.description}\n\n`;
+md += `---\n\n## 📌 Master Course Navigation & Table of Contents\n\n`;
 
 SESSIONS_CURRICULUM.forEach((s) => {
   const numStr = String(s.sessionNum).padStart(2, '0');
-  md += `- [**Session ${numStr}: ${s.titleKo}**](#session-${s.sessionNum}-${s.titleKo.toLowerCase().replace(/[^a-z0-9가-힣]+/g, '-')})\n`;
+  const slug = `session-${s.sessionNum}-${s.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '')}`;
+  md += `- [**Session ${numStr}: ${s.title}**](#${slug})\n`;
   s.parts.forEach((p) => {
-    md += `  - **Part ${p.partNum}:** ${p.titleKo} (${p.slideRange})\n`;
+    md += `  - **Part ${p.partNum}:** ${p.title} (${p.slideRange})\n`;
   });
 });
 
-md += `\n---\n\n## 📚 Detailed 15-Session Curriculum & Learning Objectives\n\n`;
+md += `\n---\n\n## 📚 Detailed 15-Week Curriculum & Learning Objectives\n\n`;
 
 SESSIONS_CURRICULUM.forEach((s) => {
   const numStr = String(s.sessionNum).padStart(2, '0');
-  md += `### Session ${numStr}: ${s.titleKo}\n`;
-  md += `**English Title:** ${s.title}  \n`;
-  md += `**Theme:** \`${s.theme}\`  \n\n`;
+  md += `### Session ${numStr}: ${s.title}\n\n`;
+  md += `**Theme:** \`${s.theme}\`  \n`;
+  md += `**Total Slides:** 40 Slides (60 Minutes)  \n\n`;
 
-  md += `#### 🎯 Core Learning Objectives (핵심 학습 목표)\n`;
-  s.learningObjectivesKo.forEach((objKo, i) => {
-    md += `1. **${objKo}**  \n   _${s.learningObjectives[i]}_\n`;
+  md += `#### 🎯 Core Learning Objectives\n`;
+  s.learningObjectives.forEach((obj, i) => {
+    md += `${i + 1}. ${obj}\n`;
   });
   md += `\n`;
 
-  md += `#### 🏛️ 4-Part Structural Roadmap (대단원 4부 구조)\n\n`;
+  md += `#### 🏛️ 4-Part Architecture & Slide Breakdown\n\n`;
   s.parts.forEach((p) => {
-    md += `##### [${p.slideRange}] Part ${p.partNum}: ${p.titleKo}\n`;
-    md += `- **Original Title:** ${p.title}\n`;
-    md += `- **Summary:** ${p.summaryKo}\n`;
-    md += `- **English Summary:** _${p.summary}_\n`;
+    md += `##### [${p.slideRange}] ${p.title}\n`;
+    md += `- **Summary:** ${p.summary}\n`;
     if (p.keyTopics && p.keyTopics.length > 0) {
       md += `- **Key Topics:** \`${p.keyTopics.join('` • `')}\`\n`;
     }
     md += `\n`;
   });
 
-  md += `#### 🛠️ Hands-on Lab & Capstone (실습 과제)\n`;
-  md += `- **과제명:** ${s.labMissionKo}\n`;
-  md += `- **Mission:** _${s.labMission}_\n\n`;
+  md += `#### 🛠️ Hands-on Lab & Capstone Assignment\n`;
+  md += `- **Mission:** ${s.labMission}\n\n`;
   md += `---\n\n`;
 });
 
@@ -55,4 +54,4 @@ const out1 = path.join(__dirname, 'SYLLABUS.md');
 const out2 = path.join(__dirname, 'files', 'SYLLABUS.md');
 fs.writeFileSync(out1, md, 'utf8');
 fs.writeFileSync(out2, md, 'utf8');
-console.log('Successfully generated SYLLABUS.md and files/SYLLABUS.md!');
+console.log('Successfully generated pure English SYLLABUS.md and files/SYLLABUS.md!');

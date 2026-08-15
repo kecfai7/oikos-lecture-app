@@ -43,19 +43,15 @@ export default function CurriculumModal({ isOpen, onClose, onSelectSession, curr
     if (!searchTerm.trim()) return SESSIONS_CURRICULUM;
     const term = searchTerm.toLowerCase();
     return SESSIONS_CURRICULUM.filter(sess => {
-      const matchTitle = sess.title.toLowerCase().includes(term) || sess.titleKo.toLowerCase().includes(term);
+      const matchTitle = sess.title.toLowerCase().includes(term);
       const matchTheme = (sess.theme || '').toLowerCase().includes(term);
-      const matchObjectives = (sess.learningObjectives || []).some(o => o.toLowerCase().includes(term)) ||
-                              (sess.learningObjectivesKo || []).some(o => o.toLowerCase().includes(term));
+      const matchObjectives = (sess.learningObjectives || []).some(o => o.toLowerCase().includes(term));
       const matchParts = (sess.parts || []).some(p => 
         p.title.toLowerCase().includes(term) ||
-        p.titleKo.toLowerCase().includes(term) ||
         p.summary.toLowerCase().includes(term) ||
-        p.summaryKo.toLowerCase().includes(term) ||
         (p.keyTopics || []).some(k => k.toLowerCase().includes(term))
       );
-      const matchLab = (sess.labMission || '').toLowerCase().includes(term) ||
-                       (sess.labMissionKo || '').toLowerCase().includes(term);
+      const matchLab = (sess.labMission || '').toLowerCase().includes(term);
       return matchTitle || matchTheme || matchObjectives || matchParts || matchLab;
     });
   }, [searchTerm]);
@@ -97,10 +93,10 @@ export default function CurriculumModal({ isOpen, onClose, onSelectSession, curr
                 </span>
               </div>
               <h2 className="text-xl sm:text-2xl font-black text-white tracking-wide mt-1">
-                {COURSE_INFO.courseTitleKo}
+                {COURSE_INFO.courseTitle}
               </h2>
               <p className="text-xs text-slate-400 font-mono">
-                {COURSE_INFO.courseTitle} • {COURSE_INFO.instructor}
+                {COURSE_INFO.department} • {COURSE_INFO.instructor}
               </p>
             </div>
           </div>
@@ -113,7 +109,7 @@ export default function CurriculumModal({ isOpen, onClose, onSelectSession, curr
                 type="text"
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
-                placeholder="검색 (RAG, WebMCP, AP2, 12강...)"
+                placeholder="Search topics (e.g., RAG, WebMCP, AP2, Genie 3...)"
                 className="w-full bg-slate-800/80 border border-slate-700 text-white placeholder-slate-500 text-xs rounded-xl pl-9 pr-3 py-2 focus:outline-none focus:border-cyan-400 transition"
               />
               {searchTerm && (
@@ -157,7 +153,7 @@ export default function CurriculumModal({ isOpen, onClose, onSelectSession, curr
                       : 'bg-slate-800/80 text-slate-300 hover:bg-slate-700 border border-slate-700/60'
                 }`}
               >
-                {s.sessionNum}강 {isCurrent ? '★' : ''}
+                Session {s.sessionNum} {isCurrent ? '★' : ''}
               </button>
             );
           })}
@@ -168,12 +164,12 @@ export default function CurriculumModal({ isOpen, onClose, onSelectSession, curr
           {filteredSessions.length === 0 ? (
             <div className="text-center py-16">
               <Search className="w-12 h-12 text-slate-600 mx-auto mb-3" />
-              <p className="text-slate-400 text-sm font-medium">검색 결과가 없습니다: "{searchTerm}"</p>
+              <p className="text-slate-400 text-sm font-medium">No results found matching: "{searchTerm}"</p>
               <button 
                 onClick={() => setSearchTerm('')}
                 className="mt-3 px-4 py-1.5 text-xs text-cyan-400 bg-cyan-500/10 border border-cyan-500/30 rounded-lg hover:bg-cyan-500/20 transition"
               >
-                검색어 초기화
+                Clear Search
               </button>
             </div>
           ) : (
@@ -211,7 +207,7 @@ export default function CurriculumModal({ isOpen, onClose, onSelectSession, curr
                           </span>
                           {isCurrent && (
                             <span className="text-[10px] font-bold px-2 py-0.5 rounded bg-amber-500/20 text-amber-300 border border-amber-500/40 animate-pulse">
-                              NOW VIEWING (현재 강의)
+                              NOW VIEWING
                             </span>
                           )}
                           <span className="text-xs text-slate-400 font-mono">
@@ -219,11 +215,8 @@ export default function CurriculumModal({ isOpen, onClose, onSelectSession, curr
                           </span>
                         </div>
                         <h3 className="text-base sm:text-lg font-bold text-white mt-1">
-                          {session.titleKo}
-                        </h3>
-                        <p className="text-xs text-slate-400 font-sans mt-0.5">
                           {session.title}
-                        </p>
+                        </h3>
                       </div>
                     </div>
 
@@ -237,7 +230,7 @@ export default function CurriculumModal({ isOpen, onClose, onSelectSession, curr
                         }}
                         className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl bg-cyan-500 hover:bg-cyan-400 text-slate-950 text-xs font-bold transition shadow-md shadow-cyan-500/30"
                       >
-                        <span>강의 보기</span>
+                        <span>Open Session</span>
                         <ArrowRight className="w-3.5 h-3.5" />
                       </button>
 
@@ -255,21 +248,16 @@ export default function CurriculumModal({ isOpen, onClose, onSelectSession, curr
                         <div className="flex items-center gap-2 mb-3">
                           <Target className="w-4 h-4 text-cyan-400" />
                           <h4 className="text-xs font-mono font-bold text-cyan-300 uppercase tracking-wider">
-                            CORE LEARNING OBJECTIVES (학습 목표)
+                            CORE LEARNING OBJECTIVES
                           </h4>
                         </div>
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
-                          {session.learningObjectivesKo.map((objKo, idx) => (
+                          {session.learningObjectives.map((obj, idx) => (
                             <div key={idx} className="flex items-start gap-2.5 bg-slate-950/60 p-3 rounded-lg border border-slate-800">
                               <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
-                              <div>
-                                <p className="text-xs font-semibold text-white leading-relaxed">
-                                  {objKo}
-                                </p>
-                                <p className="text-[11px] text-slate-400 leading-relaxed mt-1 font-sans">
-                                  {session.learningObjectives[idx]}
-                                </p>
-                              </div>
+                              <p className="text-xs font-medium text-slate-200 leading-relaxed">
+                                {obj}
+                              </p>
                             </div>
                           ))}
                         </div>
@@ -280,7 +268,7 @@ export default function CurriculumModal({ isOpen, onClose, onSelectSession, curr
                         <div className="flex items-center gap-2 mb-3">
                           <Layers className="w-4 h-4 text-amber-400" />
                           <h4 className="text-xs font-mono font-bold text-amber-300 uppercase tracking-wider">
-                            4-PART ARCHITECTURE & SLIDE ROADMAP (대단원 4부 구성)
+                            4-PART ARCHITECTURE & SLIDE ROADMAP
                           </h4>
                         </div>
 
@@ -301,14 +289,11 @@ export default function CurriculumModal({ isOpen, onClose, onSelectSession, curr
                                 </div>
 
                                 <h5 className="text-xs font-bold text-white group-hover:text-cyan-200 transition leading-snug">
-                                  {part.titleKo}
-                                </h5>
-                                <p className="text-[10px] text-slate-400 font-mono mt-0.5 leading-tight">
                                   {part.title.replace(`PART ${part.partNum}: `, '')}
-                                </p>
+                                </h5>
 
-                                <p className="text-xs text-slate-300 leading-relaxed mt-2.5 font-sans">
-                                  {part.summaryKo}
+                                <p className="text-xs text-slate-300 leading-relaxed mt-2 font-sans">
+                                  {part.summary}
                                 </p>
                               </div>
 
@@ -337,12 +322,9 @@ export default function CurriculumModal({ isOpen, onClose, onSelectSession, curr
                         </div>
                         <div>
                           <span className="text-[10px] font-mono font-bold text-amber-300 uppercase tracking-widest block">
-                            HANDS-ON LAB / CAPSTONE ASSIGNMENT (실습 과제)
+                            HANDS-ON LAB / CAPSTONE MISSION
                           </span>
-                          <p className="text-xs font-bold text-white mt-0.5">
-                            {session.labMissionKo}
-                          </p>
-                          <p className="text-[11px] text-slate-400 mt-0.5 font-sans">
+                          <p className="text-xs font-semibold text-white mt-0.5">
                             {session.labMission}
                           </p>
                         </div>
@@ -365,7 +347,7 @@ export default function CurriculumModal({ isOpen, onClose, onSelectSession, curr
             onClick={onClose}
             className="px-4 py-1.5 bg-slate-800 hover:bg-slate-700 text-white rounded-lg transition"
           >
-            닫기 (Close)
+            Close
           </button>
         </div>
       </motion.div>
