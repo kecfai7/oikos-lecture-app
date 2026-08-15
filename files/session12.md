@@ -1,4 +1,4 @@
-# Session 12: World Models: Genie 3 Simulation & Waymo Autonomous Training
+# Session 12: World Models: Genie 3 Simulation & Waymo Training
 **Course:** The Architect of Intelligence: Mastering Agentic IT & Strategic Wisdom  
 **Instructor:** Professor Peter Kim, Director of Smart Insight Lab • Oikos University (www.oikos.edu)  
 **Total Slides:** 40 Slides (60 Minutes)  
@@ -8,7 +8,7 @@
 
 ## 📌 Table of Contents (목차)
 - [Slide 01: OIKOS UNIVERSITY • SOLI DEO GLORIA](#slide-01-oikos-university-soli-deo-gloria)
-- [Slide 02: SOLI DEO GLORIA: RECLAIMING TIME FOR SACRED CREATION](#slide-02-soli-deo-gloria-reclaiming-time-for-sacred-creation)
+- [Slide 02: PART 1: WORLD MODELS: BEYOND NEXT-TOKEN PREDICTION](#slide-02-part-1-world-models-beyond-next-token-prediction)
 - [Slide 03: BREAKING THE 2D FRAME: MOVING TO ACTIVE INTERACTION](#slide-03-breaking-the-2d-frame-moving-to-active-interaction)
 - [Slide 04: GOOGLE GENIE 3: THE WORLD'S FIRST GENERATIVE SIMULATOR](#slide-04-google-genie-3-the-world-s-first-generative-simulator)
 - [Slide 05: THE 3-PHASE INTERACTIVE PIPELINE: SKETCH, EXPLORE, REMIX](#slide-05-the-3-phase-interactive-pipeline-sketch-explore-remix)
@@ -17,7 +17,7 @@
 - [Slide 08: THE VMC ARCHITECTURE: VISION, MEMORY, CONTROLLER](#slide-08-the-vmc-architecture-vision-memory-controller)
 - [Slide 09: THE UNIFIED TRANSFORMER: LATENT SPACE SYNCHRONIZATION](#slide-09-the-unified-transformer-latent-space-synchronization)
 - [Slide 10: PART 2: UNDER THE HOOD OF PHYSICAL REALISM](#slide-10-part-2-under-the-hood-of-physical-realism)
-- [Slide 11: SPATIO-TEMPORAL TOKENIZER: SOLVING AMNESIA](#slide-11-spatio-temporal-tokenizer-solving-amnesia)
+- [Slide 11: PART 2: UNDER THE HOOD OF PHYSICAL REALISM](#slide-11-part-2-under-the-hood-of-physical-realism)
 - [Slide 12: THE PARADOX OF RELIABILITY: GLITCHES AS NOISE](#slide-12-the-paradox-of-reliability-glitches-as-noise)
 - [Slide 13: SPATIO-TEMPORAL PATCHING: 2D VIDEO TO 3D LATENT MESH](#slide-13-spatio-temporal-patching-2d-video-to-3d-latent-mesh)
 - [Slide 14: WEBGL ENGINE: 60 FPS SIMULATION ON THIN CLIENTS](#slide-14-webgl-engine-60-fps-simulation-on-thin-clients)
@@ -27,7 +27,7 @@
 - [Slide 18: HARDWARE BACKBONE: TPU V8, BOARDFLY & FIBER GRID](#slide-18-hardware-backbone-tpu-v8-boardfly-fiber-grid)
 - [Slide 19: TPU V8 GREEN ARCHITECTURE: 3X POWER EFFICIENCY](#slide-19-tpu-v8-green-architecture-3x-power-efficiency)
 - [Slide 20: PART 3: WAYMO AND THE INFINITE SAFE CLASSROOM](#slide-20-part-3-waymo-and-the-infinite-safe-classroom)
-- [Slide 21: THE HAZARDS OF REAL-WORLD DRIVING TRAINING](#slide-21-the-hazards-of-real-world-driving-training)
+- [Slide 21: PART 3: WAYMO AND THE INFINITE SAFE CLASSROOM](#slide-21-part-3-waymo-and-the-infinite-safe-classroom)
 - [Slide 22: WAYMO'S VIRTUAL DRIVING SCHOOL ON GENIE 3](#slide-22-waymo-s-virtual-driving-school-on-genie-3)
 - [Slide 23: SIMULATING EXTREME WEATHER: HARDENING AGAINST EDGE-CASES](#slide-23-simulating-extreme-weather-hardening-against-edge-cases)
 - [Slide 24: SWARM TESTING PROTOCOL: 10,000 AGENTS IN PARALLEL](#slide-24-swarm-testing-protocol-10-000-agents-in-parallel)
@@ -37,7 +37,7 @@
 - [Slide 28: 3 COMMERCIAL VERTICALS: ROBOTICS, AVIATION, SMART CITIES](#slide-28-3-commercial-verticals-robotics-aviation-smart-cities)
 - [Slide 29: VIRTUAL CLASSROOMS: TPACK GEOGRAPHY LABS](#slide-29-virtual-classrooms-tpack-geography-labs)
 - [Slide 30: PART 4: STRATEGIC GOVERNANCE & CREATIVE SOVEREIGNTY](#slide-30-part-4-strategic-governance-creative-sovereignty)
-- [Slide 31: DATA PRIVACY SANDBOX: ENTERPRISE TOPOGRAPHY ISOLATION](#slide-31-data-privacy-sandbox-enterprise-topography-isolation)
+- [Slide 31: PART 4: STRATEGIC GOVERNANCE & CREATIVE SOVEREIGNTY](#slide-31-part-4-strategic-governance-creative-sovereignty)
 - [Slide 32: 3 SEVERE CYBERSECURITY RISKS IN SIMULATION](#slide-32-3-severe-cybersecurity-risks-in-simulation)
 - [Slide 33: CYBERNETIC FORTIFICATION: DNR FILTERS & MICRO-VPC](#slide-33-cybernetic-fortification-dnr-filters-micro-vpc)
 - [Slide 34: BALANCING LATENCY & GEOMETRY: DYNAMIC RESOLUTION](#slide-34-balancing-latency-geometry-dynamic-resolution)
@@ -79,32 +79,28 @@ For all our international scholars joining from around the world, we will explai
 
 ---
 
-## Slide 02: SOLI DEO GLORIA: RECLAIMING TIME FOR SACRED CREATION
-**Subtitle:** Automating repetitive 3D simulations to rescue human cognitive bandwidth under Ephesians 5:16
+## Slide 02: PART 1: WORLD MODELS: BEYOND NEXT-TOKEN PREDICTION
+**Subtitle:** The Spiritual Mandate: Reclaiming human time for sacred creation under Soli Deo Gloria
 
 ### 🎙️ English Lecture Script
 
-Let us turn to Slide 2: "Soli Deo Gloria: Reclaiming Time for Sacred Creation."
+We open Part 1 of Session 12: "World Models: Beyond Next-Token Prediction to 3D Simulation."
 
-At Oikos University, everything we study is anchored in Soli Deo Gloria—Glory to God Alone.
+Under Soli Deo Gloria, we explore how computing ascends from manipulating text to simulating the physical creation itself!
 
-In Ephesians chapter 5, verse 16, the Scriptures instruct us to "redeem the time." 
+For years, AI was limited to next-token text prediction. But language cannot capture the physics of gravity, fluid dynamics, and 3D collisions.
 
-Why do we master world models like Genie 3? 
-Not to become lazy or distracted by digital entertainment, but to rescue hundreds of manual hours spent coding 3D polygon meshes and physics equations!
-
-By delegating mechanical simulation to sleep-free neural engines, we reclaim our time to focus on deep academic scholarship, creative problem-solving, and spiritual renewal. Soli Deo Gloria!
+In this opening module, we explore World Models and Google's Genie 3—simulating photorealistic 3D interactive virtual worlds in real time at 30 frames per second. Let us step into the simulated universe!
 
 ### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** Soli Deo Gloria와 에베소서 5:16 말씀에 따른 창조적 시간의 구속
+- **강의 요약:** Part 1 섹션 전환: 월드 모델 - 다음 토큰 예측을 넘어 3D 시뮬레이션으로
 - **핵심 포인트:**
-  - 신앙적 가치: 인간의 지성과 시간은 하나님의 영광을 위해 사용되어야 할 거룩한 자산
-  - 에베소서 5:16: '세월을 아끼라(Redeeming the time)'. 수작업 3D 모델링의 노역에서 시간을 구출
-  - 창조적 소명: 시뮬레이션 자동화로 확보한 인지적 여유를 이웃 사랑과 고차원적 통찰에 재투자
-- **강의 전달 팁:** 시간의 구속이 단순한 효율성을 넘어 영적 사명을 완수하기 위한 청지기적 책무임을 강조하세요.
+  - 영적 소명과 창조 세계의 시뮬레이션: 텍스트 글자 놀이를 넘어 물리 법칙이 지배하는 가상 세계 합성
+  - 초당 30프레임으로 상호작용 가능한 3차원 입체 시공간을 생성하는 Google Genie 3 월드 모델의 등장
+- **강의 전달 팁:** 단순한 챗봇을 넘어 기계가 물리적 현실 세계의 인과관계를 이해하기 시작한 대격변을 선언하세요.
 
 ### 📚 Key Terms (주요 용어)
-- **Redeeming Time in IT**: Reclaiming human hours from mechanical engineering tasks through AI automation to invest in higher-order purpose. (시간의 구속 (IT 자동화를 통한 창조적 시간 확보))
+- **World Model (월드 모델)**: An AI architecture that constructs an internal 3D simulation of physical reality, predicting continuous spatio-temporal consequences. (월드 모델 (물리 시뮬레이션 신경망))
 
 ---
 
@@ -311,29 +307,26 @@ Let us dive beneath the surface and examine spatio-temporal tokenizers, the para
 
 ---
 
-## Slide 11: SPATIO-TEMPORAL TOKENIZER: SOLVING AMNESIA
-**Subtitle:** Preserving absolute spatial consistency across kilometers of active virtual exploration
+## Slide 11: PART 2: UNDER THE HOOD OF PHYSICAL REALISM
+**Subtitle:** Spatio-Temporal Video Tokenizers and the 280-Billion Street View Moat
 
 ### 🎙️ English Lecture Script
 
-Look at Slide 11: "Spatio-Temporal Tokenizer: Solving the Amnesia Problem."
+We now cross into Part 2: "Under the Hood of Physical Realism."
 
-In traditional AI video generators, models suffer from severe "amnesia." After ten or fifteen seconds, the AI forgets the opening scene, and buildings mutate or disappear!
+How does a neural network simulate continuous 3D environments without losing geometric consistency?
 
-Genie 3 solves this completely using a Spatio-Temporal Video Tokenizer! 
-
-It locks every road, mountain, and tree to an immutable 3D coordinate anchor. You can drive five kilometers away into the mountains, drive all the way back, and find your starting house exactly where you left it!
+In this section, we analyze Spatio-Temporal Video Tokenizers, the Video-Masked-Conditioning (VMC) architecture, and Google's 280-billion Street View panoramic image moat. We discover how agents maintain persistent 3D spatial memory across kilometers of continuous motion! Let us look under the hood!
 
 ### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** 시공간 토크나이저: 기억상실증(Amnesia) 해결과 공간 일관성
+- **강의 요약:** Part 2 섹션 전환: 물리적 현실감의 내부 메커니즘
 - **핵심 포인트:**
-  - 1. AI 비디오의 기억상실증: 10~15초만 지나면 이전 장면을 잊어버려 건물이 변형되거나 사라지는 치명적 문제
-  - 2. 절대 공간 앵커링: 모든 건물과 도로를 불변의 3D 공간 좌표에 영구 고정
-  - 3. 무한 탐험 보장: 수 킬로미터를 이동했다가 되돌아와도 출발지의 건물이 원래 모습 그대로 유지됨
-- **강의 전달 팁:** 뒤돌아섰을 때 건물이 사라지는 귀신 들린 집 현상을 완벽히 해결한 기술적 쾌거임을 설명하세요.
+  - 시공간 비디오 토크나이저와 VMC 아키텍처를 통한 3D 기하학적 일관성 유지
+  - 구글이 수십 년간 축적한 2,800억 장의 스트리트 뷰 파노라마 데이터 해자(Moat)
+- **강의 전달 팁:** 기억상실증 없이 수 킬로미터를 주행해도 배경이 일그러지지 않는 압도적 기술력을 설명하세요.
 
 ### 📚 Key Terms (주요 용어)
-- **Spatial Consistency**: The permanent stability of virtual object geometries and locations across long-duration traversal. (공간적 일관성 (Spatial Consistency))
+- **Spatio-Temporal Consistency**: Maintaining stable 3D geometry and object persistence across long-duration continuous video generation. (시공간 기하학적 일관성)
 
 ---
 
@@ -570,29 +563,26 @@ In this section, we will see how Waymo uses Genie 3 to build an infinite virtual
 
 ---
 
-## Slide 21: THE HAZARDS OF REAL-WORLD DRIVING TRAINING
-**Subtitle:** Dangerous physical highway testing vs. infinite, risk-free parallel virtual simulation
+## Slide 21: PART 3: WAYMO AND THE INFINITE SAFE CLASSROOM
+**Subtitle:** Simulating Dangerous Edge Cases and Eliminating Real-World Highway Hazards
 
 ### 🎙️ English Lecture Script
 
-Look at Slide 21: "The Hazards of Real-World Driving Training."
+We now enter Part 3: "Waymo and the Infinite Safe Classroom."
 
-Why can't self-driving companies just train their cars on real city streets?
+Why is testing autonomous vehicles on real physical highways slow, expensive, and dangerous?
 
-Look at the left: Real-world testing is dangerous and expensive! You cannot deliberately drop a tree in front of a school bus on a busy highway to test if the car can brake in time!
-
-Look at the right: Genie 3 simulation provides an infinite, zero-risk classroom! A virtual car can crash 100,000 times, reset instantly, and learn from its mistakes with zero human injuries! That is how we achieve absolute safety!
+In this section, we analyze Waymo's simulation paradigm: generating 10,000 parallel swarm vehicles inside Genie 3 simulators! We test extreme edge cases—blizzards, jaywalkers, and brake failures—without endangering a single human life! Let us step into the infinite classroom!
 
 ### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** 실제 도로 훈련의 위험성 대 Genie 3 가상 시뮬레이션의 무한한 안전성
+- **강의 요약:** Part 3 섹션 전환: 웨이모(Waymo)와 무한한 안전 교실
 - **핵심 포인트:**
-  - Left (실제 도로 훈련의 한계): 인명 사고 위험, 차량 파손, 위험 상황(폭풍우, 도로 붕괴)을 임의로 연출 불가
-  - Right (Genie 3 가상 시뮬레이션): 10만 번 충돌해도 인명 피해 없이 0.1초 만에 리셋되며 완벽한 회피 알고리즘 체득
-  - 규모의 차이: 1초 만에 가상 차량 1만 대를 동시에 훈련시키는 압도적 병렬 확장성
-- **강의 전달 팁:** 실제 도로에서 위험한 실험을 할 수 없는 자율주행 기업들에게 시뮬레이터가 필수불가결함을 강조하세요.
+  - 실제 고속도로에서 사람 목숨을 걸고 자율주행을 훈련하는 위험성 탈피
+  - Genie 3 가상 시뮬레이터 안에서 10,000대의 웨이모 차량을 동시 기동하여 극한의 돌발 사고를 무한 학습
+- **강의 전달 팁:** 가상 세계 시뮬레이션이 어떻게 인간의 생명을 지키고 개발 속도를 10,000배 높이는지 역설하세요.
 
 ### 📚 Key Terms (주요 용어)
-- **Edge-Case Simulation**: Generating rare, hazardous driving scenarios artificially in software to train autonomous navigation models safely. (엣지 케이스 시뮬레이션 (희귀 위험 상황 가상 훈련))
+- **Infinite Safe Classroom**: High-fidelity 3D simulation environments where autonomous AI agents train on hazardous edge cases without real-world risk. (무한한 안전 교실 (가상 위험 훈련장))
 
 ---
 
@@ -829,30 +819,26 @@ In this section, we will study data privacy sandboxes, DNR firewall defenses, th
 
 ---
 
-## Slide 31: DATA PRIVACY SANDBOX: ENTERPRISE TOPOGRAPHY ISOLATION
-**Subtitle:** Guaranteed zero-data leakage and anti-training seals for proprietary enterprise 3D CAD files
+## Slide 31: PART 4: STRATEGIC GOVERNANCE & CREATIVE SOVEREIGNTY
+**Subtitle:** Data Privacy Sandboxes, Anti-Training Seals, and Human Conductor Stewardship
 
 ### 🎙️ English Lecture Script
 
-Look at Slide 31: "Data Privacy Sandbox: Enterprise Topography Isolation."
+We now enter our final chapter, Part 4: "Strategic Governance & Creative Sovereignty."
 
-When automotive or aerospace corporations simulate secret prototypes, their biggest fear is corporate espionage.
+When World Models can synthesize hyper-realistic 3D realities, how do we prevent deepfakes and intellectual property theft?
 
-Google solves this through the Data Privacy Sandbox:
-Your unique 3D factory blueprints and CAD meshes are quarantined inside isolated private clouds. 
-
-Google provides an ironclad Anti-Training Seal guaranteeing your proprietary data is never absorbed into public models, and all logs remain encrypted inside your `/Spark_OS/` drive!
+In this concluding section, we establish enterprise privacy sandboxes, cryptographic anti-training seals, and define the human architect's role as the sovereign ethical conductor of simulated worlds. Soli Deo Gloria!
 
 ### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** 데이터 프라이버시 샌드박스: 기업 3D 지형 및 CAD 도면 완벽 격리
+- **강의 요약:** Part 4 섹션 전환: 전략적 거버넌스와 창조적 주권
 - **핵심 포인트:**
-  - 1. 데이터 유출 제로: 기업의 비밀 공장 도면과 신차 CAD 파일은 독립된 가상 사설 클라우드(VPC) 내부에 엄격 격리
-  - 2. 학습 활용 금지 보증 (Anti-Training Seal): 업로드된 지형 데이터가 공용 기초 모델 학습에 절대 쓰이지 않음을 계약상 보증
-  - 3. `/Spark_OS/` 암호화 저장: 모든 시뮬레이션 설정과 텔레메트리 로그를 사용자 전용 드라이브 루트에만 암호화 저장
-- **강의 전달 팁:** 기업들이 기밀 유출 걱정 없이 안심하고 클라우드 시뮬레이터를 도입할 수 있는 보안 신뢰성을 제시하세요.
+  - 가상 세계 모델의 기밀 유출과 악용을 방지하는 데이터 프라이버시 샌드박스와 안티 트레이닝 봉인
+  - 가상 세계를 윤리적이고 창의적으로 지휘하는 인간 아키텍트의 주권적 청지기 사명
+- **강의 전달 팁:** 현실과 구별되지 않는 가상 세계를 다루는 아키텍트의 높은 도덕적 책무를 천명하세요.
 
 ### 📚 Key Terms (주요 용어)
-- **Anti-Training Seal**: A contractual enterprise guarantee that uploaded proprietary simulation assets will never be ingested into public training sets. (학습 활용 금지 보증 (Anti-Training Seal))
+- **World Model Governance**: The ethical and security frameworks ensuring photorealistic 3D simulations are used safely with zero IP leakage. (월드 모델 거버넌스)
 
 ---
 

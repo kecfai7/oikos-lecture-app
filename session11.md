@@ -1,4 +1,4 @@
-# Session 11: True AI Science: HeurekaBench & Fact Verification (THINK-ACT-OBSERVE) Governance
+# Session 11: True AI Science: HurekaBench & Fact Verification
 **Course:** The Architect of Intelligence: Mastering Agentic IT & Strategic Wisdom  
 **Instructor:** Professor Peter Kim, Director of Smart Insight Lab • Oikos University (www.oikos.edu)  
 **Total Slides:** 40 Slides (60 Minutes)  
@@ -8,7 +8,7 @@
 
 ## 📌 Table of Contents (목차)
 - [Slide 01: OIKOS UNIVERSITY • SOLI DEO GLORIA](#slide-01-oikos-university-soli-deo-gloria)
-- [Slide 02: SOLI DEO GLORIA: STEWARDSHIP OF TRUTH](#slide-02-soli-deo-gloria-stewardship-of-truth)
+- [Slide 02: PART 1: THE CRISIS OF BENCHMARK SATURATION & TRUE AI SCIENCE](#slide-02-part-1-the-crisis-of-benchmark-saturation-true-ai-science)
 - [Slide 03: THE ACADEMIC SABBATH: RECLAIMING BANDWIDTH](#slide-03-the-academic-sabbath-reclaiming-bandwidth)
 - [Slide 04: SMART INSIGHT LAB: THE PURSUIT OF VERACITY](#slide-04-smart-insight-lab-the-pursuit-of-veracity)
 - [Slide 05: THE CRISIS OF THE LYING PARROT (HALLUCINATIONS)](#slide-05-the-crisis-of-the-lying-parrot-hallucinations)
@@ -79,29 +79,28 @@ For all our international scholars joining from across the globe, we will speak 
 
 ---
 
-## Slide 02: SOLI DEO GLORIA: STEWARDSHIP OF TRUTH
-**Subtitle:** Transforming curiosity into disciplined, grounded discovery under Soli Deo Gloria (Ephesians 5:16)
+## Slide 02: PART 1: THE CRISIS OF BENCHMARK SATURATION & TRUE AI SCIENCE
+**Subtitle:** Soli Deo Gloria: Stewardship of truth and scientific verification
 
 ### 🎙️ English Lecture Script
 
-Let us look at Slide 2: "Soli Deo Gloria: Stewardship of Truth."
+We begin Part 1 of Session 11: "The Crisis of Benchmark Saturation & True AI Science."
 
-Under our university's guiding compass, Soli Deo Gloria—Glory to God Alone—we view human curiosity, intelligence, and scientific discovery as a sacred trust.
+Under Soli Deo Gloria, we are stewards of objective truth. 
 
-In the era of autonomous intelligence, we do not surrender our minds to machines. Rather, we build reliable, self-verifying systems that liberate our brains from clerical data sorting so we can pursue deeper truth and wisdom!
+Today, AI marketing is plagued by saturated benchmarks—models memorizing multiple-choice questions to score 95% on MMLU while failing at simple real-world reasoning!
 
-Ephesians 5:16 commands us to "redeem the time." When we automate the friction of citation chasing and basic calculations, we rescue precious hours to steward God's creation, heal human disease, and discover the wonder of the cosmos! Soli Deo Gloria!
+In this opening module, we deconstruct the difference between rote memorization and true scientific deduction. We introduce Google's HeurekaBench—testing whether an AI can deduce hidden scientific laws through genuine hypothesis testing! Let us uncover True AI Science!
 
 ### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** Soli Deo Gloria와 진리의 청지기직(Stewardship of Truth)
+- **강의 요약:** Part 1 섹션 전환: 벤치마크 포화의 위기와 진정한 AI 과학
 - **핵심 포인트:**
-  - 신앙적 가치: 과학적 탐구와 지적 능력은 하나님의 창조 세계를 돌보기 위한 거룩한 청지기적 위임
-  - 지적 대역폭 구속: 서지 정보 정리와 단순 계산의 노역에서 벗어나 깊은 진리 탐구와 영적 성숙에 몰입
-  - 진리의 방패: 인공지능 연구 시스템이 환각(Hallucination)에 빠지지 않고 실증적 진리에만 결속되도록 통제
-- **강의 전달 팁:** 과학 탐구가 하나님께 영광을 돌리는 숭고한 사명임을 감동적으로 전달하세요.
+  - 진리의 청지기직과 Soli Deo Gloria: 단순 객관식 족보 암기로 부풀려진 AI 벤치마크 거품 비판
+  - 기억력 테스트를 넘어 실제 가설을 세우고 실험을 통해 물리 법칙을 유도해내는 HeurekaBench의 참된 과학 지능
+- **강의 전달 팁:** 마케팅 숫자에 속지 않고 기계의 진짜 연역적 추론 능력을 검증하는 엄정한 학문적 안목을 전수하세요.
 
 ### 📚 Key Terms (주요 용어)
-- **Stewardship of Truth**: The ethical duty to ensure scientific assertions and AI outputs strictly reflect empirical reality. (진리의 청지기직 (실증적 진리 수호 책무))
+- **True AI Science**: The rigorous evaluation of an AI model's ability to deduce undiscovered scientific principles through active hypothesis experimentation. (진정한 AI 과학 (연역적 법칙 유도 지능))
 
 ---
 

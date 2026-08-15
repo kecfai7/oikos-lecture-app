@@ -1,4 +1,4 @@
-# Session 14: Cinematic AI Pipelines: Google Flow AI vs. Runway ML Hybrid Strategy
+# Session 14: Cinematic AI Pipelines: Flow AI vs Runway ML
 **Course:** The Architect of Intelligence: Mastering Agentic IT & Strategic Wisdom  
 **Instructor:** Professor Peter Kim, Director of Smart Insight Lab • Oikos University (www.oikos.edu)  
 **Total Slides:** 40 Slides (60 Minutes)  
@@ -8,7 +8,7 @@
 
 ## 📌 Table of Contents (목차)
 - [Slide 01: OIKOS UNIVERSITY • SOLI DEO GLORIA](#slide-01-oikos-university-soli-deo-gloria)
-- [Slide 02: SOLI DEO GLORIA: RECLAIMING TIME FOR ARTISTIC CALLINGS](#slide-02-soli-deo-gloria-reclaiming-time-for-artistic-callings)
+- [Slide 02: PART 1: DROPPING THE CAMERA: FROM CAPTURE TO GENERATIVE CURATION](#slide-02-part-1-dropping-the-camera-from-capture-to-generative-curation)
 - [Slide 03: FROM MECHANICAL CAPTURE TO GENERATIVE CURATION](#slide-03-from-mechanical-capture-to-generative-curation)
 - [Slide 04: SORA 2 AND BEYOND: THE REAL-WORLD 2026 LANDSCAPE](#slide-04-sora-2-and-beyond-the-real-world-2026-landscape)
 - [Slide 05: THE INTERFACE TRAP: OVERCOMING THE CASINO OF RANDOMNESS](#slide-05-the-interface-trap-overcoming-the-casino-of-randomness)
@@ -79,32 +79,29 @@ For all our international scholars joining from around the globe, we will explai
 
 ---
 
-## Slide 02: SOLI DEO GLORIA: RECLAIMING TIME FOR ARTISTIC CALLINGS
-**Subtitle:** Liberating human creativity from repetitive rendering loops under Soli Deo Gloria and Ephesians 5:16
+## Slide 02: PART 1: DROPPING THE CAMERA: FROM CAPTURE TO GENERATIVE CURATION
+**Subtitle:** Soli Deo Gloria: Reclaiming time for higher artistic callings under Ephesians 5:16
 
 ### 🎙️ English Lecture Script
 
-Let us turn to Slide 2: "Soli Deo Gloria: Reclaiming Time for Higher Artistic Callings."
+We now open Part 1 of Session 14: "Dropping the Camera: From Capture to Generative Curation."
 
-At Oikos University, everything we build is anchored in Soli Deo Gloria—Glory to God Alone.
+Under our sacred banner of Soli Deo Gloria, we are called in Ephesians 5:16 to redeem our time. 
 
-In Ephesians chapter 5, verse 16, we are commanded to "redeem the time." 
-Why do we automate video production pipelines? 
+For over a century, filmmaking was bound by the physical gravity of camera lenses, lighting trucks, and multimillion-dollar budgets.
 
-Not for lazy entertainment, but to liberate our minds from the mechanical grind of rendering loops, manual frame interpolation, and tedious audio splicing!
-
-By delegating the mechanical heavy lifting to AI swarms, we reclaim three to four precious hours every single day! We invest this redeemed time into deep storytelling, truth illumination, and spiritual reflection! Soli Deo Gloria!
+In this opening module, we cross the threshold into Generative Curation! 
+The modern filmmaker writes specifications and directs AI pipelines to synthesize photorealistic 3D cinematic scenes with native audio! Let us drop the camera and take the director's chair!
 
 ### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** Soli Deo Gloria와 예술적 소명을 위한 창조적 시간의 구속
+- **강의 요약:** Part 1 섹션 전환: 카메라를 내려놓고 생성형 큐레이션으로 도약
 - **핵심 포인트:**
-  - 신앙적 가치: 비디오 파이프라인 자동화는 단순한 편의가 아닌 거룩한 시간의 구속(에베소서 5:16)
-  - 기계적 노역 해방: 렌더링 대기, 프레임 보간, 오디오 싱크 맞추기의 지루한 노역에서 인간 두뇌 해방
-  - 창조적 소명: 매일 구출한 3~4시간의 인지적 여유를 깊은 예술적 통찰과 하나님의 진리를 전하는 데 재투자
-- **강의 전달 팁:** 창작의 고통을 덜고 진정한 감동과 메시지를 전하는 데 집중하는 청지기 사명을 강조하세요.
+  - 에베소서 5:16과 예술적 소명: 무거운 카메라 장비와 물리적 자본의 중력에서 벗어나는 시네마 민주화
+  - 카메라를 쥐고 헤매는 대신 프롬프트 명세서를 통해 헐리우드급 3D 장면을 합성·지휘하는 큐레이터로의 진화
+- **강의 전달 팁:** 100년간의 전통 영화 제작 문법을 깨부수고 AI 파이프라인의 지휘관으로 등극하는 서막을 여세요.
 
 ### 📚 Key Terms (주요 용어)
-- **Cognitive Liberation**: Freeing human mental bandwidth from mechanical media editing tasks through automated generative pipelines. (인지적 해방 (반복 편집 노역 탈출))
+- **Generative Curation**: The modern filmmaking paradigm where creators specify constraints and select optimal outputs from generative AI engines. (생성형 큐레이션 (Generative Curation))
 
 ---
 

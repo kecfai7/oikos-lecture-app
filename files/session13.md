@@ -1,4 +1,4 @@
-# Session 13: Calculated Art: SVG Vector Engineering & LaTeX Mathematical Orchestration
+# Session 13: Calculated Art: SVG Engineering & LaTeX Math
 **Course:** The Architect of Intelligence: Mastering Agentic IT & Strategic Wisdom  
 **Instructor:** Professor Peter Kim, Director of Smart Insight Lab • Oikos University (www.oikos.edu)  
 **Total Slides:** 40 Slides (60 Minutes)  
@@ -8,7 +8,7 @@
 
 ## 📌 Table of Contents (목차)
 - [Slide 01: OIKOS UNIVERSITY • SOLI DEO GLORIA](#slide-01-oikos-university-soli-deo-gloria)
-- [Slide 02: SOLI DEO GLORIA: PERFECT FORMS IN MATHEMATICAL ORDER](#slide-02-soli-deo-gloria-perfect-forms-in-mathematical-order)
+- [Slide 02: PART 1: THE TRAGEDY OF RASTER SCALE & CALCULATED VECTOR ART](#slide-02-part-1-the-tragedy-of-raster-scale-calculated-vector-art)
 - [Slide 03: RECLAIMING THE SABBATH: ESCAPING AESTHETIC MUCK](#slide-03-reclaiming-the-sabbath-escaping-aesthetic-muck)
 - [Slide 04: RASTER ARCHITECTURE: PIXELS LOCKED IN STATIC GRIDS](#slide-04-raster-architecture-pixels-locked-in-static-grids)
 - [Slide 05: THE TRAGEDY OF SCALE: WHEN RESOLUTION COLLAPSES](#slide-05-the-tragedy-of-scale-when-resolution-collapses)
@@ -79,32 +79,28 @@ For all our international scholars joining from across the globe, we will explai
 
 ---
 
-## Slide 02: SOLI DEO GLORIA: PERFECT FORMS IN MATHEMATICAL ORDER
-**Subtitle:** Bringing geometric clarity out of chaotic pixel grids under Soli Deo Gloria and Ephesians 5:16
+## Slide 02: PART 1: THE TRAGEDY OF RASTER SCALE & CALCULATED VECTOR ART
+**Subtitle:** Soli Deo Gloria: Perfect forms in mathematical order and infinite precision
 
 ### 🎙️ English Lecture Script
 
-Let us turn to Slide 2: "Soli Deo Gloria: Perfect Forms in Mathematical Order."
+We begin Part 1 of Session 13: "The Tragedy of Raster Scale & Calculated Vector Art."
 
-At Oikos University, our guiding anchor is Soli Deo Gloria—Glory to God Alone.
+Under Soli Deo Gloria, we pursue the divine perfection of mathematical order. 
 
-How does this theological truth apply to web engineering and vector code?
-Traditional pixels are like dust—fragile, static grid snapshots that blur and break when you stretch them.
+For decades, digital graphics relied on raster pixels—static grids of dots. But when you zoom into a raster image, it collapses into blurry jagged blocks, and file sizes explode quadratically!
 
-In contrast, mathematics represents eternal, rational order. An SVG equation or a LaTeX formula does not decay; whether viewed on a wristwatch or a giant stadium screen, its mathematical curves remain infinitely sharp and pure!
-
-By replacing manual pixel-pushing with clean vector code, we reflect God's geometric harmony and redeem our cognitive time for higher callings! Soli Deo Gloria!
+In this opening module, we celebrate Calculated Art: SVG Vector Engineering! Instead of storing colored dots, SVG stores pure mathematical equations. A few kilobytes scale infinitely to 8K and beyond with razor-sharp clarity! Let us explore Part 1!
 
 ### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** Soli Deo Gloria와 수학적 질서 속의 완벽한 기하학적 형상
+- **강의 요약:** Part 1 섹션 전환: 래스터 스케일의 비극과 계산된 벡터 예술
 - **핵심 포인트:**
-  - 신앙적 가치: 부서지기 쉬운 먼지 같은 픽셀에서 벗어나 영원하고 완벽한 수학적 질서의 세계로 전환
-  - 벡터의 영원성: 시계 화면이든 100인치 스크린이든 수학 방정식으로 계산되는 곡선은 절대 깨지지 않음
-  - 청지기적 소명: 수작업 픽셀 노역에서 해방되어 하나님의 창조적 조화를 웹 아키텍처로 구현
-- **강의 전달 팁:** 수학의 질서와 아름다움이 하나님의 창조 섭리를 반영하고 있음을 품격 있게 전하세요.
+  - 수학적 질서와 Soli Deo Gloria: 확대하면 깨지고 용량이 폭증하는 래스터(픽셀)의 비극 극복
+  - 몇 킬로바이트의 가벼운 수학 방정식으로 8K 디스플레이까지 무한히 선명하게 뻗어 나가는 SVG 벡터 엔지니어링
+- **강의 전달 팁:** 픽셀의 한계를 뛰어넘어 영원히 깨지지 않는 수학적 벡터의 아름다움을 선포하세요.
 
 ### 📚 Key Terms (주요 용어)
-- **Mathematical Order**: The rational geometric stability inherent in vector calculations that prevents resolution degradation. (수학적 질서 (해상도 무관성))
+- **Calculated Vector Art**: Digital visual graphics rendered via deterministic mathematical geometry rather than static pixel grids. (계산된 벡터 예술 (SVG 수학 렌더링))
 
 ---
 
