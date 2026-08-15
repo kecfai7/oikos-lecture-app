@@ -6,7 +6,8 @@ import {
   Monitor, 
   Maximize, 
   Printer,
-  Sparkles
+  Sparkles,
+  BookOpen
 } from 'lucide-react';
 import { SESSIONS } from '../data/slidesData';
 
@@ -18,6 +19,7 @@ export default function Header({
   onTogglePresenter, 
   isPresenterOpen,
   onToggleOverview,
+  onToggleCurriculum,
   onExportPDF,
   selectedSession,
   onSelectSession
@@ -95,6 +97,17 @@ export default function Header({
         </button>
 
         <div className="h-5 w-px bg-slate-800 mx-1" />
+
+        {/* Master Curriculum & Table of Contents Button */}
+        <button 
+          onClick={onToggleCurriculum}
+          className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-cyan-500/20 hover:bg-cyan-500/30 text-cyan-300 border border-cyan-500/40 text-xs font-bold transition shadow-md"
+          title="Course Syllabus & Master Table of Contents [S]"
+        >
+          <BookOpen className="w-3.5 h-3.5 text-cyan-400" />
+          <span className="hidden sm:inline">Syllabus / 전체 목차</span>
+          <span className="sm:hidden">목차</span>
+        </button>
 
         {/* Grid Overview */}
         <button 

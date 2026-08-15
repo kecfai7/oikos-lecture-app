@@ -3,6 +3,7 @@ import Header from './components/Header';
 import SlideDeck from './components/SlideDeck';
 import PresenterMode from './components/PresenterMode';
 import SlideOverviewModal from './components/SlideOverviewModal';
+import CurriculumModal from './components/CurriculumModal';
 import PrintSlidesView from './components/PrintSlidesView';
 import { SLIDES_SESSION_1, SLIDES_SESSION_2, SLIDES_SESSION_3, SLIDES_SESSION_4, SLIDES_SESSION_5, SLIDES_SESSION_6, SLIDES_SESSION_7, SLIDES_SESSION_8, SLIDES_SESSION_9, SLIDES_SESSION_10, SLIDES_SESSION_11, SLIDES_SESSION_12, SLIDES_SESSION_13, SLIDES_SESSION_14, SLIDES_SESSION_15 } from './data/slidesData';
 import { Keyboard } from 'lucide-react';
@@ -12,6 +13,7 @@ export default function App() {
   const [currentSlideIndex, setCurrentSlideIndex] = useState(0);
   const [isPresenterOpen, setIsPresenterOpen] = useState(false);
   const [isOverviewOpen, setIsOverviewOpen] = useState(false);
+  const [isCurriculumOpen, setIsCurriculumOpen] = useState(false);
   const [showShortcutHint, setShowShortcutHint] = useState(true);
   const [isPrinting, setIsPrinting] = useState(false);
 
@@ -117,6 +119,9 @@ export default function App() {
       } else if (e.key.toLowerCase() === 'm') {
         e.preventDefault();
         setIsOverviewOpen(prev => !prev);
+      } else if (e.key.toLowerCase() === 's' || e.key.toLowerCase() === 'c') {
+        e.preventDefault();
+        setIsCurriculumOpen(prev => !prev);
       }
     };
 
@@ -143,6 +148,7 @@ export default function App() {
         onTogglePresenter={() => setIsPresenterOpen(prev => !prev)}
         isPresenterOpen={isPresenterOpen}
         onToggleOverview={() => setIsOverviewOpen(prev => !prev)}
+        onToggleCurriculum={() => setIsCurriculumOpen(prev => !prev)}
         onExportPDF={handleExportPDF}
         selectedSession={selectedSession}
         onSelectSession={handleSelectSession}
@@ -170,7 +176,7 @@ export default function App() {
       {showShortcutHint && (
         <div className="no-print fixed bottom-4 left-4 bg-slate-900/90 border border-cyan-500/30 text-xs text-slate-300 px-3 py-2 rounded-xl backdrop-blur-md shadow-lg flex items-center gap-2 z-20">
           <Keyboard className="w-4 h-4 text-cyan-400" />
-          <span>Use <b>← →</b> arrows for slides | <b>P</b> for Presenter Script | <b>Export PDF</b> to save slides</span>
+          <span>Use <b>← →</b> for slides | <b>S</b> for Syllabus 목차 | <b>P</b> for Presenter | <b>Export PDF</b> to save</span>
           <button 
             onClick={() => setShowShortcutHint(false)}
             className="text-slate-500 hover:text-white ml-1 font-bold"
@@ -189,6 +195,14 @@ export default function App() {
           onClose={() => setIsOverviewOpen(false)}
         />
       )}
+
+      {/* 15-Session Master Course Curriculum / Syllabus Modal */}
+      <CurriculumModal
+        isOpen={isCurriculumOpen}
+        onClose={() => setIsCurriculumOpen(false)}
+        onSelectSession={handleSelectSession}
+        currentSessionId={selectedSession}
+      />
     </div>
   );
 }
