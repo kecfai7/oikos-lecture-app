@@ -16,8 +16,8 @@
 - [Slide 07: GEMINI 3 PRO: THE 1501 ELO SUPER BRAIN](#slide-07-gemini-3-pro-the-1501-elo-super-brain)
 - [Slide 08: INTERACTIVE POLL: EXPANDING YOUR DESK](#slide-08-interactive-poll-expanding-your-desk)
 - [Slide 09: THE COGNITIVE RE-ALIGNMENT](#slide-09-the-cognitive-re-alignment)
-- [Slide 10: SECTION 1 TRANSITION: ENTERING THE FORGE](#slide-10-section-1-transition-entering-the-forge)
-- [Slide 20: SECTION 2 TRANSITION: THE FINOPS REALITY](#slide-20-section-2-transition-the-finops-reality)
+- [Slide 10: PART 1 TRANSITION: ENTERING THE FORGE](#slide-10-part-1-transition-entering-the-forge)
+- [Slide 20: PART 2 TRANSITION: THE FINOPS REALITY](#slide-20-part-2-transition-the-finops-reality)
 - [Slide 11: PART 2: MANY-SHOT IN-CONTEXT LEARNING (ICL)](#slide-11-part-2-many-shot-in-context-learning-icl)
 - [Slide 12: SHIFTING FROM FINE-TUNING TO MANY-SHOT ICL](#slide-12-shifting-from-fine-tuning-to-many-shot-icl)
 - [Slide 13: THE MECHANICS OF THE SHOT](#slide-13-the-mechanics-of-the-shot)
@@ -36,7 +36,7 @@
 - [Slide 27: SYSTEM INSTRUCTIONS: THE DIVINE COMMANDS](#slide-27-system-instructions-the-divine-commands)
 - [Slide 28: REASONING BUDGET: 'DEEP THINK' EXPANSION](#slide-28-reasoning-budget-deep-think-expansion)
 - [Slide 29: SAFETY SETTINGS AND CONTENT GUARDRAILS](#slide-29-safety-settings-and-content-guardrails)
-- [Slide 30: SECTION 3 TRANSITION: MOVING TO VIBE CODING](#slide-30-section-3-transition-moving-to-vibe-coding)
+- [Slide 30: PART 3 TRANSITION: MOVING TO VIBE CODING](#slide-30-part-3-transition-moving-to-vibe-coding)
 - [Slide 31: PART 4: VIBE CODING & ENTERPRISE GOVERNANCE](#slide-31-part-4-vibe-coding-enterprise-governance)
 - [Slide 32: DEMYSTIFYING VIBE CODING](#slide-32-demystifying-vibe-coding)
 - [Slide 33: BESPOKE TOOLS ON DEMAND](#slide-33-bespoke-tools-on-demand)
@@ -296,7 +296,7 @@ Your time shifts 100% to what truly matters: system architecture, business logic
 
 ---
 
-## Slide 10: SECTION 1 TRANSITION: ENTERING THE FORGE
+## Slide 10: PART 1 TRANSITION: ENTERING THE FORGE
 **Subtitle:** How models learn and adapt dynamically within long context without expensive retraining
 
 ### 🎙️ English Lecture Script
@@ -322,7 +322,7 @@ Now, how do we teach this giant brain to act like an expert without spending mil
 
 ---
 
-## Slide 20: SECTION 2 TRANSITION: THE FINOPS REALITY
+## Slide 20: PART 2 TRANSITION: THE FINOPS REALITY
 **Subtitle:** Balancing unlimited context power against token processing expenses
 
 ### 🎙️ English Lecture Script
@@ -824,7 +824,7 @@ Set it to "Block Most" when deploying customer-facing chatbots, ensuring 100% br
 
 ---
 
-## Slide 30: SECTION 3 TRANSITION: MOVING TO VIBE CODING
+## Slide 30: PART 3 TRANSITION: MOVING TO VIBE CODING
 **Subtitle:** From infrastructure and parameter tuning to pure creative synthesis
 
 ### 🎙️ English Lecture Script

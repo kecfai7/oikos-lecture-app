@@ -16,7 +16,7 @@
 - [Slide 07: GAME ENGINES (UNREAL) VS. GENERATIVE WORLD MODELS](#slide-07-game-engines-unreal-vs-generative-world-models)
 - [Slide 08: THE VMC ARCHITECTURE: VISION, MEMORY, CONTROLLER](#slide-08-the-vmc-architecture-vision-memory-controller)
 - [Slide 09: THE UNIFIED TRANSFORMER: LATENT SPACE SYNCHRONIZATION](#slide-09-the-unified-transformer-latent-space-synchronization)
-- [Slide 10: PART 2: UNDER THE HOOD OF PHYSICAL REALISM](#slide-10-part-2-under-the-hood-of-physical-realism)
+- [Slide 10: SPATIO-TEMPORAL TOKENIZER: 3D VOLUME CONSISTENCY](#slide-10-spatio-temporal-tokenizer-3d-volume-consistency)
 - [Slide 11: PART 2: UNDER THE HOOD OF PHYSICAL REALISM](#slide-11-part-2-under-the-hood-of-physical-realism)
 - [Slide 12: THE PARADOX OF RELIABILITY: GLITCHES AS NOISE](#slide-12-the-paradox-of-reliability-glitches-as-noise)
 - [Slide 13: SPATIO-TEMPORAL PATCHING: 2D VIDEO TO 3D LATENT MESH](#slide-13-spatio-temporal-patching-2d-video-to-3d-latent-mesh)
@@ -26,7 +26,7 @@
 - [Slide 17: TRADITIONAL GIS VS. GENERATIVE TOPOGRAPHY MESHING](#slide-17-traditional-gis-vs-generative-topography-meshing)
 - [Slide 18: HARDWARE BACKBONE: TPU V8, BOARDFLY & FIBER GRID](#slide-18-hardware-backbone-tpu-v8-boardfly-fiber-grid)
 - [Slide 19: TPU V8 GREEN ARCHITECTURE: 3X POWER EFFICIENCY](#slide-19-tpu-v8-green-architecture-3x-power-efficiency)
-- [Slide 20: PART 3: WAYMO AND THE INFINITE SAFE CLASSROOM](#slide-20-part-3-waymo-and-the-infinite-safe-classroom)
+- [Slide 20: REAL-WORLD TESTING RISKS VS. SIMULATED CLUSTER SAFETY](#slide-20-real-world-testing-risks-vs-simulated-cluster-safety)
 - [Slide 21: PART 3: WAYMO AND THE INFINITE SAFE CLASSROOM](#slide-21-part-3-waymo-and-the-infinite-safe-classroom)
 - [Slide 22: WAYMO'S VIRTUAL DRIVING SCHOOL ON GENIE 3](#slide-22-waymo-s-virtual-driving-school-on-genie-3)
 - [Slide 23: SIMULATING EXTREME WEATHER: HARDENING AGAINST EDGE-CASES](#slide-23-simulating-extreme-weather-hardening-against-edge-cases)
@@ -36,7 +36,7 @@
 - [Slide 27: CRASH AUDIT TRAILS: ED25519 CRYPTOGRAPHIC LOGS](#slide-27-crash-audit-trails-ed25519-cryptographic-logs)
 - [Slide 28: 3 COMMERCIAL VERTICALS: ROBOTICS, AVIATION, SMART CITIES](#slide-28-3-commercial-verticals-robotics-aviation-smart-cities)
 - [Slide 29: VIRTUAL CLASSROOMS: TPACK GEOGRAPHY LABS](#slide-29-virtual-classrooms-tpack-geography-labs)
-- [Slide 30: PART 4: STRATEGIC GOVERNANCE & CREATIVE SOVEREIGNTY](#slide-30-part-4-strategic-governance-creative-sovereignty)
+- [Slide 30: DATA PRIVACY SANDBOXES: SECURING PROPRIETARY TOPOGRAPHY](#slide-30-data-privacy-sandboxes-securing-proprietary-topography)
 - [Slide 31: PART 4: STRATEGIC GOVERNANCE & CREATIVE SOVEREIGNTY](#slide-31-part-4-strategic-governance-creative-sovereignty)
 - [Slide 32: 3 SEVERE CYBERSECURITY RISKS IN SIMULATION](#slide-32-3-severe-cybersecurity-risks-in-simulation)
 - [Slide 33: CYBERNETIC FORTIFICATION: DNR FILTERS & MICRO-VPC](#slide-33-cybernetic-fortification-dnr-filters-micro-vpc)
@@ -284,8 +284,8 @@ Visual tokens, temporal memory tokens, and controller coordinate tokens all live
 
 ---
 
-## Slide 10: PART 2: UNDER THE HOOD OF PHYSICAL REALISM
-**Subtitle:** Spatio-Temporal Tokenization, The Paradox of Reliability, and WebGL Thin-Client Delivery
+## Slide 10: SPATIO-TEMPORAL TOKENIZER: 3D VOLUME CONSISTENCY
+**Subtitle:** Preserving continuous physical geometry across millions of simulated video frames
 
 ### 🎙️ English Lecture Script
 
@@ -540,8 +540,8 @@ Combined with 100% renewable solar and geothermal power, it accelerates scientif
 
 ---
 
-## Slide 20: PART 3: WAYMO AND THE INFINITE SAFE CLASSROOM
-**Subtitle:** Edge-Case Simulation, Parallel Swarm Training, Multi-Perspective Views, and Ed25519 Audit Trails
+## Slide 20: REAL-WORLD TESTING RISKS VS. SIMULATED CLUSTER SAFETY
+**Subtitle:** Eliminating physical collision hazards by training 10,000 agents in Genie 3 clusters
 
 ### 🎙️ English Lecture Script
 
@@ -796,8 +796,8 @@ This delivers world-class laboratory field trips to low-income schools around th
 
 ---
 
-## Slide 30: PART 4: STRATEGIC GOVERNANCE & CREATIVE SOVEREIGNTY
-**Subtitle:** Data Privacy Sandboxes, Cyber Fortification, Reclaiming Time, and Hands-on Lab 12
+## Slide 30: DATA PRIVACY SANDBOXES: SECURING PROPRIETARY TOPOGRAPHY
+**Subtitle:** Guaranteed enterprise data isolation and cryptographic anti-training seals
 
 ### 🎙️ English Lecture Script
 

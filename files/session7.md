@@ -13,7 +13,7 @@
 - [Slide 04: THE CHILD'S METAPHOR: THE GIANT MAZE](#slide-04-the-child-s-metaphor-the-giant-maze)
 - [Slide 05: THE COGNITIVE BOTTLENECK OF SCREEN DEPENDENCY](#slide-05-the-cognitive-bottleneck-of-screen-dependency)
 - [Slide 06: SESSION 7 LEARNING OBJECTIVES](#slide-06-session-7-learning-objectives)
-- [Slide 07: PART 1: THE HTML BOTTLENECK & INFRASTRUCTURE GAP](#slide-07-part-1-the-html-bottleneck-infrastructure-gap)
+- [Slide 07: THE WEB MATRIX: HUMAN BROWSING VS. AGENTIC EXTRACTION](#slide-07-the-web-matrix-human-browsing-vs-agentic-extraction)
 - [Slide 08: THE INFRASTRUCTURE MISMATCH: HUMANS VS. MACHINES](#slide-08-the-infrastructure-mismatch-humans-vs-machines)
 - [Slide 09: THE ANATOMY OF HTML BLOAT FOR AI AGENTS](#slide-09-the-anatomy-of-html-bloat-for-ai-agents)
 - [Slide 10: THE REAL-WORLD COST OF HTML WEB CRAWLING](#slide-10-the-real-world-cost-of-html-web-crawling)
@@ -22,7 +22,7 @@
 - [Slide 13: WEBMCP PROTOCOL SPEC & DIRECTORY SCHEMA](#slide-13-webmcp-protocol-spec-directory-schema)
 - [Slide 14: THE MATHEMATICS OF TOKEN DIETS](#slide-14-the-mathematics-of-token-diets)
 - [Slide 15: HOW WEBMCP SHAKES UP ALGORITHM COMPLEXITY](#slide-15-how-webmcp-shakes-up-algorithm-complexity)
-- [Slide 16: PART 3: CRYPTOGRAPHIC SECURITY & GUARDRAILS](#slide-16-part-3-cryptographic-security-guardrails)
+- [Slide 16: AGENTIC DISCOVERY: DEPLOYING LLMS.TXT AT SCALE](#slide-16-agentic-discovery-deploying-llms-txt-at-scale)
 - [Slide 17: THE THREAT LANDSCAPE OF AUTONOMOUS AGENTS](#slide-17-the-threat-landscape-of-autonomous-agents)
 - [Slide 18: ED25519 CRYPTOGRAPHIC SIGNATURES IN WEBMCP](#slide-18-ed25519-cryptographic-signatures-in-webmcp)
 - [Slide 19: NEUTRALIZING PROMPT INJECTIONS VIA STRICT SCHEMAS](#slide-19-neutralizing-prompt-injections-via-strict-schemas)
@@ -209,8 +209,8 @@ Let us enter Part 1 and analyze the infrastructure gap!
 
 ---
 
-## Slide 07: PART 1: THE HTML BOTTLENECK & INFRASTRUCTURE GAP
-**Subtitle:** Analyzing Human Retina Optimization vs. Machine Reason Optimization
+## Slide 07: THE WEB MATRIX: HUMAN BROWSING VS. AGENTIC EXTRACTION
+**Subtitle:** Analyzing the 95% bandwidth waste of visual web crawling vs. direct API extraction
 
 ### 🎙️ English Lecture Script
 
@@ -443,8 +443,8 @@ Execution time drops from seconds to milliseconds, making enterprise-scale AI sw
 
 ---
 
-## Slide 16: PART 3: CRYPTOGRAPHIC SECURITY & GUARDRAILS
-**Subtitle:** Ed25519 Digital Signatures, Strict JSON Schemas, and Anti-Injection Shields
+## Slide 16: AGENTIC DISCOVERY: DEPLOYING LLMS.TXT AT SCALE
+**Subtitle:** How enterprise domains publish machine-readable sitemaps for autonomous agents
 
 ### 🎙️ English Lecture Script
 

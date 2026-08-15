@@ -14,7 +14,7 @@
 - [Slide 05: A LETTER FROM THE FUTURE](#slide-05-a-letter-from-the-future)
 - [Slide 06: THE ULTIMATE CURRENCY](#slide-06-the-ultimate-currency)
 - [Slide 07: SESSION 1 LEARNING OBJECTIVES](#slide-07-session-1-learning-objectives)
-- [Slide 08: SECTION 1](#slide-08-section-1)
+- [Slide 08: THE PARADIGM SHIFT: 'ASK ME' VS. 'RUN IT FOR ME'](#slide-08-the-paradigm-shift-ask-me-vs-run-it-for-me)
 - [Slide 09: YESTERDAY: REACTIVE CHATBOTS](#slide-09-yesterday-reactive-chatbots)
 - [Slide 10: TODAY: PROACTIVE AVATARS](#slide-10-today-proactive-avatars)
 - [Slide 11: PART 2: UNDER THE HOOD OF AUTONOMOUS REASONING](#slide-11-part-2-under-the-hood-of-autonomous-reasoning)
@@ -23,7 +23,7 @@
 - [Slide 14: 📨 INTERACTIVE STUDENT POLL](#slide-14-interactive-student-poll)
 - [Slide 15: POLL ANALYSIS & INSIGHT](#slide-15-poll-analysis-insight)
 - [Slide 16: TRANSITION TO ENGINEERING](#slide-16-transition-to-engineering)
-- [Slide 17: SECTION 2](#slide-17-section-2)
+- [Slide 17: ASYNCHRONOUS ENGINE: THE 3-LAYER SPARK PIPELINE](#slide-17-asynchronous-engine-the-3-layer-spark-pipeline)
 - [Slide 18: SYNCHRONOUS VS. ASYNCHRONOUS](#slide-18-synchronous-vs-asynchronous)
 - [Slide 19: THE GEMINI 3.5 FLASH BRAIN](#slide-19-the-gemini-3-5-flash-brain)
 - [Slide 20: HARDWARE INFRASTRUCTURE: TPU V8](#slide-20-hardware-infrastructure-tpu-v8)
@@ -33,7 +33,7 @@
 - [Slide 24: DUAL MEMORY ENGINE](#slide-24-dual-memory-engine)
 - [Slide 25: GOOGLE WORKSPACE INTEGRATION](#slide-25-google-workspace-integration)
 - [Slide 26: REAL-WORLD CASE STUDY](#slide-26-real-world-case-study)
-- [Slide 27: SECTION 3](#slide-27-section-3)
+- [Slide 27: THE SECURITY MATRIX: PROTECTING THE DIGITAL VAULT](#slide-27-the-security-matrix-protecting-the-digital-vault)
 - [Slide 28: FINANCIAL RISK: UNCONTROLLED WALLET](#slide-28-financial-risk-uncontrolled-wallet)
 - [Slide 29: AP2: AGENT PAYMENTS PROTOCOL](#slide-29-ap2-agent-payments-protocol)
 - [Slide 30: THE DIGITAL MANDATE](#slide-30-the-digital-mandate)
@@ -43,7 +43,7 @@
 - [Slide 34: SHADOW IT & ENTERPRISE COMPLIANCE](#slide-34-shadow-it-enterprise-compliance)
 - [Slide 35: BALANCING AUTONOMY AND CONTROL](#slide-35-balancing-autonomy-and-control)
 - [Slide 36: DEFENSE IN DEPTH FOR AGENTS](#slide-36-defense-in-depth-for-agents)
-- [Slide 37: SECTION 4](#slide-37-section-4)
+- [Slide 37: THE SOVEREIGN CONDUCTOR: ORCHESTRATING SWARMS](#slide-37-the-sovereign-conductor-orchestrating-swarms)
 - [Slide 38: HUMAN-ON-THE-LOOP (HOTL)](#slide-38-human-on-the-loop-hotl)
 - [Slide 39: RECLAIMING OFFLINE FOCUS](#slide-39-reclaiming-offline-focus)
 - [Slide 40: 🛠️ HANDS-ON LAB 1 & CONCLUSION](#slide-40-hands-on-lab-1-conclusion)
@@ -237,26 +237,32 @@ Third: Security & Trust. We will master AP2—Google's Agent Payments Protocol�
 
 ---
 
-## Slide 08: SECTION 1
-**Subtitle:** The Agentic Paradigm Shift: From "Ask Me Anything" to "Run It For Me"
+## Slide 08: THE PARADIGM SHIFT: 'ASK ME' VS. 'RUN IT FOR ME'
+**Subtitle:** From passive text generators answering questions to proactive agents executing real-world actions
 
 ### 🎙️ English Lecture Script
 
-We now begin Section 1 of our lecture!
+Please look at Slide 8: "The Paradigm Shift: 'Ask Me Anything' vs. 'Run It For Me'."
 
-The title of this section is: "The Agentic Paradigm Shift: From 'Ask Me Anything' to 'Run It For Me.'"
+Let us compare the fundamental architectures:
+On the left side: The classic Chatbot era! You type a question, the chatbot spits out paragraphs of text, and then YOU still have to copy-paste the data, format the spreadsheet, and send the emails. The human does all the heavy lifting!
 
-In this section, we will analyze why traditional generative AI chatbots are no longer enough for modern enterprise workflows, and how agentic architecture solves the prompt bottleneck once and for all.
+Now, look at the right side: The Agentic Paradigm!
+You no longer ask for advice; you assign a mission: "Run it for me."
+
+The agent wakes up in the cloud, queries the database, formats the document, schedules the meeting, and delivers the finished result to your inbox. 
+This is the true transformation from passive text generation to sovereign execution!
 
 ### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** 섹션 1 개막: '무엇이든 물어보세요'에서 '나 대신 실행해주세요'로의 전환
+- **강의 요약:** 패러다임 대전환: '무엇이든 물어보세요'에서 '나 대신 실행해주세요'로
 - **핵심 포인트:**
-  - 질문 중심의 Generative AI 시대 종료 선언
-  - 실행 및 과업 완수 중심의 Agentic AI 시대 개막 알림
-- **강의 전달 팁:** 목소리에 힘을 주어 1섹션으로의 전환을 명확히 고지합니다.
+  - Left (수동 챗봇): 텍스트 답변만 줄 뿐, 실제 복사-붙여넣기와 파일 정리는 사람이 다 해야 하는 반쪽짜리 생산성
+  - Right (능동 에이전트): 목표만 설정하면 클라우드에서 API와 문서를 직접 제어해 완성된 결과물을 납품하는 실행 혁명
+  - 본질적 전환: 단순 텍스트 생성기에서 실제 현실 업무를 완수하는 자율 실행 에이전트로의 진화
+- **강의 전달 팁:** 더 이상 AI에게 질문하고 타이핑을 기다리지 않고, 일을 맡기고 퇴근하는 에이전트의 위력을 전하세요.
 
 ### 📚 Key Terms (주요 용어)
-- **Paradigm**: A typical pattern or model of something. (패러다임 (기본 틀과 패러다임))
+- **Action-Oriented Execution**: The architectural capability of an AI agent to execute multi-step tool calls and API transactions autonomously. (실행 중심 자율 완수 (Action-Oriented Execution))
 
 ---
 
@@ -469,24 +475,32 @@ Let us enter Section 2 and look under the hood!
 
 ---
 
-## Slide 17: SECTION 2
-**Subtitle:** Asynchronous Cloud Engine: Inside Gemini Spark
+## Slide 17: ASYNCHRONOUS ENGINE: THE 3-LAYER SPARK PIPELINE
+**Subtitle:** How Gemini Spark continuously monitors, reasons, and acts across enterprise channels
 
 ### 🎙️ English Lecture Script
 
-Welcome to Section 2: "Asynchronous Cloud Engine: Inside Gemini Spark."
+Look at Slide 17 for our engineering blueprint: "Asynchronous Engine: The 3-Layer Spark Pipeline."
 
-In this section, we will uncover how Google's Gemini Spark architecture allows software agents to maintain persistent state, execute tools without blocking your terminal, and run continuously in high-availability cloud servers.
+How does Gemini Spark execute tasks while you are fast asleep? 
+Through a synchronized 3-layer pipeline:
+
+Layer 1 is the Ingestion Layer—lightweight webhooks and cron schedules monitor your Gmail, Drive, and Slack channels 24/7.
+Layer 2 is the Reasoning Core—powered by Gemini 3.5 Flash, it evaluates incoming events against your stored rules in 50 milliseconds.
+Layer 3 is the Dispatch Layer—it triggers Google Apps Script to update your spreadsheets, file documents, and notify you when finished. 
+
+Zero human waiting time! Complete asynchronous autonomy!
 
 ### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** 섹션 2 개막: 비동기 클라우드 엔진 Gemini Spark의 내부 아키텍처
+- **강의 요약:** 비동기 엔진 아키텍처: Gemini Spark의 3계층 파이프라인
 - **핵심 포인트:**
-  - Gemini Spark의 24/7 백그라운드 클라우드 인프라 구조 공개
-  - 터미널을 멈추지 않는 non-blocking 실행 원리 학습
-- **강의 전달 팁:** 엔지니어링 세션으로 들어왔음을 알리는 전문적이고 역동적인 톤으로 전환합니다.
+  - 1계층 (수집 레이어): 24시간 잠들지 않고 웹훅과 크론 스케줄로 이메일과 드라이브 이벤트를 실시간 감시
+  - 2계층 (추론 코어): 초고속 Gemini 3.5 Flash가 수신된 이벤트를 규칙에 따라 50ms 만에 분석하고 행동 계획 수립
+  - 3계층 (디스패치 레이어): Google Apps Script와 REST API를 호출하여 시트 기록 및 회신 발송 완수
+- **강의 전달 팁:** 잠자는 동안에도 시스템이 물 흐르듯 돌아가는 3단계 자동화 아키텍처의 원리를 설명하세요.
 
 ### 📚 Key Terms (주요 용어)
-- **Asynchronous Engine**: An execution engine that runs tasks independently in the background. (비동기 실행 엔진)
+- **Asynchronous 3-Layer Pipeline**: The coordinated architecture of event ingestion, neural reasoning, and API tool dispatching operating in the background. (비동기 3계층 파이프라인 (수집-추론-실행))
 
 ---
 
@@ -731,26 +745,32 @@ The entire process time dropped from 6 hours to just 11 minutes! That is a 97% r
 
 ---
 
-## Slide 27: SECTION 3
-**Subtitle:** Security, Trust, and Governance: Protecting the Digital Vault
+## Slide 27: THE SECURITY MATRIX: PROTECTING THE DIGITAL VAULT
+**Subtitle:** The 3 immutable security guardrails governing autonomous enterprise agents
 
 ### 🎙️ English Lecture Script
 
-Welcome to Section 3: "Security, Trust, and Governance: Protecting the Digital Vault."
+Please look at Slide 27: "The Security Matrix: Protecting the Digital Vault."
 
-Now that we understand how powerful autonomous cloud agents are, a crucial question arises: How do we prevent them from making financial mistakes or leaking private data?
+When autonomous agents are granted access to enterprise files and payment rails, security must be mathematically airtight!
 
-In this section, we will master protocols for safe financial transactions, prompt injection defenses, and enterprise audit trails.
+We enforce three non-negotiable security guardrails:
+First: Zero Hardcoded Credentials—agents use scoped OAuth 2.0 tokens, so passwords can never be leaked in prompts.
+Second: Ephemeral Sandbox Execution—all code runs in disposable Docker containers with restricted network ports.
+Third: Immutable Audit Trails—every single action is signed and permanently recorded in an append-only ledger! 
+
+You enjoy 100% automation speed with 100% enterprise security!
 
 ### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** 섹션 3 개막: 보안, 신뢰 및 거버넌스 - 디지털 금고 보호하기
+- **강의 요약:** 보안 매트릭스: 디지털 금고를 수호하는 3대 가드레일
 - **핵심 포인트:**
-  - 자율 행동에 따른 재정적/데이터 보안 위험 관리의 중요성 강조
-  - AP2 결제 프로토콜, 프롬프트 인젝션 방어, 감사 로그(Audit Trail) 학습 고지
-- **강의 전달 팁:** 보안의 중요성을 부각하기 위해 조금 더 진중하고 신중한 톤으로 전환합니다.
+  - 1. 하드코딩 인증정보 전무: 비밀번호나 API 키를 프롬프트에 넣지 않고 제한된 OAuth 2.0 토큰으로만 권한 위임
+  - 2. 일회용 샌드박스 격리: 모든 코드 실행과 웹 브라우징은 격리된 가상 컨테이너에서 진행 후 즉시 폐기
+  - 3. 불변의 감사 추적 원장: 에이전트의 모든 파일 수정과 도구 호출을 위변조 불가능한 원장에 기록
+- **강의 전달 팁:** 에이전트에게 전권을 주면서도 회사의 데이터와 자산을 완벽히 지켜내는 3대 보안 원칙을 각인시키세요.
 
 ### 📚 Key Terms (주요 용어)
-- **Digital Vault**: The private bank accounts, confidential files, and enterprise data of an organization. (디지털 금고 (보안 자산 및 데이터))
+- **Enterprise Security Matrix**: The multi-layered defense architecture enforcing tokenized authentication, sandboxed runtimes, and immutable audit trails. (엔터프라이즈 보안 매트릭스 (다층 보안 방어망))
 
 ---
 
@@ -996,24 +1016,31 @@ With these three shields active, your enterprise agent network is practically bu
 
 ---
 
-## Slide 37: SECTION 4
-**Subtitle:** IT Wisdom & Reclaiming Humanity: Soli Deo Gloria
+## Slide 37: THE SOVEREIGN CONDUCTOR: ORCHESTRATING SWARMS
+**Subtitle:** The human master directs the symphony of intelligence under Soli Deo Gloria
 
 ### 🎙️ English Lecture Script
 
-Welcome to our final section, Section 4: "IT Wisdom & Reclaiming Humanity: Soli Deo Gloria."
+Look at Slide 37: "The Sovereign Conductor: Orchestrating Swarms."
 
-In this closing section, we synthesize technical cloud architecture back with human purpose, exploring how the Human-on-the-Loop model preserves moral direction and spiritual focus in an automated world.
+As we conclude our technical journey, remember who you are: You are the Sovereign Conductor!
+
+The score is written by your human heart: you define the moral purpose, the artistic vision, and the ethical boundaries.
+The AI swarms are your orchestra: executing complex code, analyzing data, and rendering visuals at lightning speed.
+
+And you hold the Veto Baton: no code reaches production and no payment executes without your sovereign approval. 
+We master technology to glorify God and serve humanity with excellence! Soli Deo Gloria!
 
 ### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** 섹션 4 개막: IT 지혜와 인간성 회복 (Soli Deo Gloria)
+- **강의 요약:** 주권적 지휘자: 지능의 교향악단을 이끄는 인간 마에스트로
 - **핵심 포인트:**
-  - 기술 인프라를 다시 인간 삶의 사명과 통합하는 종합 섹션
-  - Human-on-the-Loop 모델과 오프라인 집중의 삶 강조
-- **강의 전달 팁:** 강의의 마지막 결론 섹션인 만큼 따뜻하고 깊이 있는 목소리로 집중시킵니다.
+  - 1. 거룩한 악보(비전): 인간 아키텍트가 작품의 도덕적 의미, 윤리적 기준, 영혼의 목적을 부여
+  - 2. 오케스트라 군집(실행): AI 에이전트들이 초고속으로 복잡한 연주와 코딩을 무결점으로 수행
+  - 3. 거부권의 지휘봉(거버넌스): 인간의 최종 서명 없이는 어떤 중대한 변경도 배포되지 않는 절대적 주권 사수
+- **강의 전달 팁:** 수강생들이 기술의 노예가 아닌 존엄한 지휘자로서 당당히 세상에 나아가도록 뜨겁게 격려하세요.
 
 ### 📚 Key Terms (주요 용어)
-- **Wisdom**: The capacity to apply knowledge and technology toward worthy human purpose. (지혜 (기술의 올바른 활용))
+- **Sovereign Conductor Paradigm**: The ethical leadership model where the human creator orchestrates multi-agent swarms with supreme veto authority. (주권적 지휘자 패러다임 (인간 마에스트로))
 
 ---
 

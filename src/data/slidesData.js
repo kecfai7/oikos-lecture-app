@@ -346,23 +346,42 @@ export const SLIDES_SESSION_1 = [
   },
   {
     "num": 8,
-    "type": "section",
-    "title": "SECTION 1",
-    "subtitle": "The Agentic Paradigm Shift: From \"Ask Me Anything\" to \"Run It For Me\"",
-    "script": "We now begin Section 1 of our lecture!\n\nThe title of this section is: \"The Agentic Paradigm Shift: From 'Ask Me Anything' to 'Run It For Me.'\"\n\nIn this section, we will analyze why traditional generative AI chatbots are no longer enough for modern enterprise workflows, and how agentic architecture solves the prompt bottleneck once and for all.",
-    "koreanGuide": {
-      "summary": "섹션 1 개막: '무엇이든 물어보세요'에서 '나 대신 실행해주세요'로의 전환",
+    "type": "comparison",
+    "title": "THE PARADIGM SHIFT: 'ASK ME' VS. 'RUN IT FOR ME'",
+    "subtitle": "From passive text generators answering questions to proactive agents executing real-world actions",
+    "leftCard": {
+      "tag": "PASSIVE CHATBOT (2022-2024)",
+      "title": "\"Ask Me Anything\" Loop",
       "points": [
-        "질문 중심의 Generative AI 시대 종료 선언",
-        "실행 및 과업 완수 중심의 Agentic AI 시대 개막 알림"
+        "Human must formulate prompts and wait passively at the browser window",
+        "Outputs isolated text suggestions without taking any real-world action",
+        "Human still performs 100% of the manual clicking, copying, and file formatting"
+      ]
+    },
+    "rightCard": {
+      "tag": "PROACTIVE AGENT (2026+)",
+      "title": "\"Run It For Me\" Pipeline",
+      "points": [
+        "Human specifies high-level objectives, constraints, and success criteria",
+        "Agent autonomously accesses APIs, databases, and workspace tools in background",
+        "Delivers completed deliverables (emails drafted, spreadsheets updated, reports compiled)"
+      ]
+    },
+    "script": "Please look at Slide 8: \"The Paradigm Shift: 'Ask Me Anything' vs. 'Run It For Me'.\"\n\nLet us compare the fundamental architectures:\nOn the left side: The classic Chatbot era! You type a question, the chatbot spits out paragraphs of text, and then YOU still have to copy-paste the data, format the spreadsheet, and send the emails. The human does all the heavy lifting!\n\nNow, look at the right side: The Agentic Paradigm!\nYou no longer ask for advice; you assign a mission: \"Run it for me.\"\n\nThe agent wakes up in the cloud, queries the database, formats the document, schedules the meeting, and delivers the finished result to your inbox. \nThis is the true transformation from passive text generation to sovereign execution!",
+    "koreanGuide": {
+      "summary": "패러다임 대전환: '무엇이든 물어보세요'에서 '나 대신 실행해주세요'로",
+      "points": [
+        "Left (수동 챗봇): 텍스트 답변만 줄 뿐, 실제 복사-붙여넣기와 파일 정리는 사람이 다 해야 하는 반쪽짜리 생산성",
+        "Right (능동 에이전트): 목표만 설정하면 클라우드에서 API와 문서를 직접 제어해 완성된 결과물을 납품하는 실행 혁명",
+        "본질적 전환: 단순 텍스트 생성기에서 실제 현실 업무를 완수하는 자율 실행 에이전트로의 진화"
       ],
-      "tips": "목소리에 힘을 주어 1섹션으로의 전환을 명확히 고지합니다."
+      "tips": "더 이상 AI에게 질문하고 타이핑을 기다리지 않고, 일을 맡기고 퇴근하는 에이전트의 위력을 전하세요."
     },
     "keyTerms": [
       {
-        "term": "Paradigm",
-        "def": "A typical pattern or model of something.",
-        "defKo": "패러다임 (기본 틀과 패러다임)"
+        "term": "Action-Oriented Execution",
+        "def": "The architectural capability of an AI agent to execute multi-step tool calls and API transactions autonomously.",
+        "defKo": "실행 중심 자율 완수 (Action-Oriented Execution)"
       }
     ]
   },
@@ -686,23 +705,38 @@ export const SLIDES_SESSION_1 = [
   },
   {
     "num": 17,
-    "type": "section",
-    "title": "SECTION 2",
-    "subtitle": "Asynchronous Cloud Engine: Inside Gemini Spark",
-    "script": "Welcome to Section 2: \"Asynchronous Cloud Engine: Inside Gemini Spark.\"\n\nIn this section, we will uncover how Google's Gemini Spark architecture allows software agents to maintain persistent state, execute tools without blocking your terminal, and run continuously in high-availability cloud servers.",
+    "type": "architecture",
+    "title": "ASYNCHRONOUS ENGINE: THE 3-LAYER SPARK PIPELINE",
+    "subtitle": "How Gemini Spark continuously monitors, reasons, and acts across enterprise channels",
+    "layers": [
+      {
+        "title": "1. Ingestion Layer (Webhooks & Cron Triggers)",
+        "desc": "Monitors incoming emails, calendar changes, and database webhooks 24/7 without consuming human attention."
+      },
+      {
+        "title": "2. Reasoning Core (Gemini 3.5 Flash & Context Buffer)",
+        "desc": "Evaluates user intent against memory guidelines in sub-50ms inference loops to formulate action plans."
+      },
+      {
+        "title": "3. Dispatch Layer (Google Apps Script & REST Connectors)",
+        "desc": "Executes authenticated tool calls—updating Sheets, sending drafted replies, and locking calendar blocks."
+      }
+    ],
+    "script": "Look at Slide 17 for our engineering blueprint: \"Asynchronous Engine: The 3-Layer Spark Pipeline.\"\n\nHow does Gemini Spark execute tasks while you are fast asleep? \nThrough a synchronized 3-layer pipeline:\n\nLayer 1 is the Ingestion Layer—lightweight webhooks and cron schedules monitor your Gmail, Drive, and Slack channels 24/7.\nLayer 2 is the Reasoning Core—powered by Gemini 3.5 Flash, it evaluates incoming events against your stored rules in 50 milliseconds.\nLayer 3 is the Dispatch Layer—it triggers Google Apps Script to update your spreadsheets, file documents, and notify you when finished. \n\nZero human waiting time! Complete asynchronous autonomy!",
     "koreanGuide": {
-      "summary": "섹션 2 개막: 비동기 클라우드 엔진 Gemini Spark의 내부 아키텍처",
+      "summary": "비동기 엔진 아키텍처: Gemini Spark의 3계층 파이프라인",
       "points": [
-        "Gemini Spark의 24/7 백그라운드 클라우드 인프라 구조 공개",
-        "터미널을 멈추지 않는 non-blocking 실행 원리 학습"
+        "1계층 (수집 레이어): 24시간 잠들지 않고 웹훅과 크론 스케줄로 이메일과 드라이브 이벤트를 실시간 감시",
+        "2계층 (추론 코어): 초고속 Gemini 3.5 Flash가 수신된 이벤트를 규칙에 따라 50ms 만에 분석하고 행동 계획 수립",
+        "3계층 (디스패치 레이어): Google Apps Script와 REST API를 호출하여 시트 기록 및 회신 발송 완수"
       ],
-      "tips": "엔지니어링 세션으로 들어왔음을 알리는 전문적이고 역동적인 톤으로 전환합니다."
+      "tips": "잠자는 동안에도 시스템이 물 흐르듯 돌아가는 3단계 자동화 아키텍처의 원리를 설명하세요."
     },
     "keyTerms": [
       {
-        "term": "Asynchronous Engine",
-        "def": "An execution engine that runs tasks independently in the background.",
-        "defKo": "비동기 실행 엔진"
+        "term": "Asynchronous 3-Layer Pipeline",
+        "def": "The coordinated architecture of event ingestion, neural reasoning, and API tool dispatching operating in the background.",
+        "defKo": "비동기 3계층 파이프라인 (수집-추론-실행)"
       }
     ]
   },
@@ -1018,23 +1052,38 @@ export const SLIDES_SESSION_1 = [
   },
   {
     "num": 27,
-    "type": "section",
-    "title": "SECTION 3",
-    "subtitle": "Security, Trust, and Governance: Protecting the Digital Vault",
-    "script": "Welcome to Section 3: \"Security, Trust, and Governance: Protecting the Digital Vault.\"\n\nNow that we understand how powerful autonomous cloud agents are, a crucial question arises: How do we prevent them from making financial mistakes or leaking private data?\n\nIn this section, we will master protocols for safe financial transactions, prompt injection defenses, and enterprise audit trails.",
+    "type": "triad",
+    "title": "THE SECURITY MATRIX: PROTECTING THE DIGITAL VAULT",
+    "subtitle": "The 3 immutable security guardrails governing autonomous enterprise agents",
+    "cards": [
+      {
+        "title": "1. Zero Hardcoded Credentials",
+        "desc": "Agents access tools strictly through scoped OAuth 2.0 tokens; raw API keys and passwords are never stored in prompts."
+      },
+      {
+        "title": "2. Ephemeral Sandbox Execution",
+        "desc": "All code execution and web browsing occur in isolated, disposable virtual containers with locked egress ports."
+      },
+      {
+        "title": "3. Immutable Audit Trails",
+        "desc": "Every tool call, file modification, and financial transaction is cryptographically sealed in an append-only ledger."
+      }
+    ],
+    "script": "Please look at Slide 27: \"The Security Matrix: Protecting the Digital Vault.\"\n\nWhen autonomous agents are granted access to enterprise files and payment rails, security must be mathematically airtight!\n\nWe enforce three non-negotiable security guardrails:\nFirst: Zero Hardcoded Credentials—agents use scoped OAuth 2.0 tokens, so passwords can never be leaked in prompts.\nSecond: Ephemeral Sandbox Execution—all code runs in disposable Docker containers with restricted network ports.\nThird: Immutable Audit Trails—every single action is signed and permanently recorded in an append-only ledger! \n\nYou enjoy 100% automation speed with 100% enterprise security!",
     "koreanGuide": {
-      "summary": "섹션 3 개막: 보안, 신뢰 및 거버넌스 - 디지털 금고 보호하기",
+      "summary": "보안 매트릭스: 디지털 금고를 수호하는 3대 가드레일",
       "points": [
-        "자율 행동에 따른 재정적/데이터 보안 위험 관리의 중요성 강조",
-        "AP2 결제 프로토콜, 프롬프트 인젝션 방어, 감사 로그(Audit Trail) 학습 고지"
+        "1. 하드코딩 인증정보 전무: 비밀번호나 API 키를 프롬프트에 넣지 않고 제한된 OAuth 2.0 토큰으로만 권한 위임",
+        "2. 일회용 샌드박스 격리: 모든 코드 실행과 웹 브라우징은 격리된 가상 컨테이너에서 진행 후 즉시 폐기",
+        "3. 불변의 감사 추적 원장: 에이전트의 모든 파일 수정과 도구 호출을 위변조 불가능한 원장에 기록"
       ],
-      "tips": "보안의 중요성을 부각하기 위해 조금 더 진중하고 신중한 톤으로 전환합니다."
+      "tips": "에이전트에게 전권을 주면서도 회사의 데이터와 자산을 완벽히 지켜내는 3대 보안 원칙을 각인시키세요."
     },
     "keyTerms": [
       {
-        "term": "Digital Vault",
-        "def": "The private bank accounts, confidential files, and enterprise data of an organization.",
-        "defKo": "디지털 금고 (보안 자산 및 데이터)"
+        "term": "Enterprise Security Matrix",
+        "def": "The multi-layered defense architecture enforcing tokenized authentication, sandboxed runtimes, and immutable audit trails.",
+        "defKo": "엔터프라이즈 보안 매트릭스 (다층 보안 방어망)"
       }
     ]
   },
@@ -1362,23 +1411,38 @@ export const SLIDES_SESSION_1 = [
   },
   {
     "num": 37,
-    "type": "section",
-    "title": "SECTION 4",
-    "subtitle": "IT Wisdom & Reclaiming Humanity: Soli Deo Gloria",
-    "script": "Welcome to our final section, Section 4: \"IT Wisdom & Reclaiming Humanity: Soli Deo Gloria.\"\n\nIn this closing section, we synthesize technical cloud architecture back with human purpose, exploring how the Human-on-the-Loop model preserves moral direction and spiritual focus in an automated world.",
+    "type": "triad",
+    "title": "THE SOVEREIGN CONDUCTOR: ORCHESTRATING SWARMS",
+    "subtitle": "The human master directs the symphony of intelligence under Soli Deo Gloria",
+    "cards": [
+      {
+        "title": "1. The Sacred Score (Vision)",
+        "desc": "The human architect defines the moral purpose, ethical guardrails, and ultimate creative soul of the work."
+      },
+      {
+        "title": "2. The Swarm Orchestra (Execution)",
+        "desc": "Specialized AI agents play the difficult technical notes at blazing speed without missing a single beat."
+      },
+      {
+        "title": "3. The Veto Baton (Governance)",
+        "desc": "No high-impact code deployment or financial transaction commits without the conductor's sovereign signature."
+      }
+    ],
+    "script": "Look at Slide 37: \"The Sovereign Conductor: Orchestrating Swarms.\"\n\nAs we conclude our technical journey, remember who you are: You are the Sovereign Conductor!\n\nThe score is written by your human heart: you define the moral purpose, the artistic vision, and the ethical boundaries.\nThe AI swarms are your orchestra: executing complex code, analyzing data, and rendering visuals at lightning speed.\n\nAnd you hold the Veto Baton: no code reaches production and no payment executes without your sovereign approval. \nWe master technology to glorify God and serve humanity with excellence! Soli Deo Gloria!",
     "koreanGuide": {
-      "summary": "섹션 4 개막: IT 지혜와 인간성 회복 (Soli Deo Gloria)",
+      "summary": "주권적 지휘자: 지능의 교향악단을 이끄는 인간 마에스트로",
       "points": [
-        "기술 인프라를 다시 인간 삶의 사명과 통합하는 종합 섹션",
-        "Human-on-the-Loop 모델과 오프라인 집중의 삶 강조"
+        "1. 거룩한 악보(비전): 인간 아키텍트가 작품의 도덕적 의미, 윤리적 기준, 영혼의 목적을 부여",
+        "2. 오케스트라 군집(실행): AI 에이전트들이 초고속으로 복잡한 연주와 코딩을 무결점으로 수행",
+        "3. 거부권의 지휘봉(거버넌스): 인간의 최종 서명 없이는 어떤 중대한 변경도 배포되지 않는 절대적 주권 사수"
       ],
-      "tips": "강의의 마지막 결론 섹션인 만큼 따뜻하고 깊이 있는 목소리로 집중시킵니다."
+      "tips": "수강생들이 기술의 노예가 아닌 존엄한 지휘자로서 당당히 세상에 나아가도록 뜨겁게 격려하세요."
     },
     "keyTerms": [
       {
-        "term": "Wisdom",
-        "def": "The capacity to apply knowledge and technology toward worthy human purpose.",
-        "defKo": "지혜 (기술의 올바른 활용)"
+        "term": "Sovereign Conductor Paradigm",
+        "def": "The ethical leadership model where the human creator orchestrates multi-agent swarms with supreme veto authority.",
+        "defKo": "주권적 지휘자 패러다임 (인간 마에스트로)"
       }
     ]
   },
@@ -3247,7 +3311,7 @@ export const SLIDES_SESSION_3 = [
   {
     "num": 10,
     "type": "triad",
-    "title": "SECTION 1 KEY TAKEAWAYS",
+    "title": "PART 1 KEY TAKEAWAYS",
     "subtitle": "The conquest of the desktop summarized in three principles",
     "cards": [
       {
@@ -3597,7 +3661,7 @@ export const SLIDES_SESSION_3 = [
   {
     "num": 20,
     "type": "triad",
-    "title": "SECTION 2 SUMMARY",
+    "title": "PART 2 SUMMARY",
     "subtitle": "Understanding the physical constraints of desktop AI wrappers",
     "cards": [
       {
@@ -3969,7 +4033,7 @@ export const SLIDES_SESSION_3 = [
   {
     "num": 30,
     "type": "triad",
-    "title": "SECTION 3 SUMMARY",
+    "title": "PART 3 SUMMARY",
     "subtitle": "Reviewing the visual power and technical limits of the Google desktop eye",
     "cards": [
       {
@@ -7651,7 +7715,7 @@ export const SLIDES_SESSION_6 = [
   {
     "num": 10,
     "type": "triad",
-    "title": "SECTION 1 TRANSITION: ENTERING THE FORGE",
+    "title": "PART 1 TRANSITION: ENTERING THE FORGE",
     "subtitle": "How models learn and adapt dynamically within long context without expensive retraining",
     "cards": [
       {
@@ -7688,7 +7752,7 @@ export const SLIDES_SESSION_6 = [
   {
     "num": 20,
     "type": "comparison",
-    "title": "SECTION 2 TRANSITION: THE FINOPS REALITY",
+    "title": "PART 2 TRANSITION: THE FINOPS REALITY",
     "subtitle": "Balancing unlimited context power against token processing expenses",
     "leftCard": {
       "tag": "NAIVE RE-PROCESSING",
@@ -8388,7 +8452,7 @@ export const SLIDES_SESSION_6 = [
   {
     "num": 30,
     "type": "triad",
-    "title": "SECTION 3 TRANSITION: MOVING TO VIBE CODING",
+    "title": "PART 3 TRANSITION: MOVING TO VIBE CODING",
     "subtitle": "From infrastructure and parameter tuning to pure creative synthesis",
     "cards": [
       {
@@ -9007,9 +9071,9 @@ export const SLIDES_SESSION_7 = [
   },
   {
     "num": 7,
-    "type": "section",
-    "title": "PART 1: THE HTML BOTTLENECK & INFRASTRUCTURE GAP",
-    "subtitle": "Analyzing Human Retina Optimization vs. Machine Reason Optimization",
+    "type": "comparison",
+    "title": "THE WEB MATRIX: HUMAN BROWSING VS. AGENTIC EXTRACTION",
+    "subtitle": "Analyzing the 95% bandwidth waste of visual web crawling vs. direct API extraction",
     "script": "Welcome to Part 1: \"The HTML Bottleneck and the Infrastructure Gap.\"\n\nThe global internet is experiencing a massive historical mismatch. For thirty years, every web technology—from CSS to JavaScript—was built for human eyes and human fingers. \n\nIn this section, we will analyze why feeding this human code to artificial intelligence creates severe latency bottlenecks, layout fragility, and astronomical API bills. Let us step behind the curtain!",
     "koreanGuide": {
       "summary": "Part 1 섹션 전환: HTML 병목과 인프라 불일치 분석",
@@ -9311,9 +9375,9 @@ export const SLIDES_SESSION_7 = [
   },
   {
     "num": 16,
-    "type": "section",
-    "title": "PART 3: CRYPTOGRAPHIC SECURITY & GUARDRAILS",
-    "subtitle": "Ed25519 Digital Signatures, Strict JSON Schemas, and Anti-Injection Shields",
+    "type": "triad",
+    "title": "AGENTIC DISCOVERY: DEPLOYING LLMS.TXT AT SCALE",
+    "subtitle": "How enterprise domains publish machine-readable sitemaps for autonomous agents",
     "script": "We now cross into Part 3: \"Cryptographic Security and Guardrails.\"\n\nWhen we give autonomous AI agents permission to browse websites and spend money, security is not optional—it is life or death!\n\nIn this section, we will analyze the threat landscape of web agents, explore how Ed25519 digital signatures prevent spoofing, examine how Strict JSON Schemas stop prompt injection attacks, and review the three-step cryptographic trust chain. Let us inspect the armor!",
     "koreanGuide": {
       "summary": "Part 3 섹션 전환: 암호학적 보안 및 가드레일",
@@ -10473,9 +10537,9 @@ export const SLIDES_SESSION_8 = [
   },
   {
     "num": 7,
-    "type": "section",
-    "title": "PART 2: UNIVERSAL COMMERCE PROTOCOL (UCP)",
-    "subtitle": "The Global Standard Connecting Autonomous AI Agents to Millions of Storefronts",
+    "type": "comparison",
+    "title": "THE COMMERCE PARADIGM: MANUAL CHECKOUT VS. UCP AGENTS",
+    "subtitle": "Eliminating 3-4 weekly hours of shopping friction and repetitive form-filling",
     "script": "We now enter Part 2: \"Universal Commerce Protocol (UCP).\"\n\nNow that we understand the philosophy, how do we build the technical infrastructure?\n\nFor an AI agent to shop across millions of different stores, all those websites must speak a common protocol language. In this section, we will analyze UCP—the global open networking standard backed by Google, Shopify, Walmart, and Stripe. Let us examine the bridge!",
     "koreanGuide": {
       "summary": "Part 2 섹션 전환: 유니버설 커머스 프로토콜(UCP)의 구조",
@@ -10853,9 +10917,9 @@ export const SLIDES_SESSION_8 = [
   },
   {
     "num": 17,
-    "type": "section",
-    "title": "PART 3: FINANCIAL PROTECTION VIA AP2 & DIGITAL MANDATES",
-    "subtitle": "Cryptographic Safety Handshakes, Spending Boundaries, and Hardware Secure Enclaves",
+    "type": "triad",
+    "title": "AGENT FINANCIAL AUTONOMY: WALLET CEILINGS & PERMISSIONS",
+    "subtitle": "Establishing deterministic financial guardrails before issuing autonomous purchasing rights",
     "script": "We now enter our most critical technical chapter, Part 3: \"Financial Protection via AP2 and Digital Mandates.\"\n\nIf an artificial intelligence agent can spend real money from your bank account, what stops it from running wild or falling into a scam?\n\nIn this section, we will analyze the Agent Payments Protocol (AP2), write programmatic Digital Mandates with spending limits, explore 3:00 AM autonomous purchases, and examine hardware secure enclaves. Let us build our financial fortress!",
     "koreanGuide": {
       "summary": "Part 3 섹션 전환: AP2와 디지털 한도 계약(Mandate)을 통한 금융 보안",
@@ -11188,9 +11252,9 @@ export const SLIDES_SESSION_8 = [
   },
   {
     "num": 26,
-    "type": "section",
-    "title": "PART 4: GOVERNANCE, PRIVACY & THE ROADMAP",
-    "subtitle": "Enterprise Compliance, Shadow IT Defenses, Privacy Vaults, and Lab 8 Assignment",
+    "type": "architecture",
+    "title": "AGENTIC COMMERCE ROADMAP: THE 3-STEP INTEGRATION FLYWHEEL",
+    "subtitle": "How progressive enterprises deploy UCP endpoints to capture machine-driven revenue",
     "script": "We now open Part 4: \"Enterprise Governance, Privacy, and the Global Integration Roadmap.\"\n\nHow do corporations and institutions adopt autonomous purchasing agents while strictly complying with GDPR, HIPAA, and corporate financial controls?\n\nIn this final section, we will explore private LLM gateway routers, solve the Shadow IT paradox, examine ephemeral privacy vaults, study the Agentic Flywheel, and walk through your Lab 8 assignment. Let us complete the roadmap!",
     "koreanGuide": {
       "summary": "Part 4 섹션 전환: 엔터프라이즈 거버넌스, 프라이버시 및 실전 로드맵",
@@ -16468,9 +16532,9 @@ export const SLIDES_SESSION_12 = [
   },
   {
     "num": 10,
-    "type": "section",
-    "title": "PART 2: UNDER THE HOOD OF PHYSICAL REALISM",
-    "subtitle": "Spatio-Temporal Tokenization, The Paradox of Reliability, and WebGL Thin-Client Delivery",
+    "type": "triad",
+    "title": "SPATIO-TEMPORAL TOKENIZER: 3D VOLUME CONSISTENCY",
+    "subtitle": "Preserving continuous physical geometry across millions of simulated video frames",
     "script": "We now enter Part 2 of our lecture: \"Under the Hood of Physical Realism.\"\n\nHow does a neural network maintain a persistent 3D world without forgetting where buildings are located? Why are minor physics glitches actually beneficial for training robots? And how does Google stream these worlds to a basic laptop?\n\nLet us dive beneath the surface and examine spatio-temporal tokenizers, the paradox of reliability, and cloud-to-browser WebGL engineering. Let us explore!",
     "koreanGuide": {
       "summary": "Part 2 섹션 전환: 물리적 현실감의 내부 기술 메커니즘",
@@ -16834,9 +16898,9 @@ export const SLIDES_SESSION_12 = [
   },
   {
     "num": 20,
-    "type": "section",
-    "title": "PART 3: WAYMO AND THE INFINITE SAFE CLASSROOM",
-    "subtitle": "Edge-Case Simulation, Parallel Swarm Training, Multi-Perspective Views, and Ed25519 Audit Trails",
+    "type": "comparison",
+    "title": "REAL-WORLD TESTING RISKS VS. SIMULATED CLUSTER SAFETY",
+    "subtitle": "Eliminating physical collision hazards by training 10,000 agents in Genie 3 clusters",
     "script": "We now open Part 3 of our lecture: \"Waymo and the Infinite Safe Classroom.\"\n\nWhy is world simulation the single most important technology for autonomous driving?\n\nIn this section, we will see how Waymo uses Genie 3 to build an infinite virtual driving school. We will explore parallel swarm training of 10,000 cars simultaneously, multi-perspective cameras that see through the eyes of pedestrians, and immutable cryptographic accident audit trails in `/Spark_OS/`. Let us step into the autonomous classroom!",
     "koreanGuide": {
       "summary": "Part 3 섹션 전환: Waymo 자율주행과 무한 안전 가상 교실",
@@ -17200,9 +17264,9 @@ export const SLIDES_SESSION_12 = [
   },
   {
     "num": 30,
-    "type": "section",
-    "title": "PART 4: STRATEGIC GOVERNANCE & CREATIVE SOVEREIGNTY",
-    "subtitle": "Data Privacy Sandboxes, Cyber Fortification, Reclaiming Time, and Hands-on Lab 12",
+    "type": "triad",
+    "title": "DATA PRIVACY SANDBOXES: SECURING PROPRIETARY TOPOGRAPHY",
+    "subtitle": "Guaranteed enterprise data isolation and cryptographic anti-training seals",
     "script": "We now enter our final chapter: Part 4: \"Strategic Governance & Creative Sovereignty.\"\n\nWhen AI can simulate entire cities and drive autonomous fleets, how do we secure our systems against cyber attacks, protect proprietary blueprints, and guard against human intellectual laziness?\n\nIn this section, we will study data privacy sandboxes, DNR firewall defenses, the Conductor Model of human purpose, and your Hands-on Lab 12 assignment. Let us complete our summit!",
     "koreanGuide": {
       "summary": "Part 4 섹션 전환: 전략적 거버넌스와 창조적 주권",

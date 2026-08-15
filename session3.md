@@ -16,7 +16,7 @@
 - [Slide 07: POWERTOYS RUN VS. GOOGLE APP](#slide-07-powertoys-run-vs-google-app)
 - [Slide 08: THE UNIFIED SEARCH VISION](#slide-08-the-unified-search-vision)
 - [Slide 09: SOLI DEO GLORIA: INTELLECTUAL STEWARDSHIP](#slide-09-soli-deo-gloria-intellectual-stewardship)
-- [Slide 10: SECTION 1 KEY TAKEAWAYS](#slide-10-section-1-key-takeaways)
+- [Slide 10: PART 1 KEY TAKEAWAYS](#slide-10-part-1-key-takeaways)
 - [Slide 11: PART 2: DECONSTRUCTING THE 1.2GB HEAVY ARMOR](#slide-11-part-2-deconstructing-the-1-2gb-heavy-armor)
 - [Slide 12: THE WEBVIEW2 ARCHITECTURE](#slide-12-the-webview2-architecture)
 - [Slide 13: THE 1.2GB RAM BASELINE](#slide-13-the-1-2gb-ram-baseline)
@@ -26,7 +26,7 @@
 - [Slide 17: GPU ACCELERATION VS. CPU OVERLOAD](#slide-17-gpu-acceleration-vs-cpu-overload)
 - [Slide 18: WEBVIEW2 SECURITY SANDBOXING LIMITS](#slide-18-webview2-security-sandboxing-limits)
 - [Slide 19: THE 'HEAVY ARMOR' PHILOSOPHICAL LESSON](#slide-19-the-heavy-armor-philosophical-lesson)
-- [Slide 20: SECTION 2 SUMMARY](#slide-20-section-2-summary)
+- [Slide 20: PART 2 SUMMARY](#slide-20-part-2-summary)
 - [Slide 21: PART 3: THE OMNISCIENT EYE: LENS & GEMINI](#slide-21-part-3-the-omniscient-eye-lens-gemini)
 - [Slide 22: SCREEN SCRAPING VIA GOOGLE LENS](#slide-22-screen-scraping-via-google-lens)
 - [Slide 23: REAL-TIME SCREEN TRANSLATION PIPELINE](#slide-23-real-time-screen-translation-pipeline)
@@ -36,7 +36,7 @@
 - [Slide 27: DRAG-AND-DROP FILE FORCING](#slide-27-drag-and-drop-file-forcing)
 - [Slide 28: CASE STUDY: LEGACY COBOL TO MODERN PYTHON](#slide-28-case-study-legacy-cobol-to-modern-python)
 - [Slide 29: THE MEMORY BRIDGE: CLIPBOARD SYNC](#slide-29-the-memory-bridge-clipboard-sync)
-- [Slide 30: SECTION 3 SUMMARY](#slide-30-section-3-summary)
+- [Slide 30: PART 3 SUMMARY](#slide-30-part-3-summary)
 - [Slide 31: PART 4: GOVERNANCE AND THE SHADOW KINGDOM](#slide-31-part-4-governance-and-the-shadow-kingdom)
 - [Slide 32: THE CORPORATE SANDBOX BLOCKADE](#slide-32-the-corporate-sandbox-blockade)
 - [Slide 33: THE DANGER OF SCREEN-CAPTURING LEAKS](#slide-33-the-danger-of-screen-capturing-leaks)
@@ -284,7 +284,7 @@ Wisdom means designing your digital environment intentionally. Your desktop shou
 
 ---
 
-## Slide 10: SECTION 1 KEY TAKEAWAYS
+## Slide 10: PART 1 KEY TAKEAWAYS
 **Subtitle:** The conquest of the desktop summarized in three principles
 
 ### 🎙️ English Lecture Script
@@ -543,7 +543,7 @@ Never fall in love with software features without auditing the hardware cost. A 
 
 ---
 
-## Slide 20: SECTION 2 SUMMARY
+## Slide 20: PART 2 SUMMARY
 **Subtitle:** Understanding the physical constraints of desktop AI wrappers
 
 ### 🎙️ English Lecture Script
@@ -791,7 +791,7 @@ Because the Google App connects to your Google account, it creates a real-time c
 
 ---
 
-## Slide 30: SECTION 3 SUMMARY
+## Slide 30: PART 3 SUMMARY
 **Subtitle:** Reviewing the visual power and technical limits of the Google desktop eye
 
 ### 🎙️ English Lecture Script

@@ -13,7 +13,7 @@
 - [Slide 04: THE TECHNICAL GAP: GENERATIVE VS. AGENTIC](#slide-04-the-technical-gap-generative-vs-agentic)
 - [Slide 05: THE PHYSICAL INTERFACE OF AR-GUIDED SHOPPING](#slide-05-the-physical-interface-of-ar-guided-shopping)
 - [Slide 06: THE COGNITIVE COMPASS: SIZING & FIT SHIELD](#slide-06-the-cognitive-compass-sizing-fit-shield)
-- [Slide 07: PART 2: UNIVERSAL COMMERCE PROTOCOL (UCP)](#slide-07-part-2-universal-commerce-protocol-ucp)
+- [Slide 07: THE COMMERCE PARADIGM: MANUAL CHECKOUT VS. UCP AGENTS](#slide-07-the-commerce-paradigm-manual-checkout-vs-ucp-agents)
 - [Slide 08: THE CORE INFRASTRUCTURE OF THE UNIFIED MARKET](#slide-08-the-core-infrastructure-of-the-unified-market)
 - [Slide 09: THE GLOBAL COALITION BEHIND UCP STANDARDS](#slide-09-the-global-coalition-behind-ucp-standards)
 - [Slide 10: THE AGENTIC MAP: LLMS.TXT & AGENTS.MD](#slide-10-the-agentic-map-llms-txt-agents-md)
@@ -23,7 +23,7 @@
 - [Slide 14: CASE STUDY: REAL-WORLD FULFILLMENT SPEED](#slide-14-case-study-real-world-fulfillment-speed)
 - [Slide 15: INTERACTIVE POLL: WHERE DOES YOUR TIME GO?](#slide-15-interactive-poll-where-does-your-time-go)
 - [Slide 16: THE STRATEGIC MANDATE: RECLAIMING HOURS](#slide-16-the-strategic-mandate-reclaiming-hours)
-- [Slide 17: PART 3: FINANCIAL PROTECTION VIA AP2 & DIGITAL MANDATES](#slide-17-part-3-financial-protection-via-ap2-digital-mandates)
+- [Slide 17: AGENT FINANCIAL AUTONOMY: WALLET CEILINGS & PERMISSIONS](#slide-17-agent-financial-autonomy-wallet-ceilings-permissions)
 - [Slide 18: THE THREAT MODEL: THE VULNERABLE WALLET](#slide-18-the-threat-model-the-vulnerable-wallet)
 - [Slide 19: INTRODUCING THE AP2 PROTOCOL LAYER](#slide-19-introducing-the-ap2-protocol-layer)
 - [Slide 20: THE ARCHITECTURE OF A DIGITAL MANDATE](#slide-20-the-architecture-of-a-digital-mandate)
@@ -32,7 +32,7 @@
 - [Slide 23: ON-DEVICE SECURE ELEMENTS & KEY STORAGE](#slide-23-on-device-secure-elements-key-storage)
 - [Slide 24: THE THREAT OF PROMPT INJECTION IN COMMERCE](#slide-24-the-threat-of-prompt-injection-in-commerce)
 - [Slide 25: ARCHITECTING SAFETY FIREWALLS OF AP2](#slide-25-architecting-safety-firewalls-of-ap2)
-- [Slide 26: PART 4: GOVERNANCE, PRIVACY & THE ROADMAP](#slide-26-part-4-governance-privacy-the-roadmap)
+- [Slide 26: AGENTIC COMMERCE ROADMAP: THE 3-STEP INTEGRATION FLYWHEEL](#slide-26-agentic-commerce-roadmap-the-3-step-integration-flywheel)
 - [Slide 27: ENTERPRISE COMPLIANCE VS. AUTONOMY](#slide-27-enterprise-compliance-vs-autonomy)
 - [Slide 28: THE THREAT OF SHADOW IT IN AGENTIC COMMERCE](#slide-28-the-threat-of-shadow-it-in-agentic-commerce)
 - [Slide 29: THE PRIVACY VAULT: PROTECTING PERSONAL IDENTITY](#slide-29-the-privacy-vault-protecting-personal-identity)
@@ -213,8 +213,8 @@ Your agent holds your private on-device health vault—it knows your exact foot 
 
 ---
 
-## Slide 07: PART 2: UNIVERSAL COMMERCE PROTOCOL (UCP)
-**Subtitle:** The Global Standard Connecting Autonomous AI Agents to Millions of Storefronts
+## Slide 07: THE COMMERCE PARADIGM: MANUAL CHECKOUT VS. UCP AGENTS
+**Subtitle:** Eliminating 3-4 weekly hours of shopping friction and repetitive form-filling
 
 ### 🎙️ English Lecture Script
 
@@ -480,8 +480,8 @@ You elevate your workforce into strategic leaders, system designers, and creativ
 
 ---
 
-## Slide 17: PART 3: FINANCIAL PROTECTION VIA AP2 & DIGITAL MANDATES
-**Subtitle:** Cryptographic Safety Handshakes, Spending Boundaries, and Hardware Secure Enclaves
+## Slide 17: AGENT FINANCIAL AUTONOMY: WALLET CEILINGS & PERMISSIONS
+**Subtitle:** Establishing deterministic financial guardrails before issuing autonomous purchasing rights
 
 ### 🎙️ English Lecture Script
 
@@ -718,8 +718,8 @@ Your wallet is protected by a triple-layer defensive fortress!
 
 ---
 
-## Slide 26: PART 4: GOVERNANCE, PRIVACY & THE ROADMAP
-**Subtitle:** Enterprise Compliance, Shadow IT Defenses, Privacy Vaults, and Lab 8 Assignment
+## Slide 26: AGENTIC COMMERCE ROADMAP: THE 3-STEP INTEGRATION FLYWHEEL
+**Subtitle:** How progressive enterprises deploy UCP endpoints to capture machine-driven revenue
 
 ### 🎙️ English Lecture Script
 

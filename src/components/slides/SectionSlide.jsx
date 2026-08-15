@@ -19,7 +19,7 @@ export default function SectionSlide({ slideData }) {
 
         <div>
           <span className="text-sm md:text-base font-mono font-bold text-amber-400 uppercase tracking-widest block mb-3">
-            CHAPTER DIVIDER
+            PART DIVIDER
           </span>
           <h2 className="text-4xl md:text-6xl font-black text-white tracking-wide leading-tight">
             {slideData.title}
