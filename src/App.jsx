@@ -4,11 +4,11 @@ import SlideDeck from './components/SlideDeck';
 import PresenterMode from './components/PresenterMode';
 import SlideOverviewModal from './components/SlideOverviewModal';
 import PrintSlidesView from './components/PrintSlidesView';
-import { SLIDES_SESSION_1, SLIDES_SESSION_2, SLIDES_SESSION_3, SLIDES_SESSION_4, SLIDES_SESSION_5, SLIDES_SESSION_6, SLIDES_SESSION_7 } from './data/slidesData';
+import { SLIDES_SESSION_1, SLIDES_SESSION_2, SLIDES_SESSION_3, SLIDES_SESSION_4, SLIDES_SESSION_5, SLIDES_SESSION_6, SLIDES_SESSION_7, SLIDES_SESSION_8 } from './data/slidesData';
 import { Keyboard } from 'lucide-react';
 
 export default function App() {
-  const [selectedSession, setSelectedSession] = useState(7);
+  const [selectedSession, setSelectedSession] = useState(8);
   const [currentSlideIndex, setCurrentSlideIndex] = useState(0);
   const [isPresenterOpen, setIsPresenterOpen] = useState(false);
   const [isOverviewOpen, setIsOverviewOpen] = useState(false);
@@ -22,7 +22,9 @@ export default function App() {
     selectedSession === 4 ? SLIDES_SESSION_4 : 
     selectedSession === 5 ? SLIDES_SESSION_5 : 
     selectedSession === 6 ? SLIDES_SESSION_6 : 
-    (SLIDES_SESSION_7 || SLIDES_SESSION_1);
+    selectedSession === 7 ? SLIDES_SESSION_7 : 
+    (SLIDES_SESSION_8 || SLIDES_SESSION_1);
+
 
 
 
