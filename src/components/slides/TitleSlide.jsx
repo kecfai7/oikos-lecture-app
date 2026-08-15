@@ -52,7 +52,9 @@ export default function TitleSlide({ slideData }) {
           <ShieldCheck className="w-5 h-5 text-cyan-400" />
           <span className="font-bold text-white text-base md:text-lg">{slideData.instructor}</span>
         </div>
-        <span className="text-slate-400 font-mono font-bold text-sm md:text-base">Session 1 of 15 Master Course</span>
+        <span className="text-slate-400 font-mono font-bold text-sm md:text-base">
+          Session {slideData.sessionNum || slideData.detail?.match(/Session (\d+)/i)?.[1] || '1'} of 15 Master Course
+        </span>
       </motion.div>
     </div>
   );
