@@ -14,7 +14,7 @@ export const SESSIONS = [
   { id: 10, title: "Session 10: Antigravity 2.0 & 93-Agent Swarm Orchestration", active: true },
   { id: 11, title: "Session 11: True AI Science: HurekaBench & Fact Verification", active: true },
   { id: 12, title: "Session 12: World Models: Genie 3 Simulation & Waymo Training", active: true },
-  { id: 13, title: "Session 13: Calculated Art: SVG Engineering & LaTeX Math", active: false },
+  { id: 13, title: "Session 13: Calculated Art: SVG Engineering & LaTeX Math", active: true },
   { id: 14, title: "Session 14: Cinematic AI Pipelines: Flow AI vs Runway ML", active: false },
   { id: 15, title: "Session 15: IT Wisdom Peak: Human-on-the-Loop & Life OS Board", active: false },
 ];
@@ -17800,6 +17800,1466 @@ export const SLIDES_SESSION_12 = [
         "term": "SVG Vector Engineering Preview",
         "def": "The upcoming exploration of resolution-independent generative vector graphics and mathematical typesetting.",
         "defKo": "SVG 벡터 엔지니어링 (Session 13 예고)"
+      }
+    ]
+  }
+];
+
+export const SLIDES_SESSION_13 = [
+  {
+    "num": 1,
+    "sessionNum": 13,
+    "type": "title",
+    "title": "OIKOS UNIVERSITY • SOLI DEO GLORIA",
+    "subtitle": "THE ARCHITECT OF INTELLIGENCE: Mastering Agentic IT & Strategic Wisdom",
+    "detail": "Session 13: Calculated Art: SVG Vector Engineering & LaTeX Mathematical Orchestration",
+    "instructor": "Prof. Peter Kim, Director of Smart Insight Lab • www.oikos.edu",
+    "script": "Good evening, esteemed scholars and future architects of Oikos University! A warm welcome to Session 13 of our master course: \"The Architect of Intelligence: Mastering Agentic IT and Strategic Wisdom.\" My name is Professor Peter Kim.\n\nPlease look at our title on the screen: \"Calculated Art: SVG Vector Engineering & LaTeX Mathematical Orchestration.\"\n\nToday, we cross an extraordinary technological and aesthetic frontier! We are moving beyond the heavy, blurry prison of pixel grids into the infinite, crystal-clear realm of pure mathematical calculations!\n\nWe will discover how to turn visual designs into clean, executable SVG vector code, and how to express complex scientific formulas through elegant LaTeX typesetting orchestrated by multimodal AI!\n\nFor all our international scholars joining from across the globe, we will explain every concept in simple, clear, and friendly conversational English. Let us begin our journey into calculated beauty under our sacred motto, Soli Deo Gloria!",
+    "koreanGuide": {
+      "summary": "Session 13 개요 및 SVG 벡터 공학과 LaTeX 수식 조율 환영 인사",
+      "points": [
+        "강의 주제: 픽셀(비트맵)의 한계를 넘어 무한 해상도의 수학적 벡터 코드(SVG)와 LaTeX 수식 체계 마스터",
+        "래스터 이미지의 2차 비효율 극복 및 브라우저 DOM 네이티브 벡터 스타일링",
+        "멀티모달 Gemini AI를 통한 텍스트-벡터/LaTeX 자동 변환 및 친환경 지속 가능 웹 엔지니어링"
+      ],
+      "tips": "정적 이미지 파일의 노역에서 벗어나 코드로 그림을 그리고 수식을 지휘하는 계산된 예술의 세계를 열어주세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Calculated Art",
+        "def": "Rendering visual aesthetics and scientific equations through executable mathematical formulas rather than static pixel grids.",
+        "defKo": "계산된 예술 (수학적 수식 및 코드로 구현하는 시각 예술)"
+      },
+      {
+        "term": "SVG Vector Engineering",
+        "def": "Using scalable vector graphics XML code to build infinitely sharp, interactive, and lightweight web assets.",
+        "defKo": "SVG 벡터 엔지니어링 (XML 기반 무한 해상도 벡터 공학)"
+      }
+    ]
+  },
+  {
+    "num": 2,
+    "type": "motto",
+    "title": "SOLI DEO GLORIA: PERFECT FORMS IN MATHEMATICAL ORDER",
+    "subtitle": "Bringing geometric clarity out of chaotic pixel grids under Soli Deo Gloria and Ephesians 5:16",
+    "points": [
+      "Soli Deo Gloria: Glory to God Alone as the ultimate foundation of geometric truth and beauty.",
+      "Traditional Pixels: Fragile, static grid memories that blur and shatter when magnified.",
+      "Divine Vector Order: Infinite, rational mathematical equations reflecting cosmic harmony."
+    ],
+    "script": "Let us turn to Slide 2: \"Soli Deo Gloria: Perfect Forms in Mathematical Order.\"\n\nAt Oikos University, our guiding anchor is Soli Deo Gloria—Glory to God Alone.\n\nHow does this theological truth apply to web engineering and vector code?\nTraditional pixels are like dust—fragile, static grid snapshots that blur and break when you stretch them.\n\nIn contrast, mathematics represents eternal, rational order. An SVG equation or a LaTeX formula does not decay; whether viewed on a wristwatch or a giant stadium screen, its mathematical curves remain infinitely sharp and pure!\n\nBy replacing manual pixel-pushing with clean vector code, we reflect God's geometric harmony and redeem our cognitive time for higher callings! Soli Deo Gloria!",
+    "koreanGuide": {
+      "summary": "Soli Deo Gloria와 수학적 질서 속의 완벽한 기하학적 형상",
+      "points": [
+        "신앙적 가치: 부서지기 쉬운 먼지 같은 픽셀에서 벗어나 영원하고 완벽한 수학적 질서의 세계로 전환",
+        "벡터의 영원성: 시계 화면이든 100인치 스크린이든 수학 방정식으로 계산되는 곡선은 절대 깨지지 않음",
+        "청지기적 소명: 수작업 픽셀 노역에서 해방되어 하나님의 창조적 조화를 웹 아키텍처로 구현"
+      ],
+      "tips": "수학의 질서와 아름다움이 하나님의 창조 섭리를 반영하고 있음을 품격 있게 전하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Mathematical Order",
+        "def": "The rational geometric stability inherent in vector calculations that prevents resolution degradation.",
+        "defKo": "수학적 질서 (해상도 무관성)"
+      }
+    ]
+  },
+  {
+    "num": 3,
+    "type": "triad",
+    "title": "RECLAIMING THE SABBATH: ESCAPING AESTHETIC MUCK",
+    "subtitle": "Rescuing 3 to 4 hours weekly by automating manual Photoshop exports and format adjustments",
+    "cards": [
+      {
+        "title": "1. Aesthetic Muck",
+        "desc": "Endless repetitive hours spent manually slicing, resizing, and re-exporting PNG and JPEG icons."
+      },
+      {
+        "title": "2. Agentic Automation",
+        "desc": "Using multimodal Gemini to convert rough sketches into production-ready SVG code in seconds."
+      },
+      {
+        "title": "3. The Sabbath Margin",
+        "desc": "Reclaiming 3 to 4 hours of deep focus and spiritual rest every week free from design anxiety."
+      }
+    ],
+    "script": "Please look at Slide 3: \"Reclaiming the Sabbath: Escaping Aesthetic Muck.\"\n\nThink of the exhausting hours designers spend in Photoshop: resizing logos for twenty different screen resolutions, re-exporting banners, and adjusting color formats. We call this \"aesthetic muck\"—low-value, repetitive friction!\n\nOur biblical mandate to \"redeem the time\" calls us to automate this drudgery.\n\nBy commanding multimodal AI agents to generate mathematically flexible SVG code directly, we eliminate the export grind entirely! \n\nYou reclaim three to four hours of deep creative focus and peaceful Sabbath rest every single week!",
+    "koreanGuide": {
+      "summary": "안식의 회복: 디자인 노역(Aesthetic Muck) 탈출과 주 3~4시간 시간 구속",
+      "points": [
+        "1. 디자인 잡무의 늪 (Aesthetic Muck): 포토샵에서 해상도별로 아이콘 크기 바꾸고 내보내느라 진이 빠지는 노역",
+        "2. 에이전틱 자동화: 멀티모달 AI에게 자연어로 지시하여 한 번에 모든 해상도에 대응하는 SVG 코드를 즉시 생성",
+        "3. 안식의 여백 회복: 기계적 디자인 잡무에서 벗어나 매주 3~4시간의 거룩한 안식과 심층 연구 시간 확보"
+      ],
+      "tips": "디자이너와 개발자들이 밤새 아이콘 자르고 크기 맞추던 고통을 공감하며 해방을 선언하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Aesthetic Muck",
+        "def": "Low-cognitive, repetitive design labor such as manual resizing, cropping, and multi-format exporting.",
+        "defKo": "디자인 잡무의 늪 (Aesthetic Muck)"
+      }
+    ]
+  },
+  {
+    "num": 4,
+    "type": "triad",
+    "title": "RASTER ARCHITECTURE: PIXELS LOCKED IN STATIC GRIDS",
+    "subtitle": "How PNG, JPG, and WebP files trap visual data in rigid, un-scalable memory maps",
+    "cards": [
+      {
+        "title": "1. Fixed Grid Memory",
+        "desc": "Stores color values point-by-point in rigid 2D coordinate arrays that cannot self-reconfigure."
+      },
+      {
+        "title": "2. High Cache Consumption",
+        "desc": "Larger resolutions demand massive file sizes, causing memory bloat and slow network transfers."
+      },
+      {
+        "title": "3. Linear Rendering Scan",
+        "desc": "Forces client browser engines to scan and render millions of redundant pixel values one by one."
+      }
+    ],
+    "script": "Look at Slide 4: \"Raster Architecture: How Pixels Lock Data in Static Grids.\"\n\nTo understand why vectors are superior, let us examine traditional raster images like PNG, JPG, and WebP.\n\nA raster file is simply a fixed 2D grid of colored dots saved in historical memory. It has no awareness of geometry or shape!\n\nWhen you need a larger image, you must pack millions of additional color dots into the file. This creates bloated multi-megabyte files that choke mobile bandwidth and force phone browsers to render millions of redundant pixels linearly!",
+    "koreanGuide": {
+      "summary": "래스터(Raster) 아키텍처의 한계: 정적 격자에 갇힌 픽셀들",
+      "points": [
+        "1. 고정된 점 행렬: PNG, JPG는 색상 점들의 고정된 2D 격자 배열일 뿐 기하학적 형태를 알지 못함",
+        "2. 메모리 및 캐시 낭비: 해상도를 조금만 올려도 파일 용량이 기하급수적으로 폭증하여 모바일 네트워크 병목 유발",
+        "3. 선형적 렌더링 부하: 브라우저가 수백만 개의 점들을 하나하나 순차적으로 스캔하느라 CPU/RAM 과부하 발생"
+      ],
+      "tips": "모눈종이에 색칠해 놓은 그림(래스터)과 수식으로 정의된 도형(벡터)의 근본적 차이를 설명하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Raster Architecture",
+        "def": "A digital image format storing graphics as a rigid two-dimensional matrix of colored pixel dots.",
+        "defKo": "래스터 아키텍처 (비트맵 픽셀 격자 방식)"
+      }
+    ]
+  },
+  {
+    "num": 5,
+    "type": "comparison",
+    "title": "THE TRAGEDY OF SCALE: WHEN RESOLUTION COLLAPSES",
+    "subtitle": "The Aliasing Monster on 4K Retina screens vs. crisp vector mathematical scaling",
+    "leftCard": {
+      "tag": "RASTER STRETCH (COLLAPSE)",
+      "title": "The Aliasing Monster",
+      "points": [
+        "Stretching a small PNG forces the browser to guess missing points",
+        "Curved lines turn into ugly, jagged staircases (Aliasing)",
+        "Blurry interpolation ruins dashboard credibility on 4K Retina displays"
+      ]
+    },
+    "rightCard": {
+      "tag": "VECTOR EQUATION (PERFECTION)",
+      "title": "Infinite Needle Sharpness",
+      "points": [
+        "Equations dynamically re-calculate coordinates for the exact viewport size",
+        "Zero jagged edges or blurry interpolation artifacts at any scale",
+        "Flawless, crisp presentation on mobile watches, laptops, and 8K displays"
+      ]
+    },
+    "script": "Slide 5 illustrates \"The Tragedy of Scale: When Resolution Collapses.\"\n\nLook at what happens when you stretch a small raster icon on the left:\nYou encounter the \"Aliasing Monster\"! The computer tries to guess the missing pixels, turning elegant curves into ugly, jagged staircases and blurry smudges! On modern 4K and Retina screens, this blur looks terrible and destroys user trust!\n\nNow look at the right:\nA mathematical vector equation does not guess! It recalculates the curves on the fly, delivering needle-sharp perfection on any display!",
+    "koreanGuide": {
+      "summary": "확대의 비극: 해상도 붕괴와 앨리어싱 괴물(The Aliasing Monster)",
+      "points": [
+        "Left (래스터 확대의 참사): 작은 PNG를 확대하면 컴퓨터가 빈 공간을 대충 뭉개며 계단 현상(Aliasing)과 흐림 발생",
+        "Right (벡터 수식의 완벽성): 어떤 크기로 확대하든 뷰포트 해상도에 맞춰 수식을 즉시 재계산하여 바늘 끝처럼 선명함 유지",
+        "신뢰성: 흐릿한 대시보드 그래프는 고객에게 시스템이 낡고 불안정하다는 인상을 주므로 벡터 전환이 필수적임"
+      ],
+      "tips": "4K 모니터에서 글자나 아이콘이 흐리멍덩하게 번질 때 느껴지는 답답함을 생생히 묘사하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Aliasing Monster",
+        "def": "The visual distortion and jagged staircasing occurring when fixed pixel grids are stretched beyond native resolution.",
+        "defKo": "앨리어싱 (계단 현상 및 해상도 깨짐)"
+      }
+    ]
+  },
+  {
+    "num": 6,
+    "type": "triad",
+    "title": "THE MATHEMATICS OF STORAGE: QUADRATIC WASTE",
+    "subtitle": "Why doubling pixel resolution increases storage by 4x while vector code stays flat",
+    "cards": [
+      {
+        "title": "1. The Square-Law Rule",
+        "desc": "Because image area is width times height (N²), doubling resolution requires 4 times more pixel bytes."
+      },
+      {
+        "title": "2. 100x Storage Explosion",
+        "desc": "Scaling an image 10x demands a 100-fold increase in server disk space and bandwidth payloads."
+      },
+      {
+        "title": "3. Flat Vector Economy",
+        "desc": "SVG vector code size remains locked at a few kilobytes regardless of whether it renders at 1080p or 8K."
+      }
+    ],
+    "script": "Please look at Slide 6: \"The Mathematics of Storage: Quadratic Waste.\"\n\nLet us examine the computer science math:\nRaster storage follows the Square-Law rule: Area equals width multiplied by height.\nIf you double an image's resolution, the file size does not double—it multiplies by four!\nIf you scale an image tenfold, you need ONE HUNDRED TIMES more server storage and network bandwidth!\n\nIn contrast, SVG vector code stays completely flat! A 5-kilobyte SVG renders at 8K resolution without adding a single extra byte!",
+    "koreanGuide": {
+      "summary": "저장공간의 수학적 법칙: 래스터의 2차(Quadratic) 낭비 공식",
+      "points": [
+        "1. 제곱의 법칙 (Square-Law): 면적은 가로×세로(N²)이므로 해상도를 2배 키우면 용량은 4배로 폭증",
+        "2. 100배 용량 폭발: 10배 확대 시 서버 저장공간과 네트워크 트래픽은 100배 증가하는 심각한 병목 유발",
+        "3. 일정한 벡터 경제학: SVG는 수식 텍스트 몇 줄이므로 8K 화면으로 확대해도 파일 크기는 5KB 그대로 유지"
+      ],
+      "tips": "해상도를 10배 올렸을 뿐인데 데이터가 100배 폭증하는 래스터의 치명적 비효율을 수식으로 짚어주세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Quadratic Storage Growth",
+        "def": "The exponential increase in file size proportional to the square of the resolution increase in raster graphics.",
+        "defKo": "2차 저장공간 증가 (N² 용량 폭발)"
+      }
+    ]
+  },
+  {
+    "num": 7,
+    "type": "triad",
+    "title": "THE VECTOR BREAKTHROUGH: CODING DYNAMIC INSTRUCTIONS",
+    "subtitle": "Storing visual assets as pure geometric code compiled in real time by the browser engine",
+    "cards": [
+      {
+        "title": "1. Geometric Instructions",
+        "desc": "Replaces pixel coordinates with concise code: 'Draw a circle at center (X, Y) with radius R'."
+      },
+      {
+        "title": "2. Real-Time Compilation",
+        "desc": "The browser's layout engine dynamically calculates exact curve math during screen rendering."
+      },
+      {
+        "title": "3. Infinite Scalability",
+        "desc": "Formulas recalculate on the fly, delivering razor-sharp lines on mobile watches or giant stadium billboards."
+      }
+    ],
+    "script": "Look at Slide 7: \"The Vector Breakthrough: Coding Dynamic Instructions.\"\n\nHere is the revolution of Scalable Vector Graphics (SVG):\nInstead of memorizing millions of colored dots, SVG writes clean code instructions: \"Draw a blue rectangle, then place a circle at coordinate X, Y with radius R.\"\n\nWhen your browser loads the page, its rendering engine compiles the geometric math in real time! \n\nWhether the viewer zooms in by 500% or views it on a giant outdoor billboard, the curves are computed dynamically with flawless precision!",
+    "koreanGuide": {
+      "summary": "벡터 혁명: 기하학적 코드 명령어로 저장하고 실시간 렌더링하기",
+      "points": [
+        "1. 기하학적 명령어: 점들을 저장하는 대신 '반지름 R인 원을 (X, Y)에 그리고 파란색을 채워라'는 코드로 기록",
+        "2. 실시간 브라우저 컴파일: 브라우저가 화면을 그리는 순간 수학 공식을 풀어 완벽한 곡선 렌더링",
+        "3. 무한 확장성: 500%를 확대하든 대형 빌보드 전광판에 띄우든 단 1개의 픽셀 깨짐도 없는 무결점 화질"
+      ],
+      "tips": "그림을 저장하는 것이 아니라, 그림을 그리는 '수학 공식'을 저장하는 패러다임 전환을 설명하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Scalable Vector Graphics (SVG)",
+        "def": "An XML-based standard for describing two-dimensional interactive vector graphics through code.",
+        "defKo": "SVG (확장 가능한 벡터 그래픽스 표준)"
+      }
+    ]
+  },
+  {
+    "num": 8,
+    "type": "comparison",
+    "title": "PNG/JPG VS. SVG: THE MASTER COMPARISON MATRIX",
+    "subtitle": "The 4 core dimensions separating static pixel files from browser-native vector code",
+    "leftCard": {
+      "tag": "RASTER (PNG / JPG / WEBP)",
+      "title": "Static Pixel Grids",
+      "points": [
+        "Scaling: Blurs, pixellates, and exposes jagged staircases",
+        "File Size: Grows quadratically (N²) with higher resolutions",
+        "SEO Visibility: 100% invisible text to search engine web spiders",
+        "Styling: Cannot alter colors dynamically without exporting new files"
+      ]
+    },
+    "rightCard": {
+      "tag": "VECTOR (SVG CODE)",
+      "title": "Browser-Native Code",
+      "points": [
+        "Scaling: Remains infinitely needle-sharp at any zoom level",
+        "File Size: Remains flat, lightweight, and tiny (few kilobytes)",
+        "SEO Visibility: Fully searchable and indexable XML text nodes",
+        "Styling: 100% editable dynamically using CSS and JavaScript"
+      ]
+    },
+    "script": "Slide 8 presents our master comparison table: \"PNG/JPG versus SVG.\"\n\nLook at the four crucial dimensions:\n1. Scaling: Raster blurs; SVG remains infinitely sharp.\n2. File Size: Raster explodes quadratically; SVG stays tiny and flat.\n3. SEO Visibility: Search engines cannot read text inside a JPG; SVG text is fully indexable XML, boosting your search rankings!\n4. Dynamic Styling: You cannot recolor a PNG on the fly; an SVG can be styled instantly using standard CSS and JavaScript!\n\nSVG is a strategic necessity for modern enterprise IT!",
+    "koreanGuide": {
+      "summary": "PNG/JPG 대 SVG: 마스터 비교 매트릭스 4대 차원",
+      "points": [
+        "1. 확대 품질: 래스터는 흐려지고 깨지지만, SVG는 무한대로 선명함 유지",
+        "2. 파일 용량: 래스터는 해상도에 따라 2차 함수(N²)로 폭증하지만, SVG는 몇 KB로 고정",
+        "3. 검색엔진 최적화(SEO): JPG 속 글자는 구글 봇이 못 읽지만, SVG 속 텍스트는 100% 인덱싱되어 검색 노출 순위 상승",
+        "4. 동적 스타일링: PNG는 다시 그려야 하지만, SVG는 CSS/JS로 실시간 다크모드나 색상 변경 가능"
+      ],
+      "tips": "화질, 용량, 검색 노출, 웹 코딩 연동이라는 4대 핵심 이점을 일목요연하게 대조하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Vector Master Matrix",
+        "def": "The comparative framework evaluating resolution, file size, SEO indexability, and DOM scriptability.",
+        "defKo": "벡터 마스터 비교 매트릭스"
+      }
+    ]
+  },
+  {
+    "num": 9,
+    "type": "triad",
+    "title": "PYTHON SIMULATION: SLICING STORAGE BY 99%",
+    "subtitle": "Our benchmark results proving a 40,000x efficiency gain during 10x asset magnification",
+    "cards": [
+      {
+        "title": "1. 99% Storage Cut",
+        "desc": "High-res JPEG expanded to 300MB to preserve sharpness, while SVG stayed locked at 7.5KB."
+      },
+      {
+        "title": "2. 100% Visual Quality",
+        "desc": "Vector preserved 100% mathematical edge sharpness with zero blur or compression noise."
+      },
+      {
+        "title": "3. 40,000x Efficiency",
+        "desc": "Slashes network payloads by up to 40,000 times, dramatically accelerating page load speeds."
+      }
+    ],
+    "script": "Please look at Slide 9: \"Python Simulation: Slicing Storage Weight by 99%.\"\n\nAt Smart Insight Lab, we ran a Python benchmark testing a 10x magnification.\n\nLook at the empirical metrics:\nTo match Retina quality at 10x scale, a raster image bloated to three hundred megabytes! The SVG remained locked at a tiny 7.5 kilobytes!\n\nThat represents a 40,000-times efficiency gain! By migrating to SVG, you slash network payloads, speed up page loads to 0.1 seconds, and save thousands of dollars in cloud CDN costs!",
+    "koreanGuide": {
+      "summary": "파이썬 벤치마크 시뮬레이션: 용량 99% 절감과 40,000배 전송 효율",
+      "points": [
+        "1. 99% 저장공간 절감: 10배 확대 시 고해상도 JPEG는 300MB까지 폭증한 반면, SVG는 7.5KB로 고정",
+        "2. 100% 무결점 화질: 압축 노이즈나 가장자리 번짐 없이 완벽한 100% 품질 유지",
+        "3. 40,000배 네트워크 효율: 페이로드를 극적으로 줄여 웹페이지 로딩 속도를 0.1초대로 단축하고 CDN 비용 대폭 절감"
+      ],
+      "tips": "실제 파이썬 벤치마크 수치(300MB vs 7.5KB)를 제시하여 압도적인 기술적 격차를 실감케 하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Network Payload Efficiency",
+        "def": "The dramatic reduction in transmitted byte size achieved by replacing bitmaps with compressed vector markup.",
+        "defKo": "네트워크 페이로드 효율 (40,000배 절감)"
+      }
+    ]
+  },
+  {
+    "num": 10,
+    "type": "poll",
+    "title": "INTERACTIVE POLL: RECLAIMING YOUR DESIGN TIME",
+    "subtitle": "Which asset task drains the most cognitive energy and time in your workflow?",
+    "options": [
+      {
+        "label": "Option A",
+        "text": "Resizing logos and icons for multi-device compatibility (Device Scaling)",
+        "votes": 46
+      },
+      {
+        "label": "Option B",
+        "text": "Re-exporting localized charts, maps, and UI dashboards (Dashboard Rework)",
+        "votes": 34
+      },
+      {
+        "label": "Option C",
+        "text": "Manually updating color themes for Dark Mode and Light Mode (Theming)",
+        "votes": 29
+      },
+      {
+        "label": "Option D",
+        "text": "Wrestling with screen-reader alt-text for image accessibility (Accessibility)",
+        "votes": 18
+      }
+    ],
+    "script": "Let us pause for our interactive live poll on Slide 10!\n\nPlease scan the QR code on your screen or vote in our web interface: \"Which asset task drains the most design time and cognitive energy in your workflow?\"\n\nOption A: Resizing icons and logos for phones, tablets, and desktops.\nOption B: Re-exporting charts, dashboards, and maps when data updates.\nOption C: Updating color themes for Dark Mode and Light Mode.\nOption D: Writing accessibility alt-text for screen readers.\n\nCast your votes right now! Let us see where design friction hurts our team the most!",
+    "koreanGuide": {
+      "summary": "실시간 청중 설문조사: 디자인 워크플로우에서 가장 많은 시간을 뺏는 잡무는?",
+      "points": [
+        "Option A: 다양한 디바이스 해상도별 로고 및 아이콘 크기 리사이징 (기기 대응)",
+        "Option B: 데이터 변경 시 차트, 대시보드, 지도를 일일이 다시 내보내기 (대시보드 노역)",
+        "Option C: 다크 모드와 라이트 모드 전환을 위해 이미지 색상 수동 교체 (테마 대응)",
+        "Option D: 시각장애인 스크린 리더를 위한 대체 텍스트 수작업 작성 (웹 접근성)"
+      ],
+      "tips": "학생들이 웹 프로젝트나 실무에서 겪었던 가장 번거로운 그래픽 작업 경험을 떠올리게 하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Design Workflow Friction",
+        "def": "The repetitive clerical friction of manually updating visual assets across multiple devices and themes.",
+        "defKo": "디자인 워크플로우 병목"
+      }
+    ]
+  },
+  {
+    "num": 11,
+    "type": "section",
+    "title": "PART 2: THE XML FABRIC OF SVG",
+    "subtitle": "DOM Integration, Bezier Curve Calculus, Responsive viewBox, and Semantic Accessibility",
+    "script": "We now enter Part 2 of our lecture: \"The XML Fabric of SVG.\"\n\nHow does an SVG file actually work inside the browser? Why is it treated like live HTML code rather than a static picture?\n\nIn this section, we will deconstruct SVG XML syntax, master the calculus of Bezier curves, unlock the secrets of the responsive viewBox attribute, and explore semantic accessibility for screen readers. Let us inspect the code!",
+    "koreanGuide": {
+      "summary": "Part 2 섹션 전환: SVG의 XML 내부 구조와 DOM 연동",
+      "points": [
+        "W3C 개방형 표준인 SVG의 XML 텍스트 구조와 브라우저 DOM 직접 결합 원리",
+        "베지에 곡선(Bezier Curve) 미적분, 반응형 viewBox 좌표계, 그리고 웹 접근성(ARIA)"
+      ],
+      "tips": "SVG가 단순한 그림 파일이 아니라 살아 숨 쉬는 웹 코드임을 밝히는 엔지니어링 파트입니다."
+    },
+    "keyTerms": [
+      {
+        "term": "XML Fabric of SVG",
+        "def": "The human-readable, tag-based markup structure that enables SVG graphics to integrate natively into the browser DOM.",
+        "defKo": "SVG의 XML 구조 (DOM 네이티브 벡터 직조)"
+      }
+    ]
+  },
+  {
+    "num": 12,
+    "type": "triad",
+    "title": "SVG AS AN OPEN XML DIALECT: BROWSER NATIVE",
+    "subtitle": "Why browsers parse SVG directly into the Document Object Model (DOM) with zero overhead",
+    "cards": [
+      {
+        "title": "1. W3C Open Standard",
+        "desc": "Written in human-readable XML text, fully inspectable with browser DevTools."
+      },
+      {
+        "title": "2. Direct DOM Integration",
+        "desc": "Parsed directly into the Document Object Model; every line and circle behaves like an HTML element."
+      },
+      {
+        "title": "3. Zero Decoder Overhead",
+        "desc": "Renders instantly without requiring heavy image decoding libraries or third-party canvas plug-ins."
+      }
+    ],
+    "script": "Look at Slide 12: \"SVG as an Open XML Dialect: Browser Native.\"\n\nSVG is not a mysterious binary blob. It is an open W3C standard written in plain XML text!\n\nWhen your browser loads an SVG, it does not treat it as an external foreign image. It parses the `<svg>`, `<path>`, and `<circle>` tags directly into the Document Object Model—the DOM!\n\nThis means every single line and shape behaves exactly like an HTML `<div>`! You can inspect it in DevTools, attach click events, and style it with CSS with zero plugin overhead!",
+    "koreanGuide": {
+      "summary": "오픈 XML 표준으로서의 SVG: 브라우저 DOM 직접 결합",
+      "points": [
+        "1. W3C 개방형 표준: 사람이 메모장으로 열어서 직접 읽고 수정할 수 있는 투명한 XML 텍스트 형식",
+        "2. DOM 직접 통합: 브라우저가 SVG 태그들을 HTML 요소처럼 취급하여 자바스크립트와 완벽 연동",
+        "3. 제로 디코더 부하: 별도의 이미지 압축 해제 라이브러리 없이 브라우저 내장 엔진이 초고속 렌더링"
+      ],
+      "tips": "F12 개발자 도구로 HTML 태그처럼 열어서 마음대로 주무를 수 있는 SVG의 유연함을 강조하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "DOM Integration",
+        "def": "The seamless embedding of vector XML nodes into the live browser Document Object Model tree.",
+        "defKo": "DOM 직접 결합 (브라우저 객체 모델 통합)"
+      }
+    ]
+  },
+  {
+    "num": 13,
+    "type": "triad",
+    "title": "PILLAR SHAPES: PATHS, ARCS, AND GROUPING",
+    "subtitle": "Mastering primitives and the sovereign <path> command engine with M, L, C, and Z",
+    "cards": [
+      {
+        "title": "1. Basic Primitives",
+        "desc": "Instant rendering tags like `<rect>`, `<circle>`, `<ellipse>`, and `<polygon>` for simple geometry."
+      },
+      {
+        "title": "2. The Sovereign <path>",
+        "desc": "The ultimate vector engine: `<path d='M 10 10 L 90 90 Z'>` capable of drawing any imaginable 2D shape."
+      },
+      {
+        "title": "3. Logical Grouping (<g>)",
+        "desc": "Groups complex shapes into reusable clusters sharing unified CSS transforms, fills, and opacities."
+      }
+    ],
+    "script": "Slide 13 introduces \"Pillar Shapes: Paths, Arcs, and Grouping.\"\n\nLet us look at the core building blocks:\nFirst: Primitives like `<rect>` and `<circle>` are fast for simple buttons.\nSecond: The `<path>` tag is the absolute sovereign of vector graphics! Using simple letter commands—M to Move To, L to Line To, C for Cubic Curves, and Z to close the loop—a single path can draw any logo, chart, or character!\nThird: The `<g>` grouping tag bundles shapes together so you can animate an entire icon with one CSS class!",
+    "koreanGuide": {
+      "summary": "핵심 벡터 도형과 만능 <path> 엔진 (M, L, C, Z 명령어)",
+      "points": [
+        "1. 기본 기본형 (Primitives): `<rect>`, `<circle>`, `<polygon>` 등 단순 기하학 도형 즉각 렌더링",
+        "2. 만능 `<path>` 태그: M(이동), L(직선), C(베지에 곡선), Z(경로 닫기) 단 4개 명령어로 세상의 모든 형태 드로잉",
+        "3. 논리적 그룹화 (`<g>`): 여러 도형을 하나의 그룹으로 묶어 일괄 회전, 이동, 색상 스타일 적용"
+      ],
+      "tips": "M(펜을 종이에 대고), L(선을 긋고), C(곡선을 그리며), Z(처음 점으로 돌아와 닫는) 펜 드로잉 과정을 연상시키세요."
+    },
+    "keyTerms": [
+      {
+        "term": "SVG Path Engine",
+        "def": "The core XML specification using compact string commands (M, L, C, Z) to construct complex 2D vector shapes.",
+        "defKo": "SVG 패스 엔진 (<path> 명령어 체계)"
+      }
+    ]
+  },
+  {
+    "num": 14,
+    "type": "comparison",
+    "title": "THE CALCULUS OF BEZIER CURVES: PERFECT ARCS",
+    "subtitle": "Quadratic single-control curves vs. Cubic double-control S-curves for fluid aesthetics",
+    "leftCard": {
+      "tag": "QUADRATIC BEZIER (Q)",
+      "title": "Single Control Point",
+      "points": [
+        "Command: `Q cx cy, x y`",
+        "Uses a single mathematical control point to pull the line outward",
+        "Ideal for simple parabolic arcs, archways, and rounded corners"
+      ]
+    },
+    "rightCard": {
+      "tag": "CUBIC BEZIER (C)",
+      "title": "Dual Control Points",
+      "points": [
+        "Command: `C c1x c1y, c2x c2y, x y`",
+        "Uses two independent control handles to pull curves in opposing directions",
+        "Essential for fluid organic shapes, human silhouettes, and complex S-curves"
+      ]
+    },
+    "script": "Look at Slide 14 for the mathematics of elegance: \"The Calculus of Bezier Curves.\"\n\nHow does code draw a perfectly smooth organic curve without jagged edges?\nThrough Bezier polynomials!\n\nLook at Quadratic Bezier (Q) on the left: It uses one control handle to pull the line into an arch.\nLook at Cubic Bezier (C) on the right: It uses TWO independent control handles! \n\nThis allows you to pull the curve in opposite directions simultaneously, creating beautiful fluid S-curves, waves, and company logos with minimal code!",
+    "koreanGuide": {
+      "summary": "베지에 곡선(Bezier Curve)의 미적분: 2차(Q) 대 3차(C) 곡선",
+      "points": [
+        "Left (2차 베지에 Q): 1개의 제어점(Control Point)으로 선을 잡아당겨 포물선이나 단순 라운딩 제작",
+        "Right (3차 베지에 C): 2개의 독립된 제어점으로 선의 양쪽을 당겨 유려한 S자 곡선과 유기적 형태 창조",
+        "수학적 완벽성: 다항식 매개변수 방정식으로 계산되므로 아무리 확대해도 곡선의 부드러움이 100% 유지됨"
+      ],
+      "tips": "양손에 자석을 쥐고 팽팽한 고무줄을 당겨 유려한 파도 곡선을 만드는 원리로 설명하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Cubic Bezier Curve",
+        "def": "A parametric polynomial curve governed by two control handles ensuring smooth curvature transitions.",
+        "defKo": "3차 베지에 곡선 (Dual Control Handles)"
+      }
+    ]
+  },
+  {
+    "num": 15,
+    "type": "triad",
+    "title": "DOM MASTERY: STYLING VECTOR NODES WITH CSS & JS",
+    "subtitle": "Manipulating vector fills, strokes, hover animations, and dark modes dynamically in real time",
+    "cards": [
+      {
+        "title": "1. CSS Class Selectors",
+        "desc": "Target individual SVG `<path>` elements directly using standard `.icon-accent { fill: #c5a059; }` rules."
+      },
+      {
+        "title": "2. Dynamic Hover States",
+        "desc": "Add `:hover` triggers to illuminate dashboard charts, rotate gears, and scale cards smoothly."
+      },
+      {
+        "title": "3. JavaScript Scripting",
+        "desc": "Update chart path coordinates dynamically in real time when new live API data streams arrive."
+      }
+    ],
+    "script": "Slide 15 reveals the developer superpower: \"DOM Mastery: Styling Vector Nodes.\"\n\nBecause SVGs live inside the DOM, you style them with standard CSS!\n\nYou can write: `.chart-bar:hover { fill: #c5a059; transform: scale(1.05); }`. \nWhen the user hovers over a chart, it glows and animates smoothly!\n\nWhen new live stock prices arrive via an API, JavaScript can update the SVG path coordinates in real time without refreshing the page! One vector asset serves every state!",
+    "koreanGuide": {
+      "summary": "DOM 제어의 정점: CSS와 자바스크립트로 벡터 노드 실시간 조작",
+      "points": [
+        "1. CSS 클래스 셀렉터: SVG 내부의 `<path>` 태그를 `.accent-bar { fill: gold; }`처럼 일반 HTML처럼 스타일링",
+        "2. 동적 호버 애니메이션: 마우스를 올렸을 때 색상이 바뀌고 부드럽게 커지는 인터랙티브 UI 즉시 구현",
+        "3. 자바스크립트 실시간 연동: 실시간 주가나 센서 데이터가 들어올 때 차트의 path 좌표를 웹 새로고침 없이 즉각 변경"
+      ],
+      "tips": "별도 이미지 제작 없이 CSS 코드 몇 줄로 그림의 색깔과 크기를 마음대로 바꾸는 마법을 보여주세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Vector DOM Styling",
+        "def": "Applying native CSS properties and JavaScript events directly to SVG XML nodes in real time.",
+        "defKo": "벡터 DOM 스타일링 (CSS/JS 실시간 제어)"
+      }
+    ]
+  },
+  {
+    "num": 16,
+    "type": "triad",
+    "title": "RESPONSIVE VECTORS: THE VIEWBOX ATTRIBUTE",
+    "subtitle": "How viewBox='0 0 100 100' establishes an internal infinite coordinate canvas",
+    "cards": [
+      {
+        "title": "1. The Local Canvas Grid",
+        "desc": "`viewBox='minX minY width height'` establishes an internal infinite coordinate reference grid."
+      },
+      {
+        "title": "2. Fluid Responsive Scaling",
+        "desc": "SVG scales smoothly to fill 100% of any parent HTML container while keeping internal aspect ratios."
+      },
+      {
+        "title": "3. Aspect Ratio Lock",
+        "desc": "`preserveAspectRatio='xMidYMid meet'` prevents graphic distortion across ultra-wide or vertical mobile screens."
+      }
+    ],
+    "script": "Please look at Slide 16: \"Responsive Vectors: The viewBox Attribute.\"\n\nHow does an SVG know how to scale cleanly across both a tiny smartwatch and an ultra-wide monitor?\n\nThe secret is the `viewBox` attribute!\nWhen you declare `viewBox='0 0 100 100'`, you create an internal local canvas grid. \n\nThe graphic scales fluidly to fill any container, while `preserveAspectRatio` ensures circles never stretch into distorted eggs! You can even write CSS media queries inside the SVG!",
+    "koreanGuide": {
+      "summary": "반응형 벡터의 핵심: viewBox 속성과 내부 무한 좌표계",
+      "points": [
+        "1. 내부 가상 캔버스: `viewBox='0 0 100 100'`은 외형 크기와 무관한 불변의 로컬 기준 좌표계를 선언",
+        "2. 유연한 반응형 스케일링: 부모 컨테이너 크기(100%)에 맞춰 부드럽게 늘어나거나 줄어듦",
+        "3. 종횡비 왜곡 방지: `preserveAspectRatio` 속성이 원이 타원으로 찌그러지는 현상을 원천 방지"
+      ],
+      "tips": "viewBox는 작은 스마트폰부터 초대형 TV까지 화면 크기에 맞춰 완벽하게 비율을 지켜주는 렌즈라고 설명하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "viewBox Attribute",
+        "def": "The SVG XML attribute defining the internal coordinate system and aspect ratio mapping for responsive rendering.",
+        "defKo": "viewBox 속성 (반응형 내부 좌표계)"
+      }
+    ]
+  },
+  {
+    "num": 17,
+    "type": "comparison",
+    "title": "THE SEO RENAISSANCE: SEARCHABLE VECTOR TEXT",
+    "subtitle": "Un-indexable raster images vs. fully crawlable XML <text> nodes boosting Google rankings",
+    "leftCard": {
+      "tag": "LOCKED JPEG / PNG (BLIND)",
+      "title": "Invisible to Search Engines",
+      "points": [
+        "Text inside PNG charts is completely invisible to Google web spiders",
+        "Zero keyword value; misses massive organic search traffic opportunities",
+        "Cannot embed interactive hyperlink `<a>` tags inside the image"
+      ]
+    },
+    "rightCard": {
+      "tag": "OPEN SVG (SEARCHABLE)",
+      "title": "100% Crawlable XML Text",
+      "points": [
+        "Google bots scan and index every `<text>` node inside the SVG natively",
+        "Embeds live clickable `<a href='...'>` links directly inside visual diagrams",
+        "Massively boosts organic SEO ranking and technical search visibility"
+      ]
+    },
+    "script": "Look at Slide 17 for an immense business advantage: \"The SEO Renaissance.\"\n\nFor any enterprise platform, visibility on Google is everything!\n\nLook at the left: If your technical diagram is a PNG, the text inside is totally invisible to search engine crawlers. It generates zero SEO value!\n\nNow look at the right: \nGoogle's search bots scan and index every `<text>` tag inside an SVG file natively! You can even embed live clickable hyperlinks `<a href>` inside the graphics! This boosts your search ranking dramatically!",
+    "koreanGuide": {
+      "summary": "SEO 르네상스: 검색엔진이 읽을 수 있는 벡터 텍스트의 위력",
+      "points": [
+        "Left (눈먼 래스터 이미지): PNG 차트 속 글자는 구글 크롤러가 읽지 못해 검색 키워드 가치 0점",
+        "Right (열린 SVG 벡터): 구글 봇이 SVG 내부의 `<text>` 노드를 완벽히 인덱싱하여 검색 노출 순위 대폭 상승",
+        "클릭 가능한 링크: 다이어그램 내부에 `<a href>` 링크를 직접 심어 사용자를 관련 페이지로 즉각 유도"
+      ],
+      "tips": "시각적 아름다움뿐만 아니라 기업의 마케팅과 검색 유입을 극대화하는 비즈니스 무기임을 강조하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "SVG SEO Indexability",
+        "def": "The capability of search engine bots to crawl, parse, and index text elements embedded inside SVG XML files.",
+        "defKo": "SVG 검색엔진 최적화 (XML 텍스트 인덱싱)"
+      }
+    ]
+  },
+  {
+    "num": 18,
+    "type": "triad",
+    "title": "DIGITAL INCLUSION: SCREEN READERS & WCAG 2.1",
+    "subtitle": "Semantic accessibility tags making visual vector dashboards accessible to all humans",
+    "cards": [
+      {
+        "title": "1. Semantic `<title>` & `<desc>`",
+        "desc": "Embeds clear auditory descriptions inside the SVG for screen readers to announce to visually impaired users."
+      },
+      {
+        "title": "2. ARIA Role Attributes",
+        "desc": "Declares `role='img'` and `aria-labelledby` to guarantee strict WCAG 2.1 compliance."
+      },
+      {
+        "title": "3. Keyboard Accessibility",
+        "desc": "Enables users to tab through interactive chart bars and toggle data filters using only keyboard arrows."
+      }
+    ],
+    "script": "Slide 18 addresses our sacred calling: \"Digital Inclusion: Screen Readers & WCAG 2.1.\"\n\nAt Oikos University, we design systems for all humans, including those with visual impairments.\n\nScreen readers cannot read flat JPEGs. But with SVG, we embed semantic `<title>` and `<desc>` tags alongside ARIA roles. \n\nWhen a visually impaired user tabs onto a chart, their screen reader speaks: \"Quarterly Revenue Bar Chart: 45 million dollars in Q3.\" It creates a truly inclusive, accessible digital world!",
+    "koreanGuide": {
+      "summary": "디지털 포용: 스크린 리더와 WCAG 2.1 웹 접근성 표준",
+      "points": [
+        "1. 시맨틱 `<title>` & `<desc>` 태그: 시각장애인 스크린 리더가 차트의 의미와 수치를 음성으로 읽어주도록 설계",
+        "2. ARIA 역할 속성: `role='img'` 및 라벨 연동으로 글로벌 웹 접근성 가이드라인(WCAG 2.1) 완벽 준수",
+        "3. 키보드 접근성: 마우스 없이 탭(Tab) 키만으로 차트의 각 막대를 이동하며 데이터를 탐색 가능"
+      ],
+      "tips": "소외된 이웃까지 배려하는 기술의 따뜻한 청지기적 책무를 감동적으로 전달하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "WCAG 2.1 Vector Accessibility",
+        "def": "Structuring SVG files with ARIA attributes and semantic description tags to ensure assistive technology compatibility.",
+        "defKo": "WCAG 2.1 웹 접근성 (시각장애인 지원 벡터)"
+      }
+    ]
+  },
+  {
+    "num": 19,
+    "type": "comparison",
+    "title": "CASE STUDY: 1,000X ASSET COMPRESSION IN SAAS",
+    "subtitle": "Slashing an enterprise analytics dashboard from 4.2MB to 3.8KB and cutting load times by 97%",
+    "leftCard": {
+      "tag": "LEGACY SAAS DASHBOARD (PNG)",
+      "title": "4.2MB Page Weight Grind",
+      "points": [
+        "High-res dashboard icons and background charts weighed 4.2 megabytes",
+        "Mobile loading latency averaged 3.2 seconds over 4G cellular networks",
+        "High global cloud CDN egress bandwidth bills"
+      ]
+    },
+    "rightCard": {
+      "tag": "VECTOR MIGRATION (SVG)",
+      "title": "3.8KB Lightweight Speed",
+      "points": [
+        "Converted all visual dashboard components into clean 3.8 kilobyte SVGs",
+        "Mobile page load times dropped from 3.2 seconds to 0.1 seconds (97% faster)",
+        "Slashed monthly cloud bandwidth expenses by 95% at global enterprise scale"
+      ]
+    },
+    "script": "Look at Slide 19 for a real-world enterprise case study: \"1,000x Asset Compression in SaaS.\"\n\nA major cloud analytics platform was suffering from high user bounce rates. Why? Their high-res PNG charts bloated page weight to 4.2 megabytes, causing a sluggish 3.2-second load time on mobile devices!\n\nBy migrating to clean, semantic SVGs, total asset weight plunged to just 3.8 kilobytes! \n\nMobile load times dropped to 0.1 seconds—a 97% speedup—while slashing monthly CDN bandwidth costs by 95%! That is engineering leverage!",
+    "koreanGuide": {
+      "summary": "실제 사례: 글로벌 SaaS 기업의 1,000배 에셋 압축 및 97% 속도 혁신",
+      "points": [
+        "Left (구형 래스터 대시보드): 4.2MB 용량의 PNG 차트들로 인해 모바일 로딩에 3.2초 소요 및 이탈률 급증",
+        "Right (SVG 벡터 전환): 모든 대시보드 그래픽을 3.8KB의 초경량 SVG로 전환하여 로딩 시간 0.1초로 단축",
+        "비용 절감: 월 수천만 원에 달하던 글로벌 클라우드 CDN 대역폭 트래픽 비용을 95% 절감"
+      ],
+      "tips": "용량을 1,000분의 1로 줄여 로딩 시간을 0.1초로 단축한 압도적인 실무 성공 사례를 강조하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Asset Weight Optimization",
+        "def": "Dramatically reducing total web page transfer bytes by replacing static bitmaps with optimized vector markup.",
+        "defKo": "에셋 경량화 최적화 (1,000배 압축)"
+      }
+    ]
+  },
+  {
+    "num": 20,
+    "type": "triad",
+    "title": "PART 2 DISCUSSION: REDESIGNING LEGACY PIPELINES",
+    "subtitle": "Addressing security, photography boundaries, and design team organizational friction",
+    "cards": [
+      {
+        "title": "1. DOM Security Risks",
+        "desc": "How does DOM integration impact cybersecurity when importing third-party SVG vector assets?"
+      },
+      {
+        "title": "2. Photography Boundaries",
+        "desc": "Why SVG cannot replace real-world continuous-tone photography, and how to use hybrid WebP/SVG pipelines."
+      },
+      {
+        "title": "3. Team Culture Shift",
+        "desc": "How to guide traditional visual designers to embrace code-first vector thinking without friction."
+      }
+    ],
+    "script": "Slide 20 opens our interactive discussion for Part 2:\n\nLet us reflect on three architectural questions:\n1. Security: Because SVG integrates into the DOM, can malicious hackers embed JavaScript inside an SVG file? (Yes, we will show how to sanitize this!)\n2. Photography Limits: Can SVG replace real-world camera photos? (No, photos with millions of subtle gradients still belong in WebP).\n3. Culture: How do we help traditional designers transition from Photoshop to code-first vector thinking?\n\nLet us move into Part 3 to see how Gemini AI co-authors this code!",
+    "koreanGuide": {
+      "summary": "Part 2 토론: 레거시 미디어 파이프라인의 재설계와 한계 극복",
+      "points": [
+        "1. DOM 보안 위협: SVG 내부에 악성 자바스크립트가 삽입될 수 있는 XSS 보안 위험 사전 진단",
+        "2. 실물 사진의 한계: 수백만 가지 색상 그라데이션이 필요한 실사 사진은 WebP를 쓰고, 아이콘·차트는 SVG를 쓰는 하이브리드 전략",
+        "3. 조직 문화 전환: 그림만 그리던 디자이너가 코드 기반의 벡터 설계를 받아들이도록 돕는 방법"
+      ],
+      "tips": "SVG의 만능주의를 경계하고 사진과 벡터의 적재적소 하이브리드 아키텍처를 토론하도록 유도하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Hybrid Media Pipeline",
+        "def": "Using vector SVG for UI icons and charts while reserving optimized raster WebP for complex natural photography.",
+        "defKo": "하이브리드 미디어 파이프라인"
+      }
+    ]
+  },
+  {
+    "num": 21,
+    "type": "section",
+    "title": "PART 3: GEMINI-POWERED VISUAL ENGINEERING",
+    "subtitle": "Multimodal Sketch Parsing, The Canvas Workspace, Low-Temperature Controls, and Path Overfitting Defenses",
+    "script": "We now open Part 3: \"Gemini-Powered Visual Engineering.\"\n\nWriting thousands of SVG coordinate lines by hand is tedious. How do we use multimodal AI to co-author these vector assets instantly?\n\nIn this section, we will see how Gemini 3 Pro parses hand-drawn napkin sketches into clean SVG code, master the interactive Google Canvas workspace, fine-tune temperature parameters, and defend against path overfitting glitches. Let us code with AI!",
+    "koreanGuide": {
+      "summary": "Part 3 섹션 전환: Gemini 기반 시각 벡터 엔지니어링",
+      "points": [
+        "손으로 냅킨에 끄적인 스케치를 단 1초 만에 깔끔한 프로덕션 SVG 코드로 변환하는 Gemini 3 Pro",
+        "구글 캔버스(Canvas) 협업 환경, 낮은 온도(Temperature 0.1) 제어, 패스 과적합 방어"
+      ],
+      "tips": "복잡한 수식 코딩을 AI와 대화하며 실시간으로 완성하는 차세대 협업 엔지니어링을 소개하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Multimodal Visual Engineering",
+        "def": "Using vision-language models like Gemini to parse visual inputs and synthesize clean, executable SVG code.",
+        "defKo": "멀티모달 시각 엔지니어링"
+      }
+    ]
+  },
+  {
+    "num": 22,
+    "type": "triad",
+    "title": "GEMINI AS A MULTIMODAL CODE ARCHITECT",
+    "subtitle": "Translating hand-drawn sketches and natural language prompts into clean Bezier paths",
+    "cards": [
+      {
+        "title": "1. Spatial Sketch Parsing",
+        "desc": "Gemini scans rough whiteboard drawings and maps visual nodes directly into 2D coordinate spaces."
+      },
+      {
+        "title": "2. Mathematical Translation",
+        "desc": "Converts visual curves into mathematically elegant Cubic Bezier `<path>` expressions instantly."
+      },
+      {
+        "title": "3. Production XML Output",
+        "desc": "Outputs clean, valid XML markup ready to copy directly into React, Next.js, or HTML files."
+      }
+    ],
+    "script": "Look at Slide 22: \"Gemini as a Multimodal Code Architect.\"\n\nGemini does not just look at pictures—it understands spatial geometry!\n\nYou can upload a photo of a rough flowchart sketched on a whiteboard napkin. \nGemini scans the shapes, parses the node relationships, and translates the drawing into mathematically precise Cubic Bezier SVG paths! \n\nIt outputs production-ready XML code that you can paste directly into your React or web application with zero compiling lag!",
+    "koreanGuide": {
+      "summary": "멀티모달 코드 아키텍트로서의 Gemini: 스케치에서 프로덕션 SVG 코드로",
+      "points": [
+        "1. 공간 스케치 파싱: 화이트보드나 냅킨에 손으로 그린 러프한 다이어그램 사진을 업로드하면 노드 구조 분석",
+        "2. 수학적 좌표 변환: 시각적 형태를 우아한 3차 베지에 `<path>` 수식 코드로 즉각 번역",
+        "3. 즉시 배포 가능한 XML 출력: 리액트(React), Next.js, HTML에 그대로 붙여넣을 수 있는 순수 무결점 코드 생성"
+      ],
+      "tips": "회의실 화이트보드 그림 사진 한 장이 3초 만에 웹사이트 코드로 변신하는 마법을 묘사하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Sketch-to-Vector Synthesis",
+        "def": "The AI capability of converting raster bitmap sketches into structured, editable vector XML paths.",
+        "defKo": "스케치-벡터 자동 합성"
+      }
+    ]
+  },
+  {
+    "num": 23,
+    "type": "triad",
+    "title": "THE CANVAS INTERFACE: HUMAN-AI CO-DESIGN",
+    "subtitle": "Iterative real-time visual editing through conversational natural language refinement",
+    "cards": [
+      {
+        "title": "1. Real-Time Interactive Canvas",
+        "desc": "A live split-screen editor displaying editable SVG code on the left and real-time visual preview on the right."
+      },
+      {
+        "title": "2. Conversational Refinement",
+        "desc": "Command changes naturally: 'Make the header gold and curve the bottom corners by 12px'."
+      },
+      {
+        "title": "3. Instant Visual Sync",
+        "desc": "Every AI code update immediately renders on the canvas, creating an agile, zero-friction feedback loop."
+      }
+    ],
+    "script": "Slide 23 details the workspace: \"The Canvas Interface: Human-AI Co-Design.\"\n\nIn Google Canvas, you don't just prompt and hope for the best; you engage in an interactive creative dialogue!\n\nOn the left is the editable SVG code; on the right is the live visual render. \nYou can type: \"Make the middle card gold, and add a subtle drop shadow to the button.\" \n\nGemini updates the exact XML tags in milliseconds, rendering the changes immediately on your screen! It is rapid, bespoke prototyping!",
+    "koreanGuide": {
+      "summary": "구글 캔버스(Canvas) 인터페이스: 인간과 AI의 실시간 협동 디자인",
+      "points": [
+        "1. 실시간 분할 화면: 좌측에는 편집 가능한 SVG 코드, 우측에는 실시간 그래픽 렌더링 화면 배치",
+        "2. 대화형 자연어 수정: '중앙 카드를 골드 색상으로 바꾸고 하단 모서리를 12px 둥글게 깎아줘'라고 지시",
+        "3. 즉각적인 시각적 동기화: AI가 수정한 코드가 0.1초 만에 화면에 반영되어 지연 없는 고속 프로토타이핑 완성"
+      ],
+      "tips": "전문 디자이너와 실시간으로 대화하며 즉석에서 시안을 깎아나가는 협업의 즐거움을 전하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Canvas Co-Design",
+        "def": "The interactive workspace allowing bidirectional refinement of code and real-time visual rendering.",
+        "defKo": "캔버스 협동 디자인 (코드-시각 실시간 동기화)"
+      }
+    ]
+  },
+  {
+    "num": 24,
+    "type": "triad",
+    "title": "DIRECT PARAMETER CONTROLS: FINE-TUNING OUTPUT",
+    "subtitle": "Low temperature, strict system rules, and token budgeting for flawless XML synthesis",
+    "cards": [
+      {
+        "title": "1. Temperature 0.1",
+        "desc": "Set temperature to 0.1 to force strict mathematical precision and eliminate random syntax deviations."
+      },
+      {
+        "title": "2. System Prompt Isolation",
+        "desc": "Instruct the model: 'Output raw XML only. Never include markdown code fences or conversational greetings'."
+      },
+      {
+        "title": "3. Generous Token Budget",
+        "desc": "Allocate at least 4,000 output tokens to prevent complex Bezier paths from truncating mid-stream."
+      }
+    ],
+    "script": "Please look at Slide 24: \"Direct Parameter Controls: Fine-Tuning Output.\"\n\nTo generate flawless vector code, you must calibrate the model's parameters:\n\nRule 1: Set Temperature to 0.1. A high temperature causes creative hallucinations and broken brackets. Low temperature enforces rigid mathematical syntax!\nRule 2: Enforce System Prompts: Tell the model to output *raw XML only* without conversational filler.\nRule 3: Set a generous token budget of at least 4,000 tokens so complex coordinate paths do not cut off mid-sentence!",
+    "koreanGuide": {
+      "summary": "직접 파라미터 제어: 완벽한 XML 출력을 위한 3대 설정 수칙",
+      "points": [
+        "1. 온도 0.1 설정 (Temperature 0.1): 상상력을 억제하고 엄격한 수학적 문법 정밀도를 강제하여 오타 방지",
+        "2. 시스템 프롬프트 격리: '설명이나 인사말 없이 오직 순수 XML 텍스트만 출력하라'는 지침 주입",
+        "3. 충분한 토큰 예산: 복잡한 베지에 패스가 중간에 끊기지 않도록 최소 4,000 토큰 이상의 출력 여유 확보"
+      ],
+      "tips": "엔지니어로서 AI의 창의성을 통제하고 정밀한 코드만 뽑아내는 파라미터 조율법을 전수하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Low-Temperature Precision",
+        "def": "Constraining model sampling randomness to ensure strict compliance with code syntax schemas.",
+        "defKo": "저온도 정밀도 제어 (Temperature 0.1)"
+      }
+    ]
+  },
+  {
+    "num": 25,
+    "type": "comparison",
+    "title": "TAMING PATH OVERFITTING: BEZIER VS. STRAIGHT LINES",
+    "subtitle": "Preventing 10,000 choppy straight lines by enforcing smooth Cubic Bezier commands",
+    "leftCard": {
+      "tag": "PATH OVERFITTING (GLITCH)",
+      "title": "10,000 Choppy Line Fragments",
+      "points": [
+        "AI draws curves by stitching thousands of tiny `L x y` straight segments",
+        "Bloats file size from 4KB to 800KB, choking browser layout engines",
+        "Results in jagged, un-optimized vector code"
+      ]
+    },
+    "rightCard": {
+      "tag": "OPTIMIZED BEZIER (PERFECTION)",
+      "title": "Smooth Polynomial Curves",
+      "points": [
+        "AI uses elegant `C c1 c2 end` Cubic Bezier curves with control handles",
+        "Keeps file size locked at a tiny 3KB while guaranteeing 100% fluid smoothness",
+        "Saves rendering memory and delivers silky-smooth browser animations"
+      ]
+    },
+    "script": "Slide 25 tackles a major AI glitch: \"Taming Path Overfitting.\"\n\nLook at the mistake on the left:\nSometimes a naive AI draws a circle by stitching together ten thousand tiny straight lines using `L` commands! This bloats a 3-kilobyte icon to 800 kilobytes, lagging the user's browser!\n\nLook at the right for our cure:\nInstruct Gemini: \"Use Cubic Bezier `C` curves with control handles instead of straight line segments!\" \n\nThis keeps the code clean, mathematically pure, and lightweight!",
+    "koreanGuide": {
+      "summary": "패스 과적합(Path Overfitting) 방어: 수만 개 직선 조각 대 매끄러운 3차 베지에",
+      "points": [
+        "Left (과적합 글리치): AI가 곡선을 그릴 때 수만 개의 짧은 직선(`L`) 조각으로 기워 붙여 파일이 800KB로 비대화",
+        "Right (최적화된 베지에): 3차 베지에(`C`) 곡선 제어점을 사용하여 단 몇 줄의 코드로 완벽한 곡면 구현 (3KB 유지)",
+        "프롬프트 처방: '직선 조각을 쓰지 말고 부드러운 3차 베지에 곡선으로만 패스를 구성하라'고 명시"
+      ],
+      "tips": "초보 AI가 저지르는 지저분한 누더기 코드를 우아한 단 몇 줄의 수식으로 정리하는 기법을 소개하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Path Overfitting",
+        "def": "The AI defect of rendering smooth curves as thousands of redundant micro-linear segments.",
+        "defKo": "패스 과적합 (직선 쪼개기 비효율 현상)"
+      }
+    ]
+  },
+  {
+    "num": 26,
+    "type": "triad",
+    "title": "RESOLVING FRAGMENTED PATHS: THE CLOSING 'Z' ATTRIBUTE",
+    "subtitle": "Fixing broken shapes and unclosed paths through strict XML coordinate hygiene",
+    "cards": [
+      {
+        "title": "1. Path Fragmentation",
+        "desc": "Occurs when starting and ending path coordinates fail to align, causing broken fill colors."
+      },
+      {
+        "title": "2. The Sovereign 'Z' Tag",
+        "desc": "Always mandate the uppercase `Z` command at the end of `<path d='... Z'>` to seal the shape automatically."
+      },
+      {
+        "title": "3. Coordinate Alignment Audit",
+        "desc": "Ensure the first `M x y` coordinate matches the terminal vector node to guarantee sealed polygon fills."
+      }
+    ],
+    "script": "Please look at Slide 26: \"Resolving Fragmented Paths: The Closing 'Z' Attribute.\"\n\nAnother common AI bug is \"Path Fragmentation\"—where a polygon shape fails to fill with color because the AI forgot to connect the last line back to the start!\n\nTo cure this, enforce two rules:\nFirst: Mandate the uppercase `Z` command at the end of every path. `Z` instructs the browser: \"Automatically snap a straight line back to the exact starting point.\"\nSecond: Audit starting and ending coordinates to ensure all shape boundaries are sealed!",
+    "koreanGuide": {
+      "summary": "깨진 패스 복구: 닫는 명령어 'Z'와 엄격한 좌표 위생",
+      "points": [
+        "1. 패스 단편화 현상: 시작점과 끝점이 맞닿지 않아 면에 색상이 채워지지 않고 터져버리는 현상",
+        "2. 절대 명령어 'Z': `<path d='... Z'>` 끝에 대문자 Z를 반드시 붙여 시작점으로 자동 결속 강제",
+        "3. 좌표 정렬 감사: 첫 번째 M(x, y) 좌표와 마지막 지점이 완벽히 밀봉되었는지 자동 검증"
+      ],
+      "tips": "그림을 그릴 때 마지막에 뚜껑을 닫지 않아 색깔이 밖으로 쏟아지는 것을 막는 'Z' 마개를 설명하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Path Closure ('Z')",
+        "def": "The SVG command that automatically draws a straight line from the current position back to the path's initial point.",
+        "defKo": "패스 닫기 명령어 (Z)"
+      }
+    ]
+  },
+  {
+    "num": 27,
+    "type": "triad",
+    "title": "XML NODE SANITATION: PRUNING REDUNDANT BLOAT",
+    "subtitle": "Deleting empty <g> containers, consolidating styles, and accelerating DOM rendering",
+    "cards": [
+      {
+        "title": "1. Prune Empty Groups",
+        "desc": "Strip out nested `<g></g>` container tags generated by AI that contain zero child elements or attributes."
+      },
+      {
+        "title": "2. Centralize `<style>` Blocks",
+        "desc": "Extract repetitive inline `fill='#c5a059'` attributes into a consolidated CSS `<style>` block at the top."
+      },
+      {
+        "title": "3. Strip Unused Namespaces",
+        "desc": "Remove bloated editor metadata (e.g., `xmlns:inkscape` or `xmlns:adobe`) to leave pure, lean SVG code."
+      }
+    ],
+    "script": "Slide 27 covers code hygiene: \"XML Node Sanitation: Pruning Redundant Bloat.\"\n\nAI models often output bloated markup containing empty `<g>` group tags and repetitive inline fills.\n\nAlways perform three sanitation steps:\n1. Delete empty `<g>` groups that add useless weight to the DOM tree.\n2. Centralize inline fills and strokes into a shared `<style>` block at the top of the SVG.\n3. Strip away proprietary third-party metadata from Illustrator or Inkscape. \n\nThis gives you a pristine, ultra-fast vector asset!",
+    "koreanGuide": {
+      "summary": "XML 노드 살균: 불필요한 군더더기 태그 제거 및 렌더링 최적화",
+      "points": [
+        "1. 빈 그룹 태그 제거: 내용물 없는 `<g></g>` 껍데기 태그들을 모두 청소하여 DOM 트리 경량화",
+        "2. `<style>` 블록 중앙화: 수십 개의 path마다 적혀 있던 중복 인라인 스타일을 상단 CSS로 일괄 통합",
+        "3. 외부 메타데이터 제거: 일러스트레이터나 잉크스케이프가 남긴 불필요한 네임스페이스 찌꺼기 삭제"
+      ],
+      "tips": "코드를 깔끔하게 다듬는 정원사처럼 군더더기를 쳐내어 최고의 로딩 속도를 달성하는 비결입니다."
+    },
+    "keyTerms": [
+      {
+        "term": "XML Node Sanitation",
+        "def": "The post-processing practice of removing empty tags, unused namespaces, and redundant inline styles from SVG markup.",
+        "defKo": "XML 노드 살균 및 경량화"
+      }
+    ]
+  },
+  {
+    "num": 28,
+    "type": "triad",
+    "title": "INTERACTIVE UI ELEMENTS: GENERATING CLICKABLE MAPS",
+    "subtitle": "Building responsive geographic dashboards with interactive hover states without GIS bloat",
+    "cards": [
+      {
+        "title": "1. Sector Isolation",
+        "desc": "Converts geographic provinces or sales territories into discrete, named `<path id='region-ca'>` nodes."
+      },
+      {
+        "title": "2. DOM Action Triggers",
+        "desc": "Attaches `onClick` and `:hover` event handlers directly to SVG paths to highlight territories smoothly."
+      },
+      {
+        "title": "3. Zero-GIS Overhead",
+        "desc": "Delivers full interactive geographic data visualization without downloading heavy 50MB map frameworks."
+      }
+    ],
+    "script": "Look at Slide 28: \"Interactive UI Elements: Generating Clickable Maps.\"\n\nUsing pure SVG code, you can build interactive geographic dashboards without downloading heavy 50-megabyte mapping libraries!\n\nEach state or country is represented as an independent `<path id='region-texas'>`. \nYou attach CSS hover effects and JavaScript click handlers directly to the shape! \n\nWhen a user clicks on Texas, your React application updates instantly! It delivers an immersive, ultra-responsive experience in a tiny 15-kilobyte package!",
+    "koreanGuide": {
+      "summary": "인터랙티브 UI 요소: 클릭 가능한 SVG 대화형 지도 제작",
+      "points": [
+        "1. 구역별 패스 격리: 각 주(State)나 지자체 구역을 독립된 `<path id='region-ny'>` 노드로 분리 코딩",
+        "2. DOM 이벤트 직접 트리거: 마우스 호버 시 색상이 골드로 빛나고 클릭 시 매출 팝업이 뜨는 리액트 이벤트 연결",
+        "3. 무거운 지도 라이브러리 탈피: 50MB짜리 지도 엔진 없이 단 15KB의 가벼운 SVG만으로 최고급 반응형 지도 완성"
+      ],
+      "tips": "무거운 지도 소프트웨어 없이 코드 몇 줄로 인터랙티브 전국 지도를 만드는 실무 꿀팁을 전하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Interactive Vector Maps",
+        "def": "Geographic boundaries encoded as discrete SVG paths responding to user click and hover events natively in the browser.",
+        "defKo": "대화형 벡터 지도 (경량 SVG 지도 UI)"
+      }
+    ]
+  },
+  {
+    "num": 29,
+    "type": "triad",
+    "title": "DYNAMIC THEME ADAPTABILITY: LIGHT & DARK MODES",
+    "subtitle": "Auto-adapting vectors via embedded CSS media queries and CSS variable color tokens",
+    "cards": [
+      {
+        "title": "1. CSS Variable Tokens",
+        "desc": "Uses semantic tokens: `fill: var(--bg-primary);` and `stroke: var(--accent-gold);` inside SVG."
+      },
+      {
+        "title": "2. Embedded Media Queries",
+        "desc": "Embeds `@media (prefers-color-scheme: dark)` rules directly inside the SVG's internal `<style>` block."
+      },
+      {
+        "title": "3. Single Universal Asset",
+        "desc": "One single vector asset automatically switches colors to match the user's OS dark mode setting instantly."
+      }
+    ],
+    "script": "Slide 29 reveals an elegant design pattern: \"Dynamic Theme Adaptability: Light & Dark Modes.\"\n\nStop creating two separate image files for Light Mode and Dark Mode!\n\nWith SVG, you embed CSS variables directly inside the vector code: `fill: var(--text-primary);`. \n\nYou can even include a native media query: `@media (prefers-color-scheme: dark)`. \nWhen the user flips their iPhone or Mac into Dark Mode, the SVG lines automatically switch from black to luminous gold! One file, zero maintenance!",
+    "koreanGuide": {
+      "summary": "동적 테마 적응: 단 1개의 파일로 라이트/다크 모드 자동 전환",
+      "points": [
+        "1. CSS 변수 토큰 연동: SVG 내부 스타일에서 `fill: var(--brand-color);` 시스템 테마 변수 직접 사용",
+        "2. 내장 미디어 쿼리: SVG 파일 안에 `@media (prefers-color-scheme: dark)`를 탑재하여 OS 설정에 즉각 반응",
+        "3. 단일 범용 에셋: 라이트용, 다크용 이미지를 따로 만들 필요 없이 단 1개의 SVG 파일로 완벽 대응"
+      ],
+      "tips": "다크모드용 이미지를 따로 내보내던 노가다에서 완전히 해방되는 우아한 아키텍처를 보여주세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Dynamic Dark Mode SVG",
+        "def": "Vector graphics utilizing embedded CSS media queries to dynamically alter colors based on the user's OS theme.",
+        "defKo": "동적 다크모드 대응 SVG"
+      }
+    ]
+  },
+  {
+    "num": 30,
+    "type": "triad",
+    "title": "PART 3 AUDIT CHECKLIST: VERIFYING VECTOR CODE",
+    "subtitle": "The 4 essential quality metrics to audit before shipping AI-generated SVG assets",
+    "cards": [
+      {
+        "title": "1. Zero Markdown Wrappers",
+        "desc": "Verify the file contains raw XML tags only, with zero backticks (```xml) or chat conversational filler."
+      },
+      {
+        "title": "2. Sealed Path Closure ('Z')",
+        "desc": "Ensure all filled polygon path definitions terminate with an explicit uppercase `Z` closure command."
+      },
+      {
+        "title": "3. Correct viewBox Ratios",
+        "desc": "Check that the `viewBox` coordinates match the internal geometry bounds to prevent clipping."
+      }
+    ],
+    "script": "Please look at Slide 30 for your pre-flight quality checklist: \"Verifying Vector Code.\"\n\nBefore deploying any AI-generated SVG into production, audit these four checkpoints:\n1. Zero Markdown Wrappers: Ensure no triple backticks or conversational text slipped into the file.\n2. Sealed Paths: Verify all filled paths end with an explicit uppercase `Z` tag.\n3. Correct viewBox: Check that internal coordinates fit inside the viewBox boundaries so edges are not cut off.\n4. WCAG Contrast: Ensure fill colors meet 4.5:1 accessibility contrast ratios!",
+    "koreanGuide": {
+      "summary": "Part 3 실무 감사 체크리스트: AI 생성 SVG 배포 전 4대 검증 수칙",
+      "points": [
+        "1. 마크다운 백틱 제거: 파일 내에 ```xml 같은 마크다운 잔재나 AI 대화 문구가 없는지 확인",
+        "2. 패스 밀봉 검증: 색상이 채워진 모든 path가 대문자 'Z'로 확실히 닫혀 있는지 전수 점검",
+        "3. viewBox 좌표 일치: 내부 도형의 크기가 viewBox 영역을 벗어나 잘리지 않는지 시각적 검증",
+        "4. WCAG 명도 대비: 텍스트와 배경의 명도 대비가 4.5:1 이상으로 가독성을 충족하는지 확인"
+      ],
+      "tips": "실제 배포 전 에러를 방지하는 실무 엔지니어의 꼼꼼한 품질 검사 체크리스트로 활용하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "SVG Quality Audit",
+        "def": "The pre-deployment verification of vector markup integrity, coordinate bounds, path closure, and WCAG contrast.",
+        "defKo": "SVG 품질 감사 체크리스트"
+      }
+    ]
+  },
+  {
+    "num": 31,
+    "type": "section",
+    "title": "PART 4: LATEX MATHEMATICAL ORCHESTRATION",
+    "subtitle": "Scientific Precision, Multimodal Transcription, KaTeX Rendering, and Academic RAG Integration",
+    "script": "We now enter Part 4 of our lecture: \"LaTeX Mathematical Orchestration.\"\n\nHow do scientists, physicists, and AI researchers represent complex mathematical formulas with absolute, unyielding precision?\n\nIn this final section, we will explore LaTeX—the undisputed global language of academic mathematics. We will see how Gemini transcribes messy handwritten formulas into clean LaTeX code, compare dynamic MathJax with pre-rendered SVGs, and integrate formulas into RAG databases. Let us orchestrate pure mathematics!",
+    "koreanGuide": {
+      "summary": "Part 4 섹션 전환: LaTeX 수식 오케스트레이션",
+      "points": [
+        "전 세계 과학·공학계의 표준이자 불변의 수학적 진리 표현 언어인 LaTeX 체계",
+        "손글씨 수식의 멀티모달 자동 전사, KaTeX/MathJax 렌더링 엔진 비교, 그리고 RAG 지식베이스 연동"
+      ],
+      "tips": "수학의 엄밀성과 지적 아름다움을 웹 코드로 표현하는 최고의 학술 엔지니어링 파트입니다."
+    },
+    "keyTerms": [
+      {
+        "term": "LaTeX Mathematical Typeset",
+        "def": "The standard markup language used by scientific and academic communities to render complex mathematical typography.",
+        "defKo": "LaTeX 수식 조판 언어 (글로벌 학술 표준)"
+      }
+    ]
+  },
+  {
+    "num": 32,
+    "type": "comparison",
+    "title": "LATEX: THE GLOBAL SCIENTIFIC STANDARD",
+    "subtitle": "Blurry equation screenshots vs. crystal-clear, scalable text-based LaTeX formulas",
+    "leftCard": {
+      "tag": "BLURRY SCREENSHOTS (FLAWED)",
+      "title": "Un-Indexable Pixel Math",
+      "points": [
+        "Pasting blurry PNG screenshots of formulas into scientific papers",
+        "Mathematical symbols blur when zoomed, leading to catastrophic reading errors",
+        "Zero semantic search value; equations cannot be queried by database engines"
+      ]
+    },
+    "rightCard": {
+      "tag": "LATEX MARKUP (PERFECTION)",
+      "title": "Pure Mathematical Precision",
+      "points": [
+        "Markup: `\\int_{a}^{b} f(x)\\,dx = F(b) - F(a)`",
+        "Scales with needle-sharp typographic beauty at any magnification level",
+        "Fully indexable, searchable, and archivable in digital academic repositories"
+      ]
+    },
+    "script": "Look at Slide 32: \"LaTeX: The Global Scientific Standard.\"\n\nIn academic research, pasting blurry PNG screenshots of equations into a paper is unacceptable! Look at the left: When zoomed, integral signs and Greek letters blur into smudges, causing dangerous misinterpretations!\n\nLook at the right: LaTeX represents mathematics as pure text-based code!\n`\\int_{a}^{b} f(x)\\,dx`. \n\nThe equation compiles into razor-sharp typography at any magnification, and remains 100% searchable in research databases! It reflects the orderly beauty of natural laws!",
+    "koreanGuide": {
+      "summary": "LaTeX: 글로벌 과학계의 표준과 수학적 엄밀성의 표상",
+      "points": [
+        "Left (흐릿한 수식 캡처의 한계): 논문에 수식을 PNG 캡처로 넣으면 확대 시 기호가 뭉개져 오독 발생 및 검색 불가",
+        "Right (LaTeX 마크업의 완벽성): `\\int_{a}^{b} f(x)\\,dx` 같은 순수 텍스트 코드로 완벽한 조판 품질과 영구 검색 보장",
+        "학문적 품격: 전 세계 최고 권위 학술지(Nature, IEEE 등)가 요구하는 표준 규격을 충족"
+      ],
+      "tips": "흐릿한 수식 캡처본 대신 살아있는 텍스트 코드로 수식을 다루는 학자다운 태도를 강조하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "LaTeX Formula Syntax",
+        "def": "The plain-text mathematical typesetting syntax encoding integrals, matrices, fractions, and Greek symbols.",
+        "defKo": "LaTeX 수식 문법 (인덱싱 가능한 수식 코드)"
+      }
+    ]
+  },
+  {
+    "num": 33,
+    "type": "triad",
+    "title": "MULTIMODAL TRANSCRIPTION: HANDWRITING TO LATEX",
+    "subtitle": "Converting messy handwritten whiteboard equations into verified LaTeX markup in 2 seconds",
+    "cards": [
+      {
+        "title": "1. Visual Formula Ingestion",
+        "desc": "Gemini ingests phone photos of messy handwritten formulas or printed academic textbook pages."
+      },
+      {
+        "title": "2. Semantic OCR Transcription",
+        "desc": "Parses square roots, tensor subscripts, and Greek symbols into structured `\\frac` and `\\sum` markup."
+      },
+      {
+        "title": "3. Bracket Alignment Validation",
+        "desc": "Verifies opening and closing matrix brackets (`\\left( ... \\right)`) automatically before outputting code."
+      }
+    ],
+    "script": "Slide 33 showcases multimodal intelligence: \"Multimodal Transcription: Handwriting to LaTeX.\"\n\nHistorically, transcribing a complex 5-line tensor physics equation into LaTeX took fifteen minutes of frustrating keyboard typing.\n\nWith multimodal Gemini, it takes two seconds!\nYou snap a smartphone photo of messy professor handwriting on a chalkboard. \n\nGemini parses the superscripts, integrals, and matrices, validates bracket alignment, and outputs perfect, copy-pasteable LaTeX markup ready for immediate publication!",
+    "koreanGuide": {
+      "summary": "멀티모달 수식 전사: 칠판 손글씨에서 2초 만에 완벽한 LaTeX 변환",
+      "points": [
+        "1. 시각 수식 입력: 교수의 칠판 손글씨나 두꺼운 전공 서적 수식 사진을 스마트폰으로 촬영하여 Gemini에 업로드",
+        "2. 시맨틱 OCR 전사: 루트, 시그마, 적분, 행렬 첨자를 분석하여 정확한 `\\frac`, `\\sum` 코드로 즉각 변환",
+        "3. 괄호 정렬 자동 검증: 수식의 열린 괄호와 닫힌 괄호(`\\left( ... \\right)`)의 짝을 완벽히 맞춰 출력"
+      ],
+      "tips": "15분 동안 골머리를 앓으며 수식 기호를 타이핑하던 노역을 2초 만에 끝내는 놀라운 생산성 혁신을 소개하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Multimodal Formula OCR",
+        "def": "The AI process of recognizing complex handwritten mathematical symbols and translating them into standard LaTeX code.",
+        "defKo": "멀티모달 수식 인식 (손글씨-LaTeX 변환)"
+      }
+    ]
+  },
+  {
+    "num": 34,
+    "type": "comparison",
+    "title": "FORMULA DELIVERY: MATHJAX VS. PRE-RENDERED SVG",
+    "subtitle": "Dynamic client-side compilation vs. pre-rendered static vector equations for mobile speed",
+    "leftCard": {
+      "tag": "DYNAMIC CLIENT MODE (MATHJAX)",
+      "title": "Dynamic JavaScript Engine",
+      "points": [
+        "Loads LaTeX string and compiles via heavy client-side JavaScript",
+        "Highly flexible for live editing; causes slight rendering flicker on page load",
+        "High CPU consumption on low-end budget smartphones"
+      ]
+    },
+    "rightCard": {
+      "tag": "PRE-RENDERED VECTOR (SVG)",
+      "title": "Zero-Latency Static Vectors",
+      "points": [
+        "Pre-compiles LaTeX formulas into static SVG paths on the cloud server",
+        "Loads 5x faster on mobile devices with zero font dependency",
+        "100% offline reliability; renders perfectly with no active CDN connection"
+      ]
+    },
+    "script": "Look at Slide 34 for web delivery architecture: \"MathJax versus Pre-Rendered SVG.\"\n\nWhen serving formulas on your web platform, you have two engineering options:\n\nOption 1 is MathJax: It dynamically compiles LaTeX strings in the browser. It is great for live editors, but causes a brief visual flicker and uses CPU power on cheap phones.\n\nOption 2 is Pre-Rendered SVG: Your server compiles the LaTeX into static SVG paths! \nIt loads five times faster on mobile, requires zero external math fonts, and works 100% offline!",
+    "koreanGuide": {
+      "summary": "수식 웹 서빙 아키텍처: 동적 MathJax 대 서버 사전 렌더링 SVG",
+      "points": [
+        "Left (동적 MathJax 방식): 브라우저가 자바스크립트로 수식을 실시간 렌더링하여 깜빡임과 CPU 부하 발생",
+        "Right (사전 렌더링 SVG 방식): 서버에서 LaTeX를 미리 3KB짜리 정적 SVG로 구워내어 5배 빠른 모바일 로딩 실현",
+        "오프라인 신뢰성: 별도의 수학 폰트 다운로드 없이 비행기 모드나 오프라인 환경에서도 수식이 100% 완벽 표시"
+      ],
+      "tips": "모바일 환경에서 수식이 깜빡이지 않고 번개처럼 뜨게 만드는 서버 사전 렌더링의 실무 이점을 설명하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Pre-Rendered LaTeX SVG",
+        "def": "Compiling LaTeX equations server-side into static vector SVG files for ultra-fast, zero-dependency client delivery.",
+        "defKo": "사전 렌더링 LaTeX SVG (초고속 수식 서빙)"
+      }
+    ]
+  },
+  {
+    "num": 35,
+    "type": "triad",
+    "title": "ACADEMIC SOPS: RAG PLATFORM INTEGRATION",
+    "subtitle": "Storing lossless mathematical strings inside enterprise AI knowledge vaults",
+    "cards": [
+      {
+        "title": "1. Lossless Mathematical Storage",
+        "desc": "Stores raw LaTeX strings natively inside RAG databases, preventing mathematical corruption."
+      },
+      {
+        "title": "2. Semantic Formula Search",
+        "desc": "Enables search engines to query research papers using mathematical concepts like 'find Hamiltonian matrices'."
+      },
+      {
+        "title": "3. Multi-Channel Publishing",
+        "desc": "Compiles a single LaTeX string into academic PDF papers, interactive websites, and mobile slides seamlessly."
+      }
+    ],
+    "script": "Slide 35 explains enterprise data architecture: \"Academic SOPs: RAG Platform Integration.\"\n\nWhen building an enterprise AI knowledge base, never store formulas as blurry images!\n\nStore formulas as clean, native LaTeX strings! \nThis preserves lossless mathematical precision during database migrations, and allows your RAG AI to perform semantic formula searches—such as finding all documents containing specific Hamiltonian equations! \n\nOne LaTeX string compiles effortlessly to PDF, web, and mobile!",
+    "koreanGuide": {
+      "summary": "학술 표준 운영 절차(SOP): RAG 플랫폼 및 지식베이스 수식 통합",
+      "points": [
+        "1. 무손실 수학 데이터 저장: RAG 지식베이스에 수식을 이미지가 아닌 순수 LaTeX 텍스트 문자열로 영구 보관",
+        "2. 의미론적 수식 검색: '해밀토니안 행렬이 포함된 논문을 찾아라'와 같은 고차원 수학 개념 질의 가능",
+        "3. 멀티채널 원천 배포: 단 1개의 LaTeX 원본 문자열에서 학술 논문 PDF, 반응형 웹, 모바일 슬라이드를 동시 생성"
+      ],
+      "tips": "데이터가 오염되지 않고 영구 보존되는 텍스트 기반 수식 거버넌스의 가치를 전하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Semantic Formula RAG",
+        "def": "Retrieval-Augmented Generation systems indexing and querying native LaTeX mathematical strings accurately.",
+        "defKo": "수식 기반 시맨틱 RAG 지식베이스"
+      }
+    ]
+  },
+  {
+    "num": 36,
+    "type": "triad",
+    "title": "SECURITY & GOVERNANCE: SANITIZING SVGS AGAINST XSS",
+    "subtitle": "Neutralizing embedded JavaScript attacks, `<script>` tags, and malicious XML entities",
+    "cards": [
+      {
+        "title": "1. The XML Security Threat",
+        "desc": "Because SVG is executable XML, malicious actors can hide `<script>` tags inside vector graphics."
+      },
+      {
+        "title": "2. Cross-Site Scripting (XSS)",
+        "desc": "Unsanitized SVGs uploaded by users can steal session cookies and hijack administrator accounts."
+      },
+      {
+        "title": "3. Strict DOMPurify Sanitization",
+        "desc": "Always run SVGs through DOMPurify to strip `<script>`, `onload`, and `onmouseover` hooks before database entry."
+      }
+    ],
+    "script": "Look at Slide 36 for a critical cybersecurity warning: \"Security & Governance: Sanitizing SVGs.\"\n\nBecause SVG is live XML code, it has a dangerous attack surface:\nA hacker can hide a malicious JavaScript `<script>` tag or an `onload` trigger inside a vector icon! If you display that SVG, the script executes, stealing user cookies!\n\nAlways enforce strict sanitization using libraries like DOMPurify to strip all script tags, event handlers, and foreign entities before saving SVGs to your database!",
+    "koreanGuide": {
+      "summary": "보안과 거버넌스: XSS 공격 방어를 위한 SVG 코드 살균",
+      "points": [
+        "1. XML 기반 보안 위협: SVG는 살아있는 코드이므로 악의적 해커가 `<script>` 태그나 악성 스크립트를 은닉 가능",
+        "2. 크로스 사이트 스크립팅(XSS): 검증되지 않은 SVG를 웹에 띄우면 사용자의 로그인 세션 쿠키를 탈취당하는 참사 발생",
+        "3. DOMPurify 살균 강제: 모든 업로드된 SVG에서 `<script>`, `onload`, `onmouseover` 속성을 자동 제거 후 저장"
+      ],
+      "tips": "멋진 그림 파일 뒤에 숨어 있는 해킹 코드를 걸러내는 철저한 사이버 보안 방어벽을 주지시키세요."
+    },
+    "keyTerms": [
+      {
+        "term": "SVG XSS Vulnerability",
+        "def": "The cybersecurity exploit where malicious JavaScript is embedded inside SVG XML markup to execute unauthorized code.",
+        "defKo": "SVG XSS 취약점 (벡터 위장 스크립트 해킹)"
+      }
+    ]
+  },
+  {
+    "num": 37,
+    "type": "triad",
+    "title": "GREEN SUSTAINABLE IT: POWER SAVINGS OF VECTORS",
+    "subtitle": "Slashing data center CPU cycles and global cooling overhead through lightweight vector math",
+    "cards": [
+      {
+        "title": "1. 80% Electricity Savings",
+        "desc": "Slicing asset payload weights reduces global server bandwidth and data center cooling overhead by up to 80%."
+      },
+      {
+        "title": "2. Minimal Mobile Battery Draw",
+        "desc": "Rendering clean geometric curves draws significantly less smartphone GPU power than decoding heavy bitmaps."
+      },
+      {
+        "title": "3. Global Digital Equity",
+        "desc": "Ultra-low-bandwidth SVG assets enable rich, accessible education platforms in developing nations over 3G networks."
+      }
+    ],
+    "script": "Slide 37 highlights environmental stewardship: \"Green Sustainable IT: Power Savings of Vectors.\"\n\nOur mandate under Soli Deo Gloria includes caring for the earth!\n\nServing gigabytes of heavy raster bitmaps forces data centers to run massive cooling towers and burn huge electrical loads.\n\nBy replacing bitmaps with lightweight SVG vectors, we slash data center bandwidth and electricity consumption by up to 80%! \n\nFurthermore, ultra-lightweight vectors load effortlessly in developing nations over slow 3G networks, promoting global digital equity!",
+    "koreanGuide": {
+      "summary": "친환경 그린 지속 가능 IT: 벡터 그래픽을 통한 80% 전력 절감",
+      "points": [
+        "1. 데이터센터 전력 80% 절감: 에셋 전송량을 극적으로 줄여 전 세계 서버 냉각 전력 소모와 탄소 배출 대폭 감축",
+        "2. 스마트폰 배터리 절약: 복잡한 비트맵 디코딩보다 가벼운 기하학 연산이 스마트폰 배터리를 훨씬 적게 소모",
+        "3. 글로벌 디지털 형평성: 느린 3G 네트워크를 쓰는 개발도상국 학생들에게도 깨짐 없이 풍부한 교육 시각 자료 무료 제공"
+      ],
+      "tips": "작은 코드 최적화 하나가 지구 환경을 살리고 제3세계 학생들에게 기회를 주는 숭고한 청지기직임을 전하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Green Vector Computing",
+        "def": "Reducing web infrastructure energy and carbon footprint by deploying lightweight, low-bandwidth vector assets.",
+        "defKo": "친환경 벡터 컴퓨팅 (저탄소 고효율 IT)"
+      }
+    ]
+  },
+  {
+    "num": 38,
+    "type": "comparison",
+    "title": "WISDOM SYNTHESIS: THE SOVEREIGN HUMAN CONDUCTOR",
+    "subtitle": "The high-speed calculation of the machine orchestra directed by human aesthetic wisdom",
+    "leftCard": {
+      "tag": "MACHINE CODE ORCHESTRA",
+      "title": "Velocity without Taste",
+      "points": [
+        "Generates thousands of vector coordinates in milliseconds",
+        "Executes complex mathematical formulas with zero calculation errors",
+        "Possesses zero innate sense of aesthetic beauty, harmony, or purpose"
+      ]
+    },
+    "rightCard": {
+      "tag": "SOVEREIGN HUMAN CONDUCTOR",
+      "title": "Aesthetic Judgment & Vision",
+      "points": [
+        "Possesses the divine spark of taste, proportion, and emotional harmony",
+        "Directs the machine to synthesize beauty that inspires and uplifts humanity",
+        "Holds sovereign veto power over every generated artifact under Soli Deo Gloria"
+      ]
+    },
+    "script": "Please look at Slide 38: \"Wisdom Synthesis: The Sovereign Human Conductor.\"\n\nAs we conclude our technical modules, remember our foundational truth:\nThe machine is a magnificent orchestra! It can calculate ten thousand vector coordinates in milliseconds without error. \n\nBut a machine has no heart! It has no innate sense of taste, harmony, or beauty!\n\nYou are the Conductor! \nYou hold the baton of aesthetic judgment! You direct the AI to craft beauty that inspires and heals! Keep technology as your humble servant under God!",
+    "koreanGuide": {
+      "summary": "지혜의 종합: 주권적 인간 지휘자와 기계 오케스트라의 조화",
+      "points": [
+        "Left (기계 코드 오케스트라): 수천 줄의 벡터 좌표를 수 밀리초 만에 연산하지만 아름다움과 조화의 의미를 모름",
+        "Right (주권적 인간 지휘자): 인간만이 가진 심미적 감각, 균형미, 공감 능력을 발휘하여 기술에 영혼을 불어넣음",
+        "본질: 기계가 아무리 빠른 계산을 하더라도 사람의 마음에 감동을 주는 '예술적 방향성'은 오직 인간 지휘자의 몫"
+      ],
+      "tips": "학생들에게 단순한 코더가 아닌, 미적 감각과 윤리적 통찰을 지닌 당당한 마에스트로로 설 것을 당부하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Aesthetic Conductor Model",
+        "def": "The philosophy that human taste and ethical purpose must govern high-speed AI code generation.",
+        "defKo": "심미적 지휘자 모델 (인간 주권 디자인 철학)"
+      }
+    ]
+  },
+  {
+    "num": 39,
+    "type": "triad",
+    "title": "HANDS-ON LAB 13: BUILDING A RESPONSIVE SVG DASHBOARD",
+    "subtitle": "3 practical engineering tasks to code, theme, and sanitize a vector dashboard in /Spark_OS/",
+    "cards": [
+      {
+        "title": "1. Code Vector Chart",
+        "desc": "Construct an interactive SVG bar chart with smooth Bezier curve accents from a raw economic dataset."
+      },
+      {
+        "title": "2. Auto Dark Mode & WCAG",
+        "desc": "Embed CSS variable tokens and `@media (prefers-color-scheme)` queries alongside WCAG semantic `<title>` tags."
+      },
+      {
+        "title": "3. Sanitize & Commit",
+        "desc": "Run DOMPurify sanitation and package your clean SVG file into `/Spark_OS/Lab13/` before Sunday midnight."
+      }
+    ],
+    "script": "Look at Slide 39 for your Hands-on Lab 13 Assignment: \"Building a Responsive SVG Dashboard.\"\n\nHere is your practical engineering mission for this week:\nTask 1: Code an interactive SVG bar chart from a dataset, using clean Bezier curves and responsive `viewBox` coordinates.\nTask 2: Embed CSS variable tokens for automatic Dark Mode transition, and include WCAG-compliant `<title>` and `<desc>` tags.\nTask 3: Sanitize your XML markup and save your validated file in `/Spark_OS/Lab13/` before Sunday midnight!",
+    "koreanGuide": {
+      "summary": "Lab 13 실습 과제 안내: 반응형 인터랙티브 SVG 대시보드 구축",
+      "points": [
+        "1. 벡터 차트 코딩: 주어진 경제 데이터셋을 기반으로 베지에 곡선과 반응형 viewBox가 적용된 SVG 바 차트 작성",
+        "2. 자동 다크모드 & 웹 접근성: CSS 변수와 미디어 쿼리를 내장하여 다크모드 자동 전환 및 시각장애인용 `<title>` 태그 장착",
+        "3. 살균 및 제출: XSS 위험 요소를 살균 소독하고 완성된 무결점 SVG 파일을 `/Spark_OS/Lab13/`에 일요일 자정까지 제출"
+      ],
+      "tips": "학생들이 직접 코드로 인터랙티브 차트를 만들고 다크모드를 연동해보는 실습 절차를 명쾌히 안내하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Lab 13 Assignment",
+        "def": "The hands-on engineering project requiring students to construct, theme, and sanitize a responsive SVG dashboard.",
+        "defKo": "Lab 13 반응형 SVG 대시보드 실습 과제"
+      }
+    ]
+  },
+  {
+    "num": 40,
+    "type": "title",
+    "title": "COURSE SUMMARY: ELEVATING HUMAN FOCUS THROUGH CODE",
+    "subtitle": "Previewing Session 14: Cinematic AI Pipelines: Flow AI vs. Runway ML",
+    "detail": "Course: The Architect of Intelligence • Oikos University (www.oikos.edu) • Soli Deo Gloria",
+    "instructor": "Prof. Peter Kim, Director of Smart Insight Lab • Complete Lab 13 by Sunday Midnight",
+    "script": "That brings us to the conclusion of Session 13! Look at Slide 40 for our milestone summary.\n\nRemember: Pixels are fragile, but mathematical code is infinite! \n\nBy mastering SVG vector engineering and LaTeX mathematical orchestration, you have elevated yourself above repetitive clerical design labor! Redeem your time, lead as sovereign conductors, and dedicate your talents to God's glory!\n\nNext week, in Session 14, we will explore \"Cinematic AI Pipelines: Flow AI vs. Runway ML,\" mastering the art of generative filmmaking and agentic video direction!\n\nThank you for your fantastic focus today! Have a blessed week. Soli Deo Gloria! Good night, everyone!",
+    "koreanGuide": {
+      "summary": "Session 13 수업 마감 및 Session 14(시네마틱 AI 파이프라인: Flow AI vs Runway ML) 예고",
+      "points": [
+        "과제 마감: 일요일 자정까지 Lab 13 반응형 SVG 대시보드 패키지 제출 완료",
+        "다음 주 예고: Session 14 차세대 생성형 영화 제작 파이프라인 (Google Flow AI 대 Runway ML 심층 비교)",
+        "수업 마감: '픽셀은 부서지지만 수학 코드는 영원합니다. 주권적 지휘자로 서십시오. Soli Deo Gloria!'"
+      ],
+      "tips": "학생들을 축복하며 다음 주 14강 AI 영화 제작 및 시네마틱 비디오 파이프라인에 대한 기대감을 고조시키며 마무리하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Cinematic AI Preview",
+        "def": "The upcoming exploration of generative video pipelines, autonomous camera direction, and narrative synthesis.",
+        "defKo": "시네마틱 AI 파이프라인 (Session 14 예고)"
       }
     ]
   }
