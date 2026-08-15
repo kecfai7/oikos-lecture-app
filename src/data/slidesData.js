@@ -13,7 +13,7 @@ export const SESSIONS = [
   { id: 9, title: "Session 9: Chrome V8 Security & Manifest V3 Fortress", active: true },
   { id: 10, title: "Session 10: Antigravity 2.0 & 93-Agent Swarm Orchestration", active: true },
   { id: 11, title: "Session 11: True AI Science: HurekaBench & Fact Verification", active: true },
-  { id: 12, title: "Session 12: World Models: Genie 3 Simulation & Waymo Training", active: false },
+  { id: 12, title: "Session 12: World Models: Genie 3 Simulation & Waymo Training", active: true },
   { id: 13, title: "Session 13: Calculated Art: SVG Engineering & LaTeX Math", active: false },
   { id: 14, title: "Session 14: Cinematic AI Pipelines: Flow AI vs Runway ML", active: false },
   { id: 15, title: "Session 15: IT Wisdom Peak: Human-on-the-Loop & Life OS Board", active: false },
@@ -16343,6 +16343,1463 @@ export const SLIDES_SESSION_11 = [
         "term": "World Models Preview",
         "def": "Generative AI systems simulating physical 3D interactive environments and real-world dynamics.",
         "defKo": "월드 모델 (Session 12 예고)"
+      }
+    ]
+  }
+];
+
+export const SLIDES_SESSION_12 = [
+  {
+    "num": 1,
+    "sessionNum": 12,
+    "type": "title",
+    "title": "OIKOS UNIVERSITY • SOLI DEO GLORIA",
+    "subtitle": "THE ARCHITECT OF INTELLIGENCE: Mastering Agentic IT & Strategic Wisdom",
+    "detail": "Session 12: World Models: Genie 3 Simulation & Waymo Autonomous Training",
+    "instructor": "Prof. Peter Kim, Director of Smart Insight Lab • www.oikos.edu",
+    "script": "Good evening, everyone! A warm and joyful welcome back to Oikos University! My name is Professor Peter Kim, and it is my absolute pleasure to guide you through Session 12 of our course: \"The Architect of Intelligence: Mastering Agentic IT and Strategic Wisdom.\"\n\nPlease look at our title slide: \"World Models: Genie 3 Simulation & Waymo Autonomous Training.\"\n\nToday, we cross another breathtaking frontier of artificial intelligence! We are stepping beyond flat 2D video generation into the active synthesis of living, interactive 3D physical worlds using Google's revolutionary Genie 3!\n\nWe will explore how 280 billion street view images and physics-driven neural models are building infinite, risk-free classrooms to train the autonomous robots and Waymo vehicles of tomorrow!\n\nFor all our international scholars joining from around the world, we will explain every concept in simple, clear, and friendly conversational English. Let us open the doors to the virtual universe under our sacred motto, Soli Deo Gloria!",
+    "koreanGuide": {
+      "summary": "Session 12 개요 및 구글 Genie 3 월드 모델과 Waymo 자율주행 훈련 환영 인사",
+      "points": [
+        "강의 주제: 2D 평면 비디오를 넘어 상호작용 가능한 물리적 3D 가상 세계를 생성하는 월드 모델(Genie 3)",
+        "2,800억 장의 스트리트 뷰 빅데이터와 V-M-C(시각-기억-제어기) 트랜스포머 아키텍처",
+        "Waymo 자율주행차 1만 대 동시 가상 군집 훈련과 시점 합성(Multi-Perspective Synthesis), 그리고 인간 지휘자의 거버넌스"
+      ],
+      "tips": "단순한 동영상 생성을 넘어 직접 조작하고 걸어 다니는 3D 가상 세계 시뮬레이터의 신세계를 힘차게 선포하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "World Model (Genie 3)",
+        "def": "An AI system that learns spatial physics and generates persistent, interactive 3D simulation environments from text prompts.",
+        "defKo": "월드 모델 (물리 법칙을 내재화한 상호작용형 가상 세계 시뮬레이터)"
+      },
+      {
+        "term": "Waymo Swarm Training",
+        "def": "Training thousands of autonomous vehicle instances in parallel virtual simulations to master edge-case driving anomalies.",
+        "defKo": "Waymo 가상 군집 훈련 (위험 상황 극복을 위한 병렬 시뮬레이션)"
+      }
+    ]
+  },
+  {
+    "num": 2,
+    "type": "motto",
+    "title": "SOLI DEO GLORIA: RECLAIMING TIME FOR SACRED CREATION",
+    "subtitle": "Automating repetitive 3D simulations to rescue human cognitive bandwidth under Ephesians 5:16",
+    "points": [
+      "Soli Deo Gloria: Glory to God Alone as our ultimate spiritual, intellectual, and creative compass.",
+      "The Divine Mandate: Automating complex physical modeling loops to rescue human cognitive bandwidth.",
+      "Ephesians 5:16: 'Redeeming the time, because the days are evil.' Transforming reclaimed hours into deep wisdom."
+    ],
+    "script": "Let us turn to Slide 2: \"Soli Deo Gloria: Reclaiming Time for Sacred Creation.\"\n\nAt Oikos University, everything we study is anchored in Soli Deo Gloria—Glory to God Alone.\n\nIn Ephesians chapter 5, verse 16, the Scriptures instruct us to \"redeem the time.\" \n\nWhy do we master world models like Genie 3? \nNot to become lazy or distracted by digital entertainment, but to rescue hundreds of manual hours spent coding 3D polygon meshes and physics equations!\n\nBy delegating mechanical simulation to sleep-free neural engines, we reclaim our time to focus on deep academic scholarship, creative problem-solving, and spiritual renewal. Soli Deo Gloria!",
+    "koreanGuide": {
+      "summary": "Soli Deo Gloria와 에베소서 5:16 말씀에 따른 창조적 시간의 구속",
+      "points": [
+        "신앙적 가치: 인간의 지성과 시간은 하나님의 영광을 위해 사용되어야 할 거룩한 자산",
+        "에베소서 5:16: '세월을 아끼라(Redeeming the time)'. 수작업 3D 모델링의 노역에서 시간을 구출",
+        "창조적 소명: 시뮬레이션 자동화로 확보한 인지적 여유를 이웃 사랑과 고차원적 통찰에 재투자"
+      ],
+      "tips": "시간의 구속이 단순한 효율성을 넘어 영적 사명을 완수하기 위한 청지기적 책무임을 강조하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Redeeming Time in IT",
+        "def": "Reclaiming human hours from mechanical engineering tasks through AI automation to invest in higher-order purpose.",
+        "defKo": "시간의 구속 (IT 자동화를 통한 창조적 시간 확보)"
+      }
+    ]
+  },
+  {
+    "num": 3,
+    "type": "comparison",
+    "title": "BREAKING THE 2D FRAME: MOVING TO ACTIVE INTERACTION",
+    "subtitle": "The passive observation of Sora & Runway vs. the active physics-driven immersion of Genie 3",
+    "leftCard": {
+      "tag": "PASSIVE VIDEO ERA (SORA & RUNWAY)",
+      "title": "Watching from Outside the Box",
+      "points": [
+        "User watches a flat 2D video clip like a passive movie viewer",
+        "Zero physical interaction; cannot touch objects, turn corners, or steer",
+        "High latency: Generating a new 10-second camera angle requires minutes",
+        "Static linear playback with no responsive physics feedback"
+      ]
+    },
+    "rightCard": {
+      "tag": "INTERACTIVE SIMULATOR ERA (GENIE 3)",
+      "title": "Stepping Inside the Living World",
+      "points": [
+        "User steps inside the screen with a joystick as an active participant",
+        "Native physics: Gravity, friction, momentum, and collision respond in real time",
+        "Zero-latency responsiveness: Instant 60 FPS viewport generation",
+        "Continuous 24/7 background world rendering with spatial memory"
+      ]
+    },
+    "script": "Look at Slide 3: \"Breaking the 2D Frame: Moving from Observation to Active Interaction.\"\n\nFor years, generative AI video was a flat, passive mirror. Look at the left side: Models like Sora or Runway generate gorgeous 2D video clips, but you are stuck on the outside just watching! You cannot turn the car left, open a door, or kick a ball.\n\nNow, look at the right side: Google Genie 3 shatters that flat glass box! \n\nYou step inside the screen with a joystick or keyboard! Every button press instantly changes the camera, navigates around buildings, and triggers real-time physical collisions at 60 frames per second! You are no longer watching a movie—you are living inside a responsive simulation!",
+    "koreanGuide": {
+      "summary": "2D 평면의 파괴: 관찰자 시점(Sora/Runway)에서 조작자 시점(Genie 3)으로의 대전환",
+      "points": [
+        "Left (수동적 비디오 시대): Sora나 Runway는 아름다운 영상을 보여주지만 관객처럼 밖에서 바라만 볼 뿐 조작 불가",
+        "Right (상호작용 시뮬레이터 시대): 조이스틱을 쥐고 화면 속으로 들어가 좌회전하고 문을 열며 물리적 충돌을 실시간 체험",
+        "패러다임 전환: 정적 동영상 감상 ➔ 60 FPS 실시간 물리 법칙이 작동하는 상호작용형 가상 세계"
+      ],
+      "tips": "유리창 밖에서 영화를 보던 관객이 직접 영화 속으로 걸어 들어가는 직관적인 비유를 드세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Interactive Simulator",
+        "def": "A generative AI system rendering dynamic 3D environments responding instantly to user control inputs.",
+        "defKo": "상호작용형 시뮬레이터 (실시간 컨트롤러 조작 가상 환경)"
+      }
+    ]
+  },
+  {
+    "num": 4,
+    "type": "triad",
+    "title": "GOOGLE GENIE 3: THE WORLD'S FIRST GENERATIVE SIMULATOR",
+    "subtitle": "Generating persistent, physics-governed 3D worlds from a single line of natural language text",
+    "cards": [
+      {
+        "title": "1. Text to 3D World in 30s",
+        "desc": "Translates a simple sentence prompt into a fully traversable, persistent 3D landscape in 30 seconds."
+      },
+      {
+        "title": "2. Native Physics Engine",
+        "desc": "Simulates gravity, inertia, friction, and kinetic collisions implicitly without writing a single line of C++."
+      },
+      {
+        "title": "3. Continuous 60 FPS Stream",
+        "desc": "Delivers fluid, real-time spatial navigation rendered dynamically in standard web browsers via WebGL."
+      }
+    ],
+    "script": "Slide 4 presents the breakthrough: \"Google Genie 3: The World's First Generative Simulator.\"\n\nLet us look at its three revolutionary capabilities:\nFirst: Text to World in 30 seconds. You type: \"A volcanic canyon with neon rivers and floating stone bridges,\" and within 30 seconds, Genie 3 compiles a complete, playable 3D world!\nSecond: Native Physics. It does not require manual C++ coding. The neural network already understands gravity, friction, and bounces!\nThird: Continuous 60 FPS streaming directly inside any regular web browser! You do not need an expensive supercomputer to explore these worlds!",
+    "koreanGuide": {
+      "summary": "구글 Genie 3: 세계 최초의 생성형 3D 월드 시뮬레이터",
+      "points": [
+        "1. 30초 만에 텍스트에서 3D 세계로: 한 줄의 프롬프트로 걸어 다닐 수 있는 방대한 3D 지형 즉시 구축",
+        "2. 내재화된 물리 엔진: 중력, 마찰력, 충돌 반동을 C++ 코드 한 줄 없이 신경망이 스스로 계산",
+        "3. 60 FPS 실시간 스트리밍: 고가 그래픽카드 없이 일반 웹 브라우저(WebGL)에서 매끄럽게 구동"
+      ],
+      "tips": "자연어 한 줄로 게임 맵 전체가 30초 만에 물리 법칙을 탑재하고 완성되는 충격을 설명하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Generative Simulator",
+        "def": "An AI platform creating real-time interactive virtual environments entirely from generative neural weights.",
+        "defKo": "생성형 시뮬레이터 (Genie 3)"
+      }
+    ]
+  },
+  {
+    "num": 5,
+    "type": "triad",
+    "title": "THE 3-PHASE INTERACTIVE PIPELINE: SKETCH, EXPLORE, REMIX",
+    "subtitle": "The creator workflow for constructing, traversing, and dynamically modifying virtual worlds",
+    "cards": [
+      {
+        "title": "1. World Sketching",
+        "desc": "Creator provides text or rough sketches. Genie 3 establishes the base 3D coordinates, terrain, and lighting."
+      },
+      {
+        "title": "2. World Exploration",
+        "desc": "User enters the simulation with a controller, navigating at 60 FPS with long-term spatial memory."
+      },
+      {
+        "title": "3. World Remixing",
+        "desc": "Creator dynamically modifies weather, artistic style, or structures on the fly without restarting."
+      }
+    ],
+    "script": "Please look at Slide 5: \"The 3-Phase Interactive Pipeline.\"\n\nHow do architects create within Genie 3? Through three simple stages:\n\nPhase 1 is \"World Sketching\": You describe the terrain, and Genie 3 lays out the 3D coordinates, lighting, and horizon.\nPhase 2 is \"World Exploration\": You grab your joystick and freely explore the valleys, cities, and oceans with persistent spatial memory.\nPhase 3 is \"World Remixing\": Mid-simulation, you can change the weather from bright sunshine to a violent thunderstorm without resetting the world!",
+    "koreanGuide": {
+      "summary": "3단계 상호작용 파이프라인: 스케치, 탐험, 리믹스",
+      "points": [
+        "1. 월드 스케치 (World Sketching): 텍스트나 간단한 드로잉으로 3D 지형 좌표계와 조명 설계",
+        "2. 월드 탐험 (World Exploration): 조이스틱으로 가상 세계를 시속 수십 km로 자유롭게 활보",
+        "3. 월드 리믹스 (World Remixing): 탐험 도중에 맑은 날씨를 폭풍우로 바꾸거나 건물을 사이버펑크로 실시간 변환"
+      ],
+      "tips": "설계하고, 직접 걸어 다니며, 실시간으로 세계를 개조하는 직관적인 3단계 창작 흐름을 전달하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "World Remixing",
+        "def": "The ability to alter environmental parameters, weather, and textures in a live simulation without restarting.",
+        "defKo": "월드 리믹싱 (실시간 가상 환경 동적 변환)"
+      }
+    ]
+  },
+  {
+    "num": 6,
+    "type": "comparison",
+    "title": "20 YEARS OF STREET VIEW: 280 BILLION IMAGE DATA MOAT",
+    "subtitle": "Google's unmatched spatial dataset across 110 countries powering Genie 3's real-world physics",
+    "leftCard": {
+      "tag": "COMPETITOR LIMITATION",
+      "title": "Synthetic or Scraped Video",
+      "points": [
+        "Trained on fragmented YouTube gaming clips and stock footage",
+        "Lacks true global architectural diversity, building heights, and street angles",
+        "Prone to surreal warping and spatial collapses when turning corners"
+      ]
+    },
+    "rightCard": {
+      "tag": "GOOGLE'S 280B IMAGE MOAT",
+      "title": "20 Years of Grounded Truth",
+      "points": [
+        "Over 280 billion high-resolution Street View images spanning 110 countries",
+        "Captures exact real-world physics, building geometries, and road curvatures",
+        "An insurmountable empirical data moat that no startup can replicate"
+      ]
+    },
+    "script": "Look at Slide 6: \"20 Years of Street View: A 280 Billion Image Moat.\"\n\nWhy is Genie 3 so startlingly realistic? Because it stands upon Google's twenty-year mapping legacy!\n\nWhile other AI startups scrape random video clips from the internet, Google trained Genie 3 on over 280 billion high-resolution Street View images across 110 countries and all seven continents!\n\nThis vast dataset gives Genie 3 an innate understanding of real-world roads, architecture, shadows, and spatial geometry. It is a data moat that no competitor can match!",
+    "koreanGuide": {
+      "summary": "20년의 구글 스트리트 뷰 유산: 2,800억 장의 압도적 데이터 해자(Moat)",
+      "points": [
+        "Left (경쟁사의 한계): 인터넷 단편 비디오로 학습하여 코너를 돌 때 공간이 일그러지거나 무너지는 현상 발생",
+        "Right (구글의 2,800억 장 해자): 전 세계 110개국 7개 대륙의 실제 도로, 건물 높이, 그림자 각도를 정밀 학습",
+        "데이터 격차: 그 어떤 스타트업도 복제할 수 없는 실물 물리 데이터의 절대적 우위"
+      ],
+      "tips": "구글 스트리트 뷰 차량이 20년 동안 전 세계를 누비며 축적한 데이터가 AI 월드 모델의 심장이 되었음을 강조하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Spatial Data Moat",
+        "def": "A proprietary, massive real-world image repository providing unmatched geographic and physical training accuracy.",
+        "defKo": "공간 데이터 해자 (2,800억 장 스트리트 뷰 자산)"
+      }
+    ]
+  },
+  {
+    "num": 7,
+    "type": "comparison",
+    "title": "GAME ENGINES (UNREAL) VS. GENERATIVE WORLD MODELS",
+    "subtitle": "Months of manual C++ polygon programming vs. implicit neural learning from raw video",
+    "leftCard": {
+      "tag": "TRADITIONAL ENGINES (UNREAL / UNITY)",
+      "title": "Millions in Manual Labor",
+      "points": [
+        "Requires large developer armies to code collision physics and polygon meshes",
+        "Rigid, pre-baked animation boundaries; cannot adapt to unexpected inputs",
+        "Months of modeling time and multi-million dollar asset production budgets"
+      ]
+    },
+    "rightCard": {
+      "tag": "WORLD MODELS (GENIE 3)",
+      "title": "Implicit Neural Learning",
+      "points": [
+        "Zero manual physics coding required; learns physics implicitly from video",
+        "Generates responsive, traversable 3D worlds in 30 seconds from natural text",
+        "Adapts dynamically and endlessly to unpredicted user controller actions"
+      ]
+    },
+    "script": "Slide 7 contrasts \"Traditional Game Engines versus Generative World Models.\"\n\nLook at Unreal Engine or Unity on the left:\nTo build a realistic city, you need a studio of fifty developers spending six months coding polygon meshes, texture shaders, and C++ collision math. It costs millions of dollars!\n\nLook at Genie 3 on the right:\nZero manual physics coding! It learned how gravity, friction, and reflections work simply by watching billions of video frames! It builds responsive, living 3D worlds in thirty seconds! This completely democratizes 3D creation!",
+    "koreanGuide": {
+      "summary": "전통 게임 엔진(Unreal/Unity) 대 생성형 월드 모델(Genie 3)",
+      "points": [
+        "Left (전통 엔진의 한계): 수십 명의 개발자가 수개월 동안 C++로 충돌 경계와 3D 폴리곤을 수작업 코딩 (수억 원 예산 소모)",
+        "Right (생성형 월드 모델): 코딩 없이 비디오 학습만으로 물리 법칙을 내재화하여 30초 만에 상호작용 세계 생성",
+        "혁신: 거대 게임 스튜디오의 전유물이었던 3D 가상 세계 제작이 모든 개인에게 민주화됨"
+      ],
+      "tips": "수억 원의 예산과 수개월의 노가다 코딩을 30초의 자연어 생성으로 대체하는 엄청난 가성비를 설명하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Implicit Physics Learning",
+        "def": "Neural networks acquiring the laws of physical motion and gravity directly from observational video data.",
+        "defKo": "암묵적 물리 학습 (영상 기반 물리 법칙 자율 체득)"
+      }
+    ]
+  },
+  {
+    "num": 8,
+    "type": "triad",
+    "title": "THE VMC ARCHITECTURE: VISION, MEMORY, CONTROLLER",
+    "subtitle": "The 3 synchronized neural systems powering Genie 3's real-time spatial cognition",
+    "cards": [
+      {
+        "title": "1. Vision Layer (V)",
+        "desc": "Decodes pixel inputs, parsing 3D geometric depth, surface textures, and dynamic lighting."
+      },
+      {
+        "title": "2. Memory Layer (M)",
+        "desc": "Maintains persistent spatial state, ensuring objects remain anchored when the camera pans away."
+      },
+      {
+        "title": "3. Controller Layer (C)",
+        "desc": "Translates joystick tilts, keyboard arrows, or VR telemetry into precise physical coordinate shifts."
+      }
+    ],
+    "script": "Look at Slide 8 for the brain of Genie 3: \"The VMC Architecture.\"\n\nGenie 3 operates through three synchronized neural systems:\nFirst, the Vision Layer (V): It parses shapes, textures, lighting, and geometric depth from raw pixels.\nSecond, the Memory Layer (M): It preserves spatial state. When you turn your back and walk away, the Memory layer ensures the red brick house is still there when you return!\nThird, the Controller Layer (C): It translates your joystick movements into exact physical coordinate shifts!",
+    "koreanGuide": {
+      "summary": "VMC 아키텍처: 시각(Vision), 기억(Memory), 제어기(Controller)의 3대 신경망",
+      "points": [
+        "1. Vision (시각 계층): 픽셀에서 3D 기하학적 깊이, 질감, 조명 파싱",
+        "2. Memory (기억 계층): 카메라가 다른 곳을 비춰도 뒤에 있던 건물이 사라지지 않도록 공간 상태 영구 보존",
+        "3. Controller (제어기 계층): 조이스틱 입력과 키보드 조작을 물리적 3D 좌표 이동으로 실시간 변환"
+      ],
+      "tips": "눈(시각), 뇌(기억), 손발(제어기)이 완벽하게 일체화되어 작동하는 인간의 인지 구조와 같음을 설명하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "VMC Architecture",
+        "def": "The unified tripartite framework combining Vision parsing, spatial Memory, and Controller navigation.",
+        "defKo": "VMC 아키텍처 (시각-기억-제어기 통합 시스템)"
+      }
+    ]
+  },
+  {
+    "num": 9,
+    "type": "triad",
+    "title": "THE UNIFIED TRANSFORMER: LATENT SPACE SYNCHRONIZATION",
+    "subtitle": "Eliminating multi-model pipeline lag by synchronizing V, M, and C in a single latent context",
+    "cards": [
+      {
+        "title": "1. Single Unified Transformer",
+        "desc": "Processes visual, temporal, and coordinate tokens simultaneously within one unified model."
+      },
+      {
+        "title": "2. Latent Space Physics",
+        "desc": "Executes physical collision calculations inside a compressed mathematical latent space."
+      },
+      {
+        "title": "3. Observe-Recall-Execute Loop",
+        "desc": "Runs a perpetual 60 FPS synchronization loop without multi-model bottleneck delays."
+      }
+    ],
+    "script": "Slide 9 shows how Genie 3 unifies these systems: \"The Unified Transformer.\"\n\nIn older experimental pipelines, engineers glued three separate AI models together, which caused terrible lag and desynchronization.\n\nGenie 3 uses a Single Unified Transformer! \n\nVisual tokens, temporal memory tokens, and controller coordinate tokens all live inside the exact same mathematical latent space! This eliminates pipeline lag and enables a seamless 60 FPS loop of: Observe, Recall, and Execute!",
+    "koreanGuide": {
+      "summary": "단일 통합 트랜스포머(Unified Transformer)와 잠재 공간 동기화",
+      "points": [
+        "1. 단일 통합 신경망: 시각, 시간 기억, 조작 좌표 토큰을 별개 모델이 아닌 하나의 트랜스포머에서 동시 처리",
+        "2. 잠재 공간 물리 연산: 압축된 수학적 잠재 공간(Latent Space) 내부에서 초고속 충돌 계산 수행",
+        "3. 지연 시간 제로: 다중 모델 파이프라인의 병목 현상을 완전히 제거하여 완벽한 60 FPS 동기화 실현"
+      ],
+      "tips": "3개의 부품을 전선으로 이은 것이 아니라, 하나의 완벽한 올인원 두뇌로 통합된 원리를 강조하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Unified Latent Transformer",
+        "def": "An architecture processing visual rendering, temporal persistence, and motor control within one context window.",
+        "defKo": "통합 잠재 트랜스포머"
+      }
+    ]
+  },
+  {
+    "num": 10,
+    "type": "section",
+    "title": "PART 2: UNDER THE HOOD OF PHYSICAL REALISM",
+    "subtitle": "Spatio-Temporal Tokenization, The Paradox of Reliability, and WebGL Thin-Client Delivery",
+    "script": "We now enter Part 2 of our lecture: \"Under the Hood of Physical Realism.\"\n\nHow does a neural network maintain a persistent 3D world without forgetting where buildings are located? Why are minor physics glitches actually beneficial for training robots? And how does Google stream these worlds to a basic laptop?\n\nLet us dive beneath the surface and examine spatio-temporal tokenizers, the paradox of reliability, and cloud-to-browser WebGL engineering. Let us explore!",
+    "koreanGuide": {
+      "summary": "Part 2 섹션 전환: 물리적 현실감의 내부 기술 메커니즘",
+      "points": [
+        "시공간(Spatio-Temporal) 비디오 토크나이저와 공간적 기억상실증 해결 원리",
+        "신뢰성의 역설(The Paradox of Reliability)과 WebGL 기반 클라우드-브라우저 60 FPS 스트리밍"
+      ],
+      "tips": "가상 세계가 무너지지 않고 영구적으로 유지되는 고도 엔지니어링의 비밀을 밝히는 파트입니다."
+    },
+    "keyTerms": [
+      {
+        "term": "Spatio-Temporal Tokenization",
+        "def": "The process of slicing video streams into discrete 3D spatial and temporal mathematical units.",
+        "defKo": "시공간 비디오 토큰화"
+      }
+    ]
+  },
+  {
+    "num": 11,
+    "type": "triad",
+    "title": "SPATIO-TEMPORAL TOKENIZER: SOLVING AMNESIA",
+    "subtitle": "Preserving absolute spatial consistency across kilometers of active virtual exploration",
+    "cards": [
+      {
+        "title": "1. The Amnesia Problem",
+        "desc": "Standard video generators forget scenes after 10 to 15 seconds, causing buildings to mutate."
+      },
+      {
+        "title": "2. Absolute Spatial Lock",
+        "desc": "Genie 3 locks buildings, roads, and mountains to immutable 3D coordinate anchors."
+      },
+      {
+        "title": "3. Infinite Traversal",
+        "desc": "Users can travel kilometers away and return to find their starting landmark completely unchanged."
+      }
+    ],
+    "script": "Look at Slide 11: \"Spatio-Temporal Tokenizer: Solving the Amnesia Problem.\"\n\nIn traditional AI video generators, models suffer from severe \"amnesia.\" After ten or fifteen seconds, the AI forgets the opening scene, and buildings mutate or disappear!\n\nGenie 3 solves this completely using a Spatio-Temporal Video Tokenizer! \n\nIt locks every road, mountain, and tree to an immutable 3D coordinate anchor. You can drive five kilometers away into the mountains, drive all the way back, and find your starting house exactly where you left it!",
+    "koreanGuide": {
+      "summary": "시공간 토크나이저: 기억상실증(Amnesia) 해결과 공간 일관성",
+      "points": [
+        "1. AI 비디오의 기억상실증: 10~15초만 지나면 이전 장면을 잊어버려 건물이 변형되거나 사라지는 치명적 문제",
+        "2. 절대 공간 앵커링: 모든 건물과 도로를 불변의 3D 공간 좌표에 영구 고정",
+        "3. 무한 탐험 보장: 수 킬로미터를 이동했다가 되돌아와도 출발지의 건물이 원래 모습 그대로 유지됨"
+      ],
+      "tips": "뒤돌아섰을 때 건물이 사라지는 귀신 들린 집 현상을 완벽히 해결한 기술적 쾌거임을 설명하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Spatial Consistency",
+        "def": "The permanent stability of virtual object geometries and locations across long-duration traversal.",
+        "defKo": "공간적 일관성 (Spatial Consistency)"
+      }
+    ]
+  },
+  {
+    "num": 12,
+    "type": "comparison",
+    "title": "THE PARADOX OF RELIABILITY: GLITCHES AS NOISE",
+    "subtitle": "Why mathematically flawless simulations create fragile AI, while minor visual noise builds resilient agents",
+    "leftCard": {
+      "tag": "FLAWLESS SIMULATION TRAP",
+      "title": "Overfitted Fragility",
+      "points": [
+        "Mathematically rigid polygon geometry with zero visual anomalies",
+        "AI agents overfit to perfection; crashes when encountering real-world dirt",
+        "Extremely expensive compute cost to enforce artificial polygon perfection"
+      ]
+    },
+    "rightCard": {
+      "tag": "PARADOX OF RELIABILITY",
+      "title": "Resilient World Regularization",
+      "points": [
+        "Minor neural anomalies (e.g. slight cactus clipping) act as beneficial noise",
+        "Prevents overfitting; trains AI agents to handle real-world messiness",
+        "Produces robust, battle-tested controllers ready for real physical deployment"
+      ]
+    },
+    "script": "Slide 12 introduces a profound concept: \"The Paradox of Reliability.\"\n\nYou might think a simulation must be mathematically 100% flawless. But look at the left: If an AI car trains only in a sterile, perfect CAD world, it will crash the moment it encounters a torn plastic bag or muddy pothole in the real world!\n\nLook at the right: Genie 3 keeps minor visual noise—like a wheel clipping through a cactus. This noise regularizes the neural network! It hardens the AI so it thrives in messy, unpredictable real-world environments!",
+    "koreanGuide": {
+      "summary": "신뢰성의 역설(The Paradox of Reliability): 글리치가 주는 유익",
+      "points": [
+        "Left (완벽한 시뮬레이션의 덫): 오차 0%의 무균실 같은 CAD 환경에서만 학습한 AI는 실제 도로의 비닐봉지나 진흙탕에 쉽게 오작동",
+        "Right (신뢰성의 역설): 미세한 그래픽 노이즈(선인장을 살짝 통과하는 현상 등)가 신경망의 과적합을 막는 천연 규제제(Noise) 역할",
+        "결과: 거칠고 불완전한 현실 세계에서도 절대 충돌하지 않는 강인한 실물 제어기 완성"
+      ],
+      "tips": "너무 온실 속 화초처럼 완벽하게 키우면 야생에서 죽듯, 적당한 노이즈가 강한 AI를 만든다는 비유를 드세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Paradox of Reliability",
+        "def": "The principle that minor simulation noise prevents neural overfitting and builds resilient real-world agents.",
+        "defKo": "신뢰성의 역설 (노이즈 기반 강인성 확보 원리)"
+      }
+    ]
+  },
+  {
+    "num": 13,
+    "type": "triad",
+    "title": "SPATIO-TEMPORAL PATCHING: 2D VIDEO TO 3D LATENT MESH",
+    "subtitle": "The 3 mathematical stages converting flat pixel streams into traversable 3D coordinate grids",
+    "cards": [
+      {
+        "title": "1. Temporal Chunking",
+        "desc": "Segments raw 2D video sequences into discrete 16-frame temporal time blocks."
+      },
+      {
+        "title": "2. Spatial Patching",
+        "desc": "Divides each frame into 16x16 spatial patches representing depth, normal vectors, and lighting."
+      },
+      {
+        "title": "3. Latent 3D Projection",
+        "desc": "Projects patches into a compressed 3D mathematical latent grid preserving persistent coordinate geometry."
+      }
+    ],
+    "script": "Please look at Slide 13: \"Spatio-Temporal Patching.\"\n\nHow does the neural network convert a flat video into a traversable 3D world?\n\nIn three mathematical steps:\nStep 1: Temporal Chunking — The video is sliced into discrete 16-frame time blocks.\nStep 2: Spatial Patching — Each frame is broken into 16-by-16 pixel patches representing depth vectors and lighting.\nStep 3: Latent 3D Projection — These patches are projected into a compressed mathematical latent space, creating a persistent 3D coordinate grid!",
+    "koreanGuide": {
+      "summary": "시공간 패칭(Patching): 2D 영상에서 3D 잠재 격자망으로의 변환 3단계",
+      "points": [
+        "1. 시간적 청킹 (Temporal Chunking): 2D 비디오를 16프레임 단위의 시간 블록으로 분할",
+        "2. 공간적 패칭 (Spatial Patching): 각 프레임을 16x16 픽셀 패치로 쪼개어 깊이와 법선 벡터 추출",
+        "3. 3D 잠재 투영 (Latent 3D Projection): 패치들을 압축된 3D 좌표 공간에 배치하여 탐험 가능한 격자망 구축"
+      ],
+      "tips": "평면 사진을 깍둑썰기하여 3D 입체 블록으로 재구성하는 레고 블록 조립 과정을 연상시키세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Spatial Patching",
+        "def": "Segmenting 2D video frames into discrete multi-dimensional tokens encoding surface geometry and depth.",
+        "defKo": "공간적 패칭 (기하학 깊이 인코딩)"
+      }
+    ]
+  },
+  {
+    "num": 14,
+    "type": "triad",
+    "title": "WEBGL ENGINE: 60 FPS SIMULATION ON THIN CLIENTS",
+    "subtitle": "Separating cloud neural inference from local client projection to democratize access",
+    "cards": [
+      {
+        "title": "1. Zero Local GPU Barrier",
+        "desc": "Runs smoothly inside standard web browsers without requiring expensive local graphics cards."
+      },
+      {
+        "title": "2. Client-Server Partition",
+        "desc": "Heavy neural inference runs on Google cloud TPUs; visual rendering is streamed via WebGL."
+      },
+      {
+        "title": "3. Fluid 60 FPS Delivery",
+        "desc": "Delivers instantaneous controller response times with low-bandwidth adaptive compression."
+      }
+    ],
+    "script": "Slide 14 details client delivery: \"WebGL Engine: 60 FPS on Thin Clients.\"\n\nIn the past, running an interactive 3D simulation required a 3,000-dollar gaming workstation with loud cooling fans.\n\nGenie 3 solves this via an intelligent Client-Server Partition:\nAll heavy neural matrix math runs in Google Cloud. The output is streamed to standard web browsers via WebGL at a silky-smooth 60 frames per second! Even a basic 300-dollar student laptop can explore these worlds with zero lag!",
+    "koreanGuide": {
+      "summary": "WebGL 엔진: 저사양 기기(Thin Client)에서도 60 FPS 실시간 구동",
+      "points": [
+        "1. 고가 GPU 불필요: 비싼 그래픽카드 없이 표준 웹 브라우저(Chrome, Safari 등)에서 즉시 실행",
+        "2. 클라이언트-서버 분할: 무거운 신경망 추론은 구글 클라우드가 담당하고 화면 표출은 WebGL이 전담",
+        "3. 60 FPS 초저지연 스트리밍: 대역폭 적응형 압축 기술로 30만 원대 보급형 노트북에서도 매끄럽게 작동"
+      ],
+      "tips": "비싼 장비 없이도 전 세계 모든 학생들이 동등하게 3D 가상 세계를 누릴 수 있는 민주화를 역설하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "WebGL Client-Server Partition",
+        "def": "The architectural division where cloud servers compute physics while client browsers render viewports.",
+        "defKo": "WebGL 클라이언트-서버 분할 아키텍처"
+      }
+    ]
+  },
+  {
+    "num": 15,
+    "type": "comparison",
+    "title": "REAL-TIME PROMPT EVENTS: 0.1S PHYSICS RECALCULATION",
+    "subtitle": "Triggering massive meteorological disasters mid-exploration with instantaneous vector re-evaluation",
+    "leftCard": {
+      "tag": "STATIC SIMULATORS (PRE-COMPILED)",
+      "title": "Hardcoded Weather Limits",
+      "points": [
+        "Cannot alter environment without stopping the simulation and re-baking assets",
+        "Weather effects are pre-rendered animations with zero physical force interaction",
+        "Requires hours of server downtime to modify terrain or wind parameters"
+      ]
+    },
+    "rightCard": {
+      "tag": "GENIE 3 REAL-TIME EVENTS",
+      "title": "0.1s Dynamic Transformation",
+      "points": [
+        "Prompt: 'Suddenly, a violent purple tornado sweeps across the valley'",
+        "Recalculates wind vectors, debris trajectories, and dynamic lighting in 0.1 seconds",
+        "Seamless execution with zero playback interruption or frame drops"
+      ]
+    },
+    "script": "Look at Slide 15: \"Real-Time Prompt Events: 0.1-Second Physics Recalculations.\"\n\nWhat happens if a researcher wants to test how an autonomous vehicle reacts to a sudden disaster?\n\nIn traditional simulators, you must stop the program and re-code the level.\nIn Genie 3, you type mid-exploration: \"Suddenly, a violent purple tornado sweeps across the valley!\"\n\nIn exactly 0.1 seconds, the neural engine recalculates wind vectors, flying debris trajectories, and shadow occlusions—transforming the living world without dropping a single frame!",
+    "koreanGuide": {
+      "summary": "실시간 프롬프트 이벤트: 0.1초 물리 벡터 재계산 및 환경 급변",
+      "points": [
+        "Left (정적 시뮬레이터): 날씨를 바꾸려면 시뮬레이션을 중단하고 맵을 다시 렌더링해야 함",
+        "Right (Genie 3 동적 이벤트): 주행 도중 '갑자기 보라색 토네이도가 몰아친다'고 입력하면 0.1초 만에 풍속 벡터와 파편 궤적 재계산",
+        "연속성: 단 1프레임의 끊김도 없이 실시간으로 재난 상황을 연출하여 자율주행차의 반응성 테스트"
+      ],
+      "tips": "주행 중 갑자기 하늘에서 번개가 치고 도로가 갈라지는 상황을 0.1초 만에 연출하는 마법을 묘사하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Prompt-Based Dynamic Events",
+        "def": "Injecting natural language commands to trigger instantaneous environmental and physical transformations mid-simulation.",
+        "defKo": "프롬프트 기반 동적 이벤트 (0.1초 환경 변환)"
+      }
+    ]
+  },
+  {
+    "num": 16,
+    "type": "comparison",
+    "title": "MAPS IMAGERY GROUNDING: REAL GPS TO CYBERPUNK",
+    "subtitle": "Locking to real-world Google Maps coordinate skeletons while applying generative artistic remixes",
+    "leftCard": {
+      "tag": "REAL-WORLD GPS BACKBONE",
+      "title": "Piccadilly Circus Coordinates",
+      "points": [
+        "Precise real-world latitude, longitude, and elevation from Google Maps",
+        "Exact building heights, lane widths, and traffic island boundaries",
+        "Preserving the structural truth of London's urban street network"
+      ]
+    },
+    "rightCard": {
+      "tag": "GENERATIVE WORLD REMIX",
+      "title": "Cyberpunk 2126 London",
+      "points": [
+        "Prompt: 'Transform into a neon cyberpunk metropolis 100 years in future'",
+        "Replaces brick walls with holographic glass and fills skies with delivery drones",
+        "Maintains Piccadilly's exact physical road curves and navigation bones"
+      ]
+    },
+    "script": "Slide 16 highlights \"Maps Imagery Grounding: Real GPS to Cyberpunk Cities.\"\n\nLook at how Genie 3 bridges reality and imagination:\nOn the left, it takes the real-world GPS coordinates of London's Piccadilly Circus from Google Maps—locking in the exact building heights and road curves.\n\nOn the right, you type: \"Transform into a cyberpunk metropolis 100 years in the future!\" \n\nGenie 3 replaces the stone buildings with holographic neon towers and spawns flying drones, while keeping the underlying road bones 100% accurate! Real geometry with infinite imagination!",
+    "koreanGuide": {
+      "summary": "구글 맵 지형 앵커링: 실제 GPS 골격 위에 펼쳐지는 사이버펑크 런던",
+      "points": [
+        "Left (실물 GPS 뼈대): 구글 맵에서 추출한 런던 피카딜리 서커스의 실제 위도, 경도, 도로 곡률, 건물 높이 데이터 유지",
+        "Right (생성형 월드 리믹스): '100년 뒤 사이버펑크 도시로 변환' 프롬프트를 주면 건물 외벽이 홀로그램과 네온 글래스로 변신",
+        "결합의 미학: 현실의 물리적 길찾기 도로망 뼈대 위에 무한한 상상력의 그래픽 스킨을 실시간 장착"
+      ],
+      "tips": "실제 런던의 도로 구조는 그대로 유지하면서 도시 전체를 미래 영화 세트장으로 바꾸는 기법을 설명하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Maps Imagery Grounding",
+        "def": "Anchoring generative AI 3D rendering onto authentic GPS coordinates and building height data from satellite maps.",
+        "defKo": "지도 데이터 기반 공간 앵커링"
+      }
+    ]
+  },
+  {
+    "num": 17,
+    "type": "triad",
+    "title": "TRADITIONAL GIS VS. GENERATIVE TOPOGRAPHY MESHING",
+    "subtitle": "Replacing flat layered 2D vector maps with continuous, dynamically synthesized 3D terrain meshes",
+    "cards": [
+      {
+        "title": "1. Generative 3D Mesh",
+        "desc": "Synthesizes continuous, fully traversable 3D terrain meshes directly from 2D satellite photographs."
+      },
+      {
+        "title": "2. Infinite Dynamic LOD",
+        "desc": "Synthesizes micro-textures dynamically as the camera gets closer, eliminating asset file bloat."
+      },
+      {
+        "title": "3. Adaptive Geometry",
+        "desc": "Modifies polygon resolution automatically based on vehicle speed and viewing distance."
+      }
+    ],
+    "script": "Please look at Slide 17: \"Traditional GIS versus Generative Topography Meshing.\"\n\nTraditional GIS systems stack flat vector lines on top of aerial photos. But you cannot drive a car through a flat vector map!\n\nGenie 3 performs \"Generative Topography Meshing\":\nIt reads flat 2D satellite photos and synthesizes a continuous, traversable 3D mesh. \n\nAs your virtual vehicle drives closer to a rock, the neural network generates high-resolution micro-textures on the fly, eliminating the need for massive gigabyte texture downloads!",
+    "koreanGuide": {
+      "summary": "전통 GIS 대 Genie 3 생성형 지형 메시(Topography Meshing)",
+      "points": [
+        "1. 생성형 3D 메시: 2D 위성사진을 분석하여 실제 주행 가능한 연속적 3D 지형 표면 메시 생성",
+        "2. 무한 동적 디테일(LOD): 카메라가 바위에 가까워질수록 미세 질감을 실시간 생성하여 수십 기가바이트 텍스처 다운로드 불필요",
+        "3. 적응형 기하학: 차량 주행 속도와 시야 거리에 맞춰 폴리곤 해상도를 지능적으로 자동 조절"
+      ],
+      "tips": "평면 지적도를 밟고 지나가는 것이 아니라 실제 울퉁불퉁한 흙길을 차로 달리는 3D 메시 생성을 설명하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Generative Topography Meshing",
+        "def": "Synthesizing continuous, drivable 3D surface meshes directly from flat aerial and satellite imagery.",
+        "defKo": "생성형 지형 메시 합성"
+      }
+    ]
+  },
+  {
+    "num": 18,
+    "type": "triad",
+    "title": "HARDWARE BACKBONE: TPU V8, BOARDFLY & FIBER GRID",
+    "subtitle": "The 3 infrastructure pillars powering persistent 24/7 global world model rendering",
+    "cards": [
+      {
+        "title": "1. TPU v8 Superclusters",
+        "desc": "Massive matrix calculation engines processing trillions of spatial coordinate tokens every second."
+      },
+      {
+        "title": "2. Boardfly Bus Highway",
+        "desc": "A 1,000-lane ultra-low-latency internal data highway preventing inter-neural bottleneck lag."
+      },
+      {
+        "title": "3. Global Optical Fiber Grid",
+        "desc": "Interconnecting hyper-scale data centers worldwide to synchronize live simulation states with 0ms drift."
+      }
+    ],
+    "script": "Slide 18 reveals the engine room: \"Hardware Backbone: TPU v8, Boardfly & Fiber Grid.\"\n\nSimulating living 3D worlds 24/7 for millions of users requires immense physical infrastructure:\n\nPillar 1 is Google's TPU v8 superclusters—crunching trillions of spatial matrix numbers every microsecond.\nPillar 2 is the Boardfly Bus—an internal 1,000-lane highway moving data between neural chips without traffic jams.\nPillar 3 is Google's global optical fiber grid—synchronizing simulation states across continents with zero latency!",
+    "koreanGuide": {
+      "summary": "하드웨어 백본: TPU v8, 보드플라이(Boardfly), 글로벌 광통신망",
+      "points": [
+        "1. TPU v8 슈퍼클러스터: 매초 수조 개의 공간 좌표 토큰 행렬 연산을 초고속 처리",
+        "2. 보드플라이 버스 (Boardfly Bus): 칩 간 데이터 병목을 없애는 1,000차선 내부 데이터 고속도로",
+        "3. 글로벌 광통신망: 대륙 간 데이터센터를 실시간 연결하여 전 세계 사용자의 시뮬레이션 상태를 오차 없이 동기화"
+      ],
+      "tips": "눈부신 소프트웨어 이면에 지구 전체를 감싸고 있는 구글의 거대한 하드웨어 인프라를 소개하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Boardfly Bus",
+        "def": "Google's proprietary high-throughput interconnect bus enabling ultra-low-latency communication between TPU chips.",
+        "defKo": "보드플라이 버스 (초고속 칩간 통신 고속도로)"
+      }
+    ]
+  },
+  {
+    "num": 19,
+    "type": "triad",
+    "title": "TPU V8 GREEN ARCHITECTURE: 3X POWER EFFICIENCY",
+    "subtitle": "Tripling matrix computation performance while slashing carbon emissions under Soli Deo Gloria",
+    "cards": [
+      {
+        "title": "1. 3x Matrix Throughput",
+        "desc": "Delivers 3 times higher floating-point throughput per chip compared to previous tensor generations."
+      },
+      {
+        "title": "2. Dynamic Voltage Scaling",
+        "desc": "Adjusts chip energy draw dynamically microsecond-by-microsecond to eliminate power waste."
+      },
+      {
+        "title": "3. 100% Renewable Matching",
+        "desc": "Runs within carbon-neutral data centers matched with 24/7 solar, wind, and geothermal power grids."
+      }
+    ],
+    "script": "Look at Slide 19: \"TPU v8 Green Architecture: 3x Power Efficiency.\"\n\nAt Oikos University, we must care for the physical creation! \n\nRunning massive AI worlds 24/7 could consume dangerous amounts of electrical energy.\nGoogle engineered TPU v8 with Dynamic Voltage Scaling—tripling matrix computing power per watt while eliminating electrical waste! \n\nCombined with 100% renewable solar and geothermal power, it accelerates scientific discovery while honoring our calling as faithful stewards of the earth!",
+    "koreanGuide": {
+      "summary": "TPU v8 친환경 아키텍처: 3배의 전력 효율과 창조 세계 보전",
+      "points": [
+        "1. 3배의 행렬 연산 처리량: 이전 세대 대비 와트당 연산 능력을 3배로 대폭 향상",
+        "2. 동적 전압 스케일링: 마이크로초 단위로 전력 공급을 조절하여 불필요한 전기 낭비 차단",
+        "3. 100% 재생 에너지 가동: 태양광, 풍력, 지열 기반의 탄소 중립 데이터센터에서 운용되어 창조 세계 청지기직 실천"
+      ],
+      "tips": "환경 파괴 없는 지속 가능한 AI 인프라의 중요성을 신앙적 청지기 사명과 연결하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Green Tensor Computing",
+        "def": "High-efficiency neural hardware designed to minimize energy consumption and carbon footprint during training.",
+        "defKo": "친환경 텐서 컴퓨팅 (TPU v8)"
+      }
+    ]
+  },
+  {
+    "num": 20,
+    "type": "section",
+    "title": "PART 3: WAYMO AND THE INFINITE SAFE CLASSROOM",
+    "subtitle": "Edge-Case Simulation, Parallel Swarm Training, Multi-Perspective Views, and Ed25519 Audit Trails",
+    "script": "We now open Part 3 of our lecture: \"Waymo and the Infinite Safe Classroom.\"\n\nWhy is world simulation the single most important technology for autonomous driving?\n\nIn this section, we will see how Waymo uses Genie 3 to build an infinite virtual driving school. We will explore parallel swarm training of 10,000 cars simultaneously, multi-perspective cameras that see through the eyes of pedestrians, and immutable cryptographic accident audit trails in `/Spark_OS/`. Let us step into the autonomous classroom!",
+    "koreanGuide": {
+      "summary": "Part 3 섹션 전환: Waymo 자율주행과 무한 안전 가상 교실",
+      "points": [
+        "실제 도로 주행 훈련의 치명적 위험과 가상 시뮬레이션의 무한한 안전성",
+        "1만 대 동시 군집 훈련, 보행자/자전거 시점 합성(Multi-Perspective), 그리고 Ed25519 사고 감사 원장"
+      ],
+      "tips": "실제 자율주행 차량이 가상 시뮬레이터를 통해 어떻게 무사고 베스트 드라이버로 거듭나는지 보여주세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Infinite Safe Classroom",
+        "def": "The virtual simulation environment where autonomous AI agents master hazardous edge-cases with zero physical risk.",
+        "defKo": "무한 안전 가상 교실 (자율주행 훈련 샌드박스)"
+      }
+    ]
+  },
+  {
+    "num": 21,
+    "type": "comparison",
+    "title": "THE HAZARDS OF REAL-WORLD DRIVING TRAINING",
+    "subtitle": "Dangerous physical highway testing vs. infinite, risk-free parallel virtual simulation",
+    "leftCard": {
+      "tag": "PHYSICAL ROAD TESTING (DANGER)",
+      "title": "High Risk & Heavy Friction",
+      "points": [
+        "Risk of fatal human collisions, vehicle damage, and multi-million dollar liabilities",
+        "Cannot safely stage rare natural disasters (hurricanes, flash floods, falling trees)",
+        "Strictly linear execution limited by 24-hour days and physical vehicle wear"
+      ]
+    },
+    "rightCard": {
+      "tag": "GENIE 3 SIMULATION (SAFETY)",
+      "title": "Zero Risk & Infinite Scale",
+      "points": [
+        "Zero risk of physical injury or property damage; crashes simply trigger instant resets",
+        "Infinite procedural generation of rare hazardous edge-cases at the push of a button",
+        "Massive parallel acceleration: 10,000 virtual vehicles trained in one single second"
+      ]
+    },
+    "script": "Look at Slide 21: \"The Hazards of Real-World Driving Training.\"\n\nWhy can't self-driving companies just train their cars on real city streets?\n\nLook at the left: Real-world testing is dangerous and expensive! You cannot deliberately drop a tree in front of a school bus on a busy highway to test if the car can brake in time!\n\nLook at the right: Genie 3 simulation provides an infinite, zero-risk classroom! A virtual car can crash 100,000 times, reset instantly, and learn from its mistakes with zero human injuries! That is how we achieve absolute safety!",
+    "koreanGuide": {
+      "summary": "실제 도로 훈련의 위험성 대 Genie 3 가상 시뮬레이션의 무한한 안전성",
+      "points": [
+        "Left (실제 도로 훈련의 한계): 인명 사고 위험, 차량 파손, 위험 상황(폭풍우, 도로 붕괴)을 임의로 연출 불가",
+        "Right (Genie 3 가상 시뮬레이션): 10만 번 충돌해도 인명 피해 없이 0.1초 만에 리셋되며 완벽한 회피 알고리즘 체득",
+        "규모의 차이: 1초 만에 가상 차량 1만 대를 동시에 훈련시키는 압도적 병렬 확장성"
+      ],
+      "tips": "실제 도로에서 위험한 실험을 할 수 없는 자율주행 기업들에게 시뮬레이터가 필수불가결함을 강조하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Edge-Case Simulation",
+        "def": "Generating rare, hazardous driving scenarios artificially in software to train autonomous navigation models safely.",
+        "defKo": "엣지 케이스 시뮬레이션 (희귀 위험 상황 가상 훈련)"
+      }
+    ]
+  },
+  {
+    "num": 22,
+    "type": "triad",
+    "title": "WAYMO'S VIRTUAL DRIVING SCHOOL ON GENIE 3",
+    "subtitle": "The 4-step loop from GPS city reconstruction to zero-lash physical fleet deployment",
+    "cards": [
+      {
+        "title": "1. GPS City Ingestion",
+        "desc": "Waymo feeds authentic San Francisco and Phoenix street maps into Genie 3 to build 3D mesh replicas."
+      },
+      {
+        "title": "2. Extreme Simulation",
+        "desc": "Forces self-driving models to navigate blinding blizzards, jaywalkers, and aggressive drivers."
+      },
+      {
+        "title": "3. Zero-Lash Deployment",
+        "desc": "Once an agent achieves a 100% safety score, the neural weights are securely flashed onto physical cars."
+      }
+    ],
+    "script": "Slide 22 maps out \"Waymo's Virtual Driving School on Genie 3.\"\n\nLook at the deployment pipeline:\nStep 1: Waymo imports real GPS coordinates of San Francisco, Phoenix, and Austin into Genie 3, generating exact 3D city twins.\nStep 2: Virtual Waymo cars navigate extreme challenges—blinding snow, jaywalkers running into traffic, and erratic drivers.\nStep 3: Once the AI model achieves a perfect safety score in the simulator, its neural weights are securely flashed onto physical Waymo robotaxis driving on real streets!",
+    "koreanGuide": {
+      "summary": "Waymo의 Genie 3 가상 운전학교 3단계 파이프라인",
+      "points": [
+        "1. 실물 GPS 지도 적재: 샌프란시스코, 피닉스 등의 실제 도로망을 Genie 3에 투입해 정밀 3D 쌍둥이 도시 구축",
+        "2. 극한 상황 네비게이션: 눈보라, 무단횡단 보행자, 난폭 운전자가 난무하는 가상 환경에서 강화학습 진행",
+        "3. 실물 차량 무결점 배포: 가상 시뮬레이터에서 100점 무사고 점수를 획득한 가중치만 실제 Waymo 차량에 업로드"
+      ],
+      "tips": "가상 세계에서 수백만 번의 시험을 통과한 모범생 AI만 실제 도로에 내보내는 철저한 검증 과정을 설명하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Zero-Lash Fleet Migration",
+        "def": "Deploying validated simulation-trained neural weights directly to physical autonomous vehicles without performance degradation.",
+        "defKo": "실물 플릿 무결점 마이그레이션 (가상 검증 후 실물 배포)"
+      }
+    ]
+  },
+  {
+    "num": 23,
+    "type": "triad",
+    "title": "SIMULATING EXTREME WEATHER: HARDENING AGAINST EDGE-CASES",
+    "subtitle": "Testing flash floods, blinding blizzards, and hurricane debris anomalies inside Genie 3",
+    "cards": [
+      {
+        "title": "1. Flash Floods",
+        "desc": "Simulates deep standing water reflections, lane marking submersion, and hydroplaning tire friction."
+      },
+      {
+        "title": "2. Blinding Blizzards",
+        "desc": "Tests optical camera occlusion, LiDAR laser scatter off snowflakes, and icy braking distances."
+      },
+      {
+        "title": "3. Hurricane Debris",
+        "desc": "Replicates falling trees, tumbling metal dumpsters, and extreme lateral wind pressure vectors."
+      }
+    ],
+    "script": "Please look at Slide 23: \"Simulating Extreme Weather.\"\n\nAutonomous vehicles must be bulletproof against rare weather disasters known as \"edge-cases\":\n\n1. Flash Floods: Simulating deep puddle reflections that confuse cameras, submerged lane lines, and hydroplaning tires.\n2. Blinding Blizzards: Testing how LiDAR sensors handle laser scattering off dense snowflakes, and calibrating braking on black ice.\n3. Hurricane Debris: Simulating falling trees and tumbling trash cans blown across the road by 80-mph wind gusts!",
+    "koreanGuide": {
+      "summary": "극한 기상 이변 시뮬레이션: 엣지 케이스 극복 훈련",
+      "points": [
+        "1. 돌발 홍수 (Flash Floods): 물웅덩이 반사광으로 인한 카메라 착시, 차선 침수, 타이어 수막현상 시뮬레이션",
+        "2. 눈보라 (Blinding Blizzards): 눈송이에 라이다(LiDAR) 레이저가 산란되는 현상과 빙판길 제동 거리 보정",
+        "3. 허리케인 파편 (Hurricane Debris): 강풍에 쓰러지는 가로수와 도로를 구르는 대형 쓰레기통 긴급 회피"
+      ],
+      "tips": "실제 도로에서는 평생 한 번 겪을까 말까 한 재난 상황을 가상 공간에서 매일 수만 번 훈련함을 설명하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Sensor Occlusion Simulation",
+        "def": "Modelling physical sensor degradation caused by environmental factors like heavy fog, snow, or torrential rain.",
+        "defKo": "센서 가림 현상 시뮬레이션"
+      }
+    ]
+  },
+  {
+    "num": 24,
+    "type": "triad",
+    "title": "SWARM TESTING PROTOCOL: 10,000 AGENTS IN PARALLEL",
+    "subtitle": "Spawning 10,000 parallel cloud instances to achieve 1,000 years of driving experience in one hour",
+    "cards": [
+      {
+        "title": "1. Parallel Swarm Spawn",
+        "desc": "Spawns 10,000 identical virtual Waymo vehicles across 10,000 parallel cloud container instances."
+      },
+      {
+        "title": "2. Stochastic Variation",
+        "desc": "Each car faces a slightly different anomaly (varying pedestrian speeds, tire friction, light angles)."
+      },
+      {
+        "title": "3. Master Synthesis",
+        "desc": "The optimal navigation weights from all 10,000 runs are distilled into a single master software update."
+      }
+    ],
+    "script": "Slide 24 reveals the exponential scale: \"The Swarm Testing Protocol.\"\n\nHow does Waymo accumulate one thousand years of driving experience in a single afternoon?\n\nThrough Swarm Testing!\nInstead of driving one car down one street, Google spawns ten thousand virtual Waymo cars in parallel across cloud containers! Each car faces a different obstacle. \n\nAt the end of the hour, the successful collision-avoidance decisions from all 10,000 cars are synthesized into one single master software update! That is supercharged learning!",
+    "koreanGuide": {
+      "summary": "군집 테스트 프로토콜(Swarm Testing): 1만 대 동시 병렬 훈련",
+      "points": [
+        "1. 1만 대 가상 차량 생성: 1만 개의 독립된 클라우드 컨테이너에 동일한 자율주행 AI 인스턴스 동시 배치",
+        "2. 확률적 변수 다양화: 각 차량마다 보행자 속도, 노면 마찰력, 조명 각도를 미세하게 다르게 부여",
+        "3. 마스터 가중치 합성: 1만 대의 차량이 겪은 성공적 회피 경험을 단 1시간 만에 하나의 통합 마스터 모델로 증류(Distillation)"
+      ],
+      "tips": "한 사람이 1,000년 동안 운전해야 쌓을 수 있는 노하우를 단 1시간 만에 압축 습득하는 군집 학습의 위력을 전하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Swarm Distillation",
+        "def": "Aggregating the learned parameters of thousands of parallel simulation agents into a single high-performance neural model.",
+        "defKo": "군집 증류 (Swarm Distillation)"
+      }
+    ]
+  },
+  {
+    "num": 25,
+    "type": "comparison",
+    "title": "MULTI-PERSPECTIVE SYNTHESIS: SEEING THROUGH OTHERS",
+    "subtitle": "Moving beyond the car's hood to synthesize viewpoints of pedestrians, cyclists, and cats",
+    "leftCard": {
+      "tag": "SELF-CENTERED VEHICLE VIEW",
+      "title": "Blind Spots & Single Point",
+      "points": [
+        "Reads data strictly from the autonomous vehicle's front and roof cameras",
+        "Cannot anticipate pedestrian hesitation or cyclist blind-spot fear",
+        "Vulnerable to sudden occlusions behind large trucks and delivery vans"
+      ]
+    },
+    "rightCard": {
+      "tag": "MULTI-PERSPECTIVE SYNTHESIS",
+      "title": "Omnipresent Empathy Mesh",
+      "points": [
+        "Simulates visual views of nearby pedestrians, cyclists, and even street cats",
+        "Analyzes how humans perceive the car's speed to anticipate pedestrian anxiety",
+        "Builds proactive, defensive driving policies that prevent close-call frights"
+      ]
+    },
+    "script": "Look at Slide 25: \"Multi-Perspective Synthesis: Seeing Through Others.\"\n\nTraditional simulators only view the road from the car's front bumper.\nGenie 3 introduces \"Multi-Perspective Synthesis!\"\n\nIt dynamically generates the viewpoint of the pedestrian standing on the crosswalk, the cyclist riding in the bike lane, and even a cat darting across an alley!\n\nBy seeing itself through the eyes of humans, the AI understands how pedestrians perceive its speed—allowing it to slow down early, communicate empathy, and drive defensively!",
+    "koreanGuide": {
+      "summary": "다중 시점 합성(Multi-Perspective Synthesis): 타인의 눈으로 본 자율주행차",
+      "points": [
+        "Left (자기중심적 차량 시점): 차량 앞범퍼 카메라 시야에만 의존하여 보행자의 망설임이나 사각지대 공포를 이해하지 못함",
+        "Right (다중 시점 합성): 횡단보도에 서 있는 보행자, 옆 차선의 자전거 라이더, 골목길 고양이의 시점에서 차량을 동시 렌더링",
+        "공감 기반 방어운전: '내가 다가가는 속도를 저 보행자가 얼마나 위협적으로 느낄까?'를 역산하여 부드럽고 친절하게 감속"
+      ],
+      "tips": "자율주행차가 자기 입장만 보지 않고 보행자의 눈으로 자신을 바라보며 배려 운전을 배우는 감동적인 기술입니다."
+    },
+    "keyTerms": [
+      {
+        "term": "Multi-Perspective Synthesis",
+        "def": "Rendering simultaneous viewpoints of all surrounding road actors to train empathetic and defensive navigation policies.",
+        "defKo": "다중 시점 합성 (상대방 관점 시각화)"
+      }
+    ]
+  },
+  {
+    "num": 26,
+    "type": "triad",
+    "title": "VETO-ON-THE-LOOP: HUMAN OPERATOR SOVEREIGNTY",
+    "subtitle": "Maintaining absolute human veto authority over autonomous simulation training runs",
+    "cards": [
+      {
+        "title": "1. Set Research Tempo",
+        "desc": "Human directors establish ethical safety parameters, speed ceilings, and urban routing priorities."
+      },
+      {
+        "title": "2. Inspect Reasoning Tokens",
+        "desc": "Human auditors review the AI's internal THINK token deliberations before allowing code compilation."
+      },
+      {
+        "title": "3. Sovereign Veto Authority",
+        "desc": "Human operators retain absolute power to pause, reject, or rewrite any erratic neural navigation decision."
+      }
+    ],
+    "script": "Slide 26 re-establishes governance: \"Veto-on-the-Loop: Human Operator Sovereignty.\"\n\nAt Oikos University, we champion \"Human-on-the-Loop\" governance.\n\nWhile AI handles the heavy simulation of billions of miles, human engineers hold sovereign veto power. \n\nIf an AI car makes an aggressive or morally ambiguous maneuver, the human auditor pauses the simulation, inspects the AI's internal reasoning tokens, and vetoes the behavior! Technology remains the servant; human wisdom commands the system!",
+    "koreanGuide": {
+      "summary": "루프 위의 거부권(Veto-on-the-Loop): 인간 오퍼레이터의 절대 주권",
+      "points": [
+        "1. 안전 기준 설정: 인간 디렉터가 윤리적 안전 가이드라인과 속도 제한, 우선순위 구역 지정",
+        "2. 내부 추론 토큰 감사: 시뮬레이션 결과가 배포되기 전 AI의 'THINK' 내부 판단 논리를 철저히 감리",
+        "3. 주권적 거부권(Veto): 위험하거나 부적절한 기계의 판단을 즉시 중단시키고 폐기할 수 있는 절대적 권한 유지"
+      ],
+      "tips": "기계가 아무리 똑똑해져도 최종 윤리적 승인과 기각의 칼자루는 언제나 인간이 쥐고 있어야 함을 역설하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Veto-on-the-Loop",
+        "def": "A governance framework ensuring human supervisors can instantaneously override and veto autonomous decisions.",
+        "defKo": "루프 위의 거부권 (인간 감독 거버넌스)"
+      }
+    ]
+  },
+  {
+    "num": 27,
+    "type": "comparison",
+    "title": "CRASH AUDIT TRAILS: ED25519 CRYPTOGRAPHIC LOGS",
+    "subtitle": "Opaque AI black boxes vs. immutable, court-admissible telemetry sealed in /Spark_OS/",
+    "leftCard": {
+      "tag": "OPAQUE AI DECISION BOX",
+      "title": "The Un-Auditable Void",
+      "points": [
+        "Vehicle swerves: 'Why did the AI brake?' - Nobody knows",
+        "No tamper-proof record of sensor inputs, friction data, or reasoning tokens",
+        "Susceptible to post-incident alteration; inadmissible in legal liability disputes"
+      ]
+    },
+    "rightCard": {
+      "tag": "IMMUTABLE CRYPTOGRAPHIC LEDGER",
+      "title": "Ed25519 Sealed Telemetry",
+      "points": [
+        "Logs every microsecond steer angle, brake pressure, and sensor vector",
+        "Saves telemetry directly to Google Drive root directory `/Spark_OS/`",
+        "Seals every log entry with an unalterable Ed25519 cryptographic signature"
+      ]
+    },
+    "script": "Look at Slide 27: \"Crash Audit Trails: Ed25519 Cryptographic Logs.\"\n\nWhen an accident occurs in the real world, insurance companies ask: \"Why did the vehicle brake?\"\n\nLook at the right side: Our system builds an immutable cryptographic ledger! \n\nEvery microsecond of steer angles, brake pressure, LiDAR point clouds, and reasoning tokens is written directly to the `/Spark_OS/` directory and signed with Ed25519 cryptographic keys! \n\nIt provides 100% tamper-proof, court-admissible evidence proving exactly why the system took action!",
+    "koreanGuide": {
+      "summary": "사고 감사 원장과 Ed25519 전자서명 기반 불변의 증빙 체계",
+      "points": [
+        "Left (불투명한 블랙박스): '차가 왜 갑자기 급제동했는가?'에 대해 증명할 수 없어 법적 분쟁 시 막대한 손실",
+        "Right (불변의 암호화 원장): 조향각, 브레이크 압력, 라이다 데이터, 내부 추론 토큰을 마이크로초 단위로 기록",
+        "Ed25519 서명: 구글 드라이브 `/Spark_OS/` 루트에 저장되며 전자서명으로 봉인되어 법정에서도 공인되는 100% 무결점 증거"
+      ],
+      "tips": "자율주행차가 사고를 냈을 때 책임을 명확히 가려주는 디지털 블랙박스이자 법적 공증 원장의 역할을 설명하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Ed25519 Telemetry Audit",
+        "def": "Cryptographically sealing autonomous vehicle telemetry logs with digital signatures to guarantee court admissibility.",
+        "defKo": "Ed25519 텔레메트리 감사 원장"
+      }
+    ]
+  },
+  {
+    "num": 28,
+    "type": "triad",
+    "title": "3 COMMERCIAL VERTICALS: ROBOTICS, AVIATION, SMART CITIES",
+    "subtitle": "Expanding Genie 3 physical prototyping into manufacturing, drone logistics, and urban planning",
+    "cards": [
+      {
+        "title": "1. Warehouse Robotics",
+        "desc": "Trains robotic arms to grasp, balance, and pack fragile irregular goods in simulated fulfillment centers."
+      },
+      {
+        "title": "2. Drone Aviation",
+        "desc": "Calibrates delivery quadcopters to safely navigate turbulent skyscraper wind-tunnels."
+      },
+      {
+        "title": "3. Smart City Urban Design",
+        "desc": "Simulates municipal flood drainage paths, traffic flow bottlenecks, and solar shadow occlusions."
+      }
+    ],
+    "script": "Slide 28 showcases the vast commercial horizon: \"Robotics, Aviation, and Smart Cities.\"\n\nGenie 3's power reaches far beyond robotaxis:\n1. Warehouse Robotics: Training robotic arms to pick and pack fragile, irregular items in simulated Amazon warehouses.\n2. Drone Aviation: Training autonomous delivery drones to navigate dangerous wind-tunnels between skyscrapers before taking flight.\n3. Smart City Design: Urban planners simulate municipal flood water drainage and traffic congestion before pouring a single bucket of concrete!",
+    "koreanGuide": {
+      "summary": "Genie 3의 3대 상업적 확장: 물류 로보틱스, 드론 항공, 스마트 시티",
+      "points": [
+        "1. 물류 로보틱스: 가상 물류센터에서 깨지기 쉬운 비정형 상품을 집고 포장하는 로봇 팔 자율 훈련",
+        "2. 드론 항공: 고층 빌딩 사이의 위험한 빌딩풍 돌풍을 가상으로 재현하여 배달 드론 제어기 훈련",
+        "3. 스마트 시티 설계: 실제 콘크리트를 붓기 전 도시 침수 배수 경로와 교통 병목, 일조권 음영을 완벽 사전 시뮬레이션"
+      ],
+      "tips": "자율주행을 넘어 로봇, 항공, 도시 계획 전체를 재창조하는 월드 모델의 상업적 잠재력을 소개하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Physical Prototyping in AI",
+        "def": "Simulating real-world mechanical and environmental physics in software before building physical hardware.",
+        "defKo": "가상 물리 프로토타이핑"
+      }
+    ]
+  },
+  {
+    "num": 29,
+    "type": "triad",
+    "title": "VIRTUAL CLASSROOMS: TPACK GEOGRAPHY LABS",
+    "subtitle": "Democratizing world-class physical science expeditions through interactive virtual simulation",
+    "cards": [
+      {
+        "title": "1. TPACK Framework",
+        "desc": "Integrating Technology (Genie 3), Pedagogy (Inquiry Labs), and Content (Earth Science & Geography)."
+      },
+      {
+        "title": "2. Interactive Expeditions",
+        "desc": "Students step inside the Grand Canyon or Mount Vesuvius to witness geological erosion in real time."
+      },
+      {
+        "title": "3. Democratized Education",
+        "desc": "Delivering high-end field trips to low-income school districts worldwide at zero travel cost."
+      }
+    ],
+    "script": "Please look at Slide 29: \"Virtual Classrooms: TPACK Geography Labs.\"\n\nAt Oikos University, we combine Genie 3 with the TPACK educational framework—Technology, Pedagogy, and Content Knowledge!\n\nInstead of reading a boring textbook paragraph about erosion, students step inside a living 3D simulation of the Grand Canyon! They can adjust rainfall or soil moisture via text prompts and watch rock layers erode in real time! \n\nThis delivers world-class laboratory field trips to low-income schools around the globe!",
+    "koreanGuide": {
+      "summary": "가상 교실의 혁명: TPACK 프레임워크 기반 지리학 가상 탐사 실습",
+      "points": [
+        "1. TPACK 프레임워크 결합: 기술(Genie 3) + 교육학(탐구형 실습) + 교과내용(지구과학/지리학)의 완벽한 융합",
+        "2. 실시간 대화형 탐사: 그랜드 캐니언이나 베수비오 화산 속에 들어가 강우량을 조절하며 지형 침식 과정을 실시간 관찰",
+        "3. 교육의 민주화: 비싼 여행 비용 없이 전 세계 취약계층 학생들에게 최고급 지리 현장학습 무료 제공"
+      ],
+      "tips": "지루한 교과서 암기에서 벗어나 직접 화산 속에 들어가 자연을 탐구하는 미래 교육의 비전을 전하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "TPACK Framework",
+        "def": "The pedagogical model harmonizing Technological knowledge, Pedagogical methods, and Content expertise.",
+        "defKo": "TPACK 프레임워크 (기술·교육학·내용 지식 통합)"
+      }
+    ]
+  },
+  {
+    "num": 30,
+    "type": "section",
+    "title": "PART 4: STRATEGIC GOVERNANCE & CREATIVE SOVEREIGNTY",
+    "subtitle": "Data Privacy Sandboxes, Cyber Fortification, Reclaiming Time, and Hands-on Lab 12",
+    "script": "We now enter our final chapter: Part 4: \"Strategic Governance & Creative Sovereignty.\"\n\nWhen AI can simulate entire cities and drive autonomous fleets, how do we secure our systems against cyber attacks, protect proprietary blueprints, and guard against human intellectual laziness?\n\nIn this section, we will study data privacy sandboxes, DNR firewall defenses, the Conductor Model of human purpose, and your Hands-on Lab 12 assignment. Let us complete our summit!",
+    "koreanGuide": {
+      "summary": "Part 4 섹션 전환: 전략적 거버넌스와 창조적 주권",
+      "points": [
+        "데이터 프라이버시 샌드박스와 사이버 보안 방어벽(DNR 필터)",
+        "지적 나태(Intellectual Sloth) 방어, 지휘자 모델(The Conductor Model), 그리고 Lab 12 실습"
+      ],
+      "tips": "기술의 강력함에 걸맞은 철저한 보안 거버넌스와 인간 주권의 회복을 선언하는 피날레입니다."
+    },
+    "keyTerms": [
+      {
+        "term": "Creative Sovereignty",
+        "def": "The human prerogative to define the ethical purpose and creative direction of autonomous AI systems.",
+        "defKo": "창조적 주권 (인간의 고유 목적 설정 권한)"
+      }
+    ]
+  },
+  {
+    "num": 31,
+    "type": "triad",
+    "title": "DATA PRIVACY SANDBOX: ENTERPRISE TOPOGRAPHY ISOLATION",
+    "subtitle": "Guaranteed zero-data leakage and anti-training seals for proprietary enterprise 3D CAD files",
+    "cards": [
+      {
+        "title": "1. Zero-Data Leakage",
+        "desc": "Proprietary factory blueprints and CAD files are quarantined strictly inside isolated Virtual Private Clouds."
+      },
+      {
+        "title": "2. Anti-Training Seal",
+        "desc": "Google contractually guarantees that user-uploaded topography meshes are never used to train public foundation models."
+      },
+      {
+        "title": "3. Encrypted /Spark_OS/ Root",
+        "desc": "Restricts all telemetry outputs and manifest configs exclusively to the user's private Google Drive `/Spark_OS/` directory."
+      }
+    ],
+    "script": "Look at Slide 31: \"Data Privacy Sandbox: Enterprise Topography Isolation.\"\n\nWhen automotive or aerospace corporations simulate secret prototypes, their biggest fear is corporate espionage.\n\nGoogle solves this through the Data Privacy Sandbox:\nYour unique 3D factory blueprints and CAD meshes are quarantined inside isolated private clouds. \n\nGoogle provides an ironclad Anti-Training Seal guaranteeing your proprietary data is never absorbed into public models, and all logs remain encrypted inside your `/Spark_OS/` drive!",
+    "koreanGuide": {
+      "summary": "데이터 프라이버시 샌드박스: 기업 3D 지형 및 CAD 도면 완벽 격리",
+      "points": [
+        "1. 데이터 유출 제로: 기업의 비밀 공장 도면과 신차 CAD 파일은 독립된 가상 사설 클라우드(VPC) 내부에 엄격 격리",
+        "2. 학습 활용 금지 보증 (Anti-Training Seal): 업로드된 지형 데이터가 공용 기초 모델 학습에 절대 쓰이지 않음을 계약상 보증",
+        "3. `/Spark_OS/` 암호화 저장: 모든 시뮬레이션 설정과 텔레메트리 로그를 사용자 전용 드라이브 루트에만 암호화 저장"
+      ],
+      "tips": "기업들이 기밀 유출 걱정 없이 안심하고 클라우드 시뮬레이터를 도입할 수 있는 보안 신뢰성을 제시하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Anti-Training Seal",
+        "def": "A contractual enterprise guarantee that uploaded proprietary simulation assets will never be ingested into public training sets.",
+        "defKo": "학습 활용 금지 보증 (Anti-Training Seal)"
+      }
+    ]
+  },
+  {
+    "num": 32,
+    "type": "triad",
+    "title": "3 SEVERE CYBERSECURITY RISKS IN SIMULATION",
+    "subtitle": "Adversarial GPS spoofing, prompt injection via texture signs, and unauthorized CAD exfiltration",
+    "cards": [
+      {
+        "title": "1. Adversarial GPS Spoofing",
+        "desc": "Injecting manipulated coordinate metadata to deceive autonomous navigation pathing algorithms."
+      },
+      {
+        "title": "2. Texture Prompt Injection",
+        "desc": "Embedding hidden text commands inside road signs or billboard textures to hijack the vehicle's vision parser."
+      },
+      {
+        "title": "3. Unauthorized CAD Exfiltration",
+        "desc": "Siphoning multi-million dollar simulated engineering assets through unmonitored outbound API channels."
+      }
+    ],
+    "script": "Slide 32 highlights \"Three Severe Cybersecurity Risks in Simulation.\"\n\nAs intelligence architects, we must anticipate cyber threats:\n\nThreat 1: Adversarial GPS Spoofing — Hackers inject fake coordinate metadata to throw autonomous vehicles off course.\nThreat 2: Texture Prompt Injection — Malicious actors paint hidden text inside a billboard texture that tricks the car's vision parser into ignoring red lights!\nThreat 3: CAD Exfiltration — Siphoning proprietary 3D vehicle designs through unmonitored background APIs. We must fortify our walls!",
+    "koreanGuide": {
+      "summary": "가상 시뮬레이션 환경을 노리는 3대 치명적 사이버 보안 위협",
+      "points": [
+        "1. 적대적 GPS 스푸핑: 조작된 위도/경도 메타데이터를 주입하여 자율주행차의 경로 알고리즘을 교란",
+        "2. 텍스처 프롬프트 인젝션: 도로 표지판이나 광고판 텍스처 속에 시스템 해킹 명령어를 숨겨 비전 파서 무력화",
+        "3. CAD 자산 무단 탈취: 모니터링되지 않는 아웃바운드 API를 통해 수억 원 상당의 3D 설계도 유출 시도"
+      ],
+      "tips": "눈에 보이지 않는 도로 표지판 그림 속 텍스트로도 AI 자동차가 해킹당할 수 있는 최신 보안 위협을 경고하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Texture Prompt Injection",
+        "def": "An adversarial exploit embedding malicious textual commands directly into visual image textures to hijack vision LLMs.",
+        "defKo": "텍스처 프롬프트 인젝션 (시각 텍스처 위장 해킹)"
+      }
+    ]
+  },
+  {
+    "num": 33,
+    "type": "comparison",
+    "title": "CYBERNETIC FORTIFICATION: DNR FILTERS & MICRO-VPC",
+    "subtitle": "Vulnerable open systems vs. fortified environments using Declarative Net Request and Ed25519",
+    "leftCard": {
+      "tag": "VULNERABLE OPEN ENVIRONMENT",
+      "title": "Unrestricted Attack Surface",
+      "points": [
+        "Allows unrestricted outbound network calls, leaking raw simulation memory",
+        "Accepts raw unsanitized prompt strings directly into the physics engine",
+        "Zero cryptographic signature checks on uploaded 3D terrain meshes"
+      ]
+    },
+    "rightCard": {
+      "tag": "FORTIFIED SECURE SHIELD",
+      "title": "Declarative Security Armor",
+      "points": [
+        "Blocks all unauthorized outbound traffic via strict Declarative Net Request (DNR)",
+        "Enforces rigid JSON schema sanitization on all user prompt commands",
+        "Verifies every simulation manifest with Ed25519 cryptographic signatures"
+      ]
+    },
+    "script": "Look at Slide 33 for our defense blueprint: \"Cybernetic Fortification.\"\n\nLook at the right side to see how we fortify our simulation environments:\n\nFirst: We deploy Declarative Net Request (DNR) rules to block all unauthorized outbound network traffic, making data theft impossible.\nSecond: All prompt events are sanitized through strict JSON schemas, stripping out hidden exploit commands.\nThird: Every 3D mesh and manifest file is cryptographically verified with Ed25519 signatures before execution! Absolute security!",
+    "koreanGuide": {
+      "summary": "사이버 요새화: DNR 필터와 마이크로 VPC 샌드박싱",
+      "points": [
+        "Left (취약한 기본 환경): 아웃바운드 네트워크 무제한 허용으로 메모리 누출 및 비검증 텍스트 직접 유입",
+        "Right (철통 보안 요새): 선언적 네트워크 요청(DNR) 필터로 비인가 외부 통신 100% 차단",
+        "엄격한 스키마 검증: 모든 프롬프트를 JSON 스키마로 살균 소독하고 Ed25519 전자서명으로 매니페스트 무결성 검증"
+      ],
+      "tips": "외부 침입과 내부 유출을 원천 봉쇄하는 구글 Manifest V3급의 철벽 보안 방패를 설명하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "DNR Firewall Filtering",
+        "def": "Using Declarative Net Request rules in the browser engine to block unauthorized outbound simulation telemetry.",
+        "defKo": "DNR 방화벽 필터링 (선언적 아웃바운드 차단)"
+      }
+    ]
+  },
+  {
+    "num": 34,
+    "type": "triad",
+    "title": "BALANCING LATENCY & GEOMETRY: DYNAMIC RESOLUTION",
+    "subtitle": "Balancing high-fidelity physics computation with fluid thin-client browser performance",
+    "cards": [
+      {
+        "title": "1. Dynamic Mesh Scaling",
+        "desc": "Reduces polygon texture density automatically during rapid vehicle maneuvers to maintain stable frame rates."
+      },
+      {
+        "title": "2. Tiered TPU Routing",
+        "desc": "Routes complex physical collisions to high-tier TPU v8 clusters; routes static road rendering to lighter nodes."
+      },
+      {
+        "title": "3. Local Browser Caching",
+        "desc": "Caches static building geometries inside local browser memory to eliminate redundant API calls."
+      }
+    ],
+    "script": "Slide 34 addresses performance: \"Balancing Latency & Geometry: Dynamic Resolution.\"\n\nSimulating continuous 3D physics requires heavy computing power. How does Genie 3 stay fast?\n\nThrough three smart optimizations:\n1. Dynamic Mesh Scaling: When a vehicle speeds up, background texture resolution scales down slightly, keeping frame rates locked at 60 FPS.\n2. Tiered TPU Routing: Heavy collisions go to superclusters, while quiet country roads route to lighter compute nodes.\n3. Local Caching: Static city buildings are cached in browser RAM to avoid redundant downloads!",
+    "koreanGuide": {
+      "summary": "지연 시간과 기하학의 균형: 동적 해상도 스케일링(Dynamic Resolution Scaling)",
+      "points": [
+        "1. 동적 메시 스케일링: 고속 주행 시 배경 폴리곤을 지능적으로 줄여 60 FPS 프레임 드롭 방지",
+        "2. 계층형 TPU 라우팅: 복잡한 다중 충돌은 최고 성능 TPU v8로, 단순 직선 도로는 경량 노드로 분산 처리",
+        "3. 로컬 브라우저 캐싱: 변하지 않는 정적 건물 지형은 브라우저 RAM에 캐싱하여 불필요한 API 호출 차단"
+      ],
+      "tips": "품질과 속도라는 두 마리 토끼를 모두 잡는 구글의 뛰어난 리소스 최적화 기술을 소개하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Dynamic Mesh Scaling",
+        "def": "Adjusting polygon and texture resolution in real-time based on camera velocity to preserve frame rate.",
+        "defKo": "동적 메시 스케일링 (속도 기반 해상도 조절)"
+      }
+    ]
+  },
+  {
+    "num": 35,
+    "type": "triad",
+    "title": "ENTERPRISE 3-STEP ROADMAP: ADOPTING WORLD MODELS",
+    "subtitle": "A pragmatic transition roadmap guiding organizations from flat 2D media to interactive simulation",
+    "cards": [
+      {
+        "title": "1. Asset Digitization",
+        "desc": "Convert existing 2D CAD schematics, facility maps, and satellite photos into 3D latent vector representations."
+      },
+      {
+        "title": "2. Sandbox Deployment",
+        "desc": "Construct private, secure Genie 3 simulation environments establishing domain-specific physical rules."
+      },
+      {
+        "title": "3. Autonomous Swarming",
+        "desc": "Deploy thousands of parallel AI agents to train, optimize, and stress-test enterprise business workflows."
+      }
+    ],
+    "script": "Please look at Slide 35: \"Enterprise 3-Step Roadmap: Adopting World Models.\"\n\nHow does an enterprise adopt this transformative technology?\n\nStep 1: Asset Digitization — Convert your flat CAD blueprints, factory floor plans, and aerial photos into 3D latent vectors.\nStep 2: Sandbox Deployment — Build private, secure Genie 3 simulation sandboxes tailored to your business rules.\nStep 3: Autonomous Swarming — Deploy thousands of AI agents in parallel to test and optimize logistics, robotics, and customer flows before launching in the real world!",
+    "koreanGuide": {
+      "summary": "엔터프라이즈 월드 모델 도입 3단계 실천 로드맵",
+      "points": [
+        "1. 자산 디지털화 (Asset Digitization): 평면 CAD 도면과 위성사진을 3D 잠재 벡터 공간으로 변환",
+        "2. 샌드박스 배포 (Sandbox Deployment): 기업 고유의 비즈니스 및 물리 법칙이 적용된 프라이빗 Genie 3 환경 구축",
+        "3. 자율 군집 운영 (Autonomous Swarming): 수천 대의 AI 에이전트를 가상 투입하여 물류 및 생산 공정 최적화 사전 검증"
+      ],
+      "tips": "기업 실무진이 바로 적용할 수 있는 명쾌하고 실용적인 3단계 실행 가이드를 제시하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Asset Digitization",
+        "def": "Converting legacy 2D blueprints and CAD files into multi-dimensional AI-ready spatial embeddings.",
+        "defKo": "공간 자산 디지털화"
+      }
+    ]
+  },
+  {
+    "num": 36,
+    "type": "triad",
+    "title": "THE DANGER OF INTELLECTUAL SLOTH & COGNITIVE ATROPHY",
+    "subtitle": "Guarding human analytical rigor against the temptation of passive algorithmic complacency",
+    "cards": [
+      {
+        "title": "1. Cognitive Outsourcing",
+        "desc": "The dangerous trap of accepting simulated AI predictions blindly without human critical evaluation."
+      },
+      {
+        "title": "2. Intellectual Atrophy",
+        "desc": "Allowing the analytical brain to wither away through passive consumption of automated reports."
+      },
+      {
+        "title": "3. Active Audit Duty",
+        "desc": "The non-negotiable calling to cross-examine, audit, and challenge every machine-generated hypothesis."
+      }
+    ],
+    "script": "Look at Slide 36 for a serious ethical warning: \"The Danger of Intellectual Sloth.\"\n\nWhen simulators can build worlds and predict traffic in seconds, the greatest temptation is \"Cognitive Outsourcing\"—accepting AI predictions blindly without critical thought!\n\nIf you stop thinking, your analytical brain will atrophy! \n\nAs Intelligence Architects, we must never become passive consumers. We must maintain an active critique—auditing the code receipts, challenging the assumptions, and demanding proof for every machine decision!",
+    "koreanGuide": {
+      "summary": "지적 나태(Intellectual Sloth)와 인지적 퇴화에 대한 엄중한 경고",
+      "points": [
+        "1. 인지적 외주화의 함정: AI 시뮬레이터의 예측 결과를 무비판적으로 수용하여 뇌를 기계에 맡겨버리는 위험",
+        "2. 지적 능력의 퇴화: 자동화된 결과물만 수동적으로 소비하다가 인간 고유의 분석력과 비판적 사고력이 마비됨",
+        "3. 능동적 감리 책무: 기계가 도출한 모든 가설과 데이터에 대해 '왜?'라고 질문하고 검증하는 인간의 주체적 사명"
+      ],
+      "tips": "편리한 AI 시뮬레이터에 취해 생각하기를 멈추는 지적 게으름을 단호히 경계하도록 독려하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Cognitive Outsourcing",
+        "def": "Uncritically delegating vital analytical and ethical decision-making to automated neural network models.",
+        "defKo": "인지적 외주화 (무비판적 AI 의존 현상)"
+      }
+    ]
+  },
+  {
+    "num": 37,
+    "type": "comparison",
+    "title": "THE CONDUCTOR MODEL: HUMAN SPIRIT AS THE SOLE SOURCE",
+    "subtitle": "The mechanical velocity of the automated orchestra directed by the sovereign human conductor",
+    "leftCard": {
+      "tag": "AUTOMATED MACHINE ORCHESTRA",
+      "title": "Velocity without Vision",
+      "points": [
+        "Performs trillions of matrix calculations at lightning speed",
+        "Possesses infinite memory and parallel swarm simulation scale",
+        "Flawless mechanical execution but possesses zero purpose, heart, or empathy"
+      ]
+    },
+    "rightCard": {
+      "tag": "SOVEREIGN HUMAN CONDUCTOR",
+      "title": "Vision, Ethics & Soul",
+      "points": [
+        "Declares the artistic theme, sets the ethical tempo, and directs the mission",
+        "Infuses technology with compassionate purpose to heal, build, and uplift",
+        "Maintains final sovereign veto authority under Soli Deo Gloria"
+      ]
+    },
+    "script": "Slide 37 presents our timeless architectural philosophy: \"The Conductor Model.\"\n\nLook at this magnificent metaphor:\nThe machine is an orchestra! It can play notes with blazing speed and perfect precision. But an orchestra without a conductor is just noise; it has no heart, no story, and no vision!\n\nYou are the Conductor! You hold the baton! \n\nIt is the human spirit that infuses technology with divine purpose—declaring the mission, setting the tempo, and steering the power of AI toward the glory of God and the blessing of humanity!",
+    "koreanGuide": {
+      "summary": "지휘자 모델(The Conductor Model): 인간 영혼과 목적의 유일한 원천",
+      "points": [
+        "Left (자동화된 기계 오케스트라): 초고속 연산과 무한한 메모리로 완벽한 기계적 연주를 수행하지만 영혼과 목적이 없음",
+        "Right (주권적 인간 지휘자): 악장의 테마를 선언하고, 박자를 맞추며, 기술에 생명과 사랑의 목적을 불어넣음",
+        "영원한 진리: 지휘봉을 쥔 인간의 영혼만이 기계의 연산력에 참된 의미와 방향을 부여할 수 있음"
+      ],
+      "tips": "오케스트라 단원(AI)들을 거느리고 지휘봉을 휘두르는 당당한 마에스트로의 자긍심을 심어주세요."
+    },
+    "keyTerms": [
+      {
+        "term": "The Conductor Model",
+        "def": "The strategic philosophy establishing that human purpose and ethics must orchestrate automated machine velocity.",
+        "defKo": "지휘자 모델 (인간 주권 거버넌스 철학)"
+      }
+    ]
+  },
+  {
+    "num": 38,
+    "type": "triad",
+    "title": "REDEEMING THE TIME: ASYNCHRONOUS DELEGATION",
+    "subtitle": "Delegating exhaustive simulation loops to Genie 3 to reclaim Sabbath rest and creative calling",
+    "cards": [
+      {
+        "title": "1. 24/7 Computation Loop",
+        "desc": "Delegates exhaustive physics rendering and collision math to sleep-free cloud engines."
+      },
+      {
+        "title": "2. Sacred Sabbath Recovery",
+        "desc": "Reclaims the margin required to honor relationships, family, and spiritual contemplation."
+      },
+      {
+        "title": "3. High-Level Focus",
+        "desc": "Shifts human focus from tedious polygon debugging to world-changing strategic architecture."
+      }
+    ],
+    "script": "Please look at Slide 38: \"Redeeming the Time: Asynchronous Delegation.\"\n\nWhy do we master these agentic world models?\n\nTo redeem our time! \n\nBy delegating exhaustive 3D simulation loops to Genie 3, you let the machines work 24/7 while you rest! \n\nYou reclaim the precious margin needed to honor your Sabbath, care for your family, and dedicate your sharpest daytime intellect to solving profound challenges! That is true wisdom!",
+    "koreanGuide": {
+      "summary": "시간의 구속: 비동기 위임을 통한 학문적 집중과 안식의 회복",
+      "points": [
+        "1. 24시간 자율 시뮬레이션: 지치지 않는 클라우드 엔진에 지루한 물리 연산과 충돌 계산을 비동기 위임",
+        "2. 거룩한 안식의 여유 회복: 밤샘 코딩의 압박에서 벗어나 가족과 공동체, 영적 안식을 누릴 수 있는 여백 확보",
+        "3. 고차원 전략 집중: 단순 폴리곤 디버깅 대신 세상을 변화시킬 전략적 아키텍처 구상에 몰입"
+      ],
+      "tips": "AI 기술의 궁극적 축복은 사람을 더 바쁘게 만드는 것이 아니라 참된 안식과 자유를 주는 것임을 전하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Asynchronous Delegation",
+        "def": "Offloading continuous computational tasks to cloud AI agents so humans can focus on strategic synthesis.",
+        "defKo": "비동기 위임 (Asynchronous Delegation)"
+      }
+    ]
+  },
+  {
+    "num": 39,
+    "type": "triad",
+    "title": "HANDS-ON LAB 12: BUILD YOUR VIRTUAL CLASSROOM",
+    "subtitle": "3 practical engineering tasks to configure a geological simulation sandbox in /Spark_OS/",
+    "cards": [
+      {
+        "title": "1. Select Landmark (GPS)",
+        "desc": "Choose a real-world geological landmark (e.g., Grand Canyon) and extract its precise GPS coordinate bounds."
+      },
+      {
+        "title": "2. Draft .wmcp Schema",
+        "desc": "Write a WebMCP manifest schema defining terrain elevation, gravity, erosion rates, and rainfall variables."
+      },
+      {
+        "title": "3. Cryptographic Output",
+        "desc": "Package the simulation manifest and sign it with Ed25519 into `/Spark_OS/Lab12/` before Sunday midnight."
+      }
+    ],
+    "script": "Look at Slide 39 for your Hands-on Lab 12 Assignment: \"Build Your Virtual Classroom Sandbox.\"\n\nHere is your practical engineering mission for this week:\nTask 1: Select a real-world geological landmark—such as the Grand Canyon or Mount Fuji—and extract its GPS bounds.\nTask 2: Write a `.wmcp` WebMCP schema defining the terrain elevation, gravity friction, and erosion rates.\nTask 3: Package your manifest and seal it with an Ed25519 signature in `/Spark_OS/Lab12/` before Sunday midnight!",
+    "koreanGuide": {
+      "summary": "Lab 12 실습 과제 안내: 가상 교실 시뮬레이션 샌드박스 구축",
+      "points": [
+        "1. 지리적 랜드마크 선정: 그랜드 캐니언이나 후지산 등 실제 랜드마크를 골라 GPS 좌표계 추출",
+        "2. .wmcp 스키마 작성: 지형 고도, 중력, 토양 마찰력, 강우 침식률을 정의하는 WebMCP 매니페스트 코딩",
+        "3. 암호화 패키지 제출: 완성된 설정을 Ed25519로 전자서명하여 `/Spark_OS/Lab12/`에 일요일 자정까지 제출"
+      ],
+      "tips": "학생들이 직접 가상 지형 탐사 매니페스트를 코딩하고 서명해보는 실습 절차를 명쾌히 안내하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Lab 12 Sandbox Assignment",
+        "def": "A hands-on project defining an interactive 3D virtual environment manifest using WebMCP standards.",
+        "defKo": "Lab 12 가상 교실 샌드박스 과제"
+      }
+    ]
+  },
+  {
+    "num": 40,
+    "type": "title",
+    "title": "COURSE SUMMARY: LEADING AS SOVEREIGN CONDUCTORS",
+    "subtitle": "Previewing Session 13: From Pixel's Limitation to Code's Art: SVG & LaTeX Orchestration",
+    "detail": "Course: The Architect of Intelligence • Oikos University (www.oikos.edu) • Soli Deo Gloria",
+    "instructor": "Prof. Peter Kim, Director of Smart Insight Lab • Complete Lab 12 by Sunday Midnight",
+    "script": "That brings us to the conclusion of Session 12! Look at Slide 40 for our next horizon.\n\nRemember: Machines can simulate entire worlds, but only you, the human architect, can give those worlds a purpose! \n\nLead with courage, redeem your time, and direct the machine orchestra as sovereign conductors under God!\n\nIn our next session, Session 13, we will explore \"From Pixel's Limitation to Code's Art: SVG Vector Engineering and LaTeX Mathematical Orchestration.\"\n\nThank you for your fantastic energy and focus today! Have a blessed week, and Soli Deo Gloria! Good night, everyone!",
+    "koreanGuide": {
+      "summary": "Session 12 수업 마감 및 Session 13(SVG 벡터 엔지니어링 & LaTeX 수식 조율) 예고",
+      "points": [
+        "과제 마감: 일요일 자정까지 Lab 12 가상 교실 매니페스트 패키지 제출 완료",
+        "다음 주 예고: Session 13 픽셀의 한계를 넘어 코드로 그리는 예술 (SVG 벡터 공학 & LaTeX 수식 오케스트레이션)",
+        "수업 마감: '기계는 세계를 시뮬레이션하지만 목적은 인간이 부여합니다. 지휘봉을 드십시오. Soli Deo Gloria!'"
+      ],
+      "tips": "학생들을 축복하며 다음 주 13강 예술과 수학의 코드 융합 강의에 대한 기대감을 높이며 마무리하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "SVG Vector Engineering Preview",
+        "def": "The upcoming exploration of resolution-independent generative vector graphics and mathematical typesetting.",
+        "defKo": "SVG 벡터 엔지니어링 (Session 13 예고)"
       }
     ]
   }
