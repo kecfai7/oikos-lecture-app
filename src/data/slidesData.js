@@ -15,7 +15,7 @@ export const SESSIONS = [
   { id: 11, title: "Session 11: True AI Science: HurekaBench & Fact Verification", active: true },
   { id: 12, title: "Session 12: World Models: Genie 3 Simulation & Waymo Training", active: true },
   { id: 13, title: "Session 13: Calculated Art: SVG Engineering & LaTeX Math", active: true },
-  { id: 14, title: "Session 14: Cinematic AI Pipelines: Flow AI vs Runway ML", active: false },
+  { id: 14, title: "Session 14: Cinematic AI Pipelines: Flow AI vs Runway ML", active: true },
   { id: 15, title: "Session 15: IT Wisdom Peak: Human-on-the-Loop & Life OS Board", active: false },
 ];
 
@@ -19260,6 +19260,1455 @@ export const SLIDES_SESSION_13 = [
         "term": "Cinematic AI Preview",
         "def": "The upcoming exploration of generative video pipelines, autonomous camera direction, and narrative synthesis.",
         "defKo": "시네마틱 AI 파이프라인 (Session 14 예고)"
+      }
+    ]
+  }
+];
+
+export const SLIDES_SESSION_14 = [
+  {
+    "num": 1,
+    "sessionNum": 14,
+    "type": "title",
+    "title": "OIKOS UNIVERSITY • SOLI DEO GLORIA",
+    "subtitle": "THE ARCHITECT OF INTELLIGENCE: Mastering Agentic IT & Strategic Wisdom",
+    "detail": "Session 14: Cinematic AI Pipelines: Google Flow AI vs. Runway ML Hybrid Strategy",
+    "instructor": "Prof. Peter Kim, Director of Smart Insight Lab • www.oikos.edu",
+    "script": "Good evening, esteemed scholars, creators, and future architects of Oikos University! A very warm welcome to Session 14 of our master course: \"The Architect of Intelligence: Mastering Agentic IT and Strategic Wisdom.\" My name is Professor Peter Kim.\n\nPlease look at our title slide: \"Cinematic AI Pipelines: Google Flow AI vs. Runway ML Hybrid Strategy.\"\n\nToday, we cross another revolutionary technological frontier! We are dropping physical cameras to step into the strategic architecture of generative cinematic pipelines!\n\nWe will deconstruct the competitive forces and technical boundaries of Google Flow AI and Runway ML Gen-4.5. You will learn how to combine Google Flow's rapid storyboarding and native audio with Runway's surgical Motion Brush and camera vector controls into a unified 60-second hybrid cinema pipeline!\n\nFor all our international scholars joining from around the globe, we will explain every concept in simple, clear, and friendly conversational English. Let us begin our cinematic journey under our sacred motto, Soli Deo Gloria!",
+    "koreanGuide": {
+      "summary": "Session 14 개요 및 Google Flow AI 대 Runway ML 하이브리드 전략 환영 인사",
+      "points": [
+        "강의 주제: 실물 카메라 촬영을 넘어 생성형 AI 파이프라인으로 영화급 비디오를 연출하는 하이브리드 전략",
+        "Google Flow AI의 트리니티(Gemini-Imagen-Veo) 통합 생태계와 네이티브 오디오 합성",
+        "Runway ML Gen-4.5의 모션 브러시(Motion Brush), 카메라 벡터 좌표 제어, 그리고 인간 지휘자의 거버넌스"
+      ],
+      "tips": "단순한 비디오 생성을 넘어 할리우드 영화 제작 파이프라인을 1인 아키텍트가 지휘하는 미래를 선포하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Cinematic AI Pipeline",
+        "def": "The multi-stage generative workflow orchestrating text storyboards, keyframe rendering, physics motion, and synchronized audio.",
+        "defKo": "시네마틱 AI 파이프라인 (영화급 생성형 비디오 파이프라인)"
+      },
+      {
+        "term": "Hybrid Strategy",
+        "def": "Combining Google Flow's rapid storyboarding and audio with Runway's granular camera and vector controls.",
+        "defKo": "하이브리드 비디오 전략 (Flow + Runway 결합)"
+      }
+    ]
+  },
+  {
+    "num": 2,
+    "type": "motto",
+    "title": "SOLI DEO GLORIA: RECLAIMING TIME FOR ARTISTIC CALLINGS",
+    "subtitle": "Liberating human creativity from repetitive rendering loops under Soli Deo Gloria and Ephesians 5:16",
+    "points": [
+      "Soli Deo Gloria: Glory to God Alone as our ultimate purpose, creative inspiration, and moral compass.",
+      "Cognitive Liberation: Freeing human minds from mechanical rendering loops, frame cuts, and audio splicing.",
+      "Ephesians 5:16: 'Redeeming the time.' Transforming 3 to 4 daily reclaimed hours into profound artistic wisdom."
+    ],
+    "script": "Let us turn to Slide 2: \"Soli Deo Gloria: Reclaiming Time for Higher Artistic Callings.\"\n\nAt Oikos University, everything we build is anchored in Soli Deo Gloria—Glory to God Alone.\n\nIn Ephesians chapter 5, verse 16, we are commanded to \"redeem the time.\" \nWhy do we automate video production pipelines? \n\nNot for lazy entertainment, but to liberate our minds from the mechanical grind of rendering loops, manual frame interpolation, and tedious audio splicing!\n\nBy delegating the mechanical heavy lifting to AI swarms, we reclaim three to four precious hours every single day! We invest this redeemed time into deep storytelling, truth illumination, and spiritual reflection! Soli Deo Gloria!",
+    "koreanGuide": {
+      "summary": "Soli Deo Gloria와 예술적 소명을 위한 창조적 시간의 구속",
+      "points": [
+        "신앙적 가치: 비디오 파이프라인 자동화는 단순한 편의가 아닌 거룩한 시간의 구속(에베소서 5:16)",
+        "기계적 노역 해방: 렌더링 대기, 프레임 보간, 오디오 싱크 맞추기의 지루한 노역에서 인간 두뇌 해방",
+        "창조적 소명: 매일 구출한 3~4시간의 인지적 여유를 깊은 예술적 통찰과 하나님의 진리를 전하는 데 재투자"
+      ],
+      "tips": "창작의 고통을 덜고 진정한 감동과 메시지를 전하는 데 집중하는 청지기 사명을 강조하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Cognitive Liberation",
+        "def": "Freeing human mental bandwidth from mechanical media editing tasks through automated generative pipelines.",
+        "defKo": "인지적 해방 (반복 편집 노역 탈출)"
+      }
+    ]
+  },
+  {
+    "num": 3,
+    "type": "comparison",
+    "title": "FROM MECHANICAL CAPTURE TO GENERATIVE CURATION",
+    "subtitle": "The physical camera lens bound by logistical gravity vs. generative curation synthesizing infinite 3D worlds",
+    "leftCard": {
+      "tag": "MECHANICAL CAPTURE (100 YEARS)",
+      "title": "Physical Camera Gravity",
+      "points": [
+        "Bound by expensive physical cameras, lighting rigs, and travel logistics",
+        "Multimillion-dollar production budgets gating creative storytelling",
+        "Strictly linear manual labor: setting tripods, waiting for golden-hour sun"
+      ]
+    },
+    "rightCard": {
+      "tag": "GENERATIVE CURATION (2026+)",
+      "title": "Sovereign System Orchestration",
+      "points": [
+        "Filmmakers write specifications and direct generative multi-agent pipelines",
+        "Synthesizes infinite 3D photorealistic worlds from text and image prompts",
+        "Decouples production value from capital budgets, democratizing cinema"
+      ]
+    },
+    "script": "Look at Slide 3: \"From Mechanical Capture to Generative Curation.\"\n\nFor over a century, filmmaking was bound by the laws of physical capture. Look at the left: You needed expensive cameras, actor schedules, lighting trucks, and plane tickets to shoot on location. Production was gated by multimillion-dollar budgets!\n\nNow, look at the right side: Generative Curation!\n\nThe modern filmmaker no longer carries a physical camera; they write requirements and direct generative pipelines to synthesize photorealistic 3D scenes! \n\nWe are transitioning from manual camera operators to sovereign curators and conductors, decoupling cinematic quality from financial gravity!",
+    "koreanGuide": {
+      "summary": "패러다임 대전환: 물리적 카메라 촬영에서 생성형 큐레이션으로",
+      "points": [
+        "Left (물리적 촬영 시대): 카메라, 조명, 로케이션 여행 등 수십억 원의 자본과 물리적 중력에 얽매임",
+        "Right (생성형 큐레이션 시대): 카메라를 쥐는 대신 프롬프트 명세서를 작성하여 무한한 3D 가상 세계 합성",
+        "탈중력화: 거대 자본 없이도 1인 크리에이터가 헐리우드급 영상미를 자유자재로 지휘하는 시네마 민주화"
+      ],
+      "tips": "무거운 카메라 장비를 메고 다니던 촬영감독에서 AI 군집을 지휘하는 마에스트로로의 진화를 설명하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Generative Curation",
+        "def": "The modern filmmaking paradigm where creators specify constraints and select optimal outputs from generative AI engines.",
+        "defKo": "생성형 큐레이션 (Generative Curation)"
+      }
+    ]
+  },
+  {
+    "num": 4,
+    "type": "triad",
+    "title": "SORA 2 AND BEYOND: THE REAL-WORLD 2026 LANDSCAPE",
+    "subtitle": "Why Sora 2 hype stalled under compute costs while Google Veo 3.1 and Runway Gen-4.5 dominate",
+    "cards": [
+      {
+        "title": "1. Sora 2 Compute Stall",
+        "desc": "Suffered from immense processing latency and skyrocketing compute costs, making rapid production loops unviable."
+      },
+      {
+        "title": "2. Google Veo 3.1",
+        "desc": "Google's breakthrough integrated model delivering native, 48kHz synchronized audio and high physics realism."
+      },
+      {
+        "title": "3. Runway Gen-4.5",
+        "desc": "The ultimate precision tool offering granular Motion Brush and camera vector coordinates for professional directors."
+      }
+    ],
+    "script": "Slide 4 examines the state of the industry: \"Sora 2 and Beyond: The 2026 Landscape.\"\n\nLet us analyze the real commercial market:\nWhile OpenAI's Sora 2 generated huge viral headlines, its extreme rendering latency and massive compute costs made it commercially impractical for daily commercial workflows.\n\nThe real production vacuum was conquered by two titans:\nFirst, Google Veo 3.1—dominating integrated workflows with native, synchronized 48kHz audio.\nSecond, Runway Gen-4.5—dominating fine-grained director controls with vector Motion Brushes. \n\nAs intelligence architects, we choose tools based on predictable costs and execution precision!",
+    "koreanGuide": {
+      "summary": "2026 생성형 비디오 지형도: Sora 2의 한계와 Veo 3.1 / Runway Gen-4.5의 부상",
+      "points": [
+        "1. Sora 2의 상업적 정체: 화려한 티저와 달리 극심한 렌더링 지연 시간과 막대한 컴퓨팅 비용으로 실무 적용 난항",
+        "2. Google Veo 3.1의 돌파구: 48kHz 네이티브 오디오 동기화와 물리 시뮬레이션을 원스톱으로 제공하는 통합 강자",
+        "3. Runway Gen-4.5의 정밀 연출: 모션 브러시와 카메라 벡터 제어로 전문 감독들의 손발이 되어주는 정밀 연출 챔피언"
+      ],
+      "tips": "단순 마케팅 거품에 현혹되지 않고 실제 상업 제작 환경에서 승리한 두 대표 주자의 강점을 짚어주세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Production Convergence",
+        "def": "The speed and cost predictability with which an AI video model reaches a client-approved final frame.",
+        "defKo": "프로덕션 수렴도 (비용 및 품질 예측성)"
+      }
+    ]
+  },
+  {
+    "num": 5,
+    "type": "comparison",
+    "title": "THE INTERFACE TRAP: OVERCOMING THE CASINO OF RANDOMNESS",
+    "subtitle": "Endless 'slot-machine' prompt regeneration vs. engineering structured constraint pipelines",
+    "leftCard": {
+      "tag": "THE CASINO TRAP (SLOT MACHINE)",
+      "title": "Random Prompt Spinning",
+      "points": [
+        "Typing raw prompts and hitting 'Generate' endlessly hoping for a lucky seed",
+        "Averages 25 failed render passes per approved shot, burning massive budgets",
+        "Character faces morph, clothes change, and background lighting flickers wildly"
+      ]
+    },
+    "rightCard": {
+      "tag": "ENGINEERING MINDSET (PREDICTABLE)",
+      "title": "Structural Constraint Control",
+      "points": [
+        "Freezes character face geometry and lighting references BEFORE rendering",
+        "Uses Google Flow 'Ingredients' and Runway coordinate paths programmatically",
+        "Averages only 3 to 5 passes per scene, slashing generation costs by 80%"
+      ]
+    },
+    "script": "Look at Slide 5 for a vital warning: \"The Interface Trap: Overcoming the Casino of Randomness.\"\n\nThe most dangerous pitfall in AI video is treating the interface like a casino slot machine! Look at the left: Creators type a prompt, dislike the result, and hit \"Regenerate\" twenty-five times hoping for a lucky roll! This burns hundreds of dollars in API credits!\n\nLook at the right: The Intelligence Architect Mindset! \n\nWe establish Standard Operating Procedures (SOPs). We freeze character faces with image anchors and program exact camera coordinate vectors *before* rendering! This guarantees predictable, studio-grade results in just 3 passes!",
+    "koreanGuide": {
+      "summary": "인터페이스의 덫: 슬롯머신 도박식 생성 대 엔지니어링 통제 파이프라인",
+      "points": [
+        "Left (카지노의 덫): 프롬프트 넣고 마음에 안 들면 '다시 생성'을 25번씩 누르며 크레딧과 시간을 날리는 도박식 낭비",
+        "Right (엔지니어링 통제): 렌더링 전 캐릭터 얼굴과 조명 참조 앵커를 먼저 고정하고 수학적 카메라 경로 주입",
+        "비용 절감: 샷당 렌더링 횟수를 25회에서 3~5회로 단축하여 제작 예산 80% 절감"
+      ],
+      "tips": "슬롯머신 레버를 당기듯 운에 맡기지 말고 정밀한 파이프라인을 설계하는 엔지니어가 될 것을 당부하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "The Interface Trap",
+        "def": "The wasteful habit of unguided, repetitive prompt re-generation without establishing structural visual constraints.",
+        "defKo": "인터페이스의 덫 (무작위 슬롯머신 생성)"
+      }
+    ]
+  },
+  {
+    "num": 6,
+    "type": "triad",
+    "title": "THE STRATEGIC METRIC: SLICING GENERATION COSTS BY 80%",
+    "subtitle": "Empirical comparison of random trial-and-error vs. programmatic constraint pipelines",
+    "cards": [
+      {
+        "title": "1. 25 Passes to 3 Passes",
+        "desc": "Structured pipelines reduce trial renders from 25 chaotic passes down to 3 to 5 predictable passes per shot."
+      },
+      {
+        "title": "2. 80% Budget Reduction",
+        "desc": "Slashes cloud GPU compute bills, API token charges, and turnaround review latency by four-fifths."
+      },
+      {
+        "title": "3. Attentional Dividend",
+        "desc": "Reclaims hours of frustrating review loops so creators can focus on high-impact narrative editing."
+      }
+    ],
+    "script": "Please look at Slide 6: \"The Strategic Metric: Slicing Repeat Generation Costs by 80%.\"\n\nLet us inspect the financial simulation data:\nIn an unstructured, random generation workflow, an agency burns 25 render passes per approved scene because of character face drifting and bad camera jumps.\n\nIn our structured constraint pipeline, we reduce this to 3 to 5 passes! \n\nThis achieves a massive 80% reduction in monthly API bills! More importantly, it delivers an \"Attentional Dividend\"—freeing your brain from frustrating review loops so you can focus on creative excellence!",
+    "koreanGuide": {
+      "summary": "전략적 지표: 구조화된 파이프라인으로 생성 비용 80% 절감",
+      "points": [
+        "1. 25회에서 3회로 단축: 통제된 파이프라인을 통해 승인 샷당 렌더링 횟수를 3~5회로 극적 압축",
+        "2. 80% 예산 절감: 클라우드 GPU 연산 비용과 API 청구 금액을 5분의 1 수준으로 대폭 절감",
+        "3. 주의력 배당금 (Attentional Dividend): 무의미한 결과물 검토 노역에서 해방되어 핵심 내러티브 완성에 집중"
+      ],
+      "tips": "실제 상업 프로젝트에서 비용과 시간을 80% 아끼는 압도적인 파이프라인의 경제성을 강조하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Attentional Dividend",
+        "def": "The reclaimed human cognitive focus gained by automating repetitive asset generation and review loops.",
+        "defKo": "주의력 배당금 (Attentional Dividend)"
+      }
+    ]
+  },
+  {
+    "num": 7,
+    "type": "triad",
+    "title": "GOOGLE FLOW AI: THE ALL-IN-ONE CREATIVE PLAYGROUND",
+    "subtitle": "Synchronizing Gemini, Imagen 4, and Veo 3.1 in a single unified workspace with native audio",
+    "cards": [
+      {
+        "title": "1. The Unified Trinity",
+        "desc": "Gemini text reasoning, Imagen 4 4K art, and Veo 3.1 physics video synchronized in one dashboard."
+      },
+      {
+        "title": "2. Native 48kHz Audio",
+        "desc": "Generates ambient sounds, foley effects, and speech lip-synced simultaneously during the video render pass."
+      },
+      {
+        "title": "3. Zero Inter-App Friction",
+        "desc": "Moves from an abstract script outline to a fully voiced, animated video storyboard in under 15 minutes."
+      }
+    ],
+    "script": "Slide 7 introduces our first major titan: \"Google Flow AI: The All-In-One Creative Playground.\"\n\nGoogle Flow's core philosophy is zero-friction integration.\n\nIt synchronizes Google's Trinity Engine inside a single dashboard:\nGemini writes the scene specifications, Imagen 4 paints the 4K keyframe art, and Veo 3.1 animates the scene with physical realism.\n\nCrucially, Veo 3.1 renders native 48kHz synchronized audio and dialogue lip-sync in the exact same render pass! You move from a text prompt to a fully voiced animatic in fifteen minutes!",
+    "koreanGuide": {
+      "summary": "Google Flow AI: 올인원 통합 크리에이티브 플레이그라운드",
+      "points": [
+        "1. 삼위일체 트리니티 엔진: Gemini(각본 기획) + Imagen 4(4K 키프레임) + Veo 3.1(물리 모션) 완벽 일체화",
+        "2. 네이티브 48kHz 오디오: 비디오를 렌더링할 때 배경음, 효과음, 입술 모양에 맞춘 대사를 동시 합성",
+        "3. 앱 전환 마찰 제로: 텍스트 기획에서 목소리가 나오는 애니메틱 스토리보드까지 15분 만에 완성"
+      ],
+      "tips": "각본, 그림, 애니메이션, 음향 효과가 한 화면에서 원스톱으로 돌아가는 구글 생태계의 편리함을 소개하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Google Flow AI",
+        "def": "Google's unified creative platform integrating Gemini, Imagen, and Veo for streamlined multimedia generation.",
+        "defKo": "Google Flow AI (통합 생성형 비디오 플랫폼)"
+      }
+    ]
+  },
+  {
+    "num": 8,
+    "type": "triad",
+    "title": "RUNWAY ML: THE PRECISION-CONTROL COCKPIT",
+    "subtitle": "Granular camera vectors, vector Motion Brushes, and Act-Two performance transfer for directors",
+    "cards": [
+      {
+        "title": "1. Director's Cockpit",
+        "desc": "Provides surgical, granular modifiers for micro-adjusting camera velocity, pan, tilt, zoom, and roll."
+      },
+      {
+        "title": "2. Vector Motion Brush",
+        "desc": "Manually paint up to 5 discrete screen regions with independent X, Y, and Z velocity coordinates."
+      },
+      {
+        "title": "3. Act-Two Performance",
+        "desc": "Maps real human actor micro-expressions and kinetics directly onto generative 3D avatar meshes."
+      }
+    ],
+    "script": "Look at Slide 8 for our second titan: \"Runway ML: The Precision-Control Cockpit.\"\n\nIf Google Flow is an all-in-one sandbox, Runway ML is an engineering cockpit designed for film directors and animators!\n\nRunway assumes you know exactly what you want. It gives you surgical tools:\nThe Motion Brush lets you paint up to 5 independent regions to control water flow, wind, and smoke separately.\nPrecise camera vector sliders control 3D dolly and pan movements with mathematical curves, while Act-Two captures real human facial expressions onto AI characters!",
+    "koreanGuide": {
+      "summary": "Runway ML: 전문 영화감독을 위한 초정밀 제어 칵핏",
+      "points": [
+        "1. 감독 전용 칵핏: 카메라의 달링(Dolly), 팬(Pan), 줌(Zoom), 롤(Roll)을 수학적 벡터 좌표로 정밀 조작",
+        "2. 5구역 모션 브러시: 화면의 5개 영역을 따로 칠해 파도, 구름, 나뭇잎의 이동 방향과 속도를 독립 제어",
+        "3. Act-Two 실제 연기 전사: 실제 배우의 미세한 표정 연기와 타이밍을 가상 아바타에 100% 이식"
+      ],
+      "tips": "운전대를 완전히 쥐고 카메라의 각도와 사물의 움직임을 픽셀 단위로 통제하는 전문가용 칵핏의 매력을 전하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Runway Motion Cockpit",
+        "def": "The professional control interface of Runway ML providing fine-grained directional and camera manipulation.",
+        "defKo": "Runway 모션 칵핏 (정밀 카메라·모션 제어 인터페이스)"
+      }
+    ]
+  },
+  {
+    "num": 9,
+    "type": "poll",
+    "title": "INTERACTIVE POLL: WHERE DOES YOUR VIDEO PIPELINE JAM?",
+    "subtitle": "Which bottleneck drains most of your time, credits, and cognitive focus during production?",
+    "options": [
+      {
+        "label": "Option A",
+        "text": "Temporal Drift (character faces, clothes, and hair mutating between shots)",
+        "votes": 48
+      },
+      {
+        "label": "Option B",
+        "text": "Financial Overhead (burning through expensive credits with empty trial results)",
+        "votes": 36
+      },
+      {
+        "label": "Option C",
+        "text": "Camera Flight Clumsiness (lacking fine control over smooth zoom, pan, and orbit)",
+        "votes": 27
+      },
+      {
+        "label": "Option D",
+        "text": "Audio De-Synchronization (wrestling to align dialogue, lip-sync, and foley sound)",
+        "votes": 19
+      }
+    ],
+    "script": "Let us pause for our interactive class poll on Slide 9!\n\nPlease scan the QR code on your screen or vote in our web interface: \"Which bottleneck consumes most of your time, budget, and creative energy?\"\n\nOption A: Temporal Drift—characters changing faces and clothes between shots.\nOption B: Financial Overhead—burning through credits on empty trial generations.\nOption C: Clumsy Camera Flight—lacking precise control over cinematic zooms and pans.\nOption D: Audio De-Synchronization—struggling with mismatched lips and Foley tracks.\n\nCast your votes right now! Let us see what hurts video creators the most!",
+    "koreanGuide": {
+      "summary": "실시간 청중 설문조사: 비디오 제작 파이프라인에서 가장 고통스러운 병목은?",
+      "points": [
+        "Option A: 시간적 표류 (Temporal Drift) - 컷이 바뀔 때마다 주인공 얼굴과 옷이 제멋대로 변형됨",
+        "Option B: 재정적 부담 - 마음에 드는 샷을 건지려다 비싼 크레딧만 탕진하는 비용 낭비",
+        "Option C: 카메라 무빙의 서투름 - 부드러운 줌인, 패닝, 궤도 회전을 제어하지 못해 앵글이 튀는 현상",
+        "Option D: 오디오 싱크 어긋남 - 인물의 입술 모양과 대사, 효과음이 따로 노는 괴리감"
+      ],
+      "tips": "영상 제작자들이 밤새 겪었던 가장 고통스러운 난관들을 공유하며 공감대를 형성하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Temporal Drift",
+        "def": "The visual inconsistency where character features, clothing, or environment textures mutate across sequential frames.",
+        "defKo": "시간적 표류 (Temporal Drift - 캐릭터 변형 현상)"
+      }
+    ]
+  },
+  {
+    "num": 10,
+    "type": "triad",
+    "title": "DECONSTRUCTING THE POLL: RECLAIMING 30% OF BANDWIDTH",
+    "subtitle": "Systemic solutions: Flow Ingredients for Identity Lock & Runway Vectors for Camera Mastery",
+    "cards": [
+      {
+        "title": "1. Fix Temporal Drift",
+        "desc": "Use Google Flow 'Ingredients' to freeze facial structure, wardrobe, and scene lighting permanently."
+      },
+      {
+        "title": "2. Fix Camera Chaos",
+        "desc": "Apply Runway's coordinate-driven camera paths to eliminate random jitter and jerky camera moves."
+      },
+      {
+        "title": "3. 30% Bandwidth Reclaimed",
+        "desc": "Plugging these operational leaks rescues 30% of human creative focus for strategic composition."
+      }
+    ],
+    "script": "Look at Slide 10: \"Deconstructing the Poll: Reclaiming 30% of Human Bandwidth.\"\n\nMost of you voted for Temporal Drift and Credit Waste!\n\nHere are our architectural solutions:\nTo fix Temporal Drift, we use Google Flow's \"Ingredients\" system to freeze character facial anchors and environmental lighting across every shot!\n\nTo fix Clumsy Cameras, we use Runway's coordinate camera vectors to eliminate jitter! \n\nBy solving these two leaks, we reclaim 30% of your cognitive bandwidth, turning frustrating trial-and-error into predictable mastery!",
+    "koreanGuide": {
+      "summary": "설문 분석과 해결책: 인지적 대역폭 30%를 회복하는 2대 시스템 처방",
+      "points": [
+        "1. 시간적 표류 해결: Google Flow의 '재료(Ingredients)' 기능으로 주인공 얼굴과 조명을 불변으로 동결",
+        "2. 카메라 난기류 해결: Runway의 좌표 기반 카메라 벡터를 적용해 흔들림 없는 완벽한 달링 샷 구현",
+        "3. 30% 대역폭 회수: 두 가지 핵심 누수를 차단하여 창작자의 인지적 에너지 30%를 고차원 연출에 재투자"
+      ],
+      "tips": "설문에서 도출된 수강생들의 고통에 대해 명쾌하고 확실한 엔지니어링 처방전을 제시하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Identity Lock",
+        "def": "Freezing facial, structural, and environmental parameters using image anchors to prevent character drift.",
+        "defKo": "아이덴티티 락 (캐릭터 외형 불변 고정)"
+      }
+    ]
+  },
+  {
+    "num": 11,
+    "type": "section",
+    "title": "PART 2: INSIDE THE ENGINE ROOM OF GOOGLE FLOW AI",
+    "subtitle": "The Trinity Engine, Spatio-Temporal Physics in Veo 3.1, Lyria 3 Pro, and Stateful Sessions",
+    "script": "We now cross the threshold into Part 2: \"Inside the Engine Room of Google Flow AI.\"\n\nHow does Google synchronize text reasoning, 4K image generation, and physical video simulation inside one seamless cloud pipeline?\n\nIn this section, we will deconstruct the Trinity Architecture of Gemini, Imagen, and Veo 3.1, analyze spatio-temporal physics tokenization, unpack Lyria 3 Pro musical beat-syncing, and discover how Stateful Sessions eliminate generative amnesia. Let us look inside the engine!",
+    "koreanGuide": {
+      "summary": "Part 2 섹션 전환: Google Flow AI의 내부 엔진 룸",
+      "points": [
+        "Gemini, Imagen 4, Veo 3.1이 유기적으로 맞물려 돌아가는 삼위일체(Trinity) 아키텍처",
+        "시공간(Spatio-Temporal) 물리 시뮬레이션, Lyria 3 Pro 음악 동기화, 그리고 세션 메모리 상태 유지"
+      ],
+      "tips": "구글 클라우드 내부에서 데이터가 어떻게 변환되고 실시간 합성되는지 기술적 내부를 파헤칩니다."
+    },
+    "keyTerms": [
+      {
+        "term": "Trinity Engine",
+        "def": "Google's coordinated tripartite architecture linking Gemini (reasoning), Imagen (visuals), and Veo (motion/audio).",
+        "defKo": "트리니티 엔진 (Gemini-Imagen-Veo 삼위일체)"
+      }
+    ]
+  },
+  {
+    "num": 12,
+    "type": "triad",
+    "title": "THE TRINITY ARCHITECTURE: GEMINI, IMAGEN, AND VEO",
+    "subtitle": "Native cloud synchronization eliminating pipeline latency and inter-model translation lag",
+    "cards": [
+      {
+        "title": "1. Gemini (The Architect)",
+        "desc": "Translates rough user concepts into hyper-detailed scene specifications, camera angles, and dialogue."
+      },
+      {
+        "title": "2. Imagen 4 (The Artist)",
+        "desc": "Compiles textual directives into ultra-sharp 4K keyframe canvases establishing color palettes."
+      },
+      {
+        "title": "3. Veo 3.1 (The Motion Engine)",
+        "desc": "Animates the keyframe canvas with physical realism while simultaneously rendering 48kHz audio."
+      }
+    ],
+    "script": "Please look at Slide 12: \"The Trinity Architecture: Gemini, Imagen, and Veo Synchronization.\"\n\nGoogle Flow's immense power comes from its native tripartite synchronization:\n\nGemini acts as the Architect—expanding your simple sentence into a comprehensive, multi-layered scene specification.\nImagen 4 acts as the Artist—painting an ultra-sharp 4K keyframe canvas with stable lighting.\nVeo 3.1 acts as the Motion Engine—animating that canvas with true physics while synthesizing synchronized audio! \n\nBecause all three models live in the same Google Cloud pipeline, there is zero API conversion lag!",
+    "koreanGuide": {
+      "summary": "삼위일체 아키텍처: Gemini, Imagen 4, Veo 3.1의 완벽한 동기화",
+      "points": [
+        "1. Gemini (설계자): 거친 아이디어를 정밀한 샷 연출 명세서와 인물 대사로 확장 기획",
+        "2. Imagen 4 (화가): 텍스트 기획을 바탕으로 압도적인 4K 해상도의 마스터 키프레임 캔버스 렌더링",
+        "3. Veo 3.1 (동역학 엔진): 키프레임에 물리적 생명력을 불어넣고 48kHz 음향을 실시간 동시 합성",
+        "통합의 힘: 세 모델이 구글 클라우드 내부에서 한 몸처럼 작동하여 데이터 변환 지연 시간 전무"
+      ],
+      "tips": "기획자, 화가, 애니메이터가 한 팀이 되어 일사불란하게 영상을 빚어내는 모습을 묘사하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Native Cloud Synchronization",
+        "def": "Executing multi-modal AI models within a single unified cloud pipeline to eliminate translation latency.",
+        "defKo": "네이티브 클라우드 동기화 (지연 시간 제로)"
+      }
+    ]
+  },
+  {
+    "num": 13,
+    "type": "triad",
+    "title": "VEO 3.1 PHYSICS SIMULATOR: SPATIO-TEMPORAL REALISM",
+    "subtitle": "Analyzing video as a unified 3D volume (X, Y, and Time) to eliminate ghosting and morphing",
+    "cards": [
+      {
+        "title": "1. Spatio-Temporal Patches",
+        "desc": "Tokenizes video as a continuous 3D block (Height, Width, Time) rather than independent 2D frames."
+      },
+      {
+        "title": "2. Implicit Physics Modeling",
+        "desc": "Infers gravity, wind turbulence, cloth draping, and liquid splashes from millions of hours of real footage."
+      },
+      {
+        "title": "3. Zero Ghosting Glitches",
+        "desc": "Eliminates surreal object morphing and disappearing limbs, maintaining geometric stability across long shots."
+      }
+    ],
+    "script": "Look at Slide 13: \"Veo 3.1 Physics Simulator: Achieving True Spatio-Temporal Realism.\"\n\nOlder video generators treated video like a flip-book of separate 2D pictures, causing \"ghosting\" where fingers melted or coffee cups vanished into thin air!\n\nVeo 3.1 tokenizes video using Spatio-Temporal Patches—analyzing width, height, and time as a single, unified 3D block!\n\nIt understands physical dynamics natively: how heavy velvet curtains blow in the wind, how waves splash against granite rocks, and how light reflects off moving water without glitching!",
+    "koreanGuide": {
+      "summary": "Veo 3.1 물리 시뮬레이터: 시공간 패치 기반의 진정한 물리적 현실감",
+      "points": [
+        "1. 시공간 패치 (Spatio-Temporal Patches): 2D 프레임을 이어 붙이는 대신 가로, 세로, 시간을 하나의 연속적 3D 볼륨으로 처리",
+        "2. 암묵적 물리 모델링: 바람에 날리는 천, 바위에 부서지는 파도, 빗방울 튕김을 물리 법칙에 맞게 자연스럽게 시뮬레이션",
+        "3. 고스트 현상 퇴출: 손가락이 녹아내리거나 컵이 사라지는 환각(Ghosting)을 제거하고 형태적 안정성 유지"
+      ],
+      "tips": "플립북처럼 사진을 넘기던 방식에서 시간 축까지 포함된 3차원 입체 조각을 깎아내는 혁신을 설명하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Spatio-Temporal Video Volume",
+        "def": "Processing video sequences as contiguous 3D mathematical tokens incorporating spatial and temporal dimensions.",
+        "defKo": "시공간 비디오 볼륨 (3D 연속 토큰)"
+      }
+    ]
+  },
+  {
+    "num": 14,
+    "type": "triad",
+    "title": "THE SOUND OF REALISM: NATIVE 48KHZ AUDIO GENERATION",
+    "subtitle": "Rendering synchronized foley sound effects, spatial reverb, and dialogue phonemes in one pass",
+    "cards": [
+      {
+        "title": "1. Single-Pass Synthesis",
+        "desc": "Generates broadcast-quality 48kHz audio tracks simultaneously with visual video pixel passes."
+      },
+      {
+        "title": "2. Sub-Frame Lip-Sync",
+        "desc": "Maps speech phonemes directly to 3D facial muscle meshes, eliminating awkward dubbing delays."
+      },
+      {
+        "title": "3. Spatial Foley Audio",
+        "desc": "Calculates sound volume, Doppler pitch shifts, and room reverb based on moving object distances."
+      }
+    ],
+    "script": "Slide 14 details a massive breakthrough: \"The Sound of Realism: Native 48kHz Audio Generation.\"\n\nIn traditional filmmaking, sound design is a grueling bottleneck: searching for sound effects, slicing audio tracks, and aligning voiceovers.\n\nVeo 3.1 generates broadcast-quality 48kHz audio in the exact same mathematical pass as the visual pixels!\n\nWhen a wine glass drops on concrete, the shattering sound occurs at the exact millisecond of impact. Character dialogue matches 3D mouth movements with sub-frame precision! It eliminates manual audio drafting completely!",
+    "koreanGuide": {
+      "summary": "현실의 소리: 네이티브 48kHz 오디오와 완벽한 립싱크 합성",
+      "points": [
+        "1. 원패스 동시 렌더링: 비디오 픽셀을 계산할 때 48kHz 고음질 오디오 트랙을 동일한 수학적 패스에서 동시 생성",
+        "2. 서브프레임 립싱크: 대사의 음소(Phoneme)를 인물의 입술 3D 근육 메시와 완벽 동기화하여 더빙 어색함 제거",
+        "3. 공간 음향(Spatial Foley): 유리잔이 바닥에 부딪히는 순간 정확한 프레임에서 깨지는 소리와 공간 반사음 출력"
+      ],
+      "tips": "영상을 다 만들고 음향 효과를 찾아 헤매던 수고를 한 번의 렌더링으로 끝내버리는 감동을 전하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Native Audio Synthesis",
+        "def": "Generating synchronized, high-fidelity sound effects and speech phonemes concurrently with video frames.",
+        "defKo": "네이티브 오디오 동시 합성"
+      }
+    ]
+  },
+  {
+    "num": 15,
+    "type": "triad",
+    "title": "LYRIA 3 PRO: MUSICAL DYNAMICS & SIZZLE REEL BEAT-SYNC",
+    "subtitle": "Dynamic musical composition adapting rhythm, tempo, and crescendos to visual cut intensity",
+    "cards": [
+      {
+        "title": "1. Lyria 3 Pro Engine",
+        "desc": "Google's advanced musical orchestrator generating rich orchestral, electronic, and cinematic scores."
+      },
+      {
+        "title": "2. Beat-Sync Algorithm",
+        "desc": "Automatically aligns drum hits, bass drops, and musical crescendos to fast-paced visual scene cuts."
+      },
+      {
+        "title": "3. 10s Sizzle Reel Automation",
+        "desc": "Generates high-energy 10-second promotional trailers with synchronized emotional pacing in seconds."
+      }
+    ],
+    "script": "Please look at Slide 15: \"Lyria 3 Pro: Musical Dynamics & Sizzle Reel Beat-Sync.\"\n\nWhen creating promotional trailers and commercial sizzle reels, Flow AI connects with Lyria 3 Pro!\n\nLyria is not just playing an elevator music file; it is an active AI composer! \n\nIts beat-sync algorithm analyzes the visual motion vectors in your video. When the scene cuts or an explosion occurs, Lyria hits the drum beat and drops the bass at that exact frame, producing adrenaline-pumping commercial sizzle reels with zero manual music editing!",
+    "koreanGuide": {
+      "summary": "Lyria 3 Pro: 시즐 릴(Sizzle Reel) 비트 싱크와 음악 다이내믹 오케스트레이션",
+      "points": [
+        "1. Lyria 3 Pro 작곡 엔진: 영상 분위기에 어울리는 오케스트라, 일렉트로닉, 시네마틱 배경음악 자율 작곡",
+        "2. 비트 싱크 알고리즘: 화면 전환 및 액션의 격렬도에 맞춰 드럼 비트와 베이스 드롭을 프레임 단위로 자동 정렬",
+        "3. 10초 시즐 릴 자동화: 박진감 넘치는 상업용 홍보 트레일러 영상을 음악과 함께 단 몇 초 만에 완성"
+      ],
+      "tips": "음악 박자에 맞춰 화면이 딱딱 떨어지는 화려한 광고 트레일러를 AI가 알아서 편집해주는 기술입니다."
+    },
+    "keyTerms": [
+      {
+        "term": "Beat-Sync Orchestration",
+        "def": "Algorithmic alignment of musical tempo, transients, and crescendos to visual scene transitions.",
+        "defKo": "비트 싱크 오케스트레이션 (음악-화면 자동 박자 매칭)"
+      }
+    ]
+  },
+  {
+    "num": 16,
+    "type": "comparison",
+    "title": "INGREDIENTS TO VIDEO: IDENTITY LOCK FOR ACTORS & SETS",
+    "subtitle": "Unconstrained face mutating vs. uploading 3 reference anchors to lock character identity",
+    "leftCard": {
+      "tag": "UNCONSTRAINED DRIFT (CHAOS)",
+      "title": "Mutating Facial Glitches",
+      "points": [
+        "Prompting without anchors causes characters to age, mutate, or change ethnicity",
+        "Wardrobe randomly switches from a suit to a jacket between consecutive shots",
+        "Destroys narrative immersion in commercial branding and episodic films"
+      ]
+    },
+    "rightCard": {
+      "tag": "INGREDIENTS LOCK (STABILITY)",
+      "title": "100% Identity Anchoring",
+      "points": [
+        "Upload up to 3 reference images to freeze facial bones, hair, and wardrobe",
+        "Scene Grounding preserves set lighting, room props, and color palettes",
+        "Character remains 100% recognizable across 50 sequential shots"
+      ]
+    },
+    "script": "Look at Slide 16 for our ultimate consistency cure: \"Ingredients to Video: Identity Lock.\"\n\nLook at the chaos on the left: When generating videos with simple prompts, your main character mutates into five different people across five shots! That destroys any movie!\n\nNow, look at the right side: Google Flow's \"Ingredients\" system!\n\nYou upload up to three reference photos of your character, set, and lighting style. The AI locks these visual features into memory. \n\nYour actor can run through rain, drive a car, or fly a spaceship while maintaining 100% facial and clothing consistency!",
+    "koreanGuide": {
+      "summary": "재료(Ingredients) 기반 비디오: 배우와 세트장의 아이덴티티 락(Identity Lock)",
+      "points": [
+        "Left (통제되지 않은 변형의 혼돈): 샷이 바뀔 때마다 주인공 얼굴이 딴사람으로 바뀌고 옷 색깔이 멋대로 변형됨",
+        "Right (재료 락을 통한 안정성): 인물, 장소, 스타일 참조 사진 3장을 업로드하여 뼈대와 의상을 100% 동결",
+        "연속성 확보: 비를 맞든 우주선을 타든 50개의 연속 샷에서 동일한 주인공이 완벽하게 식별 가능"
+      ],
+      "tips": "시리즈물이나 광고에서 주인공 얼굴이 바뀌면 안 되는 엄격한 상업적 일관성 확보 비법을 설명하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Ingredients System",
+        "def": "Google Flow's mechanism allowing creators to input reference images to constrain character identity, props, and style.",
+        "defKo": "재료 시스템 (Ingredients - 참조 이미지 기반 외형 고정)"
+      }
+    ]
+  },
+  {
+    "num": 17,
+    "type": "triad",
+    "title": "THE MULTI-IMAGE PIPELINE: WEAVING SCATTERED ASSETS",
+    "subtitle": "Combining @Subject, @Scene, and @Style tags in natural language to orchestrate complex scenes",
+    "cards": [
+      {
+        "title": "1. Multi-Asset Tagging",
+        "desc": "Inject distinct visual references using simple tags: `@Subject1`, `@Scene1`, and `@Style1` in the prompt."
+      },
+      {
+        "title": "2. Logical Spatial Blending",
+        "desc": "Places `@Subject_Professor` sitting at `@Subject_Desk` inside `@Scene_Oikos_Lab` with zero clipping."
+      },
+      {
+        "title": "3. Unified Texture Harmony",
+        "desc": "Blends lighting, shadows, and color temperature across all injected assets to form a cohesive frame."
+      }
+    ],
+    "script": "Slide 17 illustrates \"The Multi-Image Pipeline: Weaving Scattered Visual Assets.\"\n\nHow do we assemble complex scenes with multiple objects? Through semantic `@tagging`!\n\nYou can write: \"Place `@Subject_Professor` typing on `@Subject_Laptop` inside `@Scene_Oikos_Lab`, rendered in the cinematic lighting of `@Style_Kodak_35mm`.\"\n\nGoogle Flow reads these separate image files and weaves them together logically! It calculates cast shadows, ambient light bounces, and physical contact points, creating a photorealistic composite image with zero Photoshop slicing!",
+    "koreanGuide": {
+      "summary": "다중 이미지 파이프라인: 분산된 시각 자산의 논리적 결합 (@Tagging)",
+      "points": [
+        "1. 다중 자산 태그 지정: 프롬프트 내에 `@Subject1`, `@Scene1`, `@Style1` 같은 직관적 태그 삽입",
+        "2. 논리적 공간 합성: '오이코스 연구실(@Scene) 안의 책상에 앉아 노트북(@Subject2)을 두드리는 김 교수님(@Subject1)'",
+        "3. 조명과 그림자 조화: 흩어져 있던 각 요소의 조명 톤과 그림자를 실시간으로 계산하여 하나의 완벽한 사진으로 합성"
+      ],
+      "tips": "포토샵 누끼따기 작업 없이 텍스트 태그만으로 인물과 배경, 사물을 완벽하게 합성하는 혁신을 소개하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Multi-Image Semantic Injection",
+        "def": "Referencing multiple disparate image assets within a single text prompt using identifier tags.",
+        "defKo": "다중 이미지 시맨틱 주입 (@태깅 합성)"
+      }
+    ]
+  },
+  {
+    "num": 18,
+    "type": "triad",
+    "title": "STATEFUL EDITING: OVERCOMING GENERATIVE AMNESIA",
+    "subtitle": "Preserving latent mathematical states to execute surgical modifications without redrawing",
+    "cards": [
+      {
+        "title": "1. Persistent Scene Memory",
+        "desc": "Keeps the complete 3D mathematical latent state of a scene alive across consecutive editing steps."
+      },
+      {
+        "title": "2. Surgical Node Edits",
+        "desc": "Modify isolated objects (e.g., 'change the blue car to a red truck') without altering the actor or background."
+      },
+      {
+        "title": "3. Zero Generative Amnesia",
+        "desc": "Eliminates the nightmare of re-generating an entire 10-second scene just to fix a minor prop color."
+      }
+    ],
+    "script": "Please look at Slide 18: \"Stateful Editing: Overcoming Generative Amnesia.\"\n\nTraditional video AI suffers from \"Generative Amnesia\"—if you want to change one small prop, the AI forgets the entire scene and regenerates a totally different room!\n\nGoogle Flow solves this via Stateful Sessions!\n\nIt keeps the mathematical latent state of your scene alive in cloud memory. \nYou can issue a surgical command: \"Change only the coffee cup to a water bottle.\" \n\nThe model swaps the object while preserving the actor's face, the camera motion, and the room lighting with 100% stability!",
+    "koreanGuide": {
+      "summary": "상태 유지 편집(Stateful Editing): 생성형 기억상실증 극복",
+      "points": [
+        "1. 영구 장면 메모리: 씬의 3D 수학적 잠재 상태를 클라우드 메모리에 지속 유지",
+        "2. 외과수술식 국소 수정: '배경과 인물은 그대로 두고 손에 든 커피잔만 생수병으로 교체하라'는 미세 수정 가능",
+        "3. 기억상실증 퇴출: 사소한 소품 하나 바꾸려고 씬 전체를 다시 뽑다가 캐릭터가 바뀌어버리는 비극 완벽 방지"
+      ],
+      "tips": "배경과 인물은 고정해 두고 원하는 소품만 콕 집어서 바꾸는 놀라운 편집 유연성을 강조하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Stateful Session Editing",
+        "def": "Maintaining the internal latent state of a generative video sequence across iterative user modification steps.",
+        "defKo": "상태 유지 세션 편집 (Stateful Editing)"
+      }
+    ]
+  },
+  {
+    "num": 19,
+    "type": "triad",
+    "title": "INTERACTIONS API: PROGRAMMATIC STATE EDITS",
+    "subtitle": "Automating bulk video variations and hyper-personalized advertising campaigns via code",
+    "cards": [
+      {
+        "title": "1. Developer API Gateway",
+        "desc": "Method: `session.modify_state(target_node, action_type, parameters)` exposed via REST & Python SDK."
+      },
+      {
+        "title": "2. Coordinate Tracking",
+        "desc": "Specifies exact bounding box coordinates and pixel tracking IDs for surgical programmatic shifts."
+      },
+      {
+        "title": "3. Automated Bulk Customization",
+        "desc": "Spawns 1,000 localized video ad variations in parallel (swapping regional billboards and translated text)."
+      }
+    ],
+    "script": "Look at Slide 19 for developer automation: \"Interactions API: Programmatic State Edits.\"\n\nFor global enterprise campaigns, Flow AI provides the Interactions API:\n\nUsing clean Python code like `session.modify_state()`, developers can target specific visual nodes programmatically.\n\nImagine you are launching a global commercial in 50 countries:\nYour script automatically replaces the city skyline with Tokyo, London, or New York, and translates background billboard signs into Japanese, French, or Korean in parallel! \n\nHyper-personalized global advertising at scale!",
+    "koreanGuide": {
+      "summary": "Interactions API: 코드를 통한 프로그래밍 방식의 대량 맞춤 편집",
+      "points": [
+        "1. 개발자 전용 게이트웨이: `session.modify_state()` 파이썬 메서드로 특정 시각 노드를 코드로 조작",
+        "2. 좌표 추적 제어: 바운딩 박스 좌표와 트래킹 ID를 지정하여 영상 속 특정 간판이나 로고만 정밀 타깃",
+        "3. 글로벌 1,000개 광고 자동 생성: 전 세계 50개국에 맞춰 도쿄, 런던, 서울 배경으로 도시를 자동 교체하고 다국어 간판 합성"
+      ],
+      "tips": "코드 한 줄로 전 세계 50개국 맞춤형 광고 영상을 자동으로 찍어내는 엔터프라이즈 자동화의 위력을 전하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Interactions API",
+        "def": "The programmatic endpoint enabling developers to modify video latent nodes and automate localized rendering.",
+        "defKo": "Interactions API (프로그래밍 방식 비디오 수정)"
+      }
+    ]
+  },
+  {
+    "num": 20,
+    "type": "comparison",
+    "title": "CASE STUDY: SLICING PROTOTYPING FROM WEEKS TO 14 MIN",
+    "subtitle": "How a global advertising agency pitched and approved a 60-second commercial animatic in 14 minutes",
+    "leftCard": {
+      "tag": "TRADITIONAL STORYBOARD (3 WEEKS)",
+      "title": "Manual Illustration & Voice",
+      "points": [
+        "3 weeks of manual sketch illustration, revisions, and voice temp recording",
+        "Costly physical meetings and slow email review cycles with client executives",
+        "High friction when clients demand a major script or setting rewrite"
+      ]
+    },
+    "rightCard": {
+      "tag": "FLOW AI TRINITY (14 MINUTES)",
+      "title": "Instant Voiced Animatic",
+      "points": [
+        "14 minutes to generate a fully animated, voiced, and lip-synced 60s storyboard",
+        "Instant live revisions during the client pitch meeting using prompt edits",
+        "99% reduction in prototyping latency, winning a multi-million dollar contract"
+      ]
+    },
+    "script": "Slide 20 presents a jaw-dropping real-world case study: \"Slicing Prototyping from Weeks to 14 Minutes.\"\n\nA global advertising agency was pitching a multimillion-dollar 60-second commercial concept to an automotive client.\nTraditionally, hand-drawing storyboards, recording temporary voiceovers, and editing took three exhausting weeks!\n\nUsing Google Flow's Trinity engine, the creative director typed the scene prompts and generated a fully animated, photorealistic, lip-synced video animatic in fourteen minutes!\n\nThe client approved the pitch on the spot! That is a 99% reduction in production latency!",
+    "koreanGuide": {
+      "summary": "실제 사례: 광고 기획 프로토타이핑 3주 ➔ 14분 압축의 기적",
+      "points": [
+        "Left (전통 스토리보드 방식): 손그림 콘티 작성, 임시 성우 녹음, 영상 싱크 편집에 3주의 시간과 수천만 원 소모",
+        "Right (Flow AI 트리니티 방식): 60초 분량의 음성과 입술 싱크가 완벽한 풀 애니메틱 영상을 단 14분 만에 완성",
+        "파급력: 광고주 미팅 현장에서 즉석으로 콘티를 수정해 보여주며 당일 수십억 원 규모의 프로젝트 수주 성공"
+      ],
+      "tips": "3주 동안 야근하던 콘티 작업을 14분 만에 끝내버리는 속도 혁신이 비즈니스에서 어떻게 승리하는지 보여주세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Prototyping Latency",
+        "def": "The total elapsed time between initial creative concept ideation and client-approved animatic playback.",
+        "defKo": "프로토타이핑 지연 시간 (3주 ➔ 14분)"
+      }
+    ]
+  },
+  {
+    "num": 21,
+    "type": "section",
+    "title": "PART 3: PRECISION 연출 WITH RUNWAY ML",
+    "subtitle": "Video Arena ELO Ranking, The 5-Channel Motion Brush, 3D Camera Vectors, and Act-Two Avatars",
+    "script": "We now enter Part 3: \"Precision 연출 with Runway ML.\"\n\nWhile Google Flow AI provides a fantastic integrated sandbox, professional cinema demands surgical, millimeter-level camera control.\n\nIn this section, we will analyze Runway Gen-4.5's undisputed #1 ranking on the LMSYS Video Arena, master the 5-channel vector Motion Brush, program 3D camera coordinate curves, and explore Act-Two human performance mapping. Let us take the director's seat!",
+    "koreanGuide": {
+      "summary": "Part 3 섹션 전환: Runway ML을 통한 초정밀 시네마틱 연출",
+      "points": [
+        "글로벌 비디오 아레나 ELO 1위인 Runway Gen-4.5의 독보적 정밀 연출력 분석",
+        "5개 영역 독립 모션 브러시, 3D 카메라 벡터 좌표 프로그래밍, 그리고 Act-Two 인물 모션 캡처"
+      ],
+      "tips": "진정한 영화감독처럼 카메라 앵글과 픽셀의 속도를 미세 조율하는 전문가용 칵핏으로 안내하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Precision Direction (정밀 연출)",
+        "def": "Manipulating sub-regional pixel velocities and camera vector trajectories deterministically in generative video.",
+        "defKo": "정밀 연출 (Precision Direction)"
+      }
+    ]
+  },
+  {
+    "num": 22,
+    "type": "comparison",
+    "title": "VIDEO ARENA ELO: DECIPHERING REAL USABILITY",
+    "subtitle": "Runway Gen-4.5 (1510 Elo) vs. Google Veo 3.1 (1495 Elo) on LMSYS leaderboards",
+    "leftCard": {
+      "tag": "RUNWAY GEN-4.5 (ELO 1510)",
+      "title": "Rank 1: Precision Control",
+      "points": [
+        "Undisputed leader in deterministic camera trajectories and Motion Brush control",
+        "Preferred by Hollywood visual effects supervisors and commercial directors",
+        "Steeper learning curve; operates like an advanced professional engineering cockpit"
+      ]
+    },
+    "rightCard": {
+      "tag": "GOOGLE VEO 3.1 (ELO 1495)",
+      "title": "Rank 2: Integrated Flow",
+      "points": [
+        "Undisputed leader in native 48kHz audio and multi-modal scene reasoning",
+        "Fluid consumer-friendly workflow with zero inter-app friction",
+        "Automated physics simulation with less manual vector painting required"
+      ]
+    },
+    "script": "Look at Slide 22: \"Video Arena ELO: Deciphering Real Usability.\"\n\nOn the official LMSYS Video Arena leaderboard, where blind human evaluators vote on model outputs:\nRunway Gen-4.5 holds the #1 crown with an Elo score of 1510!\nGoogle Veo 3.1 follows closely at 1495!\n\nThis difference explains our hybrid strategy:\nRunway wins for surgical director controls—when you need an exact 15-degree camera roll and specific water currents.\nVeo wins for integrated speed and native audio! We combine both to achieve perfection!",
+    "koreanGuide": {
+      "summary": "LMSYS 비디오 아레나 ELO 점수 비교: Gen-4.5 (1510점) 대 Veo 3.1 (1495점)",
+      "points": [
+        "Left (Runway Gen-4.5 / 1510점): 정밀한 카메라 제어와 모션 브러시 연출력으로 전문가 블라인드 평가 1위 수성",
+        "Right (Google Veo 3.1 / 1495점): 네이티브 오디오와 각본-그림-모션의 원스톱 통합성에서 압도적 우위",
+        "전략적 결론: 어느 한쪽에만 매몰되지 않고, 각 모델의 최고 강점만을 선별 결합하는 하이브리드가 정답"
+      ],
+      "tips": "두 모델의 점수와 실무적 특성을 객관적으로 비교하여 최적의 하이브리드 조합 당위성을 설명하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Video Arena ELO",
+        "def": "The crowdsourced competitive ranking benchmark measuring human preference across generative video models.",
+        "defKo": "비디오 아레나 ELO 점수 (글로벌 모델 평가 척도)"
+      }
+    ]
+  },
+  {
+    "num": 23,
+    "type": "triad",
+    "title": "THE MOTION BRUSH: 5-CHANNEL VECTOR VELOCITY",
+    "subtitle": "Painting directional X, Y, and Z velocity pathways directly onto static keyframe elements",
+    "cards": [
+      {
+        "title": "1. 5 Discrete Brushes",
+        "desc": "Paint up to 5 independent screen regions with completely separate velocity vector trajectories."
+      },
+      {
+        "title": "2. 3D Axis Control (X, Y, Z)",
+        "desc": "Set horizontal speed (X), vertical rise (Y), and depth zoom (Z) values numerically for each painted zone."
+      },
+      {
+        "title": "3. Atmospheric Realism",
+        "desc": "Make ocean waves flow left, smoke billow upward, and tree branches sway subtly in opposing directions."
+      }
+    ],
+    "script": "Slide 23 details Runway's crown jewel: \"The Motion Brush: 5-Channel Vector Velocity.\"\n\nTraditional AI animates the entire screen uniformly, making scenes look chaotic and unnatural.\n\nRunway's Motion Brush gives you five independent color brushes:\nBrush 1: You paint the river and set horizontal velocity X to +5 (water flows right).\nBrush 2: You paint the chimney smoke and set vertical velocity Y to -3 (smoke rises).\nBrush 3: You paint the leaves and set subtle turbulence! \n\nThe pixels obey your exact mathematical velocity vectors! That is true directorial authority!",
+    "koreanGuide": {
+      "summary": "모션 브러시(Motion Brush): 5채널 벡터 속도 분할 페인팅",
+      "points": [
+        "1. 5개 독립 브러시: 화면의 서로 다른 5개 영역을 개별 브러시로 칠해 각각 독립된 물리 속도 부여",
+        "2. 3차원 축 제어 (X, Y, Z): X축(좌우), Y축(상하), Z축(원근 깊이) 속도 수치를 다이얼로 정밀 입력",
+        "3. 다층적 대기 현실감: 강물은 우측으로 흐르고, 굴뚝 연기는 위로 솟으며, 나뭇잎은 살랑거리는 복합 모션 연출"
+      ],
+      "tips": "붓으로 화면을 칠하고 다이얼을 돌려 사물의 움직임을 지휘하는 직관적인 연출법을 설명하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Vector Motion Brush",
+        "def": "A precision tool allowing creators to assign directional velocity vectors to specific masked image regions.",
+        "defKo": "벡터 모션 브러시 (영역별 독립 속도 제어)"
+      }
+    ]
+  },
+  {
+    "num": 24,
+    "type": "triad",
+    "title": "CAMERA CONTROLS: CINEMATOGRAPHY TRANSLATED TO CODE",
+    "subtitle": "Converting Dolly, Pan, Tilt, Zoom, and Roll into smooth mathematical vector curves",
+    "cards": [
+      {
+        "title": "1. Classical Terminology",
+        "desc": "Translates traditional film director commands (Dolly in, Crane up, Pan left, Dutch roll) into numeric inputs."
+      },
+      {
+        "title": "2. Zero Camera Jitter",
+        "desc": "Generates smooth, mathematically interpolated camera trajectories, eliminating sickening AI shakes."
+      },
+      {
+        "title": "3. Emotional Cinematography",
+        "desc": "Executes slow, suspenseful 0.2x zooms or fast 3.0x dynamic pans to match the dramatic mood of the scene."
+      }
+    ],
+    "script": "Please look at Slide 24: \"Camera Controls: Cinematography Translated to Code.\"\n\nInstead of typing vague prompts like \"cool camera move,\" Runway gives you classical cinematography sliders:\n\nYou can specify a smooth 3D Dolly Forward, an eye-level Pan Left, or a dramatic Dutch Roll! \n\nThe neural engine translates these sliders into smooth mathematical trajectory curves. The camera glides through the 3D space with zero jitter, creating the elegant, polished feel of a high-end Hollywood gimbal!",
+    "koreanGuide": {
+      "summary": "카메라 컨트롤: 전통 영화 촬영술을 수학적 벡터 코드로 변환",
+      "points": [
+        "1. 고전 영화 촬영술 번역: 달링(Dolly), 크레인(Crane), 패닝(Pan), 틸트(Tilt), 더치 롤(Roll)을 정밀 슬라이더로 조작",
+        "2. 카메라 떨림 제로: 부드러운 수학적 궤적 보간을 통해 AI 특유의 멀미 나는 화면 흔들림(Jitter) 완벽 제거",
+        "3. 감정적 시네마토그래피: 긴장감을 주는 0.2배속 초슬로우 줌인부터 박진감 넘치는 고속 팬까지 자유자재 연출"
+      ],
+      "tips": "헐리우드 촬영감독이 카메라 리그를 조종하듯 정교하게 앵글을 다듬는 전문가의 손길을 전하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Camera Vector Trajectory",
+        "def": "Mathematical 3D path coordinates governing the smooth simulated movement of the virtual camera lens.",
+        "defKo": "카메라 벡터 궤적 (부드러운 가상 렌즈 이동)"
+      }
+    ]
+  },
+  {
+    "num": 25,
+    "type": "comparison",
+    "title": "ACT-TWO: TRANSFERRING HUMAN ACTING TO AVATARS",
+    "subtitle": "Lifeless robotic AI faces vs. capturing real human micro-expressions and kinetics onto 3D meshes",
+    "leftCard": {
+      "tag": "STANDARD AI AVATAR (UNCANNY)",
+      "title": "Stiff Robotic Mask",
+      "points": [
+        "Generates dead-eyed, stiff facial expressions (the Uncanny Valley trap)",
+        "Cannot capture subtle human emotional beats (hesitation, micro-smirks)",
+        "Looks artificial and disconnected from dramatic storytelling"
+      ]
+    },
+    "rightCard": {
+      "tag": "RUNWAY ACT-TWO (REALISM)",
+      "title": "Human Performance Transfer",
+      "points": [
+        "Upload webcam footage of a real human actor performing the emotional lines",
+        "Maps subtle eye twitches, eyebrow tremors, and head kinetics onto the 3D character",
+        "Delivers genuine dramatic acting while completely altering character age or species"
+      ]
+    },
+    "script": "Look at Slide 25 for Runway's character breakthrough: \"Act-Two: Transferring Human Acting.\"\n\nTraditional AI avatars suffer from the \"Uncanny Valley\"—stiff, robotic faces with dead eyes that ruin dramatic scenes!\n\nLook at Runway's Act-Two on the right:\nYou record yourself or an actor performing the scene on a simple smartphone. \n\nAct-Two captures your micro-expressions—the subtle squint of the eyes, the emotional tremor of the lips—and maps that performance onto a photorealistic alien, an ancient warrior, or an animated robot! True dramatic soul!",
+    "koreanGuide": {
+      "summary": "Act-Two: 실제 인간 배우의 연기력을 가상 아바타에 전사",
+      "points": [
+        "Left (기존 AI 아바타의 불쾌한 골짜기): 초점 없는 눈동자와 굳어 있는 표정으로 감정 몰입 방해",
+        "Right (Runway Act-Two의 감정 이식): 스마트폰으로 촬영한 실제 배우의 미세한 눈 깜빡임과 표정 연기를 3D 캐릭터에 매핑",
+        "표현의 확장: 외계인이나 노인, 사이보그 캐릭터에게도 인간 고유의 깊은 감정 연기와 타이밍을 완벽 부여"
+      ],
+      "tips": "배우가 스마트폰 앞에서 연기하면 그 영혼이 가상 캐릭터의 얼굴에 그대로 깃드는 기술을 설명하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Act-Two Motion Capture",
+        "def": "Runway's system mapping real human facial kinetics and acting nuances directly onto generative character assets.",
+        "defKo": "Act-Two 퍼포먼스 캡처 (인간 연기 매핑)"
+      }
+    ]
+  },
+  {
+    "num": 26,
+    "type": "triad",
+    "title": "NAVIGATING CREDIT ANXIETY: MICRO-BILLING RISKS",
+    "subtitle": "The psychological drain of ticking credit meters and our strategic sandbox fix",
+    "cards": [
+      {
+        "title": "1. Credit Anxiety Trap",
+        "desc": "The fear of burning 20 credits per 4-second render causes designers to settle for mediocre drafts."
+      },
+      {
+        "title": "2. Risk-Averse Habits",
+        "desc": "Micro-billing meters drain creative confidence and discourage bold artistic experimentation."
+      },
+      {
+        "title": "3. The Sandbox SOP",
+        "desc": "Draft initial ideas in unlimited Google Flow first; commit to Runway credits ONLY for final polished shots."
+      }
+    ],
+    "script": "Slide 26 addresses financial and creative psychology: \"Navigating Credit Anxiety.\"\n\nRunway operates on a pay-per-second credit system. When every 4-second generation pass deducts expensive credits, creators develop \"Credit Anxiety\"—watching the meter tick down and settling for mediocre drafts out of fear!\n\nHere is our strategic SOP fix:\nNever brainstorm in Runway! \nDo your rapid brainstorming and rough drafts inside Google Flow's unlimited playground first. \nCommit your Runway credits *only* when your storyboard is approved and you need final precision rendering!",
+    "koreanGuide": {
+      "summary": "크레딧 불안(Credit Anxiety) 극복과 효율적 예산 관리 전략",
+      "points": [
+        "1. 크레딧 불안의 덫: 4초짜리 영상 하나 뽑을 때마다 크레딧이 깎이는 심리적 압박으로 과감한 시도를 주저함",
+        "2. 타협의 위험: 예산 초과가 두려워 어설픈 결과물에 안주하고 타협해버리는 품질 저하 발생",
+        "3. 샌드박스 전략 수칙 (SOP): 무제한 탐색이 가능한 Google Flow에서 콘티를 확정한 후, 최종 샷에만 Runway 크레딧 투입"
+      ],
+      "tips": "돈 걱정 때문에 창의성이 위축되지 않도록 파이프라인 단계를 명확히 분리하는 실무 지혜를 전하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Credit Anxiety",
+        "def": "The psychological friction in creative iteration caused by pay-per-generation micro-billing models.",
+        "defKo": "크레딧 불안 (과금 압박으로 인한 창의성 위축)"
+      }
+    ]
+  },
+  {
+    "num": 27,
+    "type": "triad",
+    "title": "AI ULTRA PLAN ROI: $250/MO STUDIO RENDERING POWER",
+    "subtitle": "How 25,000 credits replace a $15,000 local 3D rendering workstation for 125 commercial drafts",
+    "cards": [
+      {
+        "title": "1. $250/mo Subscription",
+        "desc": "Runway AI Ultra provides 25,000 monthly credits enabling up to 125 high-definition 4K draft scenes."
+      },
+      {
+        "title": "2. $15,000 Hardware Parity",
+        "desc": "Replaces the capital expense, electricity draw, and maintenance of an enterprise multi-GPU workstation."
+      },
+      {
+        "title": "3. Studio Leverage",
+        "desc": "Empowers a 2-person independent studio to deliver visual fidelity matching an 80-person animation house."
+      }
+    ],
+    "script": "Please look at Slide 27: \"AI Ultra Plan ROI: $250 Monthly Studio Power.\"\n\nLet us inspect the financial return on investment (ROI):\nA professional 3D rendering workstation with multiple GPUs costs over 15,000 dollars in upfront capital, plus massive electricity bills and maintenance.\n\nRunway's AI Ultra plan costs $250 a month, providing 25,000 credits—enough to generate 125 cinema-grade commercial draft scenes! \n\nIt gives a two-person boutique studio the visual firepower of an 80-person Hollywood animation house for less than the price of one camera lens!",
+    "koreanGuide": {
+      "summary": "AI Ultra 플랜 ROI: 월 $250로 구축하는 헐리우드급 렌더링 스튜디오",
+      "points": [
+        "1. 월 $250 구독료: 25,000 크레딧을 확보하여 월 125개의 고화질 4K 상업용 드래프트 씬 제작 가능",
+        "2. 2,000만 원 워크스테이션 대체: 수천만 원짜리 고가 그래픽 장비와 전기세, 유지보수 비용을 완벽히 상쇄",
+        "3. 2인 스튜디오의 기적: 대형 제작사 부럽지 않은 스케일의 영상을 단 2명의 팀원이 저비용으로 제작"
+      ],
+      "tips": "자본의 한계를 기술의 레버리지로 뛰어넘는 놀라운 투자 대비 효과(ROI)를 수치로 확인시켜 주세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Generative Rendering ROI",
+        "def": "The financial return achieved by replacing local hardware rendering clusters with cloud AI video credits.",
+        "defKo": "생성형 렌더링 투자수익률 (ROI)"
+      }
+    ]
+  },
+  {
+    "num": 28,
+    "type": "triad",
+    "title": "ADVERSARIAL SPOOFING & VIDEO ASSET INJECTION",
+    "subtitle": "Guarding pipelines against hidden micro-texture prompt injections and unauthorized CAD leaks",
+    "cards": [
+      {
+        "title": "1. Adversarial Visual Spoofing",
+        "desc": "Malicious actors hide micro-texture patterns in source video clips designed to hijack the model's parser."
+      },
+      {
+        "title": "2. Prompt Injection Hijack",
+        "desc": "Exploits prompt vision decoders to force the video model to ignore director guidelines or generate contraband."
+      },
+      {
+        "title": "3. Sandboxed Input Ingestion",
+        "desc": "Always pre-filter and sanitize untrusted external video footage inside locked container quarantine zones."
+      }
+    ],
+    "script": "Slide 28 covers a critical cybersecurity risk: \"Adversarial Spoofing & Video Asset Injection.\"\n\nAs video models become multimodal, attackers have developed \"Visual Prompt Injections.\"\n\nA malicious actor uploads a video with hidden micro-textures painted on a building sign. When your AI engine scans the footage, the embedded pattern tricks the model's parser into leaking your private project directories or generating unauthorized branding!\n\nAlways sanitize and quarantine external video inputs before feeding them into your generative pipeline!",
+    "koreanGuide": {
+      "summary": "적대적 스푸핑과 비디오 자산 인젝션 보안 방어",
+      "points": [
+        "1. 시각적 스푸핑 공격: 외부 영상의 건물 간판이나 질감 속에 미세한 악성 패턴을 은닉하여 유입",
+        "2. 프롬프트 인젝션 탈취: 비전 디코더를 속여 감독의 지시를 무시하게 만들거나 기밀 프로젝트 데이터를 유출",
+        "3. 샌드박스 살균 검역: 외부에서 가져온 비디오 소스는 반드시 격리된 검역 컨테이너에서 사전 필터링 후 렌더링에 투입"
+      ],
+      "tips": "비디오 파일 속 그림 하나로도 AI 파이프라인이 해킹당할 수 있는 최신 사이버 보안 위협을 경고하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Visual Prompt Injection",
+        "def": "Adversarial patterns embedded in images or video frames designed to override vision-language model system prompts.",
+        "defKo": "시각적 프롬프트 인젝션 (영상 위장 탈옥)"
+      }
+    ]
+  },
+  {
+    "num": 29,
+    "type": "triad",
+    "title": "BESPOKE TOOLS: RAPID UTILITIES WITH VIBE CODING",
+    "subtitle": "Using natural language to generate disposable Python scripts for video aspect-ratio splitting and metadata scrubbing",
+    "cards": [
+      {
+        "title": "1. Vibe Coding Utilities",
+        "desc": "Use Gemini to write single-purpose Python scripts for quick video transformations in seconds."
+      },
+      {
+        "title": "2. Disposable Tool Lifecycle",
+        "desc": "Generate, execute, and destroy single-purpose utilities in your terminal rather than installing 2GB software."
+      },
+      {
+        "title": "3. Lightweight Workflow",
+        "desc": "Automates metadata scrubbing, 9:16 vertical cropping, and video codec re-wrapping with zero software bloat."
+      }
+    ],
+    "script": "Look at Slide 29: \"Bespoke Tools: Rapid Utilities with Vibe Coding.\"\n\nUnder our Agentic IT paradigm, stop installing bloated 2-gigabyte editing plugins for simple tasks!\n\nUse \"Vibe Coding\"! \nAsk Gemini in your terminal: \"Write a quick Python script using FFmpeg to crop these ten 16:9 landscape videos into 9:16 vertical TikTok formats and strip all GPS metadata.\"\n\nGemini writes the script in three seconds. You run it, achieve your goal, and delete the script! Lightweight, disposable power!",
+    "koreanGuide": {
+      "summary": "비스포크 툴(Bespoke Tools): 바이브 코딩으로 즉석 영상 유틸리티 제작",
+      "points": [
+        "1. 바이브 코딩 유틸리티: 거대한 2GB짜리 유료 플러그인을 깔지 않고 자연어로 파이썬 FFmpeg 스크립트 즉석 생성",
+        "2. 일회용 툴 라이프사이클: 터미널에서 1회성 스크립트를 생성해 실행하고 작업이 끝나면 즉시 삭제",
+        "3. 초경량 워크플로우: 16:9 가로 영상을 9:16 쇼츠로 자르고 메타데이터를 지우는 작업을 3초 만에 자동화"
+      ],
+      "tips": "무거운 프로그램 대신 코딩 에이전트를 통해 필요한 툴을 즉석에서 만들어 쓰는 가벼운 개발 습관을 전수하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Bespoke Video Utilities",
+        "def": "Single-purpose, disposable automation scripts generated on demand via AI to perform micro-video processing tasks.",
+        "defKo": "비스포크 비디오 유틸리티 (일회용 맞춤 스크립트)"
+      }
+    ]
+  },
+  {
+    "num": 30,
+    "type": "triad",
+    "title": "THE DANGER OF INTELLECTUAL SLOTH: EROSION OF TASTE",
+    "subtitle": "Guarding human aesthetic judgment against passive acceptance of generic AI video clips",
+    "cards": [
+      {
+        "title": "1. The Sloth Hazard",
+        "desc": "The temptation to passively accept generic, mediocre AI video clips without applying critical directorial eyes."
+      },
+      {
+        "title": "2. Erosion of Taste",
+        "desc": "Allowing personal aesthetic sensibilities, color balance, and narrative pacing standards to atrophy."
+      },
+      {
+        "title": "3. Review-Driven Rigor",
+        "desc": "Enforcing Review-Driven Development (RDD): using AI for speed while reserving the creative veto for humans."
+      }
+    ],
+    "script": "Slide 30 brings a solemn reminder: \"The Danger of Intellectual Sloth: Erosion of Taste.\"\n\nWhen generating cinematic videos becomes effortless, the greatest danger is \"Intellectual Sloth\"—passively accepting whatever random output the AI spits out!\n\nIf you stop challenging composition, color harmony, and pacing, your aesthetic taste will wither away!\n\nAs Intelligence Architects, we enforce Review-Driven Development (RDD). We use AI to accelerate rendering velocity, but we fiercely defend human creative judgment and veto power!",
+    "koreanGuide": {
+      "summary": "지적 나태의 위험: 미적 안목의 퇴화와 리뷰 주도 개발(RDD)",
+      "points": [
+        "1. 지적 나태의 함정: AI가 대충 뽑아준 그럴듯한 클립을 무비판적으로 수용하며 타협하는 태만",
+        "2. 안목의 퇴화: 색채 조화, 프레임 구도, 내러티브 호흡에 대한 인간의 날카로운 비판적 감각이 마비됨",
+        "3. 리뷰 주도 개발(RDD): 연산 속도는 AI에 맡기되 최종 미적 감수성과 기각(Veto) 권한은 인간이 사수"
+      ],
+      "tips": "편리함에 취해 안목을 잃어버리는 예술적 게으름을 엄히 경계하고 높은 완성도를 추구하도록 격려하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Aesthetic Erosion",
+        "def": "The degradation of human artistic judgment caused by passive, uncritical reliance on generative AI outputs.",
+        "defKo": "미적 안목의 퇴화 (Aesthetic Erosion)"
+      }
+    ]
+  },
+  {
+    "num": 31,
+    "type": "section",
+    "title": "PART 4: THE HYBRID CINEMATIC PIPELINE",
+    "subtitle": "Step-by-Step Production Architecture, The Conductor Persona, and Hands-on Lab 14",
+    "script": "We now enter Part 4: \"The Hybrid Cinematic Pipeline.\"\n\nHow do we assemble Google Flow AI, Runway ML Gen-4.5, and traditional editing suites into a seamless, high-performance production pipeline?\n\nIn this final section, we will map out our 3-step hybrid blueprint, define the ethical Conductor Persona, discuss environmental energy savings, and review your Hands-on Lab 14 assignment: producing a 60-second cinematic short film. Let us assemble the master pipeline!",
+    "koreanGuide": {
+      "summary": "Part 4 섹션 전환: 하이브리드 시네마틱 파이프라인의 완성",
+      "points": [
+        "Flow AI + Runway ML + NLE 편집기를 결합한 3단계 마스터 제작 청사진",
+        "지휘자(Conductor) 페르소나, 친환경 에너지 절감, 그리고 60초 단편영화 제작 실습(Lab 14)"
+      ],
+      "tips": "모든 도구와 철학을 하나로 집대성하여 실제 영화를 완성하는 종합 실전 파트입니다."
+    },
+    "keyTerms": [
+      {
+        "term": "Hybrid Master Pipeline",
+        "def": "The end-to-end production architecture uniting multi-model generative platforms with classical NLE editing.",
+        "defKo": "하이브리드 마스터 파이프라인"
+      }
+    ]
+  },
+  {
+    "num": 32,
+    "type": "comparison",
+    "title": "ARCHITECTING THE PIPELINE: WHY SINGLE MODELS FAIL",
+    "subtitle": "The rigidity of single-model monopolies vs. agile multi-model specialization pipelines",
+    "leftCard": {
+      "tag": "SINGLE-MODEL MONOPOLY (FRAGILE)",
+      "title": "The All-In-One Myth",
+      "points": [
+        "Believing one single AI model can handle script, 4K art, motion vectors, and audio flawlessly",
+        "Inflexible bottlenecks: If the model lacks camera roll controls, the entire project is stuck",
+        "High rendering costs and vendor lock-in risks"
+      ]
+    },
+    "rightCard": {
+      "tag": "HYBRID MULTI-MODEL PIPELINE (AGILE)",
+      "title": "Specialized Leverage",
+      "points": [
+        "Deconstructs production into specialized best-in-class stages",
+        "Flow AI for rapid storyboards and native audio; Runway for surgical camera vectors",
+        "Achieves Hollywood-grade cinema output at 1/10th of traditional production costs"
+      ]
+    },
+    "script": "Look at Slide 32: \"Architecting the Pipeline: Why Single Models Fail.\"\n\nA rookie mistake is believing that one single AI model can do everything. It cannot!\n\nSingle-model monopolies fail because no single engine achieves maximum speed, native audio, and millimeter-level camera precision all at once!\n\nOur hybrid architecture divides production into specialized stages:\nWe use Google Flow where it has maximum leverage (fast storyboards, identity locks, and voice sync), and Runway where it has maximum leverage (Motion Brush and camera vectors)! That is how you win!",
+    "koreanGuide": {
+      "summary": "파이프라인 아키텍처: 단일 모델 독점의 실패와 다중 모델 전문화의 승리",
+      "points": [
+        "Left (단일 모델 독점의 한계): 하나의 AI가 각본부터 4K 모션, 음향까지 완벽히 해낼 것이라는 환상 ➔ 기능 부재 시 전체 프로젝트 마비",
+        "Right (하이브리드 다중 모델 파이프라인): 각 단계별로 가장 뛰어난 특화 모델을 레고 블록처럼 유기적으로 결합",
+        "비용과 품질: 제작 비용을 10분의 1로 줄이면서도 헐리우드급 최고 품질을 안정적으로 달성"
+      ],
+      "tips": "만능 툴은 없으며, 각 분야의 1등 툴을 조화롭게 엮어내는 아키텍트의 안목이 핵심임을 역설하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Multi-Model Orchestration",
+        "def": "Connecting diverse specialized generative AI models into a coordinated, multi-stage production sequence.",
+        "defKo": "다중 모델 오케스트레이션"
+      }
+    ]
+  },
+  {
+    "num": 33,
+    "type": "triad",
+    "title": "HYBRID STEP 1: STORYBOARDING & AUDIO IN FLOW AI",
+    "subtitle": "Drafting scene specifications, keyframe canvases, and synchronized 48kHz temp audio",
+    "cards": [
+      {
+        "title": "1. Script with Gemini",
+        "desc": "Brainstorm and structure character arcs, shot lists, and emotional beats into prompt specifications."
+      },
+      {
+        "title": "2. Keyframes with Imagen 4",
+        "desc": "Render 4K visual master canvases locking in character identity using reference image Ingredients."
+      },
+      {
+        "title": "3. Voiced Animatic with Veo",
+        "desc": "Render low-cost animated storyboard clips with synchronized speech and Lyria 3 Pro music pacing."
+      }
+    ],
+    "script": "Slide 33 outlines Step 1 of our blueprint: \"Storyboarding and Audio in Flow AI.\"\n\nHere is where we build our narrative foundation:\nFirst: We use Gemini to refine our script into structured prompt specifications.\nSecond: We use Imagen 4 with Ingredients to generate photorealistic 4K keyframe art with frozen character faces.\nThird: We use Veo 3.1 and Lyria 3 Pro to render an animated, voiced storyboard! \n\nWithin thirty minutes, you have a complete, lip-synced animatic proving that your story flow works!",
+    "koreanGuide": {
+      "summary": "하이브리드 1단계: Google Flow AI를 통한 고속 스토리보드 및 오디오 구축",
+      "points": [
+        "1. Gemini 각본 기획: 인물 감정선과 샷 리스트를 구조화된 프롬프트 명세서로 구체화",
+        "2. Imagen 4 키프레임 렌더링: '재료(Ingredients)' 기능으로 주인공 얼굴을 고정한 4K 마스터 캔버스 확정",
+        "3. Veo 3.1 보이스 애니메틱: 대사 립싱크와 Lyria 3 Pro 배경음악이 입혀진 풀 스토리보드를 30분 만에 완성"
+      ],
+      "tips": "본격적인 정밀 렌더링에 앞서 이야기의 호흡과 오디오 리듬을 완벽하게 검증하는 1단계입니다."
+    },
+    "keyTerms": [
+      {
+        "term": "Voiced Animatic Phase",
+        "def": "The initial production stage validating narrative pacing using automated voice-synced storyboard video clips.",
+        "defKo": "보이스 애니메틱 검증 단계"
+      }
+    ]
+  },
+  {
+    "num": 34,
+    "type": "triad",
+    "title": "HYBRID STEP 2: MOTION & CAMERA IN RUNWAY ML",
+    "subtitle": "Exporting keyframes to apply Motion Brushes, 3D camera vectors, and Act-Two kinetics",
+    "cards": [
+      {
+        "title": "1. Export Stable Keyframes",
+        "desc": "Export the approved visual master frames from Google Flow into Runway Gen-4.5."
+      },
+      {
+        "title": "2. Paint Motion Brushes",
+        "desc": "Paint local velocity vectors to direct water currents, smoke dissipation, and vehicle speeds independently."
+      },
+      {
+        "title": "3. Program Camera Paths",
+        "desc": "Set precise 3D Dolly, Pan, and Zoom coordinates to achieve smooth, jitter-free cinematic emotion."
+      }
+    ],
+    "script": "Please look at Slide 34: \"Hybrid Step 2: Elevating Scene Motion in Runway ML.\"\n\nOnce your storyboard is locked, you move to the director's cockpit:\n\nYou export your approved master keyframes from Flow and import them into Runway Gen-4.5. \n\nHere, you paint the Motion Brush to control the speed of flowing water and fluttering flags. You program smooth 3D camera Dolly and Pan coordinate paths. \n\nYou transform static storyboard art into breathtaking, jitter-free cinematic footage matching your exact vision!",
+    "koreanGuide": {
+      "summary": "하이브리드 2단계: Runway ML을 통한 모션 브러시 및 카메라 정밀 연출",
+      "points": [
+        "1. 승인된 키프레임 추출: Google Flow에서 검증을 마친 안정적인 마스터 이미지를 Runway로 내보내기",
+        "2. 모션 브러시 페인팅: 물결, 연기, 자동차 바퀴의 이동 속도 벡터를 독립적으로 브러싱",
+        "3. 3D 카메라 경로 프로그래밍: 흔들림 없는 완벽한 달링 샷과 틸트 무빙을 좌표로 주입하여 영화적 감동 극대화"
+      ],
+      "tips": "거친 원석 같던 콘티를 보석처럼 반짝이는 완벽한 헐리우드 샷으로 다듬는 연출 과정입니다."
+    },
+    "keyTerms": [
+      {
+        "term": "Cinematic Motion Elevation",
+        "def": "Refining rough storyboard assets with sub-regional vector brushes and smooth mathematical camera paths.",
+        "defKo": "시네마틱 모션 고도화"
+      }
+    ]
+  },
+  {
+    "num": 35,
+    "type": "triad",
+    "title": "HYBRID STEP 3: NLE ASSEMBLY & MULTI-TRACK SOUND",
+    "subtitle": "Final cut assembly, color grading, and layered foley sound design in Premiere or DaVinci",
+    "cards": [
+      {
+        "title": "1. Ingestion & Cut Editing",
+        "desc": "Import polished Runway and Flow video clips into DaVinci Resolve or Premiere Pro for timeline assembly."
+      },
+      {
+        "title": "2. Cohesive Color Grading",
+        "desc": "Apply unified cinematic LUTs and color balances to ensure seamless visual tone across all scenes."
+      },
+      {
+        "title": "3. Multi-Track Foley Design",
+        "desc": "Layer ambient room tones, sound foley effects, and dialogue tracks into a broadcast-ready master mix."
+      }
+    ],
+    "script": "Look at Slide 35 for the final polish: \"Hybrid Step 3: NLE Assembly & Multi-Track Sound.\"\n\nStep 3 brings all assets into traditional Non-Linear Editors like DaVinci Resolve or Premiere Pro:\n\nYou assemble your polished AI video clips on the timeline with frame-accurate cut edits. \nYou apply a unified Color Grading LUT so every shot feels like part of the same movie. \n\nFinally, you master your multi-track audio—layering subtle ambient wind, footsteps, and music crescendos to deliver a broadcast-ready 60-second masterpiece!",
+    "koreanGuide": {
+      "summary": "하이브리드 3단계: NLE 편집기(프리미어/다빈치) 최종 조립 및 다중 음향 믹싱",
+      "points": [
+        "1. 타임라인 컷 편집: 생성된 고품질 비디오 클립들을 다빈치 리졸브나 프리미어 타임라인에 얹고 정밀 컷 편집",
+        "2. 통합 컬러 그레이딩: 시네마틱 LUT(Look-Up Table)를 적용하여 모든 샷의 색감과 명암 톤을 완벽 통일",
+        "3. 다중 트랙 음향 디자인: 바람 소리, 발자국 폴리 사운드, 보이스를 레이어링하여 방송 송출급 마스터링 완성"
+      ],
+      "tips": "개별적으로 생성된 멋진 샷들을 하나의 완성된 감동적인 영화로 직조해내는 최종 조립 단계입니다."
+    },
+    "keyTerms": [
+      {
+        "term": "NLE Final Master Assembly",
+        "def": "The post-production stage uniting generative video assets with classical timeline editing and multi-track audio.",
+        "defKo": "NLE 최종 마스터 조립 (타임라인 종합 완성)"
+      }
+    ]
+  },
+  {
+    "num": 36,
+    "type": "triad",
+    "title": "THE CONDUCTOR PERSONA: ACTIVE ETHICAL STEWARDSHIP",
+    "subtitle": "Human creators guiding the purpose, ethics, and meaning of generative narratives",
+    "cards": [
+      {
+        "title": "1. The Sovereign Director",
+        "desc": "The human creator defines the core thematic message, emotional soul, and ethical boundaries."
+      },
+      {
+        "title": "2. Guarding Against Deceit",
+        "desc": "Solemn duty to ensure generated narratives do not spread malicious deepfakes, bias, or digital sludge."
+      },
+      {
+        "title": "3. Soli Deo Gloria",
+        "desc": "Using technological mastery as an instrument of divine truth, human uplift, and moral beauty."
+      }
+    ],
+    "script": "Slide 36 defines your identity: \"The Conductor Persona: Active Ethical Stewardship.\"\n\nAs an Intelligence Architect, you are the Conductor! \nThe AI swarms are your musicians, but you determine the theme, the tempo, and the soul of the performance!\n\nYou hold a sacred ethical responsibility: Never use generative media to create malicious deepfakes, deceptive sludge, or digital pollution. \n\nUse this immense power to illuminate truth, uplift human dignity, and reflect God's glory! Soli Deo Gloria!",
+    "koreanGuide": {
+      "summary": "지휘자(Conductor) 페르소나: 적극적인 윤리적 청지기직",
+      "points": [
+        "1. 주권적 디렉터: 인간 창작자가 작품의 핵심 메시지, 영혼, 감정적 울림을 정의하는 최종 사령관",
+        "2. 거짓과 유해물 방어: 악성 딥페이크나 편향된 디지털 공해를 유포하지 않는 엄격한 생명윤리적 책무",
+        "3. Soli Deo Gloria 실천: 기술을 하나님의 진리와 이웃을 섬기는 거룩한 예술의 도구로 승화"
+      ],
+      "tips": "강력한 생성형 기술을 쥔 수강생들에게 사회적·윤리적 책임감을 품위 있게 강조하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "The Conductor Persona",
+        "def": "The professional mindset viewing human creativity as the ethical and artistic orchestrator of AI swarms.",
+        "defKo": "지휘자 페르소나 (인간 주권 윤리 철학)"
+      }
+    ]
+  },
+  {
+    "num": 37,
+    "type": "triad",
+    "title": "ENVIRONMENTAL STEWARDSHIP: TOKEN EFFICIENCY",
+    "subtitle": "Slashing data center power loads by 80% through structured caching and localized edits",
+    "cards": [
+      {
+        "title": "1. Severe Compute Load",
+        "desc": "Redundant, unconstrained 3D video render loops burn massive electricity in global data centers."
+      },
+      {
+        "title": "2. Pre-Cached State Efficiency",
+        "desc": "Using Stateful Sessions and Ingredients cuts redundant generation passes by four-fifths."
+      },
+      {
+        "title": "3. Caring for Creation",
+        "desc": "Demonstrating how algorithmic efficiency is a practical act of Christian environmental stewardship."
+      }
+    ],
+    "script": "Please look at Slide 37: \"Environmental Stewardship: Slicing Carbon Payloads.\"\n\nOur mandate under Soli Deo Gloria includes caring for God's physical creation.\n\nRunning continuous, unconstrained AI video rendering in global cloud centers consumes immense electrical power and generates carbon emissions.\n\nBy using our structured, cached editing pipeline—freezing states and reducing passes from 25 to 3—we cut server power consumption by 80%! Algorithmic efficiency is an act of environmental stewardship!",
+    "koreanGuide": {
+      "summary": "환경 청지기직: 토큰 효율성을 통한 탄소 배출 80% 감축",
+      "points": [
+        "1. 거대한 컴퓨팅 전력 소모: 무작위 비디오 렌더링 남발은 데이터센터의 막대한 전기 소모와 탄소 배출 유발",
+        "2. 사전 캐싱 상태 효율화: 상태 유지 세션과 앵커 고정으로 렌더링 횟수를 80% 줄여 에너지 절감",
+        "3. 창조 세계 보전: 정밀한 알고리즘 파이프라인 설계가 지구 환경을 보호하는 실천적 청지기 사명임을 입증"
+      ],
+      "tips": "기술의 효율적 사용이 하나님의 창조 세계를 아끼는 친환경 사명과 맞닿아 있음을 전달하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Green Video Engineering",
+        "def": "Minimizing carbon emissions and compute waste by optimizing generative AI video rendering pipelines.",
+        "defKo": "친환경 비디오 엔지니어링"
+      }
+    ]
+  },
+  {
+    "num": 38,
+    "type": "triad",
+    "title": "DIGITAL INCLUSION: DEMOCRATIC GLOBAL STORYTELLING",
+    "subtitle": "Empowering independent visionary voices worldwide to produce Hollywood-grade narratives",
+    "cards": [
+      {
+        "title": "1. Breaking Capital Barriers",
+        "desc": "Decouples cinema-grade production value from multimillion-dollar studio studio equipment budgets."
+      },
+      {
+        "title": "2. Global Cultural Voices",
+        "desc": "Empowers creators in developing nations to tell their authentic historical and cultural stories."
+      },
+      {
+        "title": "3. Democratized Cinema",
+        "desc": "Unleashes a diverse flood of global narratives powered by accessible, low-bandwidth cloud pipelines."
+      }
+    ],
+    "script": "Look at Slide 38: \"Digital Inclusion: Democratic Global Storytelling.\"\n\nFor a century, cinema was an exclusive club gated by multimillion-dollar budgets. Millions of profound stories from developing nations were never told because creators lacked camera budgets.\n\nOur hybrid pipeline tears down those walls! \n\nA scholar in Africa, Asia, or South America with an internet connection can now produce Hollywood-grade visual epics, sharing their rich heritage and spiritual wisdom with the entire world!",
+    "koreanGuide": {
+      "summary": "디지털 포용: 전 세계 독립 창작자를 위한 영화 제작의 민주화",
+      "points": [
+        "1. 자본 장벽 철폐: 수십억 원의 스튜디오 장비 없이도 인터넷 연결만으로 헐리우드급 영상 제작 가능",
+        "2. 글로벌 문화 다양성: 개발도상국의 독립 창작자들도 자국의 역사와 아름다운 문화 유산을 전 세계에 영상으로 공유",
+        "3. 스토리텔링의 민주화: 소수의 거대 자본이 독점하던 미디어 생태계를 모든 인류의 지혜와 통찰의 장으로 확장"
+      ],
+      "tips": "자본의 차별 없이 누구나 영화를 만들 수 있게 된 디지털 민주화의 감동적인 비전을 선포하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Democratized Storytelling",
+        "def": "The global decentralization of cinema-grade production capabilities through accessible generative AI tools.",
+        "defKo": "스토리텔링의 민주화 (글로벌 시네마 포용)"
+      }
+    ]
+  },
+  {
+    "num": 39,
+    "type": "triad",
+    "title": "HANDS-ON LAB 14: YOUR 60-SECOND HYBRID MASTERPIECE",
+    "subtitle": "3 practical engineering phases to produce, refine, and assemble a cinematic short film in /Spark_OS/",
+    "cards": [
+      {
+        "title": "Phase 1: Flow AI Storyboard",
+        "desc": "Draft script specifications and render voiced animatic clips using Ingredients and Lyria 3 Pro."
+      },
+      {
+        "title": "Phase 2: Runway Motion Tuning",
+        "desc": "Import master keyframes to apply 5-channel Motion Brushes and smooth 3D camera vector paths."
+      },
+      {
+        "title": "Phase 3: NLE Master Assembly",
+        "desc": "Assemble a 60-second video with color grading and multi-track audio in `/Spark_OS/Lab14/` by Sunday midnight."
+      }
+    ],
+    "script": "Look at Slide 39 for your Hands-on Lab 14 Assignment: \"Your 60-Second Hybrid Masterpiece.\"\n\nHere is your practical engineering mission for this week:\nPhase 1: Draft your script in Gemini and generate a voiced, lip-synced animatic in Google Flow AI using Ingredients.\nPhase 2: Export your keyframes into Runway Gen-4.5 to apply Motion Brushes and camera vector trajectories.\nPhase 3: Assemble, color-grade, and sound-mix your 60-second masterpiece in your NLE, saving the output in `/Spark_OS/Lab14/` before Sunday midnight!",
+    "koreanGuide": {
+      "summary": "Lab 14 실습 과제 안내: 60초 하이브리드 시네마틱 단편영화 제작",
+      "points": [
+        "1단계 (Google Flow): 기획 명세서 작성 및 '재료' 기능을 활용한 음성 동기화 애니메틱 콘티 생성",
+        "2단계 (Runway ML): 마스터 키프레임에 5채널 모션 브러시와 부드러운 3D 카메라 궤적 주입",
+        "3단계 (NLE 최종 조립): 프리미어/다빈치에서 60초 타임라인 조립, 색보정, 음향 믹싱 후 `/Spark_OS/Lab14/` 제출"
+      ],
+      "tips": "학생들이 직접 한 편의 완성도 높은 60초 단편영화를 제작해보는 실습 절차를 명쾌히 안내하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Lab 14 Short Film Mission",
+        "def": "The practical lab project building a complete 60-second cinematic video using the hybrid Flow-Runway-NLE pipeline.",
+        "defKo": "Lab 14 60초 하이브리드 단편영화 실습"
+      }
+    ]
+  },
+  {
+    "num": 40,
+    "type": "title",
+    "title": "COURSE SUMMARY: LEADING THE GENERATIVE CINEMA SUMMIT",
+    "subtitle": "Previewing Session 15: IT Wisdom Peak: Human-on-the-Loop & Life OS Board",
+    "detail": "Course: The Architect of Intelligence • Oikos University (www.oikos.edu) • Soli Deo Gloria",
+    "instructor": "Prof. Peter Kim, Director of Smart Insight Lab • Complete Lab 14 by Sunday Midnight",
+    "script": "That brings us to the conclusion of Session 14! Look at Slide 40 for our milestone summary.\n\nRemember: Physical cameras capture what is; generative pipelines architect what *could be*! \n\nBy orchestrating Google Flow AI and Runway ML as sovereign conductors, you have liberated your creativity from capital and logistical gravity! Redeem your time, lead with ethical purpose, and direct your swarms to illuminate divine truth!\n\nNext week, in our grand finale, Session 15, we reach the summit: \"IT Wisdom Peak: Human-on-the-Loop & Life OS Board,\" integrating all fifteen sessions into an eternal personal operating system!\n\nThank you for your fantastic passion today! Have a blessed week. Soli Deo Gloria! Good night, everyone!",
+    "koreanGuide": {
+      "summary": "Session 14 수업 마감 및 대망의 최종 15강(IT 지혜의 정점과 Life OS 위원회) 예고",
+      "points": [
+        "과제 마감: 일요일 자정까지 Lab 14 60초 하이브리드 단편영화 패키지 제출 완료",
+        "다음 주 대망의 최종회 예고: Session 15 IT 지혜의 정점: 휴먼-온-더-루프와 Life OS 이사회 (15주 완성 총정리)",
+        "수업 마감: '카메라는 현실을 담지만 생성 파이프라인은 진리를 창조합니다. 지휘봉을 굳게 잡으십시오. Soli Deo Gloria!'"
+      ],
+      "tips": "학생들을 뜨겁게 축복하며 다음 주 대망의 마지막 15강 최종 정상 회담에 대한 기대감을 최고조로 이끌어내세요."
+    },
+    "keyTerms": [
+      {
+        "term": "IT Wisdom Peak Preview",
+        "def": "The upcoming capstone finale integrating all 15 sessions into a unified Human-on-the-Loop Life Operating System.",
+        "defKo": "IT 지혜의 정점 (Session 15 대망의 최종회)"
       }
     ]
   }
