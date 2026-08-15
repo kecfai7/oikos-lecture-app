@@ -6,9 +6,9 @@ const slidesDataPath = path.join(__dirname, 'src', 'data', 'slidesData.js');
 let fileContent = fs.readFileSync(slidesDataPath, 'utf8');
 
 // Transpile export const to module.exports for node evaluation
-fileContent = fileContent.replace('export const SESSIONS =', 'const SESSIONS =');
-fileContent = fileContent.replace('export const SLIDES_SESSION_1 =', 'const SLIDES_SESSION_1 =');
-fileContent = fileContent.replace('export const SLIDES_SESSION_2 =', 'const SLIDES_SESSION_2 =');
+fileContent = fileContent.replace(/export const SESSIONS =/g, 'const SESSIONS =');
+fileContent = fileContent.replace(/export const SLIDES_SESSION_1 =/g, 'const SLIDES_SESSION_1 =');
+fileContent = fileContent.replace(/export const SLIDES_SESSION_2 =/g, 'const SLIDES_SESSION_2 =');
 fileContent += '\nmodule.exports = { SESSIONS, SLIDES_SESSION_1, SLIDES_SESSION_2 };';
 
 // Write temp file to require
@@ -21,6 +21,7 @@ const { SESSIONS, SLIDES_SESSION_2 } = require(tempPath);
 if (fs.existsSync(tempPath)) {
   fs.unlinkSync(tempPath);
 }
+
 
 console.log(`Loaded ${SLIDES_SESSION_2.length} slides for Session 2.`);
 
