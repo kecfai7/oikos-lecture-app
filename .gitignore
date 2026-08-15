@@ -34,3 +34,5 @@ files_analysis/
 *.sw?
 
 
+
+.vercel

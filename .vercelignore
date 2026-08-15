@@ -1,0 +1,14 @@
+node_modules
+dist
+dist-ssr
+*.local
+__pycache__/
+*.pyc
+
+# Large Media & Temporary Audio Directories
+files_cleaned/
+files_analysis/
+*.wav
+*.mp4
+*.zip
+*.tar.gz
