@@ -7,7 +7,7 @@ export const SESSIONS = [
   { id: 3, title: "Session 3: OS Shell Control & 1.2GB Local AI Armor", active: true },
   { id: 4, title: "Session 4: Honest Intelligence: NotebookLM RAG Revolution", active: true },
   { id: 5, title: "Session 5: Enterprise Drive Mastery & GAS Automation", active: true },
-  { id: 6, title: "Session 6: 1M Token Context & Vibe Coding", active: false },
+  { id: 6, title: "Session 6: 1M Token Context & Vibe Coding", active: true },
   { id: 7, title: "Session 7: WebMCP Protocol & HTML Token Diet", active: false },
   { id: 8, title: "Session 8: Agentic Commerce: UCP & AP2 Autonomous Checkout", active: false },
   { id: 9, title: "Session 9: Chrome V8 Security & Manifest V3 Fortress", active: false },
@@ -7526,6 +7526,1465 @@ export const SLIDES_SESSION_5 = [
         "term": "GAS-Powered Shared Vault",
         "def": "An automated Google Shared Drive architecture integrating role security, naming SOP, and Apps Script logging.",
         "defKo": "GAS 기반 자동화 공유 금고 (Lab 5 과제)"
+      }
+    ]
+  }
+];
+
+export const SLIDES_SESSION_6 = [
+  {
+    "num": 1,
+    "sessionNum": 6,
+    "type": "title",
+    "title": "OIKOS UNIVERSITY • SOLI DEO GLORIA",
+    "subtitle": "THE ARCHITECT OF INTELLIGENCE: Mastering Agentic IT & Strategic Wisdom",
+    "detail": "Session 6: The 1-Million Token Playground: Vibe Coding, Many-shot ICL, and Cost Optimization with Google AI Studio",
+    "instructor": "Prof. Peter Kim, Director of Smart Insight Lab • www.oikos.edu",
+    "script": "Good evening, and welcome back to Oikos University, my brilliant students and future intelligence architects! My name is Professor Peter Kim, and it is a true joy to welcome you to Session 6 of our master course: \"The Architect of Intelligence.\"\n\nPlease look at the title on our screen: \"The 1-Million Token Playground: Vibe Coding, Many-shot In-Context Learning, and Cost Optimization with Google AI Studio.\"\n\nToday, we step into the holy forge of modern artificial intelligence development. In the past, software development required memorizing thousands of lines of difficult syntax and wrestling with missing semicolons. Today, we enter the era of \"Vibe Coding\"—where your raw creative intent, your vision, and your natural language instructions become functional software in seconds.\n\nFor all our international scholars joining from around the world, we will speak clearly, warmly, and step by step in friendly English. Let us begin this exciting sixth journey together under our university motto, Soli Deo Gloria!",
+    "koreanGuide": {
+      "summary": "Session 6 개요 및 100만 토큰 플레이그라운드와 바이브 코딩(Vibe Coding) 환영 인사",
+      "points": [
+        "강의 주제: 100만 토큰 초대형 컨텍스트와 다중 샷(Many-shot) 인컨텍스트 러닝(ICL)",
+        "구글 AI 스튜디오를 활용한 바이브 코딩(Vibe Coding) 패러다임과 87% 비용 절감 컨텍스트 캐싱",
+        "단순 코더(Coder)에서 전체 시스템을 지휘하는 지능 아키텍트(Architect)로의 진화"
+      ],
+      "tips": "밝고 힘찬 어조로 인사를 건네며, 개발의 패러다임이 문법 작성에서 직관적 기획으로 바뀌었음을 강조하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Vibe Coding",
+        "def": "Building functional software applications through natural language intent and aesthetic direction.",
+        "defKo": "바이브 코딩 (자연어 직관 기반 소프트웨어 제작)"
+      },
+      {
+        "term": "1-Million Token Context",
+        "def": "An ultra-large context window capable of processing up to 1,500 pages of text simultaneously.",
+        "defKo": "100만 토큰 컨텍스트 창 (초대형 작업 메모리)"
+      }
+    ]
+  },
+  {
+    "num": 2,
+    "type": "motto",
+    "title": "DIVINE CREATIVE CAPACITY & SOLI DEO GLORIA",
+    "subtitle": "Translating divine inspiration into structural reality: Elevating human intellect above syntax grinding",
+    "points": [
+      "Soli Deo Gloria: Glory to God Alone as our foundational standard of excellence.",
+      "The Divine Creative Spark: Human imagination and architectural vision as reflections of God's image.",
+      "Syntax Liberation: Freeing developers from mechanical typing to focus on high-level system design."
+    ],
+    "script": "Let us look at Slide 2: \"Divine Creative Capacity and Soli Deo Gloria.\"\n\nUnder our university motto, Soli Deo Gloria—Glory to God Alone—we recognize that human creativity is a divine gift. God created humans in His image with the wonderful ability to imagine something in our minds and build it in the physical world.\n\nFor the past fifty years, software engineers spent 90% of their mental energy wrestling with punctuation errors, syntax rules, and missing brackets. \n\nGoogle AI Studio changes the equation forever. It takes the heavy lifting of code translation off your shoulders, freeing your mind to focus on high-level system architecture, user empathy, and spiritual wisdom. We elevate human intellect above mechanical typing!",
+    "koreanGuide": {
+      "summary": "Soli Deo Gloria 신앙관과 인간의 창조적 잠재력 회복",
+      "points": [
+        "신앙적 가치: 인간의 창의성은 하나님의 형상을 반영하는 거룩한 불꽃",
+        "구문 탈피: 오타와 세미콜론과 씨름하던 90%의 기계적 타이핑 노동에서 해방",
+        "아키텍트의 소명: 절약된 정신적 에너지를 상위 레벨의 시스템 아키텍처와 인간 중심 가치에 집중"
+      ],
+      "tips": "창조적 사명을 강조하며 품격 있고 따뜻한 목소리로 전달해 주세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Creative Liberation",
+        "def": "Freeing human intellect from low-level coding mechanics to focus on high-level architectural intent.",
+        "defKo": "창조적 해방 (문법 노동 탈피)"
+      }
+    ]
+  },
+  {
+    "num": 3,
+    "type": "comparison",
+    "title": "THE TRADITIONAL CONTEXT CAGE",
+    "subtitle": "Short context windows forcing aggressive chunking vs. expansive panoramic vision",
+    "leftCard": {
+      "tag": "TRADITIONAL CAGE",
+      "title": "16K Token Limit (Tiny Desk)",
+      "points": [
+        "Models could only process 10-20 pages of text at once",
+        "Forced aggressive text chunking and complex vector search",
+        "Lost overall narrative flow, nuanced context, and deep links"
+      ]
+    },
+    "rightCard": {
+      "tag": "EXPANSIVE STADIUM",
+      "title": "1M Token Playground (Grand Desk)",
+      "points": [
+        "Ingests up to 1,500 pages of text or 50,000 lines of code at once",
+        "No fragmentation or lost nuance across complex documents",
+        "Reads entire libraries in a single, unified cognitive breath"
+      ]
+    },
+    "script": "Slide 3 explains the historical breakthrough: \"The Traditional Context Cage.\"\n\nTo understand why a 1-million token context window is such a miracle, we must look at the past.\n\nIn the early days of AI, models had a tiny desk—only 8,000 or 16,000 tokens! That is barely ten pages of text. If you wanted to feed a 300-page book to the model, you had to chop it into hundreds of tiny pieces called \"chunks.\" In doing so, the AI lost the big picture, the overarching storyline, and the deep connections.\n\nLook at the right side: Gemini 3 Pro gives you an open-air stadium! It can hold an entire library of eight full novels in its memory simultaneously without losing a single detail!",
+    "koreanGuide": {
+      "summary": "전통적인 컨텍스트 새장(Context Cage)의 한계와 100만 토큰 경기장",
+      "points": [
+        "Left (16K 새장): 10~20쪽만 처리할 수 있어 문서를 잘게 쪼개야(Chunking) 했고 문맥 단절 발생",
+        "Right (1M 경기장): 책 8권(1500쪽), 5만 줄의 코드를 한 번에 통째로 올려놓고 단숨에 조망",
+        "패러다임 전환: 쪼개서 조각조각 찾던 시대에서 전체를 한 번에 올려놓고 생각하는 시대로 전환"
+      ],
+      "tips": "작은 새장과 거대한 야외 경기장을 손동작으로 대비하며 설명하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Context Cage",
+        "def": "The architectural limitation of early LLMs restricted to small token context windows.",
+        "defKo": "컨텍스트 새장 (초기 모델의 좁은 메모리 한계)"
+      }
+    ]
+  },
+  {
+    "num": 4,
+    "type": "triad",
+    "title": "ENTERING THE 1-MILLION TOKEN PLAYGROUND",
+    "subtitle": "The massive scale of Gemini 3 Pro's working memory window",
+    "cards": [
+      {
+        "title": "8 Full-Length Novels",
+        "desc": "Reads and analyzes up to 700,000 English words in a single unified prompt."
+      },
+      {
+        "title": "50,000 Lines of Code",
+        "desc": "Ingests entire enterprise software repositories including backend, frontend, and tests."
+      },
+      {
+        "title": "1 Hour of HD Video",
+        "desc": "Processes visual scenes, speech audio, and on-screen text simultaneously."
+      }
+    ],
+    "script": "Please look at Slide 4: \"Entering the 1-Million Token Playground.\"\n\nHow big is one million tokens? Let us put this into perspective with three real-world examples:\n\nFirst: It is equal to eight full-length novels—over 700,000 words.\nSecond: It can ingest 50,000 lines of complex software code—an entire company software repository including backend, frontend, and database models.\nThird: It can watch and analyze one full hour of high-definition video in a single prompt!\n\nThe AI does not have to guess; it reads the entire landscape of your data in one continuous breath!",
+    "koreanGuide": {
+      "summary": "100만 토큰 플레이그라운드의 물리적 규모 (소설 8권, 코드 5만 줄, 영상 1시간)",
+      "points": [
+        "소설 8권 분량: 70만 단어 이상의 텍스트를 단일 프롬프트에서 완벽 이해",
+        "코드 5만 줄: 프론트엔드, 백엔드, DB 스키마가 포함된 전사 코드베이스 통째 분석",
+        "1시간 HD 영상: 영상의 시각적 장면, 음성 대화, 화면 텍스트를 동시 처리"
+      ],
+      "tips": "100만 토큰이라는 추상적 숫자를 3가지 구체적 사례로 실감 나게 전달하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Long-Context Processing",
+        "def": "The capability of an AI model to maintain coherence across massive input token payloads.",
+        "defKo": "초대용량 컨텍스트 처리"
+      }
+    ]
+  },
+  {
+    "num": 5,
+    "type": "metric",
+    "title": "THE 'NEEDLE IN A HAYSTACK' TEST",
+    "subtitle": "Flawless retrieval accuracy across 1,500 pages of unstructured text",
+    "metric": "99%+",
+    "metricLabel": "Retrieval Accuracy at 1M Tokens",
+    "points": [
+      "The Ultimate Stress Test: Hiding a single random fact inside 1,500 pages of dense text.",
+      "Perfect Recall: Gemini 3 Pro achieves over 99% accuracy across all position depths.",
+      "High-Fidelity Memory: Eliminates the 'lost in the middle' phenomenon of earlier models."
+    ],
+    "script": "Slide 5 presents a famous scientific benchmark: \"The Needle in a Haystack Test.\"\n\nCritics asked: \"Sure, you can put 1,500 pages of text into the window, but can the AI actually find facts hidden in the middle?\"\n\nGoogle ran the ultimate stress test. They took a massive haystack of 1 million tokens and hid a single secret sentence deep inside page 750. \n\nGemini 3 Pro found the needle with an astonishing 99% accuracy! It does not matter whether your data is at the beginning, the middle, or the very end—the model recalls your facts with surgical precision!",
+    "koreanGuide": {
+      "summary": "바늘 찾기 테스트(Needle in a Haystack)와 99% 완벽 회상률",
+      "points": [
+        "극한의 스트레스 테스트: 1500쪽 분량의 텍스트 한가운데에 임의의 문장 하나를 숨겨둠",
+        "99%+ 회상 정확도: 문서의 맨 앞, 중간(750페이지), 맨 뒤 어느 위치든 정확히 발견",
+        "가운데 유실(Lost in the Middle) 극복: 과거 모델들의 중간 문맥 망각 결함을 완벽히 해결"
+      ],
+      "tips": "1500쪽 두께의 건초더미에서 은빛 바늘을 0.1초 만에 찾아내는 장면을 생생히 묘사하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Needle in a Haystack (NIAH)",
+        "def": "A benchmark evaluating an LLM's retrieval accuracy of tiny facts embedded in massive contexts.",
+        "defKo": "건초더미 속 바늘 찾기 테스트 (대용량 검색 정확도 벤치마크)"
+      }
+    ]
+  },
+  {
+    "num": 6,
+    "type": "triad",
+    "title": "UNDERSTANDING THE TOKEN: LANGUAGE'S LEGO BLOCKS",
+    "subtitle": "How large language models break words into fractional sub-word semantic units",
+    "cards": [
+      {
+        "title": "Sub-Word Fragments",
+        "desc": "Words are sliced into fractional pieces (e.g., 'Oikos' -> 'Oi' + 'kos') for universal grammar matching."
+      },
+      {
+        "title": "Token Rule of Thumb",
+        "desc": "100 English words equal approximately 130 tokens; 1,000 tokens equal ~750 words."
+      },
+      {
+        "title": "Multi-Modal Tokens",
+        "desc": "Images, audio waveforms, and video frames are also converted into visual patch tokens."
+      }
+    ],
+    "script": "Look at Slide 6: \"Understanding the Token: Language's Lego Blocks.\"\n\nHow does an AI measure text? It uses \"Tokens.\"\n\nThink of tokens as language's Lego blocks. When you write \"Oikos University,\" the AI does not see letters; it breaks the words into sub-word fragments like \"Oi\" and \"kos.\"\n\nAs a general rule of thumb: 100 English words equal about 130 tokens. \n\nFurthermore, because Gemini is natively multi-modal, it turns images and audio sounds into visual Lego tokens too, allowing it to reason across text and pictures seamlessly!",
+    "koreanGuide": {
+      "summary": "토큰(Token)의 개념: 언어의 레고 블록",
+      "points": [
+        "서브워드 조각: 단어를 의미 단위의 작은 파편으로 쪼개어 언어 규칙과 코드를 파악",
+        "어림 계산법: 영어 100단어 ≈ 약 130토큰 (1,000토큰 ≈ 약 750단어)",
+        "멀티모달 토큰: 텍스트뿐만 아니라 이미지 픽셀과 오디오 파형도 토큰 패치로 변환"
+      ],
+      "tips": "레고 블록을 맞추듯 단어가 조립되는 비유를 들어 토큰의 단위를 쉽게 설명하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Token",
+        "def": "The fundamental semantic building block used by language models to process text and media.",
+        "defKo": "토큰 (인공지능 언어 처리 기본 단위)"
+      }
+    ]
+  },
+  {
+    "num": 7,
+    "type": "metric",
+    "title": "GEMINI 3 PRO: THE 1501 ELO SUPER BRAIN",
+    "subtitle": "Leading global leaderboards in reasoning, multi-step logic, and coding precision",
+    "metric": "1501 Elo",
+    "metricLabel": "LMArena Global Leaderboard Rating",
+    "points": [
+      "LMArena Benchmark: The world's most rigorous blind human preference intelligence leaderboard.",
+      "Peak Reasoning: 1501 Elo rating demonstrates PhD-level logical deduction and coding prowess.",
+      "True Partnership: Partnering with a super-brain capable of co-architecting complex systems."
+    ],
+    "script": "Slide 7 presents the intelligence rating: \"Gemini 3 Pro: The 1501 Elo Super Brain.\"\n\nWhat powers this massive playground? It is Gemini 3 Pro.\n\nOn LMArena—the world's most trusted blind testing leaderboard where thousands of humans vote on AI answers—Gemini 3 Pro achieved an astonishing Elo rating of 1501!\n\nIn the chess world, an Elo above 1500 is a master ranking. In AI, this means Gemini 3 Pro possesses PhD-level logical reasoning, deep mathematical derivation, and superior coding execution. You are partnering with a true super-brain!",
+    "koreanGuide": {
+      "summary": "LMArena 1501 Elo 등급을 달성한 제미나이 3 프로의 두뇌 성능",
+      "points": [
+        "LMArena 벤치마크: 전 세계 사용자의 블라인드 투표로 검증되는 가장 권위 있는 AI 랭킹",
+        "1501 Elo 등급: 체스 마스터처럼 복잡한 다단계 논리 추론과 코딩 능력을 입증",
+        "파트너십: 단순한 챗봇이 아닌 박사급 추론 능력을 갖춘 지능 아키텍처 파트너"
+      ],
+      "tips": "1501 Elo라는 수치를 체스 그랜드마스터에 비유하며 신뢰감을 부여하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "LMArena Elo Rating",
+        "def": "A competitive rating measuring LLM performance through crowdsourced blind pairwise human evaluations.",
+        "defKo": "LMArena Elo 등급 (블라인드 평가 기반 AI 지능 지수)"
+      }
+    ]
+  },
+  {
+    "num": 8,
+    "type": "poll",
+    "title": "INTERACTIVE POLL: EXPANDING YOUR DESK",
+    "subtitle": "If you had a 1-million-token playground today, what would you feed it first?",
+    "options": [
+      {
+        "label": "Option A",
+        "text": "A massive legacy codebase to refactor & document",
+        "votes": 55
+      },
+      {
+        "label": "Option B",
+        "text": "Decades of historic theological & philosophical texts",
+        "votes": 42
+      },
+      {
+        "label": "Option C",
+        "text": "Complex corporate financial audit ledgers",
+        "votes": 28
+      },
+      {
+        "label": "Option D",
+        "text": "Thousands of customer service support transcripts",
+        "votes": 19
+      }
+    ],
+    "script": "Let us pause for an interactive poll on Slide 8!\n\nImagine you have this 1-million token desk in your hands right now. Look at the question on your screen: \"What is the first massive dataset you would lay on Gemini's desk?\"\n\nLet us read the options together:\nOption A: A massive legacy software codebase to refactor and modernize.\nOption B: Decades of historic theological and philosophical books to synthesize.\nOption C: Ten years of corporate financial audit ledgers to find hidden trends.\nOption D: Thousands of customer service chat transcripts to uncover user pain points.\n\nPlease vote on your screen right now! It is exciting to see where your creative intentions point.",
+    "koreanGuide": {
+      "summary": "실시간 청중 설문조사: 100만 토큰 책상에 가장 먼저 올리고 싶은 방대한 데이터",
+      "points": [
+        "Option A: 리팩토링하고 문서화할 대규모 레거시 소프트웨어 코드베이스",
+        "Option B: 수십 년간 축적된 신학 및 철학 고전 서적 아카이브 종합",
+        "Option C: 복잡한 기업 재무 감사 장부 및 회계 데이터 분석",
+        "Option D: 수천 건의 고객 서비스 상담 녹취록 분석"
+      ],
+      "tips": "학생들이 각자의 전공과 관심사에 맞춰 열정적으로 참여하도록 독려하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Dataset Ingestion",
+        "def": "Loading large-scale domain-specific files into an AI's active context window.",
+        "defKo": "대규모 데이터셋 컨텍스트 로딩"
+      }
+    ]
+  },
+  {
+    "num": 9,
+    "type": "comparison",
+    "title": "THE COGNITIVE RE-ALIGNMENT",
+    "subtitle": "Moving from manual code assembly to intellectual orchestration",
+    "leftCard": {
+      "tag": "OLD CODING ERA",
+      "title": "Syntax Assembly (Rote)",
+      "points": [
+        "80% of time spent writing boilerplate code and fixing syntax bugs",
+        "Frustrated by library incompatibilities and missing semicolons",
+        "Developer acts as a mechanical typist"
+      ]
+    },
+    "rightCard": {
+      "tag": "NEW AGENTIC ERA",
+      "title": "System Orchestration (Strategic)",
+      "points": [
+        "80% of time spent on architecture, user logic, and system vision",
+        "AI handles syntax, compiling, and testing in seconds",
+        "Developer acts as a sovereign conductor and director"
+      ]
+    },
+    "script": "Slide 9 reveals \"The Cognitive Re-alignment.\"\n\nLook at the profound shift happening in technology:\n\nIn the old era, a programmer spent 80% of their day acting like a mechanical typist—writing repetitive boilerplate code, hunting for missing semicolons, and wrestling with syntax rules.\n\nIn the new agentic era, Gemini handles the code typing in milliseconds! \n\nYour time shifts 100% to what truly matters: system architecture, business logic, user empathy, and strategic purpose. You evolve from a mechanical coder into an intellectual orchestrator!",
+    "koreanGuide": {
+      "summary": "인지적 재정렬(Cognitive Re-alignment): 단순 코더에서 시스템 지휘자로",
+      "points": [
+        "Left (구시대): 시간의 80%를 보일러플레이트 코드 작성과 문법 오류 수정에 소모",
+        "Right (에이전틱 시대): 시간의 80%를 아키텍처 설계, 비즈니스 로직, 사용자 경험에 집중",
+        "지위 변화: 단순 키보드 타이피스트에서 전체 시스템을 지휘하는 오케스트라 지휘자로 도약"
+      ],
+      "tips": "문법을 외우는 스트레스에서 벗어나 창의적 기획자로 거듭나는 희망을 전달하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Cognitive Re-alignment",
+        "def": "The paradigm shift redirecting human energy from mechanical coding to architectural design.",
+        "defKo": "인지적 재정렬 (기계적 코딩에서 시스템 지휘로의 전환)"
+      }
+    ]
+  },
+  {
+    "num": 10,
+    "type": "triad",
+    "title": "SECTION 1 TRANSITION: ENTERING THE FORGE",
+    "subtitle": "How models learn and adapt dynamically within long context without expensive retraining",
+    "cards": [
+      {
+        "title": "1. 1M Playground",
+        "desc": "An expansive cognitive stadium replacing fragmented RAG chunking."
+      },
+      {
+        "title": "2. 99% Recall",
+        "desc": "Needle in a Haystack precision across 1,500 pages of unstructured documents."
+      },
+      {
+        "title": "3. In-Context Learning",
+        "desc": "Transitioning to Many-shot prompting to create specialized domain experts instantly."
+      }
+    ],
+    "script": "Let us summarize Part 1 on Slide 10:\n\nFirst: The 1-million token playground provides an expansive cognitive stadium that eliminates fragmented chunking.\nSecond: It delivers 99% needle-in-a-haystack precision across 1,500 pages.\nThird: It opens the door to Many-shot In-Context Learning.\n\nNow, how do we teach this giant brain to act like an expert without spending millions of dollars on fine-tuning? Let us enter Part 2 and discover Many-shot ICL!",
+    "koreanGuide": {
+      "summary": "Part 1 핵심 요약 및 Part 2(다중 샷 ICL) 진입",
+      "points": [
+        "1. 100만 토큰 경기장: 파편화된 청킹을 대체하는 거대한 작업 공간",
+        "2. 99% 회상률: 1500쪽 분량에서도 정확한 팩트 탐색 보증",
+        "3. Part 2 예고: 거액의 재학습(Fine-tuning) 없이 즉석에서 전문가를 만드는 Many-shot ICL 탐구"
+      ],
+      "tips": "1부를 깔끔하게 정리하고 2부의 다중 샷 학습 기법으로 자연스럽게 연결하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "In-Context Learning (ICL)",
+        "def": "The ability of an LLM to learn new tasks dynamically from exemplars provided in its prompt context.",
+        "defKo": "인컨텍스트 러닝 (ICL - 문맥 내 즉시 학습)"
+      }
+    ]
+  },
+  {
+    "num": 20,
+    "type": "comparison",
+    "title": "SECTION 2 TRANSITION: THE FINOPS REALITY",
+    "subtitle": "Balancing unlimited context power against token processing expenses",
+    "leftCard": {
+      "tag": "NAIVE RE-PROCESSING",
+      "title": "Astronomical Costs",
+      "points": [
+        "Sending 1M tokens with every single user prompt",
+        "Costs multiply exponentially with follow-up questions",
+        "Slow latency from re-computing attention matrices"
+      ]
+    },
+    "rightCard": {
+      "tag": "CONTEXT CACHING",
+      "title": "87% FinOps Savings",
+      "points": [
+        "Freezes static background data in Google Cloud RAM",
+        "Subsequent queries read cached activation states",
+        "Drops API costs by 87% and slashes latency to milliseconds"
+      ]
+    },
+    "script": "Let us conclude Part 2 on Slide 20 with a crucial reality check: \"The FinOps Reality.\"\n\nHaving a 1-million token playground is amazing. But as strategic IT architects, we must ask: What happens to our company budget if we send 1 million tokens on every single prompt? It would cost hundreds of dollars a day!\n\nHow do we make this financially sustainable? \n\nLook at the right side: \"Context Caching.\" By freezing static data in cloud memory, we reduce costs by 87%! Let us enter Part 3 and master Context Caching!",
+    "koreanGuide": {
+      "summary": "Part 2 핵심 요약 및 Part 3(비용 최적화 및 컨텍스트 캐싱) 진입",
+      "points": [
+        "현실적 질문: 100만 토큰을 매번 전송하면 API 비용이 감당 가능한가?",
+        "해결책: 클라우드 메모리에 데이터를 동결 보관하는 컨텍스트 캐싱(Context Caching)",
+        "Part 3 예고: 87% 비용 절감과 응답 속도 밀리초 단축의 실무 전략"
+      ],
+      "tips": "비용 문제라는 실질적인 기업의 고민을 던지며 3부로 몰입시키세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Context Caching",
+        "def": "Storing pre-computed token activations in memory to slash latency and costs for repetitive prompts.",
+        "defKo": "컨텍스트 캐싱 (사전 연산 토큰 동결 보관)"
+      }
+    ]
+  },
+  {
+    "num": 11,
+    "type": "section",
+    "title": "PART 2: MANY-SHOT IN-CONTEXT LEARNING (ICL)",
+    "subtitle": "Demystifying Many-Shot Exemplars, Instant Domain Adaptation, and Out-of-Distribution Mastery",
+    "script": "Welcome to Part 2 of Session 6: \"Many-shot In-Context Learning.\"\n\nIn the past, if you wanted an AI to speak like a specialized lawyer or medical doctor, you had to spend months training a custom model.\n\nToday, in the 1-million token playground, we use Many-shot ICL. By feeding hundreds of input-output examples directly into the prompt, Gemini transforms itself into a specialized expert in three seconds flat! Let us explore how it works.",
+    "koreanGuide": {
+      "summary": "Part 2 섹션 전환: 다중 샷(Many-shot) 인컨텍스트 러닝의 세계",
+      "points": [
+        "수개월 걸리던 파인튜닝(Fine-Tuning) 대신 수백 개의 예시를 즉시 주입하는 혁신",
+        "문맥 내 학습(ICL)을 통해 몇 초 만에 맞춤형 전문가를 구축하는 메커니즘"
+      ],
+      "tips": "복잡한 재학습 없이 즉시 전문가로 변신하는 ICL의 매력을 흥미롭게 전달하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Many-Shot ICL",
+        "def": "Providing hundreds or thousands of input-output examples inside a long-context window to guide AI behavior.",
+        "defKo": "다중 샷 인컨텍스트 러닝 (수백 개 예시 기반 즉시 적응)"
+      }
+    ]
+  },
+  {
+    "num": 12,
+    "type": "comparison",
+    "title": "SHIFTING FROM FINE-TUNING TO MANY-SHOT ICL",
+    "subtitle": "Heavy weight adjustments vs. dynamic instant adaptation in context",
+    "leftCard": {
+      "tag": "TRADITIONAL FINE-TUNING",
+      "title": "Weight Recalculation (Heavy)",
+      "points": [
+        "Requires expensive GPU clusters and weeks of training",
+        "Creates a rigid, frozen model that cannot easily be updated",
+        "Risk of catastrophic forgetting on general knowledge"
+      ]
+    },
+    "rightCard": {
+      "tag": "MANY-SHOT ICL",
+      "title": "Contextual Adaptation (Agile)",
+      "points": [
+        "Zero training time; works instantly in Google AI Studio",
+        "Swap exemplar sets on the fly to change expert personas",
+        "Preserves 100% of Gemini 3 Pro's general reasoning capability"
+      ]
+    },
+    "script": "Look at Slide 12: \"Shifting from Fine-Tuning to Many-shot ICL.\"\n\nLook at the comparison on your screen.\n\nHistorically, \"Fine-Tuning\" required renting expensive GPU supercomputers for weeks to recalculate model weights. It was expensive, slow, and created a frozen model.\n\nWith Many-shot ICL on the right, you do not touch the model weights at all! You simply paste 200 high-quality examples into the prompt. The model instantly adapts its tone, formatting, and logic. You can swap out the examples anytime to create a doctor, a lawyer, or a software engineer in seconds!",
+    "koreanGuide": {
+      "summary": "파인튜닝(Fine-Tuning)에서 다중 샷 ICL로의 진화",
+      "points": [
+        "Left (파인튜닝): 수천만 원의 GPU 비용과 수주일의 훈련 시간, 모델이 굳어져 수정이 어려움",
+        "Right (다중 샷 ICL): 훈련 시간 0초, 프롬프트에 예시 200개만 넣으면 즉시 전문 어조와 양식 습득",
+        "유연성: 예시 데이터셋만 바꾸면 변호사, 의사, 소프트웨어 엔지니어로 즉시 역할 전환 가능"
+      ],
+      "tips": "비싼 파인튜닝 비용을 쓰지 않고도 즉석에서 전문가를 만드는 민첩성을 강조하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Fine-Tuning vs ICL",
+        "def": "The architectural contrast between permanently modifying model weights versus dynamically steering context.",
+        "defKo": "파인튜닝 대 ICL (영구 가중치 수정 대 동적 문맥 학습)"
+      }
+    ]
+  },
+  {
+    "num": 13,
+    "type": "triad",
+    "title": "THE MECHANICS OF THE SHOT",
+    "subtitle": "From Zero-shot guessing to Many-shot mastery",
+    "cards": [
+      {
+        "title": "Zero-shot (Prompt Only)",
+        "desc": "You provide only the question with zero examples; model relies purely on public pre-training."
+      },
+      {
+        "title": "Few-shot (3 to 5 Examples)",
+        "desc": "Gives a few quick samples; guides basic formatting but struggles with complex edge cases."
+      },
+      {
+        "title": "Many-shot (100+ Exemplars)",
+        "desc": "Feeds hundreds of rich input-output pairs; masters subtle corporate rules and syntax flawlessly."
+      }
+    ],
+    "script": "Slide 13 explains \"The Mechanics of the Shot.\"\n\nIn AI engineering, what is a \"shot\"? A shot is an exemplar—an example pair of input and output.\n\nLook at the three levels:\nZero-shot: You give zero examples and just ask a question.\nFew-shot: You give three to five examples to show the basic format.\nMany-shot: You give one hundred, five hundred, or one thousand rich examples!\n\nWith Many-shot, the model sees every possible edge case and formatting variation. It stops guessing and begins executing with 100% mathematical precision!",
+    "koreanGuide": {
+      "summary": "샷(Shot)의 메커니즘: 제로 샷, 퓨 샷, 매니 샷의 진화",
+      "points": [
+        "Zero-shot: 예시 없이 질문만 던짐 (기본 상식에만 의존)",
+        "Few-shot: 3~5개의 맛보기 예시 제공 (단순 서식 모방 가능)",
+        "Many-shot: 100개 이상의 정교한 입출력 쌍 주입 (복잡한 예외 상황과 뉘앙스 완벽 정복)"
+      ],
+      "tips": "예시의 개수가 늘어남에 따라 AI의 정밀도가 기하급수적으로 올라가는 과정을 설명하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Exemplar",
+        "def": "A paired sample of input data and desired output demonstrating a target task to an LLM.",
+        "defKo": "예시 페어 (Exemplar - 입력-출력 예제 쌍)"
+      }
+    ]
+  },
+  {
+    "num": 14,
+    "type": "comparison",
+    "title": "CASE STUDY: THE 200-SPEAKER TRANSLATION",
+    "subtitle": "Translating an endangered indigenous language with zero pre-training data using Many-shot ICL",
+    "leftCard": {
+      "tag": "THE IMPOSSIBILITY",
+      "title": "Zero Public Data",
+      "points": [
+        "Rare indigenous language spoken by fewer than 200 people",
+        "Completely absent from Google's public pre-training weights",
+        "Standard chatbots output random gibberish"
+      ]
+    },
+    "rightCard": {
+      "tag": "ICL TRIUMPH",
+      "title": "Grammar Book in Context",
+      "points": [
+        "Researchers uploaded full bilingual dictionary and grammar book into 1M context",
+        "Gemini 3 Pro learned morphology and syntax dynamically",
+        "Delivered graduate-level translation accuracy in seconds"
+      ]
+    },
+    "script": "Look at Slide 14 for a breathtaking scientific breakthrough: \"The 200-Speaker Translation Miracle.\"\n\nResearchers wanted to translate Kalamang, a rare indigenous language spoken by fewer than 200 people. This language had zero data on the public internet.\n\nInstead of spending years training a new model, scientists uploaded the entire 500-page bilingual dictionary and grammar textbook into Gemini's 1-million token context window!\n\nInstantly, Gemini 3 Pro read the rules, understood the grammar patterns, and began translating complex sentences with graduate-level fluency! It proved that in the long-context era, Context is King!",
+    "koreanGuide": {
+      "summary": "학술 사례: 200명만 쓰는 희귀 언어 번역 성공 (Kalamang 언어)",
+      "points": [
+        "불가능했던 과제: 전 세계 200명 미만이 사용하는 희귀 언어로 사전학습 데이터가 전무함",
+        "ICL의 승리: 문법책과 사전 전체를 100만 토큰 컨텍스트에 통째로 업로드",
+        "결과: 모델 가중치 수정 없이도 즉석에서 대학원 수준의 정확한 번역을 수행함"
+      ],
+      "tips": "사전학습에 없던 언어도 책 한 권만 컨텍스트에 넣으면 마스터한다는 기적을 전하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Out-of-Distribution Translation",
+        "def": "Translating languages absent from an LLM's original training weights purely via in-context materials.",
+        "defKo": "비학습 언어 즉석 번역"
+      }
+    ]
+  },
+  {
+    "num": 15,
+    "type": "triad",
+    "title": "OVERCOMING THE OUT-OF-DISTRIBUTION BARRIER",
+    "subtitle": "Dynamic context overriding pre-existing model weights to enforce user rules",
+    "cards": [
+      {
+        "title": "The Weight Bias Trap",
+        "desc": "Models normally default to generic public training data when answering specialized questions."
+      },
+      {
+        "title": "Contextual Primacy",
+        "desc": "A massive deck of Many-shot exemplars mathematically forces the model to prioritize your prompt."
+      },
+      {
+        "title": "Domain Mastery",
+        "desc": "Enforces obscure corporate jargon, internal acronyms, and specialized engineering math."
+      }
+    ],
+    "script": "Slide 15 explains \"Overcoming the Out-of-Distribution Barrier.\"\n\nIn traditional machine learning, if data is different from the training set, the model fails.\n\nWith Many-shot ICL, we achieve \"Contextual Primacy.\" When you provide 200 rich examples of your company's proprietary jargon, the sheer volume of context mathematically overrides the model's generic internet habits!\n\nThe model ignores generic public answers and strictly adopts your company's unique vocabulary, formulas, and formatting rules.",
+    "koreanGuide": {
+      "summary": "OOD(Out-of-Distribution) 장벽 극복과 문맥 우선권(Contextual Primacy)",
+      "points": [
+        "가중치 편향 극복: 일반적인 인터넷 상식 대신 사용자가 준 고유한 사내 규칙을 우선 적용",
+        "문맥의 지배력: 200개 이상의 예시가 주어지면 모델이 기존 가중치를 누르고 주어진 규칙을 완벽 준수",
+        "도메인 장악: 사내 특수 약어, 엔지니어링 수식, 독자적 양식을 오차 없이 구사"
+      ],
+      "tips": "풍부한 예시가 주어지면 AI가 내 회사의 사내 규칙에 완벽히 복종함을 설명하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Contextual Primacy",
+        "def": "The mathematical dominance of prompt context over pre-trained weights in guiding LLM outputs.",
+        "defKo": "문맥 우선권 (사전 가중치를 압도하는 프롬프트 지배력)"
+      }
+    ]
+  },
+  {
+    "num": 16,
+    "type": "architecture",
+    "title": "DESIGNING THE PERFECT EXEMPLAR SET",
+    "subtitle": "The 3-stage pipeline for engineering high-accuracy Many-shot datasets",
+    "tree": [
+      {
+        "folder": "1. Curate Clean Data",
+        "desc": "Select 100+ pristine, error-free input-output pairs reflecting gold-standard quality"
+      },
+      {
+        "folder": "2. Standardize XML Tags",
+        "desc": "Wrap exemplars inside structured <example><input>...</input><output>...</output></example> tags"
+      },
+      {
+        "folder": "3. Diversify Edge Cases",
+        "desc": "Include boundary conditions, missing fields, and error-handling scenarios explicitly"
+      },
+      {
+        "folder": "4. Verify Zero Bleed",
+        "desc": "Audit output to ensure the model does not accidentally echo training tags into final text"
+      }
+    ],
+    "script": "Look at Slide 16: \"Designing the Perfect Exemplar Set.\"\n\nHow do we build a professional Many-shot dataset? Follow this four-step engineering discipline:\n\nStep 1: Curate clean, gold-standard data. If you feed the AI bad examples, it will faithfully copy your mistakes!\nStep 2: Wrap each pair in clean XML tags like `<example>`, `<input>`, and `<output>`.\nStep 3: Diversify edge cases—include messy inputs so the AI learns how to handle errors.\nStep 4: Audit for zero bleed so tags never leak into final answers!",
+    "koreanGuide": {
+      "summary": "완벽한 예시 데이터셋(Exemplar Set) 구축 4단계 파이프라인",
+      "points": [
+        "1. 고품질 큐레이션: 오타와 오류가 없는 100개 이상의 골드 스탠다드 예시 선별",
+        "2. XML 태그 표준화: <example>, <input>, <output> 태그로 명확히 구조화",
+        "3. 예외 케이스(Edge Cases) 다양화: 누락된 데이터나 잘못된 입력에 대한 처리 방식 포함",
+        "4. 유출 검증: XML 태그가 최종 사용자 답변에 섞여 나오지 않도록 검증"
+      ],
+      "tips": "예시를 XML 태그로 깔끔하게 감싸주는 데이터 엔지니어링 습관을 전수하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Exemplar Curation",
+        "def": "The systematic selection, cleaning, and formatting of input-output training pairs.",
+        "defKo": "예시 데이터 큐레이션"
+      }
+    ]
+  },
+  {
+    "num": 17,
+    "type": "triad",
+    "title": "MULTI-MODAL MANY-SHOT: WIREFRAMES TO REACT",
+    "subtitle": "Teaching visual-spatial programming through paired UI diagrams and functional code",
+    "cards": [
+      {
+        "title": "Visual Inputs",
+        "desc": "Feed 100 UI design wireframes and Figma screenshot images into AI Studio."
+      },
+      {
+        "title": "Code Outputs",
+        "desc": "Pair each wireframe with clean, production-ready React and Tailwind CSS source code."
+      },
+      {
+        "title": "Instant UI Synthesis",
+        "desc": "Draw a new sketch on a napkin, upload it, and receive working frontend code immediately."
+      }
+    ],
+    "script": "Slide 17 showcases an exciting capability: \"Multi-Modal Many-shot.\"\n\nMany-shot learning is not limited to text! Because Gemini 3 Pro natively understands images, you can feed it one hundred visual UI design wireframes paired with their corresponding, clean React source code.\n\nThe model learns the visual-to-code mapping instantly! \n\nWhen you draw a brand-new app idea on a restaurant napkin, take a photo, and upload it, Gemini outputs fully responsive, production-ready React code matching your exact design system!",
+    "koreanGuide": {
+      "summary": "멀티모달 다중 샷: 와이어프레임에서 리액트(React) 코드로의 즉시 변환",
+      "points": [
+        "시각적 입력: 100개의 UI 디자인 스케치 및 피그마 캡처 이미지 주입",
+        "코드 출력 매핑: 각 스케치에 대응하는 프로덕션급 React & Tailwind CSS 코드 결합",
+        "즉각적 UI 합성: 냅킨에 그린 새로운 아이디어 스케치만 올려도 완벽한 프론트엔드 코드 생성"
+      ],
+      "tips": "냅킨에 그린 스케치가 실제 작동하는 리액트 웹 앱으로 완성되는 마법을 묘사하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Multimodal Many-Shot",
+        "def": "Providing paired image-text exemplars to teach visual-to-code or spatial translation tasks.",
+        "defKo": "멀티모달 다중 샷 (시각-코드 입출력 매핑 학습)"
+      }
+    ]
+  },
+  {
+    "num": 18,
+    "type": "triad",
+    "title": "EVALUATING ICL QUALITY: 3 CORE METRICS",
+    "subtitle": "Monitoring output fidelity, persona consistency, and prompt bleeding",
+    "cards": [
+      {
+        "title": "1. Structural Consistency",
+        "desc": "Does the model strictly follow the requested JSON, Markdown, or XML output schema?"
+      },
+      {
+        "title": "2. Prompt Bleeding",
+        "desc": "Does the model accidentally leak internal example variables or system prompts into user replies?"
+      },
+      {
+        "title": "3. Persona Alignment",
+        "desc": "Does the AI maintain its specialized domain tone under stressful edge-case questions?"
+      }
+    ],
+    "script": "Look at Slide 18: \"Evaluating ICL Quality: 3 Core Metrics.\"\n\nWhen evaluating your Many-shot system in Google AI Studio, always audit these three critical metrics:\n\nMetric 1: Structural Consistency — Does the model strictly follow your requested JSON or Markdown format?\nMetric 2: Prompt Bleeding — Does the model accidentally repeat your example tags in its answer?\nMetric 3: Persona Alignment — Does it maintain its professional doctor or architect voice even when asked tricky questions?\n\nAuditing these metrics ensures your agent is production-ready!",
+    "koreanGuide": {
+      "summary": "ICL 품질 평가의 3대 핵심 지표: 서식 일관성, 프롬프트 유출 방지, 페르소나 정렬",
+      "points": [
+        "1. 구조적 일관성: JSON, 마크다운 등의 지정된 출력 스키마를 엄격히 준수하는가?",
+        "2. 프롬프트 유출(Prompt Bleeding): 내부 예시 변수나 시스템 태그가 답변에 누출되지 않는가?",
+        "3. 페르소나 정렬: 까다로운 예외 질문에도 전문적인 어조와 원칙을 흔들림 없이 유지하는가?"
+      ],
+      "tips": "실제 배포 전 3대 검증 기준을 꼼꼼히 체크하는 엔지니어의 자세를 당부하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Prompt Bleeding",
+        "def": "The unintended leakage of system prompt tags or training exemplar variables into model outputs.",
+        "defKo": "프롬프트 유출 (시스템 태그의 답변 누출 현상)"
+      }
+    ]
+  },
+  {
+    "num": 19,
+    "type": "triad",
+    "title": "THE PARADIGM OF INSTANT EXPERTIZATION",
+    "subtitle": "Transforming foundation models into specialized niche authorities on the fly",
+    "cards": [
+      {
+        "title": "Slot-In Intelligence",
+        "desc": "Slot in a legal exemplar deck, and the AI behaves like an experienced corporate attorney."
+      },
+      {
+        "title": "Dynamic Re-Role",
+        "desc": "Slot in a medical diagnostic deck, and the same model instantly adopts clinical precision."
+      },
+      {
+        "title": "Zero Downtime",
+        "desc": "Switch between corporate identities in milliseconds with zero model re-training or redeployment."
+      }
+    ],
+    "script": "Slide 19 reveals \"The Paradigm of Instant Expertization.\"\n\nThink about how revolutionary this is: You no longer need to manage ten different AI models for ten different departments!\n\nWith Gemini 3 Pro in Google AI Studio:\nYou slot in a legal exemplar deck, and the AI acts like a senior corporate attorney.\nFive seconds later, you slot in a medical diagnostic deck, and it acts like a clinical physician.\n\nThe foundation model is a dynamic, fluid canvas. You bring the expert exemplars, and the AI becomes whatever specialist your business needs instantly!",
+    "koreanGuide": {
+      "summary": "즉각적 전문화(Instant Expertization) 패러다임",
+      "points": [
+        "슬롯형 지능: 법률 예시 덱을 넣으면 기업 전문 변호사로, 의료 덱을 넣으면 임상의로 즉시 변신",
+        "동적 역할 전환: 10개의 개별 AI를 만들 필요 없이 단일 파운데이션 모델에 예시만 교체",
+        "다운타임 0초: 재학습이나 배포 지연 없이 실시간으로 전문가 페르소나 변경"
+      ],
+      "tips": "게임 카트리지를 교체하듯 예시 덱만 갈아 끼우면 전문가가 바뀌는 유연성을 설명하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Instant Expertization",
+        "def": "Transforming a generalist LLM into a domain specialist on demand through in-context exemplars.",
+        "defKo": "즉각적 전문화 (문맥 예시 기반 실시간 전문가 변환)"
+      }
+    ]
+  },
+  {
+    "num": 21,
+    "type": "section",
+    "title": "PART 3: FINOPS & CONTEXT CACHING STRATEGIES",
+    "subtitle": "87% Cost Reductions, Model Routing, Temperature Tuning, and Deep Think Reasoning Budgets",
+    "script": "Welcome to Part 3 of Session 6: \"FinOps and Context Caching Strategies.\"\n\nIn business, technical brilliance is useless if it costs too much money! \n\nIn this section, we will learn how to run 1-million token long-context pipelines on a startup budget. We will master Google's Context Caching to slash API bills by 87%, learn how to route between Pro and Flash models, and tune our temperature dials. Let us optimize!",
+    "koreanGuide": {
+      "summary": "Part 3 섹션 전환: 핀옵스(FinOps) 및 컨텍스트 캐싱 전략",
+      "points": [
+        "기술의 경제성: 아무리 똑똑해도 비용이 너무 비싸면 비즈니스에 적용 불가",
+        "87% 비용 절감 캐싱 기법, Pro 대 Flash 라우팅, 온도(Temperature) 및 사고 예산(Thinking Budget) 조절"
+      ],
+      "tips": "실리콘밸리 스타트업처럼 비용을 획기적으로 아끼는 똑똑한 엔지니어링 팁을 예고하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "FinOps",
+        "def": "The practice of bringing financial accountability to the variable spend model of cloud computing.",
+        "defKo": "핀옵스 (클라우드 비용 재무 최적화)"
+      }
+    ]
+  },
+  {
+    "num": 22,
+    "type": "comparison",
+    "title": "THE PROBLEM OF REDUNDANT PROCESSING",
+    "subtitle": "Why sending massive background documents repeatedly is an economic disaster",
+    "leftCard": {
+      "tag": "NAIVE RE-READING",
+      "title": "Compounding Waste",
+      "points": [
+        "User asks 10 follow-up questions about a 500-page manual",
+        "System re-reads all 500 pages (1M tokens) 10 separate times",
+        "Pays for 10 million tokens of compute on unchanging background data"
+      ]
+    },
+    "rightCard": {
+      "tag": "SMART CACHING",
+      "title": "One-Time Processing",
+      "points": [
+        "Processes the 500-page manual once and freezes it in RAM",
+        "All 10 follow-up queries access cached memory in milliseconds",
+        "Saves 90% of token compute and slashes latency"
+      ]
+    },
+    "script": "Look at Slide 22: \"The Problem of Redundant Processing.\"\n\nImagine this scenario: You upload a 500-page corporate policy manual into an AI chatbot, and your employee asks ten follow-up questions.\n\nIn a naive, un-cached system, the AI re-reads all 500 pages for *every single question*! You end up paying for ten million tokens of processing when the background document hasn't changed by a single letter!\n\nLook at the right side: Smart Caching processes the manual once, freezes it in cloud RAM, and answers all ten questions in milliseconds at a fraction of the cost!",
+    "koreanGuide": {
+      "summary": "중복 연산(Redundant Processing)의 낭비와 스마트 캐싱의 필요성",
+      "points": [
+        "Left (단순 반복): 500쪽짜리 사규집을 올려두고 10번 질문하면 100만 토큰을 10번씩 재연산하여 비용 폭탄",
+        "Right (스마트 캐싱): 문서를 처음에 딱 한 번만 읽어 메모리에 동결해 두고, 이후 질문은 즉시 캐시에서 참조",
+        "결과: 토큰 연산 낭비 90% 제거 및 응답 지연시간 대폭 단축"
+      ],
+      "tips": "동일한 책을 매 질문마다 처음부터 다시 읽는 바보 같은 낭비를 비유로 들어 설명하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Redundant Token Compute",
+        "def": "The wasteful re-calculation of attention weights over static, unchanging prompt context.",
+        "defKo": "중복 토큰 연산 (정적 데이터의 불필요한 재계산 낭비)"
+      }
+    ]
+  },
+  {
+    "num": 23,
+    "type": "triad",
+    "title": "INTRODUCING CONTEXT CACHING",
+    "subtitle": "Freezing static background data in Google Cloud memory for instant re-use",
+    "cards": [
+      {
+        "title": "Activation Freezing",
+        "desc": "Pre-computes and stores the KV-cache of your large document directly in Google Cloud RAM."
+      },
+      {
+        "title": "Millisecond Latency",
+        "desc": "Drops Time-to-First-Token (TTFT) from 15 seconds to under 200 milliseconds."
+      },
+      {
+        "title": "TTL Time-to-Live",
+        "desc": "Set dynamic cache expiration windows (e.g., 1 hour to 24 hours) based on project needs."
+      }
+    ],
+    "script": "Slide 23 explains \"Introducing Context Caching in Google AI Studio.\"\n\nHow does Context Caching work under the hood?\n\nWhen you upload your 50,000 lines of code or your 500-page manual, Google AI Studio pre-calculates the Key-Value attention cache and freezes it in Google Cloud RAM.\n\nSubsequent questions do not re-read the raw text; they tap directly into the frozen neural activations! Time-to-First-Token drops from fifteen seconds down to two hundred milliseconds. It is lightning fast and whisper-quiet!",
+    "koreanGuide": {
+      "summary": "구글 AI 스튜디오의 컨텍스트 캐싱(Context Caching) 원리",
+      "points": [
+        "활성화 동결: 5만 줄의 코드나 대용량 문서를 사전에 연산하여 KV 캐시 상태로 구글 클라우드 RAM에 보관",
+        "밀리초 반응 속도: 첫 토큰 생성 시간(TTFT)이 15초에서 0.2초(200ms) 미만으로 대폭 단축",
+        "생존 시간(TTL) 관리: 프로젝트 일정에 맞춰 1시간부터 24시간까지 유효기간을 유연하게 설정"
+      ],
+      "tips": "이미 계산해 둔 지능을 메모리에 얼려두고 바로바로 꺼내 쓰는 원리를 쉽게 설명하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "KV-Cache",
+        "def": "Key-Value cache storing pre-computed attention states in transformer neural networks.",
+        "defKo": "KV 캐시 (트랜스포머 사전 연산 어텐션 메모리)"
+      },
+      {
+        "term": "Time-to-First-Token (TTFT)",
+        "def": "The time delay between submitting a user prompt and receiving the initial output token.",
+        "defKo": "첫 토큰 응답 시간 (TTFT)"
+      }
+    ]
+  },
+  {
+    "num": 24,
+    "type": "metric",
+    "title": "THE 87% COST MIRACLE",
+    "subtitle": "Transforming enterprise AI economics from thousands of dollars to pennies",
+    "metric": "87%",
+    "metricLabel": "API Input Cost Reduction via Caching",
+    "points": [
+      "Massive Discount: Google passes the computational savings of cached tokens directly to developers.",
+      "Input Fee Slash: Cached input tokens cost up to 87.5% less than raw uncached input tokens.",
+      "Enterprise Viability: Allows high-frequency, complex multi-agent reasoning on a startup budget."
+    ],
+    "script": "Look at the golden number on Slide 24: \"87%.\"\n\nContext Caching is not just about speed; it is an economic revolution!\n\nBecause Google's supercomputers do not have to recalculate the attention matrix for cached tokens, Google passes the savings directly to you. Input fees for cached tokens are slashed by up to 87.5%!\n\nWhat used to cost one hundred dollars in API bills drops to twelve dollars. This makes running enterprise-scale intelligence accessible to every student, researcher, and startup!",
+    "koreanGuide": {
+      "summary": "87% 비용 절감의 기적: 엔터프라이즈 AI 경제성의 혁신",
+      "points": [
+        "비용 할인: 구글이 재연산 부하를 덜어낸 만큼 개발자에게 최대 87.5%의 파격적 입력 비용 할인 제공",
+        "비용 급감: 100달러가 나오던 API 청구서가 12달러 수준으로 축소",
+        "사업성 확보: 스타트업이나 개인 연구자도 거대 데이터셋 기반의 다중 에이전트를 부담 없이 가동 가능"
+      ],
+      "tips": "87% 비용 절감 수치를 강조하며 실제 청구서가 10분의 1로 줄어드는 혜택을 전하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Cached Token Discount",
+        "def": "The pricing tier offering up to 87.5% cost reduction on pre-indexed input tokens.",
+        "defKo": "캐시 토큰 할인 요율 (87.5% 비용 절감)"
+      }
+    ]
+  },
+  {
+    "num": 25,
+    "type": "comparison",
+    "title": "SMART MODEL ROUTING: PRO VS. FLASH",
+    "subtitle": "Allocating tasks intelligently between high-reasoning and ultra-low-cost engines",
+    "leftCard": {
+      "tag": "GEMINI 3 PRO",
+      "title": "Deep Reasoning Architect",
+      "points": [
+        "1501 Elo rating; PhD-level multi-step logical deduction",
+        "Best for complex code generation, legal analysis, and scientific math",
+        "Higher cost per token; reserve for heavy architectural tasks"
+      ]
+    },
+    "rightCard": {
+      "tag": "GEMINI 3 FLASH",
+      "title": "High-Speed Workhorse",
+      "points": [
+        "80% cheaper and blazingly fast response times",
+        "Best for high-volume summarization, JSON parsing, and routing",
+        "Handles 90% of routine corporate workflows effortlessly"
+      ]
+    },
+    "script": "Slide 25 teaches the art of \"Smart Model Routing.\"\n\nAs an Intelligence Architect, you must never use a sledgehammer to crack a peanut!\n\nLook at the division of labor:\nUse Gemini 3 Pro for deep, multi-step logical reasoning, complex code architecture, and legal analysis.\nUse Gemini 3 Flash for routine, high-volume tasks like document parsing, keyword extraction, and metadata classification. \n\nFlash is 80% cheaper and lightning fast. Routing tasks intelligently cuts your operating budget in half!",
+    "koreanGuide": {
+      "summary": "스마트 모델 라우팅: 제미나이 3 프로 대 제미나이 3 플래시",
+      "points": [
+        "Gemini 3 Pro (깊은 추론): 1501 Elo, 다단계 논리 유도, 복잡한 시스템 아키텍처 및 법률/의료 분석 전용",
+        "Gemini 3 Flash (고속 가성비): 80% 저렴하고 초고속, 단순 요약, JSON 파싱, 라우팅 등 일상 업무의 90% 처리",
+        "아키텍트의 지혜: 모든 일에 최고가 모델을 쓰지 않고 난이도에 따라 모델을 지능적으로 분배"
+      ],
+      "tips": "호두를 깰 때 대형 해머(Pro) 대신 호두까기 도구(Flash)를 쓰는 비유를 들어 설명하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Model Routing",
+        "def": "The architectural practice of dispatching user tasks dynamically to the most cost-effective LLM.",
+        "defKo": "모델 라우팅 (작업 난이도별 최적 모델 동적 배분)"
+      }
+    ]
+  },
+  {
+    "num": 26,
+    "type": "comparison",
+    "title": "THE TEMPERATURE DIAL: PRECISE VS. CREATIVE",
+    "subtitle": "Calibrating the probability distribution from deterministic code to fluid brainstorming",
+    "leftCard": {
+      "tag": "LOW TEMPERATURE (0.0)",
+      "title": "Deterministic Scientist (Cold)",
+      "points": [
+        "Pulls only top-probability tokens strictly",
+        "Zero hallucination risk; clinical, reproducible precision",
+        "Essential for Python code, financial accounting, and contracts"
+      ]
+    },
+    "rightCard": {
+      "tag": "HIGH TEMPERATURE (1.0)",
+      "title": "Creative Storyteller (Warm)",
+      "points": [
+        "Samples broader probability distributions",
+        "Encourages novel metaphors, unexpected ideas, and fluid style",
+        "Ideal for marketing copywriting, brainstorming, and storytelling"
+      ]
+    },
+    "script": "Look at Slide 26: \"The Temperature Dial.\"\n\nInside Google AI Studio, you have a physical slider called \"Temperature.\"\n\nLook at the two extremes:\nSet it to 0.0: The AI behaves like a cold, precise scientist. It always chooses the highest-probability token. Every answer is reproducible, clinical, and exact—perfect for writing Python code or auditing accounting ledgers!\n\nSet it to 1.0: The AI becomes a warm, imaginative poet. It explores unexpected metaphors and diverse vocabulary—perfect for marketing campaigns and creative writing!",
+    "koreanGuide": {
+      "summary": "온도(Temperature) 다이얼: 0.0의 냉철한 과학자 대 1.0의 따뜻한 시인",
+      "points": [
+        "Low Temp (0.0): 가장 확률이 높은 토큰만 선택, 결정론적이고 엄밀하여 코딩 및 재무 감사에 필수",
+        "High Temp (1.0): 다양한 단어 확률을 샘플링하여 창의적이고 예상치 못한 아이디어 도출 (마케팅, 브레인스토밍)",
+        "조절 기준: 정확성이 생명인 작업은 0.0으로, 다양성이 필요한 기획은 0.8~1.0으로 세팅"
+      ],
+      "tips": "온도 다이얼을 돌리는 손동작을 취하며 0.0과 1.0의 성격 차이를 명확히 구분해 주세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Temperature Parameter",
+        "def": "A hyperparameter controlling the randomness and diversity of token selection in an LLM.",
+        "defKo": "온도 파라미터 (Temperature - 생성 다양성/무작위성 조절값)"
+      }
+    ]
+  },
+  {
+    "num": 27,
+    "type": "triad",
+    "title": "SYSTEM INSTRUCTIONS: THE DIVINE COMMANDS",
+    "subtitle": "Global behavioral guardrails hard-coded above user conversational reach",
+    "cards": [
+      {
+        "title": "Immutable Persona",
+        "desc": "Hard-codes the agent's core identity (e.g., 'You are a Senior Principal Security Auditor')."
+      },
+      {
+        "title": "Formatting Mandates",
+        "desc": "Enforces strict output rules (e.g., 'Always reply in valid JSON schemas with zero preamble')."
+      },
+      {
+        "title": "Security Fortress",
+        "desc": "Cannot be bypassed by standard user prompts or clever prompt injection attempts."
+      }
+    ],
+    "script": "Slide 27 explains \"System Instructions: The Divine Commands.\"\n\nIn Google AI Studio, System Instructions sit above the regular chat window.\n\nThink of them as immutable constitutional laws:\nThey define who the agent is, enforce strict formatting rules like \"Always output clean JSON with zero chit-chat,\" and establish safety boundaries.\n\nNo matter what a regular user types in the chat box, the AI is mathematically bound to obey these top-level system commands. They are the anchor of your agent's integrity!",
+    "koreanGuide": {
+      "summary": "시스템 지침(System Instructions): 에이전트의 헌법적 명령",
+      "points": [
+        "불변의 페르소나: '당신은 Oikos University 수석 보안 감사관이다'와 같은 핵심 정체성 고정",
+        "출력 서식 강제: '인사말 없이 오직 유효한 JSON 형식으로만 답변하라'는 출력 규칙 강제",
+        "보안 방어벽: 일반 사용자의 프롬프트 인젝션이나 우회 시도에 의해 침범되지 않는 상위 지침"
+      ],
+      "tips": "일반 대화보다 위에 군림하는 시스템 헌법의 역할을 명쾌하게 설명하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "System Instructions",
+        "def": "Top-level behavioral directives setting global constraints and persona rules for an LLM.",
+        "defKo": "시스템 지침 (최상위 행동 제약 헌법)"
+      }
+    ]
+  },
+  {
+    "num": 28,
+    "type": "triad",
+    "title": "REASONING BUDGET: 'DEEP THINK' EXPANSION",
+    "subtitle": "Expanding internal hidden monologue tokens for complex mathematical and logical derivation",
+    "cards": [
+      {
+        "title": "Thinking Space",
+        "desc": "Allows the model to generate internal hidden reasoning tokens before outputting its first word."
+      },
+      {
+        "title": "Step-by-Step Proofs",
+        "desc": "Solves complex differential equations, algorithm proofs, and legal logic derivations."
+      },
+      {
+        "title": "Controllable Budget",
+        "desc": "Adjust reasoning tokens dynamically from 0 (instant) to 8,192 (deep deliberation)."
+      }
+    ],
+    "script": "Look at Slide 28: \"Reasoning Budget: 'Deep Think' Expansion.\"\n\nIn the newest Gemini models, Google introduced a groundbreaking feature: The Reasoning Budget.\n\nWhen you ask a difficult mathematical proof or a complex multi-file coding question, you can give the model extra \"Thinking Space.\" \n\nThe model generates an internal, hidden step-by-step monologue, checking its own logic and catching mistakes *before* it prints the very first word of its answer! This drastically eliminates errors on complex engineering problems.",
+    "koreanGuide": {
+      "summary": "사고 예산(Reasoning Budget)과 'Deep Think' 심층 숙고",
+      "points": [
+        "사고 공간(Thinking Space): 답변을 출력하기 전에 내부적으로 숨겨진 추론 토큰을 생성하며 자가 검증",
+        "단계별 증명: 고난도 미분방정식, 복잡한 알고리즘 유도, 다층 법률 논리 검토 완벽 수행",
+        "예산 조절: 0(즉답)부터 8,192토큰(심층 숙고)까지 난이도에 따라 동적으로 조절 가능"
+      ],
+      "tips": "말하기 전에 머릿속으로 먼저 깊이 생각하고 자가 교정하는 사람의 뇌 구조에 비유하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Reasoning Budget",
+        "def": "The allocated token capacity for internal chain-of-thought processing prior to final answer generation.",
+        "defKo": "사고 예산 (Deep Think 사전 추론 토큰 할당량)"
+      }
+    ]
+  },
+  {
+    "num": 29,
+    "type": "triad",
+    "title": "SAFETY SETTINGS AND CONTENT GUARDRAILS",
+    "subtitle": "Customizable risk thresholds across harassment, hate speech, explicit, and dangerous content",
+    "cards": [
+      {
+        "title": "Granular Sliders",
+        "desc": "Fine-tune safety filters across Harassment, Hate Speech, Sexually Explicit, and Dangerous Content."
+      },
+      {
+        "title": "Block None (Raw Research)",
+        "desc": "Unlocks raw analysis for security vulnerability audits and unfiltered medical research."
+      },
+      {
+        "title": "Block Most (Public Deploy)",
+        "desc": "Enforces strict enterprise brand safety for student-facing or corporate customer applications."
+      }
+    ],
+    "script": "Slide 29 outlines \"Safety Settings and Content Guardrails.\"\n\nGoogle AI Studio provides customizable safety sliders across four major categories of harm: Harassment, Hate Speech, Sexually Explicit, and Dangerous Content.\n\nAs an enterprise architect, you have complete control:\nSet it to \"Block None\" when performing internal cybersecurity penetration testing or raw medical research.\nSet it to \"Block Most\" when deploying customer-facing chatbots, ensuring 100% brand safety and compliance!",
+    "koreanGuide": {
+      "summary": "안전 설정(Safety Settings) 및 콘텐츠 가드레일 제어",
+      "points": [
+        "4대 유해 카테고리: 괴롭힘(Harassment), 혐오 발언, 성적 표현, 위험 콘텐츠별 개별 슬라이더 제공",
+        "Block None: 보안 취약점 점검이나 의학 원시 데이터 연구 시 필터를 일시 해제하여 연구 수행",
+        "Block Most: 학생 대상 서비스나 기업 고객용 챗봇 배포 시 엄격한 브랜드 안전성 확보"
+      ],
+      "tips": "목적에 따라 안전 필터의 강도를 맞춤형으로 조절하는 거버넌스 원칙을 안내하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Safety Guardrails",
+        "def": "Configurable algorithmic filters preventing LLMs from generating harmful or toxic outputs.",
+        "defKo": "안전 가드레일 (유해 콘텐츠 차단 필터)"
+      }
+    ]
+  },
+  {
+    "num": 30,
+    "type": "triad",
+    "title": "SECTION 3 TRANSITION: MOVING TO VIBE CODING",
+    "subtitle": "From infrastructure and parameter tuning to pure creative synthesis",
+    "cards": [
+      {
+        "title": "1. Context Caching",
+        "desc": "Reduces API expenses by 87% through frozen cloud activations."
+      },
+      {
+        "title": "2. Parameter Tuning",
+        "desc": "Calibrated temperature dials and expanded reasoning budgets for surgical precision."
+      },
+      {
+        "title": "3. Vibe Coding",
+        "desc": "Transitioning to building entire full-stack software applications through pure natural language intent."
+      }
+    ],
+    "script": "Let us summarize Part 3 on Slide 30:\n\nWe have mastered Context Caching to save 87% on costs.\nWe have tuned our Temperature dials and calibrated our Reasoning Budgets.\nWe have established our System Instruction laws and safety guardrails.\n\nNow, let us experience the ultimate destination of this engineering: Vibe Coding. How do we build complete software applications using nothing but our natural language thoughts? Welcome to Part 4!",
+    "koreanGuide": {
+      "summary": "Part 3 핵심 요약 및 Part 4(바이브 코딩 & 엔터프라이즈 거버넌스) 진입",
+      "points": [
+        "1. 컨텍스트 캐싱으로 87% 비용 절감 달성",
+        "2. 온도 다이얼과 사고 예산 튜닝으로 수술실 메스 같은 정밀도 확보",
+        "3. Part 4 예고: 자연어 생각만으로 풀스택 소프트웨어를 조립하는 바이브 코딩(Vibe Coding)의 세계"
+      ],
+      "tips": "엔지니어링 기초를 완벽히 다지고 대망의 바이브 코딩 실전으로 수강생들을 이끕니다."
+    },
+    "keyTerms": [
+      {
+        "term": "Creative Synthesis",
+        "def": "The convergence of optimized AI infrastructure into direct, natural-language software creation.",
+        "defKo": "창의적 소프트웨어 합성"
+      }
+    ]
+  },
+  {
+    "num": 31,
+    "type": "section",
+    "title": "PART 4: VIBE CODING & ENTERPRISE GOVERNANCE",
+    "subtitle": "Natural Language Programming, Bespoke Tools, Free vs. Paid Privacy, and Lab 6",
+    "script": "We now enter our final chapter, Part 4: \"Vibe Coding and Enterprise Governance.\"\n\nThis is the ultimate summit of our course! \n\nIn this section, we will see how natural language constructs entire interactive web applications, how to generate bespoke single-use tools in seconds, how to protect your enterprise intellectual property from public training leaks, and how to execute your Lab 6 assignment. Let us enter the forge!",
+    "koreanGuide": {
+      "summary": "Part 4 섹션 전환: 바이브 코딩 및 엔터프라이즈 거버넌스",
+      "points": [
+        "자연어 프로그래밍을 통한 맞춤형 도구(Bespoke Tools) 즉시 제작",
+        "무료 티어와 유료 엔터프라이즈 티어의 데이터 프라이버시 차이 및 Lab 6 과제 안내"
+      ],
+      "tips": "자연어로 코딩하는 미래 개발자의 새로운 비전을 제시하며 활기차게 시작하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Enterprise Vibe Coding",
+        "def": "Developing compliant, production-grade applications rapidly using natural language and long context.",
+        "defKo": "엔터프라이즈 바이브 코딩"
+      }
+    ]
+  },
+  {
+    "num": 32,
+    "type": "triad",
+    "title": "DEMYSTIFYING VIBE CODING",
+    "subtitle": "Programming through natural language descriptions of intent, aesthetic, and functional mechanics",
+    "cards": [
+      {
+        "title": "Intent-Driven Logic",
+        "desc": "Describe what the software should accomplish and how it should feel, rather than writing syntax."
+      },
+      {
+        "title": "Instant Compilation",
+        "desc": "Gemini 3 Pro writes, links, and renders the frontend HTML/CSS/JS in real time."
+      },
+      {
+        "title": "The Director Persona",
+        "desc": "Your role transforms from a keyboard typist into a visionary product director and design critic."
+      }
+    ],
+    "script": "Look at Slide 32: \"Demystifying Vibe Coding.\"\n\nWhat is Vibe Coding? It is the realization of computer science's ultimate dream!\n\nYou no longer sit and type hundreds of lines of code syntax. Instead, you describe the \"vibe,\" the visual aesthetics, the business rules, and the target goals of your application in plain English.\n\nGemini writes the code, compiles it, and renders a working, interactive application on your screen in seconds! You step into the role of a product director and design critic, steering the machine with your vision.",
+    "koreanGuide": {
+      "summary": "바이브 코딩(Vibe Coding)의 실체: 의도와 감각이 코드가 되는 세상",
+      "points": [
+        "의도 중심 로직: 문법 대신 소프트웨어가 달성해야 할 목표와 미학적 '느낌(Vibe)'을 자연어로 서술",
+        "실시간 렌더링: 제미나이 3 프로가 HTML, CSS, JavaScript를 작성하고 화면에 즉시 렌더링",
+        "디렉터의 위상: 단순 타자수에서 제품의 비전과 품질을 검수하는 총괄 디렉터로 전환"
+      ],
+      "tips": "자연어 문장 몇 개로 인터랙티브 웹 앱이 완성되는 혁신적 경험을 설명해 주세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Vibe Coding",
+        "def": "The practice of creating software applications through natural language prompts and high-level design direction.",
+        "defKo": "바이브 코딩 (자연어 직관 코딩)"
+      }
+    ]
+  },
+  {
+    "num": 33,
+    "type": "triad",
+    "title": "BESPOKE TOOLS ON DEMAND",
+    "subtitle": "Generating single-use customized software utilities in seconds to solve unique problems",
+    "cards": [
+      {
+        "title": "The Old Way (Generic SaaS)",
+        "desc": "Buying expensive bloated software subscriptions to perform tiny niche data transformations."
+      },
+      {
+        "title": "The New Way (Bespoke AI)",
+        "desc": "Ask Gemini to write a custom, single-use parsing tool for a messy CSV in 5 seconds."
+      },
+      {
+        "title": "Instant Dissolution",
+        "desc": "Use the custom tool to clean your data, save the results, and dispose of the script immediately."
+      }
+    ],
+    "script": "Slide 33 teaches an incredible concept: \"Bespoke Tools on Demand.\"\n\nIn the past, if you had a strange, messy data file, you had to spend hours searching for commercial software or writing scripts from scratch.\n\nIn the era of Vibe Coding, we build \"Bespoke Tools\"—custom tools created for a single job!\n\nIf you receive a corrupted customer spreadsheet, you ask Gemini: \"Build me a web parser that cleans these specific five columns.\" Gemini generates the tool in five seconds, cleans your data, and you discard the tool. Software becomes disposable and instantaneous!",
+    "koreanGuide": {
+      "summary": "온디맨드 맞춤형 도구(Bespoke Tools on Demand) 제작",
+      "points": [
+        "구시대 방식: 단순한 데이터 변환을 위해 비싼 상용 소프트웨어를 구매하거나 수작업 코딩",
+        "새로운 방식: 특수한 문제 해결을 위해 5초 만에 작동하는 일회용 맞춤형 유틸리티 즉석 생성",
+        "즉시 폐기(Disposable Software): 데이터를 정제한 후 도구를 미련 없이 폐기하는 소프트웨어의 일회용화"
+      ],
+      "tips": "필요할 때 5초 만에 도구를 만들어 쓰고 버리는 새로운 소프트웨어 소비 방식을 전달하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Bespoke Tools",
+        "def": "Disposable, custom-generated software utilities built to solve a single hyper-specific task on demand.",
+        "defKo": "온디맨드 맞춤 도구 (일회용 즉석 유틸리티)"
+      }
+    ]
+  },
+  {
+    "num": 34,
+    "type": "architecture",
+    "title": "AGENTIC AI STUDIO: SANDBOXED EXECUTION",
+    "subtitle": "Autonomous code interpretation, self-debugging, and verified prototype rendering",
+    "tree": [
+      {
+        "folder": "1. Think & Plan",
+        "desc": "Gemini analyzes your design prompt and outlines the software architecture"
+      },
+      {
+        "folder": "2. Write Code",
+        "desc": "Generates complete, modular HTML, Tailwind CSS, and JavaScript functions"
+      },
+      {
+        "folder": "3. Sandboxed Execute",
+        "desc": "Runs the script inside a secure cloud code interpreter to test execution"
+      },
+      {
+        "folder": "4. Self-Debug & Present",
+        "desc": "Catches runtime errors, patches code autonomously, and presents a verified working app"
+      }
+    ],
+    "script": "Look at Slide 34: \"Agentic AI Studio: Sandboxed Execution.\"\n\nGoogle AI Studio is no longer a static text box; it is an active agentic environment!\n\nLook at the autonomous loop:\n1. Gemini plans the software architecture.\n2. It writes the code.\n3. It spins up a secure, sandboxed code interpreter and runs the program.\n4. If it encounters a bug, it catches the error, rewrites the broken line, and fixes it *by itself*!\n\nYou are presented only with the fully verified, working prototype!",
+    "koreanGuide": {
+      "summary": "에이전틱 AI 스튜디오의 샌드박스 자가 실행 및 디버깅 루프",
+      "points": [
+        "1. 계획 수립: 아키텍처와 UI 컴포넌트 구조 설계",
+        "2. 코드 작성: 모듈형 HTML/CSS/JS 코드 생성",
+        "3. 샌드박스 실행: 격리된 클라우드 인터프리터에서 실제 프로그램 실행 및 테스트",
+        "4. 자가 디버깅(Self-Debug): 에러 발생 시 스스로 코드를 고치고 완벽히 검증된 앱만 사용자에게 전달"
+      ],
+      "tips": "스스로 코드를 실행해 보고 버그까지 고쳐서 가져오는 자율 에이전트의 위력을 전하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Autonomous Code Execution",
+        "def": "The agentic capability of an AI to run, test, and debug its own generated code in sandbox environments.",
+        "defKo": "자율 코드 실행 및 자가 디버깅"
+      }
+    ]
+  },
+  {
+    "num": 35,
+    "type": "comparison",
+    "title": "THE CORPORATE TRAP: FREE TIER VS. PAID TIER",
+    "subtitle": "Why using free consumer AI Studio for corporate data creates massive compliance liabilities",
+    "leftCard": {
+      "tag": "FREE TIER (CONSUMER)",
+      "title": "Public Training Loop (Danger)",
+      "points": [
+        "Prompt data and uploaded files may be reviewed by human annotators",
+        "Data is ingested to retrain future public foundation models",
+        "Severe violation of enterprise IP, HIPAA, and GDPR regulations"
+      ]
+    },
+    "rightCard": {
+      "tag": "PAID ENTERPRISE TIER",
+      "title": "Private Vault (Secure)",
+      "points": [
+        "Zero human review; zero model training on customer uploads",
+        "Isolated API endpoints with enterprise encryption keys",
+        "100% compliant with global corporate data governance laws"
+      ]
+    },
+    "script": "Slide 35 reveals a critical corporate warning: \"Free Tier versus Paid Tier.\"\n\nListen very carefully: If you use the Free Tier of Google AI Studio, your prompt inputs and uploaded files may be reviewed by human annotators and used to train future public models! \n\nIf an employee uploads trade secrets, customer databases, or medical files to the Free Tier, that is a catastrophic data breach!\n\nFor any corporate, legal, or academic application, you must use the Paid Enterprise Tier. Your data is sealed inside a secure private vault with contractual zero-training guarantees!",
+    "koreanGuide": {
+      "summary": "기업의 덫: 무료 티어 대 유료 엔터프라이즈 티어의 보안 차이",
+      "points": [
+        "Left (무료 티어의 위험): 입력 데이터가 인간 검토자에게 노출되거나 공용 모델 학습에 재사용될 수 있음",
+        "Right (유료 엔터프라이즈 티어): 모델 학습 일절 배제(Zero Training), 암호화된 전용 API 엔드포인트 제공",
+        "보안 경고: 기업 기밀이나 의료/금융 데이터를 다룰 때는 반드시 유료 티어를 사용해야 함"
+      ],
+      "tips": "무료의 편리함 뒤에 숨겨진 기밀 유출 위험을 단호하고 진지하게 경고해 주세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Zero-Training Guarantee",
+        "def": "A contractual enterprise commitment that customer API data will never be used for AI model training.",
+        "defKo": "제로 학습 보증 (사내 데이터 학습 배제 계약)"
+      }
+    ]
+  },
+  {
+    "num": 36,
+    "type": "triad",
+    "title": "THE 'PRIVATE VAULT' PRINCIPLE",
+    "subtitle": "Contractual data isolation, zero retention, and Data Loss Prevention (DLP) gateways",
+    "cards": [
+      {
+        "title": "Isolated Endpoints",
+        "desc": "Your API requests are processed within dedicated enterprise cloud partitions."
+      },
+      {
+        "title": "Zero Data Retention",
+        "desc": "Processed tokens are destroyed immediately from volatile memory after inference completes."
+      },
+      {
+        "title": "DLP Gateways",
+        "desc": "Scans prompts for social security numbers and API keys before transmission to the cloud."
+      }
+    ],
+    "script": "Look at Slide 36: \"The 'Private Vault' Principle.\"\n\nHow do we build an impenetrable enterprise fortress around AI Studio?\n\nWe enforce three architectural pillars:\n1. Isolated Endpoints — Keeping your API traffic in a private cloud silo.\n2. Zero Data Retention — Data is processed in volatile RAM and instantly destroyed.\n3. Data Loss Prevention (DLP) Gateways — An automated bouncer that scans prompts and blocks sensitive credit card numbers or passwords from leaving your network!",
+    "koreanGuide": {
+      "summary": "프라이빗 볼트(Private Vault) 원칙과 데이터 손실 방지(DLP)",
+      "points": [
+        "격리된 엔드포인트: 전용 클라우드 파티션에서만 API 요청 처리",
+        "제로 데이터 보존: 연산 완료 즉시 휘발성 메모리에서 데이터 완전 파기",
+        "DLP(Data Loss Prevention) 게이트웨이: 주민번호, 카드번호, API 키의 외부 전송을 사전 차단하는 경호원 역할"
+      ],
+      "tips": "기업의 문서를 지키는 3중 보안 방어막의 구조를 명확히 짚어주세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Data Loss Prevention (DLP)",
+        "def": "Security software detecting and preventing sensitive enterprise data from leaving corporate networks.",
+        "defKo": "데이터 손실 방지 (DLP - 기밀 정보 유출 차단 게이트웨이)"
+      }
+    ]
+  },
+  {
+    "num": 37,
+    "type": "comparison",
+    "title": "MITIGATING INTELLECTUAL SLOTH",
+    "subtitle": "Avoiding cognitive decay by maintaining active logic auditing and code review",
+    "leftCard": {
+      "tag": "THE SLOTH TRAP",
+      "title": "Cognitive Decay (Danger)",
+      "points": [
+        "Blindly accepting AI code without reading or understanding it",
+        "Losing foundational problem-solving and critical thinking skills",
+        "Becoming a helpless dependent on machine generation"
+      ]
+    },
+    "rightCard": {
+      "tag": "THE SOVEREIGN ARCHITECT",
+      "title": "Logic Auditing (Mastery)",
+      "points": [
+        "Letting AI write the boilerplate syntax at lightning speed",
+        "Actively reviewing security vulnerabilities, edge cases, and logic",
+        "Elevating human judgment as the ultimate quality standard"
+      ]
+    },
+    "script": "Slide 37 warns against a serious psychological danger: \"Intellectual Sloth.\"\n\nWhen an AI can write 50,000 lines of code in five seconds, there is a dangerous temptation to become lazy—to blindly accept the code without reading it.\n\nDo not fall into the sloth trap! \n\nYour value as an Intelligence Architect is not in typing syntax; your value is in \"Logic Auditing\"—verifying security, challenging edge cases, and ensuring the application fulfills its true ethical purpose. You remain the master director!",
+    "koreanGuide": {
+      "summary": "지적 나태(Intellectual Sloth) 극복과 논리 감사(Logic Auditing)",
+      "points": [
+        "Left (나태의 함정): AI가 짠 코드를 이해하지도 않고 맹목적으로 복사하여 인지 능력 퇴화",
+        "Right (주권적 아키텍트): 문법 코딩은 AI에 맡기되, 보안 취약점과 비즈니스 로직을 철저히 검증",
+        "핵심 가치: 개발자의 진정한 가치는 타이핑 속도가 아니라 아키텍처의 논리적 결함을 찾아내는 통찰력에 있음"
+      ],
+      "tips": "AI의 코드를 비판적으로 검수하는 날카로운 눈을 유지해야 함을 강조하세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Logic Auditing",
+        "def": "The critical human review of AI-generated code to verify architectural soundness and security.",
+        "defKo": "논리 감사 (AI 코드 보안 및 구조적 무결성 검증)"
+      }
+    ]
+  },
+  {
+    "num": 38,
+    "type": "motto",
+    "title": "REDEEMING TIME FOR SOLI DEO GLORIA",
+    "subtitle": "Transforming saved hours into high-value spiritual, academic, and community service",
+    "points": [
+      "The Ultimate Purpose: Soli Deo Gloria — Glory to God Alone.",
+      "Redeeming the Time (Ephesians 5:16): Rescuing hours from mechanical programming grinding.",
+      "Higher Calling: Reinvesting bandwidth into mentoring students, deep research, and loving service."
+    ],
+    "script": "Slide 38 brings us to our spiritual summit: \"Redeeming Time for Soli Deo Gloria.\"\n\nWhy do we automate? Why do we master Vibe Coding and 1-million token models?\n\nWe do not automate to become idle or distracted. We automate to \"redeem the time\" (Ephesians 5:16).\n\nWhen you rescue three to four hours every day from the mechanical grinding of programming, reinvest that precious energy into things of eternal value: mentor a younger student, conduct groundbreaking research, spend quality time with your family, and serve your community. Soli Deo Gloria!",
+    "koreanGuide": {
+      "summary": "Soli Deo Gloria: 시간 구속과 숭고한 사명으로의 재투자",
+      "points": [
+        "궁극적 목적: 오직 하나님께 영광(Soli Deo Gloria)",
+        "시간 구속(에베소서 5:16): 기계적 코딩 노동에서 매일 3~4시간의 인지적 에너지를 구출",
+        "사명 완수: 되찾은 시간을 후배 멘토링, 깊은 학문 연구, 이웃 사랑과 섬김에 헌신"
+      ],
+      "tips": "목회자적 진정성으로 강의의 영적·사회적 의미를 마음에 깊이 새겨주세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Redeeming Time",
+        "def": "Using automation purposefully to reclaim human hours for faith, scholarship, and service.",
+        "defKo": "시간 구속 (에베소서 5:16)"
+      }
+    ]
+  },
+  {
+    "num": 39,
+    "type": "triad",
+    "title": "SESSION 6 SUMMARY & KEY TAKEAWAYS",
+    "subtitle": "Reviewing the four pillars of long-context engineering and Vibe Coding",
+    "cards": [
+      {
+        "title": "1. Scale (1M Tokens)",
+        "desc": "An expansive cognitive stadium replacing fragmented chunking with 99%+ recall."
+      },
+      {
+        "title": "2. Speed (Many-Shot ICL)",
+        "desc": "Instant specialized domain adaptation by injecting 100+ exemplars without fine-tuning."
+      },
+      {
+        "title": "3. Savings (Context Caching)",
+        "desc": "Reduces repetitive API costs by 87% while dropping response times to milliseconds."
+      }
+    ],
+    "script": "Let us summarize Session 6 on Slide 39:\n\nFirst: SCALE — The 1-million token playground gives you an unlimited cognitive desk with 99% recall.\nSecond: SPEED — Many-shot ICL creates specialized domain experts in seconds without expensive training.\nThird: SAVINGS — Context Caching slashes API bills by 87% and drops latency to milliseconds.\nFourth: SOVEREIGNTY — Protect your corporate data through Paid Enterprise Tier Private Vaults!",
+    "koreanGuide": {
+      "summary": "Session 6 핵심 요약 4대 기둥 (Scale, Speed, Savings, Sovereignty)",
+      "points": [
+        "1. 규모(Scale): 100만 토큰으로 1500쪽을 한 번에 조망하는 99% 정확도의 작업대",
+        "2. 속도(Speed): 파인튜닝 없이 100개 예시로 즉시 전문가를 만드는 Many-shot ICL",
+        "3. 절감(Savings): 87% 비용을 깎아주고 밀리초 응답을 구현하는 컨텍스트 캐싱",
+        "4. 주권(Sovereignty): 프라이빗 볼트를 통한 사내 데이터 주권 수호"
+      ],
+      "tips": "오늘 배운 4대 핵심 축을 명쾌하게 정리해 주세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Long-Context Mastery",
+        "def": "The comprehensive integration of massive token windows, Many-shot ICL, and caching.",
+        "defKo": "초대용량 컨텍스트 종합 마스터리"
+      }
+    ]
+  },
+  {
+    "num": 40,
+    "type": "triad",
+    "title": "LAB 6 ASSIGNMENT: THE INSTANT EXPERT FORGE",
+    "subtitle": "Build, optimize, and benchmark a specialized Many-shot agent in Google AI Studio (Due Week 7)",
+    "cards": [
+      {
+        "title": "1. Assemble Exemplars",
+        "desc": "Curate at least 50 high-quality, structured XML input-output pairs in a specialized niche."
+      },
+      {
+        "title": "2. Deploy & Benchmark",
+        "desc": "Configure System Instructions, tune Temperature to 0.0, and verify output consistency."
+      },
+      {
+        "title": "3. Activate Caching",
+        "desc": "Enable Context Caching and document the 87% token cost reduction in your lab report."
+      }
+    ],
+    "script": "We have reached the end of Session 6! Look at Slide 40 for your Lab 6 Homework Assignment: \"The Instant Expert Forge.\"\n\nYour mission this week is to become an AI Studio craftsman:\nTask 1: Assemble a Many-shot exemplar dataset of at least 50 clean, structured XML input-output pairs in your specialized domain.\nTask 2: Configure your System Instructions, tune your Temperature, and verify your agent's precision.\nTask 3: Enable Context Caching and document your 87% cost savings in your report!\n\nThank you for your fantastic energy today. Go forth, forge with wisdom, and code with purpose. Soli Deo Gloria! See you next week!",
+    "koreanGuide": {
+      "summary": "Lab 6 실습 과제 안내: 즉석 전문가 공장(Instant Expert Forge) 구축",
+      "points": [
+        "1. 예시 데이터 구축: 특화 분야의 고품질 XML 입출력 쌍 50개 이상 직접 제작",
+        "2. 배포 및 벤치마크: 시스템 지침과 온도 0.0 설정 후 출력 일관성 검증",
+        "3. 캐싱 활성화: 컨텍스트 캐싱을 적용하여 87% 비용 절감 효과를 리포트에 증명",
+        "수업 마감: '지혜로 단련하고 사명으로 코딩하라. Soli Deo Gloria!'"
+      ],
+      "tips": "학생들이 직접 AI 스튜디오에서 캐싱과 다중 샷 학습을 체험하도록 격려하며 강의를 마칩니다."
+    },
+    "keyTerms": [
+      {
+        "term": "Instant Expert Forge",
+        "def": "The practical lab workflow building an optimized Many-shot in-context agent in Google AI Studio.",
+        "defKo": "즉석 전문가 공장 (Lab 6 실습 과제)"
       }
     ]
   }
