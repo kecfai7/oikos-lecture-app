@@ -11,7 +11,7 @@ export const SESSIONS = [
   { id: 7, title: "Session 7: WebMCP Protocol & HTML Token Diet", active: true },
   { id: 8, title: "Session 8: Agentic Commerce: UCP & AP2 Autonomous Checkout", active: true },
   { id: 9, title: "Session 9: Chrome V8 Security & Manifest V3 Fortress", active: true },
-  { id: 10, title: "Session 10: Antigravity 2.0 & 93-Agent Swarm Orchestration", active: false },
+  { id: 10, title: "Session 10: Antigravity 2.0 & 93-Agent Swarm Orchestration", active: true },
   { id: 11, title: "Session 11: True AI Science: HurekaBench & Fact Verification", active: false },
   { id: 12, title: "Session 12: World Models: Genie 3 Simulation & Waymo Training", active: false },
   { id: 13, title: "Session 13: Calculated Art: SVG Engineering & LaTeX Math", active: false },
