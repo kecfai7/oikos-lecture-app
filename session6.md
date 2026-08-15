@@ -17,7 +17,6 @@
 - [Slide 08: INTERACTIVE POLL: EXPANDING YOUR DESK](#slide-08-interactive-poll-expanding-your-desk)
 - [Slide 09: THE COGNITIVE RE-ALIGNMENT](#slide-09-the-cognitive-re-alignment)
 - [Slide 10: PART 1 TRANSITION: ENTERING THE FORGE](#slide-10-part-1-transition-entering-the-forge)
-- [Slide 20: PART 2 TRANSITION: THE FINOPS REALITY](#slide-20-part-2-transition-the-finops-reality)
 - [Slide 11: PART 2: MANY-SHOT IN-CONTEXT LEARNING (ICL)](#slide-11-part-2-many-shot-in-context-learning-icl)
 - [Slide 12: SHIFTING FROM FINE-TUNING TO MANY-SHOT ICL](#slide-12-shifting-from-fine-tuning-to-many-shot-icl)
 - [Slide 13: THE MECHANICS OF THE SHOT](#slide-13-the-mechanics-of-the-shot)
@@ -27,6 +26,7 @@
 - [Slide 17: MULTI-MODAL MANY-SHOT: WIREFRAMES TO REACT](#slide-17-multi-modal-many-shot-wireframes-to-react)
 - [Slide 18: EVALUATING ICL QUALITY: 3 CORE METRICS](#slide-18-evaluating-icl-quality-3-core-metrics)
 - [Slide 19: THE PARADIGM OF INSTANT EXPERTIZATION](#slide-19-the-paradigm-of-instant-expertization)
+- [Slide 20: PART 2 TRANSITION: THE FINOPS REALITY](#slide-20-part-2-transition-the-finops-reality)
 - [Slide 21: PART 3: FINOPS & CONTEXT CACHING STRATEGIES](#slide-21-part-3-finops-context-caching-strategies)
 - [Slide 22: THE PROBLEM OF REDUNDANT PROCESSING](#slide-22-the-problem-of-redundant-processing)
 - [Slide 23: INTRODUCING CONTEXT CACHING](#slide-23-introducing-context-caching)
@@ -322,32 +322,6 @@ Now, how do we teach this giant brain to act like an expert without spending mil
 
 ---
 
-## Slide 20: PART 2 TRANSITION: THE FINOPS REALITY
-**Subtitle:** Balancing unlimited context power against token processing expenses
-
-### 🎙️ English Lecture Script
-
-Let us conclude Part 2 on Slide 20 with a crucial reality check: "The FinOps Reality."
-
-Having a 1-million token playground is amazing. But as strategic IT architects, we must ask: What happens to our company budget if we send 1 million tokens on every single prompt? It would cost hundreds of dollars a day!
-
-How do we make this financially sustainable? 
-
-Look at the right side: "Context Caching." By freezing static data in cloud memory, we reduce costs by 87%! Let us enter Part 3 and master Context Caching!
-
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** Part 2 핵심 요약 및 Part 3(비용 최적화 및 컨텍스트 캐싱) 진입
-- **핵심 포인트:**
-  - 현실적 질문: 100만 토큰을 매번 전송하면 API 비용이 감당 가능한가?
-  - 해결책: 클라우드 메모리에 데이터를 동결 보관하는 컨텍스트 캐싱(Context Caching)
-  - Part 3 예고: 87% 비용 절감과 응답 속도 밀리초 단축의 실무 전략
-- **강의 전달 팁:** 비용 문제라는 실질적인 기업의 고민을 던지며 3부로 몰입시키세요.
-
-### 📚 Key Terms (주요 용어)
-- **Context Caching**: Storing pre-computed token activations in memory to slash latency and costs for repetitive prompts. (컨텍스트 캐싱 (사전 연산 토큰 동결 보관))
-
----
-
 ## Slide 11: PART 2: MANY-SHOT IN-CONTEXT LEARNING (ICL)
 **Subtitle:** Demystifying Many-Shot Exemplars, Instant Domain Adaptation, and Out-of-Distribution Mastery
 
@@ -585,6 +559,32 @@ The foundation model is a dynamic, fluid canvas. You bring the expert exemplars,
 
 ### 📚 Key Terms (주요 용어)
 - **Instant Expertization**: Transforming a generalist LLM into a domain specialist on demand through in-context exemplars. (즉각적 전문화 (문맥 예시 기반 실시간 전문가 변환))
+
+---
+
+## Slide 20: PART 2 TRANSITION: THE FINOPS REALITY
+**Subtitle:** Balancing unlimited context power against token processing expenses
+
+### 🎙️ English Lecture Script
+
+Let us conclude Part 2 on Slide 20 with a crucial reality check: "The FinOps Reality."
+
+Having a 1-million token playground is amazing. But as strategic IT architects, we must ask: What happens to our company budget if we send 1 million tokens on every single prompt? It would cost hundreds of dollars a day!
+
+How do we make this financially sustainable? 
+
+Look at the right side: "Context Caching." By freezing static data in cloud memory, we reduce costs by 87%! Let us enter Part 3 and master Context Caching!
+
+### 🇰🇷 Korean Teaching Guide (강의 가이드)
+- **강의 요약:** Part 2 핵심 요약 및 Part 3(비용 최적화 및 컨텍스트 캐싱) 진입
+- **핵심 포인트:**
+  - 현실적 질문: 100만 토큰을 매번 전송하면 API 비용이 감당 가능한가?
+  - 해결책: 클라우드 메모리에 데이터를 동결 보관하는 컨텍스트 캐싱(Context Caching)
+  - Part 3 예고: 87% 비용 절감과 응답 속도 밀리초 단축의 실무 전략
+- **강의 전달 팁:** 비용 문제라는 실질적인 기업의 고민을 던지며 3부로 몰입시키세요.
+
+### 📚 Key Terms (주요 용어)
+- **Context Caching**: Storing pre-computed token activations in memory to slash latency and costs for repetitive prompts. (컨텍스트 캐싱 (사전 연산 토큰 동결 보관))
 
 ---
 

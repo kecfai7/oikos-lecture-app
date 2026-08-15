@@ -7750,47 +7750,6 @@ export const SLIDES_SESSION_6 = [
     ]
   },
   {
-    "num": 20,
-    "type": "comparison",
-    "title": "PART 2 TRANSITION: THE FINOPS REALITY",
-    "subtitle": "Balancing unlimited context power against token processing expenses",
-    "leftCard": {
-      "tag": "NAIVE RE-PROCESSING",
-      "title": "Astronomical Costs",
-      "points": [
-        "Sending 1M tokens with every single user prompt",
-        "Costs multiply exponentially with follow-up questions",
-        "Slow latency from re-computing attention matrices"
-      ]
-    },
-    "rightCard": {
-      "tag": "CONTEXT CACHING",
-      "title": "87% FinOps Savings",
-      "points": [
-        "Freezes static background data in Google Cloud RAM",
-        "Subsequent queries read cached activation states",
-        "Drops API costs by 87% and slashes latency to milliseconds"
-      ]
-    },
-    "script": "Let us conclude Part 2 on Slide 20 with a crucial reality check: \"The FinOps Reality.\"\n\nHaving a 1-million token playground is amazing. But as strategic IT architects, we must ask: What happens to our company budget if we send 1 million tokens on every single prompt? It would cost hundreds of dollars a day!\n\nHow do we make this financially sustainable? \n\nLook at the right side: \"Context Caching.\" By freezing static data in cloud memory, we reduce costs by 87%! Let us enter Part 3 and master Context Caching!",
-    "koreanGuide": {
-      "summary": "Part 2 핵심 요약 및 Part 3(비용 최적화 및 컨텍스트 캐싱) 진입",
-      "points": [
-        "현실적 질문: 100만 토큰을 매번 전송하면 API 비용이 감당 가능한가?",
-        "해결책: 클라우드 메모리에 데이터를 동결 보관하는 컨텍스트 캐싱(Context Caching)",
-        "Part 3 예고: 87% 비용 절감과 응답 속도 밀리초 단축의 실무 전략"
-      ],
-      "tips": "비용 문제라는 실질적인 기업의 고민을 던지며 3부로 몰입시키세요."
-    },
-    "keyTerms": [
-      {
-        "term": "Context Caching",
-        "def": "Storing pre-computed token activations in memory to slash latency and costs for repetitive prompts.",
-        "defKo": "컨텍스트 캐싱 (사전 연산 토큰 동결 보관)"
-      }
-    ]
-  },
-  {
     "num": 11,
     "type": "section",
     "title": "PART 2: MANY-SHOT IN-CONTEXT LEARNING (ICL)",
@@ -8118,6 +8077,47 @@ export const SLIDES_SESSION_6 = [
         "term": "Instant Expertization",
         "def": "Transforming a generalist LLM into a domain specialist on demand through in-context exemplars.",
         "defKo": "즉각적 전문화 (문맥 예시 기반 실시간 전문가 변환)"
+      }
+    ]
+  },
+  {
+    "num": 20,
+    "type": "comparison",
+    "title": "PART 2 TRANSITION: THE FINOPS REALITY",
+    "subtitle": "Balancing unlimited context power against token processing expenses",
+    "leftCard": {
+      "tag": "NAIVE RE-PROCESSING",
+      "title": "Astronomical Costs",
+      "points": [
+        "Sending 1M tokens with every single user prompt",
+        "Costs multiply exponentially with follow-up questions",
+        "Slow latency from re-computing attention matrices"
+      ]
+    },
+    "rightCard": {
+      "tag": "CONTEXT CACHING",
+      "title": "87% FinOps Savings",
+      "points": [
+        "Freezes static background data in Google Cloud RAM",
+        "Subsequent queries read cached activation states",
+        "Drops API costs by 87% and slashes latency to milliseconds"
+      ]
+    },
+    "script": "Let us conclude Part 2 on Slide 20 with a crucial reality check: \"The FinOps Reality.\"\n\nHaving a 1-million token playground is amazing. But as strategic IT architects, we must ask: What happens to our company budget if we send 1 million tokens on every single prompt? It would cost hundreds of dollars a day!\n\nHow do we make this financially sustainable? \n\nLook at the right side: \"Context Caching.\" By freezing static data in cloud memory, we reduce costs by 87%! Let us enter Part 3 and master Context Caching!",
+    "koreanGuide": {
+      "summary": "Part 2 핵심 요약 및 Part 3(비용 최적화 및 컨텍스트 캐싱) 진입",
+      "points": [
+        "현실적 질문: 100만 토큰을 매번 전송하면 API 비용이 감당 가능한가?",
+        "해결책: 클라우드 메모리에 데이터를 동결 보관하는 컨텍스트 캐싱(Context Caching)",
+        "Part 3 예고: 87% 비용 절감과 응답 속도 밀리초 단축의 실무 전략"
+      ],
+      "tips": "비용 문제라는 실질적인 기업의 고민을 던지며 3부로 몰입시키세요."
+    },
+    "keyTerms": [
+      {
+        "term": "Context Caching",
+        "def": "Storing pre-computed token activations in memory to slash latency and costs for repetitive prompts.",
+        "defKo": "컨텍스트 캐싱 (사전 연산 토큰 동결 보관)"
       }
     ]
   },
