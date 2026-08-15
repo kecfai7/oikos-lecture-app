@@ -12,6 +12,16 @@ dist
 dist-ssr
 *.local
 
+# Python & Cache
+__pycache__/
+*.pyc
+
+# Heavy Media & Analysis Directories
+files_cleaned/
+files_analysis/
+*.wav
+*.mp4
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
@@ -22,3 +32,5 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+

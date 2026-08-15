@@ -14,7 +14,7 @@ export default function EfficiencyChartSlide({ slideData }) {
     { name: 'TPU v8 (New)', perf: 300, energy: 33, fill: '#f4c430' },
   ];
 
-  const isTpu = slideData.num === 20;
+  const isTpu = slideData.chartType === 'tpu' || slideData.num === 20 || slideData.num === 13;
 
   return (
     <div className="h-full flex flex-col justify-between p-8 md:p-12 relative">

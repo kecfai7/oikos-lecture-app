@@ -4,20 +4,26 @@ import SlideDeck from './components/SlideDeck';
 import PresenterMode from './components/PresenterMode';
 import SlideOverviewModal from './components/SlideOverviewModal';
 import PrintSlidesView from './components/PrintSlidesView';
-import { SLIDES_SESSION_1 } from './data/slidesData';
+import { SLIDES_SESSION_1, SLIDES_SESSION_2 } from './data/slidesData';
 import { Keyboard } from 'lucide-react';
 
 export default function App() {
-  const [selectedSession, setSelectedSession] = useState(1);
+  const [selectedSession, setSelectedSession] = useState(2);
   const [currentSlideIndex, setCurrentSlideIndex] = useState(0);
   const [isPresenterOpen, setIsPresenterOpen] = useState(false);
   const [isOverviewOpen, setIsOverviewOpen] = useState(false);
   const [showShortcutHint, setShowShortcutHint] = useState(true);
   const [isPrinting, setIsPrinting] = useState(false);
 
-  const totalSlides = SLIDES_SESSION_1.length;
-  const currentSlideData = SLIDES_SESSION_1[currentSlideIndex];
-  const nextSlideData = currentSlideIndex < totalSlides - 1 ? SLIDES_SESSION_1[currentSlideIndex + 1] : null;
+  const currentSlides = selectedSession === 1 ? SLIDES_SESSION_1 : (SLIDES_SESSION_2 || SLIDES_SESSION_1);
+  const totalSlides = currentSlides.length;
+  const currentSlideData = currentSlides[currentSlideIndex] || currentSlides[0];
+  const nextSlideData = currentSlideIndex < totalSlides - 1 ? currentSlides[currentSlideIndex + 1] : null;
+
+  const handleSelectSession = (sessionId) => {
+    setSelectedSession(sessionId);
+    setCurrentSlideIndex(0);
+  };
 
   // BroadcastChannel for Dual-Monitor Multi-Window Sync
   useEffect(() => {
@@ -98,7 +104,7 @@ export default function App() {
   return (
     <div className="w-screen h-screen flex flex-col bg-[#0B132B] text-white overflow-hidden font-sans select-text">
       {/* Printable All 40 Slides View (Rendered only during PDF Export / Print) */}
-      {isPrinting && <PrintSlidesView slides={SLIDES_SESSION_1} />}
+      {isPrinting && <PrintSlidesView slides={currentSlides} />}
 
       {/* Header Bar */}
       <Header
@@ -111,7 +117,7 @@ export default function App() {
         onToggleOverview={() => setIsOverviewOpen(prev => !prev)}
         onExportPDF={handleExportPDF}
         selectedSession={selectedSession}
-        onSelectSession={setSelectedSession}
+        onSelectSession={handleSelectSession}
       />
 
       {/* Main Slide Presentation Area */}
@@ -149,7 +155,7 @@ export default function App() {
       {/* 40-Slide Grid Overview Modal */}
       {isOverviewOpen && (
         <SlideOverviewModal
-          slides={SLIDES_SESSION_1}
+          slides={currentSlides}
           currentSlide={currentSlideIndex + 1}
           onSelectSlide={handleSelectSlide}
           onClose={() => setIsOverviewOpen(false)}
@@ -158,3 +164,4 @@ export default function App() {
     </div>
   );
 }
+
