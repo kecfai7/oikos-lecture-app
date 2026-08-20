@@ -7,30 +7,30 @@ Slide 8 illustrates "THE PARADIGM SHIFT: 'ASK ME' VS.
 'RUN IT FOR ME'."
 
 3
-00:00:06,950 --> 00:00:17,421
+00:00:06,950 --> 00:00:17,533
 Look at the left card tagged "PASSIVE AI": "The 'Ask Me' Era." In the 2023 chatbot era, AI functioned like a reactive search engine.
 
 4
-00:00:17,421 --> 00:00:28,290
-You typed a question, the model generated paragraphs of text, and then you had to manually copy, format, and execute everything yourself.
+00:00:17,533 --> 00:00:29,080
+You typed a question, the model generated paragraphs of text, and then you had to manually copy, format, debug, and execute everything yourself.
 
 5
-00:00:28,990 --> 00:00:37,396
+00:00:29,780 --> 00:00:38,186
 Now examine the right card tagged "ACTIVE AI": "The 'Run It For Me' Era." In 2026, AI has evolved into an agentic operator.
 
 6
-00:00:37,396 --> 00:00:48,810
+00:00:38,186 --> 00:00:49,600
 You define an end goal—such as 'Analyze yesterday's customer feedback and update our database'—and the avatar writes the code, calls the APIs, and verifies the result!
 
 7
-00:00:49,510 --> 00:00:54,895
+00:00:50,300 --> 00:00:55,486
 In the 'Ask Me' paradigm, the human does 90% of the manual execution.
 
 8
-00:00:54,895 --> 00:01:04,730
-In the 'Run It For Me' paradigm, the avatar executes 90% of the mechanical steps while the human provides high-level judgment.
+00:00:55,486 --> 00:01:06,760
+In the 'Run It For Me' paradigm, the avatar executes 90% of the mechanical steps while the human provides high-level judgment and strategic direction.
 
 9
-00:01:05,430 --> 00:01:12,370
+00:01:07,460 --> 00:01:14,400
 That fundamental shift is the dividing line between an amateur AI user and a professional Intelligence Architect.
 

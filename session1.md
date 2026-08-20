@@ -371,15 +371,15 @@
 **Subtitle:** Understanding agentic background loops like game physics engines
 
 ### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
-[TA Sarah] Slide 12 uses an insightful engineering metaphor: "VIDEO GAME COMPUTING."
+[TA Sarah] Slide 12 uses an insightful engineering metaphor: "VIDEO GAME COMPUTING: From Active Rendering to Headless Background Simulation."
 
-[Prof. Peter] Look at the left card tagged "METAPHOR": "Background NPC Simulation." In modern open-world video games, non-player characters do not vanish when you turn your camera away. The game engine simulates their trade, movement, and behavior continuously in background memory.
+[Prof. Peter] Look closely at the left card tagged "METAPHOR": "Background NPC Simulation." In modern open-world video games like Skyrim or Grand Theft Auto, non-player characters do not vanish when you look away. The underlying physics and economic engine simulates their movement, trading, and interactions continuously in background RAM without rendering pixels to the screen.
 
-[TA Sarah] Now look at the right card tagged "REALITY": "Cloud Agent Loops." Your personal AI avatar operates on the exact same principle. It runs in a headless cloud container, listening for webhooks, evaluating cron schedules, and analyzing incoming telemetry even when your laptop is turned off.
+[TA Sarah] And examine the right card tagged "REALITY": "Cloud Agent Loops." This is identical to how our personal avatars function in cloud infrastructure. When you submit a multi-step research job, your browser window does not need to remain open, and your laptop does not need to stay awake. The agent loop runs headless inside a secure cloud container, continuously evaluating state conditions, triggering API calls, and persisting data.
 
-[Prof. Peter] You do not need to keep a browser window open. The avatar lives in the cloud infrastructure, persistently guarding your data and executing your workflows.
+[Prof. Peter] Think of the immense freedom this provides. You define high-level strategic objectives during your working hours, and your headless agents work through millions of data points overnight. When you log in the next morning, the completed data tables and executive summaries are already compiled.
 
-[TA Sarah] That is the architectural meaning of 'sleep-free' computing—background persistence dedicated entirely to your objectives.
+[TA Sarah] That is the true power of headless background execution. It decouples computational productivity from physical human screen time, creating genuine 24-hour operational continuity!
 
 ### 🇰🇷 Korean Teaching Guide (강의 가이드)
 - **강의 요약:** 비디오 게임 메타포: 턴제 체스(챗봇) vs 오픈월드 RPG(에이전트 스웜)
@@ -399,15 +399,15 @@
 **Subtitle:** How one architect directs multiple autonomous background swarms
 
 ### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
-[Prof. Peter] Slide 13 illustrates "SCALING HUMAN ATTENTION." Look at the centerpiece metric: "100X."
+[Prof. Peter] Slide 13 illustrates "SCALING HUMAN ATTENTION: The 100X Productivity Multiplier." Look at the centerpiece metric displayed prominently on our screen: "100X."
 
-[TA Sarah] Stat label: "Attention Multiplier." In traditional IT, if a manager wants to supervise 10 projects, they must attend 10 separate meetings and read hundreds of emails, hitting a hard cognitive ceiling.
+[TA Sarah] Notice the stat label underneath: "Attention Multiplier." In traditional manual engineering, an engineer can only focus on one terminal window, one document, or one pull request at a time. If you want to scale output, you are forced to work longer hours or hire more personnel, leading to severe communication overhead.
 
-[Prof. Peter] But an Intelligence Architect supervising a swarm of 10 specialized agents achieves an effective 100X throughput multiplier. Each agent handles a specific domain—code review, data parsing, security auditing—and reports back concise exceptions.
+[Prof. Peter] But when you master agentic architecture, you step into the role of a conductor. By deploying an autonomous swarm of 10 specialized agents—each operating with sub-second latency across distinct domains like static analysis, security auditing, and test generation—your strategic oversight is amplified by two orders of magnitude!
 
-[TA Sarah] Notice the key takeaway at the bottom: You do not scale by drinking more coffee or working 80 hours a week. You scale by architecting parallel agent swarms that amplify your strategic intent.
+[TA Sarah] Look at the key takeaway card at the bottom: You do not scale your impact by working 80 hours a week or sacrificing your family and sleep. You scale by architecting intelligent systems that handle execution while you provide high-level vision and moral guidance.
 
-[Prof. Peter] Wisdom and architecture allow one person to achieve the impact of an entire department.
+[Prof. Peter] That is how Soli Deo Gloria transforms engineering productivity into sustainable, life-giving human wisdom!
 
 ### 🇰🇷 Korean Teaching Guide (강의 가이드)
 - **강의 요약:** 인간 주의력의 확장: 1:1 종속에서 1:50 다중 에이전트 감독으로의 도약
@@ -482,13 +482,15 @@
 **Subtitle:** Moving from why we automate to how the Spark architecture executes
 
 ### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
-[TA Sarah] Slide 16 is our Part Divider: "TRANSITION TO ENGINEERING."
+[TA Sarah] Slide 16 is our Part Divider: "TRANSITION TO ENGINEERING: Moving from Conceptual Frameworks to Production Architectures."
 
-[Prof. Peter] Subtitle: "Moving from conceptual understanding to production agent implementation."
+[Prof. Peter] Notice our subtitle centered on screen: "Moving from conceptual understanding to production agent implementation." Sarah, now that our students understand the profound necessity of reclaiming human focus, we must equip them with the exact architectural blueprints.
 
-[TA Sarah] We have established the philosophical foundation and analyzed the workplace bottlenecks. Now, in the heart of our second module, we inspect the exact architectural diagrams, directory setups, and code structures.
+[TA Sarah] That's right, Professor Kim. In this core engineering section, we will inspect the foundational three-layer engine, examine directory structures, study dual-memory mechanics, and connect Google Workspace APIs with zero server maintenance.
 
-[Prof. Peter] Put on your engineering hats as we examine the 3-layer pipeline that powers production-grade personal avatars. Let's enter the engineering lab!
+[Prof. Peter] If you only understand the theory of AI, you remain a spectator. But when you master asynchronous event pipelines, tool-calling schemas, and state persistence, you become an active Builder and Intelligence Architect.
+
+[TA Sarah] Let us click "Entering Next Phase" and dissect the inner mechanics of the 3-Layer Spark Pipeline!
 
 ### 🇰🇷 Korean Teaching Guide (강의 가이드)
 - **강의 요약:** 엔지니어링 전환: 전략적 철학에서 Spark 아키텍처 구현으로의 브릿지
@@ -537,15 +539,15 @@
 **Subtitle:** Why modern agentic workflows require non-blocking execution
 
 ### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
-[TA Sarah] Slide 18 contrasts "SYNCHRONOUS VS. ASYNCHRONOUS" execution.
+[TA Sarah] Slide 18 contrasts "SYNCHRONOUS VS. ASYNCHRONOUS: Eliminating the Human Waiting Bottleneck."
 
-[Prof. Peter] On the left card tagged "BLOCKING", we see "Synchronous Execution." In a synchronous model, every API request blocks the main thread. If a database query or web scrape takes 45 seconds, the human user is frozen staring at a loading spinner.
+[Prof. Peter] Look at the left card tagged "BLOCKING": "Synchronous Execution." In a traditional synchronous architecture, every single operation blocks the execution thread. When a user requests a complex multi-file codebase analysis or a large document translation, the entire UI freezes, and the human is trapped staring at a loading spinner. If a network timeout occurs at second 45, the entire job fails.
 
-[TA Sarah] Now look at the right card tagged "NON-BLOCKING": "Asynchronous Pipeline." When an event occurs, it is pushed to a background event queue. The agent processes it independently in the cloud and notifies you only when the finished artifact is ready.
+[TA Sarah] Now examine the right card tagged "NON-BLOCKING": "Asynchronous Pipeline." In our modern Spark OS design, every incoming task is immediately acknowledged with a cryptographic job receipt and pushed to an event-driven task queue. The human user is instantly liberated to resume high-level strategic thinking, while the headless worker in the cloud processes the payload in the background.
 
-[Prof. Peter] Asynchronous architecture is the vital secret of sleep-free computing. It frees the human from waiting loops and allows systems to scale horizontally.
+[Prof. Peter] When the background agent completes its multi-step verification loop, it updates the state database and sends a high-signal notification. Asynchronous architecture is the secret behind sleep-free computing—it scales linearly without increasing human cognitive burden.
 
-[TA Sarah] Always design your agent workflows with non-blocking, event-driven queues!
+[TA Sarah] In your Hands-On Lab assignments, make sure every long-running tool call is decoupled through non-blocking asynchronous event handlers!
 
 ### 🇰🇷 Korean Teaching Guide (강의 가이드)
 - **강의 요약:** 동기식(블로킹)과 비동기식(논블로킹) 아키텍처의 차이와 필요성
@@ -565,15 +567,15 @@
 **Subtitle:** Sub-second multi-step reasoning with massive 1-million token context
 
 ### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
-[Prof. Peter] Slide 19 highlights "THE GEMINI 3.5 FLASH BRAIN." Notice the centerpiece metric: "< 250 MS."
+[Prof. Peter] Slide 19 highlights "THE GEMINI 3.5 FLASH BRAIN: High-Speed Multi-Modal Reasoning Engine." Look at our centerpiece metric: "< 250 MS."
 
-[TA Sarah] Stat label: "Sub-Second Reasoning Latency." For an autonomous agent to execute complex multi-step reasoning, it needs a brain that is both ultra-fast and intellectually capable.
+[TA Sarah] The stat label below reads: "Sub-Second Reasoning Latency." For an autonomous agent to execute dynamic multi-step planning loops, reasoning speed is paramount. If each turn takes 10 seconds, a 6-step planning and tool-verification cycle takes over a minute, breaking real-time responsiveness.
 
-[Prof. Peter] Gemini 3.5 Flash delivers full multi-modal understanding and tool calling with sub-250 millisecond response times. This means an agent can execute a 10-step planning and verification loop in less than 3 seconds!
+[Prof. Peter] Gemini 3.5 Flash solves this bottleneck by delivering full multi-modal comprehension, complex structured JSON output, and native function calling in under 250 milliseconds! This unprecedented speed allows our cloud avatars to execute recursive reasoning loops almost instantaneously.
 
-[TA Sarah] Below the metric, notice the cost efficiency: high-speed, lightweight inference makes running 24/7 continuous avatars economically viable for every student and startup.
+[TA Sarah] Look at the three architectural capability badges at the bottom: 1 Million Token Context Window for ingesting entire codebases, Native Function Calling for seamless API execution, and Unmatched Cost Efficiency allowing 24/7 continuous autonomous execution within a student budget.
 
-[Prof. Peter] Speed, accuracy, and affordability unite to power our persistent cloud avatars.
+[Prof. Peter] When high-speed reasoning unites with robust tool execution, your avatar transforms into an intellectual powerhouse!
 
 ### 🇰🇷 Korean Teaching Guide (강의 가이드)
 - **강의 요약:** Gemini 3.5 Flash의 압도적 성능 지표: 400ms 초저지연, 100만 토큰 컨텍스트, 99.8% 정확도
@@ -593,13 +595,13 @@
 **Subtitle:** Google's purpose-built silicon for massive parallel agentic matrix compute
 
 ### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
-[TA Sarah] Slide 20 explores "HARDWARE INFRASTRUCTURE: TPU V8."
+[TA Sarah] Slide 20 explores "HARDWARE INFRASTRUCTURE: TPU V8: The Silicon Engine of 24/7 Persistent Avatars."
 
-[Prof. Peter] On the left card tagged "LEGACY": "General Compute." Traditional CPUs and older GPUs suffer from high power draw, thermal throttling, and severe memory bandwidth bottlenecks during massive parallel agent execution.
+[Prof. Peter] Let us contrast the hardware architectures on screen. Look at the left card tagged "LEGACY": "General Compute." Traditional server CPUs and older GPU clusters were designed for batch graphics or sequential arithmetic. Under continuous parallel agent workloads, they suffer from extreme power consumption, thermal throttling, and severe memory bandwidth bottlenecks.
 
-[TA Sarah] On the right card tagged "AGENTIC ERA": "Custom TPU Pods." Google's TPU v8 infrastructure provides dedicated matrix multiplication acceleration and optical circuit switching designed specifically for concurrent agent swarms.
+[TA Sarah] Now examine the right card tagged "AGENTIC ERA": "Custom TPU Pods." Google's TPU v8 hardware architecture is purpose-built from the silicon level for sparse matrix multiplication, dynamic token routing, and optical circuit switching. This allows thousands of persistent agent loops to execute concurrently with deterministic latency and ultra-low energy footprint.
 
-[Prof. Peter] Robust hardware infrastructure ensures that your cloud avatars run with predictable low latency and enterprise-grade reliability 365 days a year.
+[Prof. Peter] As an Intelligence Architect, you must understand the entire stack—from the silicon transistors in Google Cloud data centers up to the high-level reasoning abstractions. Solid infrastructure provides the foundation for resilient, sleep-free intelligence.
 
 [TA Sarah] This concludes Module 2! In our final 20-minute module, we will explore workspace integrations, cryptographic security, and life wisdom!
 
@@ -649,15 +651,15 @@
 **Subtitle:** Three core components required to turn a model into an avatar
 
 ### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
-[TA Sarah] Slide 22 breaks down "THE TRIAD OF AGENTIC DESIGN."
+[TA Sarah] Slide 22 breaks down "THE TRIAD OF AGENTIC DESIGN: Memory, Tool Belt, and Guardrail Matrix."
 
-[Prof. Peter] Card 1 is "1. MEMORY ENGINE": Providing the agent with short-term working context and long-term persistent knowledge so it remembers organizational rules across sessions.
+[Prof. Peter] Let us examine Card 1: "1. MEMORY ENGINE." An agent without memory is merely a stateless calculator. Our architecture provides dual-layer memory: ephemeral scratchpad memory for intermediate turn reasoning, and vector-indexed persistent memory stored in Google Drive and SQLite so the avatar retains user preferences and project context across weeks.
 
-[TA Sarah] Card 2 is "2. TOOL BELT": Equipping the agent with clean, standardized API contracts for file operations, web research, code execution, and database queries.
+[TA Sarah] Now examine Card 2: "2. TOOL BELT." We equip our avatar with standardized, schema-validated API interfaces. These include file system readers, Google Workspace connectors, GitHub REST endpoints, and secure Python execution environments, enabling the avatar to turn reasoning into tangible digital actions.
 
-[Prof. Peter] And Card 3 is "3. GUARDRAIL MATRIX": Enforcing schema validation, strict token limits, financial spending caps, and safety filters.
+[Prof. Peter] And look at Card 3: "3. GUARDRAIL MATRIX." An agent with powerful tools but no guardrails is an enterprise liability. The guardrail matrix enforces strict schema verification, token expenditure ceilings, input sanitization, and mandatory human approval gates for irreversible actions.
 
-[TA Sarah] An agent with tools but no guardrails is dangerous. An agent with memory, tools, and guardrails working together is a reliable enterprise partner!
+[TA Sarah] When Memory, Tools, and Guardrails operate in harmony, your personal avatar becomes an indispensable, enterprise-grade collaborator!
 
 ### 🇰🇷 Korean Teaching Guide (강의 가이드)
 - **강의 요약:** 에이전틱 설계의 3요소: 메모리 엔진, 도구 모음(Tool Belt), 가드레일 매트릭스
@@ -677,7 +679,7 @@
 **Subtitle:** Clean folder taxonomy for production-grade agentic environments
 
 ### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
-[Prof. Peter] Slide 23 diagrams our production "SPARK OS DIRECTORY SETUP."
+[Prof. Peter] Slide 23 diagrams our production "SPARK OS DIRECTORY SETUP: Clean Architectural Hierarchy."
 
 [TA Sarah] Look at the standardized directory hierarchy on the screen: /agents stores persona and system prompts; /skills contains modular tool execution scripts; /memory stores vector indexes and persistent logs; and /config holds environment secrets.
 
@@ -703,9 +705,9 @@
 **Subtitle:** Short-term working context vs. long-term persistent knowledge
 
 ### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
-[TA Sarah] Slide 24 explains the "DUAL MEMORY ENGINE."
+[TA Sarah] Slide 24 explains the "DUAL MEMORY ENGINE: Short-Term Working Scratchpad and Long-Term Knowledge Vault."
 
-[Prof. Peter] On the left card tagged "SHORT-TERM": "Working Scratchpad." This is fast, in-context scratchpad memory where the agent records intermediate thoughts, tool responses, and active turn variables.
+[Prof. Peter] On the left card tagged "SHORT-TERM": "Working Scratchpad." This is fast, in-context scratchpad memory where the agent records intermediate thoughts, tool responses, and active turn variables during a single execution session.
 
 [TA Sarah] On the right card tagged "LONG-TERM": "Persistent Knowledge Vault." This is vector-indexed storage stored in markdown files, SQLite databases, and Google Drive, allowing the avatar to recall user preferences across weeks and months.
 
@@ -731,7 +733,7 @@
 **Subtitle:** Connecting the avatar directly to Google Docs, Sheets, Drive, and Gmail
 
 ### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
-[Prof. Peter] Slide 25 diagrams "GOOGLE WORKSPACE INTEGRATION."
+[Prof. Peter] Slide 25 diagrams "GOOGLE WORKSPACE INTEGRATION: Transforming Standard Cloud Apps into an Autonomous Operations Hub."
 
 [TA Sarah] Look at the automated workflow flow: An incoming email arrives in Gmail, triggering a lightweight Google Apps Script webhook. The script passes the email body to Gemini Flash for categorization and draft synthesis, then automatically archives the email and appends a summary row to Google Sheets.
 
@@ -757,7 +759,7 @@
 **Subtitle:** Daily automated financial intelligence report delivered at 6:30 AM
 
 ### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
-[TA Sarah] Slide 26 presents a compelling "REAL-WORLD CASE STUDY: Executive Inbox Triage."
+[TA Sarah] Slide 26 presents a compelling "REAL-WORLD CASE STUDY: Executive Inbox Triage: Reclaiming 15 Hours Every Week."
 
 [Prof. Peter] Look at the left card tagged "BEFORE": "Manual Triage." An executive spends 2.5 hours every single morning manually opening 150 emails, sorting spam, downloading attachments, and drafting routine confirmations.
 
@@ -813,7 +815,7 @@
 **Subtitle:** Preventing runaway API spend and autonomous checkout disasters
 
 ### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
-[TA Sarah] Slide 28 warns about "FINANCIAL RISK: UNCONTROLLED WALLET."
+[TA Sarah] Slide 28 warns about "FINANCIAL RISK: UNCONTROLLED WALLET: Preventing Catastrophic API Overruns."
 
 [Prof. Peter] Look at the left card tagged "VULNERABILITY": "Unbounded API Spending." If an autonomous agent encounters an infinite retry loop or processes a malicious prompt, it could make thousands of recursive API calls and drain thousands of dollars in cloud credits overnight.
 
@@ -839,7 +841,7 @@
 **Subtitle:** The emerging standard for secure, autonomous machine-to-machine commerce
 
 ### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
-[Prof. Peter] Slide 29 outlines "AP2: AGENT PAYMENTS PROTOCOL" across three structured cards.
+[Prof. Peter] Slide 29 outlines "AP2: AGENT PAYMENTS PROTOCOL: Cryptographic Trust for Autonomous Transactions."
 
 [TA Sarah] Card 1 is "1. DUAL AUTHORIZATION": Requiring explicit human approval for any financial transaction or data transfer exceeding predefined dollar thresholds.
 
@@ -921,7 +923,7 @@
 **Subtitle:** How malicious untrusted data attacks LLM instruction pipelines
 
 ### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
-[Prof. Peter] Slide 32 diagrams the critical threat of "PROMPT INJECTION."
+[Prof. Peter] Slide 32 diagrams the critical threat of "PROMPT INJECTION: Defending Against Indirect Attack Vectors."
 
 [TA Sarah] On the left card tagged "ATTACK VECTOR": "Indirect Prompt Injection." An adversary embeds hidden malicious instructions inside a public webpage or email body, attempting to hijack your avatar's reasoning loop.
 
@@ -947,7 +949,7 @@
 **Subtitle:** Immutable hash-chained logging for every autonomous agent action
 
 ### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
-[TA Sarah] Slide 33 details the "CRYPTOGRAPHIC AUDIT TRAIL."
+[TA Sarah] Slide 33 details the "CRYPTOGRAPHIC AUDIT TRAIL: End-to-End Verifiability for Agent Actions."
 
 [Prof. Peter] Look at the 4-step verification pipeline: Action Request -> Signature Verification -> Sandboxed Execution -> Immutable Log Append.
 
@@ -973,7 +975,7 @@
 **Subtitle:** Moving from rogue unvetted scripts to governed agent platforms
 
 ### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
-[Prof. Peter] Slide 34 addresses "SHADOW IT & ENTERPRISE COMPLIANCE."
+[Prof. Peter] Slide 34 addresses "SHADOW IT & ENTERPRISE COMPLIANCE: Securing Corporate Data."
 
 [TA Sarah] On the left card tagged "RISK": "Unsanctioned Copy-Pasting." Untrained employees pasting proprietary source code and confidential customer data into unvetted public AI chatbots.
 
@@ -999,7 +1001,7 @@
 **Subtitle:** The 3 tier governance spectrum for agent operations
 
 ### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
-[TA Sarah] Slide 35 illustrates "BALANCING AUTONOMY AND CONTROL" across our 3-tier governance matrix.
+[TA Sarah] Slide 35 illustrates "BALANCING AUTONOMY AND CONTROL: The 3-Tier Enterprise Governance Matrix."
 
 [Prof. Peter] Look at Card 1: "TIER 1: FULL AUTONOMY." Low-risk, reversible tasks like summarizing documents, tagging emails, and organizing folders run with 100% autonomy.
 
@@ -1027,7 +1029,7 @@
 **Subtitle:** Multi-layered fortress safeguarding model, data, and execution layers
 
 ### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
-[Prof. Peter] Slide 36 diagrams "DEFENSE IN DEPTH FOR AGENTS."
+[Prof. Peter] Slide 36 diagrams "DEFENSE IN DEPTH FOR AGENTS: Layered Security Rings."
 
 [TA Sarah] Look at the three concentric security rings: Ring 1 is Input Sanitization at the boundary; Ring 2 is Runtime Sandboxing during execution; and Ring 3 is Egress Filtering on network calls.
 
@@ -1053,7 +1055,7 @@
 **Subtitle:** How master architects direct specialized multi-agent teams
 
 ### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
-[TA Sarah] Slide 37 portrays "THE SOVEREIGN CONDUCTOR: ORCHESTRATING SWARMS."
+[TA Sarah] Slide 37 portrays "THE SOVEREIGN CONDUCTOR: ORCHESTRATING SWARMS: Orchestrating Autonomous Agent Swarms."
 
 [Prof. Peter] Look at Card 1: The "RESEARCH AGENT" searches documentation, parses PDFs, and verifies factual citations.
 
@@ -1082,7 +1084,7 @@
 **Subtitle:** The definitive governance paradigm: From micromanagement to supervisory oversight
 
 ### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
-[Prof. Peter] Slide 38 clarifies the vital distinction in "HUMAN-ON-THE-LOOP (HOTL)."
+[Prof. Peter] Slide 38 clarifies the vital distinction in "HUMAN-ON-THE-LOOP (HOTL): True Strategic Leverage."
 
 [TA Sarah] On the left card tagged "OLD MODEL": "Human-IN-the-Loop." The human is a painful operational bottleneck, forced to manually click 'Approve' on every trivial step, limiting scale.
 
@@ -1108,7 +1110,7 @@
 **Subtitle:** The ultimate fruit of agentic mastery: Protecting the human soul and family life
 
 ### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
-[TA Sarah] Slide 39 provides deep inspiration for "RECLAIMING OFFLINE FOCUS."
+[TA Sarah] Slide 39 provides deep inspiration for "RECLAIMING OFFLINE FOCUS: Reclaiming Human Life, Family, and Faith."
 
 [Prof. Peter] Look at Card 1: "1. THE DIGITAL SABBATH." Setting aside dedicated days every week completely disconnected from glowing screens and digital notifications.
 
@@ -1136,7 +1138,7 @@
 **Subtitle:** Deploy your first 24/7 background avatar using Gemini 3.5 & Google Apps Script
 
 ### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
-[Prof. Peter] Here we are at Slide 40: "🛠️ HANDS-ON LAB 1 & CONCLUSION."
+[Prof. Peter] Here we are at Slide 40: "🛠️ HANDS-ON LAB 1 & CONCLUSION: Building Your First Sleep-Free Avatar."
 
 [TA Sarah] Look at our three practical lab steps: In Lab Step 1, you will initialize your local Spark OS directory structure; in Lab Step 2, you will deploy the Gemini Flash reasoning pipeline; and in Lab Step 3, you will execute your first asynchronous background workflow!
 

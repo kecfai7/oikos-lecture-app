@@ -1,48 +1,40 @@
 1
-00:00:00,800 --> 00:00:09,390
-Look at Slide 2, our opening Part Divider: "PART 1: THE PARADIGM SHIFT: CHATBOTS TO AVATARS."
+00:00:00,800 --> 00:00:10,230
+We now officially enter Slide 2, our first Part Divider: "PART 1: THE PARADIGM SHIFT: CHATBOTS TO AVATARS."
 
 2
-00:00:10,090 --> 00:00:17,890
-Notice the subtitle centered on our screen: "Soli Deo Gloria: Reclaiming human time from mechanical chatbot waiting loops."
+00:00:10,930 --> 00:00:19,450
+Notice our core subtitle centered prominently on the screen: "Soli Deo Gloria: Reclaiming human time from mechanical chatbot waiting loops."
 
 3
-00:00:18,590 --> 00:00:28,902
-For the past two years, millions of knowledge workers across the globe have spent countless hours staring at blinking AI cursors in web browser tabs.
+00:00:20,150 --> 00:00:29,470
+Sarah, let us reflect on what has happened to millions of software developers, students, and business executives over the past two years.
 
 4
-00:00:28,902 --> 00:00:35,823
-You type a prompt, wait twenty seconds, copy the output, paste it into another tool, and wait again.
+00:00:29,470 --> 00:00:39,880
+People open ten different browser tabs, type prompts into ChatGPT or Claude, and spend half their workday waiting for tokens to stream across the screen.
 
 5
-00:00:35,823 --> 00:00:40,600
-That mechanical waiting loop is an enormous waste of human intellect.
+00:00:40,580 --> 00:00:45,380
+That waiting loop is an enormous bottleneck on human potential, Professor Kim.
 
 6
-00:00:41,300 --> 00:00:42,865
-Exactly, Professor Kim.
+00:00:45,380 --> 00:00:54,980
+It turns creative thinkers into manual data couriers who spend hours transferring text from chat windows into spreadsheets, code editors, and email clients.
 
 7
-00:00:42,865 --> 00:00:48,243
-It traps highly educated professionals in what we call 'human middleware' work.
+00:00:55,680 --> 00:01:01,984
+In this opening 20-minute module, we deconstruct why the reactive chatbot model fails at scale.
 
 8
-00:00:48,243 --> 00:00:55,870
-Instead of directing high-level strategy, people become manual data couriers between different web applications.
+00:01:01,984 --> 00:01:13,200
+We explore the architectural principles required to transition from synchronous human waiting to asynchronous, proactive personal avatars that run headless in the cloud.
 
 9
-00:00:56,570 --> 00:01:01,037
-In this first 20-minute module, we dismantle that reactive model.
+00:01:13,900 --> 00:01:24,050
+When you master this paradigm shift, you will no longer write software with a single keyboard; you will architect autonomous swarms that multiply your intellectual reach a hundredfold.
 
 10
-00:01:01,037 --> 00:01:11,140
-We explore how autonomous personal avatars work asynchronously in the background, executing multi-step business and research tasks while you sleep.
-
-11
-00:01:11,840 --> 00:01:19,258
-When you understand this paradigm shift, your perspective on software development and productivity will change forever.
-
-12
-00:01:19,258 --> 00:01:22,500
-Let us click "Entering Next Phase" and begin Part 1!
+00:01:24,750 --> 00:01:31,590
+Let us click "Entering Next Phase" and dive straight into the foundational philosophy of Part 1!
 

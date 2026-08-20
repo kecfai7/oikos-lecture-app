@@ -3,34 +3,34 @@
 Slide 5 is titled "A LETTER FROM THE FUTURE: From childhood dreams to 2026 reality."
 
 2
-00:00:08,840 --> 00:00:23,170
-Look at the left card tagged "THE DREAM": "Childhood Wish." When we were young students, almost everyone had that classic fantasy: "What if I had a digital twin or a clone of myself who could do all my homework and tidy my room while I go outside to play?"
+00:00:08,840 --> 00:00:25,880
+Look at the left card tagged "THE DREAM": "Childhood Wish." When we were young students in school, almost everyone shared that classic fantasy: "What if I had a twin or a clone of myself who could sit at my desk, do all my math homework, and clean my bedroom while I go outside to play with my friends?"
 
 3
-00:00:23,870 --> 00:00:27,216
-It was a universal dream of delegation.
+00:00:26,580 --> 00:00:31,610
+It was a universal human desire for delegation and leverage.
 
 4
-00:00:27,216 --> 00:00:39,313
+00:00:31,610 --> 00:00:43,432
 And now, look at the right card tagged "THE REALITY": "2026 Autonomous Avatar." In 2026, that childhood fantasy is no longer science fiction.
 
 5
-00:00:39,313 --> 00:00:43,260
+00:00:43,432 --> 00:00:47,290
 It is working production software engineering!
 
 6
-00:00:43,960 --> 00:00:49,311
+00:00:47,990 --> 00:00:53,224
 Today, an Intelligence Architect can deploy a persistent digital twin in the cloud.
 
 7
-00:00:49,311 --> 00:00:59,820
-While you are sleeping, your avatar parses incoming project logs, synthesizes executive research briefings, drafts client replies, and organizes your Google Drive.
+00:00:53,224 --> 00:01:05,650
+While you are resting or spending time with family, your avatar parses incoming project logs, synthesizes executive research briefings, drafts client replies, and organizes your Google Drive files.
 
 8
-00:01:00,520 --> 00:01:09,119
-When you wake up at 7 AM, your digital twin presents a completed 1-page executive summary of everything accomplished overnight.
+00:01:06,350 --> 00:01:14,954
+When you sit down at your desk in the morning, your digital twin presents a completed 1-page briefing of everything accomplished overnight.
 
 9
-00:01:09,119 --> 00:01:12,640
-That is the leverage we are building in this course.
+00:01:14,954 --> 00:01:18,730
+That is the tangible leverage we are building in this course.
 

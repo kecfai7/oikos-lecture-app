@@ -19,10 +19,10 @@ In the morning, you receive a perfectly synthesized, verifiable report ready for
 The human transforms from an exhausted manual laborer into a sovereign director.
 
 6
-00:00:50,730 --> 00:00:52,254
-This concludes Module 1!
+00:00:50,730 --> 00:00:53,390
+This concludes our first 20-minute module!
 
 7
-00:00:52,254 --> 00:00:59,370
-In the next 20 minutes, we will dive deep under the hood into the engineering mechanics of autonomous reasoning!
+00:00:53,390 --> 00:01:00,040
+In Module 2, we will dive deep under the hood into the computational engineering of autonomous reasoning!
 

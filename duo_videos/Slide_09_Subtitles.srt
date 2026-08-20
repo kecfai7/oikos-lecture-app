@@ -3,22 +3,22 @@
 Slide 9 analyzes "YESTERDAY: REACTIVE CHATBOTS."
 
 2
-00:00:06,760 --> 00:00:22,720
-On the left card, tagged "THE BOTTLENECK", we examine "Human as Middleware." For the last few years, whenever companies tried to implement AI, the human worker was forced to act as the physical bridge between ChatGPT, Google Docs, Slack, and email.
+00:00:06,760 --> 00:00:23,390
+On the left card, tagged "THE BOTTLENECK", we examine "Human as Middleware." For the last few years, whenever companies tried to implement AI, the human worker was forced to act as the physical bridge between ChatGPT, Google Docs, Slack, and email inboxes.
 
 3
-00:00:23,420 --> 00:00:40,680
-Look at the right card tagged "THE COST": "High Latency & Fatigue." Because every single transaction required human attention, professionals experienced massive cognitive fatigue, constant context switching, and high error rates from manual typing.
+00:00:24,090 --> 00:00:41,920
+Look at the right card tagged "THE COST": "High Latency & Fatigue." Because every single transaction required continuous human attention, professionals experienced massive cognitive fatigue, constant context switching, and high error rates from manual typing.
 
 4
-00:00:41,380 --> 00:00:49,180
-When you have to switch browser tabs 50 times an hour to copy-paste data, your brain cannot engage in deep creative problem solving.
+00:00:42,620 --> 00:00:51,960
+When you have to switch browser tabs 50 times an hour to copy-paste data, your brain cannot engage in deep creative problem solving or philosophical reflection.
 
 5
-00:00:49,880 --> 00:00:55,225
-Chatbots gave us great answers, but they left us chained to the keyboard.
+00:00:52,660 --> 00:00:58,205
+Chatbots gave us great text answers, but they left us chained to the keyboard.
 
 6
-00:00:55,225 --> 00:00:58,520
-That is the limitation we are breaking today.
+00:00:58,205 --> 00:01:02,400
+That is the mechanical bottleneck we are dismantling today.
 
