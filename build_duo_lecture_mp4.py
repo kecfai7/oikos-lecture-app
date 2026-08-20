@@ -268,15 +268,21 @@ async def build_slide_video(slide_data, page=None, session_id=1):
             ]
             subprocess.run(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
-    # 5. Render 1080p MP4 Video
+    # 5. Render 1080p MP4 Video with Permanent Burned-In Subtitles
     out_video_path = os.path.join(OUTPUT_DIR, f"Session{session_id}_Slide_{slide_num:02d}_DuoLecture.mp4")
+    
+    # Format SRT path for FFmpeg subtitles filter on Windows
+    clean_srt_path = srt_path.replace("\\", "/").replace(":", "\\:")
+    subtitle_filter = f"subtitles='{clean_srt_path}':force_style='FontSize=22,Fontname=Arial,PrimaryColour=&H00FFFFFF,OutlineColour=&H00000000,BackColour=&H90000000,BorderStyle=4,MarginV=30'"
     
     cmd_encode = [
         FFMPEG_EXE, "-y",
         "-loop", "1",
         "-i", img_path,
         "-i", merged_audio_path,
+        "-vf", subtitle_filter,
         "-c:v", "libx264",
+        "-preset", "fast",
         "-tune", "stillimage",
         "-c:a", "aac",
         "-b:a", "192k",
@@ -286,7 +292,7 @@ async def build_slide_video(slide_data, page=None, session_id=1):
         out_video_path
     ]
     
-    print(f"  ⚡ Encoding 1080p MP4...")
+    print(f"  ⚡ Encoding 1080p MP4 with Burned-In Subtitles...")
     subprocess.run(cmd_encode, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     
     if os.path.exists(out_video_path):
