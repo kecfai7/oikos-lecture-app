@@ -1,32 +1,20 @@
 1
-00:00:00,800 --> 00:00:13,570
-Slide 13 illustrates "SCALING HUMAN ATTENTION: The 100X Productivity Multiplier." Look at the centerpiece metric displayed prominently on our screen: "100X."
+00:00:00,800 --> 00:00:14,340
+Slide 13 illustrates "SCALING HUMAN ATTENTION: How one architect directs multiple autonomous background swarms." Notice the three vital scaling ratios displayed across our screen.
 
 2
-00:00:14,270 --> 00:00:26,318
-Notice the stat label underneath: "Attention Multiplier." In traditional manual engineering, an engineer can only focus on one terminal window, one document, or one pull request at a time.
+00:00:15,040 --> 00:00:29,660
+Look at Card 1 on the left: "1 : 1 - CHATBOT RATIO." Description: "1 human tethered to 1 prompt." In the old reactive paradigm, your productivity is strictly bound 1-to-1 with your physical presence at the keyboard.
 
 3
-00:00:26,318 --> 00:00:34,650
-If you want to scale output, you are forced to work longer hours or hire more personnel, leading to severe communication overhead.
+00:00:30,360 --> 00:00:50,110
+Now look at Card 2 in the center: "1 : 50 - ARCHITECT RATIO." Description: "1 architect supervising 50 swarms." As an Intelligence Architect, you orchestrate specialized agent swarms that operate concurrently across research, code generation, and testing.
 
 4
-00:00:35,350 --> 00:00:40,786
-But when you master agentic architecture, you step into the role of a conductor.
+00:00:50,810 --> 00:01:07,010
+And look at Card 3 on the right: "24 / 7 - UPTIME CAPACITY." Description: "Zero fatigue, continuous uptime." Your cloud avatars execute background loops with zero cognitive exhaustion, maintaining continuous operational momentum.
 
 5
-00:00:40,786 --> 00:00:57,570
-By deploying an autonomous swarm of 10 specialized agents—each operating with sub-second latency across distinct domains like static analysis, security auditing, and test generation—your strategic oversight is amplified by two orders of magnitude!
-
-6
-00:00:58,270 --> 00:01:06,190
-Look at the key takeaway card at the bottom: You do not scale your impact by working 80 hours a week or sacrificing your family and sleep.
-
-7
-00:01:06,190 --> 00:01:13,250
-You scale by architecting intelligent systems that handle execution while you provide high-level vision and moral guidance.
-
-8
-00:01:13,950 --> 00:01:21,890
-That is how Soli Deo Gloria transforms engineering productivity into sustainable, life-giving human wisdom!
+00:01:07,710 --> 00:01:16,810
+This is how Soli Deo Gloria elevates human capacity—redeeming our finite time through scalable, sleep-free intelligence!
 

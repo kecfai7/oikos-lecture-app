@@ -1,24 +1,40 @@
 1
-00:00:00,800 --> 00:00:05,460
-Slide 20 explores "HARDWARE INFRASTRUCTURE: TPU V8."
+00:00:00,800 --> 00:00:08,890
+Slide 20 explores "HARDWARE INFRASTRUCTURE: TPU V8: The Silicon Engine of 24/7 Persistent Avatars."
 
 2
-00:00:06,160 --> 00:00:21,980
-On the left card tagged "LEGACY": "General Compute." Traditional CPUs and older GPUs suffer from high power draw, thermal throttling, and severe memory bandwidth bottlenecks during massive parallel agent execution.
+00:00:09,590 --> 00:00:13,441
+Let us contrast the hardware architectures on screen.
 
 3
-00:00:22,680 --> 00:00:37,560
-On the right card tagged "AGENTIC ERA": "Custom TPU Pods." Google's TPU v8 infrastructure provides dedicated matrix multiplication acceleration and optical circuit switching designed specifically for concurrent agent swarms.
+00:00:13,441 --> 00:00:25,286
+Look at the left card tagged "LEGACY": "General Compute." Traditional server CPUs and older GPU clusters were designed for batch graphics or sequential arithmetic.
 
 4
-00:00:38,260 --> 00:00:48,840
-Robust hardware infrastructure ensures that your cloud avatars run with predictable low latency and enterprise-grade reliability 365 days a year.
+00:00:25,286 --> 00:00:35,970
+Under continuous parallel agent workloads, they suffer from extreme power consumption, thermal throttling, and severe memory bandwidth bottlenecks.
 
 5
-00:00:49,540 --> 00:00:51,271
-This concludes Module 2!
+00:00:36,670 --> 00:00:51,689
+Now examine the right card tagged "AGENTIC ERA": "Custom TPU Pods." Google's TPU v8 hardware architecture is purpose-built from the silicon level for sparse matrix multiplication, dynamic token routing, and optical circuit switching.
 
 6
-00:00:51,271 --> 00:00:59,280
+00:00:51,689 --> 00:01:00,070
+This allows thousands of persistent agent loops to execute concurrently with deterministic latency and ultra-low energy footprint.
+
+7
+00:01:00,770 --> 00:01:12,185
+As an Intelligence Architect, you must understand the entire stack—from the silicon transistors in Google Cloud data centers up to the high-level reasoning abstractions.
+
+8
+00:01:12,185 --> 00:01:17,860
+Solid infrastructure provides the foundation for resilient, sleep-free intelligence.
+
+9
+00:01:18,560 --> 00:01:20,291
+This concludes Module 2!
+
+10
+00:01:20,291 --> 00:01:28,300
 In our final 20-minute module, we will explore workspace integrations, cryptographic security, and life wisdom!
 

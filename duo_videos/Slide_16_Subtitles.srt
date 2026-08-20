@@ -1,24 +1,28 @@
 1
-00:00:00,800 --> 00:00:05,380
-Slide 16 is our Part Divider: "TRANSITION TO ENGINEERING."
+00:00:00,800 --> 00:00:08,790
+Slide 16 is our Part Divider: "TRANSITION TO ENGINEERING: Moving from Conceptual Frameworks to Production Architectures."
 
 2
-00:00:06,080 --> 00:00:12,220
-Subtitle: "Moving from conceptual understanding to production agent implementation."
+00:00:09,490 --> 00:00:26,650
+Notice our subtitle centered on screen: "Moving from conceptual understanding to production agent implementation." Sarah, now that our students understand the profound necessity of reclaiming human focus, we must equip them with the exact architectural blueprints.
 
 3
-00:00:12,920 --> 00:00:18,646
-We have established the philosophical foundation and analyzed the workplace bottlenecks.
+00:00:27,350 --> 00:00:29,138
+That's right, Professor Kim.
 
 4
-00:00:18,646 --> 00:00:26,650
-Now, in the heart of our second module, we inspect the exact architectural diagrams, directory setups, and code structures.
+00:00:29,138 --> 00:00:42,490
+In this core engineering section, we will inspect the foundational three-layer engine, examine directory structures, study dual-memory mechanics, and connect Google Workspace APIs with zero server maintenance.
 
 5
-00:00:27,350 --> 00:00:35,359
-Put on your engineering hats as we examine the 3-layer pipeline that powers production-grade personal avatars.
+00:00:43,190 --> 00:00:47,696
+If you only understand the theory of AI, you remain a spectator.
 
 6
-00:00:35,359 --> 00:00:37,690
-Let's enter the engineering lab!
+00:00:47,696 --> 00:00:58,330
+But when you master asynchronous event pipelines, tool-calling schemas, and state persistence, you become an active Builder and Intelligence Architect.
+
+7
+00:00:59,030 --> 00:01:05,170
+Let us click "Entering Next Phase" and dissect the inner mechanics of the 3-Layer Spark Pipeline!
 

@@ -1,36 +1,44 @@
 1
-00:00:00,800 --> 00:00:04,830
-Slide 22 breaks down "THE TRIAD OF AGENTIC DESIGN."
+00:00:00,800 --> 00:00:07,710
+Slide 22 breaks down "THE TRIAD OF AGENTIC DESIGN: Memory, Tool Belt, and Guardrail Matrix."
 
 2
-00:00:05,530 --> 00:00:06,730
-Card 1 is "1.
+00:00:08,410 --> 00:00:10,323
+Let us examine Card 1: "1.
 
 3
-00:00:06,730 --> 00:00:17,790
-MEMORY ENGINE": Providing the agent with short-term working context and long-term persistent knowledge so it remembers organizational rules across sessions.
+00:00:10,323 --> 00:00:15,695
+MEMORY ENGINE." An agent without memory is merely a stateless calculator.
 
 4
-00:00:18,490 --> 00:00:19,690
-Card 2 is "2.
+00:00:15,695 --> 00:00:34,020
+Our architecture provides dual-layer memory: ephemeral scratchpad memory for intermediate turn reasoning, and vector-indexed persistent memory stored in Google Drive and SQLite so the avatar retains user preferences and project context across weeks.
 
 5
-00:00:19,690 --> 00:00:30,300
-TOOL BELT": Equipping the agent with clean, standardized API contracts for file operations, web research, code execution, and database queries.
+00:00:34,720 --> 00:00:36,370
+Now examine Card 2: "2.
 
 6
-00:00:31,000 --> 00:00:32,582
-And Card 3 is "3.
+00:00:36,370 --> 00:00:42,325
+TOOL BELT." We equip our avatar with standardized, schema-validated API interfaces.
 
 7
-00:00:32,582 --> 00:00:43,100
-GUARDRAIL MATRIX": Enforcing schema validation, strict token limits, financial spending caps, and safety filters.
+00:00:42,325 --> 00:00:56,460
+These include file system readers, Google Workspace connectors, GitHub REST endpoints, and secure Python execution environments, enabling the avatar to turn reasoning into tangible digital actions.
 
 8
-00:00:43,800 --> 00:00:47,236
-An agent with tools but no guardrails is dangerous.
+00:00:57,160 --> 00:00:59,013
+And look at Card 3: "3.
 
 9
-00:00:47,236 --> 00:00:53,570
-An agent with memory, tools, and guardrails working together is a reliable enterprise partner!
+00:00:59,013 --> 00:01:06,509
+GUARDRAIL MATRIX." An agent with powerful tools but no guardrails is an enterprise liability.
+
+10
+00:01:06,509 --> 00:01:19,890
+The guardrail matrix enforces strict schema verification, token expenditure ceilings, input sanitization, and mandatory human approval gates for irreversible actions.
+
+11
+00:01:20,590 --> 00:01:28,870
+When Memory, Tools, and Guardrails operate in harmony, your personal avatar becomes an indispensable, enterprise-grade collaborator!
 

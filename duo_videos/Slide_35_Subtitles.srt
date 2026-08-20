@@ -1,20 +1,20 @@
 1
-00:00:00,800 --> 00:00:07,350
-Slide 35 illustrates "BALANCING AUTONOMY AND CONTROL" across our 3-tier governance matrix.
+00:00:00,800 --> 00:00:07,760
+Slide 35 illustrates "BALANCING AUTONOMY AND CONTROL: The 3-Tier Enterprise Governance Matrix."
 
 2
-00:00:08,050 --> 00:00:22,070
+00:00:08,460 --> 00:00:22,480
 Look at Card 1: "TIER 1: FULL AUTONOMY." Low-risk, reversible tasks like summarizing documents, tagging emails, and organizing folders run with 100% autonomy.
 
 3
-00:00:22,770 --> 00:00:35,250
+00:00:23,180 --> 00:00:35,660
 Look at Card 2: "TIER 2: NOTIFY & LOG." Medium-risk tasks like drafting client emails or creating calendar invites execute automatically but notify the user with an undo option.
 
 4
-00:00:35,950 --> 00:00:50,370
+00:00:36,360 --> 00:00:50,780
 And look at Card 3: "TIER 3: STRICT HUMAN APPROVAL." High-risk actions like financial transactions, database deletions, or code deployments require explicit human cryptographic sign-off.
 
 5
-00:00:51,070 --> 00:00:57,000
+00:00:51,480 --> 00:00:57,410
 This 3-tier matrix eliminates catastrophic risks while preserving massive operational speed!
 

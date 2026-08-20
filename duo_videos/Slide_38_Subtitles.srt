@@ -1,16 +1,16 @@
 1
-00:00:00,800 --> 00:00:07,330
-Slide 38 clarifies the vital distinction in "HUMAN-ON-THE-LOOP (HOTL)."
+00:00:00,800 --> 00:00:08,720
+Slide 38 clarifies the vital distinction in "HUMAN-ON-THE-LOOP (HOTL): True Strategic Leverage."
 
 2
-00:00:08,030 --> 00:00:19,170
+00:00:09,420 --> 00:00:20,560
 On the left card tagged "OLD MODEL": "Human-IN-the-Loop." The human is a painful operational bottleneck, forced to manually click 'Approve' on every trivial step, limiting scale.
 
 3
-00:00:19,870 --> 00:00:34,200
+00:00:21,260 --> 00:00:35,590
 On the right card tagged "NEW MODEL": "Human-ON-the-Loop." The agent swarm executes autonomously at scale while the human supervises high-level telemetry, setting policy goals and handling exceptions.
 
 4
-00:00:34,900 --> 00:00:42,939
+00:00:36,290 --> 00:00:44,329
 Human-on-the-loop oversight gives you infinite operational leverage while maintaining 100% human ethical accountability and control!
 

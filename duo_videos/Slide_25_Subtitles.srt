@@ -1,24 +1,24 @@
 1
-00:00:00,800 --> 00:00:05,860
-Slide 25 diagrams "GOOGLE WORKSPACE INTEGRATION."
+00:00:00,800 --> 00:00:10,020
+Slide 25 diagrams "GOOGLE WORKSPACE INTEGRATION: Transforming Standard Cloud Apps into an Autonomous Operations Hub."
 
 2
-00:00:06,560 --> 00:00:14,216
+00:00:10,720 --> 00:00:18,376
 Look at the automated workflow flow: An incoming email arrives in Gmail, triggering a lightweight Google Apps Script webhook.
 
 3
-00:00:14,216 --> 00:00:24,630
+00:00:18,376 --> 00:00:28,790
 The script passes the email body to Gemini Flash for categorization and draft synthesis, then automatically archives the email and appends a summary row to Google Sheets.
 
 4
-00:00:25,330 --> 00:00:32,224
+00:00:29,490 --> 00:00:36,384
 Notice that this entire workflow runs serverlessly inside Google's enterprise cloud infrastructure.
 
 5
-00:00:32,224 --> 00:00:38,840
+00:00:36,384 --> 00:00:43,000
 You do not need to manage expensive dedicated servers or configure complex Kubernetes clusters.
 
 6
-00:00:39,540 --> 00:00:44,960
+00:00:43,700 --> 00:00:49,120
 It transforms standard office tools into an autonomous, intelligent operations hub!
 

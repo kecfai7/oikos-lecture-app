@@ -1,3 +1,4 @@
+file 'c:/Oikos Univ/duo_videos/Session1_Slide_13_DuoLecture.mp4'
 file 'c:/Oikos Univ/duo_videos/Session1_Slide_14_DuoLecture.mp4'
 file 'c:/Oikos Univ/duo_videos/Session1_Slide_15_DuoLecture.mp4'
 file 'c:/Oikos Univ/duo_videos/Session1_Slide_16_DuoLecture.mp4'

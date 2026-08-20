@@ -1,24 +1,28 @@
 1
-00:00:00,800 --> 00:00:11,310
-Slide 19 highlights "THE GEMINI 3.5 FLASH BRAIN." Notice the centerpiece metric: "< 250 MS."
+00:00:00,800 --> 00:00:13,620
+Slide 19 highlights "THE GEMINI 3.5 FLASH BRAIN: High-Speed Multi-Modal Reasoning Engine." Look at our centerpiece metric: "< 250 MS."
 
 2
-00:00:12,010 --> 00:00:23,720
-Stat label: "Sub-Second Reasoning Latency." For an autonomous agent to execute complex multi-step reasoning, it needs a brain that is both ultra-fast and intellectually capable.
+00:00:14,320 --> 00:00:24,482
+The stat label below reads: "Sub-Second Reasoning Latency." For an autonomous agent to execute dynamic multi-step planning loops, reasoning speed is paramount.
 
 3
-00:00:24,420 --> 00:00:33,344
-Gemini 3.5 Flash delivers full multi-modal understanding and tool calling with sub-250 millisecond response times.
+00:00:24,482 --> 00:00:32,920
+If each turn takes 10 seconds, a 6-step planning and tool-verification cycle takes over a minute, breaking real-time responsiveness.
 
 4
-00:00:33,344 --> 00:00:40,860
-This means an agent can execute a 10-step planning and verification loop in less than 3 seconds!
+00:00:33,620 --> 00:00:46,294
+Gemini 3.5 Flash solves this bottleneck by delivering full multi-modal comprehension, complex structured JSON output, and native function calling in under 250 milliseconds!
 
 5
-00:00:41,560 --> 00:00:52,120
-Below the metric, notice the cost efficiency: high-speed, lightweight inference makes running 24/7 continuous avatars economically viable for every student and startup.
+00:00:46,294 --> 00:00:54,400
+This unprecedented speed allows our cloud avatars to execute recursive reasoning loops almost instantaneously.
 
 6
-00:00:52,820 --> 00:00:59,610
-Speed, accuracy, and affordability unite to power our persistent cloud avatars.
+00:00:55,100 --> 00:01:12,790
+Look at the three architectural capability badges at the bottom: 1 Million Token Context Window for ingesting entire codebases, Native Function Calling for seamless API execution, and Unmatched Cost Efficiency allowing 24/7 continuous autonomous execution within a student budget.
+
+7
+00:01:13,490 --> 00:01:21,820
+When high-speed reasoning unites with robust tool execution, your avatar transforms into an intellectual powerhouse!
 

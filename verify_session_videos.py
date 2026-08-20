@@ -115,23 +115,23 @@ def run_verification(session_id=1):
     print("-" * 115)
     print(f"📈 Total 40 Slides Cumulative Duration: {format_time_str(total_slide_duration)} ({total_slide_duration/60:.2f} minutes)\n")
 
-    # 2. Check 3x 20-Min Part Split Videos
+    # 2. Check 3x 20-Min Part Split Videos with Learning Continuity Bridge
     print("=" * 80)
-    print("🎞️ 3x 20-MINUTE MODULE SPLIT VERIFICATION")
+    print("🎞️ 3x 20-MINUTE MODULE SPLIT (WITH LEARNING CONTINUITY BRIDGES)")
     print("=" * 80)
     
     parts_config = [
-        ("Part 1: Foundations", f"Session{session_id}_Part1_20Min_Foundations.mp4", 1, 13),
-        ("Part 2: Engineering", f"Session{session_id}_Part2_20Min_Engineering.mp4", 14, 26),
-        ("Part 3: Governance & Lab", f"Session{session_id}_Part3_20Min_Governance_and_Lab.mp4", 27, 40)
+        ("Part 1: Foundations", f"Session{session_id}_Part1_20Min_Foundations.mp4", "Slides 01~13"),
+        ("Part 2: Engineering", f"Session{session_id}_Part2_20Min_Engineering.mp4", "Slide 13 (Recap Bridge) + Slides 14~26"),
+        ("Part 3: Governance & Lab", f"Session{session_id}_Part3_20Min_Governance_and_Lab.mp4", "Slide 26 (Recap Bridge) + Slides 27~40")
     ]
 
-    for part_label, filename, start_s, end_s in parts_config:
+    for part_label, filename, desc in parts_config:
         filepath = os.path.join(OUTPUT_DIR, filename)
         if os.path.exists(filepath) and os.path.getsize(filepath) > 1000:
             dur = get_media_duration_sec(filepath)
             size_mb = os.path.getsize(filepath) / (1024 * 1024)
-            print(f"  🎬 [{part_label}] (Slides {start_s:02d}~{end_s:02d}):")
+            print(f"  🎬 [{part_label}] ({desc}):")
             print(f"     File: {filename}")
             print(f"     Duration: {format_time_str(dur)} ({dur/60:.2f} mins) | Size: {size_mb:.2f} MB | Status: ✅ READY")
         else:

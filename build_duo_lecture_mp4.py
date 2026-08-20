@@ -319,23 +319,39 @@ async def build_slide_video(slide_data, page=None, session_id=1):
         return out_video_path
     return None
 
-async def build_master_concatenation(video_paths, session_id=1):
+async def build_master_concatenation(video_paths=None, session_id=1):
+    # If video_paths is not provided or incomplete, auto-discover all slide videos in directory
+    if not video_paths:
+        video_paths = []
+        for i in range(1, 41):
+            vp = os.path.join(OUTPUT_DIR, f"Session{session_id}_Slide_{i:02d}_DuoLecture.mp4")
+            if os.path.exists(vp):
+                video_paths.append(vp)
+    
     if not video_paths:
         return
     
-    # 1. 3x 20-Minute Split Parts
+    # 1. 3x 20-Minute Split Parts with Learning Continuity Bridge:
+    # - Part 1: Slides 01 ~ 13
+    # - Part 2: Slide 13 (Recap & Bridge from Part 1) + Slides 14 ~ 26
+    # - Part 3: Slide 26 (Recap & Bridge from Part 2) + Slides 27 ~ 40
     parts_config = [
-        ("Part1_20Min_Foundations", 1, 13),
-        ("Part2_20Min_Engineering", 14, 26),
-        ("Part3_20Min_Governance_and_Lab", 27, 40)
+        ("Part1_20Min_Foundations", list(range(1, 14)), "Slides 01~13"),
+        ("Part2_20Min_Engineering", [13] + list(range(14, 27)), "Slide 13 (Recap Bridge) + Slides 14~26"),
+        ("Part3_20Min_Governance_and_Lab", [26] + list(range(27, 41)), "Slide 26 (Recap Bridge) + Slides 27~40")
     ]
     
     print(f"\n=======================================================")
-    print(f"🎞️ Generating 3x 20-Minute Split Videos & Full 60-Minute Master Video...")
+    print(f"🎞️ Generating 3x 20-Minute Split Videos with Learning Continuity...")
     print(f"=======================================================")
     
-    for part_name, start_s, end_s in parts_config:
-        part_vpaths = [v for v in video_paths if any(f"Slide_{s:02d}_" in v for s in range(start_s, end_s + 1))]
+    for part_name, slide_nums, desc in parts_config:
+        part_vpaths = []
+        for num in slide_nums:
+            vp = os.path.join(OUTPUT_DIR, f"Session{session_id}_Slide_{num:02d}_DuoLecture.mp4")
+            if os.path.exists(vp):
+                part_vpaths.append(vp)
+                
         if part_vpaths:
             concat_txt = os.path.join(OUTPUT_DIR, f"concat_session{session_id}_{part_name}.txt")
             with open(concat_txt, "w", encoding="utf-8") as f:
@@ -347,12 +363,18 @@ async def build_master_concatenation(video_paths, session_id=1):
             subprocess.run(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
             if os.path.exists(part_video_path):
                 size_mb = os.path.getsize(part_video_path) / (1024 * 1024)
-                print(f"  🎬 Created 20-Minute Video: {part_video_path} ({size_mb:.2f} MB)")
+                print(f"  🎬 Created Module: {os.path.basename(part_video_path)} ({desc} | {size_mb:.2f} MB)")
                 
-    # 2. Full 60-Minute Master Video
+    # 2. Full 60-Minute Master Video (Slides 01 ~ 40 sequential)
+    ordered_master_vpaths = []
+    for i in range(1, 41):
+        vp = os.path.join(OUTPUT_DIR, f"Session{session_id}_Slide_{i:02d}_DuoLecture.mp4")
+        if os.path.exists(vp):
+            ordered_master_vpaths.append(vp)
+            
     master_concat_txt = os.path.join(OUTPUT_DIR, f"master_video_concat_session{session_id}.txt")
     with open(master_concat_txt, "w", encoding="utf-8") as f:
-        for v in video_paths:
+        for v in ordered_master_vpaths:
             clean_v = v.replace("\\", "/")
             f.write(f"file '{clean_v}'\n")
             

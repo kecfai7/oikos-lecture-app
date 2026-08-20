@@ -1,36 +1,40 @@
 1
-00:00:00,800 --> 00:00:03,659
+00:00:00,800 --> 00:00:03,200
 Slide 18 contrasts "SYNCHRONOUS VS.
 
 2
-00:00:03,659 --> 00:00:05,620
-ASYNCHRONOUS" execution.
+00:00:03,200 --> 00:00:07,040
+ASYNCHRONOUS: Eliminating the Human Waiting Bottleneck."
 
 3
-00:00:06,320 --> 00:00:16,737
-On the left card tagged "BLOCKING", we see "Synchronous Execution." In a synchronous model, every API request blocks the main thread.
+00:00:07,740 --> 00:00:19,571
+Look at the left card tagged "BLOCKING": "Synchronous Execution." In a traditional synchronous architecture, every single operation blocks the execution thread.
 
 4
-00:00:16,737 --> 00:00:25,040
-If a database query or web scrape takes 45 seconds, the human user is frozen staring at a loading spinner.
+00:00:19,571 --> 00:00:32,141
+When a user requests a complex multi-file codebase analysis or a large document translation, the entire UI freezes, and the human is trapped staring at a loading spinner.
 
 5
-00:00:25,740 --> 00:00:34,048
-Now look at the right card tagged "NON-BLOCKING": "Asynchronous Pipeline." When an event occurs, it is pushed to a background event queue.
+00:00:32,141 --> 00:00:36,800
+If a network timeout occurs at second 45, the entire job fails.
 
 6
-00:00:34,048 --> 00:00:40,550
-The agent processes it independently in the cloud and notifies you only when the finished artifact is ready.
+00:00:37,500 --> 00:00:50,766
+Now examine the right card tagged "NON-BLOCKING": "Asynchronous Pipeline." In our modern Spark OS design, every incoming task is immediately acknowledged with a cryptographic job receipt and pushed to an event-driven task queue.
 
 7
-00:00:41,250 --> 00:00:46,201
-Asynchronous architecture is the vital secret of sleep-free computing.
+00:00:50,766 --> 00:00:59,960
+The human user is instantly liberated to resume high-level strategic thinking, while the headless worker in the cloud processes the payload in the background.
 
 8
-00:00:46,201 --> 00:00:51,790
-It frees the human from waiting loops and allows systems to scale horizontally.
+00:01:00,660 --> 00:01:09,631
+When the background agent completes its multi-step verification loop, it updates the state database and sends a high-signal notification.
 
 9
-00:00:52,490 --> 00:00:57,410
-Always design your agent workflows with non-blocking, event-driven queues!
+00:01:09,631 --> 00:01:18,080
+Asynchronous architecture is the secret behind sleep-free computing—it scales linearly without increasing human cognitive burden.
+
+10
+00:01:18,780 --> 00:01:26,290
+In your Hands-On Lab assignments, make sure every long-running tool call is decoupled through non-blocking asynchronous event handlers!
 

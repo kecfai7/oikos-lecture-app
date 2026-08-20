@@ -1,16 +1,16 @@
 1
-00:00:00,800 --> 00:00:05,890
-Slide 36 diagrams "DEFENSE IN DEPTH FOR AGENTS."
+00:00:00,800 --> 00:00:07,590
+Slide 36 diagrams "DEFENSE IN DEPTH FOR AGENTS: Layered Security Rings."
 
 2
-00:00:06,590 --> 00:00:18,830
+00:00:08,290 --> 00:00:20,530
 Look at the three concentric security rings: Ring 1 is Input Sanitization at the boundary; Ring 2 is Runtime Sandboxing during execution; and Ring 3 is Egress Filtering on network calls.
 
 3
-00:00:19,530 --> 00:00:30,740
+00:00:21,230 --> 00:00:32,440
 Even if a sophisticated attacker manages to bypass Ring 1, the sandboxed environment prevents system takeover, and egress filtering blocks unauthorized data leaks.
 
 4
-00:00:31,440 --> 00:00:37,010
+00:00:33,140 --> 00:00:38,710
 Layered defense ensures that your personal avatar remains an unbreachable digital fortress!
 

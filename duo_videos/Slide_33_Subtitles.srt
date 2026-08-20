@@ -1,20 +1,20 @@
 1
-00:00:00,800 --> 00:00:04,760
-Slide 33 details the "CRYPTOGRAPHIC AUDIT TRAIL."
+00:00:00,800 --> 00:00:07,500
+Slide 33 details the "CRYPTOGRAPHIC AUDIT TRAIL: End-to-End Verifiability for Agent Actions."
 
 2
-00:00:05,460 --> 00:00:15,850
+00:00:08,200 --> 00:00:18,590
 Look at the 4-step verification pipeline: Action Request -> Signature Verification -> Sandboxed Execution -> Immutable Log Append.
 
 3
-00:00:16,550 --> 00:00:25,720
+00:00:19,290 --> 00:00:28,460
 Every decision made by your avatar is signed with private cryptographic keys, executed in an isolated sandbox, and recorded to an immutable log.
 
 4
-00:00:26,420 --> 00:00:32,265
+00:00:29,160 --> 00:00:35,005
 If an anomaly occurs, you can replay the exact reasoning trace step by step.
 
 5
-00:00:32,265 --> 00:00:36,880
+00:00:35,005 --> 00:00:39,620
 Transparency creates institutional accountability and trust.
 

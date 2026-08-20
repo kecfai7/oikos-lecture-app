@@ -1,20 +1,20 @@
 1
-00:00:00,800 --> 00:00:06,490
-Slide 23 diagrams our production "SPARK OS DIRECTORY SETUP."
+00:00:00,800 --> 00:00:08,620
+Slide 23 diagrams our production "SPARK OS DIRECTORY SETUP: Clean Architectural Hierarchy."
 
 2
-00:00:07,190 --> 00:00:23,170
+00:00:09,320 --> 00:00:25,300
 Look at the standardized directory hierarchy on the screen: /agents stores persona and system prompts; /skills contains modular tool execution scripts; /memory stores vector indexes and persistent logs; and /config holds environment secrets.
 
 3
-00:00:23,870 --> 00:00:30,747
+00:00:26,000 --> 00:00:32,877
 Notice how every tool is encapsulated as an independent skill module inside the /skills folder.
 
 4
-00:00:30,747 --> 00:00:37,480
+00:00:32,877 --> 00:00:39,610
 This allows you to add new capabilities to your avatar without touching core reasoning logic.
 
 5
-00:00:38,180 --> 00:00:45,190
+00:00:40,310 --> 00:00:47,320
 Follow this clean directory pattern in your hands-on lab assignment to ensure maintainable, modular agent architecture!
 

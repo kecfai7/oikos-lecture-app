@@ -1,16 +1,16 @@
 1
-00:00:00,800 --> 00:00:06,100
-Slide 34 addresses "SHADOW IT & ENTERPRISE COMPLIANCE."
+00:00:00,800 --> 00:00:07,740
+Slide 34 addresses "SHADOW IT & ENTERPRISE COMPLIANCE: Securing Corporate Data."
 
 2
-00:00:06,800 --> 00:00:18,150
+00:00:08,440 --> 00:00:19,790
 On the left card tagged "RISK": "Unsanctioned Copy-Pasting." Untrained employees pasting proprietary source code and confidential customer data into unvetted public AI chatbots.
 
 3
-00:00:18,850 --> 00:00:33,440
+00:00:20,490 --> 00:00:35,080
 On the right card tagged "ENTERPRISE STANDARD": "Governed Private Hub." Providing a centralized, enterprise-governed agent directory with Single Sign-On, Role-Based Access Control, and strict data residency.
 
 4
-00:00:34,140 --> 00:00:40,160
+00:00:35,780 --> 00:00:41,800
 Solve Shadow IT by providing employees with superior, secure internal avatar tooling!
 
