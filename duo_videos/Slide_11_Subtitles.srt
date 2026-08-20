@@ -1,0 +1,16 @@
+1
+00:00:00,000 --> 00:00:04,540
+[Prof. Peter Kim] Welcome to Part 2: "Under the Hood of Autonomous Reasoning."
+
+2
+00:00:04,940 --> 00:00:15,240
+[TA Sarah Jenkins] In this section, we transition from the high-level concept into the actual engineering mechanics. How does an AI agent actually "think" and "act" without getting lost?
+
+3
+00:00:15,640 --> 00:00:28,190
+[Prof. Peter Kim] We will explore the Gemini 3.5 Flash reasoning core running on Google's TPU v8 clusters, and break down the 3-Layer Spark Pipeline: Trigger, Reasoning, and Action.
+
+4
+00:00:28,590 --> 00:00:37,330
+[TA Sarah Jenkins] We'll also use a fantastic metaphor from video game computing that makes complex AI concurrency easy to understand. Let's dive in!
+

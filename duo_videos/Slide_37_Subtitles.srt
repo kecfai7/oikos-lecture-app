@@ -1,0 +1,24 @@
+1
+00:00:00,000 --> 00:00:11,500
+[Prof. Peter Kim] Look at Slide 37: "The Sovereign Conductor." As an Intelligence Architect, you are no longer a solo violinist; you are the conductor of a symphony orchestra!
+
+2
+00:00:11,900 --> 00:00:18,040
+[TA Sarah Jenkins] That is such a vivid picture, Professor Kim! Look at your three key section leaders:
+
+3
+00:00:18,440 --> 00:00:28,860
+[Prof. Peter Kim] Leader 1 is the Research Agent. It hunts down papers, verifies citations, and extracts financial tables with zero hallucinations.
+
+4
+00:00:29,260 --> 00:00:38,550
+[TA Sarah Jenkins] Leader 2 is the Builder Agent. It takes the research and writes clean, production-grade code, running tests and fixing errors autonomously.
+
+5
+00:00:38,950 --> 00:00:49,630
+[Prof. Peter Kim] And Leader 3 is the Critic Agent! It ruthlessly reviews the Builder's code, checking for security vulnerabilities and logical gaps before you ever see it.
+
+6
+00:00:50,030 --> 00:00:57,010
+[TA Sarah Jenkins] When your swarm collaborates like this, the quality of your output surpasses any single human developer working alone.
+

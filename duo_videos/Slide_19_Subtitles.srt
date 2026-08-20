@@ -1,0 +1,20 @@
+1
+00:00:00,000 --> 00:00:06,580
+[TA Sarah Jenkins] Slide 19 showcases the technological brain powering our system: Gemini 3.5 Flash!
+
+2
+00:00:06,980 --> 00:00:19,440
+[Prof. Peter Kim] Look at these engineering metrics, Sarah. First, the first-token latency is under 400 milliseconds! Why is that sub-second response so critical for agents?
+
+3
+00:00:19,840 --> 00:00:36,090
+[TA Sarah Jenkins] Because an agent often performs 5 to 10 sequential tool calls—searching files, running a calculation, and checking a database. If each call took 5 seconds, the workflow would be too slow. At 400 milliseconds, it runs like lightning!
+
+4
+00:00:36,490 --> 00:00:48,350
+[Prof. Peter Kim] Second, look at the 1 Million Token Context Window. You can feed your avatar an entire 800-page enterprise manual and 50 source code files in a single prompt.
+
+5
+00:00:48,750 --> 00:00:57,010
+[TA Sarah Jenkins] And with a 99.8% precision on structured JSON function calls, your avatar never misfires an API endpoint.
+

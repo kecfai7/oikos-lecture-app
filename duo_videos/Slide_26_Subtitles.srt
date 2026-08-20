@@ -1,0 +1,20 @@
+1
+00:00:00,000 --> 00:00:04,420
+[TA Sarah Jenkins] Let's look at a concrete real-world case study on Slide 26!
+
+2
+00:00:04,820 --> 00:00:25,560
+[Prof. Peter Kim] On the left, we see a traditional financial analyst. Every morning, they have to wake up at 5:30 AM, download 10 different CSV files from market feeds, calculate exchange rates, and write a summary email before the morning executive meeting. It takes 2.5 grueling hours every single day!
+
+3
+00:00:25,960 --> 00:00:44,250
+[TA Sarah Jenkins] But on the right, look at our Autonomous Avatar! It triggers at 6:00 AM sharp via cron job. In just 12 seconds, it queries financial APIs, calculates variance tables, generates SVG charts, and delivers a polished executive summary to the CEO's Telegram channel!
+
+4
+00:00:44,650 --> 00:00:54,730
+[Prof. Peter Kim] The analyst doesn't lose their job; instead, they arrive at work energized, ready to discuss high-level investment strategy rather than doing manual data entry.
+
+5
+00:00:55,130 --> 00:00:59,500
+[TA Sarah Jenkins] That is how agents elevate human dignity and quality of life.
+

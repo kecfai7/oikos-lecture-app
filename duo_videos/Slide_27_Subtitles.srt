@@ -1,0 +1,16 @@
+1
+00:00:00,000 --> 00:00:06,170
+[Prof. Peter Kim] Now, we arrive at a crucial subject on Slide 27: The Security Matrix.
+
+2
+00:00:06,570 --> 00:00:18,790
+[TA Sarah Jenkins] As software architects, power without safety is a catastrophe. If your avatar has access to your email, files, and credit card, how do you protect it from rogue behavior or malicious hackers?
+
+3
+00:00:19,190 --> 00:00:27,370
+[Prof. Peter Kim] In this section, we examine prompt injection defense, financial spend boundaries, and cryptographic audit trails.
+
+4
+00:00:27,770 --> 00:00:37,300
+[TA Sarah Jenkins] We'll also study the AP2 protocol—the Agent Payments Protocol—and Defense-in-Depth strategies. Let's make sure our systems are ironclad!
+

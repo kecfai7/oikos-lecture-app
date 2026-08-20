@@ -1,0 +1,20 @@
+1
+00:00:00,000 --> 00:00:07,320
+[TA Sarah Jenkins] Slide 28 deals with a nightmare scenario every CTO fears: Financial Risk from an Uncontrolled AI Wallet!
+
+2
+00:00:07,720 --> 00:00:21,950
+[Prof. Peter Kim] Imagine an unprotected agent encounters a bug in its reasoning loop. It might call a paid external API 100,000 times in 10 minutes, generating a $5,000 cloud bill before anyone notices!
+
+3
+00:00:22,350 --> 00:00:30,920
+[TA Sarah Jenkins] Or worse, if you gave an agent your credit card to purchase flight tickets, and a prompt injection tricked it into buying 50 tickets to Hawaii!
+
+4
+00:00:31,320 --> 00:00:42,860
+[Prof. Peter Kim] That is why on the right, we enforce strict architectural guardrails. We set hard per-transaction ceilings—like $10 maximum—and daily circuit breakers.
+
+5
+00:00:43,260 --> 00:00:51,440
+[TA Sarah Jenkins] Any purchase above the limit triggers an immediate biometric push notification to your phone. Autonomy with absolute safety!
+

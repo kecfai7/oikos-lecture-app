@@ -1,0 +1,20 @@
+1
+00:00:00,000 --> 00:00:03,890
+[Prof. Peter Kim] Look at the scaling mathematics on Slide 13.
+
+2
+00:00:04,290 --> 00:00:16,120
+[TA Sarah Jenkins] In the old chatbot model, the ratio was strictly 1 to 1. One human worker was tethered to one chat box. If you had 5 tasks, you had to wait 5 separate times.
+
+3
+00:00:16,520 --> 00:00:28,570
+[Prof. Peter Kim] But as an Intelligence Architect, your supervisory ratio jumps from 1:1 to 1:50! One single architect can direct 50 specialized agents running in parallel.
+
+4
+00:00:28,970 --> 00:00:38,350
+[TA Sarah Jenkins] One agent scans financial SEC filings, another generates daily market charts, another monitors server logs, and another drafts emails.
+
+5
+00:00:38,750 --> 00:00:49,690
+[Prof. Peter Kim] And they operate with 24/7 continuous uptime without fatigue. That is how a single individual can operate with the output of an entire enterprise department.
+

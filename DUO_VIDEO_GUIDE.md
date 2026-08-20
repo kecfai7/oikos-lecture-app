@@ -14,23 +14,22 @@ Oikos University **"The Architect of Intelligence"** Session 1의 **남녀 2인 
 
 ## 🚀 사용 방법 (Usage)
 
-### 1. 단일 슬라이드 비디오 생성
+### 1. 학생 2인 1조 과제: 지정 세션 및 슬라이드 영상 제작
 ```bash
-# Slide 1 비디오 생성
-python build_duo_lecture_mp4.py --slide 1
+# Session 4의 Slide 1 영상 제작
+python build_duo_lecture_mp4.py --session 4 --slide 1
 
-# Slide 8 비디오 생성
-python build_duo_lecture_mp4.py --slide 8
+# Session 2의 Slide 1, 8, 20번 선택 제작
+python build_duo_lecture_mp4.py --session 2 --slides 1,8,20
 ```
 
-### 2. 특정 슬라이드 다중 선택 생성
+### 2. 특정 세션 40개 슬라이드 전체 60분 마스터 합본 영상 제작
 ```bash
-python build_duo_lecture_mp4.py --slides 1,2,8,14,40
-```
+# Session 2 전체 40슬라이드 마스터 영상 제작
+python build_duo_lecture_mp4.py --session 2 --all
 
-### 3. 전체 40개 슬라이드 일괄 생성 & 60분 마스터 합본 영상 제작
-```bash
-python build_duo_lecture_mp4.py --all
+# Session 4 전체 40슬라이드 마스터 영상 제작
+python build_duo_lecture_mp4.py --session 4 --all
 ```
 
 ---

@@ -1,0 +1,20 @@
+1
+00:00:00,000 --> 00:00:07,440
+[Prof. Peter Kim] On Slide 20, let us look at the physical silicon powering this intelligence: Google's TPU v8.
+
+2
+00:00:07,840 --> 00:00:13,190
+[TA Sarah Jenkins] Many students ask us: "Can't we just run these swarms on regular graphics cards?"
+
+3
+00:00:13,590 --> 00:00:24,530
+[Prof. Peter Kim] Traditional GPUs are great for gaming and general graphics, but Google TPU v8 silicon is purpose-built exclusively for transformer neural network matrices.
+
+4
+00:00:24,930 --> 00:00:36,070
+[TA Sarah Jenkins] TPU v8 pods utilize Optical Circuit Switching (OCS). That means hundreds of TPU chips communicate with each other using beams of light with virtually zero latency!
+
+5
+00:00:36,470 --> 00:00:44,490
+[Prof. Peter Kim] That hardware foundation is what makes multi-agent swarm collaboration possible at scale without astronomical cloud bills.
+

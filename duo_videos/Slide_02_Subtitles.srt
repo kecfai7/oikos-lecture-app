@@ -1,0 +1,20 @@
+1
+00:00:00,000 --> 00:00:07,800
+[Prof. Peter Kim] We now officially open Part 1: "The Paradigm Shift: From Waiting Chatbots to Sleep-Free Personal Avatars."
+
+2
+00:00:08,200 --> 00:00:20,820
+[TA Sarah Jenkins] Professor Kim, I love the comparison on this slide! On the left, we have 'The Traditional Coder' who spends hours typing raw code line by line, constantly wrestling with typos and syntax bugs.
+
+3
+00:00:21,220 --> 00:00:35,330
+[Prof. Peter Kim] Yes! And on the right, we have 'The Intelligence Architect.' Instead of writing every semicolon manually, the Architect orchestrates Coder, Reviewer, and Tester agents running concurrently.
+
+4
+00:00:35,730 --> 00:00:46,870
+[TA Sarah Jenkins] It's like moving from digging with a small hand shovel to commanding a fleet of precision excavators. You still need wisdom and blueprints, but the mechanical labor is multiplied tenfold!
+
+5
+00:00:47,270 --> 00:00:57,610
+[Prof. Peter Kim] Precisely. Under our motto, Soli Deo Gloria, our goal is to rescue human intellect from mechanical loops so we can focus on creative vision.
+

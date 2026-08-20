@@ -1,0 +1,8 @@
+file 'c:/Oikos Univ/duo_videos/audio_segments/slide_15_turn_00.mp3'
+file 'c:/Oikos Univ/duo_videos/audio_segments/silence_400ms.mp3'
+file 'c:/Oikos Univ/duo_videos/audio_segments/slide_15_turn_01.mp3'
+file 'c:/Oikos Univ/duo_videos/audio_segments/silence_400ms.mp3'
+file 'c:/Oikos Univ/duo_videos/audio_segments/slide_15_turn_02.mp3'
+file 'c:/Oikos Univ/duo_videos/audio_segments/silence_400ms.mp3'
+file 'c:/Oikos Univ/duo_videos/audio_segments/slide_15_turn_03.mp3'
+file 'c:/Oikos Univ/duo_videos/audio_segments/silence_400ms.mp3'

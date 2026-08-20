@@ -276,29 +276,43 @@ async def build_master_concatenation(video_paths):
         print(f"🏆 MASTER DUO LECTURE VIDEO COMPLETED!")
         print(f"📍 Location: {master_video_path} ({size_mb:.2f} MB)")
 
+def load_session_slides(session_id):
+    slides_data_path = os.path.join(BASE_DIR, "src", "data", "slidesData.js")
+    with open(slides_data_path, "r", encoding="utf-8") as f:
+        content = f.read()
+    var_name = f"SLIDES_SESSION_{session_id}"
+    pattern = rf"export const {var_name} = (\[[\s\S]*?\n\]);"
+    match = re.search(pattern, content)
+    if not match:
+        raise ValueError(f"Could not find {var_name} in slidesData.js")
+    return json.loads(match.group(1))
+
 async def main():
-    parser = argparse.ArgumentParser(description="Generate Duo Lecture MP4 Videos")
+    parser = argparse.ArgumentParser(description="Generate Duo Lecture MP4 Videos for Student Pair Projects")
+    parser.add_argument("--session", type=int, default=1, help="Session number (1 to 15, default: 1)")
     parser.add_argument("--slide", type=int, help="Generate video for a single slide number (e.g. --slide 1)")
     parser.add_argument("--slides", type=str, help="Comma-separated slide numbers (e.g. --slides 1,8,14,40)")
     parser.add_argument("--all", action="store_true", help="Generate all 40 slides and build Master Video")
     args = parser.parse_args()
 
+    session_slides = load_session_slides(args.session)
     target_slides = []
+    
     if args.slide:
-        target_slides = [s for s in SESSION_1_DUO_SLIDES if s["num"] == args.slide]
+        target_slides = [s for s in session_slides if s["num"] == args.slide]
     elif args.slides:
         nums = [int(n.strip()) for n in args.slides.split(",") if n.strip()]
-        target_slides = [s for s in SESSION_1_DUO_SLIDES if s["num"] in nums]
+        target_slides = [s for s in session_slides if s["num"] in nums]
     elif args.all:
-        target_slides = SESSION_1_DUO_SLIDES
+        target_slides = session_slides
     else:
         # Default: generate demo slides (Slide 1 & Slide 8)
-        target_slides = [s for s in SESSION_1_DUO_SLIDES if s["num"] in [1, 8]]
+        target_slides = [s for s in session_slides if s["num"] in [1, 8]]
 
     print("=======================================================")
-    print("🚀 Oikos Univ 2-Presenter Duo Lecture Video Generator")
+    print(f"🚀 Oikos Univ 2-Presenter Duo Lecture Video Generator (Session {args.session})")
     print("👨‍🏫 Lead: Prof. Peter Kim (54) | 👩‍💻 TA: Sarah Jenkins (31)")
-    print(f"📋 Target: {len(target_slides)} slides")
+    print(f"📋 Target: {len(target_slides)} slides from Session {args.session}")
     print("=======================================================")
 
     async with async_playwright() as p:
@@ -314,7 +328,7 @@ async def main():
                 
         await browser.close()
         
-    if args.all and len(generated_videos) == len(SESSION_1_DUO_SLIDES):
+    if args.all and len(generated_videos) == len(session_slides):
         await build_master_concatenation(generated_videos)
 
     print(f"\n✨ All completed! Files saved in: {OUTPUT_DIR}")

@@ -1,0 +1,20 @@
+1
+00:00:00,000 --> 00:00:08,660
+[Prof. Peter Kim] Sarah, remember when we were kids doing endless homework drills? We all had that exact same wish on Slide 5!
+
+2
+00:00:09,060 --> 00:00:18,300
+[TA Sarah Jenkins] Oh, absolutely! "What if I had a twin robot who could organize my desk, do my math worksheets, and clean my room while I played outside?"
+
+3
+00:00:18,700 --> 00:00:29,380
+[Prof. Peter Kim] Exactly! It sounded like pure sci-fi back then. But look at the right card: in 2026, it is our everyday reality.
+
+4
+00:00:29,780 --> 00:00:42,070
+[TA Sarah Jenkins] It truly is. Our Autonomous Avatars now read emails, summarize PDF research papers, run Python data scripts, and file receipts into Google Drive automatically overnight.
+
+5
+00:00:42,470 --> 00:00:47,890
+[Prof. Peter Kim] What was once a child's daydream is now an indispensable professional superpower.
+
