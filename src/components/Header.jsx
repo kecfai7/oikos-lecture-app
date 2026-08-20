@@ -48,7 +48,20 @@ export default function Header({
               SOLI DEO GLORIA
             </span>
           </div>
-          <p className="text-[11px] text-cyan-400 font-medium">Smart Insight Lab • Prof. Peter Kim & TA Sarah Jenkins</p>
+          <div className="flex items-center gap-1.5 mt-0.5">
+            <span className="inline-flex items-center gap-1 px-1.5 py-0.2 rounded bg-blue-500/20 text-blue-300 text-[10px] font-bold border border-blue-500/30">
+              <span className="w-1.5 h-1.5 rounded-full bg-blue-400"></span>
+              Prof. Peter
+            </span>
+            <span className="inline-flex items-center gap-1 px-1.5 py-0.2 rounded bg-purple-500/20 text-purple-300 text-[10px] font-bold border border-purple-500/30">
+              <span className="w-1.5 h-1.5 rounded-full bg-purple-400"></span>
+              TA Sarah
+            </span>
+            <span className="inline-flex items-center gap-1 px-1.5 py-0.2 rounded bg-emerald-500/20 text-emerald-300 text-[10px] font-bold border border-emerald-500/30">
+              <span className="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
+              TA James
+            </span>
+          </div>
         </div>
       </div>
 

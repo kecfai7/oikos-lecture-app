@@ -86,16 +86,16 @@ export const SLIDES_SESSION_1 = [
     "title": "OIKOS UNIVERSITY • SOLI DEO GLORIA",
     "subtitle": "THE ARCHITECT OF INTELLIGENCE: Mastering Agentic IT & Strategic Wisdom",
     "detail": "Session 1: From Waiting Chatbots to Sleep-Free Personal Avatars",
-    "instructor": "Prof. Peter Kim (54) & TA Sarah Jenkins (31) • Smart Insight Lab",
+    "instructor": "Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab",
     "script": "[Prof. Peter] Welcome, esteemed students, to Oikos University and our flagship Smart Insight Lab. I am Professor Peter Kim, and today we inaugurate Session 1: \"The Autonomous Personal Avatar Architecture: From Reactive Chatbots to Sleep-Free Digital Twins.\"\n\n[TA Sarah] Hello everyone! I am Sarah Jenkins, your Senior Architecture TA. In this course, we move far beyond basic prompt engineering. We are here to train you as elite Intelligence Architects who design production-ready, autonomous agent systems that solve real enterprise bottlenecks.\n\n[TA James] And I am James Wilson, your Infrastructure and DevOps TA! I will be guiding you through hands-on cloud pipelines, asynchronous background queues, cryptographic security trails, and real-time Google Workspace integrations.\n\n[Prof. Peter] Notice our founding university motto centered at the top of every slide: \"SOLI DEO GLORIA—To God Alone Be the Glory.\" Our core philosophy is that technological innovation finds its highest meaning when it preserves human dignity, redeems finite time, and serves humanity with ethical integrity.\n\n[TA Sarah] In traditional AI courses, students often build toy chatbots that only work when a human is typing into a web browser. Here at Oikos, you will construct autonomous daemons that execute continuous reasoning loops inside headless cloud environments.\n\n[TA James] Throughout this session, we will break down the complete engineering stack—from Google Gemini 3.5 Flash sub-second latency to SQLite state persistence and AP2 multi-signature financial guardrails.\n\n[Prof. Peter] Let us begin our journey. Take comprehensive notes, engage with the interactive checkpoints, and prepare to elevate your perspective from a casual prompt user to a sovereign system architect!",
     "koreanGuide": {
-      "summary": "강의 전체 개요 및 Oikos University 2인 교수 듀오(Prof. Peter & Prof. Sarah) 환영 인사",
+      "summary": "강의 전체 개요 및 Oikos University 3인 강사진(피터 교수, 사라 수석조교, 제임스 개발조교) 환영 인사",
       "points": [
-        "강의자 소개: 피터 킴 교수(54세, 전략/비전)와 사라 조교(31세, AI 연구조교) 듀오 체제 출범",
-        "단순 프롬프트 입력자를 넘어 24시간 자율 AI 시스템을 감독하는 '지능 건축가(Architect)' 정의",
+        "강의진 소개: 피터 킴 교수(전략/윤리/비전), 사라 수석조교(시스템 아키텍처/UI), 제임스 개발조교(클라우드 인프라/데브옵스/보안) 3인 체제 출범",
+        "단순 프롬프트 입력자를 넘어 24시간 자율 AI 시스템을 감독하는 '지능 건축가(Intelligence Architect)' 정의",
         "수동적인 챗봇 시대에서 24시간 잠들지 않는 개인 아바타(Agentic AI) 시대로의 대전환 선언"
       ],
-      "tips": "피터 교수와 사라 조교가 서로 눈을 맞추며 환영 인사를 건네듯 활기차고 따뜻한 톤으로 수업의 문을 여세요."
+      "tips": "피터 교수, 사라 조교, 제임스 조교가 서로 자연스럽게 대화를 주고받으며 활기차고 따뜻한 톤으로 수업의 문을 여세요."
     },
     "keyTerms": [
       {

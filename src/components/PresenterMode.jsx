@@ -265,17 +265,20 @@ export default function PresenterMode({
                 slideData.script.split('\n\n').map((paragraph, idx) => {
                   const isPeter = paragraph.startsWith('[Prof. Peter]') || paragraph.startsWith('[Prof. Peter Kim]');
                   const isSarah = paragraph.startsWith('[TA Sarah]') || paragraph.startsWith('[Sarah (TA)]') || paragraph.startsWith('[Prof. Sarah]');
-                  const cleanText = paragraph.replace(/^\[(Prof\.\s*Peter(\s*Kim)?|TA\s*Sarah|Sarah\s*\(TA\)|Prof\.\s*Sarah)\]\s*/i, '');
+                  const isJames = paragraph.startsWith('[TA James]') || paragraph.startsWith('[James (TA)]') || paragraph.startsWith('[James]');
+                  const cleanText = paragraph.replace(/^\[(Prof\.\s*Peter(\s*Kim)?|TA\s*Sarah|Sarah\s*\(TA\)|Prof\.\s*Sarah|TA\s*James|James\s*\(TA\)|James)\]\s*/i, '');
                   
                   return (
                     <div 
                       key={idx} 
                       className={`group relative p-3.5 rounded-xl border transition ${
                         isPeter 
-                          ? 'bg-blue-950/40 border-blue-500/40 text-blue-50' 
+                          ? 'bg-blue-950/40 border-blue-500/40 text-blue-50 shadow-sm shadow-blue-950/50' 
                           : isSarah 
-                            ? 'bg-purple-950/40 border-purple-500/40 text-purple-50' 
-                            : 'bg-slate-900/90 border-cyan-500/30 text-cyan-50'
+                            ? 'bg-purple-950/40 border-purple-500/40 text-purple-50 shadow-sm shadow-purple-950/50' 
+                            : isJames
+                              ? 'bg-emerald-950/40 border-emerald-500/40 text-emerald-50 shadow-sm shadow-emerald-950/50'
+                              : 'bg-slate-900/90 border-cyan-500/30 text-cyan-50'
                       }`}
                     >
                       {/* Speaker Badge */}
@@ -283,16 +286,22 @@ export default function PresenterMode({
                         {isPeter && (
                           <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-blue-500/20 text-blue-300 border border-blue-500/40">
                             <span className="w-2 h-2 rounded-full bg-blue-400 animate-pulse"></span>
-                            👨‍🏫 Prof. Peter Kim (54, Lead Architect)
+                            👨‍🏫 Prof. Peter Kim (Lead Professor)
                           </span>
                         )}
                         {isSarah && (
                           <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-purple-500/20 text-purple-300 border border-purple-500/40">
                             <span className="w-2 h-2 rounded-full bg-purple-400 animate-pulse"></span>
-                            👩‍💻 TA Sarah Jenkins (31, AI Research Assistant)
+                            👩‍💻 TA Sarah Jenkins (Senior TA & Architect)
                           </span>
                         )}
-                        {!isPeter && !isSarah && (
+                        {isJames && (
+                          <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-emerald-500/20 text-emerald-300 border border-emerald-500/40">
+                            <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                            👨‍💻 TA James Wilson (DevOps & Infrastructure TA)
+                          </span>
+                        )}
+                        {!isPeter && !isSarah && !isJames && (
                           <span className="text-[11px] font-bold text-cyan-300">🎙️ Spoken Script</span>
                         )}
 

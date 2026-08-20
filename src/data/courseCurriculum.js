@@ -8,7 +8,7 @@ export const COURSE_INFO = {
   institution: "Oikos University (www.oikos.edu)",
   department: "School of Information Technology & Smart Insight Lab",
   motto: "Soli Deo Gloria (Glory to God Alone)",
-  instructor: "Professor Peter Kim, Director of Smart Insight Lab",
+  instructor: "Professor Peter Kim (Lead Director) • TA Sarah Jenkins (Senior TA) • TA James Wilson (DevOps TA)",
   totalSessions: 15,
   totalSlides: 600,
   duration: "15 Weeks • 60 Minutes per Session (40 Slides / Session)",
