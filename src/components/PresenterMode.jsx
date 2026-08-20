@@ -260,24 +260,61 @@ export default function PresenterMode({
               </div>
             </div>
 
-            <div className="p-4 rounded-xl bg-slate-900/90 border border-cyan-500/30 text-cyan-50 shadow-inner space-y-3 cursor-text">
+            <div className="space-y-3">
               {slideData?.script ? (
-                slideData.script.split('\n\n').map((paragraph, idx) => (
-                  <div key={idx} className="group relative pr-6">
-                    <p className={`${fontSize} leading-relaxed font-normal text-slate-100 selection:bg-cyan-500 selection:text-slate-950`}>
-                      {paragraph}
-                    </p>
-                    <button
-                      onClick={() => speakText(paragraph)}
-                      className="absolute right-0 top-0.5 opacity-40 group-hover:opacity-100 p-1 text-cyan-400 hover:text-white transition rounded bg-slate-800/80"
-                      title="Read this paragraph aloud"
+                slideData.script.split('\n\n').map((paragraph, idx) => {
+                  const isPeter = paragraph.startsWith('[Prof. Peter]');
+                  const isSarah = paragraph.startsWith('[Prof. Sarah]');
+                  const cleanText = paragraph.replace(/^\[Prof\.\s*(Peter|Sarah)\]\s*/i, '');
+                  
+                  return (
+                    <div 
+                      key={idx} 
+                      className={`group relative p-3.5 rounded-xl border transition ${
+                        isPeter 
+                          ? 'bg-blue-950/40 border-blue-500/40 text-blue-50' 
+                          : isSarah 
+                            ? 'bg-purple-950/40 border-purple-500/40 text-purple-50' 
+                            : 'bg-slate-900/90 border-cyan-500/30 text-cyan-50'
+                      }`}
                     >
-                      <Volume2 className="w-3.5 h-3.5" />
-                    </button>
-                  </div>
-                ))
+                      {/* Speaker Badge */}
+                      <div className="flex items-center justify-between mb-2">
+                        {isPeter && (
+                          <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-blue-500/20 text-blue-300 border border-blue-500/40">
+                            <span className="w-2 h-2 rounded-full bg-blue-400 animate-pulse"></span>
+                            👨‍🏫 Prof. Peter Kim (Lead / Strategy)
+                          </span>
+                        )}
+                        {isSarah && (
+                          <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-purple-500/20 text-purple-300 border border-purple-500/40">
+                            <span className="w-2 h-2 rounded-full bg-purple-400 animate-pulse"></span>
+                            👩‍🏫 Prof. Sarah Jenkins (Engineering)
+                          </span>
+                        )}
+                        {!isPeter && !isSarah && (
+                          <span className="text-[11px] font-bold text-cyan-300">🎙️ Spoken Script</span>
+                        )}
+
+                        <button
+                          onClick={() => speakText(cleanText || paragraph)}
+                          className="opacity-60 group-hover:opacity-100 p-1 text-slate-300 hover:text-white transition rounded bg-slate-800/80 hover:bg-slate-700"
+                          title="Read this line aloud"
+                        >
+                          <Volume2 className="w-3.5 h-3.5" />
+                        </button>
+                      </div>
+
+                      <p className={`${fontSize} leading-relaxed font-normal text-slate-100 selection:bg-cyan-500 selection:text-slate-950`}>
+                        {cleanText || paragraph}
+                      </p>
+                    </div>
+                  );
+                })
               ) : (
-                <p className="text-slate-400 italic">No spoken script provided for this slide.</p>
+                <div className="p-4 rounded-xl bg-slate-900/90 border border-cyan-500/30 text-slate-400 italic">
+                  No spoken script provided for this slide.
+                </div>
               )}
             </div>
           </div>
