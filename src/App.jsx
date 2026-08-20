@@ -18,8 +18,17 @@ export default function App() {
     return 1;
   };
 
+  const getInitialSlideIndex = () => {
+    if (typeof window !== 'undefined') {
+      const params = new URLSearchParams(window.location.search);
+      const slide = parseInt(params.get('slide') || params.get('p'), 10);
+      if (slide >= 1 && slide <= 40) return slide - 1;
+    }
+    return 0;
+  };
+
   const [selectedSession, setSelectedSession] = useState(getInitialSession);
-  const [currentSlideIndex, setCurrentSlideIndex] = useState(0);
+  const [currentSlideIndex, setCurrentSlideIndex] = useState(getInitialSlideIndex);
   const [isPresenterOpen, setIsPresenterOpen] = useState(false);
   const [isOverviewOpen, setIsOverviewOpen] = useState(false);
   const [isCurriculumOpen, setIsCurriculumOpen] = useState(false);
