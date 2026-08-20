@@ -1,16 +1,16 @@
 1
-00:00:00,000 --> 00:00:08,860
-[TA Sarah Jenkins] It is time for our Interactive Student Poll on Slide 14! To all our students joining worldwide, look at your screen and cast your vote.
+00:00:00,800 --> 00:00:09,660
+It is time for our Interactive Student Poll on Slide 14! To all our students joining worldwide, look at your screen and cast your vote.
 
 2
-00:00:09,260 --> 00:00:15,500
-[Prof. Peter Kim] The question is: "How many hours do you spend waiting for repetitive digital tasks each week?"
+00:00:10,360 --> 00:00:16,910
+The question is: "How many hours do you spend waiting for repetitive digital tasks each week?"
 
 3
-00:00:15,900 --> 00:00:32,480
-[TA Sarah Jenkins] Option A: Under 5 hours. Option B: 5 to 15 hours on standard emails and spreadsheets. Option C: Over 20 hours—you are drowning in copy-paste! Or Option D: You have already automated everything with scripts.
+00:00:17,610 --> 00:00:34,190
+Option A: Under 5 hours. Option B: 5 to 15 hours on standard emails and spreadsheets. Option C: Over 20 hours—you are drowning in copy-paste! Or Option D: You have already automated everything with scripts.
 
 4
-00:00:32,880 --> 00:00:40,200
-[Prof. Peter Kim] Please click your option on your screen now. Sarah, what do most of our global students usually vote?
+00:00:34,890 --> 00:00:42,570
+Please click your option on your screen now. Sarah, what do most of our global students usually vote?
 

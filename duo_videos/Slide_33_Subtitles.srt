@@ -1,24 +1,24 @@
 1
-00:00:00,000 --> 00:00:05,090
-[Prof. Peter Kim] On Slide 33, we inspect our Cryptographic Audit Trail.
+00:00:00,800 --> 00:00:06,150
+On Slide 33, we inspect our Cryptographic Audit Trail.
 
 2
-00:00:05,490 --> 00:00:14,900
-[TA Sarah Jenkins] In enterprise environments, "The AI did it, but we don't know why" is completely unacceptable. You need provable, tamper-evident accountability.
+00:00:06,850 --> 00:00:16,260
+In enterprise environments, "The AI did it, but we don't know why" is completely unacceptable. You need provable, tamper-evident accountability.
 
 3
-00:00:15,300 --> 00:00:23,480
-[Prof. Peter Kim] In Step 1, whenever the agent triggers an action, it records the exact timestamp, model version, and tool input.
+00:00:16,960 --> 00:00:25,550
+In Step 1, whenever the agent triggers an action, it records the exact timestamp, model version, and tool input.
 
 4
-00:00:23,880 --> 00:00:35,400
-[TA Sarah Jenkins] In Step 2, each log entry is hashed using SHA-256, referencing the hash of the previous record. This creates an unbroken, tamper-proof blockchain-style ledger!
+00:00:26,250 --> 00:00:37,770
+In Step 2, each log entry is hashed using SHA-256, referencing the hash of the previous record. This creates an unbroken, tamper-proof blockchain-style ledger!
 
 5
-00:00:35,800 --> 00:00:46,220
-[Prof. Peter Kim] And in Step 3, the log is stored in an append-only Google Drive vault. If anyone tampers with a log entry, the hash chain breaks instantly.
+00:00:38,470 --> 00:00:49,390
+And in Step 3, the log is stored in an append-only Google Drive vault. If anyone tampers with a log entry, the hash chain breaks instantly.
 
 6
-00:00:46,620 --> 00:00:51,520
-[TA Sarah Jenkins] Total transparency and legal compliance built right into the architecture.
+00:00:50,090 --> 00:00:54,990
+Total transparency and legal compliance built right into the architecture.
 

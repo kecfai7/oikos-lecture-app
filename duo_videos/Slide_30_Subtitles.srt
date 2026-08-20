@@ -1,20 +1,20 @@
 1
-00:00:00,000 --> 00:00:08,660
-[Prof. Peter Kim] Slide 30 brings us to "The Digital Mandate." As we build these powerful tools, what moral principles guide us?
+00:00:00,800 --> 00:00:09,900
+Slide 30 brings us to "The Digital Mandate." As we build these powerful tools, what moral principles guide us?
 
 2
-00:00:09,060 --> 00:00:20,940
-[TA Sarah Jenkins] First is Technological Sovereignty. You should own your own data, your own models, and your own private keys. Never surrender complete control to a single centralized monopoly.
+00:00:10,600 --> 00:00:22,480
+First is Technological Sovereignty. You should own your own data, your own models, and your own private keys. Never surrender complete control to a single centralized monopoly.
 
 3
-00:00:21,340 --> 00:00:32,880
-[Prof. Peter Kim] Second is Architectural Integrity. Your systems must have transparent logs. An avatar must never lie, fabricate data, or conceal errors.
+00:00:23,180 --> 00:00:35,280
+Second is Architectural Integrity. Your systems must have transparent logs. An avatar must never lie, fabricate data, or conceal errors.
 
 4
-00:00:33,280 --> 00:00:42,620
-[TA Sarah Jenkins] And third is Service. The ultimate test of any technology is: Does it bring peace, focus, and blessing to your family and your community?
+00:00:35,980 --> 00:00:45,320
+And third is Service. The ultimate test of any technology is: Does it bring peace, focus, and blessing to your family and your community?
 
 5
-00:00:43,020 --> 00:00:49,310
-[Prof. Peter Kim] If an AI creates chaos and anxiety, it has failed, no matter how fast it runs.
+00:00:46,020 --> 00:00:52,620
+If an AI creates chaos and anxiety, it has failed, no matter how fast it runs.
 

@@ -1,16 +1,16 @@
 1
-00:00:00,000 --> 00:00:09,430
-[TA Sarah Jenkins] Looking at the live poll results, over 73% of our students chose Option B and C! That matches global industry data exactly.
+00:00:00,800 --> 00:00:10,230
+Looking at the live poll results, over 73% of our students chose Option B and C! That matches global industry data exactly.
 
 2
-00:00:09,830 --> 00:00:23,050
-[Prof. Peter Kim] Look at the breakdown on Slide 15. The first card shows "The Invisible Drain": the average professional loses 12.4 hours every single week just switching tabs and re-entering data.
+00:00:10,930 --> 00:00:24,750
+Look at the breakdown on Slide 15. The first card shows "The Invisible Drain": the average professional loses 12.4 hours every single week just switching tabs and re-entering data.
 
 3
-00:00:23,450 --> 00:00:36,700
-[TA Sarah Jenkins] And Card 2 highlights the terrible psychological toll: context switching drains up to 40% of your deep cognitive power! By 3 PM, your brain feels exhausted even if you haven't done deep strategic work.
+00:00:25,450 --> 00:00:38,700
+And Card 2 highlights the terrible psychological toll: context switching drains up to 40% of your deep cognitive power! By 3 PM, your brain feels exhausted even if you haven't done deep strategic work.
 
 4
-00:00:37,100 --> 00:00:49,390
-[Prof. Peter Kim] But Card 3 gives us the cure: Agentic automation restores over 500 hours of high-focus creative time every year. That is equivalent to 60 full working days recovered!
+00:00:39,400 --> 00:00:52,260
+But Card 3 gives us the cure: Agentic automation restores over 500 hours of high-focus creative time every year. That is equivalent to 60 full working days recovered!
 

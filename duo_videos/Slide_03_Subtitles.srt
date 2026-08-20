@@ -1,20 +1,20 @@
 1
-00:00:00,000 --> 00:00:12,070
-[Prof. Peter Kim] At Oikos University, our core motto is "Soli Deo Gloria"—Glory to God Alone. Sarah, how does this ancient Latin motto apply to modern cutting-edge IT?
+00:00:00,800 --> 00:00:13,420
+At Oikos University, our core motto is "Soli Deo Gloria"—Glory to God Alone. Sarah, how does this ancient Latin motto apply to modern cutting-edge IT?
 
 2
-00:00:12,470 --> 00:00:29,440
-[TA Sarah Jenkins] That is such a vital question, Professor Kim. First, our mandate is to elevate the human mind and spirit. Humans were created with dignity, compassion, and strategic discernment. We were not made to stare at spreadsheets for 12 hours doing copy-paste.
+00:00:14,120 --> 00:00:31,090
+That is such a vital question, Professor Kim. First, our mandate is to elevate the human mind and spirit. Humans were created with dignity, compassion, and strategic discernment. We were not made to stare at spreadsheets for 12 hours doing copy-paste.
 
 3
-00:00:29,840 --> 00:00:42,010
-[Prof. Peter Kim] Exactly. Second, technology is a servant, never our master. We must not let addictive algorithms or endless notifications hijack our mental peace.
+00:00:31,790 --> 00:00:44,530
+Exactly. Second, technology is a servant, never our master. We must not let addictive algorithms or endless notifications hijack our mental peace.
 
 4
-00:00:42,410 --> 00:00:54,070
-[TA Sarah Jenkins] And third, our goal with automation is purposeful time redemption. When our AI avatars handle routine tasks, we reclaim hours for our families, our faith, and serving society.
+00:00:45,230 --> 00:00:56,890
+And third, our goal with automation is purposeful time redemption. When our AI avatars handle routine tasks, we reclaim hours for our families, our faith, and serving society.
 
 5
-00:00:54,470 --> 00:01:01,600
-[Prof. Peter Kim] That is true wisdom. Automation is not about laziness; it is about stewardship of time.
+00:00:57,590 --> 00:01:05,080
+That is true wisdom. Automation is not about laziness; it is about stewardship of time.
 

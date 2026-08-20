@@ -1,20 +1,20 @@
 1
-00:00:00,000 --> 00:00:07,390
-[TA Sarah Jenkins] Slide 12 has one of my favorite metaphors in the entire course! Think of AI like video game architecture.
+00:00:00,800 --> 00:00:08,190
+Slide 12 has one of my favorite metaphors in the entire course! Think of AI like video game architecture.
 
 2
-00:00:07,790 --> 00:00:14,510
-[Prof. Peter Kim] Explain that to us, Sarah. How does chess compare to an open-world RPG?
+00:00:08,890 --> 00:00:15,950
+Explain that to us, Sarah. How does chess compare to an open-world RPG?
 
 3
-00:00:14,910 --> 00:00:24,320
-[TA Sarah Jenkins] In traditional turn-based chess—which represents old chatbots—the entire world freezes. Nothing happens until the human touches a piece.
+00:00:16,650 --> 00:00:26,060
+In traditional turn-based chess—which represents old chatbots—the entire world freezes. Nothing happens until the human touches a piece.
 
 4
-00:00:24,720 --> 00:00:38,140
-[Prof. Peter Kim] But in an Open World game like Skyrim or Zelda, the physics engine never sleeps! The sun sets, rivers flow, and NPC characters carry out routines whether the player is watching or not!
+00:00:26,760 --> 00:00:40,800
+But in an Open World game like Skyrim or Zelda, the physics engine never sleeps! The sun sets, rivers flow, and NPC characters carry out routines whether the player is watching or not!
 
 5
-00:00:38,540 --> 00:00:48,240
-[TA Sarah Jenkins] That is exactly how an Autonomous Agent Swarm works. Your agents are active background threads constantly monitoring data and maintaining your digital world.
+00:00:41,500 --> 00:00:51,200
+That is exactly how an Autonomous Agent Swarm works. Your agents are active background threads constantly monitoring data and maintaining your digital world.
 

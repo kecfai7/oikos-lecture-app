@@ -1,24 +1,24 @@
 1
-00:00:00,000 --> 00:00:04,440
-[TA Sarah Jenkins] Slide 36 diagrams our full Defense-in-Depth architecture!
+00:00:00,800 --> 00:00:05,240
+Slide 36 diagrams our full Defense-in-Depth architecture!
 
 2
-00:00:04,840 --> 00:00:11,700
-[Prof. Peter Kim] Never rely on a single lock on your door. We build three concentric rings of security.
+00:00:05,940 --> 00:00:13,140
+Never rely on a single lock on your door. We build three concentric rings of security.
 
 3
-00:00:12,100 --> 00:00:22,180
-[TA Sarah Jenkins] Layer 1 is Input Sanitization. Every external document or webhook payload is scrubbed and validated against strict JSON schemas before touching our model.
+00:00:13,840 --> 00:00:23,920
+Layer 1 is Input Sanitization. Every external document or webhook payload is scrubbed and validated against strict JSON schemas before touching our model.
 
 4
-00:00:22,580 --> 00:00:36,160
-[Prof. Peter Kim] Layer 2 is Runtime Sandboxing. When the agent runs Python scripts or bash commands, it executes inside an isolated, temporary Docker container with zero access to your root host machine!
+00:00:24,620 --> 00:00:38,830
+Layer 2 is Runtime Sandboxing. When the agent runs Python scripts or bash commands, it executes inside an isolated, temporary Docker container with zero access to your root host machine!
 
 5
-00:00:36,560 --> 00:00:48,370
-[TA Sarah Jenkins] And Layer 3 is Egress Filtering. The container cannot talk to arbitrary internet servers; outbound traffic is strictly locked to whitelisted Google and enterprise API domains.
+00:00:39,530 --> 00:00:51,340
+And Layer 3 is Egress Filtering. The container cannot talk to arbitrary internet servers; outbound traffic is strictly locked to whitelisted Google and enterprise API domains.
 
 6
-00:00:48,770 --> 00:00:55,710
-[Prof. Peter Kim] Even if an attacker somehow bypasses Layer 1, Layers 2 and 3 trap the attack harmlessly.
+00:00:52,040 --> 00:00:59,340
+Even if an attacker somehow bypasses Layer 1, Layers 2 and 3 trap the attack harmlessly.
 

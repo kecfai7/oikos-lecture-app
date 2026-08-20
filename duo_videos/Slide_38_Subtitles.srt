@@ -1,16 +1,16 @@
 1
-00:00:00,000 --> 00:00:07,540
-[TA Sarah Jenkins] Slide 38 clarifies the most important governance distinction in modern AI: Human-IN-the-Loop versus Human-ON-the-Loop.
+00:00:00,800 --> 00:00:08,340
+Slide 38 clarifies the most important governance distinction in modern AI: Human-IN-the-Loop versus Human-ON-the-Loop.
 
 2
-00:00:07,940 --> 00:00:19,840
-[Prof. Peter Kim] In the old Human-IN-the-loop model on the left, the human had to click "Approve" on every single micro-step. It created a massive bottleneck and completely exhausted the user!
+00:00:09,040 --> 00:00:21,500
+In the old Human-IN-the-loop model on the left, the human had to click "Approve" on every single micro-step. It created a massive bottleneck and completely exhausted the user!
 
 3
-00:00:20,240 --> 00:00:37,950
-[TA Sarah Jenkins] But on the right, we implement Human-ON-the-loop (HOTL). The swarm executes inside pre-approved guardrail boundaries. The human acts like an air traffic controller—monitoring the dashboard, setting the flight plans, and only intervening when an anomaly or exception arises.
+00:00:22,200 --> 00:00:39,910
+But on the right, we implement Human-ON-the-loop (HOTL). The swarm executes inside pre-approved guardrail boundaries. The human acts like an air traffic controller—monitoring the dashboard, setting the flight plans, and only intervening when an anomaly or exception arises.
 
 4
-00:00:38,350 --> 00:00:46,389
-[Prof. Peter Kim] This is how you achieve massive scale without burning yourself out. Strategic oversight over micromanagement.
+00:00:40,610 --> 00:00:49,030
+This is how you achieve massive scale without burning yourself out. Strategic oversight over micromanagement.
 

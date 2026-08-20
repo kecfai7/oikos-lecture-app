@@ -1,20 +1,20 @@
 1
-00:00:00,000 --> 00:00:05,110
-[TA Sarah Jenkins] Slide 8 gets straight to the heart of the revolution: "Ask Me" versus "Run It For Me."
+00:00:00,800 --> 00:00:05,910
+Slide 8 gets straight to the heart of the revolution: "Ask Me" versus "Run It For Me."
 
 2
-00:00:05,510 --> 00:00:14,170
-[Prof. Peter Kim] Look at the left side: The classic chatbot asks, "Ask me anything!" But Sarah, what is the catch with that model?
+00:00:06,610 --> 00:00:15,710
+Look at the left side: The classic chatbot asks, "Ask me anything!" But Sarah, what is the catch with that model?
 
 3
-00:00:14,570 --> 00:00:27,840
-[TA Sarah Jenkins] The catch is that you are trapped! You type a prompt, you stare at the blinking cursor, and if you accidentally close your browser tab, everything stops. You still have to do all the manual copy-pasting yourself!
+00:00:16,410 --> 00:00:29,680
+The catch is that you are trapped! You type a prompt, you stare at the blinking cursor, and if you accidentally close your browser tab, everything stops. You still have to do all the manual copy-pasting yourself!
 
 4
-00:00:28,240 --> 00:00:40,860
-[Prof. Peter Kim] Exactly. But look at the right side: The Autonomous Avatar says, "Run it for me!" You give it an objective, and it runs in the background cloud container 24/7.
+00:00:30,380 --> 00:00:43,580
+Exactly. But look at the right side: The Autonomous Avatar says, "Run it for me!" You give it an objective, and it runs in the background cloud container 24/7.
 
 5
-00:00:41,260 --> 00:00:49,040
-[TA Sarah Jenkins] It fetches data, writes the report, emails your team, and saves the backup—completely unattended while you sleep peacefully.
+00:00:44,280 --> 00:00:52,060
+It fetches data, writes the report, emails your team, and saves the backup—completely unattended while you sleep peacefully.
 

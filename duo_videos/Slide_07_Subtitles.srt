@@ -1,20 +1,20 @@
 1
-00:00:00,000 --> 00:00:05,420
-[Prof. Peter Kim] Let us review our road map for today's 60-minute lecture on Slide 7.
+00:00:00,800 --> 00:00:06,510
+Let us review our road map for today's 60-minute lecture on Slide 7.
 
 2
-00:00:05,820 --> 00:00:16,570
-[TA Sarah Jenkins] We have three major milestones! First, we will master the Paradigm Shift—clarifying the crucial difference between old synchronous chatbots and autonomous avatars.
+00:00:07,210 --> 00:00:17,960
+We have three major milestones! First, we will master the Paradigm Shift—clarifying the crucial difference between old synchronous chatbots and autonomous avatars.
 
 3
-00:00:16,970 --> 00:00:27,720
-[Prof. Peter Kim] Second, we will dive deep into the Engine Architecture—exploring the 3-layer Spark pipeline powered by Google's lightning-fast Gemini 3.5 Flash model.
+00:00:18,660 --> 00:00:29,920
+Second, we will dive deep into the Engine Architecture—exploring the 3-layer Spark pipeline powered by Google's lightning-fast Gemini 3.5 Flash model.
 
 4
-00:00:28,120 --> 00:00:37,720
-[TA Sarah Jenkins] And third, we will cover Workspace Integration—connecting Google Drive, Apps Script, and secure OS-level triggers to build your own working digital avatar!
+00:00:30,620 --> 00:00:40,220
+And third, we will cover Workspace Integration—connecting Google Drive, Apps Script, and secure OS-level triggers to build your own working digital avatar!
 
 5
-00:00:38,120 --> 00:00:45,460
-[Prof. Peter Kim] By the end of this session, you will have both the conceptual blueprint and the practical confidence to deploy your first agent.
+00:00:40,920 --> 00:00:48,620
+By the end of this session, you will have both the conceptual blueprint and the practical confidence to deploy your first agent.
 

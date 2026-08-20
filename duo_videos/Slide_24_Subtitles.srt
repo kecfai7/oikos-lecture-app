@@ -1,20 +1,20 @@
 1
-00:00:00,000 --> 00:00:06,500
-[TA Sarah Jenkins] Slide 24 answers the big question: How does an avatar remember who you are without running out of tokens?
+00:00:00,800 --> 00:00:07,300
+Slide 24 answers the big question: How does an avatar remember who you are without running out of tokens?
 
 2
-00:00:06,900 --> 00:00:11,840
-[Prof. Peter Kim] We use a Dual Memory Engine inspired by human cognitive science.
+00:00:08,000 --> 00:00:13,210
+We use a Dual Memory Engine inspired by human cognitive science.
 
 3
-00:00:12,240 --> 00:00:23,470
-[TA Sarah Jenkins] On the left, we have Short-Term Working Memory. Think of this as your agent's active conscious mind—the RAM context window holding the current conversation and immediate tool outputs.
+00:00:13,910 --> 00:00:25,140
+On the left, we have Short-Term Working Memory. Think of this as your agent's active conscious mind—the RAM context window holding the current conversation and immediate tool outputs.
 
 4
-00:00:23,870 --> 00:00:35,700
-[Prof. Peter Kim] But on the right, we have Long-Term Persistent Memory! At the end of each workflow, the avatar summarizes key decisions and saves them to vector storage and markdown files.
+00:00:25,840 --> 00:00:38,220
+But on the right, we have Long-Term Persistent Memory! At the end of each workflow, the avatar summarizes key decisions and saves them to vector storage and markdown files.
 
 5
-00:00:36,100 --> 00:00:45,920
-[TA Sarah Jenkins] So next week, when you assign a new project, the agent loads your historical preferences in milliseconds without reprocessing entire gigabytes of past chat history!
+00:00:38,920 --> 00:00:48,740
+So next week, when you assign a new project, the agent loads your historical preferences in milliseconds without reprocessing entire gigabytes of past chat history!
 

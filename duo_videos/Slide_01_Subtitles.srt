@@ -1,20 +1,20 @@
 1
-00:00:00,000 --> 00:00:13,460
-[Prof. Peter Kim] Welcome everyone to Oikos University! I am Professor Peter Kim, Director of Smart Insight Lab. Today, we begin our brand new master course: "The Architect of Intelligence."
+00:00:00,800 --> 00:00:14,890
+Welcome everyone to Oikos University! I am Professor Peter Kim, Director of Smart Insight Lab. Today, we begin our brand new master course: "The Architect of Intelligence."
 
 2
-00:00:13,860 --> 00:00:33,640
-[TA Sarah Jenkins] And hello everyone! I'm Sarah Jenkins, your Teaching Assistant and AI Research Fellow at Smart Insight Lab. Professor Kim and I are so thrilled to guide you through this exciting journey! Today, we're not just going to talk about basic prompts or typing in search boxes. We are stepping into something far more powerful.
+00:00:15,590 --> 00:00:35,370
+And hello everyone! I'm Sarah Jenkins, your Teaching Assistant and AI Research Fellow at Smart Insight Lab. Professor Kim and I are so thrilled to guide you through this exciting journey! Today, we're not just going to talk about basic prompts or typing in search boxes. We are stepping into something far more powerful.
 
 3
-00:00:34,040 --> 00:00:50,310
-[Prof. Peter Kim] That is right, Sarah. Look at our title on the screen: "From Waiting Chatbots to Sleep-Free Personal Avatars." For the past few years, AI was like a textbook waiting on your desk. You had to ask a question and wait.
+00:00:36,070 --> 00:00:53,090
+That is right, Sarah. Look at our title on the screen: "From Waiting Chatbots to Sleep-Free Personal Avatars." For the past few years, AI was like a textbook waiting on your desk. You had to ask a question and wait.
 
 4
-00:00:50,710 --> 00:00:59,640
-[TA Sarah Jenkins] But now, in 2026, AI has transformed into an active avatar—a digital co-worker that operates in the cloud even while you sleep!
+00:00:53,790 --> 00:01:02,720
+But now, in 2026, AI has transformed into an active avatar—a digital co-worker that operates in the cloud even while you sleep!
 
 5
-00:01:00,040 --> 00:01:12,810
-[Prof. Peter Kim] Exactly. Our mission today is to discover how this architectural shift reclaims your time, empowers your career, and glorifies our highest human purpose. Let's begin!
+00:01:03,420 --> 00:01:16,790
+Exactly. Our mission today is to discover how this architectural shift reclaims your time, empowers your career, and glorifies our highest human purpose. Let's begin!
 

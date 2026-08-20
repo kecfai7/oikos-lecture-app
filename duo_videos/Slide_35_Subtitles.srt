@@ -1,24 +1,24 @@
 1
-00:00:00,000 --> 00:00:07,060
-[Prof. Peter Kim] On Slide 35, we define our 3-Tier Governance Spectrum for balancing autonomy and control.
+00:00:00,800 --> 00:00:08,220
+On Slide 35, we define our 3-Tier Governance Spectrum for balancing autonomy and control.
 
 2
-00:00:07,460 --> 00:00:13,680
-[TA Sarah Jenkins] This is the golden rule of agent architecture. Not all tasks carry the same risk!
+00:00:08,920 --> 00:00:15,140
+This is the golden rule of agent architecture. Not all tasks carry the same risk!
 
 3
-00:00:14,080 --> 00:00:28,550
-[Prof. Peter Kim] Tier 1 is Full Autonomy. These are low-risk, read-only tasks—like scanning RSS feeds, organizing folder tags, or reading research papers. Let your avatar run freely!
+00:00:15,840 --> 00:00:30,980
+Tier 1 is Full Autonomy. These are low-risk, read-only tasks—like scanning RSS feeds, organizing folder tags, or reading research papers. Let your avatar run freely!
 
 4
-00:00:28,950 --> 00:00:41,890
-[TA Sarah Jenkins] Tier 2 is Notify & Log. Medium-risk tasks—like drafting customer emails or generating code branches. The avatar performs the work and logs it, notifying you of the outcome.
+00:00:31,680 --> 00:00:44,620
+Tier 2 is Notify & Log. Medium-risk tasks—like drafting customer emails or generating code branches. The avatar performs the work and logs it, notifying you of the outcome.
 
 5
-00:00:42,290 --> 00:00:58,800
-[Prof. Peter Kim] Tier 3 is Strict Human Approval. High-risk write operations—like sending emails to clients, executing live database migrations, or spending money. The avatar prepares everything, but waits for your explicit click to send!
+00:00:45,320 --> 00:01:02,580
+Tier 3 is Strict Human Approval. High-risk write operations—like sending emails to clients, executing live database migrations, or spending money. The avatar prepares everything, but waits for your explicit click to send!
 
 6
-00:00:59,200 --> 00:01:04,790
-[TA Sarah Jenkins] This 3-tier matrix eliminates risk while preserving 90% of the speed benefits.
+00:01:03,280 --> 00:01:08,870
+This 3-tier matrix eliminates risk while preserving 90% of the speed benefits.
 

@@ -1,24 +1,24 @@
 1
-00:00:00,000 --> 00:00:05,210
-[TA Sarah Jenkins] Slide 17 presents our core masterpiece: The 3-Layer Spark Pipeline!
+00:00:00,800 --> 00:00:06,010
+Slide 17 presents our core masterpiece: The 3-Layer Spark Pipeline!
 
 2
-00:00:05,610 --> 00:00:09,710
-[Prof. Peter Kim] Let's trace a workflow through these three distinct layers.
+00:00:06,710 --> 00:00:11,050
+Let's trace a workflow through these three distinct layers.
 
 3
-00:00:10,110 --> 00:00:23,430
-[TA Sarah Jenkins] Layer 1 is the Trigger Layer. This is the sensory nerve of your avatar. It constantly listens for time schedules like a morning 7 AM cron job, or event webhooks like a new lead submitting a web form.
+00:00:11,750 --> 00:00:25,070
+Layer 1 is the Trigger Layer. This is the sensory nerve of your avatar. It constantly listens for time schedules like a morning 7 AM cron job, or event webhooks like a new lead submitting a web form.
 
 4
-00:00:23,830 --> 00:00:39,620
-[Prof. Peter Kim] Layer 2 is the Reasoning Layer. This is the Gemini 3.5 Flash brain. It analyzes the event, retrieves relevant guidelines from memory, and decides: "Which tools and API calls do I need to solve this?"
+00:00:25,770 --> 00:00:42,280
+Layer 2 is the Reasoning Layer. This is the Gemini 3.5 Flash brain. It analyzes the event, retrieves relevant guidelines from memory, and decides: "Which tools and API calls do I need to solve this?"
 
 5
-00:00:40,020 --> 00:00:52,280
-[TA Sarah Jenkins] And Layer 3 is the Action Layer. This is the hands and feet! It writes rows to Google Sheets, creates documents in Drive, sends email digests, or commits code to GitHub.
+00:00:42,980 --> 00:00:55,240
+And Layer 3 is the Action Layer. This is the hands and feet! It writes rows to Google Sheets, creates documents in Drive, sends email digests, or commits code to GitHub.
 
 6
-00:00:52,680 --> 00:01:00,860
-[Prof. Peter Kim] Notice how clean and decoupled this pipeline is. Each layer does its job with zero human micromanagement.
+00:00:55,940 --> 00:01:04,530
+Notice how clean and decoupled this pipeline is. Each layer does its job with zero human micromanagement.
 

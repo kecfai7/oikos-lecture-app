@@ -1,24 +1,24 @@
 1
-00:00:00,000 --> 00:00:04,510
-[TA Sarah Jenkins] Here we are at Slide 40: Our Hands-on Lab 1 and Conclusion!
+00:00:00,800 --> 00:00:05,310
+Here we are at Slide 40: Our Hands-on Lab 1 and Conclusion!
 
 2
-00:00:04,910 --> 00:00:13,670
-[Prof. Peter Kim] Theory without practice is dead. Tonight, every student will deploy their very first 24/7 sleep-free avatar!
+00:00:06,010 --> 00:00:15,200
+Theory without practice is dead. Tonight, every student will deploy their very first 24/7 sleep-free avatar!
 
 3
-00:00:14,070 --> 00:00:22,540
-[TA Sarah Jenkins] In Lab Step 1, you will set up your Spark environment, configure your personal `SOUL.md` prompt, and connect your Gemini API key.
+00:00:15,900 --> 00:00:24,370
+In Lab Step 1, you will set up your Spark environment, configure your personal `SOUL.md` prompt, and connect your Gemini API key.
 
 4
-00:00:22,940 --> 00:00:30,450
-[Prof. Peter Kim] In Lab Step 2, you will deploy the Google Apps Script bridge in your Google Drive and test webhook authentication.
+00:00:25,070 --> 00:00:32,970
+In Lab Step 2, you will deploy the Google Apps Script bridge in your Google Drive and test webhook authentication.
 
 5
-00:00:30,850 --> 00:00:39,950
-[TA Sarah Jenkins] And in Lab Step 3, you will activate your morning 6:00 AM cron trigger and wake up tomorrow to your first autonomous intelligence briefing on your smartphone!
+00:00:33,670 --> 00:00:42,770
+And in Lab Step 3, you will activate your morning 6:00 AM cron trigger and wake up tomorrow to your first autonomous intelligence briefing on your smartphone!
 
 6
-00:00:40,350 --> 00:00:52,950
-[Prof. Peter Kim] Congratulations on completing Session 1 of "The Architect of Intelligence." On behalf of TA Sarah Jenkins and myself, Soli Deo Gloria, and we will see you in Session 2!
+00:00:43,470 --> 00:00:56,650
+Congratulations on completing Session 1 of "The Architect of Intelligence." On behalf of TA Sarah Jenkins and myself, Soli Deo Gloria, and we will see you in Session 2!
 

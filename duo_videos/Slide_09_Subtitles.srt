@@ -1,20 +1,20 @@
 1
-00:00:00,000 --> 00:00:07,010
-[Prof. Peter Kim] On Slide 9, let's examine why yesterday's reactive chatbots reached a hard architectural ceiling.
+00:00:00,800 --> 00:00:08,170
+On Slide 9, let's examine why yesterday's reactive chatbots reached a hard architectural ceiling.
 
 2
-00:00:07,410 --> 00:00:18,520
-[TA Sarah Jenkins] As engineers, we know the bottleneck: the user was chained to a synchronous WebSocket connection. If your Wi-Fi dropped or your laptop went to sleep, the AI's execution vanished!
+00:00:08,870 --> 00:00:19,980
+As engineers, we know the bottleneck: the user was chained to a synchronous WebSocket connection. If your Wi-Fi dropped or your laptop went to sleep, the AI's execution vanished!
 
 3
-00:00:18,920 --> 00:00:30,320
-[Prof. Peter Kim] And psychologically, it created severe "attention fragmentation." You couldn't start another deep task because you had to check if the chatbot finished every 30 seconds.
+00:00:20,680 --> 00:00:32,610
+And psychologically, it created severe "attention fragmentation." You couldn't start another deep task because you had to check if the chatbot finished every 30 seconds.
 
 4
-00:00:30,720 --> 00:00:39,120
-[TA Sarah Jenkins] Furthermore, reactive chatbots had zero persistent memory. Every session felt like starting over from scratch with a stranger!
+00:00:33,310 --> 00:00:41,710
+Furthermore, reactive chatbots had zero persistent memory. Every session felt like starting over from scratch with a stranger!
 
 5
-00:00:39,520 --> 00:00:44,680
-[Prof. Peter Kim] That is why reactive chatbots alone cannot scale human productivity.
+00:00:42,410 --> 00:00:47,830
+That is why reactive chatbots alone cannot scale human productivity.
 

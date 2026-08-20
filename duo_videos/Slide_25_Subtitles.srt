@@ -1,24 +1,24 @@
 1
-00:00:00,000 --> 00:00:05,690
-[Prof. Peter Kim] On Slide 25, we look at the integration pipeline with Google Workspace.
+00:00:00,800 --> 00:00:06,780
+On Slide 25, we look at the integration pipeline with Google Workspace.
 
 2
-00:00:06,090 --> 00:00:15,450
-[TA Sarah Jenkins] Google Workspace is where global enterprises live: Sheets, Docs, Drive, and Gmail. Here is how our agent safely interacts with them.
+00:00:07,480 --> 00:00:16,840
+Google Workspace is where global enterprises live: Sheets, Docs, Drive, and Gmail. Here is how our agent safely interacts with them.
 
 3
-00:00:15,850 --> 00:00:25,670
-[Prof. Peter Kim] In Step 1, the agent sends a structured JSON payload to a Google Apps Script Webhook Listener with a secure OAuth 2.0 authorization header.
+00:00:17,540 --> 00:00:27,840
+In Step 1, the agent sends a structured JSON payload to a Google Apps Script Webhook Listener with a secure OAuth 2.0 authorization header.
 
 4
-00:00:26,070 --> 00:00:35,570
-[TA Sarah Jenkins] In Step 2, the Apps Script executes the requested operation—like inserting cleaned sales rows into Google Sheets or generating a formatted Google Doc.
+00:00:28,540 --> 00:00:38,040
+In Step 2, the Apps Script executes the requested operation—like inserting cleaned sales rows into Google Sheets or generating a formatted Google Doc.
 
 5
-00:00:35,970 --> 00:00:43,100
-[Prof. Peter Kim] And in Step 3, the script returns the created file link and document ID back to the agent for logging.
+00:00:38,740 --> 00:00:46,230
+And in Step 3, the script returns the created file link and document ID back to the agent for logging.
 
 6
-00:00:43,500 --> 00:00:49,430
-[TA Sarah Jenkins] No fragile browser scraping; pure, robust, authenticated API integration!
+00:00:46,930 --> 00:00:52,860
+No fragile browser scraping; pure, robust, authenticated API integration!
 

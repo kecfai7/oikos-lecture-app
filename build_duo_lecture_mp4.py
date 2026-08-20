@@ -96,25 +96,30 @@ def parse_dialogue_turns(script_text):
 from voice_morphing_engine import morph_to_professor_voice
 
 async def generate_turn_audio(turn_idx, turn_data, slide_num):
-    raw_audio_path = os.path.join(AUDIO_DIR, f"slide_{slide_num:02d}_turn_{turn_idx:02d}_raw.mp3")
     final_audio_path = os.path.join(AUDIO_DIR, f"slide_{slide_num:02d}_turn_{turn_idx:02d}.mp3")
-    
-    communicate = edge_tts.Communicate(
-        text=turn_data["text"],
-        voice=turn_data["voice"],
-        rate=turn_data["rate"],
-        pitch=turn_data["pitch"]
-    )
-    await communicate.save(raw_audio_path)
     
     # If speaker is Professor Peter Kim, apply RVC-style voice morphing to match authentic voice
     if "Peter" in turn_data["speaker"]:
+        raw_audio_path = os.path.join(AUDIO_DIR, f"slide_{slide_num:02d}_turn_{turn_idx:02d}_raw.mp3")
+        communicate = edge_tts.Communicate(
+            text=turn_data["text"],
+            voice=turn_data["voice"],
+            rate=turn_data["rate"],
+            pitch=turn_data["pitch"]
+        )
+        await communicate.save(raw_audio_path)
+        await asyncio.sleep(0.05)  # Yield for Windows file release
         morph_to_professor_voice(raw_audio_path, final_audio_path)
     else:
-        # Keep TA Sarah's bright natural tone
-        if os.path.exists(final_audio_path):
-            os.remove(final_audio_path)
-        os.rename(raw_audio_path, final_audio_path)
+        # Save TA Sarah directly to final path
+        communicate = edge_tts.Communicate(
+            text=turn_data["text"],
+            voice=turn_data["voice"],
+            rate=turn_data["rate"],
+            pitch=turn_data["pitch"]
+        )
+        await communicate.save(final_audio_path)
+        await asyncio.sleep(0.05)
         
     return final_audio_path
 
@@ -154,20 +159,23 @@ async def capture_slide_image(slide_num, page):
     print(f"  📸 Captured 1080p slide image: {img_path}")
     return img_path
 
-async def build_slide_video(slide_data, page=None):
+async def build_slide_video(slide_data, page=None, session_id=1):
     slide_num = slide_data["num"]
     print(f"\n=======================================================")
-    print(f"🎬 Processing Slide {slide_num:02d}: {slide_data['title']}")
+    print(f"🎬 Processing Session {session_id} • Slide {slide_num:02d}: {slide_data['title']}")
     print(f"=======================================================")
     
     turns = parse_dialogue_turns(slide_data["script"])
     print(f"  👥 Dialogue Turns: {len(turns)} between Prof. Peter Kim & TA Sarah")
     
-    # 1. Synthesize audio
+    # 1. Synthesize audio with natural 60-min lecture pacing
     turn_audio_files = []
     srt_entries = []
-    current_time_ms = 0
-    silence_gap_ms = 400
+    
+    # Lead-in pause at the start of each slide (0.8s for transition)
+    lead_in_ms = 800
+    current_time_ms = lead_in_ms
+    turn_gap_ms = 700  # Natural conversational breathing pause between speakers
     
     for idx, turn in enumerate(turns):
         audio_file = await generate_turn_audio(idx, turn, slide_num)
@@ -180,28 +188,54 @@ async def build_slide_video(slide_data, page=None):
             "idx": idx + 1,
             "start": format_srt_time(start_time),
             "end": format_srt_time(end_time),
-            "speaker": turn["speaker"],
             "text": turn["text"]
         })
-        current_time_ms = end_time + silence_gap_ms
+        current_time_ms = end_time + turn_gap_ms
         print(f"    [Turn {idx+1}] {turn['speaker']} ({duration_ms/1000:.1f}s): \"{turn['text'][:35]}...\"")
 
-    # 2. Concat audio
+    # Determine post-slide reflection / intermission pause to achieve 60-min pace
+    # Major Section slides or Labs get longer reflection breaks
+    if slide_num in [2, 11, 21, 31]:
+        outro_pause_sec = 6.0  # Section Introduction Pause
+    elif slide_num in [14, 15, 30]:
+        outro_pause_sec = 8.0  # Interactive Discussion / Quiz Thinking Time
+    elif slide_num == 40:
+        outro_pause_sec = 10.0 # Final Lab Conclusion Pause
+    else:
+        outro_pause_sec = 3.5  # Standard Slide Review & Note-taking Pause
+
+    outro_pause_ms = int(outro_pause_sec * 1000)
+    current_time_ms += outro_pause_ms
+
+    # 2. Concat audio with lead-in, turn pauses, and outro break
     concat_txt_path = os.path.join(AUDIO_DIR, f"slide_{slide_num:02d}_concat.txt")
-    silence_file = os.path.join(AUDIO_DIR, "silence_400ms.mp3")
+    silence_gap_file = os.path.join(AUDIO_DIR, "silence_700ms.mp3")
+    silence_lead_file = os.path.join(AUDIO_DIR, "silence_800ms.mp3")
+    silence_outro_file = os.path.join(AUDIO_DIR, f"silence_{outro_pause_ms}ms.mp3")
     
-    if not os.path.exists(silence_file):
-        subprocess.run([
-            FFMPEG_EXE, "-y", "-f", "lavfi", "-i", "anullsrc=r=24000:cl=mono",
-            "-t", "0.4", "-q:a", "9", silence_file
-        ], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    # Generate needed silence assets
+    for s_file, dur in [
+        (silence_gap_file, 0.7),
+        (silence_lead_file, 0.8),
+        (silence_outro_file, outro_pause_sec)
+    ]:
+        if not os.path.exists(s_file):
+            subprocess.run([
+                FFMPEG_EXE, "-y", "-f", "lavfi", "-i", "anullsrc=r=24000:cl=mono",
+                "-t", str(dur), "-q:a", "9", s_file
+            ], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
         
     with open(concat_txt_path, "w", encoding="utf-8") as f:
-        for audio_file, _ in turn_audio_files:
+        # Lead in
+        f.write(f"file '{silence_lead_file.replace('\\', '/')}'\n")
+        for i, (audio_file, _) in enumerate(turn_audio_files):
             clean_audio = audio_file.replace("\\", "/")
-            clean_silence = silence_file.replace("\\", "/")
+            clean_gap = silence_gap_file.replace("\\", "/")
             f.write(f"file '{clean_audio}'\n")
-            f.write(f"file '{clean_silence}'\n")
+            if i < len(turn_audio_files) - 1:
+                f.write(f"file '{clean_gap}'\n")
+        # Outro reflection break
+        f.write(f"file '{silence_outro_file.replace('\\', '/')}'\n")
             
     merged_audio_path = os.path.join(AUDIO_DIR, f"slide_{slide_num:02d}_merged.mp3")
     subprocess.run([
@@ -210,19 +244,18 @@ async def build_slide_video(slide_data, page=None):
     ], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     
     total_audio_sec = current_time_ms / 1000.0
-    print(f"  🎙️ Merged Audio Track: {total_audio_sec:.1f} seconds")
+    print(f"  🎙️ Merged Audio Track (with breaks): {total_audio_sec:.1f} seconds")
     
-    # 3. Subtitles SRT
+    # 3. Clean Subtitles SRT (NO speaker name prefixes)
     srt_path = os.path.join(OUTPUT_DIR, f"Slide_{slide_num:02d}_Subtitles.srt")
     with open(srt_path, "w", encoding="utf-8") as f:
         for entry in srt_entries:
-            speaker_tag = f"[{entry['speaker']}]"
             f.write(f"{entry['idx']}\n")
             f.write(f"{entry['start']} --> {entry['end']}\n")
-            f.write(f"{speaker_tag} {entry['text']}\n\n")
-    print(f"  📝 Subtitle SRT saved: {srt_path}")
+            f.write(f"{entry['text']}\n\n")
+    print(f"  📝 Clean Subtitle SRT saved: {srt_path}")
 
-    # 4. Slide Image
+    # 4. Slide Image Capture
     if page:
         img_path = await capture_slide_image(slide_num, page)
     else:
@@ -235,8 +268,8 @@ async def build_slide_video(slide_data, page=None):
             ]
             subprocess.run(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
-    # 5. Render 1080p MP4 Video with Subtitles
-    out_video_path = os.path.join(OUTPUT_DIR, f"Session1_Slide_{slide_num:02d}_DuoLecture.mp4")
+    # 5. Render 1080p MP4 Video
+    out_video_path = os.path.join(OUTPUT_DIR, f"Session{session_id}_Slide_{slide_num:02d}_DuoLecture.mp4")
     
     cmd_encode = [
         FFMPEG_EXE, "-y",
@@ -262,18 +295,18 @@ async def build_slide_video(slide_data, page=None):
         return out_video_path
     return None
 
-async def build_master_concatenation(video_paths):
+async def build_master_concatenation(video_paths, session_id=1):
     if not video_paths:
         return
-    master_concat_txt = os.path.join(OUTPUT_DIR, "master_video_concat.txt")
+    master_concat_txt = os.path.join(OUTPUT_DIR, f"master_video_concat_session{session_id}.txt")
     with open(master_concat_txt, "w", encoding="utf-8") as f:
         for v in video_paths:
             clean_v = v.replace("\\", "/")
             f.write(f"file '{clean_v}'\n")
             
-    master_video_path = os.path.join(OUTPUT_DIR, "Session1_Full_60Min_DuoLecture_Master.mp4")
+    master_video_path = os.path.join(OUTPUT_DIR, f"Session{session_id}_Full_60Min_DuoLecture_Master.mp4")
     print(f"\n=======================================================")
-    print(f"🎞️ Merging all {len(video_paths)} slides into Master Lecture Video...")
+    print(f"🎞️ Merging all {len(video_paths)} slides into 60-Minute Master Lecture Video...")
     print(f"=======================================================")
     
     cmd = [
@@ -325,8 +358,9 @@ async def main():
 
     print("=======================================================")
     print(f"🚀 Oikos Univ 2-Presenter Duo Lecture Video Generator (Session {args.session})")
-    print("👨‍🏫 Lead: Prof. Peter Kim (54) | 👩‍💻 TA: Sarah Jenkins (31)")
+    print("👨‍🏫 Lead: Prof. Peter Kim (Authentic Voice Morphing) | 👩‍💻 TA: Sarah Jenkins (31)")
     print(f"📋 Target: {len(target_slides)} slides from Session {args.session}")
+    print("⏱️ Pacing: 60-Minute Broadcast Lecture with Intermissions & Reflection Breaks")
     print("=======================================================")
 
     async with async_playwright() as p:
@@ -336,14 +370,14 @@ async def main():
         
         generated_videos = []
         for s in target_slides:
-            vpath = await build_slide_video(s, page)
+            vpath = await build_slide_video(s, page, args.session)
             if vpath:
                 generated_videos.append(vpath)
                 
         await browser.close()
         
     if args.all and len(generated_videos) == len(session_slides):
-        await build_master_concatenation(generated_videos)
+        await build_master_concatenation(generated_videos, args.session)
 
     print(f"\n✨ All completed! Files saved in: {OUTPUT_DIR}")
 
