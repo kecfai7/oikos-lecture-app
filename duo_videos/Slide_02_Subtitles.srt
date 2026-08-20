@@ -1,24 +1,48 @@
 1
-00:00:00,800 --> 00:00:09,300
-Look at Slide 2, our first Part Divider: "PART 1: THE PARADIGM SHIFT: CHATBOTS TO AVATARS."
+00:00:00,800 --> 00:00:09,390
+Look at Slide 2, our opening Part Divider: "PART 1: THE PARADIGM SHIFT: CHATBOTS TO AVATARS."
 
 2
-00:00:10,000 --> 00:00:17,390
-Notice our subtitle on the screen: "Soli Deo Gloria: Reclaiming human time from mechanical chatbot waiting loops."
+00:00:10,090 --> 00:00:17,890
+Notice the subtitle centered on our screen: "Soli Deo Gloria: Reclaiming human time from mechanical chatbot waiting loops."
 
 3
-00:00:18,090 --> 00:00:25,626
-For two years, humanity has been trapped staring at blinking AI cursors, typing prompts and waiting.
+00:00:18,590 --> 00:00:28,902
+For the past two years, millions of knowledge workers across the globe have spent countless hours staring at blinking AI cursors in web browser tabs.
 
 4
-00:00:25,626 --> 00:00:29,320
-That waiting loop wastes immense human potential.
+00:00:28,902 --> 00:00:35,823
+You type a prompt, wait twenty seconds, copy the output, paste it into another tool, and wait again.
 
 5
-00:00:30,020 --> 00:00:37,410
-In Part 1, we deconstruct how we transition from passive waiting to commanding proactive avatars that work while you sleep.
+00:00:35,823 --> 00:00:40,600
+That mechanical waiting loop is an enormous waste of human intellect.
 
 6
-00:00:38,110 --> 00:00:43,290
-Let us click "Entering Next Phase" and dive straight into Part 1!
+00:00:41,300 --> 00:00:42,865
+Exactly, Professor Kim.
+
+7
+00:00:42,865 --> 00:00:48,243
+It traps highly educated professionals in what we call 'human middleware' work.
+
+8
+00:00:48,243 --> 00:00:55,870
+Instead of directing high-level strategy, people become manual data couriers between different web applications.
+
+9
+00:00:56,570 --> 00:01:01,037
+In this first 20-minute module, we dismantle that reactive model.
+
+10
+00:01:01,037 --> 00:01:11,140
+We explore how autonomous personal avatars work asynchronously in the background, executing multi-step business and research tasks while you sleep.
+
+11
+00:01:11,840 --> 00:01:19,258
+When you understand this paradigm shift, your perspective on software development and productivity will change forever.
+
+12
+00:01:19,258 --> 00:01:22,500
+Let us click "Entering Next Phase" and begin Part 1!
 

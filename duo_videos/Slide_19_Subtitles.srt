@@ -1,0 +1,24 @@
+1
+00:00:00,800 --> 00:00:11,310
+Slide 19 highlights "THE GEMINI 3.5 FLASH BRAIN." Notice the centerpiece metric: "< 250 MS."
+
+2
+00:00:12,010 --> 00:00:23,720
+Stat label: "Sub-Second Reasoning Latency." For an autonomous agent to execute complex multi-step reasoning, it needs a brain that is both ultra-fast and intellectually capable.
+
+3
+00:00:24,420 --> 00:00:33,344
+Gemini 3.5 Flash delivers full multi-modal understanding and tool calling with sub-250 millisecond response times.
+
+4
+00:00:33,344 --> 00:00:40,860
+This means an agent can execute a 10-step planning and verification loop in less than 3 seconds!
+
+5
+00:00:41,560 --> 00:00:52,120
+Below the metric, notice the cost efficiency: high-speed, lightweight inference makes running 24/7 continuous avatars economically viable for every student and startup.
+
+6
+00:00:52,820 --> 00:00:59,610
+Speed, accuracy, and affordability unite to power our persistent cloud avatars.
+

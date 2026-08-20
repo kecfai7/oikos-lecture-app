@@ -1,0 +1,32 @@
+1
+00:00:00,800 --> 00:00:06,610
+Here we are at Slide 40: "🛠️ HANDS-ON LAB 1 & CONCLUSION."
+
+2
+00:00:07,310 --> 00:00:23,320
+Look at our three practical lab steps: In Lab Step 1, you will initialize your local Spark OS directory structure; in Lab Step 2, you will deploy the Gemini Flash reasoning pipeline; and in Lab Step 3, you will execute your first asynchronous background workflow!
+
+3
+00:00:24,020 --> 00:00:26,632
+Theory without practice is dead.
+
+4
+00:00:26,632 --> 00:00:33,000
+Complete Hands-On Lab 1 today to deploy your first sleep-free personal avatar.
+
+5
+00:00:33,700 --> 00:00:39,916
+Pair up with your study partner, create your duo video assignments, and test your systems thoroughly.
+
+6
+00:00:39,916 --> 00:00:43,610
+Professor Kim and I look forward to seeing you in Session 2!
+
+7
+00:00:44,310 --> 00:00:45,983
+Soli Deo Gloria.
+
+8
+00:00:45,983 --> 00:00:51,630
+Thank you, work diligently, and may God bless you all!
+

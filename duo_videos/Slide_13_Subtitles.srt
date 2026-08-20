@@ -1,0 +1,28 @@
+1
+00:00:00,800 --> 00:00:09,180
+Slide 13 illustrates "SCALING HUMAN ATTENTION." Look at the centerpiece metric: "100X."
+
+2
+00:00:09,880 --> 00:00:23,340
+Stat label: "Attention Multiplier." In traditional IT, if a manager wants to supervise 10 projects, they must attend 10 separate meetings and read hundreds of emails, hitting a hard cognitive ceiling.
+
+3
+00:00:24,040 --> 00:00:33,288
+But an Intelligence Architect supervising a swarm of 10 specialized agents achieves an effective 100X throughput multiplier.
+
+4
+00:00:33,288 --> 00:00:42,090
+Each agent handles a specific domain—code review, data parsing, security auditing—and reports back concise exceptions.
+
+5
+00:00:42,790 --> 00:00:49,491
+Notice the key takeaway at the bottom: You do not scale by drinking more coffee or working 80 hours a week.
+
+6
+00:00:49,491 --> 00:00:54,690
+You scale by architecting parallel agent swarms that amplify your strategic intent.
+
+7
+00:00:55,390 --> 00:01:01,510
+Wisdom and architecture allow one person to achieve the impact of an entire department.
+

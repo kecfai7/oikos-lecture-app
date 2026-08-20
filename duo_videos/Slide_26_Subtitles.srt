@@ -1,0 +1,24 @@
+1
+00:00:00,800 --> 00:00:06,680
+Slide 26 presents a compelling "REAL-WORLD CASE STUDY: Executive Inbox Triage."
+
+2
+00:00:07,380 --> 00:00:24,010
+Look at the left card tagged "BEFORE": "Manual Triage." An executive spends 2.5 hours every single morning manually opening 150 emails, sorting spam, downloading attachments, and drafting routine confirmations.
+
+3
+00:00:24,710 --> 00:00:41,870
+Now look at the right card tagged "AFTER": "Avatar Automation." The personal avatar executes at 4 AM, categorizes all 150 emails, drafts polite replies for approval, extracts urgent action items, and places a 1-page briefing doc on Google Drive!
+
+4
+00:00:42,570 --> 00:00:49,885
+When the executive arrives at their desk at 8 AM, they review the entire briefing in just 10 minutes.
+
+5
+00:00:49,885 --> 00:00:55,390
+That reclaims over 15 hours of high-value leadership time every single week.
+
+6
+00:00:56,090 --> 00:01:00,910
+That is the tangible, real-world ROI of building agentic workflows.
+

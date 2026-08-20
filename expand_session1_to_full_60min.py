@@ -1,11 +1,9 @@
 # -*- coding: utf-8 -*-
 """
-60-Minute Expanded Dialogue Script Generator for Session 1 (40 Slides)
-Averages ~85s dialogue + 5s pauses per slide = exactly 90s * 40 slides = 3,600s (60 Minutes).
-Perfect for 3-part 20-minute splits:
-- Part 1 (Slides 01-13): 20 Minutes (Foundation & Paradigm Shift)
-- Part 2 (Slides 14-26): 20 Minutes (Engineering & Asynchronous Pipelines)
-- Part 3 (Slides 27-40): 20 Minutes (Security, Governance & Lab Conclusion)
+Master 60-Minute Real-Time Broadcast Script Expander for Session 1 (40 Slides)
+Generates ~180-220 words per slide across 6-8 rich dialogue turns
+yielding exactly ~85-90 seconds of speech per slide.
+Total Lecture Runtime: EXACTLY 60 Minutes (3,600s), split into 3x 20-min parts.
 """
 
 import os
@@ -26,107 +24,107 @@ with open(SLIDES_DATA_JS, "r", encoding="utf-8") as f:
     js_text = f.read()
 
 m = re.search(r"export const SLIDES_SESSION_1 = (\[[\s\S]*?\n\]);", js_text)
-if not m:
-    print("Could not find SLIDES_SESSION_1")
-    sys.exit(1)
-
 slides = json.loads(m.group(1))
 
-# Detailed 60-Minute Full-Length Scripts (40 Slides, ~85-90s each)
-SCRIPTS_60MIN = {
-    1: """[Prof. Peter] Welcome everyone to Oikos University! I am Professor Peter Kim, Director of Smart Insight Lab. Today, we inaugurate our flagship master curriculum: "The Architect of Intelligence: Mastering Agentic IT and Strategic Wisdom."
+# Deep, comprehensive 60-minute dialogue scripts for all 40 slides
+EXPANDED_60MIN_SCRIPTS = {
+    1: """[Prof. Peter] Welcome everyone to Oikos University! I am Professor Peter Kim, Director of the Smart Insight Lab. Today marks the official opening of our master curriculum: "The Architect of Intelligence: Mastering Agentic IT and Strategic Wisdom."
 
-[TA Sarah] And a warm welcome to all our global students! I'm Sarah Jenkins, your Teaching Assistant and AI Research Fellow. Professor Kim and I have designed this 60-minute lecture specifically to take you from basic AI prompts to true architectural mastery.
+[TA Sarah] And a very warm welcome to all our undergraduate and graduate students joining us from across the globe! I'm Sarah Jenkins, your Teaching Assistant and AI Research Fellow. Professor Kim and I have designed this comprehensive 60-minute master lecture to fundamentally transform how you understand, design, and deploy artificial intelligence systems.
 
-[Prof. Peter] Look at our opening title on the screen: "From Waiting Chatbots to Sleep-Free Personal Avatars." Over the past three years, the entire technology industry has been interacting with AI as a passive encyclopedia sitting on a desk—you type a question, wait for an answer, and copy the text manually.
+[Prof. Peter] Look at our opening title displayed on the screen: "From Waiting Chatbots to Sleep-Free Personal Avatars." Over the past three years, the entire software industry has been trapped in a reactive paradigm. People interact with AI like an electronic textbook sitting on a desk—you type a question, stare at a blinking cursor, wait for the response, and manually copy the text.
 
-[TA Sarah] But in 2026, we are witnessing the biggest structural paradigm shift in computing: the transition to autonomous, sleep-free personal avatars. These are persistent software agents residing in the cloud, continuously monitoring data streams, and executing complex workflows around the clock.
+[TA Sarah] But in 2026, we are entering the true agentic revolution. AI is no longer just a chatbot waiting in a browser tab. It has evolved into a persistent, autonomous personal avatar—a digital co-worker that operates in cloud memory 24 hours a day, 7 days a week, continuously executing complex multi-step workflows even while you sleep!
 
-[Prof. Peter] Our foundational guiding motto is "Soli Deo Gloria"—Glory to God alone. We teach this cutting-edge technology not merely to write more code, but to redeem finite human time, eliminate mechanical drudgery, and elevate human dignity and strategic wisdom.
+[Prof. Peter] Our guiding institutional motto is "Soli Deo Gloria"—Glory to God alone. We teach this advanced technology not merely to produce more lines of code, but to redeem finite human time, eliminate soul-crushing mechanical drudgery, and elevate human dignity, strategic wisdom, and community service.
 
-[TA Sarah] We have structured today's 60-minute lecture into three clear 20-minute modules so you can master both the conceptual revolution and the hands-on engineering. Let us embark on this journey together!""",
+[TA Sarah] To make this 60-minute lecture easy to study and review for your student pair video assignments, we have structured our class into three distinct 20-minute modules: Foundations in Part 1, Engineering Pipelines in Part 2, and Security Governance in Part 3. Let us embark on this transformative journey together!""",
 
-    2: """[Prof. Peter] Look at Slide 2, our opening Part Divider: "PART 1: THE PARADIGM SHIFT: CHATBOTS TO AVATARS."
+    2: """[Prof. Peter] We now officially enter Slide 2, our first Part Divider: "PART 1: THE PARADIGM SHIFT: CHATBOTS TO AVATARS."
 
-[TA Sarah] Notice the subtitle centered on our screen: "Soli Deo Gloria: Reclaiming human time from mechanical chatbot waiting loops."
+[TA Sarah] Notice our core subtitle centered prominently on the screen: "Soli Deo Gloria: Reclaiming human time from mechanical chatbot waiting loops."
 
-[Prof. Peter] For the past two years, millions of knowledge workers across the globe have spent countless hours staring at blinking AI cursors in web browser tabs. You type a prompt, wait twenty seconds, copy the output, paste it into another tool, and wait again. That mechanical waiting loop is an enormous waste of human intellect.
+[Prof. Peter] Sarah, let us reflect on what has happened to millions of software developers, students, and business executives over the past two years. People open ten different browser tabs, type prompts into ChatGPT or Claude, and spend half their workday waiting for tokens to stream across the screen.
 
-[TA Sarah] Exactly, Professor Kim. It traps highly educated professionals in what we call 'human middleware' work. Instead of directing high-level strategy, people become manual data couriers between different web applications.
+[TA Sarah] That waiting loop is an enormous bottleneck on human potential, Professor Kim. It turns creative thinkers into manual data couriers who spend hours transferring text from chat windows into spreadsheets, code editors, and email clients.
 
-[Prof. Peter] In this first 20-minute module, we dismantle that reactive model. We explore how autonomous personal avatars work asynchronously in the background, executing multi-step business and research tasks while you sleep.
+[Prof. Peter] In this opening 20-minute module, we deconstruct why the reactive chatbot model fails at scale. We explore the architectural principles required to transition from synchronous human waiting to asynchronous, proactive personal avatars that run headless in the cloud.
 
-[TA Sarah] When you understand this paradigm shift, your perspective on software development and productivity will change forever. Let us click "Entering Next Phase" and begin Part 1!""",
+[TA Sarah] When you master this paradigm shift, you will no longer write software with a single keyboard; you will architect autonomous swarms that multiply your intellectual reach a hundredfold.
 
-    3: """[Prof. Peter] Slide 3 lays out our "CORE MISSION & MOTTO: Soli Deo Gloria—Glory to God Alone." Notice the three foundational principles displayed across the screen.
+[Prof. Peter] Let us click "Entering Next Phase" and dive straight into the foundational philosophy of Part 1!""",
 
-[TA Sarah] Principle 1 is Our Mandate: Elevating human mind and spirit above mechanical work. Human beings were created with dignity, strategic discernment, empathy, and creative vision. We were never meant to spend 10 hours a day doing repetitive copy-paste tasks between spreadsheets and email inboxes.
+    3: """[Prof. Peter] Slide 3 establishes our "CORE MISSION & MOTTO: Soli Deo Gloria—Glory to God Alone." Notice the three foundational principles displayed across our screen.
 
-[Prof. Peter] Principle 2 establishes Technology's Role: Technology is a tool to serve humans, not a master to control us. In our modern digital world, addictive notification algorithms and endless feeds constantly hijack our peace of mind. As Intelligence Architects, we must establish complete sovereignty over our digital tools.
+[TA Sarah] Principle 1 is Our Mandate: Elevating human mind and spirit above mechanical work. Human beings were created in the image of God with creativity, compassion, strategic judgment, and spiritual depth. We were never designed to spend eight hours a day doing mechanical copy-pasting between disconnected software tools.
 
-[TA Sarah] And Principle 3 is our Wisdom Goal: Automating simple tasks to save precious time for higher purpose. When our AI avatars handle routine administrative workflows, we reclaim precious hours to invest in our families, our faith, and serving society.
+[Prof. Peter] Principle 2 defines Technology's Role: Technology is a tool to serve humans, not a master to control us. In our modern digital landscape, addictive algorithms, endless notification bells, and dopamine loops constantly fragment human focus. As Intelligence Architects, we must establish absolute sovereignty over our digital environment.
 
-[Prof. Peter] Automation without wisdom leads to exhaustion and distraction. But automation grounded in Soli Deo Gloria becomes sacred time stewardship. That is our north star at Oikos University.""",
+[TA Sarah] And Principle 3 is our Wisdom Goal: Automating simple tasks to save precious time for higher purpose. When your personal AI avatar handles routine administrative workflows, you reclaim hours every week to invest in deep intellectual work, family presence, faith, and serving your local community.
 
-    4: """[TA Sarah] Slide 4 diagrams the "SMART INSIGHT LAB PHILOSOPHY" through three interconnected pillars: Data, Technology, and Life OS.
+[Prof. Peter] Automation without moral wisdom leads to distraction and spiritual exhaustion. But automation grounded in Soli Deo Gloria becomes sacred time stewardship. That is the core standard of Oikos University.""",
 
-[Prof. Peter] Look at Card 1 on the left: "PILLAR 1: DATA." We live in an era overwhelmed by digital noise, synthetic AI text, and misinformation. The first responsibility of an architect is decoding clean, verifiable truth signals from the chaos.
+    4: """[TA Sarah] Slide 4 diagrams the "SMART INSIGHT LAB PHILOSOPHY" through three essential pillars: Data, Technology, and Life OS.
 
-[TA Sarah] Next, look at Card 2 in the center: "PILLAR 2: TECHNOLOGY." We do not just teach abstract theory; we engineer robust, secure, and sleep-free cloud agent systems. These systems run 24 hours a day on scalable cloud infrastructure with zero downtime.
+[Prof. Peter] Let us examine Card 1 on the left: "PILLAR 1: DATA." In an era drowning in synthetic AI text, deepfakes, and clickbait noise, the highest duty of an architect is signal extraction—decoding clear, verifiable, and actionable truth from surrounding information overload.
 
-[Prof. Peter] And look at Card 3 on the right: "PILLAR 3: LIFE OS." This is the core differentiator of our curriculum. Technology must be designed to protect your physical health, deep focus, and natural sleep rather than burning you out.
+[TA Sarah] Now look at Card 2 in the center: "PILLAR 2: TECHNOLOGY." We do not teach superficial prompt engineering. We teach students how to build robust, secure, and sleep-free cloud agent architectures that execute multi-step workflows with zero downtime and complete cryptographic auditability.
 
-[TA Sarah] If your software automation causes you more stress and insomnia, it is poorly architected. But when Data, Technology, and Life OS align in harmony, you achieve true sustainable leverage and professional mastery!""",
+[Prof. Peter] And look at Card 3 on the right: "PILLAR 3: LIFE OS." This is the soul of our lab. We structure daily workflows and digital habits so that technology actively protects your physical health, deep focus, and natural sleep rather than burning you out.
+
+[TA Sarah] If your IT system causes you insomnia and anxiety, it is a failed architecture. But when Data, Technology, and Life OS align in harmony, you become a balanced, highly effective Intelligence Architect!""",
 
     5: """[Prof. Peter] Slide 5 is titled "A LETTER FROM THE FUTURE: From childhood dreams to 2026 reality."
 
-[TA Sarah] Look at the left card tagged "THE DREAM": "Childhood Wish." When we were young students, almost everyone had that classic fantasy: "What if I had a digital twin or a clone of myself who could do all my homework and tidy my room while I go outside to play?"
+[TA Sarah] Look at the left card tagged "THE DREAM": "Childhood Wish." When we were young students in school, almost everyone shared that classic fantasy: "What if I had a twin or a clone of myself who could sit at my desk, do all my math homework, and clean my bedroom while I go outside to play with my friends?"
 
-[Prof. Peter] It was a universal dream of delegation. And now, look at the right card tagged "THE REALITY": "2026 Autonomous Avatar." In 2026, that childhood fantasy is no longer science fiction. It is working production software engineering!
+[Prof. Peter] It was a universal human desire for delegation and leverage. And now, look at the right card tagged "THE REALITY": "2026 Autonomous Avatar." In 2026, that childhood fantasy is no longer science fiction. It is working production software engineering!
 
-[TA Sarah] Today, an Intelligence Architect can deploy a persistent digital twin in the cloud. While you are sleeping, your avatar parses incoming project logs, synthesizes executive research briefings, drafts client replies, and organizes your Google Drive.
+[TA Sarah] Today, an Intelligence Architect can deploy a persistent digital twin in the cloud. While you are resting or spending time with family, your avatar parses incoming project logs, synthesizes executive research briefings, drafts client replies, and organizes your Google Drive files.
 
-[Prof. Peter] When you wake up at 7 AM, your digital twin presents a completed 1-page executive summary of everything accomplished overnight. That is the leverage we are building in this course.""",
+[Prof. Peter] When you sit down at your desk in the morning, your digital twin presents a completed 1-page briefing of everything accomplished overnight. That is the tangible leverage we are building in this course.""",
 
-    6: """[TA Sarah] Slide 6 highlights "THE ULTIMATE CURRENCY." Notice the prominent metric in the center: "24 HOURS PER DAY."
+    6: """[TA Sarah] Slide 6 highlights "THE ULTIMATE CURRENCY." Notice the prominent metric centered on our screen: "24 HOURS PER DAY."
 
-[Prof. Peter] The stat label underneath reads: "The Equalizer for All Humanity." Think about this profound reality: whether you are a university student, a corporate CEO, or a world leader, everyone is given exactly the same 24 hours every single day.
+[Prof. Peter] The stat label underneath reads: "The Equalizer for All Humanity." Think deeply about this mathematical truth: whether you are a first-year university student, a senior software architect, a corporate executive, or a world leader, everyone is allocated exactly the same 24 hours every single day.
 
-[TA Sarah] You cannot buy extra physical hours with money, and you cannot manufacture more time. But in the modern AI era, how you deploy those 24 hours determines your entire life trajectory.
+[TA Sarah] You cannot buy extra physical hours with wealth, and you cannot fabricate more time with faster processors. But in the modern AI era, how you leverage those 24 hours determines your entire impact on the world.
 
-[Prof. Peter] Below the number, notice our core thesis: The ultimate wealth of the 21st century is not raw computing power or accumulating terabytes of data—it is reclaiming undivided human focus, relational presence, and strategic clarity.
+[Prof. Peter] Below the number, notice our central thesis: The ultimate wealth of the 21st century is not raw computation or hoarding data—it is reclaiming undivided human focus, relational presence, and strategic clarity.
 
-[TA Sarah] When sleep-free avatars absorb mechanical data chores, our finite physical hours are redeemed for creative thought and deep human relationships. That is true time equity.""",
+[TA Sarah] When sleep-free avatars absorb mechanical data chores, our finite physical hours are redeemed for creative thought, wisdom synthesis, and genuine human connection. That is true time stewardship.""",
 
-    7: """[Prof. Peter] On Slide 7, we present our "SESSION 1 LEARNING OBJECTIVES" across three comprehensive cards.
+    7: """[Prof. Peter] On Slide 7, we outline our "SESSION 1 LEARNING OBJECTIVES" across three structured educational cards.
 
-[TA Sarah] Card 1 is "1. PARADIGM SHIFT": Transitioning from synchronous, blocking chatbots to proactive, sleep-free cloud avatars that operate autonomously.
+[TA Sarah] Card 1 is "1. PARADIGM SHIFT": Transitioning from synchronous, blocking chatbots to proactive, sleep-free cloud avatars that operate autonomously in background memory.
 
 [Prof. Peter] Card 2 is "2. ASYNC ARCHITECTURE": Mastering the technical foundation of the 3-Layer Gemini Spark pipeline—connecting Webhook Triggers, Gemini Reasoning, and Workspace Actions.
 
-[TA Sarah] And Card 3 is "3. GOVERNANCE & WISDOM": Implementing Human-on-the-Loop supervision, cryptographic security guardrails, and maintaining offline life balance under Soli Deo Gloria.
+[TA Sarah] And Card 3 is "3. GOVERNANCE & WISDOM": Implementing Human-on-the-Loop supervision, cryptographic security guardrails, spending caps, and maintaining offline life balance under Soli Deo Gloria.
 
-[Prof. Peter] By the end of this 60-minute session, you will possess both the conceptual clarity and the practical architectural blueprint to deploy your first personal avatar. Let us proceed!""",
+[Prof. Peter] By the end of this 60-minute broadcast, you will possess both the conceptual clarity and the practical architectural blueprint to deploy your first personal avatar.
+
+[TA Sarah] Make sure to take thorough notes on these three objectives, as they form the core grading criteria for your upcoming student pair video assignments!""",
 
     8: """[TA Sarah] Slide 8 illustrates "THE PARADIGM SHIFT: 'ASK ME' VS. 'RUN IT FOR ME'."
 
-[Prof. Peter] Look at the left card tagged "PASSIVE AI": "The 'Ask Me' Era." In the 2023 chatbot era, AI functioned like a reactive search engine. You typed a question, the model generated paragraphs of text, and then you had to manually copy, format, and execute everything yourself.
+[Prof. Peter] Look at the left card tagged "PASSIVE AI": "The 'Ask Me' Era." In the 2023 chatbot era, AI functioned like a reactive search engine. You typed a question, the model generated paragraphs of text, and then you had to manually copy, format, debug, and execute everything yourself.
 
 [TA Sarah] Now examine the right card tagged "ACTIVE AI": "The 'Run It For Me' Era." In 2026, AI has evolved into an agentic operator. You define an end goal—such as 'Analyze yesterday's customer feedback and update our database'—and the avatar writes the code, calls the APIs, and verifies the result!
 
-[Prof. Peter] In the 'Ask Me' paradigm, the human does 90% of the manual execution. In the 'Run It For Me' paradigm, the avatar executes 90% of the mechanical steps while the human provides high-level judgment.
+[Prof. Peter] In the 'Ask Me' paradigm, the human does 90% of the manual execution. In the 'Run It For Me' paradigm, the avatar executes 90% of the mechanical steps while the human provides high-level judgment and strategic direction.
 
 [TA Sarah] That fundamental shift is the dividing line between an amateur AI user and a professional Intelligence Architect.""",
 
     9: """[Prof. Peter] Slide 9 analyzes "YESTERDAY: REACTIVE CHATBOTS."
 
-[TA Sarah] On the left card, tagged "THE BOTTLENECK", we examine "Human as Middleware." For the last few years, whenever companies tried to implement AI, the human worker was forced to act as the physical bridge between ChatGPT, Google Docs, Slack, and email.
+[TA Sarah] On the left card, tagged "THE BOTTLENECK", we examine "Human as Middleware." For the last few years, whenever companies tried to implement AI, the human worker was forced to act as the physical bridge between ChatGPT, Google Docs, Slack, and email inboxes.
 
-[Prof. Peter] Look at the right card tagged "THE COST": "High Latency & Fatigue." Because every single transaction required human attention, professionals experienced massive cognitive fatigue, constant context switching, and high error rates from manual typing.
+[Prof. Peter] Look at the right card tagged "THE COST": "High Latency & Fatigue." Because every single transaction required continuous human attention, professionals experienced massive cognitive fatigue, constant context switching, and high error rates from manual typing.
 
-[TA Sarah] When you have to switch browser tabs 50 times an hour to copy-paste data, your brain cannot engage in deep creative problem solving.
+[TA Sarah] When you have to switch browser tabs 50 times an hour to copy-paste data, your brain cannot engage in deep creative problem solving or philosophical reflection.
 
-[Prof. Peter] Chatbots gave us great answers, but they left us chained to the keyboard. That is the limitation we are breaking today.""",
+[Prof. Peter] Chatbots gave us great text answers, but they left us chained to the keyboard. That is the mechanical bottleneck we are dismantling today.""",
 
     10: """[TA Sarah] Slide 10 presents "TODAY: PROACTIVE AVATARS."
 
@@ -136,7 +134,7 @@ SCRIPTS_60MIN = {
 
 [Prof. Peter] In the morning, you receive a perfectly synthesized, verifiable report ready for decision-making. The human transforms from an exhausted manual laborer into a sovereign director.
 
-[TA Sarah] This concludes Module 1! In the next 20 minutes, we will dive deep under the hood into the engineering mechanics of autonomous reasoning!""",
+[TA Sarah] This concludes our first 20-minute module! In Module 2, we will dive deep under the hood into the computational engineering of autonomous reasoning!""",
 
     11: """[Prof. Peter] Welcome to Slide 11 and the start of Part 2: "PART 2: UNDER THE HOOD OF AUTONOMOUS REASONING."
 
@@ -424,8 +422,8 @@ SCRIPTS_60MIN = {
 # Update all 40 slides
 for slide in slides:
     num = slide["num"]
-    if num in SCRIPTS_60MIN:
-        slide["script"] = SCRIPTS_60MIN[num]
+    if num in EXPANDED_60MIN_SCRIPTS:
+        slide["script"] = EXPANDED_60MIN_SCRIPTS[num]
     slide["instructor"] = "Prof. Peter Kim (54) & TA Sarah Jenkins (31) • Smart Insight Lab"
 
 # Save updated slidesData.js
@@ -478,4 +476,4 @@ for s in slides:
 with open(SESSION1_MD, "w", encoding="utf-8") as f:
     f.write("\n".join(md_lines))
 
-print("✅ Full 60-Minute Expanded Dialogue applied to all 40 slides in Session 1!")
+print("✅ Master 60-Minute Broadcast Script successfully expanded across all 40 slides!")

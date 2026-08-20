@@ -1,0 +1,20 @@
+1
+00:00:00,800 --> 00:00:06,060
+Slide 37 portrays "THE SOVEREIGN CONDUCTOR: ORCHESTRATING SWARMS."
+
+2
+00:00:06,760 --> 00:00:16,000
+Look at Card 1: The "RESEARCH AGENT" searches documentation, parses PDFs, and verifies factual citations.
+
+3
+00:00:16,700 --> 00:00:25,050
+Look at Card 2: The "BUILDER AGENT" translates verified research into clean code, structured spreadsheets, and formatted slides.
+
+4
+00:00:25,750 --> 00:00:36,740
+And look at Card 3: The "CRITIC AGENT" rigorously checks the builder's output against quality benchmarks, flagging syntax bugs or formatting discrepancies.
+
+5
+00:00:37,440 --> 00:00:44,660
+You do not need to micro-manage each step; you act as the Sovereign Conductor orchestrating this entire multi-agent symphony!
+

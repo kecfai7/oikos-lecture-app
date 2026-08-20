@@ -1,0 +1,32 @@
+1
+00:00:00,800 --> 00:00:08,580
+Slide 29 outlines "AP2: AGENT PAYMENTS PROTOCOL" across three structured cards.
+
+2
+00:00:09,280 --> 00:00:10,480
+Card 1 is "1.
+
+3
+00:00:10,480 --> 00:00:20,010
+DUAL AUTHORIZATION": Requiring explicit human approval for any financial transaction or data transfer exceeding predefined dollar thresholds.
+
+4
+00:00:20,710 --> 00:00:21,910
+Card 2 is "2.
+
+5
+00:00:21,910 --> 00:00:32,610
+EPHEMERAL TOKENS": Using single-use, cryptographically signed tokens with strict 5-minute expiration windows for tool authentication.
+
+6
+00:00:33,310 --> 00:00:34,510
+And Card 3 is "3.
+
+7
+00:00:34,510 --> 00:00:42,570
+AUDIT LOGGING": Maintaining an immutable, append-only ledger that records every transaction hash and reasoning trace.
+
+8
+00:00:43,270 --> 00:00:51,930
+Cryptographic protocols ensure that autonomous commerce and agentic operations remain verifiable, auditable, and secure.
+

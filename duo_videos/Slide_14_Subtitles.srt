@@ -1,0 +1,28 @@
+1
+00:00:00,800 --> 00:00:07,280
+Slide 14 is our "INTERACTIVE STUDENT POLL: What is your biggest time sink in daily IT workflows?"
+
+2
+00:00:07,980 --> 00:00:12,783
+Let us review the four options displayed on the screen.
+
+3
+00:00:12,783 --> 00:00:29,030
+Option A is 'Manual data copy-pasting across tools.' Option B is 'Waiting for chatbot responses.' Option C is 'Triaging emails and alerts.' And Option D is 'Repetitive weekly reporting.'
+
+4
+00:00:29,730 --> 00:00:37,697
+In our live classroom polling across global cohorts, over 72% of students consistently select Option A and Option C!
+
+5
+00:00:37,697 --> 00:00:41,750
+Knowledge workers are drowning in mechanical data transfer.
+
+6
+00:00:42,450 --> 00:00:54,710
+That empirical poll data confirms our diagnosis: the primary bottleneck in modern IT is not a lack of intelligence, but the friction of manual glue work between disconnected systems.
+
+7
+00:00:55,410 --> 00:01:00,810
+And that is exactly what our 3-Layer Gemini Spark pipeline is designed to eliminate!
+

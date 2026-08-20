@@ -1,0 +1,24 @@
+1
+00:00:00,800 --> 00:00:05,460
+Slide 20 explores "HARDWARE INFRASTRUCTURE: TPU V8."
+
+2
+00:00:06,160 --> 00:00:21,980
+On the left card tagged "LEGACY": "General Compute." Traditional CPUs and older GPUs suffer from high power draw, thermal throttling, and severe memory bandwidth bottlenecks during massive parallel agent execution.
+
+3
+00:00:22,680 --> 00:00:37,560
+On the right card tagged "AGENTIC ERA": "Custom TPU Pods." Google's TPU v8 infrastructure provides dedicated matrix multiplication acceleration and optical circuit switching designed specifically for concurrent agent swarms.
+
+4
+00:00:38,260 --> 00:00:48,840
+Robust hardware infrastructure ensures that your cloud avatars run with predictable low latency and enterprise-grade reliability 365 days a year.
+
+5
+00:00:49,540 --> 00:00:51,271
+This concludes Module 2!
+
+6
+00:00:51,271 --> 00:00:59,280
+In our final 20-minute module, we will explore workspace integrations, cryptographic security, and life wisdom!
+

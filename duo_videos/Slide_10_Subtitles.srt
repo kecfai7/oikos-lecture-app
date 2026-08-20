@@ -1,0 +1,28 @@
+1
+00:00:00,800 --> 00:00:04,830
+Slide 10 presents "TODAY: PROACTIVE AVATARS."
+
+2
+00:00:05,530 --> 00:00:24,370
+Look at the left card tagged "THE LEVERAGE": "Direct Tool Execution." Modern avatars are equipped with tool belts—they can read file systems, execute shell commands, query SQL databases, and call REST APIs directly in the cloud without human intervention.
+
+3
+00:00:25,070 --> 00:00:37,070
+Look at the right card tagged "THE RESULT": "Asynchronous Freedom." You trigger a multi-hour research workflow before going to bed, and your avatar coordinates multiple sub-agents in parallel throughout the night.
+
+4
+00:00:37,770 --> 00:00:44,488
+In the morning, you receive a perfectly synthesized, verifiable report ready for decision-making.
+
+5
+00:00:44,488 --> 00:00:50,030
+The human transforms from an exhausted manual laborer into a sovereign director.
+
+6
+00:00:50,730 --> 00:00:52,254
+This concludes Module 1!
+
+7
+00:00:52,254 --> 00:00:59,370
+In the next 20 minutes, we will dive deep under the hood into the engineering mechanics of autonomous reasoning!
+

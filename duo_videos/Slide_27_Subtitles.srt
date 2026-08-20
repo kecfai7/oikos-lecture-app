@@ -1,0 +1,24 @@
+1
+00:00:00,800 --> 00:00:07,900
+Slide 27 introduces Part 4: "THE SECURITY MATRIX: PROTECTING THE DIGITAL VAULT."
+
+2
+00:00:08,600 --> 00:00:14,620
+Subtitle: "Establishing robust guardrails, cryptographic audits, and defense-in-depth."
+
+3
+00:00:15,320 --> 00:00:22,392
+As Intelligence Architects, we must understand that autonomy without security is catastrophic.
+
+4
+00:00:22,392 --> 00:00:29,240
+Giving an AI agent access to file systems and APIs requires rigorous defensive engineering.
+
+5
+00:00:29,940 --> 00:00:40,070
+In this section, we examine financial risks, prompt injection defenses, and cryptographic audit trails to ensure our avatars remain 100% secure.
+
+6
+00:00:40,770 --> 00:00:45,400
+Let us enter the Security Matrix and fortify our systems!
+

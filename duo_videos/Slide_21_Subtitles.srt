@@ -1,0 +1,20 @@
+1
+00:00:00,800 --> 00:00:10,230
+Welcome to Slide 21 and the beginning of our final module: "PART 3: THE CONNECTED WORKSPACE: APPS SCRIPT & DRIVE."
+
+2
+00:00:10,930 --> 00:00:16,570
+Subtitle: "Transforming Google Workspace into an automated enterprise command center."
+
+3
+00:00:17,270 --> 00:00:29,560
+In this third 20-minute module, we bridge the reasoning brain to everyday business software—connecting agents to Google Drive, Google Sheets, Gmail, and Google Apps Script.
+
+4
+00:00:30,260 --> 00:00:38,320
+We will also cover essential security guardrails, financial controls, and how to maintain offline focus under Soli Deo Gloria.
+
+5
+00:00:39,020 --> 00:00:44,920
+Let us click "Entering Next Phase" and build the connected enterprise workspace!
+

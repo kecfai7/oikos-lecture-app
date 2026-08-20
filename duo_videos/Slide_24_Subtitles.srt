@@ -1,0 +1,20 @@
+1
+00:00:00,800 --> 00:00:04,400
+Slide 24 explains the "DUAL MEMORY ENGINE."
+
+2
+00:00:05,100 --> 00:00:19,450
+On the left card tagged "SHORT-TERM": "Working Scratchpad." This is fast, in-context scratchpad memory where the agent records intermediate thoughts, tool responses, and active turn variables.
+
+3
+00:00:20,150 --> 00:00:34,500
+On the right card tagged "LONG-TERM": "Persistent Knowledge Vault." This is vector-indexed storage stored in markdown files, SQLite databases, and Google Drive, allowing the avatar to recall user preferences across weeks and months.
+
+4
+00:00:35,200 --> 00:00:42,930
+Dual memory mimics human cognition: rapid working focus combined with deep, permanent knowledge retrieval.
+
+5
+00:00:43,630 --> 00:00:49,990
+This enables your avatar to provide deeply personalized assistance tailored to your unique workflow history.
+

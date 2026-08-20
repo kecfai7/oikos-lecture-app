@@ -1,0 +1,24 @@
+1
+00:00:00,800 --> 00:00:05,380
+Slide 16 is our Part Divider: "TRANSITION TO ENGINEERING."
+
+2
+00:00:06,080 --> 00:00:12,220
+Subtitle: "Moving from conceptual understanding to production agent implementation."
+
+3
+00:00:12,920 --> 00:00:18,646
+We have established the philosophical foundation and analyzed the workplace bottlenecks.
+
+4
+00:00:18,646 --> 00:00:26,650
+Now, in the heart of our second module, we inspect the exact architectural diagrams, directory setups, and code structures.
+
+5
+00:00:27,350 --> 00:00:35,359
+Put on your engineering hats as we examine the 3-layer pipeline that powers production-grade personal avatars.
+
+6
+00:00:35,359 --> 00:00:37,690
+Let's enter the engineering lab!
+

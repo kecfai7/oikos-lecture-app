@@ -1,0 +1,52 @@
+1
+00:00:00,800 --> 00:00:03,749
+Welcome everyone to Oikos University!
+
+2
+00:00:03,749 --> 00:00:08,213
+I am Professor Peter Kim, Director of Smart Insight Lab.
+
+3
+00:00:08,213 --> 00:00:18,420
+Today, we inaugurate our flagship master curriculum: "The Architect of Intelligence: Mastering Agentic IT and Strategic Wisdom."
+
+4
+00:00:19,120 --> 00:00:21,969
+And a warm welcome to all our global students!
+
+5
+00:00:21,969 --> 00:00:26,057
+I'm Sarah Jenkins, your Teaching Assistant and AI Research Fellow.
+
+6
+00:00:26,057 --> 00:00:34,360
+Professor Kim and I have designed this 60-minute lecture specifically to take you from basic AI prompts to true architectural mastery.
+
+7
+00:00:35,060 --> 00:00:54,980
+Look at our opening title on the screen: "From Waiting Chatbots to Sleep-Free Personal Avatars." Over the past three years, the entire technology industry has been interacting with AI as a passive encyclopedia sitting on a desk—you type a question, wait for an answer, and copy the text manually.
+
+8
+00:00:55,680 --> 00:01:04,703
+But in 2026, we are witnessing the biggest structural paradigm shift in computing: the transition to autonomous, sleep-free personal avatars.
+
+9
+00:01:04,703 --> 00:01:14,110
+These are persistent software agents residing in the cloud, continuously monitoring data streams, and executing complex workflows around the clock.
+
+10
+00:01:14,810 --> 00:01:20,009
+Our foundational guiding motto is "Soli Deo Gloria"—Glory to God alone.
+
+11
+00:01:20,009 --> 00:01:33,190
+We teach this cutting-edge technology not merely to write more code, but to redeem finite human time, eliminate mechanical drudgery, and elevate human dignity and strategic wisdom.
+
+12
+00:01:33,890 --> 00:01:43,089
+We have structured today's 60-minute lecture into three clear 20-minute modules so you can master both the conceptual revolution and the hands-on engineering.
+
+13
+00:01:43,089 --> 00:01:45,360
+Let us embark on this journey together!
+

@@ -1,0 +1,36 @@
+1
+00:00:00,800 --> 00:00:03,659
+Slide 18 contrasts "SYNCHRONOUS VS.
+
+2
+00:00:03,659 --> 00:00:05,620
+ASYNCHRONOUS" execution.
+
+3
+00:00:06,320 --> 00:00:16,737
+On the left card tagged "BLOCKING", we see "Synchronous Execution." In a synchronous model, every API request blocks the main thread.
+
+4
+00:00:16,737 --> 00:00:25,040
+If a database query or web scrape takes 45 seconds, the human user is frozen staring at a loading spinner.
+
+5
+00:00:25,740 --> 00:00:34,048
+Now look at the right card tagged "NON-BLOCKING": "Asynchronous Pipeline." When an event occurs, it is pushed to a background event queue.
+
+6
+00:00:34,048 --> 00:00:40,550
+The agent processes it independently in the cloud and notifies you only when the finished artifact is ready.
+
+7
+00:00:41,250 --> 00:00:46,201
+Asynchronous architecture is the vital secret of sleep-free computing.
+
+8
+00:00:46,201 --> 00:00:51,790
+It frees the human from waiting loops and allows systems to scale horizontally.
+
+9
+00:00:52,490 --> 00:00:57,410
+Always design your agent workflows with non-blocking, event-driven queues!
+

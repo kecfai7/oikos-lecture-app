@@ -1,0 +1,36 @@
+1
+00:00:00,800 --> 00:00:07,880
+Slide 15 provides "POLL ANALYSIS & INSIGHT" across three diagnostic cards.
+
+2
+00:00:08,580 --> 00:00:09,780
+Card 1 is "1.
+
+3
+00:00:09,780 --> 00:00:21,490
+THE GLUE WORK TRAP": Global studies show that knowledge workers spend over 60% of their workday simply formatting, copying, and routing data between incompatible software platforms.
+
+4
+00:00:22,190 --> 00:00:23,390
+Card 2 is "2.
+
+5
+00:00:23,390 --> 00:00:35,502
+CONTEXT SWITCHING": Research from cognitive science demonstrates that every digital interruption takes up to 23 minutes for a human brain to regain deep focus.
+
+6
+00:00:35,502 --> 00:00:39,330
+Context switching destroys intellectual breakthrough.
+
+7
+00:00:40,030 --> 00:00:41,230
+And Card 3 is "3.
+
+8
+00:00:41,230 --> 00:00:52,390
+THE AVATAR SOLUTION": By delegating routine glue work to autonomous headless agents, human professionals reclaim uninterrupted 4-hour deep work blocks every day.
+
+9
+00:00:53,090 --> 00:00:59,980
+Eliminating glue work is the single highest-return investment an organization can make in human capital.
+

@@ -1,0 +1,24 @@
+1
+00:00:00,800 --> 00:00:08,100
+Welcome to Slide 11 and the start of Part 2: "PART 2: UNDER THE HOOD OF AUTONOMOUS REASONING."
+
+2
+00:00:08,800 --> 00:00:15,590
+Notice our subtitle: "How autonomous agents think, plan, and execute without human intervention."
+
+3
+00:00:16,290 --> 00:00:24,392
+In this second 20-minute module, we transition from high-level concepts to the computational engine under the hood.
+
+4
+00:00:24,392 --> 00:00:31,650
+We will examine how an LLM transforms into a goal-driven reasoning loop that plans, acts, and observes.
+
+5
+00:00:32,350 --> 00:00:41,880
+We will explore background execution metaphors, scaling multipliers, and address common engineering bottlenecks that students face in their practical assignments.
+
+6
+00:00:42,580 --> 00:00:49,490
+Let us click "Entering Next Phase" and unpack the engineering core of autonomous agent reasoning!
+

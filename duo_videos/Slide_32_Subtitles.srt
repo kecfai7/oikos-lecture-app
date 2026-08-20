@@ -1,0 +1,16 @@
+1
+00:00:00,800 --> 00:00:05,960
+Slide 32 diagrams the critical threat of "PROMPT INJECTION."
+
+2
+00:00:06,660 --> 00:00:19,690
+On the left card tagged "ATTACK VECTOR": "Indirect Prompt Injection." An adversary embeds hidden malicious instructions inside a public webpage or email body, attempting to hijack your avatar's reasoning loop.
+
+3
+00:00:20,390 --> 00:00:37,500
+On the right card tagged "SHIELD": "Strict Input Sanitization." We treat all external data as untrusted input, wrapping untrusted text inside secure XML delimiters and preventing external content from overriding system instructions.
+
+4
+00:00:38,200 --> 00:00:43,340
+Always separate data channels from instruction channels in your agent prompt engineering!
+

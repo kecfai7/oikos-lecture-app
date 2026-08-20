@@ -1,0 +1,20 @@
+1
+00:00:00,800 --> 00:00:05,480
+Slide 28 warns about "FINANCIAL RISK: UNCONTROLLED WALLET."
+
+2
+00:00:06,180 --> 00:00:24,080
+Look at the left card tagged "VULNERABILITY": "Unbounded API Spending." If an autonomous agent encounters an infinite retry loop or processes a malicious prompt, it could make thousands of recursive API calls and drain thousands of dollars in cloud credits overnight.
+
+3
+00:00:24,780 --> 00:00:39,760
+Look at the right card tagged "DEFENSE": "Hard Spending Caps & Token Quotas." We must enforce strict per-task budget limits, maximum token thresholds, and automated circuit breakers that immediately halt execution if spending limits are reached.
+
+4
+00:00:40,460 --> 00:00:47,994
+Never deploy an autonomous agent into production without hard, non-bypassable financial fences.
+
+5
+00:00:47,994 --> 00:00:50,850
+Security begins with budget control.
+
