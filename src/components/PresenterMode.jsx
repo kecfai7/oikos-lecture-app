@@ -263,9 +263,9 @@ export default function PresenterMode({
             <div className="space-y-3">
               {slideData?.script ? (
                 slideData.script.split('\n\n').map((paragraph, idx) => {
-                  const isPeter = paragraph.startsWith('[Prof. Peter]');
-                  const isSarah = paragraph.startsWith('[Prof. Sarah]');
-                  const cleanText = paragraph.replace(/^\[Prof\.\s*(Peter|Sarah)\]\s*/i, '');
+                  const isPeter = paragraph.startsWith('[Prof. Peter]') || paragraph.startsWith('[Prof. Peter Kim]');
+                  const isSarah = paragraph.startsWith('[TA Sarah]') || paragraph.startsWith('[Sarah (TA)]') || paragraph.startsWith('[Prof. Sarah]');
+                  const cleanText = paragraph.replace(/^\[(Prof\.\s*Peter(\s*Kim)?|TA\s*Sarah|Sarah\s*\(TA\)|Prof\.\s*Sarah)\]\s*/i, '');
                   
                   return (
                     <div 
@@ -283,13 +283,13 @@ export default function PresenterMode({
                         {isPeter && (
                           <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-blue-500/20 text-blue-300 border border-blue-500/40">
                             <span className="w-2 h-2 rounded-full bg-blue-400 animate-pulse"></span>
-                            👨‍🏫 Prof. Peter Kim (Lead / Strategy)
+                            👨‍🏫 Prof. Peter Kim (54, Lead Architect)
                           </span>
                         )}
                         {isSarah && (
                           <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-purple-500/20 text-purple-300 border border-purple-500/40">
                             <span className="w-2 h-2 rounded-full bg-purple-400 animate-pulse"></span>
-                            👩‍🏫 Prof. Sarah Jenkins (Engineering)
+                            👩‍💻 TA Sarah Jenkins (31, AI Research Assistant)
                           </span>
                         )}
                         {!isPeter && !isSarah && (

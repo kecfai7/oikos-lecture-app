@@ -48,7 +48,7 @@ export default function Header({
               SOLI DEO GLORIA
             </span>
           </div>
-          <p className="text-[11px] text-cyan-400 font-medium">Smart Insight Lab • Prof. Peter Kim & Prof. Sarah Jenkins</p>
+          <p className="text-[11px] text-cyan-400 font-medium">Smart Insight Lab • Prof. Peter Kim & TA Sarah Jenkins</p>
         </div>
       </div>
 
