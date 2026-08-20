@@ -1,32 +1,44 @@
 1
-00:00:00,800 --> 00:00:05,940
-Slide 12 uses an insightful engineering metaphor: "VIDEO GAME COMPUTING."
+00:00:00,800 --> 00:00:08,940
+Slide 12 uses an insightful engineering metaphor: "VIDEO GAME COMPUTING: From Active Rendering to Headless Background Simulation."
 
 2
-00:00:06,640 --> 00:00:19,077
-Look at the left card tagged "METAPHOR": "Background NPC Simulation." In modern open-world video games, non-player characters do not vanish when you turn your camera away.
+00:00:09,640 --> 00:00:23,296
+Look closely at the left card tagged "METAPHOR": "Background NPC Simulation." In modern open-world video games like Skyrim or Grand Theft Auto, non-player characters do not vanish when you look away.
 
 3
-00:00:19,077 --> 00:00:26,060
-The game engine simulates their trade, movement, and behavior continuously in background memory.
+00:00:23,296 --> 00:00:34,620
+The underlying physics and economic engine simulates their movement, trading, and interactions continuously in background RAM without rendering pixels to the screen.
 
 4
-00:00:26,760 --> 00:00:34,859
-Now look at the right card tagged "REALITY": "Cloud Agent Loops." Your personal AI avatar operates on the exact same principle.
+00:00:35,320 --> 00:00:44,450
+And examine the right card tagged "REALITY": "Cloud Agent Loops." This is identical to how our personal avatars function in cloud infrastructure.
 
 5
-00:00:34,859 --> 00:00:45,000
-It runs in a headless cloud container, listening for webhooks, evaluating cron schedules, and analyzing incoming telemetry even when your laptop is turned off.
+00:00:44,450 --> 00:00:53,076
+When you submit a multi-step research job, your browser window does not need to remain open, and your laptop does not need to stay awake.
 
 6
-00:00:45,700 --> 00:00:48,880
-You do not need to keep a browser window open.
+00:00:53,076 --> 00:01:02,270
+The agent loop runs headless inside a secure cloud container, continuously evaluating state conditions, triggering API calls, and persisting data.
 
 7
-00:00:48,880 --> 00:00:56,280
-The avatar lives in the cloud infrastructure, persistently guarding your data and executing your workflows.
+00:01:02,970 --> 00:01:05,770
+Think of the immense freedom this provides.
 
 8
-00:00:56,980 --> 00:01:04,250
-That is the architectural meaning of 'sleep-free' computing—background persistence dedicated entirely to your objectives.
+00:01:05,770 --> 00:01:15,019
+You define high-level strategic objectives during your working hours, and your headless agents work through millions of data points overnight.
+
+9
+00:01:15,019 --> 00:01:21,860
+When you log in the next morning, the completed data tables and executive summaries are already compiled.
+
+10
+00:01:22,560 --> 00:01:26,318
+That is the true power of headless background execution.
+
+11
+00:01:26,318 --> 00:01:34,440
+It decouples computational productivity from physical human screen time, creating genuine 24-hour operational continuity!
 

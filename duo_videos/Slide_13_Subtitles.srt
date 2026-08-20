@@ -1,28 +1,32 @@
 1
-00:00:00,800 --> 00:00:09,180
-Slide 13 illustrates "SCALING HUMAN ATTENTION." Look at the centerpiece metric: "100X."
+00:00:00,800 --> 00:00:13,570
+Slide 13 illustrates "SCALING HUMAN ATTENTION: The 100X Productivity Multiplier." Look at the centerpiece metric displayed prominently on our screen: "100X."
 
 2
-00:00:09,880 --> 00:00:23,340
-Stat label: "Attention Multiplier." In traditional IT, if a manager wants to supervise 10 projects, they must attend 10 separate meetings and read hundreds of emails, hitting a hard cognitive ceiling.
+00:00:14,270 --> 00:00:26,318
+Notice the stat label underneath: "Attention Multiplier." In traditional manual engineering, an engineer can only focus on one terminal window, one document, or one pull request at a time.
 
 3
-00:00:24,040 --> 00:00:33,288
-But an Intelligence Architect supervising a swarm of 10 specialized agents achieves an effective 100X throughput multiplier.
+00:00:26,318 --> 00:00:34,650
+If you want to scale output, you are forced to work longer hours or hire more personnel, leading to severe communication overhead.
 
 4
-00:00:33,288 --> 00:00:42,090
-Each agent handles a specific domain—code review, data parsing, security auditing—and reports back concise exceptions.
+00:00:35,350 --> 00:00:40,786
+But when you master agentic architecture, you step into the role of a conductor.
 
 5
-00:00:42,790 --> 00:00:49,491
-Notice the key takeaway at the bottom: You do not scale by drinking more coffee or working 80 hours a week.
+00:00:40,786 --> 00:00:57,570
+By deploying an autonomous swarm of 10 specialized agents—each operating with sub-second latency across distinct domains like static analysis, security auditing, and test generation—your strategic oversight is amplified by two orders of magnitude!
 
 6
-00:00:49,491 --> 00:00:54,690
-You scale by architecting parallel agent swarms that amplify your strategic intent.
+00:00:58,270 --> 00:01:06,190
+Look at the key takeaway card at the bottom: You do not scale your impact by working 80 hours a week or sacrificing your family and sleep.
 
 7
-00:00:55,390 --> 00:01:01,510
-Wisdom and architecture allow one person to achieve the impact of an entire department.
+00:01:06,190 --> 00:01:13,250
+You scale by architecting intelligent systems that handle execution while you provide high-level vision and moral guidance.
+
+8
+00:01:13,950 --> 00:01:21,890
+That is how Soli Deo Gloria transforms engineering productivity into sustainable, life-giving human wisdom!
 
