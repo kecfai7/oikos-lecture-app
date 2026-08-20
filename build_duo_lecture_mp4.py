@@ -42,13 +42,17 @@ os.makedirs(AUDIO_DIR, exist_ok=True)
 FFMPEG_EXE = imageio_ffmpeg.get_ffmpeg_exe()
 
 # Voice Configs
-VOICE_PETER = "en-US-ChristopherNeural"  # Mature, authoritative 50s professor tone
+VOICE_PETER = "en-US-ChristopherNeural"  # Mature, authoritative 50s professor tone (Morphed with clean_*.wav)
 VOICE_PETER_RATE = "-2%"
 VOICE_PETER_PITCH = "-2Hz"
 
-VOICE_SARAH = "en-US-JennyNeural"        # Bright, articulate, smart 30s TA tone
-VOICE_SARAH_RATE = "+3%"
+VOICE_SARAH = "en-US-JennyNeural"        # Bright, articulate, smart 30s Senior TA tone
+VOICE_SARAH_RATE = "+2%"
 VOICE_SARAH_PITCH = "+1Hz"
+
+VOICE_JAMES = "en-US-GuyNeural"          # Energetic, sharp, knowledgeable 20s Tech/DevOps TA tone
+VOICE_JAMES_RATE = "+3%"
+VOICE_JAMES_PITCH = "+0Hz"
 
 def format_srt_time(ms):
     total_sec = ms / 1000.0
@@ -77,6 +81,12 @@ def parse_dialogue_turns(script_text):
             rate = VOICE_SARAH_RATE
             pitch = VOICE_SARAH_PITCH
             clean_text = re.sub(r'^\[(TA\s*Sarah|Sarah\s*\(TA\)|Prof\.\s*Sarah)\]\s*', '', p)
+        elif p.startswith('[TA James]') or p.startswith('[James (TA)]') or p.startswith('[James]'):
+            speaker = "TA James Wilson"
+            voice = VOICE_JAMES
+            rate = VOICE_JAMES_RATE
+            pitch = VOICE_JAMES_PITCH
+            clean_text = re.sub(r'^\[(TA\s*James|James\s*\(TA\)|James)\]\s*', '', p)
         else:
             speaker = "Narrator"
             voice = VOICE_PETER
