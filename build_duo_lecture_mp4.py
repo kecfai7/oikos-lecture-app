@@ -134,20 +134,20 @@ def get_audio_duration_ms(audio_path):
         return int((hours * 3600 + mins * 60 + secs) * 1000)
     return 3000
 
-async def capture_slide_image(slide_num, page):
-    img_path = os.path.join(SLIDES_IMG_DIR, f"slide_{slide_num:02d}.png")
+async def capture_slide_image(slide_num, page, session_id=1):
+    img_path = os.path.join(SLIDES_IMG_DIR, f"session_{session_id}_slide_{slide_num:02d}.png")
     if os.path.exists(img_path):
         return img_path
     
-    url = f"https://oikos-lecture-app.vercel.app/"
+    url = f"https://oikos-lecture-app.vercel.app/?session={session_id}"
     await page.goto(url, wait_until="networkidle")
     
     # Press right arrow to get to target slide
     for _ in range(slide_num - 1):
         await page.keyboard.press("ArrowRight")
-        await asyncio.sleep(0.12)
+        await asyncio.sleep(0.15)
         
-    await asyncio.sleep(0.4)
+    await asyncio.sleep(0.5)
     
     await page.evaluate("""() => {
         const header = document.querySelector('header');
@@ -156,7 +156,7 @@ async def capture_slide_image(slide_num, page):
     }""")
     
     await page.screenshot(path=img_path, full_page=False)
-    print(f"  📸 Captured 1080p slide image: {img_path}")
+    print(f"  📸 Captured 1080p slide image for Session {session_id} Slide {slide_num:02d}: {img_path}")
     return img_path
 
 async def build_slide_video(slide_data, page=None, session_id=1):
@@ -257,9 +257,9 @@ async def build_slide_video(slide_data, page=None, session_id=1):
 
     # 4. Slide Image Capture
     if page:
-        img_path = await capture_slide_image(slide_num, page)
+        img_path = await capture_slide_image(slide_num, page, session_id)
     else:
-        img_path = os.path.join(SLIDES_IMG_DIR, f"slide_{slide_num:02d}.png")
+        img_path = os.path.join(SLIDES_IMG_DIR, f"session_{session_id}_slide_{slide_num:02d}.png")
         if not os.path.exists(img_path):
             cmd = [
                 FFMPEG_EXE, "-y", "-f", "lavfi",

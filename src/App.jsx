@@ -9,7 +9,16 @@ import { SLIDES_SESSION_1, SLIDES_SESSION_2, SLIDES_SESSION_3, SLIDES_SESSION_4,
 import { Keyboard } from 'lucide-react';
 
 export default function App() {
-  const [selectedSession, setSelectedSession] = useState(15);
+  const getInitialSession = () => {
+    if (typeof window !== 'undefined') {
+      const params = new URLSearchParams(window.location.search);
+      const s = parseInt(params.get('session') || params.get('s'), 10);
+      if (s >= 1 && s <= 15) return s;
+    }
+    return 1;
+  };
+
+  const [selectedSession, setSelectedSession] = useState(getInitialSession);
   const [currentSlideIndex, setCurrentSlideIndex] = useState(0);
   const [isPresenterOpen, setIsPresenterOpen] = useState(false);
   const [isOverviewOpen, setIsOverviewOpen] = useState(false);
