@@ -1,20 +1,32 @@
 1
-00:00:00,800 --> 00:00:07,980
-Slide 28 warns about "FINANCIAL RISK: UNCONTROLLED WALLET: Preventing Catastrophic API Overruns."
+00:00:01,000 --> 00:00:08,850
+Slide 28 analyzes "FINANCIAL RISK: UNCONTROLLED WALLET: Why autonomous agents need strict budgetary guardrails."
 
 2
-00:00:08,680 --> 00:00:26,580
-Look at the left card tagged "VULNERABILITY": "Unbounded API Spending." If an autonomous agent encounters an infinite retry loop or processes a malicious prompt, it could make thousands of recursive API calls and drain thousands of dollars in cloud credits overnight.
+00:00:09,750 --> 00:00:20,684
+Look at the left card: "THE THREAT": An unconstrained agent executing recursive API loops or falling victim to a malicious prompt injection could drain thousands of dollars in cloud API credits in minutes.
 
 3
-00:00:27,280 --> 00:00:42,260
-Look at the right card tagged "DEFENSE": "Hard Spending Caps & Token Quotas." We must enforce strict per-task budget limits, maximum token thresholds, and automated circuit breakers that immediately halt execution if spending limits are reached.
+00:00:20,684 --> 00:00:31,780
+I personally consulted for an early-stage startup where a rogue multi-agent loop ran overnight without rate limits, racking up a twelve-thousand-dollar bill on an unmonitored OpenAI API key in just six hours!
 
 4
-00:00:42,960 --> 00:00:50,494
-Never deploy an autonomous agent into production without hard, non-bypassable financial fences.
+00:00:32,680 --> 00:00:44,560
+Look at the right card: "THE SOLUTION": Hard spending limits, pre-funded virtual cards, and mandatory multi-signature human approval for transactions exceeding $10.
 
 5
-00:00:50,494 --> 00:00:53,350
-Security begins with budget control.
+00:00:45,460 --> 00:00:58,660
+We implement a strict circuit breaker pattern in Python: if an agent spends more than $5 in any 10-minute sliding window, all outbound API keys are instantly frozen until a verified human administrator clicks approve in a Telegram webhook.
+
+6
+00:00:59,560 --> 00:01:08,390
+This completely eliminates both accidental runaway recursive loops and deliberate financial denial-of-wallet attacks initiated by malicious actors.
+
+7
+00:01:09,290 --> 00:01:13,597
+Financial boundaries preserve organizational stability.
+
+8
+00:01:13,597 --> 00:01:21,430
+Let us examine the AP2 payment protocol on Slide 29 to see how we enforce these cryptographic rules.
 

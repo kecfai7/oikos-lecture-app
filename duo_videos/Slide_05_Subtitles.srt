@@ -1,36 +1,36 @@
 1
-00:00:00,800 --> 00:00:08,140
+00:00:01,000 --> 00:00:08,340
 Slide 5 is titled "A LETTER FROM THE FUTURE: From childhood dreams to 2026 reality."
 
 2
-00:00:08,840 --> 00:00:25,880
-Look at the left card tagged "THE DREAM": "Childhood Wish." When we were young students in school, almost everyone shared that classic fantasy: "What if I had a twin or a clone of myself who could sit at my desk, do all my math homework, and clean my bedroom while I go outside to play with my friends?"
+00:00:09,240 --> 00:00:27,120
+Look at the left card tagged "THE DREAM": "Childhood Wish." When we were young students in grade school, almost everyone shared that classic fantasy: "What if I had a twin or a clone of myself who could sit at my desk, do all my homework, clean my room, and summarize my textbooks while I play outside or sleep?"
 
 3
-00:00:26,580 --> 00:00:31,610
-It was a universal human desire for delegation and leverage.
+00:00:28,020 --> 00:00:33,160
+For decades, that dream remained locked in comic books and science fiction films.
 
 4
-00:00:31,610 --> 00:00:43,432
-And now, look at the right card tagged "THE REALITY": "2026 Autonomous Avatar." In 2026, that childhood fantasy is no longer science fiction.
+00:00:33,160 --> 00:00:42,234
+But look at the right card tagged "THE REALITY": "2026 Autonomous Avatar." Today in 2026, personal digital twins are living production reality!
 
 5
-00:00:43,432 --> 00:00:47,290
-It is working production software engineering!
+00:00:42,234 --> 00:00:53,340
+We write autonomous daemons that authenticate into your cloud APIs, read incoming pull requests, synthesize research briefings, and draft responses while you sleep peacefully.
 
 6
-00:00:47,990 --> 00:00:53,224
-Today, an Intelligence Architect can deploy a persistent digital twin in the cloud.
+00:00:54,240 --> 00:01:09,949
+When you sit down at your workstation in the morning with a cup of coffee, your digital twin has already summarized 50 research papers, filed GitHub issue reports, verified database integrity, and queued up high-priority decision prompts.
 
 7
-00:00:53,224 --> 00:01:05,650
-While you are resting or spending time with family, your avatar parses incoming project logs, synthesizes executive research briefings, drafts client replies, and organizes your Google Drive files.
+00:01:09,949 --> 00:01:14,900
+It transforms human capability from linear exertion into scalable leverage.
 
 8
-00:01:06,350 --> 00:01:14,954
-When you sit down at your desk in the morning, your digital twin presents a completed 1-page briefing of everything accomplished overnight.
+00:01:15,800 --> 00:01:20,895
+You are no longer the manual typist struggling against a tide of notifications.
 
 9
-00:01:14,954 --> 00:01:18,730
-That is the tangible leverage we are building in this course.
+00:01:20,895 --> 00:01:26,120
+You are the chief executive strategist directing an autonomous digital workforce!
 

@@ -1,16 +1,24 @@
 1
-00:00:00,800 --> 00:00:07,740
-Slide 34 addresses "SHADOW IT & ENTERPRISE COMPLIANCE: Securing Corporate Data."
+00:00:01,000 --> 00:00:08,970
+Slide 34 addresses "SHADOW IT & ENTERPRISE COMPLIANCE: Eliminating rogue AI pipelines through centralized governance."
 
 2
-00:00:08,440 --> 00:00:19,790
-On the left card tagged "RISK": "Unsanctioned Copy-Pasting." Untrained employees pasting proprietary source code and confidential customer data into unvetted public AI chatbots.
+00:00:09,870 --> 00:00:19,900
+On the left card: "RISK": Employees using unvetted consumer chatbots, leaking proprietary source code, customer PII, and trade secrets to public third-party servers.
 
 3
-00:00:20,490 --> 00:00:35,080
-On the right card tagged "ENTERPRISE STANDARD": "Governed Private Hub." Providing a centralized, enterprise-governed agent directory with Single Sign-On, Role-Based Access Control, and strict data residency.
+00:00:20,800 --> 00:00:33,300
+On the right card: "ENTERPRISE SOLUTION": Deploying self-hosted, audited avatar gateways that enforce privacy compliance, tenant isolation, and zero data-retention agreements.
 
 4
-00:00:35,780 --> 00:00:41,800
-Solve Shadow IT by providing employees with superior, secure internal avatar tooling!
+00:00:34,200 --> 00:00:44,280
+A centralized avatar gateway logs all API calls, redacts sensitive API keys and credit card numbers using regex filters, and ensures compliance with GDPR and HIPAA.
+
+5
+00:00:45,180 --> 00:00:53,800
+It provides employees with superior autonomous capabilities while keeping corporate intellectual property strictly within secure enterprise boundaries.
+
+6
+00:00:54,700 --> 00:01:01,250
+Centralized architecture protects corporate integrity while giving developers cutting-edge automation.
 

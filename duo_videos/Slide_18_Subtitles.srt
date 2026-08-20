@@ -1,40 +1,40 @@
 1
-00:00:00,800 --> 00:00:03,200
+00:00:01,000 --> 00:00:03,387
 Slide 18 contrasts "SYNCHRONOUS VS.
 
 2
-00:00:03,200 --> 00:00:07,040
-ASYNCHRONOUS: Eliminating the Human Waiting Bottleneck."
+00:00:03,387 --> 00:00:08,300
+ASYNCHRONOUS: Why blocking loops fail in production enterprise systems."
 
 3
-00:00:07,740 --> 00:00:19,571
-Look at the left card tagged "BLOCKING": "Synchronous Execution." In a traditional synchronous architecture, every single operation blocks the execution thread.
+00:00:09,200 --> 00:00:16,203
+Look at the left card: "SYNCHRONOUS (BLOCKING)": The client opens an HTTP connection and holds the socket open.
 
 4
-00:00:19,571 --> 00:00:32,141
-When a user requests a complex multi-file codebase analysis or a large document translation, the entire UI freezes, and the human is trapped staring at a loading spinner.
+00:00:16,203 --> 00:00:28,760
+If the LLM takes 45 seconds to synthesize research across 20 web pages, the gateway times out with HTTP 504 Gateway Timeout, the browser freezes, and all intermediate computation is permanently lost.
 
 5
-00:00:32,141 --> 00:00:36,800
-If a network timeout occurs at second 45, the entire job fails.
+00:00:29,660 --> 00:00:40,973
+Now look at the right card: "ASYNCHRONOUS (NON-BLOCKING)": The client issues a high-level task and receives an instant `202 Accepted` response with a unique Task UUID.
 
 6
-00:00:37,500 --> 00:00:50,766
-Now examine the right card tagged "NON-BLOCKING": "Asynchronous Pipeline." In our modern Spark OS design, every incoming task is immediately acknowledged with a cryptographic job receipt and pushed to an event-driven task queue.
+00:00:40,973 --> 00:00:49,510
+The headless agent executes in the background across separate worker threads, persisting checkpoints to disk after every step.
 
 7
-00:00:50,766 --> 00:00:59,960
-The human user is instantly liberated to resume high-level strategic thinking, while the headless worker in the cloud processes the payload in the background.
+00:00:50,410 --> 00:00:59,600
+If a worker container restarts unexpectedly, it reads the last checkpoint from SQLite and resumes execution from Step 4 instead of restarting from scratch.
 
 8
-00:01:00,660 --> 00:01:09,631
-When the background agent completes its multi-step verification loop, it updates the state database and sends a high-signal notification.
+00:01:00,500 --> 00:01:06,315
+When the job completes, the agent triggers a webhook notification or updates a dashboard.
 
 9
-00:01:09,631 --> 00:01:18,080
-Asynchronous architecture is the secret behind sleep-free computing—it scales linearly without increasing human cognitive burden.
+00:01:06,315 --> 00:01:10,890
+The human architect is completely freed from waiting on progress bars!
 
 10
-00:01:18,780 --> 00:01:26,290
-In your Hands-On Lab assignments, make sure every long-running tool call is decoupled through non-blocking asynchronous event handlers!
+00:01:11,790 --> 00:01:18,770
+Asynchronous decoupled architecture is the foundational engineering principle of scalable cloud computing.
 

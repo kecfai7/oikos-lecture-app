@@ -1,36 +1,36 @@
 1
-00:00:00,800 --> 00:00:09,010
-On Slide 7, we outline our "SESSION 1 LEARNING OBJECTIVES" across three structured educational cards.
+00:00:01,000 --> 00:00:08,100
+Slide 7 outlines our "SESSION 1 LEARNING OBJECTIVES" through three distinct milestones.
 
 2
-00:00:09,710 --> 00:00:10,910
-Card 1 is "1.
+00:00:09,000 --> 00:00:10,855
+Card 1 on the left is: "1.
 
 3
-00:00:10,910 --> 00:00:20,890
-PARADIGM SHIFT": Transitioning from synchronous, blocking chatbots to proactive, sleep-free cloud avatars that operate autonomously in background memory.
+00:00:10,855 --> 00:00:20,350
+PARADIGM SHIFT." Master the architectural transition from synchronous, prompt-dependent chatbots to autonomous, event-driven avatars.
 
 4
-00:00:21,590 --> 00:00:22,790
-Card 2 is "2.
+00:00:21,250 --> 00:00:23,156
+Card 2 in the center is: "2.
 
 5
-00:00:22,790 --> 00:00:35,700
-ASYNC ARCHITECTURE": Mastering the technical foundation of the 3-Layer Gemini Spark pipeline—connecting Webhook Triggers, Gemini Reasoning, and Workspace Actions.
+00:00:23,156 --> 00:00:33,440
+CORE ARCHITECTURE." Understand the 3-Layer Spark Engine, Asynchronous Event Queues, Gemini 3.5 Flash sub-second reasoning, and Dual Memory persistence.
 
 6
-00:00:36,400 --> 00:00:37,600
-And Card 3 is "3.
+00:00:34,340 --> 00:00:36,637
+And Card 3 on the right is: "3.
 
 7
-00:00:37,600 --> 00:00:49,240
-GOVERNANCE & WISDOM": Implementing Human-on-the-Loop supervision, cryptographic security guardrails, spending caps, and maintaining offline life balance under Soli Deo Gloria.
+00:00:36,637 --> 00:00:46,050
+SECURITY & LAB." Learn AP2 payment protocol guardrails, defend against indirect prompt injections, and complete Hands-on Lab 1.
 
 8
-00:00:49,940 --> 00:01:00,160
-By the end of this 60-minute broadcast, you will possess both the conceptual clarity and the practical architectural blueprint to deploy your first personal avatar.
+00:00:46,950 --> 00:00:56,120
+In the lab portion, you will actually write Python code that runs a local event queue, connects to Gemini via API, and processes mock Google Workspace events.
 
 9
-00:01:00,860 --> 00:01:08,969
-Make sure to take thorough notes on these three objectives, as they form the core grading criteria for your upcoming student pair video assignments!
+00:00:57,020 --> 00:01:06,240
+By mastering these three objectives today, you will possess the foundational blueprint to engineer and deploy your own production-grade digital twin!
 

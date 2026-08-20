@@ -1,44 +1,52 @@
 1
-00:00:00,800 --> 00:00:08,940
-Slide 12 uses an insightful engineering metaphor: "VIDEO GAME COMPUTING: From Active Rendering to Headless Background Simulation."
+00:00:01,000 --> 00:00:10,550
+Slide 12 presents a brilliant engineering metaphor: "METAPHOR: VIDEO GAME COMPUTING: Understanding agentic background loops like game physics engines."
 
 2
-00:00:09,640 --> 00:00:23,296
-Look closely at the left card tagged "METAPHOR": "Background NPC Simulation." In modern open-world video games like Skyrim or Grand Theft Auto, non-player characters do not vanish when you look away.
+00:00:11,450 --> 00:00:24,013
+Look at the left card tagged "TURN-BASED CHESS": "Synchronous Chatbot." In chess, the entire game universe completely freezes until the human player makes a physical move.
 
 3
-00:00:23,296 --> 00:00:34,620
-The underlying physics and economic engine simulates their movement, trading, and interactions continuously in background RAM without rendering pixels to the screen.
+00:00:24,013 --> 00:00:30,700
+There is zero background life, zero continuous computation, and zero independent evolution.
 
 4
-00:00:35,320 --> 00:00:44,450
-And examine the right card tagged "REALITY": "Cloud Agent Loops." This is identical to how our personal avatars function in cloud infrastructure.
+00:00:31,600 --> 00:00:43,437
+Now examine the right card tagged "OPEN WORLD RPG": "Autonomous Agent Swarm." In open-world games like Skyrim or Grand Theft Auto, the physics and economic engine runs continuously in background RAM.
 
 5
-00:00:44,450 --> 00:00:53,076
-When you submit a multi-step research job, your browser window does not need to remain open, and your laptop does not need to stay awake.
+00:00:43,437 --> 00:00:52,360
+NPC merchants trade goods, weather systems simulate rainstorms, and guards patrol cities whether the player is looking at that part of the map or not!
 
 6
-00:00:53,076 --> 00:01:02,270
-The agent loop runs headless inside a secure cloud container, continuously evaluating state conditions, triggering API calls, and persisting data.
+00:00:53,260 --> 00:00:56,496
+This is identical to our cloud agent architecture!
 
 7
-00:01:02,970 --> 00:01:05,770
-Think of the immense freedom this provides.
+00:00:56,496 --> 00:01:01,997
+When you submit a multi-step research job, your browser does not need to remain open.
 
 8
-00:01:05,770 --> 00:01:15,019
-You define high-level strategic objectives during your working hours, and your headless agents work through millions of data points overnight.
+00:01:01,997 --> 00:01:09,960
+The headless agent loop runs inside a cloud container, evaluating state machines, polling webhooks, and persisting results.
 
 9
-00:01:15,019 --> 00:01:21,860
-When you log in the next morning, the completed data tables and executive summaries are already compiled.
+00:01:10,860 --> 00:01:18,271
+If a background NPC runs into an obstacle in the game world, the pathfinding algorithm recalculates a route around the rock.
 
 10
-00:01:22,560 --> 00:01:26,318
-That is the true power of headless background execution.
+00:01:18,271 --> 00:01:26,580
+Similarly, when our avatar encounters a rate limit on an API, it dynamically throttles requests and switches to alternative data providers.
 
 11
-00:01:26,318 --> 00:01:34,440
-It decouples computational productivity from physical human screen time, creating genuine 24-hour operational continuity!
+00:01:27,480 --> 00:01:32,554
+Video game developers mastered background simulation decades ago.
+
+12
+00:01:32,554 --> 00:01:40,440
+In 2026, we apply those exact asynchronous simulation principles to personal enterprise productivity!
+
+13
+00:01:41,340 --> 00:01:47,530
+Decoupling compute from active screen time is the secret to 24/7 operational continuity.
 

@@ -1,40 +1,36 @@
 1
-00:00:00,800 --> 00:00:10,230
-We now officially enter Slide 2, our first Part Divider: "PART 1: THE PARADIGM SHIFT: CHATBOTS TO AVATARS."
+00:00:01,000 --> 00:00:09,300
+Slide 2 marks our first major curriculum milestone: "PART 1: THE PARADIGM SHIFT: CHATBOTS TO AUTONOMOUS AVATARS."
 
 2
-00:00:10,930 --> 00:00:19,450
-Notice our core subtitle centered prominently on the screen: "Soli Deo Gloria: Reclaiming human time from mechanical chatbot waiting loops."
+00:00:10,200 --> 00:00:17,161
+In this opening section, we unpack the fundamental cognitive and technological transition of our decade.
 
 3
-00:00:20,150 --> 00:00:29,470
-Sarah, let us reflect on what has happened to millions of software developers, students, and business executives over the past two years.
+00:00:17,161 --> 00:00:29,880
+For the past three years, the tech industry treated artificial intelligence merely as an interactive text box where humans type a query, wait for tokens to stream, and manually copy results.
 
 4
-00:00:29,470 --> 00:00:39,880
-People open ten different browser tabs, type prompts into ChatGPT or Claude, and spend half their workday waiting for tokens to stream across the screen.
+00:00:30,780 --> 00:00:36,036
+As software engineers, we saw the severe productivity ceiling of that synchronous model.
 
 5
-00:00:40,580 --> 00:00:45,380
-That waiting loop is an enormous bottleneck on human potential, Professor Kim.
+00:00:36,036 --> 00:00:44,460
+A reactive chatbot is essentially a passive oracle—it produces zero value unless a human is physically sitting in front of a glowing monitor.
 
 6
-00:00:45,380 --> 00:00:54,980
-It turns creative thinkers into manual data couriers who spend hours transferring text from chat windows into spreadsheets, code editors, and email clients.
+00:00:45,360 --> 00:00:51,916
+In Part 1, we demonstrate how we replace that synchronous friction with proactive, sleep-free digital twins.
 
 7
-00:00:55,680 --> 00:01:01,984
-In this opening 20-minute module, we deconstruct why the reactive chatbot model fails at scale.
+00:00:51,916 --> 00:01:01,509
+We will examine the mathematics of attention reclamation, the philosophy of sustainable Life OS, and the structural differences between 'Ask Me' and 'Run It'.
 
 8
-00:01:01,984 --> 00:01:13,200
-We explore the architectural principles required to transition from synchronous human waiting to asynchronous, proactive personal avatars that run headless in the cloud.
+00:01:02,409 --> 00:01:11,839
+As you absorb these concepts, reflect on how much of your own daily creative potential is currently drained by mechanical digital chores.
 
 9
-00:01:13,900 --> 00:01:24,050
-When you master this paradigm shift, you will no longer write software with a single keyboard; you will architect autonomous swarms that multiply your intellectual reach a hundredfold.
-
-10
-00:01:24,750 --> 00:01:31,590
-Let us click "Entering Next Phase" and dive straight into the foundational philosophy of Part 1!
+00:01:11,839 --> 00:01:15,969
+Let us examine our laboratory's founding mission on Slide 3.
 

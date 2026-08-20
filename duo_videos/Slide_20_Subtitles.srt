@@ -1,40 +1,28 @@
 1
-00:00:00,800 --> 00:00:08,890
-Slide 20 explores "HARDWARE INFRASTRUCTURE: TPU V8: The Silicon Engine of 24/7 Persistent Avatars."
+00:00:01,000 --> 00:00:08,680
+Slide 20 explores "HARDWARE INFRASTRUCTURE: TPU V8: Silicon acceleration powering frontier agent reasoning."
 
 2
-00:00:09,590 --> 00:00:13,441
-Let us contrast the hardware architectures on screen.
+00:00:09,580 --> 00:00:23,640
+Look at the left card: "TPU V8 MATRIX ARCHITECTURE": Google's custom Tensor Processing Units feature dedicated Matrix Multiplication Units (MXUs) that process bfloat16 tensor operations with optical circuit switching and liquid cooling.
 
 3
-00:00:13,441 --> 00:00:25,286
-Look at the left card tagged "LEGACY": "General Compute." Traditional server CPUs and older GPU clusters were designed for batch graphics or sequential arithmetic.
+00:00:24,540 --> 00:00:39,540
+And look at the right card: "REAL-WORLD IMPACT": This specialized silicon infrastructure enables real-time vector embeddings, sub-millisecond similarity search, and high-throughput model inference across thousands of parallel agent threads.
 
 4
-00:00:25,286 --> 00:00:35,970
-Under continuous parallel agent workloads, they suffer from extreme power consumption, thermal throttling, and severe memory bandwidth bottlenecks.
+00:00:40,440 --> 00:00:47,352
+The hardware interconnect bandwidth allows massive multi-agent coordination without memory bottlenecks.
 
 5
-00:00:36,670 --> 00:00:51,689
-Now examine the right card tagged "AGENTIC ERA": "Custom TPU Pods." Google's TPU v8 hardware architecture is purpose-built from the silicon level for sparse matrix multiplication, dynamic token routing, and optical circuit switching.
+00:00:47,352 --> 00:00:52,990
+In our production clusters, TPU v8 delivers 4.5 exaflops of aggregate compute power.
 
 6
-00:00:51,689 --> 00:01:00,070
-This allows thousands of persistent agent loops to execute concurrently with deterministic latency and ultra-low energy footprint.
+00:00:53,890 --> 00:01:01,620
+Without this hardware foundation, running 50 concurrent digital avatars would be economically and computationally impossible.
 
 7
-00:01:00,770 --> 00:01:12,185
-As an Intelligence Architect, you must understand the entire stack—from the silicon transistors in Google Cloud data centers up to the high-level reasoning abstractions.
-
-8
-00:01:12,185 --> 00:01:17,860
-Solid infrastructure provides the foundation for resilient, sleep-free intelligence.
-
-9
-00:01:18,560 --> 00:01:20,291
-This concludes Module 2!
-
-10
-00:01:20,291 --> 00:01:28,300
-In our final 20-minute module, we will explore workspace integrations, cryptographic security, and life wisdom!
+00:01:02,520 --> 00:01:08,420
+Hardware and software co-design is the bedrock of modern artificial intelligence.
 

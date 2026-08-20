@@ -1,44 +1,40 @@
 1
-00:00:00,800 --> 00:00:07,710
-Slide 22 breaks down "THE TRIAD OF AGENTIC DESIGN: Memory, Tool Belt, and Guardrail Matrix."
+00:00:01,000 --> 00:00:09,450
+Slide 22 diagrams "THE TRIAD OF AGENTIC DESIGN: The three essential components of an autonomous digital twin."
 
 2
-00:00:08,410 --> 00:00:10,323
-Let us examine Card 1: "1.
+00:00:10,350 --> 00:00:11,809
+Look at Card 1: "1.
 
 3
-00:00:10,323 --> 00:00:15,695
-MEMORY ENGINE." An agent without memory is merely a stateless calculator.
+00:00:11,809 --> 00:00:22,330
+TRIGGER (THE SENSES)." Time-based crons, incoming email webhooks, and file upload events that alert the agent that work needs to be done.
 
 4
-00:00:15,695 --> 00:00:34,020
-Our architecture provides dual-layer memory: ephemeral scratchpad memory for intermediate turn reasoning, and vector-indexed persistent memory stored in Google Drive and SQLite so the avatar retains user preferences and project context across weeks.
+00:00:23,230 --> 00:00:24,673
+Look at Card 2: "2.
 
 5
-00:00:34,720 --> 00:00:36,370
-Now examine Card 2: "2.
+00:00:24,673 --> 00:00:35,690
+MEMORY (THE BRAIN)." In-memory Redis context for current active tasks, coupled with SQLite and vector databases for persistent multi-year memory.
 
 6
-00:00:36,370 --> 00:00:42,325
-TOOL BELT." We equip our avatar with standardized, schema-validated API interfaces.
-
-7
-00:00:42,325 --> 00:00:56,460
-These include file system readers, Google Workspace connectors, GitHub REST endpoints, and secure Python execution environments, enabling the avatar to turn reasoning into tangible digital actions.
-
-8
-00:00:57,160 --> 00:00:59,013
+00:00:36,590 --> 00:00:38,387
 And look at Card 3: "3.
 
+7
+00:00:38,387 --> 00:00:50,970
+ACTIONS (THE HANDS)." Secure REST APIs and Apps Script endpoints that draft emails, update Google Spreadsheets, commit git patches, and trigger deploy pipelines.
+
+8
+00:00:51,870 --> 00:01:01,690
+When all three components are wired together, the agent senses an event, recalls past context from memory, reasons over the problem, and takes safe, verifiable actions.
+
 9
-00:00:59,013 --> 00:01:06,509
-GUARDRAIL MATRIX." An agent with powerful tools but no guardrails is an enterprise liability.
+00:01:02,590 --> 00:01:13,820
+If any one of these three elements is missing, the system breaks down: without Triggers, the agent is passive; without Memory, it is forgetful; without Actions, it is impotent.
 
 10
-00:01:06,509 --> 00:01:19,890
-The guardrail matrix enforces strict schema verification, token expenditure ceilings, input sanitization, and mandatory human approval gates for irreversible actions.
-
-11
-00:01:20,590 --> 00:01:28,870
-When Memory, Tools, and Guardrails operate in harmony, your personal avatar becomes an indispensable, enterprise-grade collaborator!
+00:01:14,720 --> 00:01:24,340
+When Trigger, Memory, and Actions operate in seamless harmony, your digital avatar becomes a capable, reliable extension of yourself!
 

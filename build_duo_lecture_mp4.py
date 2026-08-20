@@ -205,9 +205,9 @@ async def build_slide_video(slide_data, page=None, session_id=1):
             cur_st = cur_et
         return entries
 
-    lead_in_ms = 800
+    lead_in_ms = 1000
     current_time_ms = lead_in_ms
-    turn_gap_ms = 700  # Natural breathing pause between speakers
+    turn_gap_ms = 900  # Natural breathing pause between speakers
     
     for idx, turn in enumerate(turns):
         audio_file = await generate_turn_audio(idx, turn, slide_num)
@@ -230,21 +230,21 @@ async def build_slide_video(slide_data, page=None, session_id=1):
     elif slide_num == 40:
         outro_pause_sec = 10.0 # Final Lab Conclusion Pause
     else:
-        outro_pause_sec = 3.5  # Standard Slide Review & Note-taking Pause
+        outro_pause_sec = 4.0  # Standard Slide Review & Note-taking Pause
 
     outro_pause_ms = int(outro_pause_sec * 1000)
     current_time_ms += outro_pause_ms
 
     # 2. Concat audio with lead-in, turn pauses, and outro break
     concat_txt_path = os.path.join(AUDIO_DIR, f"slide_{slide_num:02d}_concat.txt")
-    silence_gap_file = os.path.join(AUDIO_DIR, "silence_700ms.mp3")
-    silence_lead_file = os.path.join(AUDIO_DIR, "silence_800ms.mp3")
+    silence_gap_file = os.path.join(AUDIO_DIR, "silence_900ms.mp3")
+    silence_lead_file = os.path.join(AUDIO_DIR, "silence_1000ms.mp3")
     silence_outro_file = os.path.join(AUDIO_DIR, f"silence_{outro_pause_ms}ms.mp3")
     
     # Generate needed silence assets
     for s_file, dur in [
-        (silence_gap_file, 0.7),
-        (silence_lead_file, 0.8),
+        (silence_gap_file, 0.9),
+        (silence_lead_file, 1.0),
         (silence_outro_file, outro_pause_sec)
     ]:
         if not os.path.exists(s_file):

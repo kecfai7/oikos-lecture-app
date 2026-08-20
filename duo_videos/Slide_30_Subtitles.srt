@@ -1,28 +1,32 @@
 1
-00:00:00,800 --> 00:00:07,760
-Slide 30 declares "THE DIGITAL MANDATE: Soli Deo Gloria in Systems Engineering."
+00:00:01,000 --> 00:00:12,860
+Slide 30 presents "THE DIGITAL MANDATE: Ethical Stewardship and Accountability in Agentic AI." Notice the three core ethical pillars that govern our laboratory.
 
 2
-00:00:08,460 --> 00:00:12,104
-Look at the three foundational commitments on the screen.
+00:00:13,760 --> 00:00:23,620
+Directive 1: "Absolute Human Accountability — The human architect retains ultimate moral and legal responsibility for every action taken by their avatar."
 
 3
-00:00:12,104 --> 00:00:20,480
-Point 1 is Absolute Data Integrity: We commit to building agents that never generate deceptive, hallucinated, or unverified claims.
+00:00:24,520 --> 00:00:28,438
+Directive 2: "Transparency by Design — No shadow decisions.
 
 4
-00:00:21,180 --> 00:00:32,510
-Point 2 is Uncompromising Privacy: We rigorously protect user credentials, confidential enterprise data, and personal privacy across all agent pipelines.
+00:00:28,438 --> 00:00:36,540
+Every automated step must be recorded in an inspectable, human-readable audit log with deterministic replay capabilities."
 
 5
-00:00:33,210 --> 00:00:43,460
-And Point 3 is Humble Stewardship: We use our technological knowledge not for selfish vanity or destructive disruption, but to uplift human communities and glorify God.
+00:00:37,440 --> 00:00:47,450
+Directive 3: "Human Flourishing — Systems must be engineered to alleviate burnout and restore peace, not accelerate digital anxiety and workplace surveillance."
 
 6
-00:00:44,160 --> 00:00:49,600
-Engineering excellence is fundamentally a moral and ethical commitment.
+00:00:48,350 --> 00:00:59,410
+Under modern legal frameworks like the European Union AI Act, an engineer who deploys an unmonitored agent that spams customer databases or leaks private data cannot blame the AI model.
 
 7
-00:00:49,600 --> 00:00:51,670
-That is the Oikos standard.
+00:00:59,410 --> 00:01:02,460
+Professional integrity demands sovereign oversight.
+
+8
+00:01:03,360 --> 00:01:14,300
+Technology under Soli Deo Gloria means building systems that enhance human dignity, foster institutional trust, and honor our creator through righteous stewardship.
 

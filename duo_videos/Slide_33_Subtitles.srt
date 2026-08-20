@@ -1,20 +1,28 @@
 1
-00:00:00,800 --> 00:00:07,500
-Slide 33 details the "CRYPTOGRAPHIC AUDIT TRAIL: End-to-End Verifiability for Agent Actions."
+00:00:01,000 --> 00:00:10,020
+Slide 33 details "CRYPTOGRAPHIC AUDIT TRAIL: SHA-256 Signed State Logging for Non-Repudiation."
 
 2
-00:00:08,200 --> 00:00:18,590
-Look at the 4-step verification pipeline: Action Request -> Signature Verification -> Sandboxed Execution -> Immutable Log Append.
+00:00:10,920 --> 00:00:25,560
+Every single time your avatar triggers a tool, reads a file, or updates a database record, our engine calculates a SHA-256 hash of the input, output, timestamp, and previous block hash, creating a tamper-evident blockchain-style audit ledger.
 
 3
-00:00:19,290 --> 00:00:28,460
-Every decision made by your avatar is signed with private cryptographic keys, executed in an isolated sandbox, and recorded to an immutable log.
+00:00:26,460 --> 00:00:36,680
+If an anomaly occurs or an API behaves unexpectedly, you can replay the exact execution history step-by-step to diagnose the precise mathematical root cause.
 
 4
-00:00:29,160 --> 00:00:35,005
-If an anomaly occurs, you can replay the exact reasoning trace step by step.
+00:00:37,580 --> 00:00:45,240
+This audit trail can be exported as a verified JSONL log for SOC2, HIPAA, and enterprise legal compliance reviews.
 
 5
-00:00:35,005 --> 00:00:39,620
-Transparency creates institutional accountability and trust.
+00:00:46,140 --> 00:00:56,240
+In regulated industries like healthcare, banking, and government defense, having mathematically verifiable execution proof is an absolute legal prerequisite.
+
+6
+00:00:57,140 --> 00:01:01,896
+Cryptographic transparency is the foundation of institutional trust.
+
+7
+00:01:01,896 --> 00:01:09,240
+When your systems are fully auditable, you build unshakeable confidence with your users and stakeholders.
 

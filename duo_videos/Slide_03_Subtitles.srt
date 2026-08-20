@@ -1,48 +1,28 @@
 1
-00:00:00,800 --> 00:00:13,450
-Slide 3 establishes our "CORE MISSION & MOTTO: Soli Deo Gloria—Glory to God Alone." Notice the three foundational principles displayed across our screen.
+00:00:01,000 --> 00:00:13,940
+Slide 3 presents our "CORE MISSION & MOTTO: Empowering Global Leaders through Intelligent Systems Under Soli Deo Gloria." Look at our two guiding directives displayed on screen.
 
 2
-00:00:14,150 --> 00:00:19,274
-Principle 1 is Our Mandate: Elevating human mind and spirit above mechanical work.
+00:00:14,840 --> 00:00:26,968
+Directive 1 reads: "Soli Deo Gloria — Dedicating technical excellence and research to higher moral purpose and human flourishing." We believe that AI architecture is not an end in itself.
 
 3
-00:00:19,274 --> 00:00:26,460
-Human beings were created in the image of God with creativity, compassion, strategic judgment, and spiritual depth.
+00:00:26,968 --> 00:00:35,790
+If our systems cause human exploitation, burnout, or anxiety, they represent architectural failure regardless of their benchmark scores.
 
 4
-00:00:26,460 --> 00:00:33,710
-We were never designed to spend eight hours a day doing mechanical copy-pasting between disconnected software tools.
+00:00:36,690 --> 00:00:58,460
+And Directive 2 states: "Sleep-Free Autonomous Execution — Freeing human architects from mechanical digital drudgery so they can invest in creative wisdom and community." In my past software roles at enterprise startups, our engineering team routinely spent 20 hours a week manually copy-pasting API error logs, reformatting customer tickets, and writing boilerplate weekly status summaries.
 
 5
-00:00:34,410 --> 00:00:42,122
-Principle 2 defines Technology's Role: Technology is a tool to serve humans, not a master to control us.
+00:00:59,360 --> 00:01:08,620
+That is hundreds of hours of brilliant human cognition wasted on robotic tasks that an autonomous background daemon can execute in seconds with zero fatigue.
 
 6
-00:00:42,122 --> 00:00:52,059
-In our modern digital landscape, addictive algorithms, endless notification bells, and dopamine loops constantly fragment human focus.
+00:01:09,520 --> 00:01:22,425
+When automation absorbs repetitive cognitive friction, human beings are liberated to pursue relational depth, ethical leadership, theological reflection, and deep scientific breakthroughs.
 
 7
-00:00:52,059 --> 00:00:59,180
-As Intelligence Architects, we must establish absolute sovereignty over our digital environment.
-
-8
-00:00:59,880 --> 00:01:06,165
-And Principle 3 is our Wisdom Goal: Automating simple tasks to save precious time for higher purpose.
-
-9
-00:01:06,165 --> 00:01:18,240
-When your personal AI avatar handles routine administrative workflows, you reclaim hours every week to invest in deep intellectual work, family presence, faith, and serving your local community.
-
-10
-00:01:18,940 --> 00:01:24,874
-Automation without moral wisdom leads to distraction and spiritual exhaustion.
-
-11
-00:01:24,874 --> 00:01:30,580
-But automation grounded in Soli Deo Gloria becomes sacred time stewardship.
-
-12
-00:01:30,580 --> 00:01:34,080
-That is the core standard of Oikos University.
+00:01:22,425 --> 00:01:26,270
+That is our foundational North Star at Oikos University.
 

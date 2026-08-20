@@ -1,24 +1,24 @@
 1
-00:00:00,800 --> 00:00:08,100
-Welcome to Slide 11 and the start of Part 2: "PART 2: UNDER THE HOOD OF AUTONOMOUS REASONING."
+00:00:01,000 --> 00:00:06,980
+Slide 11 marks our second transition: "PART 2: UNDER THE HOOD OF AUTONOMOUS REASONING."
 
 2
-00:00:08,800 --> 00:00:15,590
-Notice our subtitle: "How autonomous agents think, plan, and execute without human intervention."
+00:00:07,880 --> 00:00:15,320
+Now that we understand the philosophical and operational paradigm shift, we must open the engineering hood.
 
 3
-00:00:16,290 --> 00:00:24,392
-In this second 20-minute module, we transition from high-level concepts to the computational engine under the hood.
+00:00:15,320 --> 00:00:21,510
+How do autonomous loops actually process complex logic without crashing or hallucinating?
 
 4
-00:00:24,392 --> 00:00:31,650
-We will examine how an LLM transforms into a goal-driven reasoning loop that plans, acts, and observes.
+00:00:22,410 --> 00:00:33,740
+In this section, we examine the computational engine: asynchronous event queues, Google Gemini 3.5 Flash reasoning latency, TPU v8 matrix acceleration, and dual-memory storage.
 
 5
-00:00:32,350 --> 00:00:41,880
-We will explore background execution metaphors, scaling multipliers, and address common engineering bottlenecks that students face in their practical assignments.
+00:00:34,640 --> 00:00:42,390
+We will analyze how multi-threaded Python workers consume background task queues and interface with LLM tool-calling APIs.
 
 6
-00:00:42,580 --> 00:00:49,490
-Let us click "Entering Next Phase" and unpack the engineering core of autonomous agent reasoning!
+00:00:43,290 --> 00:00:51,090
+Let us begin with an intuitive metaphor from video game computing that clarifies how background simulation functions.
 

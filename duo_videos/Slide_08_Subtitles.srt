@@ -1,36 +1,44 @@
 1
-00:00:00,800 --> 00:00:04,926
-Slide 8 illustrates "THE PARADIGM SHIFT: 'ASK ME' VS.
+00:00:01,000 --> 00:00:06,216
+Slide 8 explains "THE PARADIGM SHIFT: 'ASK ME' VS.
 
 2
-00:00:04,926 --> 00:00:06,250
-'RUN IT FOR ME'."
+00:00:06,216 --> 00:00:07,260
+'RUN IT'."
 
 3
-00:00:06,950 --> 00:00:17,533
-Look at the left card tagged "PASSIVE AI": "The 'Ask Me' Era." In the 2023 chatbot era, AI functioned like a reactive search engine.
+00:00:08,160 --> 00:00:16,929
+Examine the left card tagged "OLD PARADIGM": "Reactive Chatbot ('Ask Me')." In this traditional model, the system is completely passive.
 
 4
-00:00:17,533 --> 00:00:29,080
-You typed a question, the model generated paragraphs of text, and then you had to manually copy, format, debug, and execute everything yourself.
+00:00:16,929 --> 00:00:28,730
+The human must initiate every prompt, wait for tokens to stream across the screen, copy the response, manually paste it into another tool, and repeat the loop hundreds of times a day.
 
 5
-00:00:29,780 --> 00:00:38,186
-Now examine the right card tagged "ACTIVE AI": "The 'Run It For Me' Era." In 2026, AI has evolved into an agentic operator.
+00:00:29,630 --> 00:00:40,592
+Look at the right card tagged "NEW PARADIGM": "Proactive Avatar ('Run It')." In our modern agentic architecture, the human provides a high-level goal or registers a scheduled event trigger.
 
 6
-00:00:38,186 --> 00:00:49,600
-You define an end goal—such as 'Analyze yesterday's customer feedback and update our database'—and the avatar writes the code, calls the APIs, and verifies the result!
+00:00:40,592 --> 00:00:52,310
+The agent takes sovereign operational control, queries live APIs, persists state to a database, handles network timeouts automatically, and only notifies the human when executive decisions are required!
 
 7
-00:00:50,300 --> 00:00:55,486
-In the 'Ask Me' paradigm, the human does 90% of the manual execution.
+00:00:53,210 --> 00:00:59,792
+Think about the cognitive difference: in the old world, you are a worker tethered to a keyboard.
 
 8
-00:00:55,486 --> 00:01:06,760
-In the 'Run It For Me' paradigm, the avatar executes 90% of the mechanical steps while the human provides high-level judgment and strategic direction.
+00:00:59,792 --> 00:01:05,140
+In the new world, you are an executive architect directing autonomous systems.
 
 9
-00:01:07,460 --> 00:01:14,400
-That fundamental shift is the dividing line between an amateur AI user and a professional Intelligence Architect.
+00:01:06,040 --> 00:01:12,593
+In practical engineering terms, an 'Ask Me' chatbot requires an active HTTP socket and human presence.
+
+10
+00:01:12,593 --> 00:01:17,990
+A 'Run It' avatar is a decoupled cloud micro-service with self-healing capabilities.
+
+11
+00:01:18,890 --> 00:01:26,230
+This is the core shift that empowers a single engineer to accomplish what previously required an entire operations team.
 

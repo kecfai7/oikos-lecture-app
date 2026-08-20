@@ -1,20 +1,44 @@
 1
-00:00:00,800 --> 00:00:07,640
-Slide 24 explains the "DUAL MEMORY ENGINE: Short-Term Working Scratchpad and Long-Term Knowledge Vault."
+00:00:01,000 --> 00:00:06,795
+Slide 24 explains the "DUAL MEMORY ENGINE: Short-Term Working Memory vs.
 
 2
-00:00:08,340 --> 00:00:24,399
-On the left card tagged "SHORT-TERM": "Working Scratchpad." This is fast, in-context scratchpad memory where the agent records intermediate thoughts, tool responses, and active turn variables during a single execution session.
+00:00:06,795 --> 00:00:09,210
+Long-Term Persistent Storage."
 
 3
-00:00:25,099 --> 00:00:39,449
-On the right card tagged "LONG-TERM": "Persistent Knowledge Vault." This is vector-indexed storage stored in markdown files, SQLite databases, and Google Drive, allowing the avatar to recall user preferences across weeks and months.
+00:00:10,110 --> 00:00:21,290
+Look at the left card: "SHORT-TERM WORKING MEMORY (RAM / CONTEXT)": Holds immediate conversation history, active function call schemas, and scratchpad reasoning.
 
 4
-00:00:40,149 --> 00:00:47,879
-Dual memory mimics human cognition: rapid working focus combined with deep, permanent knowledge retrieval.
+00:00:21,290 --> 00:00:25,040
+Extremely fast, but cleared after each task completes.
 
 5
-00:00:48,579 --> 00:00:54,939
-This enables your avatar to provide deeply personalized assistance tailored to your unique workflow history.
+00:00:25,940 --> 00:00:36,863
+Now look at the right card: "LONG-TERM PERSISTENT MEMORY (SQLITE / VECTOR)": Stores user preferences, verified code snippets, project roadmaps, and historical decision outcomes.
+
+6
+00:00:36,863 --> 00:00:40,320
+Persisted permanently to disk with cryptographic hashes.
+
+7
+00:00:41,220 --> 00:00:46,209
+We use SQLite for structured metadata and Chromadb for semantic vector search.
+
+8
+00:00:46,209 --> 00:00:52,670
+When an event arrives, we query SQLite for recent entity state and Chroma for relevant past memories.
+
+9
+00:00:53,570 --> 00:01:03,670
+This dual architecture ensures that if a user mentions 'Project Alpha', the avatar retrieves the exact roadmap written three months ago without re-reading the entire disk.
+
+10
+00:01:04,570 --> 00:01:14,100
+Dual memory ensures that your avatar remembers who you are and how you like your code formatted, while keeping immediate working context lean and fast.
+
+11
+00:01:15,000 --> 00:01:21,220
+This dual architecture is what distinguishes a persistent digital twin from a forgetful one-off chatbot.
 

@@ -1,36 +1,24 @@
 1
-00:00:00,800 --> 00:00:07,880
-Slide 15 provides "POLL ANALYSIS & INSIGHT" across three diagnostic cards.
+00:00:01,000 --> 00:00:06,090
+Slide 15 reveals the "POLL ANALYSIS & INSIGHT" from our student survey.
 
 2
-00:00:08,580 --> 00:00:09,780
-Card 1 is "1.
+00:00:06,990 --> 00:00:22,470
+Look at Card 1: "THE SHOCKING REALITY: 74% of students lose over 5 hours weekly." Over three-quarters of our students waste more than five hours every single week on mechanical, low-value digital friction.
 
 3
-00:00:09,780 --> 00:00:21,490
-THE GLUE WORK TRAP": Global studies show that knowledge workers spend over 60% of their workday simply formatting, copying, and routing data between incompatible software platforms.
+00:00:23,370 --> 00:00:36,860
+Look at Card 2: "THE ANNUAL COST: 260 hours lost per student each year." That is equivalent to six full working weeks erased from your life annually just doing manual copy-pasting, formatting, and file renaming!
 
 4
-00:00:22,190 --> 00:00:23,390
-Card 2 is "2.
+00:00:37,760 --> 00:00:54,340
+And look at Card 3: "THE REMEDY: Autonomous pipelines reclaim 90% of lost time." By deploying the background event queues we teach in this session, students reclaim over 230 hours a year for deep learning, spiritual reflection, and personal rest.
 
 5
-00:00:23,390 --> 00:00:35,502
-CONTEXT SWITCHING": Research from cognitive science demonstrates that every digital interruption takes up to 23 minutes for a human brain to regain deep focus.
+00:00:55,240 --> 00:01:05,580
+Think about what you could do with six extra weeks of life every year: build a complete startup MVP, master advanced distributed systems, or spend quality restorative time with family.
 
 6
-00:00:35,502 --> 00:00:39,330
-Context switching destroys intellectual breakthrough.
-
-7
-00:00:40,030 --> 00:00:41,230
-And Card 3 is "3.
-
-8
-00:00:41,230 --> 00:00:52,390
-THE AVATAR SOLUTION": By delegating routine glue work to autonomous headless agents, human professionals reclaim uninterrupted 4-hour deep work blocks every day.
-
-9
-00:00:53,090 --> 00:00:59,980
-Eliminating glue work is the single highest-return investment an organization can make in human capital.
+00:01:06,480 --> 00:01:13,060
+Transforming wasted hours into redeemed creative focus is our core educational objective.
 

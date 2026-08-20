@@ -1,60 +1,56 @@
 1
-00:00:00,800 --> 00:00:03,590
-Welcome everyone to Oikos University!
+00:00:01,000 --> 00:00:07,149
+Welcome, esteemed students, to Oikos University and our flagship Smart Insight Lab.
 
 2
-00:00:03,590 --> 00:00:08,114
-I am Professor Peter Kim, Director of the Smart Insight Lab.
+00:00:07,149 --> 00:00:18,930
+I am Professor Peter Kim, and today we inaugurate Session 1: "The Autonomous Personal Avatar Architecture: From Reactive Chatbots to Sleep-Free Digital Twins."
 
 3
-00:00:08,114 --> 00:00:18,220
-Today marks the official opening of our master curriculum: "The Architect of Intelligence: Mastering Agentic IT and Strategic Wisdom."
+00:00:19,830 --> 00:00:21,030
+Hello everyone!
 
 4
-00:00:18,920 --> 00:00:25,087
-And a very warm welcome to all our undergraduate and graduate students joining us from across the globe!
+00:00:21,030 --> 00:00:24,297
+I am Sarah Jenkins, your Senior Architecture TA.
 
 5
-00:00:25,087 --> 00:00:29,001
-I'm Sarah Jenkins, your Teaching Assistant and AI Research Fellow.
+00:00:24,297 --> 00:00:28,380
+In this course, we move far beyond basic prompt engineering.
 
 6
-00:00:29,001 --> 00:00:39,440
-Professor Kim and I have designed this comprehensive 60-minute master lecture to fundamentally transform how you understand, design, and deploy artificial intelligence systems.
+00:00:28,380 --> 00:00:38,480
+We are here to train you as elite Intelligence Architects who design production-ready, autonomous agent systems that solve real enterprise bottlenecks.
 
 7
-00:00:40,140 --> 00:00:53,968
-Look at our opening title displayed on the screen: "From Waiting Chatbots to Sleep-Free Personal Avatars." Over the past three years, the entire software industry has been trapped in a reactive paradigm.
+00:00:39,380 --> 00:00:42,781
+And I am James Wilson, your Infrastructure and DevOps TA!
 
 8
-00:00:53,968 --> 00:01:05,480
-People interact with AI like an electronic textbook sitting on a desk—you type a question, stare at a blinking cursor, wait for the response, and manually copy the text.
+00:00:42,781 --> 00:00:52,510
+I will be guiding you through hands-on cloud pipelines, asynchronous background queues, cryptographic security trails, and real-time Google Workspace integrations.
 
 9
-00:01:06,180 --> 00:01:10,100
-But in 2026, we are entering the true agentic revolution.
+00:00:53,410 --> 00:01:13,710
+Notice our founding university motto centered at the top of every slide: "SOLI DEO GLORIA—To God Alone Be the Glory." Our core philosophy is that technological innovation finds its highest meaning when it preserves human dignity, redeems finite time, and serves humanity with ethical integrity.
 
 10
-00:01:10,100 --> 00:01:13,951
-AI is no longer just a chatbot waiting in a browser tab.
+00:01:14,610 --> 00:01:21,953
+In traditional AI courses, students often build toy chatbots that only work when a human is typing into a web browser.
 
 11
-00:01:13,951 --> 00:01:28,740
-It has evolved into a persistent, autonomous personal avatar—a digital co-worker that operates in cloud memory 24 hours a day, 7 days a week, continuously executing complex multi-step workflows even while you sleep!
+00:01:21,953 --> 00:01:29,920
+Here at Oikos, you will construct autonomous daemons that execute continuous reasoning loops inside headless cloud environments.
 
 12
-00:01:29,440 --> 00:01:34,642
-Our guiding institutional motto is "Soli Deo Gloria"—Glory to God alone.
+00:01:30,820 --> 00:01:42,050
+Throughout this session, we will break down the complete engineering stack—from Google Gemini 3.5 Flash sub-second latency to SQLite state persistence and AP2 multi-signature financial guardrails.
 
 13
-00:01:34,642 --> 00:01:50,610
-We teach this advanced technology not merely to produce more lines of code, but to redeem finite human time, eliminate soul-crushing mechanical drudgery, and elevate human dignity, strategic wisdom, and community service.
+00:01:42,950 --> 00:01:44,657
+Let us begin our journey.
 
 14
-00:01:51,310 --> 00:02:06,502
-To make this 60-minute lecture easy to study and review for your student pair video assignments, we have structured our class into three distinct 20-minute modules: Foundations in Part 1, Engineering Pipelines in Part 2, and Security Governance in Part 3.
-
-15
-00:02:06,502 --> 00:02:09,720
-Let us embark on this transformative journey together!
+00:01:44,657 --> 00:01:55,930
+Take comprehensive notes, engage with the interactive checkpoints, and prepare to elevate your perspective from a casual prompt user to a sovereign system architect!
 

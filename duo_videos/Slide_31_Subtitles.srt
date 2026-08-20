@@ -1,16 +1,24 @@
 1
-00:00:00,800 --> 00:00:08,240
-Slide 31 brings us to our final synthesis: "PART 4: WISDOM SYNTHESIS: SOLI DEO GLORIA."
+00:00:01,000 --> 00:00:07,720
+Slide 31 marks "PART 4: WISDOM SYNTHESIS: SOLI DEO GLORIA & GOVERNANCE."
 
 2
-00:00:08,940 --> 00:00:15,320
-Subtitle: "Harmonizing cutting-edge agent swarms with human wisdom and life balance."
+00:00:08,620 --> 00:00:16,108
+In this final section, we synthesize our architectural principles into holistic, life-giving governance.
 
 3
-00:00:16,020 --> 00:00:25,760
-In these final slides, we integrate everything we have learned—combining multi-agent swarms, human-on-the-loop oversight, and reclaiming offline life focus.
+00:00:16,108 --> 00:00:25,180
+We explore adversarial threat defense, human-on-the-loop oversight, digital Sabbath restoration, and our hands-on student lab.
 
 4
-00:00:26,460 --> 00:00:33,400
-Let us click "Entering Next Phase" and synthesize the ultimate wisdom of the Intelligence Architect!
+00:00:26,080 --> 00:00:36,500
+We will demonstrate how to harden your Python code against real-world adversarial exploits, configure SHA-256 tamper-evident logs, and pass all enterprise compliance audits.
+
+5
+00:00:37,400 --> 00:00:43,420
+We will also provide a comprehensive, step-by-step walkthrough of the Lab 1 deployment checklist.
+
+6
+00:00:44,320 --> 00:00:53,780
+Let us begin by analyzing the number one vulnerability facing modern LLM systems: Indirect Prompt Injection on Slide 32.
 

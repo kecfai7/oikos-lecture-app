@@ -1,28 +1,28 @@
 1
-00:00:00,800 --> 00:00:09,340
-Slide 6 highlights "THE ULTIMATE CURRENCY." Notice the prominent metric centered on our screen: "24 HOURS PER DAY."
+00:00:01,000 --> 00:00:12,210
+Slide 6 highlights "THE ULTIMATE CURRENCY: Attention & Time: The only resources you can never buy back." Notice the three high-impact metrics displayed across our screen.
 
 2
-00:00:10,040 --> 00:00:30,340
-The stat label underneath reads: "The Equalizer for All Humanity." Think deeply about this mathematical truth: whether you are a first-year university student, a senior software architect, a corporate executive, or a world leader, everyone is allocated exactly the same 24 hours every single day.
+00:00:13,110 --> 00:00:32,210
+Examine Metric 1 on the left: "24h - DAILY FIXED BUDGET: Time is strictly non-renewable." Whether you are a university undergraduate, a senior principal engineer, a CEO, or a head of state, everyone receives exactly the same 24 hours every day.
 
 3
-00:00:31,040 --> 00:00:37,696
-You cannot buy extra physical hours with wealth, and you cannot fabricate more time with faster processors.
+00:00:33,110 --> 00:00:53,375
+Now look at Metric 2 in the center: "80% - RECLAIMABLE ATTENTION: Repetitive tasks offloaded to avatars." Modern enterprise research reveals that knowledge workers spend up to 80% of their workday on mechanical administrative tasks—sorting emails, scheduling calendar invites, copying database records, and formatting slide decks.
 
 4
-00:00:37,696 --> 00:00:43,980
-But in the modern AI era, how you leverage those 24 hours determines your entire impact on the world.
+00:00:53,375 --> 00:00:56,630
+Our sleep-free avatars reclaim that entire 80% block!
 
 5
-00:00:44,680 --> 00:00:58,960
-Below the number, notice our central thesis: The ultimate wealth of the 21st century is not raw computation or hoarding data—it is reclaiming undivided human focus, relational presence, and strategic clarity.
+00:00:57,530 --> 00:01:16,270
+And examine Metric 3 on the right: "10x - STRATEGIC LEVERAGE: Multiplied creative output." When 80% of repetitive drag is eliminated, your cognitive energy is multiplied ten-fold toward deep creative thought, mathematical modeling, high-level system architecture, and human mentorship.
 
 6
-00:00:59,660 --> 00:01:10,140
-When sleep-free avatars absorb mechanical data chores, our finite physical hours are redeemed for creative thought, wisdom synthesis, and genuine human connection.
+00:01:17,170 --> 00:01:28,546
+The ultimate wealth of the 21st century is not hoarding compute clusters or accumulating raw data—it is reclaiming undivided human focus and presence under God.
 
 7
-00:01:10,140 --> 00:01:12,070
+00:01:28,546 --> 00:01:30,680
 That is true time stewardship.
 

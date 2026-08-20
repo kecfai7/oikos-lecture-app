@@ -1,28 +1,32 @@
 1
-00:00:00,800 --> 00:00:13,620
-Slide 19 highlights "THE GEMINI 3.5 FLASH BRAIN: High-Speed Multi-Modal Reasoning Engine." Look at our centerpiece metric: "< 250 MS."
+00:00:01,000 --> 00:00:14,780
+Slide 19 highlights "THE GEMINI 3.5 FLASH BRAIN: Sub-Second Latency & Massive Context Window." Look at the three powerful performance metrics displayed across our screen.
 
 2
-00:00:14,320 --> 00:00:24,482
-The stat label below reads: "Sub-Second Reasoning Latency." For an autonomous agent to execute dynamic multi-step planning loops, reasoning speed is paramount.
+00:00:15,680 --> 00:00:30,007
+Examine Metric 1 on the left: "< 500ms - REASONING LATENCY: Sub-second agentic decision loops." For an autonomous agent executing a 10-step workflow, high model latency compounds quickly.
 
 3
-00:00:24,482 --> 00:00:32,920
-If each turn takes 10 seconds, a 6-step planning and tool-verification cycle takes over a minute, breaking real-time responsiveness.
+00:00:30,007 --> 00:00:37,210
+Gemini 3.5 Flash evaluates tool schemas and returns structured JSON in under 500 milliseconds!
 
 4
-00:00:33,620 --> 00:00:46,294
-Gemini 3.5 Flash solves this bottleneck by delivering full multi-modal comprehension, complex structured JSON output, and native function calling in under 250 milliseconds!
+00:00:38,110 --> 00:00:56,660
+Look at Metric 2 in the center: "1M Tokens - CONTEXT WINDOW: Ingest entire codebases and books in 1 prompt." With one million tokens of native multimodal context, you can load an entire GitHub repository, complete API documentation, and three months of project history in a single prompt without chunking errors!
 
 5
-00:00:46,294 --> 00:00:54,400
-This unprecedented speed allows our cloud avatars to execute recursive reasoning loops almost instantaneously.
+00:00:57,560 --> 00:01:12,380
+And look at Metric 3 on the right: "$0.075 - COST EFFICIENCY: 10X cheaper for sustainable 24/7 background swarms." Running continuous background agent loops requires extreme cost efficiency.
 
 6
-00:00:55,100 --> 00:01:12,790
-Look at the three architectural capability badges at the bottom: 1 Million Token Context Window for ingesting entire codebases, Native Function Calling for seamless API execution, and Unmatched Cost Efficiency allowing 24/7 continuous autonomous execution within a student budget.
+00:01:12,380 --> 00:01:19,400
+Gemini 3.5 Flash delivers frontier-class reasoning at a fraction of traditional API costs.
 
 7
-00:01:13,490 --> 00:01:21,820
-When high-speed reasoning unites with robust tool execution, your avatar transforms into an intellectual powerhouse!
+00:01:20,300 --> 00:01:30,720
+In our lab benchmarks, running 50 daily background agents on Gemini Flash costs less than $2.50 a month, compared to over $200 on heavier legacy models.
+
+8
+00:01:31,620 --> 00:01:42,130
+When sub-second speed, 1M context capacity, and high cost-efficiency unite, you achieve a continuous, sustainable intelligence engine.
 

@@ -1,32 +1,32 @@
 1
-00:00:00,800 --> 00:00:09,800
-Slide 29 outlines "AP2: AGENT PAYMENTS PROTOCOL: Cryptographic Trust for Autonomous Transactions."
+00:00:01,000 --> 00:00:10,310
+Slide 29 diagrams the "AP2: AGENT PAYMENTS PROTOCOL: Cryptographic Trust & Multi-Signature Approvals."
 
 2
-00:00:10,500 --> 00:00:11,700
-Card 1 is "1.
+00:00:11,210 --> 00:00:16,256
+Examine the three distinct approval tiers displayed across our screen.
 
 3
-00:00:11,700 --> 00:00:21,230
-DUAL AUTHORIZATION": Requiring explicit human approval for any financial transaction or data transfer exceeding predefined dollar thresholds.
+00:00:16,256 --> 00:00:26,710
+Look at Card 1: "TIER 1 (MICRO-TX < $1.00)": Fully automated approval for essential sub-second compute, web scraping credits, and API token fees.
 
 4
-00:00:21,930 --> 00:00:23,130
-Card 2 is "2.
+00:00:27,610 --> 00:00:39,730
+Look at Card 2: "TIER 2 (STANDARD TX $1 - $50)": Notifies the human architect via Telegram webhook or push notification with a 1-click contextual confirmation button containing the full payload diff.
 
 5
-00:00:23,130 --> 00:00:33,830
-EPHEMERAL TOKENS": Using single-use, cryptographically signed tokens with strict 5-minute expiration windows for tool authentication.
+00:00:40,630 --> 00:00:53,470
+And look at Card 3: "TIER 3 (MAJOR TX > $50)": Requires biometric hardware key or cryptographic multi-signature approval before funds can be released from the smart escrow wallet.
 
 6
-00:00:34,530 --> 00:00:35,730
-And Card 3 is "3.
+00:00:54,370 --> 00:01:03,780
+Each transaction contains a cryptographic non-repudiation signature linked to the specific prompt and task hash, meaning agents can never be spoofed by rogue network packets.
 
 7
-00:00:35,730 --> 00:00:43,790
-AUDIT LOGGING": Maintaining an immutable, append-only ledger that records every transaction hash and reasoning trace.
+00:01:04,680 --> 00:01:13,990
+If a third-party vendor attempts to charge even one penny more than the agreed smart contract limit, the transaction is rejected instantly at the protocol layer.
 
 8
-00:00:44,490 --> 00:00:53,150
-Cryptographic protocols ensure that autonomous commerce and agentic operations remain verifiable, auditable, and secure.
+00:01:14,890 --> 00:01:25,210
+AP2 ensures that your digital avatar possesses operational agility to buy its own compute without ever exposing you to catastrophic financial loss.
 

@@ -1,24 +1,32 @@
 1
-00:00:00,800 --> 00:00:06,060
-Slide 9 analyzes "YESTERDAY: REACTIVE CHATBOTS."
+00:00:01,000 --> 00:00:06,880
+Slide 9 contrasts "YESTERDAY: REACTIVE CHATBOTS: The Linear Human Bottleneck."
 
 2
-00:00:06,760 --> 00:00:23,390
-On the left card, tagged "THE BOTTLENECK", we examine "Human as Middleware." For the last few years, whenever companies tried to implement AI, the human worker was forced to act as the physical bridge between ChatGPT, Google Docs, Slack, and email inboxes.
+00:00:07,780 --> 00:00:13,994
+Look at the left card: "Operational Mode." Synchronous, turn-based request-response loops.
 
 3
-00:00:24,090 --> 00:00:41,920
-Look at the right card tagged "THE COST": "High Latency & Fatigue." Because every single transaction required continuous human attention, professionals experienced massive cognitive fatigue, constant context switching, and high error rates from manual typing.
+00:00:13,994 --> 00:00:20,070
+If the human steps away to eat lunch or sleep, all productivity instantly drops to zero.
 
 4
-00:00:42,620 --> 00:00:51,960
-When you have to switch browser tabs 50 times an hour to copy-paste data, your brain cannot engage in deep creative problem solving or philosophical reflection.
+00:00:20,970 --> 00:00:35,250
+And look at the right card: "Cognitive Burden." The user is forced to micro-manage context windows, craft repetitive system instructions, and manually inspect every single output for hallucinated errors.
 
 5
-00:00:52,660 --> 00:00:58,205
-Chatbots gave us great text answers, but they left us chained to the keyboard.
+00:00:36,150 --> 00:00:44,430
+Furthermore, reactive chatbots have zero long-term memory across sessions unless you manually copy-paste previous chat transcripts into new prompts.
 
 6
-00:00:58,205 --> 00:01:02,400
-That is the mechanical bottleneck we are dismantling today.
+00:00:45,330 --> 00:00:49,606
+Reactive chatbots tether human attention to a blinking cursor.
+
+7
+00:00:49,606 --> 00:00:53,470
+They create digital fatigue instead of genuine leverage.
+
+8
+00:00:54,370 --> 00:01:00,060
+Now let us see how modern proactive avatars solve this structural limitation.
 

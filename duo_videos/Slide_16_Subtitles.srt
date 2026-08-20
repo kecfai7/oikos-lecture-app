@@ -1,28 +1,32 @@
 1
-00:00:00,800 --> 00:00:08,790
-Slide 16 is our Part Divider: "TRANSITION TO ENGINEERING: Moving from Conceptual Frameworks to Production Architectures."
+00:00:01,000 --> 00:00:08,270
+Slide 16 marks our transition: "TRANSITION TO ENGINEERING: Building the 24/7 Agent Pipeline."
 
 2
-00:00:09,490 --> 00:00:26,650
-Notice our subtitle centered on screen: "Moving from conceptual understanding to production agent implementation." Sarah, now that our students understand the profound necessity of reclaiming human focus, we must equip them with the exact architectural blueprints.
+00:00:09,170 --> 00:00:12,804
+We have established the motivation and the metrics.
 
 3
-00:00:27,350 --> 00:00:29,138
-That's right, Professor Kim.
+00:00:12,804 --> 00:00:16,652
+Now we transition into concrete software architecture.
 
 4
-00:00:29,138 --> 00:00:42,490
-In this core engineering section, we will inspect the foundational three-layer engine, examine directory structures, study dual-memory mechanics, and connect Google Workspace APIs with zero server maintenance.
+00:00:16,652 --> 00:00:25,990
+How do we construct an engine that never drops a task, never crashes on network timeouts, and maintains cryptographic auditability?
 
 5
-00:00:43,190 --> 00:00:47,696
-If you only understand the theory of AI, you remain a spectator.
+00:00:26,890 --> 00:00:35,340
+In the following slides, we break down the 3-Layer Spark Pipeline, asynchronous event queues, and Google Gemini 3.5 Flash integration.
 
 6
-00:00:47,696 --> 00:00:58,330
-But when you master asynchronous event pipelines, tool-calling schemas, and state persistence, you become an active Builder and Intelligence Architect.
+00:00:36,240 --> 00:00:44,810
+We will inspect the exact code structures, data schemas, and retry mechanisms that make these systems resilient under enterprise loads.
 
 7
-00:00:59,030 --> 00:01:05,170
-Let us click "Entering Next Phase" and dissect the inner mechanics of the 3-Layer Spark Pipeline!
+00:00:45,710 --> 00:00:51,930
+We will show you how to write zero-loss queue workers using Python `asyncio` and SQLite transaction locks.
+
+8
+00:00:52,830 --> 00:00:59,450
+Pay close attention as we examine the tripartite architectural blueprint on Slide 17.
 

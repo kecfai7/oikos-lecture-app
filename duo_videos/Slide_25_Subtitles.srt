@@ -1,24 +1,36 @@
 1
-00:00:00,800 --> 00:00:10,020
-Slide 25 diagrams "GOOGLE WORKSPACE INTEGRATION: Transforming Standard Cloud Apps into an Autonomous Operations Hub."
+00:00:01,000 --> 00:00:08,900
+Slide 25 explores "GOOGLE WORKSPACE INTEGRATION: Connecting your avatar to Drive, Docs, Sheets, and Gmail."
 
 2
-00:00:10,720 --> 00:00:18,376
-Look at the automated workflow flow: An incoming email arrives in Gmail, triggering a lightweight Google Apps Script webhook.
+00:00:09,800 --> 00:00:14,775
+Look at our architecture flow: Google Apps Script acts as a lightweight serverless bridge.
 
 3
-00:00:18,376 --> 00:00:28,790
-The script passes the email body to Gemini Flash for categorization and draft synthesis, then automatically archives the email and appends a summary row to Google Sheets.
+00:00:14,775 --> 00:00:27,490
+When an email arrives with the label "Triage", Apps Script sends a webhook to our cloud engine, parses the payload with Gemini 3.5 Flash, and automatically generates a draft response in Gmail and logs the action to a Google Sheet!
 
 4
-00:00:29,490 --> 00:00:36,384
-Notice that this entire workflow runs serverlessly inside Google's enterprise cloud infrastructure.
+00:00:28,390 --> 00:00:36,550
+Notice that Apps Script runs directly inside Google's infrastructure, requiring zero server maintenance or public IP management.
 
 5
-00:00:36,384 --> 00:00:43,000
-You do not need to manage expensive dedicated servers or configure complex Kubernetes clusters.
+00:00:37,450 --> 00:00:46,570
+In our code repo, we provide a 20-line Apps Script snippet that handles HMAC authentication and forwards clean JSON to your local or cloud Python agent.
 
 6
-00:00:43,700 --> 00:00:49,120
-It transforms standard office tools into an autonomous, intelligent operations hub!
+00:00:47,470 --> 00:00:49,956
+You remain fully in control.
+
+7
+00:00:49,956 --> 00:00:55,994
+The agent drafts the response, but you give the final click to send.
+
+8
+00:00:55,994 --> 00:00:57,860
+Autonomy with safety.
+
+9
+00:00:58,760 --> 00:01:04,620
+Let us examine a real-world enterprise case study on Slide 26 to see this in action!
 

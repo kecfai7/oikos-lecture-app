@@ -1,28 +1,24 @@
 1
-00:00:00,800 --> 00:00:04,830
-Slide 10 presents "TODAY: PROACTIVE AVATARS."
+00:00:01,000 --> 00:00:08,900
+Slide 10 reveals "TODAY: PROACTIVE AVATARS: Autonomous 24/7 Digital Twins."
 
 2
-00:00:05,530 --> 00:00:24,370
-Look at the left card tagged "THE LEVERAGE": "Direct Tool Execution." Modern avatars are equipped with tool belts—they can read file systems, execute shell commands, query SQL databases, and call REST APIs directly in the cloud without human intervention.
+00:00:09,800 --> 00:00:21,510
+Look at the left card: "Headless Loop." The agent operates independently inside cloud virtual machines, executing cron schedules and webhooks without requiring an open browser window.
 
 3
-00:00:25,070 --> 00:00:37,070
-Look at the right card tagged "THE RESULT": "Asynchronous Freedom." You trigger a multi-hour research workflow before going to bed, and your avatar coordinates multiple sub-agents in parallel throughout the night.
+00:00:22,410 --> 00:00:36,570
+And look at the right card: "Stateful Memory." The avatar maintains persistent long-term storage in SQLite and vector databases, remembering your project preferences, past decisions, and security tokens across days, weeks, and months.
 
 4
-00:00:37,770 --> 00:00:44,488
-In the morning, you receive a perfectly synthesized, verifiable report ready for decision-making.
+00:00:37,470 --> 00:00:51,700
+When an unexpected API exception occurs, the avatar does not crash or bother you—it executes automated retry logic, verifies fallback endpoints, and documents the resolution in an audit log.
 
 5
-00:00:44,488 --> 00:00:50,030
-The human transforms from an exhausted manual laborer into a sovereign director.
+00:00:52,600 --> 00:01:05,130
+For example, if a third-party documentation site is temporarily down, the avatar caches the failed request, retries with exponential backoff 5 minutes later, and completes the research synthesis without human intervention.
 
 6
-00:00:50,730 --> 00:00:53,390
-This concludes our first 20-minute module!
-
-7
-00:00:53,390 --> 00:01:00,040
-In Module 2, we will dive deep under the hood into the computational engineering of autonomous reasoning!
+00:01:06,030 --> 00:01:12,460
+This autonomy is what enables true 24-hour productivity without sacrificing your personal rest.
 
