@@ -167,9 +167,37 @@ async def build_slide_video(slide_data, page=None, session_id=1):
     srt_entries = []
     
     # Lead-in pause at the start of each slide (0.8s for transition)
+    # Helper to chunk long text into 1-2 line subtitle sentences
+    def chunk_turn_into_subtitles(turn_text, start_ms, total_dur_ms, base_idx):
+        sentences = re.split(r'(?<=[.!?])\s+', turn_text.strip())
+        valid_sentences = [s.strip() for s in sentences if s.strip()]
+        if not valid_sentences:
+            valid_sentences = [turn_text]
+        
+        total_chars = sum(len(s) for s in valid_sentences)
+        entries = []
+        cur_st = start_ms
+        
+        for i, s in enumerate(valid_sentences):
+            # Calculate proportion of duration based on character length
+            s_dur = int((len(s) / max(total_chars, 1)) * total_dur_ms)
+            s_dur = max(s_dur, 1200) # Minimum 1.2s per subtitle line
+            cur_et = cur_st + s_dur
+            if i == len(valid_sentences) - 1:
+                cur_et = start_ms + total_dur_ms
+            
+            entries.append({
+                "idx": base_idx + len(entries),
+                "start": format_srt_time(cur_st),
+                "end": format_srt_time(cur_et),
+                "text": s
+            })
+            cur_st = cur_et
+        return entries
+
     lead_in_ms = 800
     current_time_ms = lead_in_ms
-    turn_gap_ms = 700  # Natural conversational breathing pause between speakers
+    turn_gap_ms = 700  # Natural breathing pause between speakers
     
     for idx, turn in enumerate(turns):
         audio_file = await generate_turn_audio(idx, turn, slide_num)
@@ -177,15 +205,11 @@ async def build_slide_video(slide_data, page=None, session_id=1):
         turn_audio_files.append((audio_file, duration_ms))
         
         start_time = current_time_ms
-        end_time = start_time + duration_ms
-        srt_entries.append({
-            "idx": idx + 1,
-            "start": format_srt_time(start_time),
-            "end": format_srt_time(end_time),
-            "text": turn["text"]
-        })
-        current_time_ms = end_time + turn_gap_ms
-        print(f"    [Turn {idx+1}] {turn['speaker']} ({duration_ms/1000:.1f}s): \"{turn['text'][:35]}...\"")
+        chunked = chunk_turn_into_subtitles(turn["text"], start_time, duration_ms, len(srt_entries) + 1)
+        srt_entries.extend(chunked)
+        
+        current_time_ms = start_time + duration_ms + turn_gap_ms
+        print(f"    [Turn {idx+1}] {turn['speaker']} ({duration_ms/1000:.1f}s, {len(chunked)} subtitle lines): \"{turn['text'][:35]}...\"")
 
     # Determine post-slide reflection / intermission pause to achieve 60-min pace
     # Major Section slides or Labs get longer reflection breaks
@@ -267,7 +291,7 @@ async def build_slide_video(slide_data, page=None, session_id=1):
     
     # Format SRT path for FFmpeg subtitles filter on Windows
     clean_srt_path = srt_path.replace("\\", "/").replace(":", "\\:")
-    subtitle_filter = f"subtitles='{clean_srt_path}':force_style='FontSize=22,Fontname=Arial,PrimaryColour=&H00FFFFFF,OutlineColour=&H00000000,BackColour=&H90000000,BorderStyle=4,MarginV=30'"
+    subtitle_filter = f"subtitles='{clean_srt_path}':force_style='FontSize=15,Fontname=Arial,PrimaryColour=&H00FFFFFF,OutlineColour=&H00000000,BackColour=&H80000000,BorderStyle=4,MarginV=24'"
     
     cmd_encode = [
         FFMPEG_EXE, "-y",
@@ -298,6 +322,34 @@ async def build_slide_video(slide_data, page=None, session_id=1):
 async def build_master_concatenation(video_paths, session_id=1):
     if not video_paths:
         return
+    
+    # 1. 3x 20-Minute Split Parts
+    parts_config = [
+        ("Part1_20Min_Foundations", 1, 13),
+        ("Part2_20Min_Engineering", 14, 26),
+        ("Part3_20Min_Governance_and_Lab", 27, 40)
+    ]
+    
+    print(f"\n=======================================================")
+    print(f"🎞️ Generating 3x 20-Minute Split Videos & Full 60-Minute Master Video...")
+    print(f"=======================================================")
+    
+    for part_name, start_s, end_s in parts_config:
+        part_vpaths = [v for v in video_paths if any(f"Slide_{s:02d}_" in v for s in range(start_s, end_s + 1))]
+        if part_vpaths:
+            concat_txt = os.path.join(OUTPUT_DIR, f"concat_session{session_id}_{part_name}.txt")
+            with open(concat_txt, "w", encoding="utf-8") as f:
+                for v in part_vpaths:
+                    f.write(f"file '{v.replace('\\', '/')}'\n")
+            
+            part_video_path = os.path.join(OUTPUT_DIR, f"Session{session_id}_{part_name}.mp4")
+            cmd = [FFMPEG_EXE, "-y", "-f", "concat", "-safe", "0", "-i", concat_txt, "-c", "copy", part_video_path]
+            subprocess.run(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+            if os.path.exists(part_video_path):
+                size_mb = os.path.getsize(part_video_path) / (1024 * 1024)
+                print(f"  🎬 Created 20-Minute Video: {part_video_path} ({size_mb:.2f} MB)")
+                
+    # 2. Full 60-Minute Master Video
     master_concat_txt = os.path.join(OUTPUT_DIR, f"master_video_concat_session{session_id}.txt")
     with open(master_concat_txt, "w", encoding="utf-8") as f:
         for v in video_paths:
@@ -305,10 +357,6 @@ async def build_master_concatenation(video_paths, session_id=1):
             f.write(f"file '{clean_v}'\n")
             
     master_video_path = os.path.join(OUTPUT_DIR, f"Session{session_id}_Full_60Min_DuoLecture_Master.mp4")
-    print(f"\n=======================================================")
-    print(f"🎞️ Merging all {len(video_paths)} slides into 60-Minute Master Lecture Video...")
-    print(f"=======================================================")
-    
     cmd = [
         FFMPEG_EXE, "-y",
         "-f", "concat",
@@ -320,7 +368,7 @@ async def build_master_concatenation(video_paths, session_id=1):
     subprocess.run(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     if os.path.exists(master_video_path):
         size_mb = os.path.getsize(master_video_path) / (1024 * 1024)
-        print(f"🏆 MASTER DUO LECTURE VIDEO COMPLETED!")
+        print(f"\n🏆 FULL 60-MINUTE MASTER DUO LECTURE VIDEO COMPLETED!")
         print(f"📍 Location: {master_video_path} ({size_mb:.2f} MB)")
 
 def load_session_slides(session_id):

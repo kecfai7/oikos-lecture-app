@@ -1,8 +1,8 @@
 # Session 1: From Waiting Chatbots to Sleep-Free Personal Avatars
 **Course:** The Architect of Intelligence: Mastering Agentic IT & Strategic Wisdom  
 **Instructors:** Professor Peter Kim (54, Director) & TA Sarah Jenkins (31, AI Research Fellow) • Oikos University (www.oikos.edu)  
-**Lecture Format:** NotebookLM Style Interactive Duo Dialogue (2-Presenter Co-Lecture)  
-**Total Slides:** 40 Slides (60 Minutes)  
+**Lecture Format:** Full 60-Minute Broadcast Duo Dialogue (3x 20-Minute Modules)  
+**Total Slides:** 40 Slides (Target: Exactly 60 Minutes / 3,600 Seconds)  
 **Motto:** Soli Deo Gloria  
 
 ---
@@ -54,16 +54,18 @@
 ## Slide 01: OIKOS UNIVERSITY • SOLI DEO GLORIA
 **Subtitle:** THE ARCHITECT OF INTELLIGENCE: Mastering Agentic IT & Strategic Wisdom
 
-### 🎙️ English Lecture Script (100% UI-Synced Duo Dialogue)
-[Prof. Peter] Welcome everyone to Oikos University! I am Professor Peter Kim, Director of Smart Insight Lab. Today, we begin our master course: "The Architect of Intelligence: Mastering Agentic IT and Strategic Wisdom."
+### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
+[Prof. Peter] Welcome everyone to Oikos University! I am Professor Peter Kim, Director of Smart Insight Lab. Today, we inaugurate our flagship master curriculum: "The Architect of Intelligence: Mastering Agentic IT and Strategic Wisdom."
 
-[TA Sarah] And hello everyone! I'm Sarah Jenkins, your Teaching Assistant and AI Research Fellow. Professor Kim and I are so excited to explore this course with you!
+[TA Sarah] And a warm welcome to all our global students! I'm Sarah Jenkins, your Teaching Assistant and AI Research Fellow. Professor Kim and I have designed this 60-minute lecture specifically to take you from basic AI prompts to true architectural mastery.
 
-[Prof. Peter] Look at our main title on the screen: "From Waiting Chatbots to Sleep-Free Personal Avatars." For the past three years, the world interacted with AI like a textbook sitting on a desk—asking a question and waiting for an answer.
+[Prof. Peter] Look at our opening title on the screen: "From Waiting Chatbots to Sleep-Free Personal Avatars." Over the past three years, the entire technology industry has been interacting with AI as a passive encyclopedia sitting on a desk—you type a question, wait for an answer, and copy the text manually.
 
-[TA Sarah] But in 2026, we step into the true agentic revolution: building autonomous, sleep-free personal avatars that execute complex digital workflows in the cloud 24 hours a day, 7 days a week!
+[TA Sarah] But in 2026, we are witnessing the biggest structural paradigm shift in computing: the transition to autonomous, sleep-free personal avatars. These are persistent software agents residing in the cloud, continuously monitoring data streams, and executing complex workflows around the clock.
 
-[Prof. Peter] Our foundational motto is "Soli Deo Gloria"—Glory to God alone. We build this technology to redeem human time, eliminate mechanical drudgery, and elevate human wisdom. Let us begin!
+[Prof. Peter] Our foundational guiding motto is "Soli Deo Gloria"—Glory to God alone. We teach this cutting-edge technology not merely to write more code, but to redeem finite human time, eliminate mechanical drudgery, and elevate human dignity and strategic wisdom.
+
+[TA Sarah] We have structured today's 60-minute lecture into three clear 20-minute modules so you can master both the conceptual revolution and the hands-on engineering. Let us embark on this journey together!
 
 ### 🇰🇷 Korean Teaching Guide (강의 가이드)
 - **강의 요약:** 강의 전체 개요 및 Oikos University 2인 교수 듀오(Prof. Peter & Prof. Sarah) 환영 인사
@@ -82,16 +84,18 @@
 ## Slide 02: PART 1: THE PARADIGM SHIFT: CHATBOTS TO AVATARS
 **Subtitle:** Soli Deo Gloria: Reclaiming human time from mechanical chatbot waiting loops
 
-### 🎙️ English Lecture Script (100% UI-Synced Duo Dialogue)
-[Prof. Peter] Look at Slide 2, our first Part Divider: "PART 1: THE PARADIGM SHIFT: CHATBOTS TO AVATARS."
+### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
+[Prof. Peter] Look at Slide 2, our opening Part Divider: "PART 1: THE PARADIGM SHIFT: CHATBOTS TO AVATARS."
 
-[TA Sarah] Notice our subtitle on the screen: "Soli Deo Gloria: Reclaiming human time from mechanical chatbot waiting loops."
+[TA Sarah] Notice the subtitle centered on our screen: "Soli Deo Gloria: Reclaiming human time from mechanical chatbot waiting loops."
 
-[Prof. Peter] For two years, humanity has been trapped staring at blinking AI cursors, typing prompts and waiting. That waiting loop wastes immense human potential.
+[Prof. Peter] For the past two years, millions of knowledge workers across the globe have spent countless hours staring at blinking AI cursors in web browser tabs. You type a prompt, wait twenty seconds, copy the output, paste it into another tool, and wait again. That mechanical waiting loop is an enormous waste of human intellect.
 
-[TA Sarah] In Part 1, we deconstruct how we transition from passive waiting to commanding proactive avatars that work while you sleep.
+[TA Sarah] Exactly, Professor Kim. It traps highly educated professionals in what we call 'human middleware' work. Instead of directing high-level strategy, people become manual data couriers between different web applications.
 
-[Prof. Peter] Let us click "Entering Next Phase" and dive straight into Part 1!
+[Prof. Peter] In this first 20-minute module, we dismantle that reactive model. We explore how autonomous personal avatars work asynchronously in the background, executing multi-step business and research tasks while you sleep.
+
+[TA Sarah] When you understand this paradigm shift, your perspective on software development and productivity will change forever. Let us click "Entering Next Phase" and begin Part 1!
 
 ### 🇰🇷 Korean Teaching Guide (강의 가이드)
 - **강의 요약:** Part 1 섹션 전환: 수동 코더에서 지능 건축가로의 패러다임 전환 비교
@@ -110,16 +114,16 @@
 ## Slide 03: CORE MISSION & MOTTO
 **Subtitle:** Soli Deo Gloria: Glory to God Alone
 
-### 🎙️ English Lecture Script (100% UI-Synced Duo Dialogue)
-[Prof. Peter] Slide 3 presents our "CORE MISSION & MOTTO: Soli Deo Gloria—Glory to God Alone." Notice the three core principles on the screen.
+### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
+[Prof. Peter] Slide 3 lays out our "CORE MISSION & MOTTO: Soli Deo Gloria—Glory to God Alone." Notice the three foundational principles displayed across the screen.
 
-[TA Sarah] Principle 1 is Our Mandate: Elevating human mind and spirit above mechanical work. We were created with creativity and strategic wisdom, not to do repetitive data copying.
+[TA Sarah] Principle 1 is Our Mandate: Elevating human mind and spirit above mechanical work. Human beings were created with dignity, strategic discernment, empathy, and creative vision. We were never meant to spend 10 hours a day doing repetitive copy-paste tasks between spreadsheets and email inboxes.
 
-[Prof. Peter] Principle 2 defines Technology's Role: Technology is a tool to serve humans, not a master to control us. We must never let addictive notifications dictate our lives.
+[Prof. Peter] Principle 2 establishes Technology's Role: Technology is a tool to serve humans, not a master to control us. In our modern digital world, addictive notification algorithms and endless feeds constantly hijack our peace of mind. As Intelligence Architects, we must establish complete sovereignty over our digital tools.
 
-[TA Sarah] And Principle 3 is our Wisdom Goal: Automating simple tasks to save precious time for higher purpose—our families, our faith, and serving society.
+[TA Sarah] And Principle 3 is our Wisdom Goal: Automating simple tasks to save precious time for higher purpose. When our AI avatars handle routine administrative workflows, we reclaim precious hours to invest in our families, our faith, and serving society.
 
-[Prof. Peter] True automation is about the sacred stewardship of time.
+[Prof. Peter] Automation without wisdom leads to exhaustion and distraction. But automation grounded in Soli Deo Gloria becomes sacred time stewardship. That is our north star at Oikos University.
 
 ### 🇰🇷 Korean Teaching Guide (강의 가이드)
 - **강의 요약:** Oikos University의 교육 철학과 Soli Deo Gloria의 IT적 승화
@@ -138,16 +142,16 @@
 ## Slide 04: SMART INSIGHT LAB PHILOSOPHY
 **Subtitle:** Three pillars to build wisdom in the digital age
 
-### 🎙️ English Lecture Script (100% UI-Synced Duo Dialogue)
-[TA Sarah] Slide 4 introduces the "SMART INSIGHT LAB PHILOSOPHY" with three foundational pillars.
+### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
+[TA Sarah] Slide 4 diagrams the "SMART INSIGHT LAB PHILOSOPHY" through three interconnected pillars: Data, Technology, and Life OS.
 
-[Prof. Peter] Look at Card 1 on the left: "PILLAR 1: DATA." In an era of AI hallucinations and information overload, our job is decoding clear truth signals from surrounding noise.
+[Prof. Peter] Look at Card 1 on the left: "PILLAR 1: DATA." We live in an era overwhelmed by digital noise, synthetic AI text, and misinformation. The first responsibility of an architect is decoding clean, verifiable truth signals from the chaos.
 
-[TA Sarah] Look at Card 2 in the center: "PILLAR 2: TECHNOLOGY." We engineer clean, robust, and scalable 24/7 cloud agent systems that never crash.
+[TA Sarah] Next, look at Card 2 in the center: "PILLAR 2: TECHNOLOGY." We do not just teach abstract theory; we engineer robust, secure, and sleep-free cloud agent systems. These systems run 24 hours a day on scalable cloud infrastructure with zero downtime.
 
-[Prof. Peter] And look at Card 3 on the right: "PILLAR 3: LIFE OS." We structure daily habits so technology protects your mental focus, physical health, and sleep rather than draining you.
+[Prof. Peter] And look at Card 3 on the right: "PILLAR 3: LIFE OS." This is the core differentiator of our curriculum. Technology must be designed to protect your physical health, deep focus, and natural sleep rather than burning you out.
 
-[TA Sarah] When Data, Technology, and Life OS align, you become a truly wise Intelligence Architect!
+[TA Sarah] If your software automation causes you more stress and insomnia, it is poorly architected. But when Data, Technology, and Life OS align in harmony, you achieve true sustainable leverage and professional mastery!
 
 ### 🇰🇷 Korean Teaching Guide (강의 가이드)
 - **강의 요약:** Smart Insight Lab의 3대 기둥: 데이터, 기술, 라이프 OS의 유기적 결합
@@ -166,16 +170,16 @@
 ## Slide 05: A LETTER FROM THE FUTURE
 **Subtitle:** From childhood dreams to 2026 reality
 
-### 🎙️ English Lecture Script (100% UI-Synced Duo Dialogue)
+### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
 [Prof. Peter] Slide 5 is titled "A LETTER FROM THE FUTURE: From childhood dreams to 2026 reality."
 
-[TA Sarah] On the left card, look at the childhood wish tagged "THE DREAM": "What if a double of myself could do my homework and clean my room while I play?"
+[TA Sarah] Look at the left card tagged "THE DREAM": "Childhood Wish." When we were young students, almost everyone had that classic fantasy: "What if I had a digital twin or a clone of myself who could do all my homework and tidy my room while I go outside to play?"
 
-[Prof. Peter] And on the right card, look at our 2026 reality tagged "THE REALITY": "2026 Autonomous Avatar." Today, digital twins execute complex daily workflows on your behalf while you sleep!
+[Prof. Peter] It was a universal dream of delegation. And now, look at the right card tagged "THE REALITY": "2026 Autonomous Avatar." In 2026, that childhood fantasy is no longer science fiction. It is working production software engineering!
 
-[TA Sarah] What was once childhood science fiction has now become production software engineering.
+[TA Sarah] Today, an Intelligence Architect can deploy a persistent digital twin in the cloud. While you are sleeping, your avatar parses incoming project logs, synthesizes executive research briefings, drafts client replies, and organizes your Google Drive.
 
-[Prof. Peter] That is the transformative power of the avatar architecture we are building in this course.
+[Prof. Peter] When you wake up at 7 AM, your digital twin presents a completed 1-page executive summary of everything accomplished overnight. That is the leverage we are building in this course.
 
 ### 🇰🇷 Korean Teaching Guide (강의 가이드)
 - **강의 요약:** 어린 시절 분신 로봇의 상상과 2026년 자율 인공지능 아바타의 현실 비교
@@ -194,14 +198,16 @@
 ## Slide 06: THE ULTIMATE CURRENCY
 **Subtitle:** Attention & Time: The only resources you can never buy back
 
-### 🎙️ English Lecture Script (100% UI-Synced Duo Dialogue)
+### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
 [TA Sarah] Slide 6 highlights "THE ULTIMATE CURRENCY." Notice the prominent metric in the center: "24 HOURS PER DAY."
 
-[Prof. Peter] The stat label says it clearly: "The Equalizer for All Humanity." Money, hardware, and algorithms can be multiplied, but physical human time remains strictly finite.
+[Prof. Peter] The stat label underneath reads: "The Equalizer for All Humanity." Think about this profound reality: whether you are a university student, a corporate CEO, or a world leader, everyone is given exactly the same 24 hours every single day.
 
-[TA Sarah] Below the metric, notice the key insight: In the age of AI, the ultimate wealth is not raw computation—it is reclaiming undivided human focus and presence.
+[TA Sarah] You cannot buy extra physical hours with money, and you cannot manufacture more time. But in the modern AI era, how you deploy those 24 hours determines your entire life trajectory.
 
-[Prof. Peter] When our sleep-free avatars handle routine work, our finite 24 hours are redeemed for what matters most.
+[Prof. Peter] Below the number, notice our core thesis: The ultimate wealth of the 21st century is not raw computing power or accumulating terabytes of data—it is reclaiming undivided human focus, relational presence, and strategic clarity.
+
+[TA Sarah] When sleep-free avatars absorb mechanical data chores, our finite physical hours are redeemed for creative thought and deep human relationships. That is true time equity.
 
 ### 🇰🇷 Korean Teaching Guide (강의 가이드)
 - **강의 요약:** 시간과 주의 집중(Attention)의 가치 및 AI 에이전트를 통한 10배의 전략적 레버리지
@@ -220,16 +226,16 @@
 ## Slide 07: SESSION 1 LEARNING OBJECTIVES
 **Subtitle:** Four milestones to master in today's 60-minute lecture
 
-### 🎙️ English Lecture Script (100% UI-Synced Duo Dialogue)
-[Prof. Peter] On Slide 7, we lay out our "SESSION 1 LEARNING OBJECTIVES" across three structured cards.
+### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
+[Prof. Peter] On Slide 7, we present our "SESSION 1 LEARNING OBJECTIVES" across three comprehensive cards.
 
-[TA Sarah] Card 1 is "1. PARADIGM SHIFT": Moving from synchronous waiting chatbots to proactive, sleep-free cloud avatars.
+[TA Sarah] Card 1 is "1. PARADIGM SHIFT": Transitioning from synchronous, blocking chatbots to proactive, sleep-free cloud avatars that operate autonomously.
 
-[Prof. Peter] Card 2 is "2. ASYNC ARCHITECTURE": Mastering the 3-Layer Gemini Spark pipeline combining Triggers, Reasoning, and Actions.
+[Prof. Peter] Card 2 is "2. ASYNC ARCHITECTURE": Mastering the technical foundation of the 3-Layer Gemini Spark pipeline—connecting Webhook Triggers, Gemini Reasoning, and Workspace Actions.
 
-[TA Sarah] And Card 3 is "3. GOVERNANCE & WISDOM": Implementing Human-on-the-Loop oversight, security guardrails, and offline life balance.
+[TA Sarah] And Card 3 is "3. GOVERNANCE & WISDOM": Implementing Human-on-the-Loop supervision, cryptographic security guardrails, and maintaining offline life balance under Soli Deo Gloria.
 
-[Prof. Peter] By the end of this 60-minute session, you will possess both the technical blueprint and the philosophical wisdom to build autonomous avatars.
+[Prof. Peter] By the end of this 60-minute session, you will possess both the conceptual clarity and the practical architectural blueprint to deploy your first personal avatar. Let us proceed!
 
 ### 🇰🇷 Korean Teaching Guide (강의 가이드)
 - **강의 요약:** Session 1의 3대 핵심 학습 목표 안내
@@ -248,14 +254,16 @@
 ## Slide 08: THE PARADIGM SHIFT: 'ASK ME' VS. 'RUN IT FOR ME'
 **Subtitle:** The fundamental divide in AI user experience
 
-### 🎙️ English Lecture Script (100% UI-Synced Duo Dialogue)
-[TA Sarah] Slide 8 presents "THE PARADIGM SHIFT: 'ASK ME' VS. 'RUN IT FOR ME'."
+### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
+[TA Sarah] Slide 8 illustrates "THE PARADIGM SHIFT: 'ASK ME' VS. 'RUN IT FOR ME'."
 
-[Prof. Peter] Look at the left card tagged "PASSIVE AI": "The 'Ask Me' Era." In this 2023 model, AI acts like a reactive encyclopedia. You type a prompt, wait for text, copy it, and do all the actual execution yourself.
+[Prof. Peter] Look at the left card tagged "PASSIVE AI": "The 'Ask Me' Era." In the 2023 chatbot era, AI functioned like a reactive search engine. You typed a question, the model generated paragraphs of text, and then you had to manually copy, format, and execute everything yourself.
 
-[TA Sarah] Now look at the right card tagged "ACTIVE AI": "The 'Run It For Me' Era." In 2026, AI acts as an autonomous agent. You define a goal, and the agent executes tools, navigates APIs, and delivers finished outcomes!
+[TA Sarah] Now examine the right card tagged "ACTIVE AI": "The 'Run It For Me' Era." In 2026, AI has evolved into an agentic operator. You define an end goal—such as 'Analyze yesterday's customer feedback and update our database'—and the avatar writes the code, calls the APIs, and verifies the result!
 
-[Prof. Peter] Shifting from 'Ask Me' to 'Run It For Me' is the fundamental leap from chatbot to agentic avatar.
+[Prof. Peter] In the 'Ask Me' paradigm, the human does 90% of the manual execution. In the 'Run It For Me' paradigm, the avatar executes 90% of the mechanical steps while the human provides high-level judgment.
+
+[TA Sarah] That fundamental shift is the dividing line between an amateur AI user and a professional Intelligence Architect.
 
 ### 🇰🇷 Korean Teaching Guide (강의 가이드)
 - **강의 요약:** '나에게 물어보세요(수동형)'와 '나 대신 실행해줘(자율형)'의 결정적 차이
@@ -274,16 +282,16 @@
 ## Slide 09: YESTERDAY: REACTIVE CHATBOTS
 **Subtitle:** Trapped in the single-turn synchronous feedback loop
 
-### 🎙️ English Lecture Script (100% UI-Synced Duo Dialogue)
-[Prof. Peter] Slide 9 illustrates "YESTERDAY: REACTIVE CHATBOTS."
+### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
+[Prof. Peter] Slide 9 analyzes "YESTERDAY: REACTIVE CHATBOTS."
 
-[TA Sarah] On the left card, tagged "THE BOTTLENECK": "Human as Middleware." The human had to sit at the desk, copy text from ChatGPT, paste it into an email, check a spreadsheet, and click send.
+[TA Sarah] On the left card, tagged "THE BOTTLENECK", we examine "Human as Middleware." For the last few years, whenever companies tried to implement AI, the human worker was forced to act as the physical bridge between ChatGPT, Google Docs, Slack, and email.
 
-[Prof. Peter] On the right card, tagged "THE COST": "High Latency & Fatigue." Every single step required active human presence, causing cognitive exhaustion and severe context switching.
+[Prof. Peter] Look at the right card tagged "THE COST": "High Latency & Fatigue." Because every single transaction required human attention, professionals experienced massive cognitive fatigue, constant context switching, and high error rates from manual typing.
 
-[TA Sarah] It turned high-level thinkers into mechanical copy-paste operators.
+[TA Sarah] When you have to switch browser tabs 50 times an hour to copy-paste data, your brain cannot engage in deep creative problem solving.
 
-[Prof. Peter] That is the bottleneck we are dismantling today.
+[Prof. Peter] Chatbots gave us great answers, but they left us chained to the keyboard. That is the limitation we are breaking today.
 
 ### 🇰🇷 Korean Teaching Guide (강의 가이드)
 - **강의 요약:** 기존 반응형 챗봇의 기술적/인간공학적 한계 분석
@@ -302,14 +310,16 @@
 ## Slide 10: TODAY: PROACTIVE AVATARS
 **Subtitle:** Autonomous agents with persistent memory and scheduled cron triggers
 
-### 🎙️ English Lecture Script (100% UI-Synced Duo Dialogue)
-[TA Sarah] Slide 10 showcases "TODAY: PROACTIVE AVATARS."
+### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
+[TA Sarah] Slide 10 presents "TODAY: PROACTIVE AVATARS."
 
-[Prof. Peter] Look at the left card tagged "THE LEVERAGE": "Direct Tool Execution." Modern agents do not just generate text; they connect to your Google Drive, trigger APIs, run shell scripts, and manage databases directly.
+[Prof. Peter] Look at the left card tagged "THE LEVERAGE": "Direct Tool Execution." Modern avatars are equipped with tool belts—they can read file systems, execute shell commands, query SQL databases, and call REST APIs directly in the cloud without human intervention.
 
-[TA Sarah] Look at the right card tagged "THE RESULT": "Asynchronous Freedom." You set the objective in the evening, sleep peacefully, and wake up to completed reports and triaged data.
+[TA Sarah] Look at the right card tagged "THE RESULT": "Asynchronous Freedom." You trigger a multi-hour research workflow before going to bed, and your avatar coordinates multiple sub-agents in parallel throughout the night.
 
-[Prof. Peter] The human shifts from being an exhausted laborer to a sovereign director.
+[Prof. Peter] In the morning, you receive a perfectly synthesized, verifiable report ready for decision-making. The human transforms from an exhausted manual laborer into a sovereign director.
+
+[TA Sarah] This concludes Module 1! In the next 20 minutes, we will dive deep under the hood into the engineering mechanics of autonomous reasoning!
 
 ### 🇰🇷 Korean Teaching Guide (강의 가이드)
 - **강의 요약:** 현대 능동형 아바타의 핵심 아키텍처: 상태 유지 엔진과 이벤트 기반 트리거
@@ -328,14 +338,16 @@
 ## Slide 11: PART 2: UNDER THE HOOD OF AUTONOMOUS REASONING
 **Subtitle:** Video game metaphors, asynchronous pipelines, and Gemini 3.5 Flash internals
 
-### 🎙️ English Lecture Script (100% UI-Synced Duo Dialogue)
-[Prof. Peter] We arrive at Slide 11, our second Part Divider: "PART 2: UNDER THE HOOD OF AUTONOMOUS REASONING."
+### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
+[Prof. Peter] Welcome to Slide 11 and the start of Part 2: "PART 2: UNDER THE HOOD OF AUTONOMOUS REASONING."
 
-[TA Sarah] Subtitle: "How autonomous agents think, plan, and execute without human intervention."
+[TA Sarah] Notice our subtitle: "How autonomous agents think, plan, and execute without human intervention."
 
-[Prof. Peter] In this section, we move behind the scenes to understand the reasoning loops, memory systems, and computational engines that power sleep-free agents.
+[Prof. Peter] In this second 20-minute module, we transition from high-level concepts to the computational engine under the hood. We will examine how an LLM transforms into a goal-driven reasoning loop that plans, acts, and observes.
 
-[TA Sarah] Let's click "Entering Next Phase" and examine the engineering foundation of agentic reasoning!
+[TA Sarah] We will explore background execution metaphors, scaling multipliers, and address common engineering bottlenecks that students face in their practical assignments.
+
+[Prof. Peter] Let us click "Entering Next Phase" and unpack the engineering core of autonomous agent reasoning!
 
 ### 🇰🇷 Korean Teaching Guide (강의 가이드)
 - **강의 요약:** Part 2 섹션 전환: 자율 추론 엔진의 내부 구조와 Spark 3계층 파이프라인 개요
@@ -354,14 +366,16 @@
 ## Slide 12: METAPHOR: VIDEO GAME COMPUTING
 **Subtitle:** Understanding agentic background loops like game physics engines
 
-### 🎙️ English Lecture Script (100% UI-Synced Duo Dialogue)
-[TA Sarah] Slide 12 uses a brilliant metaphor: "VIDEO GAME COMPUTING."
+### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
+[TA Sarah] Slide 12 uses an insightful engineering metaphor: "VIDEO GAME COMPUTING."
 
-[Prof. Peter] Look at the left card tagged "METAPHOR": "Background NPC Simulation." In modern open-world games, non-player characters continue living, trading, and working in the background even when you are not looking at them.
+[Prof. Peter] Look at the left card tagged "METAPHOR": "Background NPC Simulation." In modern open-world video games, non-player characters do not vanish when you turn your camera away. The game engine simulates their trade, movement, and behavior continuously in background memory.
 
-[TA Sarah] And look at the right card tagged "REALITY": "Cloud Agent Loops." Similarly, your personal AI avatar runs continuously in cloud memory, checking triggers and analyzing signals while you focus elsewhere.
+[TA Sarah] Now look at the right card tagged "REALITY": "Cloud Agent Loops." Your personal AI avatar operates on the exact same principle. It runs in a headless cloud container, listening for webhooks, evaluating cron schedules, and analyzing incoming telemetry even when your laptop is turned off.
 
-[Prof. Peter] It is persistent background computing dedicated entirely to your mission.
+[Prof. Peter] You do not need to keep a browser window open. The avatar lives in the cloud infrastructure, persistently guarding your data and executing your workflows.
+
+[TA Sarah] That is the architectural meaning of 'sleep-free' computing—background persistence dedicated entirely to your objectives.
 
 ### 🇰🇷 Korean Teaching Guide (강의 가이드)
 - **강의 요약:** 비디오 게임 메타포: 턴제 체스(챗봇) vs 오픈월드 RPG(에이전트 스웜)
@@ -380,14 +394,16 @@
 ## Slide 13: SCALING HUMAN ATTENTION
 **Subtitle:** How one architect directs multiple autonomous background swarms
 
-### 🎙️ English Lecture Script (100% UI-Synced Duo Dialogue)
-[Prof. Peter] Slide 13 demonstrates "SCALING HUMAN ATTENTION." Look at the dramatic metric in the center: "100X."
+### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
+[Prof. Peter] Slide 13 illustrates "SCALING HUMAN ATTENTION." Look at the centerpiece metric: "100X."
 
-[TA Sarah] The label states: "Attention Multiplier." A single architect supervising a swarm of 10 specialized agents achieves the throughput of an entire traditional department.
+[TA Sarah] Stat label: "Attention Multiplier." In traditional IT, if a manager wants to supervise 10 projects, they must attend 10 separate meetings and read hundreds of emails, hitting a hard cognitive ceiling.
 
-[Prof. Peter] Below the stat, notice the crucial insight: You do not scale by working 100 times harder; you scale by architecting systems that execute in parallel.
+[Prof. Peter] But an Intelligence Architect supervising a swarm of 10 specialized agents achieves an effective 100X throughput multiplier. Each agent handles a specific domain—code review, data parsing, security auditing—and reports back concise exceptions.
 
-[TA Sarah] Wisdom multiplies leverage without multiplying stress!
+[TA Sarah] Notice the key takeaway at the bottom: You do not scale by drinking more coffee or working 80 hours a week. You scale by architecting parallel agent swarms that amplify your strategic intent.
+
+[Prof. Peter] Wisdom and architecture allow one person to achieve the impact of an entire department.
 
 ### 🇰🇷 Korean Teaching Guide (강의 가이드)
 - **강의 요약:** 인간 주의력의 확장: 1:1 종속에서 1:50 다중 에이전트 감독으로의 도약
@@ -406,14 +422,16 @@
 ## Slide 14: 📨 INTERACTIVE STUDENT POLL
 **Subtitle:** How many hours do you spend waiting for repetitive digital tasks each week?
 
-### 🎙️ English Lecture Script (100% UI-Synced Duo Dialogue)
+### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
 [TA Sarah] Slide 14 is our "INTERACTIVE STUDENT POLL: What is your biggest time sink in daily IT workflows?"
 
-[Prof. Peter] Look at the options on screen: Option A is Manual data copy-pasting across tools. Option B is Waiting for chatbot responses. Option C is Triaging emails and alerts. And Option D is Repetitive reporting.
+[Prof. Peter] Let us review the four options displayed on the screen. Option A is 'Manual data copy-pasting across tools.' Option B is 'Waiting for chatbot responses.' Option C is 'Triaging emails and alerts.' And Option D is 'Repetitive weekly reporting.'
 
-[TA Sarah] Over 70% of students choose Option A and C! That proves our biggest drain is mechanical glue work.
+[TA Sarah] In our live classroom polling across global cohorts, over 72% of students consistently select Option A and Option C! Knowledge workers are drowning in mechanical data transfer.
 
-[Prof. Peter] And that is exactly what our Gemini Spark pipeline will automate!
+[Prof. Peter] That empirical poll data confirms our diagnosis: the primary bottleneck in modern IT is not a lack of intelligence, but the friction of manual glue work between disconnected systems.
+
+[TA Sarah] And that is exactly what our 3-Layer Gemini Spark pipeline is designed to eliminate!
 
 ### 🇰🇷 Korean Teaching Guide (강의 가이드)
 - **강의 요약:** 실시간 인터랙티브 학생 투표: 주당 반복 업무에 소모하는 시간 조사
@@ -431,16 +449,16 @@
 ## Slide 15: POLL ANALYSIS & INSIGHT
 **Subtitle:** Why 73% of knowledge workers are trapped in Option B & C
 
-### 🎙️ English Lecture Script (100% UI-Synced Duo Dialogue)
+### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
 [Prof. Peter] Slide 15 provides "POLL ANALYSIS & INSIGHT" across three diagnostic cards.
 
-[TA Sarah] Card 1 is "1. THE GLUE WORK TRAP": Over 60% of knowledge worker hours are consumed by transferring data between disconnected applications.
+[TA Sarah] Card 1 is "1. THE GLUE WORK TRAP": Global studies show that knowledge workers spend over 60% of their workday simply formatting, copying, and routing data between incompatible software platforms.
 
-[Prof. Peter] Card 2 is "2. CONTEXT SWITCHING": Switching tasks every 3 minutes fragments deep focus and degrades cognitive clarity.
+[Prof. Peter] Card 2 is "2. CONTEXT SWITCHING": Research from cognitive science demonstrates that every digital interruption takes up to 23 minutes for a human brain to regain deep focus. Context switching destroys intellectual breakthrough.
 
-[TA Sarah] And Card 3 is "3. THE AVATAR SOLUTION": Delegating glue work to headless cloud agents restores uninterrupted deep work.
+[TA Sarah] And Card 3 is "3. THE AVATAR SOLUTION": By delegating routine glue work to autonomous headless agents, human professionals reclaim uninterrupted 4-hour deep work blocks every day.
 
-[Prof. Peter] Removing glue work is the highest leverage investment in modern enterprise.
+[Prof. Peter] Eliminating glue work is the single highest-return investment an organization can make in human capital.
 
 ### 🇰🇷 Korean Teaching Guide (강의 가이드)
 - **강의 요약:** 투표 결과 분석: 지식 근로자의 73%가 겪는 보이지 않는 시간 누수와 에이전틱 솔루션
@@ -459,14 +477,14 @@
 ## Slide 16: TRANSITION TO ENGINEERING
 **Subtitle:** Moving from why we automate to how the Spark architecture executes
 
-### 🎙️ English Lecture Script (100% UI-Synced Duo Dialogue)
+### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
 [TA Sarah] Slide 16 is our Part Divider: "TRANSITION TO ENGINEERING."
 
 [Prof. Peter] Subtitle: "Moving from conceptual understanding to production agent implementation."
 
-[TA Sarah] Now that we understand the philosophy, we will inspect the exact 3-layer architecture, memory engines, and directory structures.
+[TA Sarah] We have established the philosophical foundation and analyzed the workplace bottlenecks. Now, in the heart of our second module, we inspect the exact architectural diagrams, directory setups, and code structures.
 
-[Prof. Peter] Let's step into the engineering workshop!
+[Prof. Peter] Put on your engineering hats as we examine the 3-layer pipeline that powers production-grade personal avatars. Let's enter the engineering lab!
 
 ### 🇰🇷 Korean Teaching Guide (강의 가이드)
 - **강의 요약:** 엔지니어링 전환: 전략적 철학에서 Spark 아키텍처 구현으로의 브릿지
@@ -484,18 +502,18 @@
 ## Slide 17: ASYNCHRONOUS ENGINE: THE 3-LAYER SPARK PIPELINE
 **Subtitle:** Trigger, Reasoning Brain, and Real-World Action Layers
 
-### 🎙️ English Lecture Script (100% UI-Synced Duo Dialogue)
+### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
 [Prof. Peter] Slide 17 diagrams our core engineering model: "ASYNCHRONOUS ENGINE: THE 3-LAYER SPARK PIPELINE."
 
-[TA Sarah] Notice the three vertical layers displayed in our architecture diagram.
+[TA Sarah] Notice the three vertical layers clearly mapped in our architecture diagram.
 
-[Prof. Peter] Layer 1 at the top is the "Trigger Layer": handling Webhooks, Cron Schedules, and File Watchers.
+[Prof. Peter] Layer 1 at the top is the "Trigger Layer." This layer listens for incoming events—Webhook triggers from GitHub, Cron schedules running every midnight, or File Watchers detecting newly uploaded documents in Google Drive.
 
-[TA Sarah] Layer 2 in the middle is the "Reasoning Layer": powered by Gemini Flash for rapid planning, schema validation, and tool selection.
+[TA Sarah] Layer 2 in the center is the "Reasoning Layer." Powered by Gemini Flash, this layer parses the event, selects the appropriate tool schema, executes iterative planning steps, and validates data formats.
 
-[Prof. Peter] Layer 3 at the bottom is the "Action Layer": executing Drive API writes, database commits, and alert dispatches.
+[Prof. Peter] Layer 3 at the bottom is the "Action Layer." This layer executes the real-world payload—writing clean spreadsheets to Google Drive, appending logs to a database, and dispatching summary alerts.
 
-[TA Sarah] This 3-layer separation ensures rock-solid stability and zero execution bottlenecks.
+[TA Sarah] By decoupling Triggers, Reasoning, and Actions, your system becomes infinitely scalable and resilient to failures.
 
 ### 🇰🇷 Korean Teaching Guide (강의 가이드)
 - **강의 요약:** Spark 3계층 비동기 파이프라인 심층 분석: 감지, 추론, 행동 계층
@@ -514,14 +532,16 @@
 ## Slide 18: SYNCHRONOUS VS. ASYNCHRONOUS
 **Subtitle:** Why modern agentic workflows require non-blocking execution
 
-### 🎙️ English Lecture Script (100% UI-Synced Duo Dialogue)
+### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
 [TA Sarah] Slide 18 contrasts "SYNCHRONOUS VS. ASYNCHRONOUS" execution.
 
-[Prof. Peter] On the left card tagged "BLOCKING": "Synchronous Execution." Every request blocks the user thread. If an API takes 30 seconds, the human is frozen waiting.
+[Prof. Peter] On the left card tagged "BLOCKING", we see "Synchronous Execution." In a synchronous model, every API request blocks the main thread. If a database query or web scrape takes 45 seconds, the human user is frozen staring at a loading spinner.
 
-[TA Sarah] On the right card tagged "NON-BLOCKING": "Asynchronous Pipeline." The request is placed in an event queue. The agent processes it in the background and notifies you upon completion!
+[TA Sarah] Now look at the right card tagged "NON-BLOCKING": "Asynchronous Pipeline." When an event occurs, it is pushed to a background event queue. The agent processes it independently in the cloud and notifies you only when the finished artifact is ready.
 
-[Prof. Peter] Asynchronous design is what makes sleep-free avatars possible.
+[Prof. Peter] Asynchronous architecture is the vital secret of sleep-free computing. It frees the human from waiting loops and allows systems to scale horizontally.
+
+[TA Sarah] Always design your agent workflows with non-blocking, event-driven queues!
 
 ### 🇰🇷 Korean Teaching Guide (강의 가이드)
 - **강의 요약:** 동기식(블로킹)과 비동기식(논블로킹) 아키텍처의 차이와 필요성
@@ -540,14 +560,16 @@
 ## Slide 19: THE GEMINI 3.5 FLASH BRAIN
 **Subtitle:** Sub-second multi-step reasoning with massive 1-million token context
 
-### 🎙️ English Lecture Script (100% UI-Synced Duo Dialogue)
+### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
 [Prof. Peter] Slide 19 highlights "THE GEMINI 3.5 FLASH BRAIN." Notice the centerpiece metric: "< 250 MS."
 
-[TA Sarah] Stat label: "Sub-Second Reasoning Latency." With Gemini 3.5 Flash, the agent plans multi-step tool calls in milliseconds with high efficiency.
+[TA Sarah] Stat label: "Sub-Second Reasoning Latency." For an autonomous agent to execute complex multi-step reasoning, it needs a brain that is both ultra-fast and intellectually capable.
 
-[Prof. Peter] Below the number, notice the key advantage: Instant reasoning enables agents to loop through 10 iterations in just 3 seconds, making autonomous problem-solving feel seamless.
+[Prof. Peter] Gemini 3.5 Flash delivers full multi-modal understanding and tool calling with sub-250 millisecond response times. This means an agent can execute a 10-step planning and verification loop in less than 3 seconds!
 
-[TA Sarah] Speed and precision combined in one compact cloud brain!
+[TA Sarah] Below the metric, notice the cost efficiency: high-speed, lightweight inference makes running 24/7 continuous avatars economically viable for every student and startup.
+
+[Prof. Peter] Speed, accuracy, and affordability unite to power our persistent cloud avatars.
 
 ### 🇰🇷 Korean Teaching Guide (강의 가이드)
 - **강의 요약:** Gemini 3.5 Flash의 압도적 성능 지표: 400ms 초저지연, 100만 토큰 컨텍스트, 99.8% 정확도
@@ -566,14 +588,16 @@
 ## Slide 20: HARDWARE INFRASTRUCTURE: TPU V8
 **Subtitle:** Google's purpose-built silicon for massive parallel agentic matrix compute
 
-### 🎙️ English Lecture Script (100% UI-Synced Duo Dialogue)
+### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
 [TA Sarah] Slide 20 explores "HARDWARE INFRASTRUCTURE: TPU V8."
 
-[Prof. Peter] On the left card tagged "LEGACY": "General Compute." High power consumption, memory bottlenecks, and slow batch inference.
+[Prof. Peter] On the left card tagged "LEGACY": "General Compute." Traditional CPUs and older GPUs suffer from high power draw, thermal throttling, and severe memory bandwidth bottlenecks during massive parallel agent execution.
 
-[TA Sarah] On the right card tagged "AGENTIC ERA": "Custom TPU Pods." Optimized for matrix multiplication and massive parallel agent swarms.
+[TA Sarah] On the right card tagged "AGENTIC ERA": "Custom TPU Pods." Google's TPU v8 infrastructure provides dedicated matrix multiplication acceleration and optical circuit switching designed specifically for concurrent agent swarms.
 
-[Prof. Peter] High-efficiency hardware provides the backbone for affordable, continuous 24/7 avatar operations.
+[Prof. Peter] Robust hardware infrastructure ensures that your cloud avatars run with predictable low latency and enterprise-grade reliability 365 days a year.
+
+[TA Sarah] This concludes Module 2! In our final 20-minute module, we will explore workspace integrations, cryptographic security, and life wisdom!
 
 ### 🇰🇷 Korean Teaching Guide (강의 가이드)
 - **강의 요약:** 하드웨어 인프라: 범용 GPU 대비 Google TPU v8의 차별화된 아키텍처
@@ -592,14 +616,16 @@
 ## Slide 21: PART 3: THE CONNECTED WORKSPACE: APPS SCRIPT & DRIVE
 **Subtitle:** Wiring the digital hands: File systems, cloud drives, and automated workflows
 
-### 🎙️ English Lecture Script (100% UI-Synced Duo Dialogue)
-[Prof. Peter] Slide 21 is our Part Divider: "PART 3: THE CONNECTED WORKSPACE: APPS SCRIPT & DRIVE."
+### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
+[Prof. Peter] Welcome to Slide 21 and the beginning of our final module: "PART 3: THE CONNECTED WORKSPACE: APPS SCRIPT & DRIVE."
 
 [TA Sarah] Subtitle: "Transforming Google Workspace into an automated enterprise command center."
 
-[Prof. Peter] In Part 3, we connect our reasoning brain to real workspace tools—Docs, Sheets, Drive, and Gmail.
+[Prof. Peter] In this third 20-minute module, we bridge the reasoning brain to everyday business software—connecting agents to Google Drive, Google Sheets, Gmail, and Google Apps Script.
 
-[TA Sarah] Let's click "Entering Next Phase" and build the connected workspace!
+[TA Sarah] We will also cover essential security guardrails, financial controls, and how to maintain offline focus under Soli Deo Gloria.
+
+[Prof. Peter] Let us click "Entering Next Phase" and build the connected enterprise workspace!
 
 ### 🇰🇷 Korean Teaching Guide (강의 가이드)
 - **강의 요약:** Part 3 섹션 전환: 두뇌(Gemini)와 실무 도구(Workspace & Drive)의 결합
@@ -618,16 +644,16 @@
 ## Slide 22: THE TRIAD OF AGENTIC DESIGN
 **Subtitle:** Three core components required to turn a model into an avatar
 
-### 🎙️ English Lecture Script (100% UI-Synced Duo Dialogue)
+### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
 [TA Sarah] Slide 22 breaks down "THE TRIAD OF AGENTIC DESIGN."
 
-[Prof. Peter] Card 1 is "1. MEMORY ENGINE": Maintaining working context and persistent long-term knowledge.
+[Prof. Peter] Card 1 is "1. MEMORY ENGINE": Providing the agent with short-term working context and long-term persistent knowledge so it remembers organizational rules across sessions.
 
-[TA Sarah] Card 2 is "2. TOOL BELT": Clean API contracts for reading files, executing SQL, and calling external webhooks.
+[TA Sarah] Card 2 is "2. TOOL BELT": Equipping the agent with clean, standardized API contracts for file operations, web research, code execution, and database queries.
 
-[Prof. Peter] And Card 3 is "3. GUARDRAIL MATRIX": Enforcing schema constraints, spending caps, and safety filters.
+[Prof. Peter] And Card 3 is "3. GUARDRAIL MATRIX": Enforcing schema validation, strict token limits, financial spending caps, and safety filters.
 
-[TA Sarah] When Memory, Tools, and Guardrails unite, your avatar operates with enterprise-grade reliability.
+[TA Sarah] An agent with tools but no guardrails is dangerous. An agent with memory, tools, and guardrails working together is a reliable enterprise partner!
 
 ### 🇰🇷 Korean Teaching Guide (강의 가이드)
 - **강의 요약:** 에이전틱 설계의 3요소: 메모리 엔진, 도구 모음(Tool Belt), 가드레일 매트릭스
@@ -646,14 +672,14 @@
 ## Slide 23: SPARK OS DIRECTORY SETUP
 **Subtitle:** Clean folder taxonomy for production-grade agentic environments
 
-### 🎙️ English Lecture Script (100% UI-Synced Duo Dialogue)
-[Prof. Peter] Slide 23 diagrams the "SPARK OS DIRECTORY SETUP."
+### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
+[Prof. Peter] Slide 23 diagrams our production "SPARK OS DIRECTORY SETUP."
 
-[TA Sarah] Notice the clean folder hierarchy on screen: /agents for persona configs, /skills for modular tool scripts, /memory for persistent logs, and /config for API keys.
+[TA Sarah] Look at the standardized directory hierarchy on the screen: /agents stores persona and system prompts; /skills contains modular tool execution scripts; /memory stores vector indexes and persistent logs; and /config holds environment secrets.
 
-[Prof. Peter] A clean directory structure is the foundation of modular, maintainable agent development.
+[Prof. Peter] Notice how every tool is encapsulated as an independent skill module inside the /skills folder. This allows you to add new capabilities to your avatar without touching core reasoning logic.
 
-[TA Sarah] Never hardcode keys; always isolate modular skills!
+[TA Sarah] Follow this clean directory pattern in your hands-on lab assignment to ensure maintainable, modular agent architecture!
 
 ### 🇰🇷 Korean Teaching Guide (강의 가이드)
 - **강의 요약:** Spark OS의 표준 디렉토리 구조: /core, /memory, /output의 체계적 분리
@@ -672,14 +698,16 @@
 ## Slide 24: DUAL MEMORY ENGINE
 **Subtitle:** Short-term working context vs. long-term persistent knowledge
 
-### 🎙️ English Lecture Script (100% UI-Synced Duo Dialogue)
+### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
 [TA Sarah] Slide 24 explains the "DUAL MEMORY ENGINE."
 
-[Prof. Peter] On the left card tagged "SHORT-TERM": "Working Scratchpad." Fast, in-context scratchpad used during active execution turns.
+[Prof. Peter] On the left card tagged "SHORT-TERM": "Working Scratchpad." This is fast, in-context scratchpad memory where the agent records intermediate thoughts, tool responses, and active turn variables.
 
-[TA Sarah] On the right card tagged "LONG-TERM": "Persistent Knowledge Vault." Vector-indexed storage in markdown files and databases for cross-session recall.
+[TA Sarah] On the right card tagged "LONG-TERM": "Persistent Knowledge Vault." This is vector-indexed storage stored in markdown files, SQLite databases, and Google Drive, allowing the avatar to recall user preferences across weeks and months.
 
-[Prof. Peter] Dual memory allows agents to remember user preferences across weeks while executing swift current tasks.
+[Prof. Peter] Dual memory mimics human cognition: rapid working focus combined with deep, permanent knowledge retrieval.
+
+[TA Sarah] This enables your avatar to provide deeply personalized assistance tailored to your unique workflow history.
 
 ### 🇰🇷 Korean Teaching Guide (강의 가이드)
 - **강의 요약:** 듀얼 메모리 엔진: 단기 작업 기억(RAM)과 장기 영구 기억(Vector/MD)의 협력
@@ -698,14 +726,14 @@
 ## Slide 25: GOOGLE WORKSPACE INTEGRATION
 **Subtitle:** Connecting the avatar directly to Google Docs, Sheets, Drive, and Gmail
 
-### 🎙️ English Lecture Script (100% UI-Synced Duo Dialogue)
+### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
 [Prof. Peter] Slide 25 diagrams "GOOGLE WORKSPACE INTEGRATION."
 
-[TA Sarah] Look at the integration pipeline: Webhook triggers from Gmail activate Google Apps Script, which delegates reasoning to Gemini and writes summary reports to Google Drive.
+[TA Sarah] Look at the automated workflow flow: An incoming email arrives in Gmail, triggering a lightweight Google Apps Script webhook. The script passes the email body to Gemini Flash for categorization and draft synthesis, then automatically archives the email and appends a summary row to Google Sheets.
 
-[Prof. Peter] This turns standard cloud storage into an active, intelligent workspace.
+[Prof. Peter] Notice that this entire workflow runs serverlessly inside Google's enterprise cloud infrastructure. You do not need to manage expensive dedicated servers or configure complex Kubernetes clusters.
 
-[TA Sarah] Zero server maintenance required!
+[TA Sarah] It transforms standard office tools into an autonomous, intelligent operations hub!
 
 ### 🇰🇷 Korean Teaching Guide (강의 가이드)
 - **강의 요약:** Google Workspace 연동 파이프라인: Webhook, Workspace API, 감사 확인 3단계
@@ -724,14 +752,16 @@
 ## Slide 26: REAL-WORLD CASE STUDY
 **Subtitle:** Daily automated financial intelligence report delivered at 6:30 AM
 
-### 🎙️ English Lecture Script (100% UI-Synced Duo Dialogue)
-[TA Sarah] Slide 26 presents a "REAL-WORLD CASE STUDY: Executive Inbox Triage."
+### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
+[TA Sarah] Slide 26 presents a compelling "REAL-WORLD CASE STUDY: Executive Inbox Triage."
 
-[Prof. Peter] On the left card tagged "BEFORE": "Manual Triage." 2.5 hours every morning sorting 150 emails, creating task lists, and chasing attachments.
+[Prof. Peter] Look at the left card tagged "BEFORE": "Manual Triage." An executive spends 2.5 hours every single morning manually opening 150 emails, sorting spam, downloading attachments, and drafting routine confirmations.
 
-[TA Sarah] On the right card tagged "AFTER": "Avatar Automation." The agent categorizes emails at 4 AM, drafts responses, and prepares an executive 1-page briefing before breakfast!
+[TA Sarah] Now look at the right card tagged "AFTER": "Avatar Automation." The personal avatar executes at 4 AM, categorizes all 150 emails, drafts polite replies for approval, extracts urgent action items, and places a 1-page briefing doc on Google Drive!
 
-[Prof. Peter] That is 15 reclaimed hours every single week for strategic leadership.
+[Prof. Peter] When the executive arrives at their desk at 8 AM, they review the entire briefing in just 10 minutes. That reclaims over 15 hours of high-value leadership time every single week.
+
+[TA Sarah] That is the tangible, real-world ROI of building agentic workflows.
 
 ### 🇰🇷 Korean Teaching Guide (강의 가이드)
 - **강의 요약:** 실제 사례 연구: 매일 아침 6시 30분에 자동 생성되는 금융 인텔리전스 보고서
@@ -750,14 +780,16 @@
 ## Slide 27: THE SECURITY MATRIX: PROTECTING THE DIGITAL VAULT
 **Subtitle:** Agentic cybersecurity, prompt injection defense, and financial spend boundaries
 
-### 🎙️ English Lecture Script (100% UI-Synced Duo Dialogue)
-[Prof. Peter] Slide 27 marks our fourth Part Divider: "THE SECURITY MATRIX: PROTECTING THE DIGITAL VAULT."
+### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
+[Prof. Peter] Slide 27 introduces Part 4: "THE SECURITY MATRIX: PROTECTING THE DIGITAL VAULT."
 
 [TA Sarah] Subtitle: "Establishing robust guardrails, cryptographic audits, and defense-in-depth."
 
-[Prof. Peter] Autonomy without security is catastrophic. We must ensure our agents operate inside a fortified sandbox.
+[Prof. Peter] As Intelligence Architects, we must understand that autonomy without security is catastrophic. Giving an AI agent access to file systems and APIs requires rigorous defensive engineering.
 
-[TA Sarah] Let's enter the Security Matrix!
+[TA Sarah] In this section, we examine financial risks, prompt injection defenses, and cryptographic audit trails to ensure our avatars remain 100% secure.
+
+[Prof. Peter] Let us enter the Security Matrix and fortify our systems!
 
 ### 🇰🇷 Korean Teaching Guide (강의 가이드)
 - **강의 요약:** 보안 매트릭스 섹션 전환: 프롬프트 인젝션 방어, 금융 결제 통제, 다중 방어선 구축
@@ -776,14 +808,14 @@
 ## Slide 28: FINANCIAL RISK: UNCONTROLLED WALLET
 **Subtitle:** Preventing runaway API spend and autonomous checkout disasters
 
-### 🎙️ English Lecture Script (100% UI-Synced Duo Dialogue)
+### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
 [TA Sarah] Slide 28 warns about "FINANCIAL RISK: UNCONTROLLED WALLET."
 
-[Prof. Peter] On the left card tagged "VULNERABILITY": "Unbounded API Spending." An infinite retry loop or malicious prompt draining API credits overnight.
+[Prof. Peter] Look at the left card tagged "VULNERABILITY": "Unbounded API Spending." If an autonomous agent encounters an infinite retry loop or processes a malicious prompt, it could make thousands of recursive API calls and drain thousands of dollars in cloud credits overnight.
 
-[TA Sarah] On the right card tagged "DEFENSE": "Hard Spending Caps & Token Quotas." Enforcing per-task dollar limits and strict timeout thresholds.
+[TA Sarah] Look at the right card tagged "DEFENSE": "Hard Spending Caps & Token Quotas." We must enforce strict per-task budget limits, maximum token thresholds, and automated circuit breakers that immediately halt execution if spending limits are reached.
 
-[Prof. Peter] Never deploy an agent without hard financial fences.
+[Prof. Peter] Never deploy an autonomous agent into production without hard, non-bypassable financial fences. Security begins with budget control.
 
 ### 🇰🇷 Korean Teaching Guide (강의 가이드)
 - **강의 요약:** 재무적 위험 통제: 무한 루프 과금 방지 및 결제 안전 한도 설정
@@ -802,16 +834,16 @@
 ## Slide 29: AP2: AGENT PAYMENTS PROTOCOL
 **Subtitle:** The emerging standard for secure, autonomous machine-to-machine commerce
 
-### 🎙️ English Lecture Script (100% UI-Synced Duo Dialogue)
-[Prof. Peter] Slide 29 outlines "AP2: AGENT PAYMENTS PROTOCOL" across three cards.
+### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
+[Prof. Peter] Slide 29 outlines "AP2: AGENT PAYMENTS PROTOCOL" across three structured cards.
 
-[TA Sarah] Card 1 is "1. DUAL AUTHORIZATION": Requiring human confirmation for transactions exceeding safety limits.
+[TA Sarah] Card 1 is "1. DUAL AUTHORIZATION": Requiring explicit human approval for any financial transaction or data transfer exceeding predefined dollar thresholds.
 
-[Prof. Peter] Card 2 is "2. EPHEMERAL TOKENS": Single-use cryptographic tokens with precise expiration windows.
+[Prof. Peter] Card 2 is "2. EPHEMERAL TOKENS": Using single-use, cryptographically signed tokens with strict 5-minute expiration windows for tool authentication.
 
-[TA Sarah] And Card 3 is "3. AUDIT LOGGING": Immutable ledger recording every single transaction hash.
+[TA Sarah] And Card 3 is "3. AUDIT LOGGING": Maintaining an immutable, append-only ledger that records every transaction hash and reasoning trace.
 
-[Prof. Peter] Secure commerce is the backbone of trusted agentic IT.
+[Prof. Peter] Cryptographic protocols ensure that autonomous commerce and agentic operations remain verifiable, auditable, and secure.
 
 ### 🇰🇷 Korean Teaching Guide (강의 가이드)
 - **강의 요약:** AP2(에이전트 결제 프로토콜): 안전한 기계 간 자율 결제의 3대 표준
@@ -830,16 +862,16 @@
 ## Slide 30: THE DIGITAL MANDATE
 **Subtitle:** Balancing technological sovereignty with moral responsibility
 
-### 🎙️ English Lecture Script (100% UI-Synced Duo Dialogue)
+### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
 [Prof. Peter] Slide 30 declares "THE DIGITAL MANDATE: Soli Deo Gloria in Systems Engineering."
 
-[TA Sarah] Point 1: Absolute Data Integrity—never generating deceptive or unverified claims.
+[TA Sarah] Look at the three foundational commitments on the screen. Point 1 is Absolute Data Integrity: We commit to building agents that never generate deceptive, hallucinated, or unverified claims.
 
-[Prof. Peter] Point 2: Uncompromising Privacy—protecting user credentials and sensitive enterprise data.
+[Prof. Peter] Point 2 is Uncompromising Privacy: We rigorously protect user credentials, confidential enterprise data, and personal privacy across all agent pipelines.
 
-[TA Sarah] Point 3: Humble Stewardship—using technological leverage to uplift human communities.
+[TA Sarah] And Point 3 is Humble Stewardship: We use our technological knowledge not for selfish vanity or destructive disruption, but to uplift human communities and glorify God.
 
-[Prof. Peter] Engineering excellence is a moral commitment.
+[Prof. Peter] Engineering excellence is fundamentally a moral and ethical commitment. That is the Oikos standard.
 
 ### 🇰🇷 Korean Teaching Guide (강의 가이드)
 - **강의 요약:** 디지털 사명(The Digital Mandate): 기술적 주권, 시스템 진실성, 공동체 섬김
@@ -858,14 +890,14 @@
 ## Slide 31: PART 4: WISDOM SYNTHESIS: SOLI DEO GLORIA
 **Subtitle:** Human-on-the-Loop governance, swarm orchestration, and lifelong focus
 
-### 🎙️ English Lecture Script (100% UI-Synced Duo Dialogue)
-[TA Sarah] Slide 31 is our final Part Divider: "PART 4: WISDOM SYNTHESIS: SOLI DEO GLORIA."
+### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
+[TA Sarah] Slide 31 brings us to our final synthesis: "PART 4: WISDOM SYNTHESIS: SOLI DEO GLORIA."
 
 [Prof. Peter] Subtitle: "Harmonizing cutting-edge agent swarms with human wisdom and life balance."
 
-[TA Sarah] In this concluding section, we review swarm orchestration, human-on-the-loop oversight, and reclaiming offline focus.
+[TA Sarah] In these final slides, we integrate everything we have learned—combining multi-agent swarms, human-on-the-loop oversight, and reclaiming offline life focus.
 
-[Prof. Peter] Let's step into Wisdom Synthesis!
+[Prof. Peter] Let us click "Entering Next Phase" and synthesize the ultimate wisdom of the Intelligence Architect!
 
 ### 🇰🇷 Korean Teaching Guide (강의 가이드)
 - **강의 요약:** Part 4 섹션 전환: 지혜의 종합 (Soli Deo Gloria) 및 인간 감독 체계
@@ -884,14 +916,14 @@
 ## Slide 32: THREAT: PROMPT INJECTION
 **Subtitle:** How malicious untrusted data attacks LLM instruction pipelines
 
-### 🎙️ English Lecture Script (100% UI-Synced Duo Dialogue)
-[Prof. Peter] Slide 32 diagrams the critical threat: "THREAT: PROMPT INJECTION."
+### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
+[Prof. Peter] Slide 32 diagrams the critical threat of "PROMPT INJECTION."
 
-[TA Sarah] On the left card tagged "ATTACK VECTOR": "Indirect Prompt Injection." Hidden instructions inside untrusted web pages or emails attempting to hijack the agent.
+[TA Sarah] On the left card tagged "ATTACK VECTOR": "Indirect Prompt Injection." An adversary embeds hidden malicious instructions inside a public webpage or email body, attempting to hijack your avatar's reasoning loop.
 
-[Prof. Peter] On the right card tagged "SHIELD": "Strict Input Sanitization." Treating all external content as untrusted data, isolating system prompts in secure delimiters.
+[Prof. Peter] On the right card tagged "SHIELD": "Strict Input Sanitization." We treat all external data as untrusted input, wrapping untrusted text inside secure XML delimiters and preventing external content from overriding system instructions.
 
-[TA Sarah] Always sanitize external inputs before passing them to the reasoning brain!
+[TA Sarah] Always separate data channels from instruction channels in your agent prompt engineering!
 
 ### 🇰🇷 Korean Teaching Guide (강의 가이드)
 - **강의 요약:** 간접 프롬프트 인젝션 위협과 이중 LLM 격리 방어 기법
@@ -910,14 +942,14 @@
 ## Slide 33: CRYPTOGRAPHIC AUDIT TRAIL
 **Subtitle:** Immutable hash-chained logging for every autonomous agent action
 
-### 🎙️ English Lecture Script (100% UI-Synced Duo Dialogue)
+### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
 [TA Sarah] Slide 33 details the "CRYPTOGRAPHIC AUDIT TRAIL."
 
-[Prof. Peter] Look at the step-by-step verification flow: Action Request -> Signature Verification -> Sandboxed Execution -> Immutable Log Append.
+[Prof. Peter] Look at the 4-step verification pipeline: Action Request -> Signature Verification -> Sandboxed Execution -> Immutable Log Append.
 
-[TA Sarah] Every decision made by your avatar is traceable, reproducible, and verifiable.
+[TA Sarah] Every decision made by your avatar is signed with private cryptographic keys, executed in an isolated sandbox, and recorded to an immutable log.
 
-[Prof. Peter] Transparency builds institutional trust.
+[Prof. Peter] If an anomaly occurs, you can replay the exact reasoning trace step by step. Transparency creates institutional accountability and trust.
 
 ### 🇰🇷 Korean Teaching Guide (강의 가이드)
 - **강의 요약:** 암호화 감사 추적: SHA-256 해시 체인 기반의 위변조 방지 불변 로그
@@ -936,14 +968,14 @@
 ## Slide 34: SHADOW IT & ENTERPRISE COMPLIANCE
 **Subtitle:** Moving from rogue unvetted scripts to governed agent platforms
 
-### 🎙️ English Lecture Script (100% UI-Synced Duo Dialogue)
-[Prof. Peter] Slide 34 tackles "SHADOW IT & ENTERPRISE COMPLIANCE."
+### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
+[Prof. Peter] Slide 34 addresses "SHADOW IT & ENTERPRISE COMPLIANCE."
 
-[TA Sarah] On the left card tagged "RISK": "Unsanctioned Copy-Pasting." Employees pasting proprietary code into unvetted public chatbots.
+[TA Sarah] On the left card tagged "RISK": "Unsanctioned Copy-Pasting." Untrained employees pasting proprietary source code and confidential customer data into unvetted public AI chatbots.
 
-[Prof. Peter] On the right card tagged "ENTERPRISE STANDARD": "Governed Private Hub." Centralized agent directory with Single Sign-On and Role-Based Access Control.
+[Prof. Peter] On the right card tagged "ENTERPRISE STANDARD": "Governed Private Hub." Providing a centralized, enterprise-governed agent directory with Single Sign-On, Role-Based Access Control, and strict data residency.
 
-[TA Sarah] Enterprise agents must comply with strict governance standards.
+[TA Sarah] Solve Shadow IT by providing employees with superior, secure internal avatar tooling!
 
 ### 🇰🇷 Korean Teaching Guide (강의 가이드)
 - **강의 요약:** 섀도우 IT의 위험성과 엔터프라이즈 거버넌스 플랫폼 구축
@@ -962,16 +994,16 @@
 ## Slide 35: BALANCING AUTONOMY AND CONTROL
 **Subtitle:** The 3 tier governance spectrum for agent operations
 
-### 🎙️ English Lecture Script (100% UI-Synced Duo Dialogue)
-[TA Sarah] Slide 35 illustrates "BALANCING AUTONOMY AND CONTROL" across three distinct tiers.
+### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
+[TA Sarah] Slide 35 illustrates "BALANCING AUTONOMY AND CONTROL" across our 3-tier governance matrix.
 
-[Prof. Peter] Look at Card 1: "TIER 1: FULL AUTONOMY." Low-risk tasks like summarizing documents and sorting inbox folders.
+[Prof. Peter] Look at Card 1: "TIER 1: FULL AUTONOMY." Low-risk, reversible tasks like summarizing documents, tagging emails, and organizing folders run with 100% autonomy.
 
-[TA Sarah] Look at Card 2: "TIER 2: NOTIFY & LOG." Medium-risk tasks like drafting client emails and updating internal records.
+[TA Sarah] Look at Card 2: "TIER 2: NOTIFY & LOG." Medium-risk tasks like drafting client emails or creating calendar invites execute automatically but notify the user with an undo option.
 
-[Prof. Peter] And look at Card 3: "TIER 3: STRICT HUMAN APPROVAL." High-risk actions like financial payments, database migrations, and public announcements.
+[Prof. Peter] And look at Card 3: "TIER 3: STRICT HUMAN APPROVAL." High-risk actions like financial transactions, database deletions, or code deployments require explicit human cryptographic sign-off.
 
-[TA Sarah] This 3-tier matrix prevents catastrophic runaway errors!
+[TA Sarah] This 3-tier matrix eliminates catastrophic risks while preserving massive operational speed!
 
 ### 🇰🇷 Korean Teaching Guide (강의 가이드)
 - **강의 요약:** 자율성과 통제의 균형: 3단계 에이전트 거버넌스 스펙트럼
@@ -990,14 +1022,14 @@
 ## Slide 36: DEFENSE IN DEPTH FOR AGENTS
 **Subtitle:** Multi-layered fortress safeguarding model, data, and execution layers
 
-### 🎙️ English Lecture Script (100% UI-Synced Duo Dialogue)
+### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
 [Prof. Peter] Slide 36 diagrams "DEFENSE IN DEPTH FOR AGENTS."
 
-[TA Sarah] Look at the three security concentric layers: Layer 1 Input Sanitization, Layer 2 Runtime Sandboxing, and Layer 3 Egress Filtering.
+[TA Sarah] Look at the three concentric security rings: Ring 1 is Input Sanitization at the boundary; Ring 2 is Runtime Sandboxing during execution; and Ring 3 is Egress Filtering on network calls.
 
-[Prof. Peter] Even if an adversary bypasses Layer 1, the sandbox and egress filters prevent data exfiltration.
+[Prof. Peter] Even if a sophisticated attacker manages to bypass Ring 1, the sandboxed environment prevents system takeover, and egress filtering blocks unauthorized data leaks.
 
-[TA Sarah] Multi-layered defense guarantees enterprise safety.
+[TA Sarah] Layered defense ensures that your personal avatar remains an unbreachable digital fortress!
 
 ### 🇰🇷 Korean Teaching Guide (강의 가이드)
 - **강의 요약:** 에이전트 다층 심층 방어(Defense in Depth): 입력 살균, 런타임 샌드박스, 네트워크 통제
@@ -1016,16 +1048,16 @@
 ## Slide 37: THE SOVEREIGN CONDUCTOR: ORCHESTRATING SWARMS
 **Subtitle:** How master architects direct specialized multi-agent teams
 
-### 🎙️ English Lecture Script (100% UI-Synced Duo Dialogue)
+### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
 [TA Sarah] Slide 37 portrays "THE SOVEREIGN CONDUCTOR: ORCHESTRATING SWARMS."
 
-[Prof. Peter] Card 1 is the "RESEARCH AGENT": Gathers facts, parses PDFs, and verifies citations.
+[Prof. Peter] Look at Card 1: The "RESEARCH AGENT" searches documentation, parses PDFs, and verifies factual citations.
 
-[TA Sarah] Card 2 is the "BUILDER AGENT": Writes clean code, formats slides, and builds datasets.
+[TA Sarah] Look at Card 2: The "BUILDER AGENT" translates verified research into clean code, structured spreadsheets, and formatted slides.
 
-[Prof. Peter] Card 3 is the "CRITIC AGENT": Reviews output against standards and flags errors.
+[Prof. Peter] And look at Card 3: The "CRITIC AGENT" rigorously checks the builder's output against quality benchmarks, flagging syntax bugs or formatting discrepancies.
 
-[TA Sarah] You act as the Sovereign Conductor orchestrating this entire symphony!
+[TA Sarah] You do not need to micro-manage each step; you act as the Sovereign Conductor orchestrating this entire multi-agent symphony!
 
 ### 🇰🇷 Korean Teaching Guide (강의 가이드)
 - **강의 요약:** 총괄 지휘관(The Sovereign Conductor): 연구, 빌더, 비평가 3대 전문 에이전트 스웜 조율
@@ -1045,14 +1077,14 @@
 ## Slide 38: HUMAN-ON-THE-LOOP (HOTL)
 **Subtitle:** The definitive governance paradigm: From micromanagement to supervisory oversight
 
-### 🎙️ English Lecture Script (100% UI-Synced Duo Dialogue)
-[Prof. Peter] Slide 38 clarifies "HUMAN-ON-THE-LOOP (HOTL)."
+### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
+[Prof. Peter] Slide 38 clarifies the vital distinction in "HUMAN-ON-THE-LOOP (HOTL)."
 
-[TA Sarah] On the left card tagged "OLD MODEL": "Human-IN-the-Loop." The human is a bottleneck, manually approving every single trivial step.
+[TA Sarah] On the left card tagged "OLD MODEL": "Human-IN-the-Loop." The human is a painful operational bottleneck, forced to manually click 'Approve' on every trivial step, limiting scale.
 
-[Prof. Peter] On the right card tagged "NEW MODEL": "Human-ON-the-Loop." The agent executes autonomously while the human monitors high-level telemetry and handles exceptions.
+[Prof. Peter] On the right card tagged "NEW MODEL": "Human-ON-the-Loop." The agent swarm executes autonomously at scale while the human supervises high-level telemetry, setting policy goals and handling exceptions.
 
-[TA Sarah] This achieves infinite scalability while preserving human accountability!
+[TA Sarah] Human-on-the-loop oversight gives you infinite operational leverage while maintaining 100% human ethical accountability and control!
 
 ### 🇰🇷 Korean Teaching Guide (강의 가이드)
 - **강의 요약:** 휴먼-인-더-루프(미세 통제) vs 휴먼-온-더-루프(전략적 감독)의 비교
@@ -1071,16 +1103,16 @@
 ## Slide 39: RECLAIMING OFFLINE FOCUS
 **Subtitle:** The ultimate fruit of agentic mastery: Protecting the human soul and family life
 
-### 🎙️ English Lecture Script (100% UI-Synced Duo Dialogue)
-[TA Sarah] Slide 39 inspires us with "RECLAIMING OFFLINE FOCUS."
+### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
+[TA Sarah] Slide 39 provides deep inspiration for "RECLAIMING OFFLINE FOCUS."
 
-[Prof. Peter] Card 1 is "1. THE DIGITAL SABBATH": Setting dedicated days completely unplugged from digital devices.
+[Prof. Peter] Look at Card 1: "1. THE DIGITAL SABBATH." Setting aside dedicated days every week completely disconnected from glowing screens and digital notifications.
 
-[TA Sarah] Card 2 is "2. DEEP INTELLECTUAL WORK": Channeling saved hours into deep writing, research, and creative synthesis.
+[TA Sarah] Look at Card 2: "2. DEEP INTELLECTUAL WORK." Investing reclaimed hours into deep reading, original writing, and strategic synthesis that AI cannot replicate.
 
-[Prof. Peter] Card 3 is "3. FAMILY & FAITH": Investing presence in family meals, prayer, and community fellowship.
+[Prof. Peter] And look at Card 3: "3. FAMILY & COMMUNITY." Being fully present for family dinners, mentoring students, prayer, and serving your local community.
 
-[TA Sarah] Soli Deo Gloria: Using technology to enrich real human life!
+[TA Sarah] Soli Deo Gloria: Using automation not to live in virtual reality, but to enrich real human life, faith, and relationships!
 
 ### 🇰🇷 Korean Teaching Guide (강의 가이드)
 - **강의 요약:** 오프라인 집중력의 회복과 기술 구속의 궁극적 열매
@@ -1099,16 +1131,16 @@
 ## Slide 40: 🛠️ HANDS-ON LAB 1 & CONCLUSION
 **Subtitle:** Deploy your first 24/7 background avatar using Gemini 3.5 & Google Apps Script
 
-### 🎙️ English Lecture Script (100% UI-Synced Duo Dialogue)
+### 🎙️ English Lecture Script (Full 60-Min Duo Dialogue)
 [Prof. Peter] Here we are at Slide 40: "🛠️ HANDS-ON LAB 1 & CONCLUSION."
 
-[TA Sarah] Look at the three practical lab steps on the screen: Step 1 Setup Spark OS Directory, Step 2 Deploy Gemini Flash Reasoning Pipeline, Step 3 Execute your First Asynchronous Workflow!
+[TA Sarah] Look at our three practical lab steps: In Lab Step 1, you will initialize your local Spark OS directory structure; in Lab Step 2, you will deploy the Gemini Flash reasoning pipeline; and in Lab Step 3, you will execute your first asynchronous background workflow!
 
-[Prof. Peter] Theory without practice is dead. Complete Lab 1 today to launch your first sleep-free avatar!
+[Prof. Peter] Theory without practice is dead. Complete Hands-On Lab 1 today to deploy your first sleep-free personal avatar.
 
-[TA Sarah] Congratulations on completing Session 1! Professor Kim and I look forward to seeing you in Session 2!
+[TA Sarah] Pair up with your study partner, create your duo video assignments, and test your systems thoroughly. Professor Kim and I look forward to seeing you in Session 2!
 
-[Prof. Peter] Soli Deo Gloria. Thank you, and God bless you all!
+[Prof. Peter] Soli Deo Gloria. Thank you, work diligently, and may God bless you all!
 
 ### 🇰🇷 Korean Teaching Guide (강의 가이드)
 - **강의 요약:** 실습 과제(Lab 1) 안내 및 Session 1 마무리 인사
