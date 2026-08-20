@@ -299,9 +299,10 @@ async def build_slide_video(slide_data, page=None, session_id=1):
     # 5. Render 1080p MP4 Video with Permanent Burned-In Subtitles
     out_video_path = os.path.join(OUTPUT_DIR, f"Session{session_id}_Slide_{slide_num:02d}_DuoLecture.mp4")
     
-    # Format SRT path for FFmpeg subtitles filter on Windows
+    # Format SRT path for FFmpeg subtitles filter on Windows with Paperlogy Font
     clean_srt_path = srt_path.replace("\\", "/").replace(":", "\\:")
-    subtitle_filter = f"subtitles='{clean_srt_path}':force_style='FontSize=15,Fontname=Arial,PrimaryColour=&H00FFFFFF,OutlineColour=&H00000000,BackColour=&H80000000,BorderStyle=4,MarginV=24'"
+    fonts_dir = os.path.expandvars(r"%LOCALAPPDATA%\Microsoft\Windows\Fonts").replace("\\", "/").replace(":", "\\:")
+    subtitle_filter = f"subtitles='{clean_srt_path}':fontsdir='{fonts_dir}':force_style='FontSize=16,Fontname=Paperlogy 6 SemiBold,PrimaryColour=&H00FFFFFF,OutlineColour=&H00000000,BackColour=&H80000000,BorderStyle=4,MarginV=26'"
     
     cmd_encode = [
         FFMPEG_EXE, "-y",
