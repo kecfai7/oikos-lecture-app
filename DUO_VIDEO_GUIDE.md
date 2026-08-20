@@ -5,9 +5,9 @@ Oikos University **"The Architect of Intelligence"** Session 1의 **남녀 2인 
 ---
 
 ## 🎙️ 페르소나 및 음성 사양
-| 역할 | 인물 | 나이 | Microsoft Neural Voice | 특성 |
+| 역할 | 인물 | 나이 | 음성 엔진 & 음색 변조 기술 | 특성 |
 | :--- | :--- | :--- | :--- | :--- |
-| **Lead Instructor** | **Prof. Peter Kim** | 54세 | `en-US-ChristopherNeural` | 중후하고 신뢰감 있는 석학 교수 톤 (Rate -2%, Pitch -2Hz) |
+| **Lead Instructor** | **Prof. Peter Kim** | 54세 | **RVC-style Voice Morphing Engine**<br>(`files_cleaned/clean_*.wav` 교수님 실제 육성 프로필 적용) | 교수님 고유의 중저음 흉성 울림(120Hz)과 마이크 음향 공간감을 실시간 덧입힌 실제 맞춤형 음색 |
 | **Research TA** | **TA Sarah Jenkins** | 31세 | `en-US-JennyNeural` | 지적이고 밝고 생동감 넘치는 스마트 조교 톤 (Rate +3%, Pitch +1Hz) |
 
 ---

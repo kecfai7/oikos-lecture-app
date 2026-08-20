@@ -93,16 +93,30 @@ def parse_dialogue_turns(script_text):
         })
     return turns
 
+from voice_morphing_engine import morph_to_professor_voice
+
 async def generate_turn_audio(turn_idx, turn_data, slide_num):
-    audio_path = os.path.join(AUDIO_DIR, f"slide_{slide_num:02d}_turn_{turn_idx:02d}.mp3")
+    raw_audio_path = os.path.join(AUDIO_DIR, f"slide_{slide_num:02d}_turn_{turn_idx:02d}_raw.mp3")
+    final_audio_path = os.path.join(AUDIO_DIR, f"slide_{slide_num:02d}_turn_{turn_idx:02d}.mp3")
+    
     communicate = edge_tts.Communicate(
         text=turn_data["text"],
         voice=turn_data["voice"],
         rate=turn_data["rate"],
         pitch=turn_data["pitch"]
     )
-    await communicate.save(audio_path)
-    return audio_path
+    await communicate.save(raw_audio_path)
+    
+    # If speaker is Professor Peter Kim, apply RVC-style voice morphing to match authentic voice
+    if "Peter" in turn_data["speaker"]:
+        morph_to_professor_voice(raw_audio_path, final_audio_path)
+    else:
+        # Keep TA Sarah's bright natural tone
+        if os.path.exists(final_audio_path):
+            os.remove(final_audio_path)
+        os.rename(raw_audio_path, final_audio_path)
+        
+    return final_audio_path
 
 def get_audio_duration_ms(audio_path):
     cmd = [FFMPEG_EXE, "-i", audio_path]
