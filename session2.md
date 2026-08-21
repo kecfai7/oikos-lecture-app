@@ -61,9 +61,9 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Welcome back, global students, to Oikos University! I am Professor Peter Kim, Director of the Smart Insight Lab. Today we launch Session 2: "24/7 Sleep-Free Guardian: Gemini Spark Architecture."
+[Prof. Peter] Welcome back, global students, to Oikos University! I am Professor Peter Kim, Director of the Smart Insight Lab. Today we launch Session 2 on Slide 1: "24/7 Sleep-Free Guardian: Gemini Spark Architecture."
 
-[TA Sarah] Hello everyone! I'm Sarah Jenkins, your Senior TA and AI Systems Architect. Professor Kim, James, and I are thrilled to guide you into the deepest layers of persistent cloud intelligence!
+[TA Sarah] Hello everyone! I'm Sarah Jenkins, your Senior TA and AI Systems Architect. Professor Kim and I are thrilled to guide you into the deepest layers of persistent cloud intelligence!
 
 [TA James] And I am James Wilson, your DevOps & Infrastructure TA! If Session 1 taught you why we need to move away from toy chatbots, Session 2 gives you the exact blueprint to deploy an unbreakable 24/7 guardian that lives in the cloud and never sleeps!
 
