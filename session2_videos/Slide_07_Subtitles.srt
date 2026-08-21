@@ -1,0 +1,32 @@
+1
+00:00:01,000 --> 00:00:10,310
+Slide 7 defines "SPARK'S CORE IDENTITY: Your Reliable Digital Twin." Look at the three defining traits on screen.
+
+2
+00:00:11,210 --> 00:00:19,333
+Trait 1: "Contextual Faithfulness." Through our lab's `SOUL.md` protocol, your avatar doesn't talk like a generic robot.
+
+3
+00:00:19,333 --> 00:00:27,390
+It writes with your exact professional tone, cites your preferred technical conventions, and reflects your core values!
+
+4
+00:00:28,290 --> 00:00:38,850
+Trait 2: "Unwavering Vigilance." It doesn't get sleepy at 3:00 AM, it doesn't get distracted by social media, and it never forgets to check a critical server health alert!
+
+5
+00:00:39,750 --> 00:00:46,634
+And Trait 3: "Ethical Stewardship." It operates strictly within AP2 cryptographic spending caps.
+
+6
+00:00:46,634 --> 00:00:51,870
+It will never buy something without permission or expose company secrets!
+
+7
+00:00:52,770 --> 00:01:00,450
+When all three traits are active, you don't just have a software tool—you have a trusted digital twin representing your best self in cyberspace!
+
+8
+00:01:01,350 --> 00:01:08,860
+Faithfulness, Vigilance, and Stewardship: these are the moral marks of genuine intelligence architecture.
+

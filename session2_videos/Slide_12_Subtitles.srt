@@ -1,0 +1,28 @@
+1
+00:00:01,000 --> 00:00:07,240
+Slide 12 marks our second major section: "PART 2: UNDER THE HOOD OF THE ASYNCHRONOUS ENGINE."
+
+2
+00:00:08,140 --> 00:00:13,570
+In Part 1, we saw the transformative power of a 24/7 logistics guardian.
+
+3
+00:00:13,570 --> 00:00:26,240
+Now, as Intelligence Architects, we must look into the engine room: how do we engineer sub-second cognitive speed, green compute sustainability, and unshakeable memory?
+
+4
+00:00:27,140 --> 00:00:38,250
+In Part 2, we tear down the full stack: Gemini 3.5 Flash micro-reasoning, Google TPU v8 silicon clusters, Spark OS folder separation, and 3-tier memory architectures!
+
+5
+00:00:39,150 --> 00:00:49,040
+And we will dissect the three pillars of agentic design: Tasks, Schedules, and Skills, using concrete Pydantic schemas and MCP tool protocols!
+
+6
+00:00:49,940 --> 00:00:57,720
+Plus our second deep-dive case study on how a legal-tech firm processed 400-page SEC compliance filings without hallucinations!
+
+7
+00:00:58,620 --> 00:01:04,020
+Let us begin by examining the computational brain on Slide 13!
+

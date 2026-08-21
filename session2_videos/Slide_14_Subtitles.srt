@@ -1,0 +1,40 @@
+1
+00:00:01,000 --> 00:00:07,260
+Slide 14 explores the hardware muscle: "TPU V8: THE GREEN SUSTAINABLE MUSCLE."
+
+2
+00:00:08,160 --> 00:00:15,710
+When you run 50 background agents 24 hours a day, energy efficiency is a massive cost and ecological factor!
+
+3
+00:00:15,710 --> 00:00:24,239
+Look at Layer 1: Google's TPU v8 uses direct-to-chip liquid cooling, cutting power usage effectiveness (PUE) down to 1.10!
+
+4
+00:00:25,139 --> 00:00:29,651
+Soli Deo Gloria means we are stewards of God's creation.
+
+5
+00:00:29,651 --> 00:00:38,272
+Building high-performance AI that wastes megawatts of dirty electricity violates our core Christian ethics.
+
+6
+00:00:38,272 --> 00:00:42,059
+TPU v8 delivers 3x higher performance-per-watt!
+
+7
+00:00:42,959 --> 00:00:55,629
+Look at Layer 2: "Optical Circuit Switching (OCS)." Instead of converting light to electrical signals and back, OCS routes raw light photons between TPU chips using micro-mirrors!
+
+8
+00:00:56,529 --> 00:00:59,441
+That eliminates inter-chip communication lag!
+
+9
+00:00:59,441 --> 00:01:08,309
+And Layer 3 delivers 4.5 exaflops of tensor power, allowing thousands of multi-agent swarms to run concurrently without queue throttling!
+
+10
+00:01:09,209 --> 00:01:15,329
+True technical excellence is both computationally powerful and ecologically responsible.
+

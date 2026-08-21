@@ -1,0 +1,32 @@
+1
+00:00:01,000 --> 00:00:09,380
+Slide 34 clarifies "HUMAN NOT PRESENT (HNP) TRANSACTIONS: The Next Frontier of Commerce."
+
+2
+00:00:10,280 --> 00:00:22,077
+Look at the left card: 'Human Present (HP).' This is what you do today when shopping online—you sit at the keyboard and manually click 'Pay Now' with 2-factor authentication.
+
+3
+00:00:22,077 --> 00:00:28,180
+But if an agent requires you to click every button, 24/7 background autonomy is destroyed!
+
+4
+00:00:29,080 --> 00:00:40,380
+Look at the right card: 'Human Not Present (HNP).' You set the policy upfront: "If train ticket to Chicago drops below $90, buy seat 12B automatically."
+
+5
+00:00:41,280 --> 00:00:45,740
+The agent monitors ticket price webhooks at 3:00 AM while you sleep.
+
+6
+00:00:45,740 --> 00:00:55,580
+The moment the fare drops to $85, it executes the purchase using an AP2 single-use token and sends you the confirmed ticket before your morning alarm!
+
+7
+00:00:56,480 --> 00:01:03,300
+You wake up, check your morning briefing on your phone, and your travel is booked at the lowest possible price with zero effort!
+
+8
+00:01:04,200 --> 00:01:11,330
+HNP commerce enables true sleep-free productivity while preserving complete financial sovereignty.
+

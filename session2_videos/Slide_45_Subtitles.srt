@@ -1,0 +1,36 @@
+1
+00:00:01,000 --> 00:00:08,940
+Here we are at Slide 45: "🛠️ LAB 2 ASSIGNMENT: Architecting Your Spark OS Blueprint."
+
+2
+00:00:09,840 --> 00:00:22,580
+Look at our three practical lab milestones on screen: Step 1: Initialize your Spark OS repository, configure your `SOUL.md` persona, and run database migrations to create your SQLite tables.
+
+3
+00:00:23,480 --> 00:00:32,670
+Step 2: Deploy the Google Apps Script webhook into your Google Drive, test incoming email extraction, and verify your 3-Layer asynchronous event queue!
+
+4
+00:00:33,570 --> 00:00:48,280
+And Step 3: Schedule your 6:00 AM morning intelligence briefing, run the automated AP2 budget overspend test to confirm the $50 hardcap veto, and submit your verified execution logs to the course portal!
+
+5
+00:00:49,180 --> 00:00:55,160
+James and I will be in the lab all week to support your container setups and debug your webhook routes.
+
+6
+00:00:56,060 --> 00:01:03,570
+Don't wait until the weekend—deploy your local Docker worker tonight and experience the thrill of your first 24/7 sleep-free guardian!
+
+7
+00:01:04,470 --> 00:01:05,864
+Soli Deo Gloria.
+
+8
+00:01:05,864 --> 00:01:15,100
+Thank you for your dedication, work diligently, and may God bless your studies as Intelligence Architects!
+
+9
+00:01:15,100 --> 00:01:16,930
+See you in Session 3!
+

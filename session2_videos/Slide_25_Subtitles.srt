@@ -1,0 +1,36 @@
+1
+00:00:01,000 --> 00:00:09,950
+Slide 25 breaks down "GMAIL PARSING & CONTEXT EXTRACTION." James, what is the biggest technical problem with raw emails?
+
+2
+00:00:10,850 --> 00:00:14,158
+Raw emails are disgusting HTML garbage, Sarah!
+
+3
+00:00:14,158 --> 00:00:23,578
+A single 2-line message often contains 40 lines of tracking pixels, CSS style blocks, nested disclaimers, and 15 forwarded replies!
+
+4
+00:00:23,578 --> 00:00:29,620
+If you feed that raw HTML to an LLM, you waste 85% of your tokens on marketing junk!
+
+5
+00:00:30,520 --> 00:00:40,840
+Look at Step 1 on screen: our ingestion engine strips HTML tags, cleans signature disclaimers, and de-duplicates nested thread replies into clean markdown.
+
+6
+00:00:41,740 --> 00:00:50,620
+Step 2: Gemini Flash classifies the message into Priority P1 urgent down to P4 low, extracting explicit action deadlines and dollar amounts.
+
+7
+00:00:51,520 --> 00:01:00,590
+And Step 3: For every actionable email, the avatar drafts a polite, contextually perfect response directly in your Gmail Drafts folder!
+
+8
+00:01:01,490 --> 00:01:10,660
+You open your inbox in the morning, review 10 pre-staged drafts, click Send on nine of them, tweak one sentence, and clear your entire inbox in 90 seconds!
+
+9
+00:01:11,560 --> 00:01:18,740
+Email triage shifts from an exhausting writing marathon into a rapid 90-second executive sign-off.
+

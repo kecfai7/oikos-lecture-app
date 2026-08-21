@@ -1,0 +1,40 @@
+1
+00:00:01,000 --> 00:00:06,020
+Slide 9 analyzes the profound data: "RECLAIMING THE CREATIVE HORIZON."
+
+2
+00:00:06,920 --> 00:00:19,557
+Look at the left card: "The Reaction Treadmill." Research shows the average knowledge worker is interrupted 150 times a day by notifications, emails, and pings.
+
+3
+00:00:19,557 --> 00:00:24,060
+The average unbroken focus block is less than 20 minutes!
+
+4
+00:00:24,960 --> 00:00:26,160
+Twenty minutes!
+
+5
+00:00:26,160 --> 00:00:30,300
+You can't even design a proper database schema in 20 minutes!
+
+6
+00:00:30,300 --> 00:00:36,500
+That's why software today is so fragile and full of bugs—engineers are permanently distracted!
+
+7
+00:00:37,400 --> 00:00:46,024
+But look at the right card: "The Strategic Horizon." When Spark OS absorbs the noise, you unlock unbroken 4-hour Deep Work blocks!
+
+8
+00:00:46,024 --> 00:00:54,250
+You wake up, review your 3-minute morning briefing, make five strategic approvals, and dive straight into deep architecture!
+
+9
+00:00:55,150 --> 00:01:02,090
+And your mental calm is 100% restored because you know your background sentinels are guarding the perimeter while you build!
+
+10
+00:01:02,990 --> 00:01:07,790
+That is how order replaces chaos under Soli Deo Gloria.
+

@@ -1,0 +1,32 @@
+1
+00:00:01,000 --> 00:00:09,930
+Slide 18 dives into "PILLAR 1: THE TASK FRAMEWORK & PYDANTIC SCHEMAS." James, why do we reject raw prompt strings?
+
+2
+00:00:10,830 --> 00:00:16,506
+Because passing raw text strings into an autonomous system is asking for a production disaster!
+
+3
+00:00:16,506 --> 00:00:23,140
+If someone sends a malformed prompt or an unvalidated dictionary, your worker crashes midway through execution!
+
+4
+00:00:24,040 --> 00:00:40,020
+Look at our 3-stage validation pipeline on screen: First, the task definition enforces mandatory Pydantic fields—`task_id`, `priority` (P1 to P4), `target_scope`, `timeout_seconds`, and `retry_limit`.
+
+5
+00:00:40,920 --> 00:00:46,064
+Second, the Runtime Invariant Enforcer validates the payload in 2 milliseconds.
+
+6
+00:00:46,064 --> 00:00:52,250
+If a required parameter is missing or out of range, it rejects the job before touching the LLM!
+
+7
+00:00:53,150 --> 00:01:00,350
+And third, the validated task is committed to the SQLite queue with status 'PENDING' and a cryptographic timestamp!
+
+8
+00:01:01,250 --> 00:01:09,430
+Strict type validation turns probabilistic neural prompts into deterministic, bulletproof enterprise operations.
+

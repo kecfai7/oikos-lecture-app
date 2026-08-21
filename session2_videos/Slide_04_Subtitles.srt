@@ -1,0 +1,52 @@
+1
+00:00:01,000 --> 00:00:11,390
+Slide 4 defines "PERSISTENT CLOUD AUTONOMY: The Three Invariants of Sleep-Free Systems." James, let's break down why each of these three cards is mandatory.
+
+2
+00:00:12,290 --> 00:00:14,257
+Card 1: Headless Execution.
+
+3
+00:00:14,257 --> 00:00:17,973
+A lot of people think an AI needs a browser window.
+
+4
+00:00:17,973 --> 00:00:26,500
+In Spark OS, our daemon runs headlessly in Python, consuming less than 120MB of RAM—lighter than a single Chrome tab!
+
+5
+00:00:27,400 --> 00:00:29,928
+Card 2: Atomic State Checkpoints.
+
+6
+00:00:29,928 --> 00:00:31,460
+This is my favorite!
+
+7
+00:00:31,460 --> 00:00:40,808
+After every single tool call—whether querying a database or drafting an email—the agent commits its exact state to SQLite.
+
+8
+00:00:40,808 --> 00:00:46,020
+Even if the underlying VM suffers a kernel panic, zero data is lost!
+
+9
+00:00:46,920 --> 00:00:48,969
+And Card 3: Proactive Sensing!
+
+10
+00:00:48,969 --> 00:00:54,093
+A traditional chatbot is completely deaf and blind until you type a prompt.
+
+11
+00:00:54,093 --> 00:01:01,610
+Our Spark guardian actively listens to Gmail webhooks, Calendar reminders, and database events 24 hours a day!
+
+12
+00:01:02,510 --> 00:01:10,650
+So when an urgent customer email hits the server at 3:15 AM, the agent senses it instantly and begins triage immediately!
+
+13
+00:01:11,550 --> 00:01:21,340
+When Headless Execution, Atomic Checkpoints, and Proactive Sensing unite, your agent becomes a living, vigilant sentry in cyberspace.
+

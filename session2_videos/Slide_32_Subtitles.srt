@@ -1,0 +1,48 @@
+1
+00:00:01,000 --> 00:00:13,580
+Slide 32 diagrams "AP2: THE AGENT PAYMENTS PROTOCOL: The 4-Step Cryptographic Handshake." Sarah, James, walk us through the handshake.
+
+2
+00:00:14,480 --> 00:00:16,908
+Step 1: Intent Authorization.
+
+3
+00:00:16,908 --> 00:00:26,960
+The human architect defines the intent upfront—"Book Amtrak train to Boston, maximum budget $120, before 6:00 PM today."
+
+4
+00:00:27,860 --> 00:00:30,487
+Step 2: Ed25519 Mandate Generation.
+
+5
+00:00:30,487 --> 00:00:40,320
+The local AP2 Kernel signs a cryptographic mandate binding the domain `amtrak.com` and the hard $120 ceiling with your private key.
+
+6
+00:00:41,220 --> 00:00:43,529
+Step 3: Merchant Verification.
+
+7
+00:00:43,529 --> 00:00:50,148
+Amtrak's checkout gateway verifies the mathematical signature against your public key.
+
+8
+00:00:50,148 --> 00:00:57,230
+If Amtrak tries to charge $120.01, the math fails and the transaction is rejected instantly!
+
+9
+00:00:58,130 --> 00:01:00,793
+And Step 4: Settlement & Token Burning!
+
+10
+00:01:00,793 --> 00:01:09,670
+Once settled, the token is permanently destroyed in memory so it can never be reused, and a SHA-256 receipt is recorded to SQLite!
+
+11
+00:01:10,570 --> 00:01:15,390
+Single-use, mathematically verified, zero overdraft risk!
+
+12
+00:01:16,290 --> 00:01:23,710
+This four-step handshake gives agents financial autonomy while guaranteeing absolute mathematical safety.
+

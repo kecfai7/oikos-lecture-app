@@ -1,0 +1,40 @@
+1
+00:00:01,000 --> 00:00:12,590
+Slide 21 provides our "OPERATIONAL PREREQUISITES CHECKLIST: Before You Launch." James, Sarah, what are the three non-negotiable launch gates?
+
+2
+00:00:13,490 --> 00:00:15,422
+Gate 1: Environment Secrets!
+
+3
+00:00:15,422 --> 00:00:22,531
+If I see a student hardcoding an API key into a Python file, I will fail their code review immediately!
+
+4
+00:00:22,531 --> 00:00:29,090
+All secrets must live in `.env`, excluded in `.gitignore`, and guarded by git pre-commit hooks!
+
+5
+00:00:29,990 --> 00:00:32,135
+Gate 2: Database Migration.
+
+6
+00:00:32,135 --> 00:00:45,090
+Ensure your SQLite relational tables for `tasks`, `memory_embeddings`, `audit_logs`, and `ap2_mandates` are initialized and indexed before running background jobs!
+
+7
+00:00:45,990 --> 00:00:48,116
+And Gate 3: AP2 Spending Caps!
+
+8
+00:00:48,116 --> 00:00:57,970
+Never connect a payment tool without setting hard limits—like a maximum of $50 per transaction and $200 per day—locked at the kernel level!
+
+9
+00:00:58,870 --> 00:01:05,520
+When all three gates are verified green, your system is hardened against 99% of production accidents!
+
+10
+00:01:06,420 --> 00:01:12,350
+Now let us examine our second major enterprise case study on Slide 22!
+

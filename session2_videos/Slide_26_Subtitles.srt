@@ -1,0 +1,36 @@
+1
+00:00:01,000 --> 00:00:11,080
+Slide 26 reveals "DOCUMENT SYNTHESIS: THE AUTO-DOCS ENGINE." Sarah, describe the old Friday afternoon nightmare.
+
+2
+00:00:11,980 --> 00:00:25,300
+Every Friday afternoon at 4:00 PM, project managers spend four agonizing hours re-listening to Zoom meeting recordings, typing bullet points, copying tables from spreadsheets, and fixing document font alignments!
+
+3
+00:00:26,200 --> 00:00:29,628
+It is the most dreaded chore in corporate America!
+
+4
+00:00:29,628 --> 00:00:33,400
+But look at the right card: "SPARK AUTO-DOCS PIPELINE."
+
+5
+00:00:34,300 --> 00:00:38,158
+The instant a meeting ends, the audio transcript is ingested.
+
+6
+00:00:38,158 --> 00:00:50,240
+The avatar extracts every agreed decision, assigns explicit action items to individual owners with deadlines, pulls live financial tables from Google Sheets, and writes a polished Google Doc!
+
+7
+00:00:51,140 --> 00:01:00,360
+And it formats headings with executive typography, creates styled tables, and drops the document straight into the team's shared Google Drive folder in 30 seconds flat!
+
+8
+00:01:01,260 --> 00:01:08,960
+You finish your meeting, grab a glass of water, and your complete executive briefing document is already published and waiting for you!
+
+9
+00:01:09,860 --> 00:01:16,990
+Eliminating four hours of mechanical document formatting restores creative energy for actual leadership.
+

@@ -1,0 +1,52 @@
+1
+00:00:01,000 --> 00:00:11,100
+Slide 5 illustrates "THE CONCEPT OF ASYNC EXECUTION." Sarah, trace the journey of a task through this 3-layer pipeline.
+
+2
+00:00:12,000 --> 00:00:14,709
+Step 1 on screen: The Submit Layer.
+
+3
+00:00:14,709 --> 00:00:29,880
+You or a cron scheduler post an objective—for example, "Analyze all 50 vendor invoices received today." In just 12 milliseconds, the gateway returns an HTTP 202 Accepted response with a Task UUID.
+
+4
+00:00:30,780 --> 00:00:33,342
+That 12-millisecond response is magic!
+
+5
+00:00:33,342 --> 00:00:40,489
+In the old synchronous world, your terminal would freeze for 5 minutes while the LLM processed everything.
+
+6
+00:00:40,489 --> 00:00:43,120
+Here, your hands are freed immediately!
+
+7
+00:00:44,020 --> 00:00:45,220
+Exactly!
+
+8
+00:00:45,220 --> 00:00:47,473
+In Step 2: The Process Layer.
+
+9
+00:00:47,473 --> 00:00:59,720
+An isolated Python async worker consumes the job from the queue, calls Gemini 3.5 Flash tools, validates tax numbers, and checks inventory records in the background.
+
+10
+00:01:00,620 --> 00:01:03,524
+And when Step 3 finishes: The Deliver Layer.
+
+11
+00:01:03,524 --> 00:01:11,710
+The agent seals the audit log with a SHA-256 hash and pings your Slack or Telegram with a pristine 1-page executive summary!
+
+12
+00:01:12,610 --> 00:01:19,400
+You didn't wait 5 minutes staring at a loading spinner; you just got the finished briefing delivered like an executive!
+
+13
+00:01:20,300 --> 00:01:27,140
+Asynchronous decoupling eliminates waiting time and multiplies human leverage by a factor of ten.
+

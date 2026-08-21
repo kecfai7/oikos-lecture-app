@@ -1,0 +1,40 @@
+1
+00:00:01,000 --> 00:00:06,450
+Slide 19 contrasts "PILLAR 2: THE SCHEDULE TRIGGER: Polling vs.
+
+2
+00:00:06,450 --> 00:00:08,440
+Event-Driven Triggers."
+
+3
+00:00:09,340 --> 00:00:15,754
+Look at the left card: inexperienced developers write infinite `while True: sleep(5)` polling loops!
+
+4
+00:00:15,754 --> 00:00:24,030
+They ping Gmail every 5 seconds, burning through Google API quotas, hitting rate limits, and running their CPU at 100% all night!
+
+5
+00:00:24,930 --> 00:00:26,130
+Haha!
+
+6
+00:00:26,130 --> 00:00:35,180
+And when Google API returns a 429 Too Many Requests error, their polling script crashes with an unhandled exception and dies!
+
+7
+00:00:36,080 --> 00:00:43,562
+Look at the right card: "SPARK EVENT TRIGGERS." Our daemon sits at 0% CPU in a completely quiescent state.
+
+8
+00:00:43,562 --> 00:00:54,010
+It wakes up ONLY when an exact cron timestamp arrives (like `0 6 * * *` for 6:00 AM) or when a Google Apps Script webhook pushes a live email event!
+
+9
+00:00:54,910 --> 00:01:04,100
+Zero wasted CPU cycles, zero burned API tokens, and the response time is instantaneous the millisecond an email lands in the inbox!
+
+10
+00:01:05,000 --> 00:01:11,860
+Elegant engineering is characterized by maximum responsiveness with minimum computational waste.
+

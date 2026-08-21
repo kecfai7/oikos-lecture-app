@@ -1,0 +1,40 @@
+1
+00:00:01,000 --> 00:00:12,810
+Slide 15 reveals "SPARK OS: Establishing the Agent's Desk & Folder Structure." James, why is folder separation so critical in production?
+
+2
+00:00:13,710 --> 00:00:17,848
+Because messy folders cause catastrophic outages, Professor!
+
+3
+00:00:17,848 --> 00:00:26,606
+In naive projects, developers dump API keys, prompt strings, business logic, and database files into one single root directory.
+
+4
+00:00:26,606 --> 00:00:28,400
+That is spaghetti madness!
+
+5
+00:00:29,300 --> 00:00:33,417
+Look at our disciplined three-zone architecture on screen!
+
+6
+00:00:33,417 --> 00:00:42,219
+Zone 1: `/config/` isolates `SOUL.md`—which defines your agent's persona and ethical limits—alongside encrypted credentials.
+
+7
+00:00:42,219 --> 00:00:44,350
+Zero secrets in business code!
+
+8
+00:00:45,250 --> 00:00:53,990
+Zone 2: `/core/` and `/skills/` separate the core non-blocking event loop from your plug-and-play Python tools—like searching Google Drive or scraping website tables.
+
+9
+00:00:54,890 --> 00:01:04,850
+And Zone 3: `/memory/` and `/logs/` store persistent SQLite state tables, vector indices, and tamper-evident SHA-256 JSONL audit logs!
+
+10
+00:01:05,750 --> 00:01:12,880
+A disciplined directory layout prevents architectural entropy and makes your system maintainable for years to come.
+

@@ -1,0 +1,32 @@
+1
+00:00:01,000 --> 00:00:12,210
+Look at Slide 2: "PART 1: THE 24/7 SLEEP-FREE GUARDIAN PARADIGM." Professor, how does our Christian theological foundation connect with background server daemons?
+
+2
+00:00:13,110 --> 00:00:27,460
+Sarah, Scripture gives us a clear command in Ephesians 5:16: "Redeeming the time, because the days are evil." Time is the one non-renewable gift God has entrusted to every human soul.
+
+3
+00:00:28,360 --> 00:00:39,660
+But in modern IT, human engineers spend 60 hours a week doing mechanical monkey work—checking log dashboards, re-running failed cron jobs, and manually copy-pasting customer tickets at 2:00 AM!
+
+4
+00:00:40,560 --> 00:00:44,330
+That is not human flourishing; that is digital slavery!
+
+5
+00:00:44,330 --> 00:00:55,780
+When we build a 24/7 cloud guardian, we aren't creating a lazy shortcut—we are redeeming precious human hours for deep study, prayer, creative design, and sacred rest!
+
+6
+00:00:56,680 --> 00:00:57,880
+Amen, Sarah!
+
+7
+00:00:57,880 --> 00:01:04,310
+And the first barrier we have to smash to achieve that freedom is what I call the 'Active Tab Trap.'
+
+8
+00:01:05,210 --> 00:01:12,630
+Let us examine why keeping a browser tab open is the single greatest architectural failure on Slide 3!
+

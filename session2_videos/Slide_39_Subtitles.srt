@@ -1,0 +1,40 @@
+1
+00:00:01,000 --> 00:00:06,518
+Slide 39 contrasts "HUMAN-ON-THE-LOOP (HOTL): Strategic Supervision vs.
+
+2
+00:00:06,518 --> 00:00:07,840
+Micromanagement."
+
+3
+00:00:08,740 --> 00:00:16,559
+Old Model: Human-IN-the-loop, where the human must approve every single mouse click and keystroke.
+
+4
+00:00:16,559 --> 00:00:20,070
+Slow, exhausting, and completely unscalable.
+
+5
+00:00:20,970 --> 00:00:24,130
+In HITL, you are micromanaging a toddler!
+
+6
+00:00:24,130 --> 00:00:28,369
+Every 30 seconds the AI asks: "Can I click this button?
+
+7
+00:00:28,369 --> 00:00:34,460
+Can I open this file?" You end up more tired than if you did the work yourself!
+
+8
+00:00:35,360 --> 00:00:50,740
+Look at the right card: "Human-ON-the-loop (HOTL)." The agents operate autonomously within predefined guardrails, and the human acts like an air traffic controller—supervising telemetry metrics and intervening only on critical exceptions!
+
+9
+00:00:51,640 --> 00:00:59,150
+In HOTL mode, one human architect can comfortably govern 50+ autonomous background agents without breaking a sweat!
+
+10
+00:01:00,050 --> 00:01:09,290
+HOTL preserves human agency, eliminates decision fatigue, and multiplies operational throughput by orders of magnitude.
+

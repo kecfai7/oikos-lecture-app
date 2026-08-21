@@ -1,0 +1,40 @@
+1
+00:00:01,000 --> 00:00:12,570
+Slide 28 expands our horizons: "CHROME AUTO-BROWSING: BEYOND THE GOOGLE GARDEN." Sarah, what happens when an external system has no API?
+
+2
+00:00:13,470 --> 00:00:17,066
+That is the reality of 80% of enterprise systems!
+
+3
+00:00:17,066 --> 00:00:23,524
+Legacy supplier portals, customs websites, and state tax dashboards have zero REST APIs.
+
+4
+00:00:23,524 --> 00:00:28,810
+They require a real human clicking through dynamic JavaScript web forms!
+
+5
+00:00:29,710 --> 00:00:38,002
+But look at the right card: "PLAYWRIGHT & CHROME V8 HEADLESS!" Our Spark avatar spins up a headless Chromium browser in the background.
+
+6
+00:00:38,002 --> 00:00:45,190
+It authenticates through login screens, selects dropdown filters, and clicks download buttons just like a human user!
+
+7
+00:00:46,090 --> 00:00:51,455
+And because Gemini 3.5 Flash is multimodal, it inspects visual DOM snapshots!
+
+8
+00:00:51,455 --> 00:01:01,140
+Even if the website changes its CSS layout or button colors, Gemini visually locates the input box and completes the form without breaking!
+
+9
+00:01:02,040 --> 00:01:07,460
+That breaks down the wall between modern AI agents and 20-year-old legacy web portals!
+
+10
+00:01:08,360 --> 00:01:17,340
+Now let us inspect our third enterprise case study on Slide 29 to see how Virgin Voyages orchestrated this during a live hurricane!
+

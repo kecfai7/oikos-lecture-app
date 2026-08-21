@@ -1,0 +1,28 @@
+1
+00:00:01,000 --> 00:00:08,150
+Slide 37 diagram "SAFE PURGE PROTOCOLS & CANARY TOKENS: Active Memory Decontamination."
+
+2
+00:00:09,050 --> 00:00:18,240
+Look at how our Canary Token trap works: we inject a secret cryptographic UUID—like a canary bird in a coal mine—inside the agent's private system prompt.
+
+3
+00:00:19,140 --> 00:00:28,910
+If a sophisticated prompt injection tricks the agent into dumping its private prompt, that canary UUID will appear in the outbound HTTP network packet.
+
+4
+00:00:29,810 --> 00:00:38,070
+Our network egress inspector detects the canary string in 2 milliseconds, cuts the container's network interface, and triggers a Safe Purge!
+
+5
+00:00:38,970 --> 00:00:47,900
+The container's RAM is wiped clean, all temporary session tokens are instantly revoked, and a fresh container is spawned with zero residual taint!
+
+6
+00:00:48,800 --> 00:00:53,890
+The attacker gets zero data, and the system self-heals in less than 3 seconds!
+
+7
+00:00:54,790 --> 00:01:02,280
+Proactive memory decontamination ensures that even advanced adversarial extraction attacks fail completely.
+

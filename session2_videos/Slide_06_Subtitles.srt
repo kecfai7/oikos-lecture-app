@@ -1,0 +1,44 @@
+1
+00:00:01,000 --> 00:00:07,790
+Slide 6 brings an analogy every gamer will immediately understand: "THE 'OFFLINE LEVELING' ANALOGY!"
+
+2
+00:00:08,690 --> 00:00:21,911
+In early online RPG games, if you wanted your character to gain experience, you had to sit in a dark room for eight hours, clicking the exact same attack button against low-level monsters.
+
+3
+00:00:21,911 --> 00:00:23,670
+That was manual grinding!
+
+4
+00:00:24,570 --> 00:00:26,779
+Oh, man, I remember those days!
+
+5
+00:00:26,779 --> 00:00:28,561
+My wrist hurt for a week!
+
+6
+00:00:28,561 --> 00:00:39,040
+But look at how modern RPGs solved this: 'Offline Auto-Farming.' When you log off and go to bed, your character enters the automated training dojo.
+
+7
+00:00:39,940 --> 00:00:47,979
+And while you're asleep, the game engine calculates your training, gathers gold, cleans up your inventory, and levels up your skills!
+
+8
+00:00:48,879 --> 00:00:56,609
+When you wake up, you don't grind goblins—you log in, gear up with the loot gathered overnight, and lead your guild into high-level boss raids!
+
+9
+00:00:57,509 --> 00:01:01,988
+Gemini Spark is literally offline leveling for your professional life!
+
+10
+00:01:01,988 --> 00:01:11,139
+While you sleep, it digests 40 research papers, filters your inbox, and tests your software code so you wake up ready for executive leadership!
+
+11
+00:01:12,039 --> 00:01:20,129
+Gaming mastered this decades ago; today, we apply that exact architectural wisdom to enterprise intelligence.
+

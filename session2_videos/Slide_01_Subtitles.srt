@@ -1,0 +1,60 @@
+1
+00:00:01,000 --> 00:00:13,980
+Sarah, James, let me ask you both a serious question: if you hired a world-class executive assistant, would you make them stand behind your chair all day, waiting for you to type every word into their ear?
+
+2
+00:00:14,880 --> 00:00:16,596
+Absolutely not, Professor!
+
+3
+00:00:16,596 --> 00:00:26,830
+An executive assistant should be proactively managing the schedule, triaging urgent emails, and preparing briefings while you focus on high-level strategy!
+
+4
+00:00:27,730 --> 00:00:32,767
+But Professor, that is exactly what millions of developers are doing right now!
+
+5
+00:00:32,767 --> 00:00:41,184
+They open ChatGPT or Claude in a browser tab, type a prompt, wait 20 seconds, copy-paste the output, and repeat that 50 times a day!
+
+6
+00:00:41,184 --> 00:00:44,310
+They are acting as the assistant to their own AI!
+
+7
+00:00:45,210 --> 00:00:47,206
+Haha, you're so right, James!
+
+8
+00:00:47,206 --> 00:00:50,717
+They are trapped in the interactive chat box model.
+
+9
+00:00:50,717 --> 00:00:57,880
+But when you ask them to run an autonomous agent, they get terrified of runaway bills or broken servers!
+
+10
+00:00:58,780 --> 00:00:59,980
+Exactly!
+
+11
+00:00:59,980 --> 00:01:11,190
+They ask: "James, if I let an AI agent run in the background while I sleep, what if it goes into an infinite loop, spams 10,000 emails, or spends $5,000 on my credit card?"
+
+12
+00:01:12,090 --> 00:01:19,061
+And those fears are completely valid—IF you don't know distributed systems architecture.
+
+13
+00:01:19,061 --> 00:01:27,380
+Welcome, global students, to Session 2 on Slide 1: "24/7 Sleep-Free Guardian: Gemini Spark Architecture!"
+
+14
+00:01:28,280 --> 00:01:39,060
+In this session, we teach you how to build a rock-solid, persistent cloud guardian that never sleeps, never crashes, and operates strictly within cryptographic safety boundaries!
+
+15
+00:01:39,960 --> 00:01:49,780
+Under our motto 'SOLI DEO GLORIA—To God Alone Be the Glory,' let us open Part 1 on Slide 2 and liberate human time!
+
