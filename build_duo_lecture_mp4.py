@@ -330,11 +330,11 @@ async def build_slide_video(slide_data, page=None, session_id=1):
         return out_video_path
     return None
 
-async def build_master_concatenation(video_paths=None, session_id=1):
+async def build_master_concatenation(video_paths=None, session_id=1, total_slides=45):
     # If video_paths is not provided or incomplete, auto-discover all slide videos in directory
     if not video_paths:
         video_paths = []
-        for i in range(1, 41):
+        for i in range(1, total_slides + 1):
             vp = os.path.join(OUTPUT_DIR, f"Session{session_id}_Slide_{i:02d}_DuoLecture.mp4")
             if os.path.exists(vp):
                 video_paths.append(vp)
@@ -342,18 +342,20 @@ async def build_master_concatenation(video_paths=None, session_id=1):
     if not video_paths:
         return
     
-    # 1. 3x 20-Minute Split Parts with Learning Continuity Bridge:
-    # - Part 1: Slides 01 ~ 13
-    # - Part 2: Slide 13 (Recap & Bridge from Part 1) + Slides 14 ~ 26
-    # - Part 3: Slide 26 (Recap & Bridge from Part 2) + Slides 27 ~ 40
+    # 1. 4x Modular Part Videos:
+    # - Part 1: Slides 01 ~ 11 (The Paradigm Shift: Chatbots to Avatars)
+    # - Part 2: Slides 12 ~ 22 (Under the Hood of Autonomous Reasoning)
+    # - Part 3: Slides 23 ~ 29 (The Connected Workspace: Apps Script & Drive)
+    # - Part 4: Slides 30 ~ 45 (Securing the Digital Vault & Wisdom Synthesis)
     parts_config = [
-        ("Part1_20Min_Foundations", list(range(1, 14)), "Slides 01~13"),
-        ("Part2_20Min_Engineering", [13] + list(range(14, 27)), "Slide 13 (Recap Bridge) + Slides 14~26"),
-        ("Part3_20Min_Governance_and_Lab", [26] + list(range(27, 41)), "Slide 26 (Recap Bridge) + Slides 27~40")
+        ("Part1_Paradigm_Shift", list(range(1, 12)), "Slides 01~11: The Paradigm Shift"),
+        ("Part2_Autonomous_Engine", list(range(12, 23)), "Slides 12~22: Autonomous Engine"),
+        ("Part3_Connected_Workspace", list(range(23, 30)), "Slides 23~29: Connected Workspace"),
+        ("Part4_Security_and_Lab", list(range(30, total_slides + 1)), f"Slides 30~{total_slides:02d}: Security & Lab")
     ]
     
     print(f"\n=======================================================")
-    print(f"🎞️ Generating 3x 20-Minute Split Videos with Learning Continuity...")
+    print(f"🎞️ Generating 4x Module Split Videos (Session {session_id})...")
     print(f"=======================================================")
     
     for part_name, slide_nums, desc in parts_config:
@@ -376,9 +378,9 @@ async def build_master_concatenation(video_paths=None, session_id=1):
                 size_mb = os.path.getsize(part_video_path) / (1024 * 1024)
                 print(f"  🎬 Created Module: {os.path.basename(part_video_path)} ({desc} | {size_mb:.2f} MB)")
                 
-    # 2. Full 60-Minute Master Video (Slides 01 ~ 40 sequential)
+    # 2. Full 75-Minute Master Video (Slides 01 ~ 45 sequential)
     ordered_master_vpaths = []
-    for i in range(1, 41):
+    for i in range(1, total_slides + 1):
         vp = os.path.join(OUTPUT_DIR, f"Session{session_id}_Slide_{i:02d}_DuoLecture.mp4")
         if os.path.exists(vp):
             ordered_master_vpaths.append(vp)
@@ -389,7 +391,7 @@ async def build_master_concatenation(video_paths=None, session_id=1):
             clean_v = v.replace("\\", "/")
             f.write(f"file '{clean_v}'\n")
             
-    master_video_path = os.path.join(OUTPUT_DIR, f"Session{session_id}_Full_60Min_DuoLecture_Master.mp4")
+    master_video_path = os.path.join(OUTPUT_DIR, f"Session{session_id}_Full_Master_Lecture.mp4")
     cmd = [
         FFMPEG_EXE, "-y",
         "-f", "concat",
@@ -401,7 +403,7 @@ async def build_master_concatenation(video_paths=None, session_id=1):
     subprocess.run(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     if os.path.exists(master_video_path):
         size_mb = os.path.getsize(master_video_path) / (1024 * 1024)
-        print(f"\n🏆 FULL 60-MINUTE MASTER DUO LECTURE VIDEO COMPLETED!")
+        print(f"\n🏆 FULL MASTER DUO LECTURE VIDEO COMPLETED!")
         print(f"📍 Location: {master_video_path} ({size_mb:.2f} MB)")
 
 def load_session_slides(session_id):
@@ -438,10 +440,10 @@ async def main():
         target_slides = [s for s in session_slides if s["num"] in [1, 8]]
 
     print("=======================================================")
-    print(f"🚀 Oikos Univ 2-Presenter Duo Lecture Video Generator (Session {args.session})")
-    print("👨‍🏫 Lead: Prof. Peter Kim (Authentic Voice Morphing) | 👩‍💻 TA: Sarah Jenkins (31)")
+    print(f"🚀 Oikos Univ 3-Presenter Trio Lecture Video Generator (Session {args.session})")
+    print("👨‍🏫 Lead: Prof. Peter Kim | 👩‍💻 TA: Sarah Jenkins | 👨‍💻 TA: James Wilson")
     print(f"📋 Target: {len(target_slides)} slides from Session {args.session}")
-    print("⏱️ Pacing: 60-Minute Broadcast Lecture with Intermissions & Reflection Breaks")
+    print("⏱️ Pacing: Broadcast Quality Master Lecture with Intermissions & Reflection Breaks")
     print("=======================================================")
 
     async with async_playwright() as p:
@@ -458,7 +460,7 @@ async def main():
         await browser.close()
         
     if args.all and len(generated_videos) == len(session_slides):
-        await build_master_concatenation(generated_videos, args.session)
+        await build_master_concatenation(generated_videos, args.session, len(session_slides))
 
     print(f"\n✨ All completed! Files saved in: {OUTPUT_DIR}")
 
