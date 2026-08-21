@@ -22,7 +22,7 @@ export default function App() {
     if (typeof window !== 'undefined') {
       const params = new URLSearchParams(window.location.search);
       const slide = parseInt(params.get('slide') || params.get('p'), 10);
-      if (slide >= 1 && slide <= 40) return slide - 1;
+      if (slide >= 1 && slide <= 100) return slide - 1;
     }
     return 0;
   };
