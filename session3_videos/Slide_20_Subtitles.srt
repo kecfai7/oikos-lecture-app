@@ -35,6 +35,10 @@ Choose lean native tools that deliver maximum precision with minimum footprint!
 And now, let's see how a FinTech trading desk rescued their 8GB laptops from crashing in Case Study 2 on Slide 22!
 
 10
-00:00:53,660 --> 00:00:58,560
+00:00:53,660 --> 00:00:59,970
+This trading desk incident cost $620,000 in delayed orders—let's see how we fixed it!
+
+11
+00:01:00,370 --> 00:01:05,270
 Let us examine our second production case study on Slide 22!
 

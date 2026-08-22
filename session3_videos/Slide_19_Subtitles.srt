@@ -35,10 +35,14 @@ When I'm compiling kernel code, I want every single megabyte of RAM dedicated to
 But many executives and business analysts prefer Option C because they want rich visual charts and interactive floating windows!
 
 10
-00:00:56,060 --> 00:01:00,970
-Knowing your user persona dictates your architectural footprint.
+00:00:56,060 --> 00:01:01,440
+And that's fine—until their 8GB laptop freezes during a client presentation!
 
 11
-00:01:00,970 --> 00:01:03,810
+00:01:01,840 --> 00:01:06,750
+Knowing your user persona dictates your architectural footprint.
+
+12
+00:01:06,750 --> 00:01:09,590
 Let us see the synthesis on Slide 20!
 

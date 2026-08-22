@@ -1,32 +1,36 @@
 1
 00:00:00,400 --> 00:00:12,450
-Slide 5 illustrates THE HOTKEY OF POWER: ALT + SPACE. Sarah, James, why is `Alt + Space` the most contested keyboard shortcut in computing history?
+Slide 5 diagrams THE HOTKEY OF POWER: ALT + SPACE. Sarah, James, why is `Alt + Space` the most contested shortcut in computing?
 
 2
-00:00:12,850 --> 00:00:16,992
-Because human muscle memory is the ultimate real estate!
+00:00:12,850 --> 00:00:17,896
+Because human muscle memory is the ultimate psychological real estate!
 
 3
-00:00:16,992 --> 00:00:26,017
-For 20 years, Mac users pressed `Cmd + Space` for Spotlight, and Windows power users used `Alt + Space` for PowerToys Run.
+00:00:17,896 --> 00:00:25,610
+Mac users press `Cmd + Space` for Spotlight, and Windows power users press `Alt + Space` for PowerToys Run.
 
 4
-00:00:26,017 --> 00:00:28,090
+00:00:25,610 --> 00:00:27,630
 It is an unconscious reflex!
 
 5
-00:00:28,490 --> 00:00:37,830
-Look at the 3-step kernel journey on screen: Step 1: When you tap `Alt + Space`, a Win32 Low-Level Keyboard Hook intercepts the signal in 1 millisecond.
+00:00:28,030 --> 00:00:38,660
+Look at the 3-step kernel execution pipeline on screen: Step 1: When you tap `Alt + Space`, a Win32 Low-Level Keyboard Hook intercepts the raw hardware keycode in 1 millisecond.
 
 6
-00:00:38,230 --> 00:00:46,370
-Step 2: The borderless WebView2 overlay renders a beautiful floating search bar in 18 milliseconds on your active monitor.
+00:00:39,060 --> 00:00:47,770
+Step 2: A borderless, transparent WebView2 overlay window pops up at the center of your active monitor in just 18 milliseconds.
 
 7
-00:00:46,770 --> 00:00:54,790
-And Step 3: That floating bar routes your query: if it's a web search, it goes to Google Cloud; if it's a screenshot, it goes to Google Lens!
+00:00:48,170 --> 00:00:58,010
+And Step 3: That floating bar routes your input: text queries go to Gemini Flash in the cloud, file searches query the local index, and screen captures trigger Google Lens!
 
 8
-00:00:55,190 --> 00:01:02,560
-Whoever controls the first 100 milliseconds of user intent captures the entire stream of human curiosity.
+00:00:58,410 --> 00:01:06,670
+Whoever controls those first 100 milliseconds captures 100% of the user's daily search curiosity and commercial intent!
+
+9
+00:01:07,070 --> 00:01:12,640
+Controlling the input gateway is controlling the cognitive flow of the human architect.
 

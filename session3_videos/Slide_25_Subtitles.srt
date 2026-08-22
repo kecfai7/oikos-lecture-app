@@ -27,6 +27,10 @@ Step 2: Neural Inpainting erases foreign language characters (like Japanese or G
 And Step 3: DirectWrite matches the original font's exact size, weight, color, and drop-shadow, rendering the English translation directly over the original image!
 
 8
-00:00:47,570 --> 00:00:56,160
-You look at a Japanese engineering blueprint or German medical manual, and it appears seamlessly in English as if it were originally printed that way.
+00:00:47,570 --> 00:00:55,730
+You look at a Japanese engineering blueprint or German medical manual, and it appears seamlessly in English as if it were originally printed that way!
+
+9
+00:00:56,130 --> 00:01:02,180
+Eliminating language friction through visual inpainting expands the global reach of human knowledge.
 

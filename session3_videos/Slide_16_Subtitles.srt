@@ -31,6 +31,10 @@ CPU usage spikes to 30%, but it guarantees stability on virtual desktop infrastr
 As enterprise architects, you must know when to enable GPU offload for local workstations and when to force software rasterization for enterprise VDI fleets!
 
 9
-00:01:06,070 --> 00:01:12,430
+00:01:06,070 --> 00:01:10,220
+One size does NOT fit all in enterprise desktop engineering!
+
+10
+00:01:10,620 --> 00:01:16,980
 True engineering mastery lies in understanding the trade-offs across diverse hardware environments.
 

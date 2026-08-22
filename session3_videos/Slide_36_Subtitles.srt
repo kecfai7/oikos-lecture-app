@@ -35,6 +35,10 @@ Look at our Spark DLP Kernel Agent on the right: the local security hook detecte
 The hospital compliance officer received an instant alert with the nurse's terminal ID, and exactly ZERO patient medical records leaked outside the hospital perimeter!
 
 10
-00:01:14,640 --> 00:01:20,810
+00:01:14,640 --> 00:01:19,800
+That 2-millisecond kill-switch saved the hospital from a $4 million HIPAA fine!
+
+11
+00:01:20,200 --> 00:01:26,370
 Architectural vigilance is the sacred duty of the Intelligence Architect protecting human dignity.
 

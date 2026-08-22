@@ -23,6 +23,10 @@ We confront the rise of unapproved 'Shadow IT', dissect screen-capture data leak
 We will analyze how healthcare networks protect patient privacy, master Human-on-the-Loop audit logging, and launch our hands-on Lab 3 assignment!
 
 7
-00:00:46,930 --> 00:00:52,550
+00:00:46,930 --> 00:00:54,060
+If you deploy desktop AI without security guardrails, your corporate CISO will pull the plug on your project in 5 minutes!
+
+8
+00:00:54,460 --> 00:01:00,080
 Let us begin by examining the corporate sandbox blockade on Slide 31!
 

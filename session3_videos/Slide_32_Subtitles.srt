@@ -27,6 +27,10 @@ And Step 3: The screen scraper takes a full desktop snapshot, inadvertently inge
 The employee didn't mean to leak data, but the unconstrained vision agent sent sensitive PII straight into the cloud pipeline!
 
 8
-00:00:48,950 --> 00:00:56,100
+00:00:48,950 --> 00:00:54,730
+That's why unconstrained full-screen capture is completely banned in our Spark OS architecture!
+
+9
+00:00:55,130 --> 00:01:02,280
 Visual AI must be bounded by window-specific capture filters and real-time PII redaction shields.
 

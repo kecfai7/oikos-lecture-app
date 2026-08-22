@@ -1,44 +1,48 @@
 1
 00:00:00,400 --> 00:00:09,180
-Sarah, James, let me ask you both a strategic question: who truly owns your computer—you, Microsoft, or Google?
+Sarah, James, let me ask you both a blunt question: who truly owns your computer—you, Microsoft, or Google?
 
 2
-00:00:09,580 --> 00:00:12,299
-Well, on paper, we purchased the hardware!
+00:00:09,580 --> 00:00:13,447
+Well, on paper, Professor, I paid $2,000 for my laptop!
 
 3
-00:00:12,299 --> 00:00:20,910
-But in reality, the company that controls the operating system shell and your first keystroke controls your entire digital existence!
+00:00:13,447 --> 00:00:22,800
+But in software reality, whoever controls the operating system shell and your very first keystroke controls your entire digital life!
 
 4
-00:00:21,310 --> 00:00:22,652
-Haha, exactly, Sarah!
+00:00:23,200 --> 00:00:24,469
+Haha, exactly Sarah!
 
 5
-00:00:22,652 --> 00:00:34,610
-And right now, the biggest war in tech isn't happening on smartphones—it's happening directly on your Windows desktop between Microsoft Copilot and Google's new 1.2GB desktop application!
+00:00:24,469 --> 00:00:36,400
+And right now, the fiercest war in tech isn't happening on smartphones—it's happening directly on your Windows desktop between Microsoft Copilot and Google's new 1.2GB desktop application!
 
 6
-00:00:35,010 --> 00:00:40,526
-Many users just see a sleek `Alt + Space` search bar popping up on their screen.
+00:00:36,800 --> 00:00:44,360
+Most users just see a sleek floating `Alt + Space` search bar popping up on their screen and think: Oh, how convenient!
 
 7
-00:00:40,526 --> 00:00:46,870
-But behind that innocent bar is a full-blown WebView2 browser engine consuming 1.2GB of RAM!
+00:00:44,760 --> 00:00:47,693
+But wait until you open Windows Task Manager!
 
 8
-00:00:47,270 --> 00:00:59,010
-In enterprise IT, we call this the 'Trojan Horse Strategy.' Google wants to bypass the Chrome browser sandbox and take over Windows OS-level file search, screen scraping, and hotkeys!
+00:00:47,693 --> 00:00:55,320
+Behind that tiny search bar is a monster—an entire Chromium WebView2 browser engine eating 1.2 gigabytes of your RAM!
 
 9
-00:00:59,410 --> 00:01:09,780
-Welcome, global students, to Session 3 on Slide 1: The Battle for the OS Shell: Windows Dominance and the 1.2GB Trojan Horse.
+00:00:55,720 --> 00:01:07,860
+In enterprise IT, we call this the 'Trojan Horse Strategy.' Google wants to escape the Chrome browser sandbox and take over Windows OS-level file search, screen vision, and hotkeys!
 
 10
-00:01:10,180 --> 00:01:20,790
-In this session, we dissect the architecture of desktop AI, analyze the heavy memory trade-offs, and master local-first command-line sovereignty under Soli Deo Gloria!
+00:01:08,260 --> 00:01:18,870
+Welcome, global students, to Session 3 on Slide 1: The Battle for the OS Shell: Windows Dominance and the 1.2GB Trojan Horse.
 
 11
-00:01:21,190 --> 00:01:27,500
-Let us open Part 1 on Slide 2 and examine the landlord versus guest desktop schism!
+00:01:19,270 --> 00:01:29,640
+Today, Sarah and I are going to show you why your laptop battery dies on flights, why 8GB PCs freeze, and how to build lean, lightning-fast local agents that defeat big tech bloat!
+
+12
+00:01:30,040 --> 00:01:39,780
+Under our motto 'SOLI DEO GLORIA—To God Alone Be the Glory,' let us open Part 1 on Slide 2 and reclaim command of the desktop!
 

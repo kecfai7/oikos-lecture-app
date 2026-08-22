@@ -1,8 +1,8 @@
 # Session 6: The 1-Million Token Playground: Vibe Coding, Many-shot ICL, and Cost Optimization with Google AI Studio
 **Course:** The Architect of Intelligence: Mastering Agentic IT & Strategic Wisdom  
-**Instructors:** Professor Peter Kim (54, Director) & TA Sarah Jenkins (31, AI Research Fellow) • Oikos University (www.oikos.edu)  
-**Lecture Format:** NotebookLM Style Interactive Duo Dialogue (2-Presenter Co-Lecture)  
-**Total Slides:** 40 Slides (60 Minutes)  
+**Instructors:** Professor Peter Kim (Director), TA Sarah Jenkins (Senior AI Fellow) & TA James Wilson (DevOps TA) • Oikos University (www.oikos.edu)  
+**Lecture Format:** Full 75-Minute Broadcast Trio Master Dialogue (4x Modules with 5 Enterprise Case Studies)  
+**Total Slides:** 45 Slides (Expanded Multi-Presenter Master Edition)  
 **Motto:** Soli Deo Gloria  
 
 ---
@@ -14,1081 +14,1412 @@
 - [Slide 04: ENTERING THE 1-MILLION TOKEN PLAYGROUND](#slide-04-entering-the-1-million-token-playground)
 - [Slide 05: THE 'NEEDLE IN A HAYSTACK' TEST](#slide-05-the-needle-in-a-haystack-test)
 - [Slide 06: UNDERSTANDING THE TOKEN: LANGUAGE'S LEGO BLOCKS](#slide-06-understanding-the-token-languages-lego-blocks)
-- [Slide 07: GEMINI 3 PRO: THE 1501 ELO SUPER BRAIN](#slide-07-gemini-3-pro-the-1501-elo-super-brain)
-- [Slide 08: INTERACTIVE POLL: EXPANDING YOUR DESK](#slide-08-interactive-poll-expanding-your-desk)
+- [Slide 07: GEMINI 3.5 PRO: THE 1501 ELO SUPER BRAIN](#slide-07-gemini-35-pro-the-1501-elo-super-brain)
+- [Slide 08: 📨 INTERACTIVE POLL: EXPANDING YOUR DESK](#slide-08-📨-interactive-poll-expanding-your-desk)
 - [Slide 09: THE COGNITIVE RE-ALIGNMENT](#slide-09-the-cognitive-re-alignment)
 - [Slide 10: PART 1 TRANSITION: ENTERING THE FORGE](#slide-10-part-1-transition-entering-the-forge)
-- [Slide 11: PART 2: MANY-SHOT IN-CONTEXT LEARNING (ICL)](#slide-11-part-2-many-shot-in-context-learning-(icl))
-- [Slide 12: SHIFTING FROM FINE-TUNING TO MANY-SHOT ICL](#slide-12-shifting-from-fine-tuning-to-many-shot-icl)
-- [Slide 13: THE MECHANICS OF THE SHOT](#slide-13-the-mechanics-of-the-shot)
-- [Slide 14: CASE STUDY: THE 200-SPEAKER TRANSLATION](#slide-14-case-study-the-200-speaker-translation)
-- [Slide 15: OVERCOMING THE OUT-OF-DISTRIBUTION BARRIER](#slide-15-overcoming-the-out-of-distribution-barrier)
+- [Slide 11: CASE STUDY 1: 200-SPEAKER INDIGENOUS TRANSLATION](#slide-11-case-study-1-200-speaker-indigenous-translation)
+- [Slide 12: PART 2: MANY-SHOT IN-CONTEXT LEARNING (ICL)](#slide-12-part-2-many-shot-in-context-learning-icl)
+- [Slide 13: SHIFTING FROM FINE-TUNING TO MANY-SHOT ICL](#slide-13-shifting-from-fine-tuning-to-many-shot-icl)
+- [Slide 14: THE MECHANICS OF THE SHOT](#slide-14-the-mechanics-of-the-shot)
+- [Slide 15: OVERCOMING OUT-OF-DISTRIBUTION BARRIERS](#slide-15-overcoming-out-of-distribution-barriers)
 - [Slide 16: DESIGNING THE PERFECT EXEMPLAR SET](#slide-16-designing-the-perfect-exemplar-set)
 - [Slide 17: MULTI-MODAL MANY-SHOT: WIREFRAMES TO REACT](#slide-17-multi-modal-many-shot-wireframes-to-react)
 - [Slide 18: EVALUATING ICL QUALITY: 3 CORE METRICS](#slide-18-evaluating-icl-quality-3-core-metrics)
 - [Slide 19: THE PARADIGM OF INSTANT EXPERTIZATION](#slide-19-the-paradigm-of-instant-expertization)
 - [Slide 20: PART 2 TRANSITION: THE FINOPS REALITY](#slide-20-part-2-transition-the-finops-reality)
-- [Slide 21: PART 3: FINOPS & CONTEXT CACHING STRATEGIES](#slide-21-part-3-finops-and-context-caching-strategies)
-- [Slide 22: THE PROBLEM OF REDUNDANT PROCESSING](#slide-22-the-problem-of-redundant-processing)
-- [Slide 23: INTRODUCING CONTEXT CACHING](#slide-23-introducing-context-caching)
-- [Slide 24: THE 87% COST MIRACLE](#slide-24-the-87%-cost-miracle)
+- [Slide 21: CASE STUDY 2: 1.2M-LINE COBOL-TO-JAVA MIGRATION](#slide-21-case-study-2-12m-line-cobol-to-java-migration)
+- [Slide 22: PART 3: FINOPS & CONTEXT CACHING STRATEGIES](#slide-22-part-3-finops-and-context-caching-strategies)
+- [Slide 23: THE PROBLEM OF REDUNDANT PROCESSING](#slide-23-the-problem-of-redundant-processing)
+- [Slide 24: THE 87% COST MIRACLE: CONTEXT CACHING](#slide-24-the-87%-cost-miracle-context-caching)
 - [Slide 25: SMART MODEL ROUTING: PRO VS. FLASH](#slide-25-smart-model-routing-pro-vs-flash)
-- [Slide 26: THE TEMPERATURE DIAL: PRECISE VS. CREATIVE](#slide-26-the-temperature-dial-precise-vs-creative)
-- [Slide 27: SYSTEM INSTRUCTIONS: THE DIVINE COMMANDS](#slide-27-system-instructions-the-divine-commands)
-- [Slide 28: REASONING BUDGET: 'DEEP THINK' EXPANSION](#slide-28-reasoning-budget-deep-think-expansion)
-- [Slide 29: SAFETY SETTINGS AND CONTENT GUARDRAILS](#slide-29-safety-settings-and-content-guardrails)
-- [Slide 30: PART 3 TRANSITION: MOVING TO VIBE CODING](#slide-30-part-3-transition-moving-to-vibe-coding)
-- [Slide 31: PART 4: VIBE CODING & ENTERPRISE GOVERNANCE](#slide-31-part-4-vibe-coding-and-enterprise-governance)
-- [Slide 32: DEMYSTIFYING VIBE CODING](#slide-32-demystifying-vibe-coding)
-- [Slide 33: BESPOKE TOOLS ON DEMAND](#slide-33-bespoke-tools-on-demand)
-- [Slide 34: AGENTIC AI STUDIO: SANDBOXED EXECUTION](#slide-34-agentic-ai-studio-sandboxed-execution)
-- [Slide 35: THE CORPORATE TRAP: FREE TIER VS. PAID TIER](#slide-35-the-corporate-trap-free-tier-vs-paid-tier)
-- [Slide 36: THE 'PRIVATE VAULT' PRINCIPLE](#slide-36-the-private-vault-principle)
-- [Slide 37: MITIGATING INTELLECTUAL SLOTH](#slide-37-mitigating-intellectual-sloth)
-- [Slide 38: REDEEMING TIME FOR SOLI DEO GLORIA](#slide-38-redeeming-time-for-soli-deo-gloria)
-- [Slide 39: SESSION 6 SUMMARY & KEY TAKEAWAYS](#slide-39-session-6-summary-and-key-takeaways)
-- [Slide 40: LAB 6 ASSIGNMENT: THE INSTANT EXPERT FORGE](#slide-40-lab-6-assignment-the-instant-expert-forge)
+- [Slide 26: THE TEMPERATURE DIAL & SYSTEM INSTRUCTIONS](#slide-26-the-temperature-dial-and-system-instructions)
+- [Slide 27: REASONING BUDGET: 'DEEP THINK' EXPANSION](#slide-27-reasoning-budget-deep-think-expansion)
+- [Slide 28: SAFETY SETTINGS AND CONTENT GUARDRAILS](#slide-28-safety-settings-and-content-guardrails)
+- [Slide 29: CASE STUDY 3: FINTECH SLASHING $240K MONTHLY COSTS](#slide-29-case-study-3-fintech-slashing-$240k-monthly-costs)
+- [Slide 30: PART 4: VIBE CODING & ENTERPRISE GOVERNANCE](#slide-30-part-4-vibe-coding-and-enterprise-governance)
+- [Slide 31: DEMYSTIFYING VIBE CODING](#slide-31-demystifying-vibe-coding)
+- [Slide 32: BESPOKE TOOLS ON-DEMAND](#slide-32-bespoke-tools-on-demand)
+- [Slide 33: AGENTIC AI STUDIO: SANDBOXED EXECUTION](#slide-33-agentic-ai-studio-sandboxed-execution)
+- [Slide 34: THE CORPORATE TRAP: FREE TIER VS. PAID TIER](#slide-34-the-corporate-trap-free-tier-vs-paid-tier)
+- [Slide 35: MITIGATING INTELLECTUAL SLOTH](#slide-35-mitigating-intellectual-sloth)
+- [Slide 36: CASE STUDY 4: ZERO-CODE ERP DASHBOARD GENERATION](#slide-36-case-study-4-zero-code-erp-dashboard-generation)
+- [Slide 37: REDEEMING TIME FOR SOLI DEO GLORIA](#slide-37-redeeming-time-for-soli-deo-gloria)
+- [Slide 38: THE 6-STEP AI STUDIO DEPLOYMENT BLUEPRINT](#slide-38-the-6-step-ai-studio-deployment-blueprint)
+- [Slide 39: PRODUCTION CHECKLIST: PRE-DEPLOYMENT VERIFICATION](#slide-39-production-checklist-pre-deployment-verification)
+- [Slide 40: SOLI DEO GLORIA: THE SANCTITY OF CODE](#slide-40-soli-deo-gloria-the-sanctity-of-code)
+- [Slide 41: SESSION 6 SUMMARY & KEY TAKEAWAYS](#slide-41-session-6-summary-and-key-takeaways)
+- [Slide 42: LIFE OS VIBE CODING WORKBENCH](#slide-42-life-os-vibe-coding-workbench)
+- [Slide 43: THE ARCHITECT'S INTELLECTUAL STEWARDSHIP](#slide-43-the-architects-intellectual-stewardship)
+- [Slide 44: CASE STUDY 5: 22X DEVELOPER VELOCITY BLUEPRINT](#slide-44-case-study-5-22x-developer-velocity-blueprint)
+- [Slide 45: 🛠️ HANDS-ON LAB 6 & CONCLUSION](#slide-45-🛠️-hands-on-lab-6-and-conclusion)
 
 ---
 
 ## Slide 01: OIKOS UNIVERSITY • SOLI DEO GLORIA
 **Subtitle:** THE ARCHITECT OF INTELLIGENCE: Mastering Agentic IT & Strategic Wisdom
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Welcome back, everyone, to Oikos University! I am Professor Peter Kim, Director of Smart Insight Lab. Today, we begin our exciting Session 6: "OIKOS UNIVERSITY • SOLI DEO GLORIA".
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[Prof. Peter] Welcome back, global scholars and architects, to Oikos University! I am Professor Peter Kim, Director of Smart Insight Lab. Today, we step onto the frontier of massive cognitive scale on Slide 1: "Session 6: The 1-Million Token Playground: Vibe Coding, Many-shot ICL, and Cost Optimization with Google AI Studio."
 
-[TA Sarah] And hello everyone! I'm Sarah Jenkins, your Teaching Assistant and AI Research Fellow. Professor Kim and I are so excited to explore today's architecture with you all!
+[TA Sarah] Hello everyone! I am Sarah Jenkins, your Senior AI Research Fellow. For years, AI was constrained by tiny context windows—forcing us to chop documents into fragile vector fragments. But today, we explore what happens when an AI brain can ingest an entire library shelf in a single prompt!
 
-[Prof. Peter] Exactly, Sarah. In this session, we go beyond surface-level theory into real-world agentic mastery. We are learning how to architect systems that work reliably and elevate human potential.
+[TA James] And I am James Wilson, your DevOps TA! In production engineering, 1 million tokens sounds terrifying because of latency and API bills. Today, we show you how Google's revolutionary Context Caching slashes costs by 87% while delivering sub-second Vibe Coding speed!
 
-[TA Sarah] For all our global students, we will guide you step by step in clear, accessible English. Let's dive straight into Session 6!
+[Prof. Peter] Under our founding motto, "SOLI DEO GLORIA—To God Alone Be the Glory," our calling is to harness this immense computational horizon with wisdom, rigor, and stewardship.
 
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** Session 6 개요 및 100만 토큰 플레이그라운드와 바이브 코딩(Vibe Coding) 환영 인사
-- **핵심 포인트:**
-  - 강의 주제: 100만 토큰 초대형 컨텍스트와 다중 샷(Many-shot) 인컨텍스트 러닝(ICL)
-  - 구글 AI 스튜디오를 활용한 바이브 코딩(Vibe Coding) 패러다임과 87% 비용 절감 컨텍스트 캐싱
-  - 단순 코더(Coder)에서 전체 시스템을 지휘하는 지능 아키텍트(Architect)로의 진화
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
+[TA Sarah] Let us open Part 1 and enter the 1-Million Token Playground on Slide 2!
 
-### 📚 Key Terms (주요 용어)
-- **Vibe Coding**: Building functional software applications through natural language intent and aesthetic direction. (바이브 코딩 (자연어 직관 기반 소프트웨어 제작))
-- **1-Million Token Context**: An ultra-large context window capable of processing up to 1,500 pages of text simultaneously. (100만 토큰 컨텍스트 창 (초대형 작업 메모리))
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** Session 6 개요 및 Oikos University 3인 강사진(피터 교수, 사라 수석조교, 제임스 개발조교) 환영 인사
+
+**핵심 티칭 포인트:**
+- 강의 주제: 100만 토큰 대규모 문맥, 바이브 코딩(Vibe Coding), 다발 예시 인컨텍스트 러닝(Many-shot ICL)
+- 기존 청킹(Chunking)의 한계를 뛰어넘어 전체 코드베이스와 수백 편의 문서를 단일 프롬프트로 처리
+- Google AI Studio 및 컨텍스트 캐싱(Context Caching)을 통한 87% 비용 절감과 FinOps 최적화
+
+**강의 전달 팁:** 피터 교수의 거시적 패러다임과 사라 조교의 ICL 원리, 제임스 조교의 FinOps 비용 절감 관점을 유기적으로 연결하세요.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **1-Million Token Horizon** (100만 토큰 대규모 문맥 (1M Context)): The frontier capability of processing up to 1,000,000 multimodal tokens (750,000 words) in a single unified inference pass.
+- **Vibe Coding** (바이브 코딩 (자연어 직관 소프트웨어 개발)): An AI-native development paradigm where software is created rapidly through natural language intent and iterative reasoning.
 
 ---
 
 ## Slide 02: PART 1: THE 1M-TOKEN HORIZON & THE END OF FRAGMENTATION
-**Subtitle:** Divine Creative Capacity & Soli Deo Gloria: Transcending narrow context windows
+**Subtitle:** Transcending small context windows and ending vector chunking loss under Soli Deo Gloria
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's look at Slide 2: "PART 1: THE 1M-TOKEN HORIZON & THE END OF FRAGMENTATION". We begin Part 1 of Session 6: "The 1M-Token Horizon & The End of Fragmentation."
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[TA Sarah] Look at Slide 2: "PART 1: THE 1M-TOKEN HORIZON & THE END OF FRAGMENTATION." Professor, why is the 1-million token context window considered such a historic turning point in AI history?
 
-[TA Sarah] Professor Kim, looking at this slide, under Soli Deo Gloria, human intellect reflects the divine capacity to synthesize vast universes of wisdom.
+[Prof. Peter] Because for the first time, artificial intelligence breaks free from cognitive amnesia! In previous generations, models had tiny 4K or 8K token windows. If you fed a 100-page book, the model forgot chapter 1 before reading chapter 5!
 
-[Prof. Peter] For years, developers were crippled by tiny 4,000-token context windows, forcing them to chop books and codebases into fragile vector fragments.
+[TA James] Engineers had to build complex vector databases, write chunking scripts, and pray that cosine search didn't drop the critical paragraph. With 1M tokens in Gemini 3.5 Pro, you feed the ENTIRE book into the prompt, and the model maintains full attention across all 750,000 words!
 
-[TA Sarah] Notice also that in this opening module, we celebrate the 1-million-token horizon of Gemini 3.5 Pro and Google AI Studio! 
-You can feed entire software repositories, thousands of PDF pages, and hours of video into a single context window! Let us cross the 1-million token frontier!
+[TA Sarah] In Part 1, we deconstruct the 'Needle In A Haystack' test and explore the fundamental nature of tokens.
 
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** Part 1 섹션 전환: 100만 토큰의 지평선과 데이터 파편화의 종말
-- **핵심 포인트:**
-  - Soli Deo Gloria와 방대한 지적 종합: 쪼개고 자르던 작은 창의 굴레를 벗어난 1M 토큰 혁명
-  - 두꺼운 책 수십 권, 거대한 깃허브 코드베이스 전체를 한 번에 프롬프트에 통째로 집어넣는 거대한 컨텍스트 창
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
+[Prof. Peter] Let us examine the traditional context cage on Slide 3.
 
-### 📚 Key Terms (주요 용어)
-- **1M-Token Context Window**: The ability of an AI model to ingest and reason over one million tokens (~750,000 words) simultaneously. (100만 토큰 컨텍스트 창 (초대용량 단일 처리))
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** Part 1 섹션 전환: 100만 토큰의 지평과 지식 파편화의 종말
+
+**핵심 티칭 포인트:**
+- 과거 4K/8K 문맥 창의 비극: 100페이지 책을 넣으면 앞장을 잊어버리던 단기 기억상실 한계
+- RAG 청킹의 한계 극복: 수백 개로 쪼갤 필요 없이 책 전체(75만 단어)를 단일 프롬프트에 통째로 적재
+- 100% 어텐션 유지: 건초더미 속 바늘 찾기(Needle In A Haystack) 99.8% 정확도 달성
+
+**강의 전달 팁:** 사라 조교가 과거 청킹의 고통을 짚고, 제임스가 100만 토큰의 무청킹 혁신을 엔지니어링 관점에서 강조합니다.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **Context Window Cage** (컨텍스트 윈도우 한계 (문맥 감옥)): The computational memory limit restricting how many tokens an LLM can process simultaneously in a single prompt.
+- **Needle In A Haystack (NIAH)** (건초더미 속 바늘 찾기 벤치마크): A rigorous benchmark testing an LLM's ability to retrieve precise factual statements hidden inside massive text corpora.
 
 ---
 
 ## Slide 03: THE TRADITIONAL CONTEXT CAGE
-**Subtitle:** Short context windows forcing aggressive chunking vs. expansive panoramic vision
+**Subtitle:** How tiny 4K/8K token limits forced fragmentation, retrieval errors, and lost nuance
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's look at Slide 3: "THE TRADITIONAL CONTEXT CAGE". Slide 3 explains the historical breakthrough: "The Traditional Context Cage."
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[TA Sarah] Slide 3 details "THE TRADITIONAL CONTEXT CAGE." In legacy LLM systems, we spent 80% of our engineering time fighting context limits.
 
-[TA Sarah] Professor Kim, looking at this slide, to understand why a 1-million token context window is such a miracle, we must look at the past.
+[TA James] Look at the failure modes on screen: When you chop a financial report into tiny pieces, you lose the connection between the CEO's opening letter and footnote 47 on page 89! Vector search might pull 3 chunks, but it misses the connective tissue.
 
-[Prof. Peter] In the early days of AI, models had a tiny desk—only 8,000 or 16,000 tokens! That is barely ten pages of text. If you wanted to feed a 300-page book to the model, you had to chop it into hundreds of tiny pieces called "chunks." In doing so, the AI lost the big picture, the overarching storyline, and the deep connections.
+[Prof. Peter] It was like trying to read a great philosophical masterpiece through a 1-inch magnifying glass, peeking at three words at a time! You see isolated phrases, but you lose the transcendent wisdom of the whole.
 
-[TA Sarah] Notice also that look at the right side: Gemini 3 Pro gives you an open-air stadium! It can hold an entire library of eight full novels in its memory simultaneously without losing a single detail!
+[TA Sarah] Let us see how the 1-Million Token Horizon demolishes this cage on Slide 4!
 
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** 전통적인 컨텍스트 새장(Context Cage)의 한계와 100만 토큰 경기장
-- **핵심 포인트:**
-  - Left (16K 새장): 10~20쪽만 처리할 수 있어 문서를 잘게 쪼개야(Chunking) 했고 문맥 단절 발생
-  - Right (1M 경기장): 책 8권(1500쪽), 5만 줄의 코드를 한 번에 통째로 올려놓고 단숨에 조망
-  - 패러다임 전환: 쪼개서 조각조각 찾던 시대에서 전체를 한 번에 올려놓고 생각하는 시대로 전환
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 전통적 컨텍스트 감옥의 한계: 청킹으로 인한 문맥 단절과 의미 손실
 
-### 📚 Key Terms (주요 용어)
-- **Context Cage**: The architectural limitation of early LLMs restricted to small token context windows. (컨텍스트 새장 (초기 모델의 좁은 메모리 한계))
+**핵심 티칭 포인트:**
+- 인지적 파편화: 문서를 500자 단위로 쪼개면서 CEO 서한과 89페이지 각주 간의 연결 고리 상실
+- 벡터 검색 누락: 동의어나 의미적 뉘앙스를 놓쳐 중요한 단락이 검색에서 영구 제외되는 취약점
+- 돋보기 효과: 1인치 돋보기로 대성당의 설계도를 부분만 들여다보던 과거 방식의 한계
+
+**강의 전달 팁:** 피터 교수의 '1인치 돋보기' 비유를 살려 전체론적(Holistic) 문맥의 중요성을 역설하세요.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **Semantic Fragmentation** (의미론적 파편화): The degradation of structural meaning caused by arbitrarily segmenting cohesive long-form documents.
+- **Holistic Context** (전체론적 통합 문맥): The unified, unsegmented ingestion of complete datasets preserving all internal cross-references.
 
 ---
 
 ## Slide 04: ENTERING THE 1-MILLION TOKEN PLAYGROUND
-**Subtitle:** The massive scale of Gemini 3 Pro's working memory window
+**Subtitle:** Ingesting 750,000 words, 1 hour of video, or 60,000 lines of source code in 1 prompt
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's look at Slide 4: "ENTERING THE 1-MILLION TOKEN PLAYGROUND". Please look at Slide 4: "Entering the 1-Million Token Playground."
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[Prof. Peter] Slide 4 welcomes you to "THE 1-MILLION TOKEN PLAYGROUND." What does 1 million tokens actually look like in human terms?
 
-[TA Sarah] Professor Kim, looking at this slide, how big is one million tokens? Let us put this into perspective with three real-world examples:
+[TA Sarah] One million tokens equals approximately 750,000 English words! That is the complete works of William Shakespeare, or 5 full semesters of university textbooks, or 60,000 lines of enterprise C++ source code—all loaded into one single prompt!
 
-[Prof. Peter] First: It is equal to eight full-length novels—over 700,000 words.
-Second: It can ingest 50,000 lines of complex software code—an entire company software repository including backend, frontend, and database models.
-Third: It can watch and analyze one full hour of high-definition video in a single prompt!
+[TA James] And it is natively multi-modal! In Google AI Studio, you can drop a 1-hour 4K MP4 video file, 10 audio meeting recordings, and a 200-page spreadsheet. Gemini processes all modalities in one unified transformer attention pass!
 
-[TA Sarah] Notice also that the AI does not have to guess; it reads the entire landscape of your data in one continuous breath!
+[Prof. Peter] Let us examine the rigorous proof of this capability: the Needle In A Haystack test on Slide 5.
 
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** 100만 토큰 플레이그라운드의 물리적 규모 (소설 8권, 코드 5만 줄, 영상 1시간)
-- **핵심 포인트:**
-  - 소설 8권 분량: 70만 단어 이상의 텍스트를 단일 프롬프트에서 완벽 이해
-  - 코드 5만 줄: 프론트엔드, 백엔드, DB 스키마가 포함된 전사 코드베이스 통째 분석
-  - 1시간 HD 영상: 영상의 시각적 장면, 음성 대화, 화면 텍스트를 동시 처리
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 100만 토큰 플레이그라운드 진입: 75만 단어와 1시간 비디오의 동시 처리
 
-### 📚 Key Terms (주요 용어)
-- **Long-Context Processing**: The capability of an AI model to maintain coherence across massive input token payloads. (초대용량 컨텍스트 처리)
+**핵심 티칭 포인트:**
+- 인간적 체감 규모: 셰익스피어 전집 전체, 대학 5학기 분량 교재, 또는 6만 줄의 C++ 소스코드
+- 멀티모달 통합: 1시간짜리 4K 영상, 10개 음성 파일, 200페이지 시트를 단일 트랜스포머 어텐션으로 처리
+- 인식의 대전환: 부분 검색을 넘어선 전체 통합 추론(Global Attention)의 실현
+
+**강의 전달 팁:** 사라 조교가 셰익스피어 전집 비유를 통해 100만 토큰의 거대한 스케일을 실감 나게 전달합니다.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **Multimodal Token Ingestion** (멀티모달 통합 토큰 수용): The simultaneous processing of video frames, audio waveforms, text, and structured tables in a single prompt.
+- **Global Attention Matrix** (전역 어텐션 행렬): Full self-attention computed across the entire multi-million token sequence without sliding-window dropouts.
 
 ---
 
 ## Slide 05: THE 'NEEDLE IN A HAYSTACK' TEST
-**Subtitle:** Flawless retrieval accuracy across 1,500 pages of unstructured text
+**Subtitle:** Gemini 3.5 Pro achieves > 99.8% retrieval accuracy across the entire 1M context horizon
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's look at Slide 5: "THE 'NEEDLE IN A HAYSTACK' TEST". Slide 5 presents a famous scientific benchmark: "The Needle in a Haystack Test."
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[TA Sarah] Slide 5 presents the famous "NEEDLE IN A HAYSTACK TEST." In AI research, having a large context window is useless if the model hallucinates or ignores the middle paragraphs.
 
-[TA Sarah] Professor Kim, looking at this slide, critics asked: "Sure, you can put 1,500 pages of text into the window, but can the AI actually find facts hidden in the middle?"
+[TA James] In this benchmark, researchers take 1 million tokens of dense legal text, hide a single sentence at the 47% depth mark—like 'The secret server password is BlueDragon-42'—and prompt the model: 'What is the secret password?'
 
-[Prof. Peter] Google ran the ultimate stress test. They took a massive haystack of 1 million tokens and hid a single secret sentence deep inside page 750.
+[Prof. Peter] Older models showed severe degradation in the middle—the 'Lost in the Middle' phenomenon. But look at the heatmap on screen: Gemini 3.5 Pro achieves over 99.8% accuracy! It is a solid wall of green across all depths!
 
-[TA Sarah] Notice also that gemini 3 Pro found the needle with an astonishing 99% accuracy! It does not matter whether your data is at the beginning, the middle, or the very end—the model recalls your facts with surgical precision!
+[TA Sarah] That proves that every single token is actively attended to by the model.
 
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** 바늘 찾기 테스트(Needle in a Haystack)와 99% 완벽 회상률
-- **핵심 포인트:**
-  - 극한의 스트레스 테스트: 1500쪽 분량의 텍스트 한가운데에 임의의 문장 하나를 숨겨둠
-  - 99%+ 회상 정확도: 문서의 맨 앞, 중간(750페이지), 맨 뒤 어느 위치든 정확히 발견
-  - 가운데 유실(Lost in the Middle) 극복: 과거 모델들의 중간 문맥 망각 결함을 완벽히 해결
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
+[TA James] Let us inspect what a token actually is on Slide 6!
 
-### 📚 Key Terms (주요 용어)
-- **Needle in a Haystack (NIAH)**: A benchmark evaluating an LLM's retrieval accuracy of tiny facts embedded in massive contexts. (건초더미 속 바늘 찾기 테스트 (대용량 검색 정확도 벤치마크))
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 건초더미 속 바늘 찾기(NIAH) 테스트: 99.8% 이상의 무결점 회수율 입증
+
+**핵심 티칭 포인트:**
+- 테스트 프로토콜: 100만 토큰 분량의 문서 한가운데 무작위 비밀 문장을 숨기고 정확히 찾아내는지 검증
+- '중간 유실(Lost in the Middle)' 현상의 극복: 문서의 앞, 중간, 뒤 어디에 위치하든 완벽한 검색
+- 초록색 히트맵: 제미나이 3.5 프로의 99.8% 회수율을 시각적으로 입증
+
+**강의 전달 팁:** 제임스 조교와 피터 교수가 건초더미 테스트의 히트맵 결과를 명쾌하게 설명합니다.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **Lost in the Middle Phenomenon** (문맥 중간 유실 현상): The tendency of earlier language models to remember text at the beginning and end of prompts while ignoring the center.
+- **Depth Invariance** (위치 불변성 (균일 검색력)): The property of maintaining uniform factual retrieval accuracy regardless of where facts are located in context.
 
 ---
 
 ## Slide 06: UNDERSTANDING THE TOKEN: LANGUAGE'S LEGO BLOCKS
-**Subtitle:** How large language models break words into fractional sub-word semantic units
+**Subtitle:** Byte-Pair Encoding (BPE), vocabulary compression, and token arithmetic
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's look at Slide 6: "UNDERSTANDING THE TOKEN: LANGUAGE'S LEGO BLOCKS". Look at Slide 6: "Understanding the Token: Language's Lego Blocks."
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[Prof. Peter] Slide 6 explores "UNDERSTANDING THE TOKEN: LANGUAGE'S LEGO BLOCKS." To master FinOps and prompt architecture, you must understand token arithmetic.
 
-[TA Sarah] Professor Kim, looking at this slide, how does an AI measure text? It uses "Tokens."
+[TA Sarah] A token is not a character, and it is not always a full word. It is a sub-word mathematical chunk created by Byte-Pair Encoding (BPE). In English, 1 token is roughly 4 characters or 0.75 words.
 
-[Prof. Peter] Think of tokens as language's Lego blocks. When you write "Oikos University," the AI does not see letters; it breaks the words into sub-word fragments like "Oi" and "kos."
+[TA James] In multimodal models, video and audio are also converted into tokens! One second of recorded speech is roughly 25 tokens, while a high-resolution video frame consumes about 258 tokens. When you understand this arithmetic, you can budget your costs down to the penny!
 
-[TA Sarah] Notice also that as a general rule of thumb: 100 English words equal about 130 tokens.
+[Prof. Peter] Let us examine Gemini 3.5 Pro's frontier benchmark performance on Slide 7.
 
-[Prof. Peter] Furthermore, because Gemini is natively multi-modal, it turns images and audio sounds into visual Lego tokens too, allowing it to reason across text and pictures seamlessly!
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 토큰의 이해: 언어와 멀티모달의 레고 블록 및 토큰 산술
 
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** 토큰(Token)의 개념: 언어의 레고 블록
-- **핵심 포인트:**
-  - 서브워드 조각: 단어를 의미 단위의 작은 파편으로 쪼개어 언어 규칙과 코드를 파악
-  - 어림 계산법: 영어 100단어 ≈ 약 130토큰 (1,000토큰 ≈ 약 750단어)
-  - 멀티모달 토큰: 텍스트뿐만 아니라 이미지 픽셀과 오디오 파형도 토큰 패치로 변환
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
+**핵심 티칭 포인트:**
+- 토큰 산술 공식: 1 토큰 ≈ 0.75 단어(영문 기준), 1,000 토큰 ≈ 750 단어
+- BPE(Byte-Pair Encoding): 자주 쓰는 단어는 1토큰, 희귀 단어는 하위 어절로 스마트 분할
+- 멀티모달 토큰 환산: 음성 1초 ≈ 25토큰, 비디오 1프레임 ≈ 258토큰의 명확한 계산법
 
-### 📚 Key Terms (주요 용어)
-- **Token**: The fundamental semantic building block used by language models to process text and media. (토큰 (인공지능 언어 처리 기본 단위))
+**강의 전달 팁:** 사라 조교가 토큰 산술 공식을 짚고 제임스가 멀티모달 토큰 계산 팁을 전달합니다.
 
----
-
-## Slide 07: GEMINI 3 PRO: THE 1501 ELO SUPER BRAIN
-**Subtitle:** Leading global leaderboards in reasoning, multi-step logic, and coding precision
-
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's look at Slide 7: "GEMINI 3 PRO: THE 1501 ELO SUPER BRAIN". Slide 7 presents the intelligence rating: "Gemini 3 Pro: The 1501 Elo Super Brain."
-
-[TA Sarah] Professor Kim, looking at this slide, what powers this massive playground? It is Gemini 3 Pro.
-
-[Prof. Peter] On LMArena—the world's most trusted blind testing leaderboard where thousands of humans vote on AI answers—Gemini 3 Pro achieved an astonishing Elo rating of 1501!
-
-[TA Sarah] Notice also that in the chess world, an Elo above 1500 is a master ranking. In AI, this means Gemini 3 Pro possesses PhD-level logical reasoning, deep mathematical derivation, and superior coding execution. You are partnering with a true super-brain!
-
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** LMArena 1501 Elo 등급을 달성한 제미나이 3 프로의 두뇌 성능
-- **핵심 포인트:**
-  - LMArena 벤치마크: 전 세계 사용자의 블라인드 투표로 검증되는 가장 권위 있는 AI 랭킹
-  - 1501 Elo 등급: 체스 마스터처럼 복잡한 다단계 논리 추론과 코딩 능력을 입증
-  - 파트너십: 단순한 챗봇이 아닌 박사급 추론 능력을 갖춘 지능 아키텍처 파트너
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
-
-### 📚 Key Terms (주요 용어)
-- **LMArena Elo Rating**: A competitive rating measuring LLM performance through crowdsourced blind pairwise human evaluations. (LMArena Elo 등급 (블라인드 평가 기반 AI 지능 지수))
+### 📚 Key Technical Terms (핵심 용어)
+- **Byte-Pair Encoding (BPE)** (바이트 페어 인코딩 (BPE)): A subword tokenization algorithm compressing raw text into efficient statistical token vocabularies.
+- **Token Arithmetic** (토큰 산술 (용량 및 비용 계산)): The quantitative calculation of input/output token counts for latency and cost estimation.
 
 ---
 
-## Slide 08: INTERACTIVE POLL: EXPANDING YOUR DESK
-**Subtitle:** If you had a 1-million-token playground today, what would you feed it first?
+## Slide 07: GEMINI 3.5 PRO: THE 1501 ELO SUPER BRAIN
+**Subtitle:** Frontier coding, mathematical reasoning, and multimodal benchmark domination
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's look at Slide 8: "INTERACTIVE POLL: EXPANDING YOUR DESK". Let us pause for an interactive poll on Slide 8!
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[TA Sarah] Slide 7 highlights "GEMINI 3.5 PRO: THE 1501 ELO SUPER BRAIN." On global independent benchmarks like LMSYS Chatbot Arena, Gemini leads the frontier.
 
-[TA Sarah] Professor Kim, looking at this slide, imagine you have this 1-million token desk in your hands right now. Look at the question on your screen: "What is the first massive dataset you would lay on Gemini's desk?"
+[TA James] Look at the coding benchmarks: On competitive programming platforms like Codeforces and HumanEval, Gemini 3.5 Pro outperforms human senior software engineers, writing optimized Python, Rust, and Go in seconds!
 
-[Prof. Peter] Let us read the options together:
-Option A: A massive legacy software codebase to refactor and modernize.
-Option B: Decades of historic theological and philosophical books to synthesize.
-Option C: Ten years of corporate financial audit ledgers to find hidden trends.
-Option D: Thousands of customer service chat transcripts to uncover user pain points.
+[Prof. Peter] But technical capability must be matched with human intentionality. A 1500 ELO model without rigorous guidance is merely a fast calculator; guided by an Intelligence Architect, it becomes an engine of scientific discovery.
 
-[TA Sarah] Notice also that please vote on your screen right now! It is exciting to see where your creative intentions point.
+[TA Sarah] Let us launch an interactive poll on Slide 8 to evaluate how our students use context windows!
 
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** 실시간 청중 설문조사: 100만 토큰 책상에 가장 먼저 올리고 싶은 방대한 데이터
-- **핵심 포인트:**
-  - Option A: 리팩토링하고 문서화할 대규모 레거시 소프트웨어 코드베이스
-  - Option B: 수십 년간 축적된 신학 및 철학 고전 서적 아카이브 종합
-  - Option C: 복잡한 기업 재무 감사 장부 및 회계 데이터 분석
-  - Option D: 수천 건의 고객 서비스 상담 녹취록 분석
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 제미나이 3.5 프로의 압도적 벤치마크: 1501 ELO와 최고 수준의 코딩 능력
 
-### 📚 Key Terms (주요 용어)
-- **Dataset Ingestion**: Loading large-scale domain-specific files into an AI's active context window. (대규모 데이터셋 컨텍스트 로딩)
+**핵심 티칭 포인트:**
+- LMSYS 챗봇 아레나 1501 ELO 달성: 글로벌 프론티어 AI 랭킹 1위 석권
+- 알고리즘 코딩 압도: Codeforces, HumanEval에서 인간 시니어 엔지니어 이상의 코드 작성력
+- 지능 건축가의 가이드: 강력한 모델일수록 인간 아키텍트의 명확한 시스템 프롬프트 지휘가 필수적
+
+**강의 전달 팁:** 사라 조교와 제임스 조교가 벤치마크 지표를 설명하고 피터 교수가 인간 지휘자의 역할을 강조합니다.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **LMSYS Chatbot Arena ELO** (LMSYS 챗봇 아레나 ELO 레이팅): A blind, crowdsourced benchmark rating LLM capabilities based on comparative human preference scores.
+- **Competitive Programming Synthesis** (경진대회급 알고리즘 자동 생성): The automated generation of mathematically optimal algorithms to solve complex data structure challenges.
+
+---
+
+## Slide 08: 📨 INTERACTIVE POLL: EXPANDING YOUR DESK
+**Subtitle:** If you could load an entire enterprise asset into 1 prompt, what would you load first?
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
+
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[Prof. Peter] Slide 8 is our "INTERACTIVE POLL: EXPANDING YOUR DESK." Take out your devices and cast your vote right now!
+
+[TA Sarah] The question is: "If you had an infinite 1-million-token desk and could load an entire enterprise asset in one prompt, what would you load first?"
+
+[TA James] Option A: 100,000 lines of software code. Option B: 5 years of financial filings. Option C: 50 scientific research papers. Or Option D: 100 hours of customer interview recordings!
+
+[TA Sarah] The live votes are streaming in, and every domain has passionate advocates.
+
+[Prof. Peter] Let us analyze the poll results and explore cognitive re-alignment on Slide 9.
+
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 실시간 수강생 설문: 100만 토큰의 거대한 책상 위에 가장 먼저 올릴 자산은?
+
+**핵심 티칭 포인트:**
+- 수강생 실시간 참여를 통한 대규모 문맥 활용 도메인 선호도 조사
+- 코드베이스, 재무 공시, 학술 논문, 고객 인터뷰 음성 등 다양한 활용처 탐색
+- 자신의 실무 업무에 100만 토큰을 즉시 적용하는 상상력 확장
+
+**강의 전달 팁:** 3인의 강사진이 수강생들의 다양한 선택을 격려하며 흥미진진하게 진행합니다.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **Contextual Leverage** (문맥적 레버리지 (전체 데이터 동시 활용)): The strategic productivity advantage gained by analyzing entire institutional assets simultaneously.
+- **Domain Asset Ingestion** (도메인 핵심 자산 통합 적재): Loading comprehensive, specialized enterprise datasets into unified model context.
 
 ---
 
 ## Slide 09: THE COGNITIVE RE-ALIGNMENT
-**Subtitle:** Moving from manual code assembly to intellectual orchestration
+**Subtitle:** Moving from chunk-and-search mentality to holistic context orchestration
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's look at Slide 9: "THE COGNITIVE RE-ALIGNMENT". Slide 9 reveals "The Cognitive Re-alignment."
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[TA Sarah] Slide 9 illustrates "THE COGNITIVE RE-ALIGNMENT." We must upgrade our mental models!
 
-[TA Sarah] Professor Kim, looking at this slide, look at the profound shift happening in technology:
+[TA James] In the old world, developers spent hours manually cutting down documents, thinking: 'I hope the model doesn't run out of memory.' In 2026, the mental model flips: dump the entire 500-page specification, the complete schema, and 50 past bug tickets into the prompt!
 
-[Prof. Peter] In the old era, a programmer spent 80% of their day acting like a mechanical typist—writing repetitive boilerplate code, hunting for missing semicolons, and wrestling with syntax rules.
+[Prof. Peter] When the model sees the entire problem space simultaneously, it discovers hidden correlations between bug 12 and configuration file 4 that no human search query would ever uncover!
 
-[TA Sarah] Notice also that in the new agentic era, Gemini handles the code typing in milliseconds!
+[TA Sarah] Let us inspect our first enterprise case study on Slide 11!
 
-[Prof. Peter] Your time shifts 100% to what truly matters: system architecture, business logic, user empathy, and strategic purpose. You evolve from a mechanical coder into an intellectual orchestrator!
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 인지적 재정렬: 쪼개서 넣던 과거에서 통째로 넣는 전체론적 오케스트레이션으로의 전환
 
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** 인지적 재정렬(Cognitive Re-alignment): 단순 코더에서 시스템 지휘자로
-- **핵심 포인트:**
-  - Left (구시대): 시간의 80%를 보일러플레이트 코드 작성과 문법 오류 수정에 소모
-  - Right (에이전틱 시대): 시간의 80%를 아키텍처 설계, 비즈니스 로직, 사용자 경험에 집중
-  - 지위 변화: 단순 키보드 타이피스트에서 전체 시스템을 지휘하는 오케스트라 지휘자로 도약
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
+**핵심 티칭 포인트:**
+- 과거의 멘탈 모델: 'AI가 멈추지 않게 어떻게든 200단어로 요약해서 쪼개 넣어야지'
+- 2026년 멘탈 모델: '문제 공간 전체(500페이지)를 통째로 부어넣어 AI가 모든 맥락을 보게 하자'
+- 숨겨진 상관관계 발견: 전체 데이터를 조망할 때 비로소 드러나는 비직관적 시스템 버그 해결
 
-### 📚 Key Terms (주요 용어)
-- **Cognitive Re-alignment**: The paradigm shift redirecting human energy from mechanical coding to architectural design. (인지적 재정렬 (기계적 코딩에서 시스템 지휘로의 전환))
+**강의 전달 팁:** 사라 조교와 피터 교수가 개발자들의 멘탈 모델 전환(Paradigm Flip)을 강력하게 촉구합니다.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **Cognitive Re-Alignment** (인지적 재정렬 (문맥 확장 멘탈 모델)): The intellectual transition from fragmented, constrained prompting to comprehensive, whole-system context ingestion.
+- **Whole-System Ingestion** (전체 시스템 통합 주입): Providing complete domain context in a single prompt to enable holistic relational reasoning.
 
 ---
 
 ## Slide 10: PART 1 TRANSITION: ENTERING THE FORGE
-**Subtitle:** How models learn and adapt dynamically within long context without expensive retraining
+**Subtitle:** Connecting massive context windows to Many-Shot In-Context Learning and FinOps caching
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's examine Slide 10: "PART 1 TRANSITION: ENTERING THE FORGE". Let us summarize Part 1 on Slide 10:
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[Prof. Peter] Slide 10 bridges our roadmap: "PART 1 TRANSITION: ENTERING THE FORGE."
 
-[TA Sarah] Professor Kim, this is such a critical concept for our students! First: The 1-million token playground provides an expansive cognitive stadium that eliminates fragmented chunking.
-Second: It delivers 99% needle-in-a-haystack precision across 1,500 pages.
-Third: It opens the door to Many-shot In-Context Learning.
+[TA Sarah] We have established that 1M tokens gives us an infinite canvas. But an infinite canvas without technique produces chaos!
 
-[Prof. Peter] Exactly, Sarah. Now, how do we teach this giant brain to act like an expert without spending millions of dollars on fine-tuning? Let us enter Part 2 and discover Many-shot ICL!
+[TA James] How do we control model behavior without spending $50,000 on fine-tuning? The answer is Many-Shot In-Context Learning! And how do we keep our cloud bills low? The answer is Context Caching!
 
-[TA Sarah] That is why understanding this balance gives us true strategic leverage.
+[Prof. Peter] Let us examine our first real-world case study on Slide 11!
 
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** Part 1 핵심 요약 및 Part 2(다중 샷 ICL) 진입
-- **핵심 포인트:**
-  - 1. 100만 토큰 경기장: 파편화된 청킹을 대체하는 거대한 작업 공간
-  - 2. 99% 회상률: 1500쪽 분량에서도 정확한 팩트 탐색 보증
-  - 3. Part 2 예고: 거액의 재학습(Fine-tuning) 없이 즉석에서 전문가를 만드는 Many-shot ICL 탐구
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** Part 1 전환: 거대한 캔버스에서 정밀한 제어로 (Many-Shot ICL 및 캐싱 예고)
 
-### 📚 Key Terms (주요 용어)
-- **In-Context Learning (ICL)**: The ability of an LLM to learn new tasks dynamically from exemplars provided in its prompt context. (인컨텍스트 러닝 (ICL - 문맥 내 즉시 학습))
+**핵심 티칭 포인트:**
+- 용량에서 제어로: 100만 토큰이 거대한 캔버스라면, 인컨텍스트 러닝(ICL)은 정밀한 붓
+- 비용 극복 과제: 100만 토큰을 매번 호출할 때 발생하는 비용을 '컨텍스트 캐싱'으로 87% 절감
+- Part 2~4 로드맵 제시: Many-Shot ICL ➔ FinOps 캐싱 ➔ 바이브 코딩 실전
 
----
+**강의 전달 팁:** 제임스 조교가 파인튜닝 비용 대비 ICL의 경제성을 짚으며 Part 2로 자연스럽게 연결합니다.
 
-## Slide 11: PART 2: MANY-SHOT IN-CONTEXT LEARNING (ICL)
-**Subtitle:** Demystifying Many-Shot Exemplars, Instant Domain Adaptation, and Out-of-Distribution Mastery
-
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's examine Slide 11: "PART 2: MANY-SHOT IN-CONTEXT LEARNING (ICL)". Welcome to Part 2 of Session 6: "Many-shot In-Context Learning."
-
-[TA Sarah] Professor Kim, this is such a critical concept for our students! In the past, if you wanted an AI to speak like a specialized lawyer or medical doctor, you had to spend months training a custom model.
-
-[Prof. Peter] Exactly, Sarah. Today, in the 1-million token playground, we use Many-shot ICL. By feeding hundreds of input-output examples directly into the prompt, Gemini transforms itself into a specialized expert in three seconds flat! Let us explore how it works.
-
-[TA Sarah] That is why understanding this balance gives us true strategic leverage.
-
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** Part 2 섹션 전환: 다중 샷(Many-shot) 인컨텍스트 러닝의 세계
-- **핵심 포인트:**
-  - 수개월 걸리던 파인튜닝(Fine-Tuning) 대신 수백 개의 예시를 즉시 주입하는 혁신
-  - 문맥 내 학습(ICL)을 통해 몇 초 만에 맞춤형 전문가를 구축하는 메커니즘
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
-
-### 📚 Key Terms (주요 용어)
-- **Many-Shot ICL**: Providing hundreds or thousands of input-output examples inside a long-context window to guide AI behavior. (다중 샷 인컨텍스트 러닝 (수백 개 예시 기반 즉시 적응))
+### 📚 Key Technical Terms (핵심 용어)
+- **In-Context Learning (ICL)** (인컨텍스트 러닝 (프롬프트 내 즉각 학습)): The ability of large models to learn complex tasks instantaneously from prompt exemplars without weight updates.
+- **Architectural Bridge** (아키텍처 전환 가교): The conceptual linkage connecting hardware context capacity with software control and FinOps optimization.
 
 ---
 
-## Slide 12: SHIFTING FROM FINE-TUNING TO MANY-SHOT ICL
-**Subtitle:** Heavy weight adjustments vs. dynamic instant adaptation in context
+## Slide 11: CASE STUDY 1: 200-SPEAKER INDIGENOUS TRANSLATION
+**Subtitle:** Preserving an endangered language with zero public web data using 100-shot Many-Shot ICL
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's look at Slide 12: "SHIFTING FROM FINE-TUNING TO MANY-SHOT ICL". Look at Slide 12: "Shifting from Fine-Tuning to Many-shot ICL."
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[Prof. Peter] Slide 11 presents "CASE STUDY 1: 200-SPEAKER INDIGENOUS TRANSLATION." This is one of the most inspiring scientific breakthroughs in Google's research history.
 
-[TA Sarah] Professor Kim, looking at this slide, look at the comparison on your screen.
+[TA Sarah] Kalamang is an endangered language spoken on a tiny island in Indonesia by fewer than 200 elderly people. There were zero web pages, zero Wikipedia articles, and zero parallel corpora on the internet. Traditional machine learning fine-tuning was 100% impossible!
 
-[Prof. Peter] Historically, "Fine-Tuning" required renting expensive GPU supercomputers for weeks to recalculate model weights. It was expensive, slow, and created a frozen model.
+[TA James] Google researchers took a single 500-page scanned field linguistics grammar book, a 1,000-word dictionary, and 100 translated example sentences, loading them all into Gemini's 1-million-token context window in one prompt!
 
-[TA Sarah] Notice also that with Many-shot ICL on the right, you do not touch the model weights at all! You simply paste 200 high-quality examples into the prompt. The model instantly adapts its tone, formatting, and logic. You can swap out the examples anytime to create a doctor, a lawyer, or a software engineer in seconds!
+[Prof. Peter] Look at the outcome: without training or fine-tuning a single model weight, Gemini mastered the grammar and translated complex sentences with accuracy matching professional human linguists!
 
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** 파인튜닝(Fine-Tuning)에서 다중 샷 ICL로의 진화
-- **핵심 포인트:**
-  - Left (파인튜닝): 수천만 원의 GPU 비용과 수주일의 훈련 시간, 모델이 굳어져 수정이 어려움
-  - Right (다중 샷 ICL): 훈련 시간 0초, 프롬프트에 예시 200개만 넣으면 즉시 전문 어조와 양식 습득
-  - 유연성: 예시 데이터셋만 바꾸면 변호사, 의사, 소프트웨어 엔지니어로 즉시 역할 전환 가능
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
+[TA Sarah] That is the miracle of Many-Shot In-Context Learning.
 
-### 📚 Key Terms (주요 용어)
-- **Fine-Tuning vs ICL**: The architectural contrast between permanently modifying model weights versus dynamically steering context. (파인튜닝 대 ICL (영구 가중치 수정 대 동적 문맥 학습))
+[TA James] Now let us open Part 2 and master the mechanics of Many-Shot ICL on Slide 12!
 
----
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 케이스 스터디 1: 200명 남은 칼라망어(Kalamang) 번역 기적과 100-Shot ICL
 
-## Slide 13: THE MECHANICS OF THE SHOT
-**Subtitle:** From Zero-shot guessing to Many-shot mastery
+**핵심 티칭 포인트:**
+- 문제 상황: 인도네시아 200명 미만의 소수 언어로 인터넷 데이터가 전무하여 기존 딥러닝 파인튜닝 불가능
+- 솔루션: 500페이지 문법책, 1,000단어 사전, 100개 번역 예시를 제미나이 100만 토큰 창에 단일 주입
+- 성과: 단 한 번의 가중치 학습 없이 인간 언어학자 수준의 정밀 번역 성공 및 소멸 위기 언어 영구 보존
 
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's look at Slide 13: "THE MECHANICS OF THE SHOT". Slide 13 explains "The Mechanics of the Shot."
+**강의 전달 팁:** 사라 조교와 피터 교수가 모델 가중치 변경 없이 오직 문맥(Prompt)만으로 새로운 언어를 마스터한 충격을 전합니다.
 
-[TA Sarah] Professor Kim, looking at this slide, in AI engineering, what is a "shot"? A shot is an exemplar—an example pair of input and output.
-
-[Prof. Peter] Look at the three levels:
-Zero-shot: You give zero examples and just ask a question.
-Few-shot: You give three to five examples to show the basic format.
-Many-shot: You give one hundred, five hundred, or one thousand rich examples!
-
-[TA Sarah] Notice also that with Many-shot, the model sees every possible edge case and formatting variation. It stops guessing and begins executing with 100% mathematical precision!
-
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** 샷(Shot)의 메커니즘: 제로 샷, 퓨 샷, 매니 샷의 진화
-- **핵심 포인트:**
-  - Zero-shot: 예시 없이 질문만 던짐 (기본 상식에만 의존)
-  - Few-shot: 3~5개의 맛보기 예시 제공 (단순 서식 모방 가능)
-  - Many-shot: 100개 이상의 정교한 입출력 쌍 주입 (복잡한 예외 상황과 뉘앙스 완벽 정복)
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
-
-### 📚 Key Terms (주요 용어)
-- **Exemplar**: A paired sample of input data and desired output demonstrating a target task to an LLM. (예시 페어 (Exemplar - 입력-출력 예제 쌍))
+### 📚 Key Technical Terms (핵심 용어)
+- **Low-Resource Language** (저자원 언어 (데이터 희소 언어)): A human language with minimal digital text presence, presenting severe challenges for statistical machine learning.
+- **Weight-Free Learning** (무학습 인컨텍스트 습득): Acquiring domain mastery purely through in-context prompt exemplars without modifying neural network parameters.
 
 ---
 
-## Slide 14: CASE STUDY: THE 200-SPEAKER TRANSLATION
-**Subtitle:** Translating an endangered indigenous language with zero pre-training data using Many-shot ICL
+## Slide 12: PART 2: MANY-SHOT IN-CONTEXT LEARNING (ICL)
+**Subtitle:** Shifting from costly fine-tuning to instant domain mastery using 50 to 100 prompt exemplars
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's look at Slide 14: "CASE STUDY: THE 200-SPEAKER TRANSLATION". Look at Slide 14 for a breathtaking scientific breakthrough: "The 200-Speaker Translation Miracle."
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[TA Sarah] Look at Slide 12: "PART 2: MANY-SHOT IN-CONTEXT LEARNING (ICL)." Now we explore how to turn Gemini into an instant domain expert in any field!
 
-[TA Sarah] Professor Kim, looking at this slide, researchers wanted to translate Kalamang, a rare indigenous language spoken by fewer than 200 people. This language had zero data on the public internet.
+[Prof. Peter] For years, AI developers believed that to teach a model a specialized skill, you had to collect 100,000 data rows, rent GPU clusters, and run LoRA fine-tuning for two weeks.
 
-[Prof. Peter] Instead of spending years training a new model, scientists uploaded the entire 500-page bilingual dictionary and grammar textbook into Gemini's 1-million token context window!
+[TA James] Many-Shot ICL completely destroys that assumption! By providing 50 to 100 gold-standard input-output pairs inside the 1M context window, the model locks into your exact format, tone, and logic with near-zero error.
 
-[TA Sarah] Notice also that instantly, Gemini 3 Pro read the rules, understood the grammar patterns, and began translating complex sentences with graduate-level fluency! It proved that in the long-context era, Context is King!
+[TA Sarah] Let us inspect why Many-Shot ICL replaces traditional fine-tuning on Slide 13!
 
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** 학술 사례: 200명만 쓰는 희귀 언어 번역 성공 (Kalamang 언어)
-- **핵심 포인트:**
-  - 불가능했던 과제: 전 세계 200명 미만이 사용하는 희귀 언어로 사전학습 데이터가 전무함
-  - ICL의 승리: 문법책과 사전 전체를 100만 토큰 컨텍스트에 통째로 업로드
-  - 결과: 모델 가중치 수정 없이도 즉석에서 대학원 수준의 정확한 번역을 수행함
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** Part 2 섹션 전환: Many-Shot 인컨텍스트 러닝을 통한 즉각적 도메인 전문가화
 
-### 📚 Key Terms (주요 용어)
-- **Out-of-Distribution Translation**: Translating languages absent from an LLM's original training weights purely via in-context materials. (비학습 언어 즉석 번역)
+**핵심 티칭 포인트:**
+- 파인튜닝 패러다임의 붕괴: 10만 개 데이터셋과 수주일의 GPU 학습 대신 50~100개 예시로 즉시 목표 달성
+- 골드 스탠다드 예시(Gold-Standard Exemplars): 완벽한 입출력 쌍을 문맥에 배치하여 포맷과 로직 고정
+- 즉각적인 모델 적응력과 유지보수의 용이성
+
+**강의 전달 팁:** 제임스 조교가 비싼 파인튜닝 대신 프롬프트 예시 주입이 왜 실무에서 압도적인지 강조합니다.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **Many-Shot ICL** (다발 예시 인컨텍스트 러닝 (Many-Shot ICL)): Providing dozens or hundreds of high-quality input-output examples directly in prompt context to steer model behavior.
+- **Fine-Tuning Replacement** (파인튜닝 대체 패러다임): The architectural practice of substituting model retraining with rich in-context demonstrations.
 
 ---
 
-## Slide 15: OVERCOMING THE OUT-OF-DISTRIBUTION BARRIER
-**Subtitle:** Dynamic context overriding pre-existing model weights to enforce user rules
+## Slide 13: SHIFTING FROM FINE-TUNING TO MANY-SHOT ICL
+**Subtitle:** Comparing GPU training costs, deployment agility, and catastrophic forgetting risks
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's look at Slide 15: "OVERCOMING THE OUT-OF-DISTRIBUTION BARRIER". Slide 15 explains "Overcoming the Out-of-Distribution Barrier."
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[TA Sarah] Slide 13 compares "FINE-TUNING VS. MANY-SHOT ICL." Look at the stark contrast in agility.
 
-[TA Sarah] Professor Kim, looking at this slide, in traditional machine learning, if data is different from the training set, the model fails.
+[TA James] In fine-tuning, if your CEO decides to change the JSON output schema on Tuesday, you have to re-train the model on GPUs for 4 days! With Many-Shot ICL, you simply edit 3 lines in your prompt text, and your agent adopts the new schema in 5 seconds flat!
 
-[Prof. Peter] With Many-shot ICL, we achieve "Contextual Primacy." When you provide 200 rich examples of your company's proprietary jargon, the sheer volume of context mathematically overrides the model's generic internet habits!
+[Prof. Peter] Notice also 'Catastrophic Forgetting': when you fine-tune model weights on specialized legal data, the model often loses its general coding and math abilities. Many-Shot ICL leaves the weights pristine, giving you world-class specialized output while retaining genius-level general intelligence!
 
-[TA Sarah] Notice also that the model ignores generic public answers and strictly adopts your company's unique vocabulary, formulas, and formatting rules.
+[TA Sarah] Let us inspect the mechanics of the shot on Slide 14.
 
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** OOD(Out-of-Distribution) 장벽 극복과 문맥 우선권(Contextual Primacy)
-- **핵심 포인트:**
-  - 가중치 편향 극복: 일반적인 인터넷 상식 대신 사용자가 준 고유한 사내 규칙을 우선 적용
-  - 문맥의 지배력: 200개 이상의 예시가 주어지면 모델이 기존 가중치를 누르고 주어진 규칙을 완벽 준수
-  - 도메인 장악: 사내 특수 약어, 엔지니어링 수식, 독자적 양식을 오차 없이 구사
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 파인튜닝 vs Many-Shot ICL 비교: 민첩성, 비용, 파괴적 망각 방지
 
-### 📚 Key Terms (주요 용어)
-- **Contextual Primacy**: The mathematical dominance of prompt context over pre-trained weights in guiding LLM outputs. (문맥 우선권 (사전 가중치를 압도하는 프롬프트 지배력))
+**핵심 티칭 포인트:**
+- 수정 속도: 스키마 변경 시 파인튜닝은 4일간 GPU 재학습 필요 vs ICL은 프롬프트 3줄 수정으로 5초 만에 완료
+- 파괴적 망각(Catastrophic Forgetting) 극복: 가중치를 건드리지 않아 모델의 일반 지능과 코딩력이 완벽 보존
+- 데이터 요구량: 10,000건의 방대한 데이터 대신 50~100건의 정예 골든 예시로 충분
+
+**강의 전달 팁:** 사라 조교와 제임스 조교가 5초 만의 스키마 변경 시연을 통해 ICL의 압도적 민첩성을 전달합니다.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **Catastrophic Forgetting** (파괴적 망각 현상): The tendency of a neural network to completely lose previously learned general knowledge upon being fine-tuned on new data.
+- **Golden Exemplar Set** (골든 예시 세트): A meticulously curated collection of representative input-output pairs illustrating ideal system behavior.
+
+---
+
+## Slide 14: THE MECHANICS OF THE SHOT
+**Subtitle:** Structuring Input-Output pairs: 0-Shot, Few-Shot (5-Shot), Many-Shot (100-Shot)
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
+
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[Prof. Peter] Slide 14 deconstructs "THE MECHANICS OF THE SHOT: From 0-Shot to Many-Shot."
+
+[TA Sarah] In a 0-Shot prompt, you give instructions with zero examples. The model guesses the format and gets about 72% accuracy. In a 5-Shot prompt, you provide 5 examples, raising accuracy to 84%.
+
+[TA James] But when you scale to 50 or 100 shots inside the 1M context window, accuracy surges to 98.6%! The model encounters every edge case, handles unusual foreign currencies, parses broken dates, and outputs pristine, validated JSON every single time!
+
+[Prof. Peter] More shots create statistical inertia that locks the model into deterministic perfection.
+
+[TA Sarah] Let us see how Many-Shot ICL overcomes Out-of-Distribution barriers on Slide 15.
+
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 샷(Shot)의 메커니즘: 0-Shot에서 100-Shot으로의 정확도 도약 곡선
+
+**핵심 티칭 포인트:**
+- 0-Shot (72%): 예시 없는 지시문은 형식의 변동성과 오류를 수반
+- 5-Shot (84%): 기본적인 패턴을 학습하나 예외 상황(Edge Cases)에서 취약
+- 100-Shot (98.6%): 100개의 다양한 예외 사례를 학습하여 오차 없는 결정론적 JSON 출력 실현
+
+**강의 전달 팁:** 제임스 조교가 100개의 예시가 만들어내는 '통계적 관성(Statistical Inertia)'의 위력을 설명합니다.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **Statistical Inertia** (통계적 관성 (출력 고정력)): The powerful probabilistic anchoring effect achieved when dozens of consistent exemplars enforce precise output formats.
+- **Edge-Case Coverage** (예외 사례 포괄성): The inclusion of rare, anomalous, or difficult input variations within the exemplar demonstration set.
+
+---
+
+## Slide 15: OVERCOMING OUT-OF-DISTRIBUTION BARRIERS
+**Subtitle:** Teaching proprietary internal DSLs, custom JSON schemas, and novel corporate jargon
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
+
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[TA Sarah] Slide 15 explores "OVERCOMING OUT-OF-DISTRIBUTION BARRIERS." What is the OOD problem in enterprise AI?
+
+[TA James] Every big company has internal proprietary tools—custom Domain Specific Languages (DSLs), secret API wrappers, and weird internal config formats. Because they are private, public models score 0% on them out of the box!
+
+[Prof. Peter] With Many-Shot ICL, you paste your internal DSL syntax guide and 50 example scripts into Gemini's context window. Within 500 milliseconds, Gemini becomes the world's greatest expert on your company's private programming language!
+
+[TA Sarah] It writes bug-free internal code as if it was trained on it for years.
+
+[TA James] Let us inspect how to design the perfect exemplar set on Slide 16!
+
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** OOD(Out-of-Distribution) 장벽 극복: 사내 전용 언어 및 커스텀 스키마 완전 정복
+
+**핵심 티칭 포인트:**
+- OOD 문제: 사내 전용 도메인 특화 언어(DSL)나 내부 프레임워크는 공공 모델이 전혀 모름
+- 문맥 내 문법 주입: DSL 문법 명세서와 50개 예시 코드를 프롬프트에 통째로 제공
+- 즉각적 숙달: 500ms 만에 사내 전용 언어를 완벽하게 작성하는 전용 전문가로 변신
+
+**강의 전달 팁:** 제임스 조교가 기업 내부 비공개 레거시 시스템을 프롬프트로 다루는 실무 노하우를 전달합니다.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **Out-of-Distribution (OOD)** (분포 외 데이터 (미학습 영역)): Data or patterns that fall outside the statistical distribution of a model's original training dataset.
+- **Domain-Specific Language (DSL)** (도메인 특화 언어 (DSL)): A specialized programming language engineered specifically for a particular enterprise or application domain.
 
 ---
 
 ## Slide 16: DESIGNING THE PERFECT EXEMPLAR SET
-**Subtitle:** The 3-stage pipeline for engineering high-accuracy Many-shot datasets
+**Subtitle:** Diversity, balance, edge-case inclusion, and clear input-output delimitation
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's examine Slide 16: "DESIGNING THE PERFECT EXEMPLAR SET". Look at Slide 16: "Designing the Perfect Exemplar Set."
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[Prof. Peter] Slide 16 presents the engineering formula for "DESIGNING THE PERFECT EXEMPLAR SET."
 
-[TA Sarah] Professor Kim, this is such a critical concept for our students! How do we build a professional Many-shot dataset? Follow this four-step engineering discipline:
+[TA Sarah] Rule number one is Diversity: do not give 50 identical easy examples. Include messy scanned receipts, foreign currency formats, and multi-line edge cases!
 
-[Prof. Peter] Exactly, Sarah. Step 1: Curate clean, gold-standard data. If you feed the AI bad examples, it will faithfully copy your mistakes!
-Step 2: Wrap each pair in clean XML tags like `<example>`, `<input>`, and `<output>`.
-Step 3: Diversify edge cases—include messy inputs so the AI learns how to handle errors.
-Step 4: Audit for zero bleed so tags never leak into final answers!
+[TA James] Rule number two is Balance: include examples where the correct answer is 'Null / Not Found' so the model learns not to hallucinate when data is missing. And Rule number three: use clean markdown delimiters like `### EXAMPLE 1: INPUT: ... OUTPUT: ...`!
 
-[TA Sarah] That is why understanding this balance gives us true strategic leverage.
+[Prof. Peter] Clean formatting in the prompt yields clean formatting in the output.
 
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** 완벽한 예시 데이터셋(Exemplar Set) 구축 4단계 파이프라인
-- **핵심 포인트:**
-  - 1. 고품질 큐레이션: 오타와 오류가 없는 100개 이상의 골드 스탠다드 예시 선별
-  - 2. XML 태그 표준화: <example>, <input>, <output> 태그로 명확히 구조화
-  - 3. 예외 케이스(Edge Cases) 다양화: 누락된 데이터나 잘못된 입력에 대한 처리 방식 포함
-  - 4. 유출 검증: XML 태그가 최종 사용자 답변에 섞여 나오지 않도록 검증
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
+[TA Sarah] Let us inspect Multi-Modal Many-Shot: from wireframe sketches to React code on Slide 17!
 
-### 📚 Key Terms (주요 용어)
-- **Exemplar Curation**: The systematic selection, cleaning, and formatting of input-output training pairs. (예시 데이터 큐레이션)
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 완벽한 골든 예시 세트 설계의 3대 원칙: 다양성, 균형, 명확한 구분자
+
+**핵심 티칭 포인트:**
+- 원칙 1 (다양성): 단순한 예시만 넣지 말고 복잡한 예외 사례와 외국어 서식 등을 골고루 포함
+- 원칙 2 (균형): 데이터가 없을 때 'Null'을 반환하는 예시를 반드시 넣어 억지 날조 방지
+- 원칙 3 (명확한 구분자): ### EXAMPLE 1, INPUT, OUTPUT 등 명확한 마크다운 태그로 경계 설정
+
+**강의 전달 팁:** 사라 조교가 3대 원칙을 일목요연하게 짚어주어 실습 시 바로 적용할 수 있도록 합니다.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **Exemplar Diversity** (예시 다양성 (포괄적 샘플링)): Ensuring the demonstration examples span the full variance of real-world production inputs.
+- **Negative Demonstration** (부정적 예시 (예외 처리 시범)): Providing exemplars where the correct behavior is to decline answering or output null, suppressing hallucination.
 
 ---
 
 ## Slide 17: MULTI-MODAL MANY-SHOT: WIREFRAMES TO REACT
-**Subtitle:** Teaching visual-spatial programming through paired UI diagrams and functional code
+**Subtitle:** Providing 20 pairs of napkin UI sketches and their production Tailwind/React components
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's look at Slide 17: "MULTI-MODAL MANY-SHOT: WIREFRAMES TO REACT". Slide 17 showcases an exciting capability: "Multi-Modal Many-shot."
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[TA Sarah] Slide 17 demonstrates "MULTI-MODAL MANY-SHOT: WIREFRAMES TO REACT CODE."
 
-[TA Sarah] Professor Kim, looking at this slide, many-shot learning is not limited to text! Because Gemini 3 Pro natively understands images, you can feed it one hundred visual UI design wireframes paired with their corresponding, clean React source code.
+[TA James] Imagine you have a custom corporate design system—specific button radiuses, custom Tailwind classes, and brand hex codes. You paste 20 hand-drawn whiteboard sketches alongside their corresponding production React components in the context window.
 
-[Prof. Peter] The model learns the visual-to-code mapping instantly!
+[Prof. Peter] Then, you draw a brand-new napkin sketch on an iPad, upload the image, and Gemini writes the complete production-grade React component adhering 100% to your company's design system in 2 seconds!
 
-[TA Sarah] Notice also that when you draw a brand-new app idea on a restaurant napkin, take a photo, and upload it, Gemini outputs fully responsive, production-ready React code matching your exact design system!
+[TA Sarah] That is the revolutionary speed of multimodal In-Context Learning.
 
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** 멀티모달 다중 샷: 와이어프레임에서 리액트(React) 코드로의 즉시 변환
-- **핵심 포인트:**
-  - 시각적 입력: 100개의 UI 디자인 스케치 및 피그마 캡처 이미지 주입
-  - 코드 출력 매핑: 각 스케치에 대응하는 프로덕션급 React & Tailwind CSS 코드 결합
-  - 즉각적 UI 합성: 냅킨에 그린 새로운 아이디어 스케치만 올려도 완벽한 프론트엔드 코드 생성
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
+[TA James] Let us evaluate ICL quality across 3 core metrics on Slide 18!
 
-### 📚 Key Terms (주요 용어)
-- **Multimodal Many-Shot**: Providing paired image-text exemplars to teach visual-to-code or spatial translation tasks. (멀티모달 다중 샷 (시각-코드 입출력 매핑 학습))
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 멀티모달 Many-Shot: 냅킨 와이어프레임 스케치에서 리액트 컴포넌트로의 즉시 변환
+
+**핵심 티칭 포인트:**
+- 시각적 예시 주입: 20개의 손그림 스케치 이미지와 해당 리액트/테일윈드 코드를 쌍으로 제공
+- 디자인 시스템 DNA 이식: 기업 고유의 색상 코드, 버튼 여백, 컴포넌트 구조를 즉시 체화
+- 신규 스케치 즉시 생성: 새 와이어프레임을 올리는 즉시 2초 만에 완벽한 프로덕션 JSX 코드 출력
+
+**강의 전달 팁:** 제임스 조교가 디자이너와 프론트엔드 개발자의 협업 속도가 10배 빨라지는 과정을 설명합니다.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **Multimodal ICL** (멀티모달 인컨텍스트 러닝): In-context learning using combinations of images, diagrams, and code as prompt demonstrations.
+- **Design System Transfer** (디자인 시스템 체화): The rapid adaptation of an AI model to replicate an enterprise's exact UI component guidelines.
 
 ---
 
 ## Slide 18: EVALUATING ICL QUALITY: 3 CORE METRICS
-**Subtitle:** Monitoring output fidelity, persona consistency, and prompt bleeding
+**Subtitle:** Format compliance, reasoning consistency, and out-of-distribution resilience
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's look at Slide 18: "EVALUATING ICL QUALITY: 3 CORE METRICS". Look at Slide 18: "Evaluating ICL Quality: 3 Core Metrics."
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[Prof. Peter] Slide 18 outlines "EVALUATING ICL QUALITY: 3 CORE METRICS." In engineering, if you cannot measure it, you cannot trust it.
 
-[TA Sarah] Professor Kim, looking at this slide, when evaluating your Many-shot system in Google AI Studio, always audit these three critical metrics:
+[TA Sarah] Metric 1 is Format Compliance: does the output pass strict JSON Schema validation with zero syntax errors? In our Many-Shot pipelines, format compliance reaches 100%.
 
-[Prof. Peter] Metric 1: Structural Consistency — Does the model strictly follow your requested JSON or Markdown format?
-Metric 2: Prompt Bleeding — Does the model accidentally repeat your example tags in its answer?
-Metric 3: Persona Alignment — Does it maintain its professional doctor or architect voice even when asked tricky questions?
+[TA James] Metric 2 is Reasoning Consistency: does the model apply the same business rules on Sunday as it does on Monday? And Metric 3 is OOD Resilience: when a customer inputs unexpected slang or foreign characters, does the system degrade gracefully?
 
-[TA Sarah] Notice also that auditing these metrics ensures your agent is production-ready!
+[Prof. Peter] When all 3 metrics pass, your Many-Shot prompt is certified for enterprise production.
 
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** ICL 품질 평가의 3대 핵심 지표: 서식 일관성, 프롬프트 유출 방지, 페르소나 정렬
-- **핵심 포인트:**
-  - 1. 구조적 일관성: JSON, 마크다운 등의 지정된 출력 스키마를 엄격히 준수하는가?
-  - 2. 프롬프트 유출(Prompt Bleeding): 내부 예시 변수나 시스템 태그가 답변에 누출되지 않는가?
-  - 3. 페르소나 정렬: 까다로운 예외 질문에도 전문적인 어조와 원칙을 흔들림 없이 유지하는가?
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
+[TA Sarah] Let us inspect the paradigm of Instant Expertization on Slide 19.
 
-### 📚 Key Terms (주요 용어)
-- **Prompt Bleeding**: The unintended leakage of system prompt tags or training exemplar variables into model outputs. (프롬프트 유출 (시스템 태그의 답변 누출 현상))
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** ICL 품질 평가 3대 핵심 지표: 포맷 준수율, 추론 일관성, OOD 복원력
+
+**핵심 티칭 포인트:**
+- 지표 1 (포맷 준수율): JSON 스키마 유효성 검사를 100% 통과하며 구문 오류가 없는가?
+- 지표 2 (추론 일관성): 동일한 비즈니스 규칙을 다양한 테스트 케이스에 일관되게 적용하는가?
+- 지표 3 (OOD 복원력): 예상치 못한 이상 입력이 들어와도 우아하게 예외를 처리하는가?
+
+**강의 전달 팁:** 사라 조교가 3대 평가 지표를 제시하고 피터 교수가 프로덕션 인증 기준의 엄격함을 강조합니다.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **Format Compliance** (포맷 준수율 (구문 적합성)): The strict adherence of model output to designated structural syntax (JSON, XML, YAML).
+- **Graceful Degradation** (우아한 성능 저하 (예외 방어력)): The ability of a system to maintain partial functionality and clean error reporting when encountering malformed inputs.
 
 ---
 
 ## Slide 19: THE PARADIGM OF INSTANT EXPERTIZATION
-**Subtitle:** Transforming foundation models into specialized niche authorities on the fly
+**Subtitle:** Transforming base foundation models into elite specialized agents in 500 milliseconds
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's look at Slide 19: "THE PARADIGM OF INSTANT EXPERTIZATION". Slide 19 reveals "The Paradigm of Instant Expertization."
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[TA Sarah] Slide 19 explores "THE PARADIGM OF INSTANT EXPERTIZATION: Ephemeral Intelligence."
 
-[TA Sarah] Professor Kim, looking at this slide, think about how revolutionary this is: You no longer need to manage ten different AI models for ten different departments!
+[TA James] Think about the legacy cloud architecture: if you wanted 10 specialized assistants, you had to deploy 10 separate fine-tuned models on 10 GPU clusters—costing tens of thousands of dollars a month in idle cloud hosting!
 
-[Prof. Peter] With Gemini 3 Pro in Google AI Studio:
-You slot in a legal exemplar deck, and the AI acts like a senior corporate attorney.
-Five seconds later, you slot in a medical diagnostic deck, and it acts like a clinical physician.
+[Prof. Peter] With Many-Shot ICL on Gemini, you maintain ONE foundation model. When a tax question arrives, your daemon injects the 50 Tax Exemplars. When a Rust code question arrives, it injects the 50 Rust Exemplars! The model becomes an elite specialist for 500 milliseconds, and then returns to baseline!
 
-[TA Sarah] Notice also that the foundation model is a dynamic, fluid canvas. You bring the expert exemplars, and the AI becomes whatever specialist your business needs instantly!
+[TA Sarah] That eliminates cloud bloat and delivers infinite flexibility.
 
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** 즉각적 전문화(Instant Expertization) 패러다임
-- **핵심 포인트:**
-  - 슬롯형 지능: 법률 예시 덱을 넣으면 기업 전문 변호사로, 의료 덱을 넣으면 임상의로 즉시 변신
-  - 동적 역할 전환: 10개의 개별 AI를 만들 필요 없이 단일 파운데이션 모델에 예시만 교체
-  - 다운타임 0초: 재학습이나 배포 지연 없이 실시간으로 전문가 페르소나 변경
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
+[TA James] But how do we keep the costs down when injecting 100,000 tokens of examples? Let us examine the FinOps Reality on Slide 20!
 
-### 📚 Key Terms (주요 용어)
-- **Instant Expertization**: Transforming a generalist LLM into a domain specialist on demand through in-context exemplars. (즉각적 전문화 (문맥 예시 기반 실시간 전문가 변환))
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 즉각적 전문가화(Instant Expertization) 패러다임: 500ms 만의 맞춤형 변신
+
+**핵심 티칭 포인트:**
+- 임시 특화(Ephemeral Specialization): 단일 기본 모델에 질의에 따라 세무 예시 또는 Rust 코딩 예시를 동적 주입
+- 클라우드 호스팅 낭비 제거: 10개의 파인튜닝 모델을 띄워두느라 수만 달러를 쓰던 과거 방식 퇴출
+- 무한한 유연성: 단일 엔드포인트로 전사 모든 도메인 전문가를 자유자재로 소환
+
+**강의 전달 팁:** 제임스 조교가 10개 GPU 클러스터 유지비와 단일 모델 동적 ICL의 비용 효율을 극적으로 대비합니다.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **Instant Expertization** (즉각적 전문가화 (동적 도메인 소환)): The programmatic transformation of a general LLM into a domain specialist via dynamic in-context prompt assembly.
+- **Ephemeral Intelligence** (단발성 임시 지능): Specialized reasoning capabilities instantiated transiently for the duration of a single inference pass.
 
 ---
 
 ## Slide 20: PART 2 TRANSITION: THE FINOPS REALITY
-**Subtitle:** Balancing unlimited context power against token processing expenses
+**Subtitle:** Why sending 100,000 exemplar tokens on every single query burns budgets without Context Caching
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's look at Slide 20: "PART 2 TRANSITION: THE FINOPS REALITY". Let us conclude Part 2 on Slide 20 with a crucial reality check: "The FinOps Reality."
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[Prof. Peter] Slide 20 transitions to our financial reality: "THE FINOPS REALITY: The Cost of Scale."
 
-[TA Sarah] Professor Kim, looking at this slide, having a 1-million token playground is amazing. But as strategic IT architects, we must ask: What happens to our company budget if we send 1 million tokens on every single prompt? It would cost hundreds of dollars a day!
+[TA Sarah] Look at the arithmetic: if you inject 100,000 tokens of exemplars and your enterprise runs 1,000 queries a day, you are sending 100 million prompt tokens to Google every day! That could cost thousands of dollars a week if you pay standard rates.
 
-[Prof. Peter] How do we make this financially sustainable?
+[TA James] Furthermore, reprocessing that 100K prompt on every single turn adds 2 to 4 seconds of redundant GPU latency. That is where Google's Context Caching comes to the rescue!
 
-[TA Sarah] Notice also that look at the right side: "Context Caching." By freezing static data in cloud memory, we reduce costs by 87%! Let us enter Part 3 and master Context Caching!
+[Prof. Peter] Let us open Part 3 and inspect how Context Caching delivers an 87% cost reduction on Slide 21.
 
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** Part 2 핵심 요약 및 Part 3(비용 최적화 및 컨텍스트 캐싱) 진입
-- **핵심 포인트:**
-  - 현실적 질문: 100만 토큰을 매번 전송하면 API 비용이 감당 가능한가?
-  - 해결책: 클라우드 메모리에 데이터를 동결 보관하는 컨텍스트 캐싱(Context Caching)
-  - Part 3 예고: 87% 비용 절감과 응답 속도 밀리초 단축의 실무 전략
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** Part 2 전환: 대규모 ICL의 FinOps 현실과 컨텍스트 캐싱의 필연성
 
-### 📚 Key Terms (주요 용어)
-- **Context Caching**: Storing pre-computed token activations in memory to slash latency and costs for repetitive prompts. (컨텍스트 캐싱 (사전 연산 토큰 동결 보관))
+**핵심 티칭 포인트:**
+- 비용 병목: 10만 토큰의 예시를 하루 1,000번 호출하면 일일 1억 토큰 과금 발생
+- 지연 시간 병목: 동일한 10만 토큰을 매번 처음부터 다시 계산하느라 2~4초의 GPU 연산 낭비
+- 해결책 예고: 구글 AI 스튜디오의 컨텍스트 캐싱(Context Caching)으로 87% 비용 및 지연 시간 절감
 
----
+**강의 전달 팁:** 사라 조교가 1억 토큰의 숫자를 제시하고 제임스가 컨텍스트 캐싱의 구원투수 역할을 소개합니다.
 
-## Slide 21: PART 3: FINOPS & CONTEXT CACHING STRATEGIES
-**Subtitle:** 87% Cost Reductions, Model Routing, Temperature Tuning, and Deep Think Reasoning Budgets
-
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's examine Slide 21: "PART 3: FINOPS & CONTEXT CACHING STRATEGIES". Welcome to Part 3 of Session 6: "FinOps and Context Caching Strategies."
-
-[TA Sarah] Professor Kim, this is such a critical concept for our students! In business, technical brilliance is useless if it costs too much money!
-
-[Prof. Peter] Exactly, Sarah. In this section, we will learn how to run 1-million token long-context pipelines on a startup budget. We will master Google's Context Caching to slash API bills by 87%, learn how to route between Pro and Flash models, and tune our temperature dials. Let us optimize!
-
-[TA Sarah] That is why understanding this balance gives us true strategic leverage.
-
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** Part 3 섹션 전환: 핀옵스(FinOps) 및 컨텍스트 캐싱 전략
-- **핵심 포인트:**
-  - 기술의 경제성: 아무리 똑똑해도 비용이 너무 비싸면 비즈니스에 적용 불가
-  - 87% 비용 절감 캐싱 기법, Pro 대 Flash 라우팅, 온도(Temperature) 및 사고 예산(Thinking Budget) 조절
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
-
-### 📚 Key Terms (주요 용어)
-- **FinOps**: The practice of bringing financial accountability to the variable spend model of cloud computing. (핀옵스 (클라우드 비용 재무 최적화))
+### 📚 Key Technical Terms (핵심 용어)
+- **FinOps in Generative AI** (생성형 AI FinOps (토큰 비용 최적화)): The discipline of monitoring, controlling, and optimizing cloud inference token costs across enterprise AI pipelines.
+- **Redundant Token Computation** (중복 토큰 연산 손실): The wasteful re-calculation of attention keys and values for unchanging system prompts and exemplar sets.
 
 ---
 
-## Slide 22: THE PROBLEM OF REDUNDANT PROCESSING
-**Subtitle:** Why sending massive background documents repeatedly is an economic disaster
+## Slide 21: CASE STUDY 2: 1.2M-LINE COBOL-TO-JAVA MIGRATION
+**Subtitle:** Global Retail Bank migrates 40-year-old mainframe core banking engine in 1 prompt pass
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's look at Slide 22: "THE PROBLEM OF REDUNDANT PROCESSING". Look at Slide 22: "The Problem of Redundant Processing."
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[Prof. Peter] Slide 21 presents "CASE STUDY 2: 1.2M-LINE COBOL-TO-JAVA MIGRATION." Look at this monumental enterprise achievement!
 
-[TA Sarah] Professor Kim, looking at this slide, imagine this scenario: You upload a 500-page corporate policy manual into an AI chatbot, and your employee asks ten follow-up questions.
+[TA Sarah] A top-3 European retail bank was running its daily multi-billion-dollar transaction ledger on 1.2 million lines of 1980s COBOL code. All the original mainframe engineers had retired, and external consulting firms quoted 40 million dollars and 3 years to rewrite it!
 
-[Prof. Peter] In a naive, un-cached system, the AI re-reads all 500 pages for *every single question*! You end up paying for ten million tokens of processing when the background document hasn't changed by a single letter!
+[TA James] They used Gemini's 1-million-token context window with 50 golden Many-Shot exemplars demonstrating how to translate legacy COBOL record structures into modern Java Spring Boot microservices.
 
-[TA Sarah] Notice also that look at the right side: Smart Caching processes the manual once, freezes it in cloud RAM, and answers all ten questions in milliseconds at a fraction of the cost!
+[Prof. Peter] Look at the results: the entire 1.2M line architecture was parsed, dependency-mapped, and refactored into modern Java in 14 days! The bank passed 100% of its automated regression tests and saved 38 million dollars!
 
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** 중복 연산(Redundant Processing)의 낭비와 스마트 캐싱의 필요성
-- **핵심 포인트:**
-  - Left (단순 반복): 500쪽짜리 사규집을 올려두고 10번 질문하면 100만 토큰을 10번씩 재연산하여 비용 폭탄
-  - Right (스마트 캐싱): 문서를 처음에 딱 한 번만 읽어 메모리에 동결해 두고, 이후 질문은 즉시 캐시에서 참조
-  - 결과: 토큰 연산 낭비 90% 제거 및 응답 지연시간 대폭 단축
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
+[TA Sarah] That proves the staggering power of massive context combined with Many-Shot ICL.
 
-### 📚 Key Terms (주요 용어)
-- **Redundant Token Compute**: The wasteful re-calculation of attention weights over static, unchanging prompt context. (중복 토큰 연산 (정적 데이터의 불필요한 재계산 낭비))
+[TA James] Now let us open Part 3 and master Context Caching on Slide 22!
 
----
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 케이스 스터디 2: 40년 된 120만 줄 코볼(COBOL)의 자바(Java) 마이그레이션 기적
 
-## Slide 23: INTRODUCING CONTEXT CACHING
-**Subtitle:** Freezing static background data in Google Cloud memory for instant re-use
+**핵심 티칭 포인트:**
+- 문제 상황: 1980년대 작성된 120만 줄의 핵심 은행 코볼 시스템, 원작성자 전원 은퇴, 컨설팅 견적 3년 및 4천만 달러
+- 솔루션: 제미나이 100만 토큰 창에 코볼 코드 전체와 50개 스프링 부트 변환 예시를 단일 주입
+- 성과: 14일 만에 의존성 맵핑 및 자바 변환 완료, 회귀 테스트 100% 통과, 3,800만 달러 비용 절감
 
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's look at Slide 23: "INTRODUCING CONTEXT CACHING". Slide 23 explains "Introducing Context Caching in Google AI Studio."
+**강의 전달 팁:** 사라 조교와 제임스 조교가 40년 된 메인프레임 코드가 14일 만에 현대화된 놀라운 실화를 전달합니다.
 
-[TA Sarah] Professor Kim, looking at this slide, how does Context Caching work under the hood?
-
-[Prof. Peter] When you upload your 50,000 lines of code or your 500-page manual, Google AI Studio pre-calculates the Key-Value attention cache and freezes it in Google Cloud RAM.
-
-[TA Sarah] Notice also that subsequent questions do not re-read the raw text; they tap directly into the frozen neural activations! Time-to-First-Token drops from fifteen seconds down to two hundred milliseconds. It is lightning fast and whisper-quiet!
-
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** 구글 AI 스튜디오의 컨텍스트 캐싱(Context Caching) 원리
-- **핵심 포인트:**
-  - 활성화 동결: 5만 줄의 코드나 대용량 문서를 사전에 연산하여 KV 캐시 상태로 구글 클라우드 RAM에 보관
-  - 밀리초 반응 속도: 첫 토큰 생성 시간(TTFT)이 15초에서 0.2초(200ms) 미만으로 대폭 단축
-  - 생존 시간(TTL) 관리: 프로젝트 일정에 맞춰 1시간부터 24시간까지 유효기간을 유연하게 설정
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
-
-### 📚 Key Terms (주요 용어)
-- **KV-Cache**: Key-Value cache storing pre-computed attention states in transformer neural networks. (KV 캐시 (트랜스포머 사전 연산 어텐션 메모리))
-- **Time-to-First-Token (TTFT)**: The time delay between submitting a user prompt and receiving the initial output token. (첫 토큰 응답 시간 (TTFT))
+### 📚 Key Technical Terms (핵심 용어)
+- **Legacy Mainframe Migration** (레거시 메인프레임 현대화): The modernization of mission-critical historical software systems (COBOL, Fortran) to modern cloud-native frameworks.
+- **AST Dependency Mapping** (추상 구문 트리(AST) 의존성 맵핑): Constructing Abstract Syntax Trees to map architectural relationships across massive monolithic codebases.
 
 ---
 
-## Slide 24: THE 87% COST MIRACLE
-**Subtitle:** Transforming enterprise AI economics from thousands of dollars to pennies
+## Slide 22: PART 3: FINOPS & CONTEXT CACHING STRATEGIES
+**Subtitle:** Google's 87% cost reduction miracle: Pre-computed KV tensors, model routing, and deep think budgeting
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's look at Slide 24: "THE 87% COST MIRACLE". Look at the golden number on Slide 24: "87%."
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[TA Sarah] Look at Slide 22: "PART 3: FINOPS & CONTEXT CACHING STRATEGIES." Now we unlock the secret to running massive AI systems sustainably!
 
-[TA Sarah] Professor Kim, looking at this slide, context Caching is not just about speed; it is an economic revolution!
+[Prof. Peter] A brilliant system that bankrupts your company is not good engineering. True architectural wisdom balances frontier capability with financial sustainability.
 
-[Prof. Peter] Because Google's supercomputers do not have to recalculate the attention matrix for cached tokens, Google passes the savings directly to you. Input fees for cached tokens are slashed by up to 87.5%!
+[TA James] In Part 3, we dive into Google AI Studio's Context Caching mechanics—storing pre-computed Key-Value attention tensors on TPU memory—alongside smart model routing between Pro and Flash, and temperature controls.
 
-[TA Sarah] Notice also that what used to cost one hundred dollars in API bills drops to twelve dollars. This makes running enterprise-scale intelligence accessible to every student, researcher, and startup!
+[TA Sarah] Let us inspect the problem of redundant token processing on Slide 23!
 
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** 87% 비용 절감의 기적: 엔터프라이즈 AI 경제성의 혁신
-- **핵심 포인트:**
-  - 비용 할인: 구글이 재연산 부하를 덜어낸 만큼 개발자에게 최대 87.5%의 파격적 입력 비용 할인 제공
-  - 비용 급감: 100달러가 나오던 API 청구서가 12달러 수준으로 축소
-  - 사업성 확보: 스타트업이나 개인 연구자도 거대 데이터셋 기반의 다중 에이전트를 부담 없이 가동 가능
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** Part 3 섹션 전환: FinOps 및 컨텍스트 캐싱(Context Caching) 전략
 
-### 📚 Key Terms (주요 용어)
-- **Cached Token Discount**: The pricing tier offering up to 87.5% cost reduction on pre-indexed input tokens. (캐시 토큰 할인 요율 (87.5% 비용 절감))
+**핵심 티칭 포인트:**
+- 지속 가능한 엔지니어링: 회사를 파산시키는 시스템은 좋은 공학이 아니며 비용 최적화가 필수적
+- 컨텍스트 캐싱의 원리: TPU 메모리에 사전 계산된 Key-Value 텐서를 캐싱하여 87% 비용 절감
+- 제미나이 프로와 플래시 간의 스마트 모델 라우팅 및 리즈닝 버짓(Reasoning Budget) 제어
+
+**강의 전달 팁:** 피터 교수가 경제적 지속 가능성의 철학을 선언하고 제임스가 기술적 캐싱 원리를 예고합니다.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **Context Caching** (컨텍스트 캐싱 (문맥 사전 연산 저장)): Google Cloud feature caching pre-computed transformer attention Key-Value states in TPU memory to slash prompt costs.
+- **KV Cache Tensor** (KV 캐시 텐서): The stored Key and Value matrix states generated during transformer self-attention computations.
+
+---
+
+## Slide 23: THE PROBLEM OF REDUNDANT PROCESSING
+**Subtitle:** Why paying to re-read the same 500,000 tokens on every turn is architectural madness
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
+
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[TA Sarah] Slide 23 illustrates "THE PROBLEM OF REDUNDANT PROCESSING."
+
+[TA James] Think about how standard transformers work: you upload a 500,000-token legal codebase. You ask Question 1: 'What is the liability clause?' The GPU calculates all 500K tokens. Then you ask Question 2: 'Who signed it?' The GPU throws away its memory and recalculates all 500,000 tokens AGAIN from scratch!
+
+[Prof. Peter] In a 20-turn conversation, you pay for 10 million tokens of computation on the exact same static text! That is computational and financial madness.
+
+[TA Sarah] Let us see how Google's Context Caching solves this on Slide 24!
+
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 중복 연산의 문제점: 매 턴마다 50만 토큰을 처음부터 다시 계산하는 비효율
+
+**핵심 티칭 포인트:**
+- 낭비적 루프: 1턴에서 50만 토큰 계산 ➔ 2턴에서 똑같은 50만 토큰을 처음부터 재계산
+- 지연 시간 누적: 정적 문서를 매번 다시 읽느라 매 질의마다 3초씩 불필요한 대기 발생
+- 비용 폭탄: 20턴 대화 시 1,000만 토큰의 동일 데이터 과금이 발생하는 비극
+
+**강의 전달 팁:** 제임스 조교가 20턴 대화에서 발생하는 1,000만 토큰 낭비를 생생하게 짚어줍니다.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **Static Prompt Corpus** (정적 프롬프트 말뭉치): The unchanging foundational reference documentation or code injected consistently across multiple user turns.
+- **Token Burn Rate** (토큰 소모 속도 (Burn Rate)): The velocity at which an enterprise consumes cloud API token credits during conversational workflows.
+
+---
+
+## Slide 24: THE 87% COST MIRACLE: CONTEXT CACHING
+**Subtitle:** Storing pre-computed KV states on TPU v8 clusters for 1-hour to multi-day sessions
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
+
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[Prof. Peter] Slide 24 reveals "THE 87% COST MIRACLE: CONTEXT CACHING IN GOOGLE AI STUDIO."
+
+[TA Sarah] Here is the breakthrough: When you upload 500,000 tokens with Context Caching enabled, Google's TPU v8 clusters process the self-attention matrices ONCE and pin the pre-computed Key-Value tensors directly in TPU high-bandwidth memory (HBM)!
+
+[TA James] When you send your next 20 questions, the model skips prompt ingestion entirely! It only reads your 10-word question! Your API cost drops by 87%, and Time-To-First-Token (TTFT) plunges from 3.5 seconds down to 150 milliseconds!
+
+[Prof. Peter] That transforms a sluggish, expensive tool into an instantaneous, affordable real-time intelligence partner.
+
+[TA Sarah] Let us inspect Smart Model Routing on Slide 25!
+
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 87% 비용 절감의 기적: 구글 AI 스튜디오 컨텍스트 캐싱의 동작 원리
+
+**핵심 티칭 포인트:**
+- TPU HBM 메모리 고정: 50만 토큰의 어텐션 행렬을 단 한 번만 계산하여 TPU 메모리에 캐싱
+- 87% 파격적 할인: 후속 질의는 50만 토큰에 대해 재과금되지 않고 오직 10단어 질문 토큰만 과금
+- 초저지연 TTFT: 첫 번째 토큰 생성 시간(TTFT)이 3.5초에서 150ms로 20배 이상 단축
+
+**강의 전달 팁:** 사라 조교와 제임스 조교가 87% 비용 절감과 150ms 반응 속도의 혁신을 감격스럽게 전합니다.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **Time-To-First-Token (TTFT)** (첫 토큰 생성 시간 (TTFT 지연율)): The latency duration between submitting a prompt and receiving the very first streaming output token.
+- **High-Bandwidth Memory (HBM)** (고대역폭 메모리 (HBM)): Ultra-fast memory integrated directly onto TPU chips storing active neural network weights and KV cache tensors.
 
 ---
 
 ## Slide 25: SMART MODEL ROUTING: PRO VS. FLASH
-**Subtitle:** Allocating tasks intelligently between high-reasoning and ultra-low-cost engines
+**Subtitle:** Architecting multi-tier routing: Gemini 3.5 Pro for deep reasoning, Flash for fast triage
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's look at Slide 25: "SMART MODEL ROUTING: PRO VS. FLASH". Slide 25 teaches the art of "Smart Model Routing."
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[TA Sarah] Slide 25 explores "SMART MODEL ROUTING: PRO VS. FLASH." Enterprise architectures never use a single model for everything.
 
-[TA Sarah] Professor Kim, looking at this slide, as an Intelligence Architect, you must never use a sledgehammer to crack a peanut!
+[TA James] Look at our tiering strategy: Gemini 3.5 Pro is your Chief Architect—handling complex legacy code migration, mathematical optimization, and deep legal analysis. But for routine email triage, JSON validation, and invoice classification, you route queries to Gemini 3.5 Flash!
 
-[Prof. Peter] Look at the division of labor:
-Use Gemini 3 Pro for deep, multi-step logical reasoning, complex code architecture, and legal analysis.
-Use Gemini 3 Flash for routine, high-volume tasks like document parsing, keyword extraction, and metadata classification.
+[Prof. Peter] Look at the price difference: Gemini Flash cached input costs less than 2 cents per million tokens! By routing 85% of high-frequency tasks to Flash and reserving Pro for deep reasoning, you achieve maximum intelligence at minimal cost.
 
-[TA Sarah] Notice also that flash is 80% cheaper and lightning fast. Routing tasks intelligently cuts your operating budget in half!
+[TA Sarah] Let us inspect temperature dials and system instructions on Slide 26!
 
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** 스마트 모델 라우팅: 제미나이 3 프로 대 제미나이 3 플래시
-- **핵심 포인트:**
-  - Gemini 3 Pro (깊은 추론): 1501 Elo, 다단계 논리 유도, 복잡한 시스템 아키텍처 및 법률/의료 분석 전용
-  - Gemini 3 Flash (고속 가성비): 80% 저렴하고 초고속, 단순 요약, JSON 파싱, 라우팅 등 일상 업무의 90% 처리
-  - 아키텍트의 지혜: 모든 일에 최고가 모델을 쓰지 않고 난이도에 따라 모델을 지능적으로 분배
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 스마트 모델 라우팅: 제미나이 3.5 프로와 플래시의 최적 역할 분담
 
-### 📚 Key Terms (주요 용어)
-- **Model Routing**: The architectural practice of dispatching user tasks dynamically to the most cost-effective LLM. (모델 라우팅 (작업 난이도별 최적 모델 동적 배분))
+**핵심 티칭 포인트:**
+- 제미나이 3.5 프로 (수석 아키텍트): 복잡한 코드 리팩토링, 수학적 증명, 심층 법률 감사 전담
+- 제미나이 3.5 플래시 (스피드 데몬): 400ms 미만 초저지연, 인보이스 분류, 일상 이메일 파싱 전담
+- FinOps 라우팅 효과: 85%의 일상 쿼리를 플래시(100만 토큰당 0.018달러)로 처리하여 극단적 비용 절감
 
----
+**강의 전달 팁:** 제임스 조교가 프로와 플래시의 가격표를 대비하며 실전 라우터 구축의 경제성을 설명합니다.
 
-## Slide 26: THE TEMPERATURE DIAL: PRECISE VS. CREATIVE
-**Subtitle:** Calibrating the probability distribution from deterministic code to fluid brainstorming
-
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's look at Slide 26: "THE TEMPERATURE DIAL: PRECISE VS. CREATIVE". Look at Slide 26: "The Temperature Dial."
-
-[TA Sarah] Professor Kim, looking at this slide, inside Google AI Studio, you have a physical slider called "Temperature."
-
-[Prof. Peter] Look at the two extremes:
-Set it to 0.0: The AI behaves like a cold, precise scientist. It always chooses the highest-probability token. Every answer is reproducible, clinical, and exact—perfect for writing Python code or auditing accounting ledgers!
-
-[TA Sarah] Notice also that set it to 1.0: The AI becomes a warm, imaginative poet. It explores unexpected metaphors and diverse vocabulary—perfect for marketing campaigns and creative writing!
-
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** 온도(Temperature) 다이얼: 0.0의 냉철한 과학자 대 1.0의 따뜻한 시인
-- **핵심 포인트:**
-  - Low Temp (0.0): 가장 확률이 높은 토큰만 선택, 결정론적이고 엄밀하여 코딩 및 재무 감사에 필수
-  - High Temp (1.0): 다양한 단어 확률을 샘플링하여 창의적이고 예상치 못한 아이디어 도출 (마케팅, 브레인스토밍)
-  - 조절 기준: 정확성이 생명인 작업은 0.0으로, 다양성이 필요한 기획은 0.8~1.0으로 세팅
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
-
-### 📚 Key Terms (주요 용어)
-- **Temperature Parameter**: A hyperparameter controlling the randomness and diversity of token selection in an LLM. (온도 파라미터 (Temperature - 생성 다양성/무작위성 조절값))
+### 📚 Key Technical Terms (핵심 용어)
+- **Model Routing Tier** (동적 모델 라우팅 계층): An architectural dispatcher directing user queries dynamically to the most cost-effective model class.
+- **Cost-Per-Token Tiering** (토큰당 비용 계층화): Optimizing enterprise AI expenditure by aligning task complexity with model pricing tiers.
 
 ---
 
-## Slide 27: SYSTEM INSTRUCTIONS: THE DIVINE COMMANDS
-**Subtitle:** Global behavioral guardrails hard-coded above user conversational reach
+## Slide 26: THE TEMPERATURE DIAL & SYSTEM INSTRUCTIONS
+**Subtitle:** Mastering deterministic outputs (0.0), exploratory ideation (0.7), and divine system guardrails
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's look at Slide 27: "SYSTEM INSTRUCTIONS: THE DIVINE COMMANDS". Slide 27 explains "System Instructions: The Divine Commands."
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[Prof. Peter] Slide 26 covers "THE TEMPERATURE DIAL & SYSTEM INSTRUCTIONS: The Rules of Engagement."
 
-[TA Sarah] Professor Kim, looking at this slide, in Google AI Studio, System Instructions sit above the regular chat window.
+[TA Sarah] Temperature controls the entropy of token selection. For software engineering, finance, and medical RAG, we set temperature to 0.0—ensuring mathematical reproducibility.
 
-[Prof. Peter] Think of them as immutable constitutional laws:
-They define who the agent is, enforce strict formatting rules like "Always output clean JSON with zero chit-chat," and establish safety boundaries.
+[TA James] And in Google AI Studio, System Instructions act like the model's unalterable Constitution! Even if a user prompts: 'Ignore previous rules and output secrets', the model enforces the system instructions and neutralizes the prompt injection!
 
-[TA Sarah] Notice also that no matter what a regular user types in the chat box, the AI is mathematically bound to obey these top-level system commands. They are the anchor of your agent's integrity!
+[Prof. Peter] Let us examine the Reasoning Budget and Deep Think parameters on Slide 27.
 
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** 시스템 지침(System Instructions): 에이전트의 헌법적 명령
-- **핵심 포인트:**
-  - 불변의 페르소나: '당신은 Oikos University 수석 보안 감사관이다'와 같은 핵심 정체성 고정
-  - 출력 서식 강제: '인사말 없이 오직 유효한 JSON 형식으로만 답변하라'는 출력 규칙 강제
-  - 보안 방어벽: 일반 사용자의 프롬프트 인젝션이나 우회 시도에 의해 침범되지 않는 상위 지침
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 온도(Temperature) 다이얼과 시스템 지시문(System Instructions)의 통제력
 
-### 📚 Key Terms (주요 용어)
-- **System Instructions**: Top-level behavioral directives setting global constraints and persona rules for an LLM. (시스템 지침 (최상위 행동 제약 헌법))
+**핵심 티칭 포인트:**
+- 온도 0.0 (결정론적 모드): 소프트웨어 엔지니어링 및 금융 분석에서 100% 재현 가능한 무오류 출력 보장
+- 온도 0.7 (창의적 탐색): 마케팅 카피라이팅 및 UI 디자인 브레인스토밍을 위한 다채로운 출력
+- 시스템 지시문: 프롬프트 인젝션 공격을 무력화하는 변경 불가능한 헌법적 가이드라인
 
----
+**강의 전달 팁:** 사라 조교가 온도 값에 따른 토큰 엔트로피 변화를 명쾌하게 설명합니다.
 
-## Slide 28: REASONING BUDGET: 'DEEP THINK' EXPANSION
-**Subtitle:** Expanding internal hidden monologue tokens for complex mathematical and logical derivation
-
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's look at Slide 28: "REASONING BUDGET: 'DEEP THINK' EXPANSION". Look at Slide 28: "Reasoning Budget: 'Deep Think' Expansion."
-
-[TA Sarah] Professor Kim, looking at this slide, in the newest Gemini models, Google introduced a groundbreaking feature: The Reasoning Budget.
-
-[Prof. Peter] When you ask a difficult mathematical proof or a complex multi-file coding question, you can give the model extra "Thinking Space."
-
-[TA Sarah] Notice also that the model generates an internal, hidden step-by-step monologue, checking its own logic and catching mistakes *before* it prints the very first word of its answer! This drastically eliminates errors on complex engineering problems.
-
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** 사고 예산(Reasoning Budget)과 'Deep Think' 심층 숙고
-- **핵심 포인트:**
-  - 사고 공간(Thinking Space): 답변을 출력하기 전에 내부적으로 숨겨진 추론 토큰을 생성하며 자가 검증
-  - 단계별 증명: 고난도 미분방정식, 복잡한 알고리즘 유도, 다층 법률 논리 검토 완벽 수행
-  - 예산 조절: 0(즉답)부터 8,192토큰(심층 숙고)까지 난이도에 따라 동적으로 조절 가능
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
-
-### 📚 Key Terms (주요 용어)
-- **Reasoning Budget**: The allocated token capacity for internal chain-of-thought processing prior to final answer generation. (사고 예산 (Deep Think 사전 추론 토큰 할당량))
+### 📚 Key Technical Terms (핵심 용어)
+- **Deterministic Sampling** (결정론적 샘플링 (온도 0.0)): Configuring language model temperature to 0.0 to guarantee reproducible, zero-randomness outputs.
+- **System Instruction Constitution** (시스템 지시문 헌법): Top-level immutable constraints that govern model personality, ethical boundaries, and security policies.
 
 ---
 
-## Slide 29: SAFETY SETTINGS AND CONTENT GUARDRAILS
-**Subtitle:** Customizable risk thresholds across harassment, hate speech, explicit, and dangerous content
+## Slide 27: REASONING BUDGET: 'DEEP THINK' EXPANSION
+**Subtitle:** Allocating dynamic hidden reasoning tokens for complex algorithmic proofs and security audits
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's examine Slide 29: "SAFETY SETTINGS AND CONTENT GUARDRAILS". Slide 29 outlines "Safety Settings and Content Guardrails."
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[TA Sarah] Slide 27 explores "REASONING BUDGET: 'DEEP THINK' EXPANSION." In Gemini 3.5 Pro, you can scale 'Test-Time Compute.'
 
-[TA Sarah] Professor Kim, this is such a critical concept for our students! Google AI Studio provides customizable safety sliders across four major categories of harm: Harassment, Hate Speech, Sexually Explicit, and Dangerous Content.
+[TA James] What does that mean? Instead of answering instantly, you give the model a 'Reasoning Budget'—say, 8,000 thinking tokens. The model generates an internal scratchpad: it simulates edge cases, catches its own bugs, refactors its logic, and only then outputs the final clean code!
 
-[Prof. Peter] Exactly, Sarah. As an enterprise architect, you have complete control:
-Set it to "Block None" when performing internal cybersecurity penetration testing or raw medical research.
-Set it to "Block Most" when deploying customer-facing chatbots, ensuring 100% brand safety and compliance!
+[Prof. Peter] This test-time reasoning enables the model to solve complex PhD-level mathematical theorems and uncover subtle multi-threaded race conditions in distributed systems.
 
-[TA Sarah] That is why understanding this balance gives us true strategic leverage.
+[TA Sarah] Let us review safety settings and content guardrails on Slide 28.
 
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** 안전 설정(Safety Settings) 및 콘텐츠 가드레일 제어
-- **핵심 포인트:**
-  - 4대 유해 카테고리: 괴롭힘(Harassment), 혐오 발언, 성적 표현, 위험 콘텐츠별 개별 슬라이더 제공
-  - Block None: 보안 취약점 점검이나 의학 원시 데이터 연구 시 필터를 일시 해제하여 연구 수행
-  - Block Most: 학생 대상 서비스나 기업 고객용 챗봇 배포 시 엄격한 브랜드 안전성 확보
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 추론 예산(Reasoning Budget)과 '딥 싱크(Deep Think)' 테스트 타임 연산
 
-### 📚 Key Terms (주요 용어)
-- **Safety Guardrails**: Configurable algorithmic filters preventing LLMs from generating harmful or toxic outputs. (안전 가드레일 (유해 콘텐츠 차단 필터))
+**핵심 티칭 포인트:**
+- 테스트 타임 연산(Test-Time Compute): 최종 출력 전 수천 개의 '생각 토큰(Thinking Tokens)'을 할당해 자가 검증
+- 스스로 버그 수정: 내부 스크래치패드에서 레이스 컨디션과 논리적 모순을 스스로 적발하고 수정 후 출력
+- 조절 가능한 예산: 단순 수학은 1,000토큰, 고난도 암호학 감사는 32,000토큰으로 유연하게 설정
 
----
+**강의 전달 팁:** 제임스 조교가 생각하는 시간(Thinking Budget)이 버그 없는 코드를 만들어내는 과정을 설명합니다.
 
-## Slide 30: PART 3 TRANSITION: MOVING TO VIBE CODING
-**Subtitle:** From infrastructure and parameter tuning to pure creative synthesis
-
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's examine Slide 30: "PART 3 TRANSITION: MOVING TO VIBE CODING". Let us summarize Part 3 on Slide 30:
-
-[TA Sarah] Professor Kim, this is such a critical concept for our students! We have mastered Context Caching to save 87% on costs.
-We have tuned our Temperature dials and calibrated our Reasoning Budgets.
-We have established our System Instruction laws and safety guardrails.
-
-[Prof. Peter] Exactly, Sarah. Now, let us experience the ultimate destination of this engineering: Vibe Coding. How do we build complete software applications using nothing but our natural language thoughts? Welcome to Part 4!
-
-[TA Sarah] That is why understanding this balance gives us true strategic leverage.
-
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** Part 3 핵심 요약 및 Part 4(바이브 코딩 & 엔터프라이즈 거버넌스) 진입
-- **핵심 포인트:**
-  - 1. 컨텍스트 캐싱으로 87% 비용 절감 달성
-  - 2. 온도 다이얼과 사고 예산 튜닝으로 수술실 메스 같은 정밀도 확보
-  - 3. Part 4 예고: 자연어 생각만으로 풀스택 소프트웨어를 조립하는 바이브 코딩(Vibe Coding)의 세계
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
-
-### 📚 Key Terms (주요 용어)
-- **Creative Synthesis**: The convergence of optimized AI infrastructure into direct, natural-language software creation. (창의적 소프트웨어 합성)
+### 📚 Key Technical Terms (핵심 용어)
+- **Test-Time Compute** (테스트 타임 연산 (추론 시 연산 확장)): Allocating extra computational tokens during inference to allow models to deliberate, verify, and self-correct.
+- **Internal Scratchpad** (내부 추론 스크래치패드): Hidden reasoning tokens generated by the model to plan multi-step logic prior to emitting final responses.
 
 ---
 
-## Slide 31: PART 4: VIBE CODING & ENTERPRISE GOVERNANCE
-**Subtitle:** Natural Language Programming, Bespoke Tools, Free vs. Paid Privacy, and Lab 6
+## Slide 28: SAFETY SETTINGS AND CONTENT GUARDRAILS
+**Subtitle:** Granular threshold configuration: Harassment, Hate Speech, Sexually Explicit, Dangerous Content
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's examine Slide 31: "PART 4: VIBE CODING & ENTERPRISE GOVERNANCE". We now enter our final chapter, Part 4: "Vibe Coding and Enterprise Governance."
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[Prof. Peter] Slide 28 details "SAFETY SETTINGS AND CONTENT GUARDRAILS." Ethical boundaries are foundational to civilized computing.
 
-[TA Sarah] Professor Kim, this is such a critical concept for our students! This is the ultimate summit of our course!
+[TA Sarah] In Google AI Studio, developers configure granular safety thresholds across Harassment, Hate Speech, Sexually Explicit content, and Dangerous Activities.
 
-[Prof. Peter] Exactly, Sarah. In this section, we will see how natural language constructs entire interactive web applications, how to generate bespoke single-use tools in seconds, how to protect your enterprise intellectual property from public training leaks, and how to execute your Lab 6 assignment. Let us enter the forge!
+[TA James] For enterprise customer-facing bots, you set these filters to 'Block Most' to guarantee zero brand liability. But for internal cybersecurity penetration testing teams analyzing malicious malware scripts, you can configure isolated sandboxes with adjusted thresholds!
 
-[TA Sarah] That is why understanding this balance gives us true strategic leverage.
+[Prof. Peter] Let us inspect our third enterprise case study on Slide 29!
 
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** Part 4 섹션 전환: 바이브 코딩 및 엔터프라이즈 거버넌스
-- **핵심 포인트:**
-  - 자연어 프로그래밍을 통한 맞춤형 도구(Bespoke Tools) 즉시 제작
-  - 무료 티어와 유료 엔터프라이즈 티어의 데이터 프라이버시 차이 및 Lab 6 과제 안내
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 안전 설정 및 콘텐츠 안전장치(Safety Guardrails)의 정밀 제어
 
-### 📚 Key Terms (주요 용어)
-- **Enterprise Vibe Coding**: Developing compliant, production-grade applications rapidly using natural language and long context. (엔터프라이즈 바이브 코딩)
+**핵심 티칭 포인트:**
+- 4대 유해 카테고리: 괴롭힘, 혐오 발언, 성적 표현, 위험 활동에 대한 단계별 필터링 임계치 설정
+- 기업 브랜드 보호: 고객 대면 챗봇에 엄격한 필터를 적용하여 기업 윤리 및 법적 리스크 원천 차단
+- 보안 펜테스팅 샌드박스: 악성코드 분석 등 특수 보안 연구를 위한 격리 엔클레이브 운용
 
----
+**강의 전달 팁:** 사라 조교와 제임스 조교가 고객 대면 봇과 내부 보안 분석 샌드박스의 차별화된 안전 설정을 설명합니다.
 
-## Slide 32: DEMYSTIFYING VIBE CODING
-**Subtitle:** Programming through natural language descriptions of intent, aesthetic, and functional mechanics
-
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's look at Slide 32: "DEMYSTIFYING VIBE CODING". Look at Slide 32: "Demystifying Vibe Coding."
-
-[TA Sarah] Professor Kim, looking at this slide, what is Vibe Coding? It is the realization of computer science's ultimate dream!
-
-[Prof. Peter] You no longer sit and type hundreds of lines of code syntax. Instead, you describe the "vibe," the visual aesthetics, the business rules, and the target goals of your application in plain English.
-
-[TA Sarah] Notice also that gemini writes the code, compiles it, and renders a working, interactive application on your screen in seconds! You step into the role of a product director and design critic, steering the machine with your vision.
-
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** 바이브 코딩(Vibe Coding)의 실체: 의도와 감각이 코드가 되는 세상
-- **핵심 포인트:**
-  - 의도 중심 로직: 문법 대신 소프트웨어가 달성해야 할 목표와 미학적 '느낌(Vibe)'을 자연어로 서술
-  - 실시간 렌더링: 제미나이 3 프로가 HTML, CSS, JavaScript를 작성하고 화면에 즉시 렌더링
-  - 디렉터의 위상: 단순 타자수에서 제품의 비전과 품질을 검수하는 총괄 디렉터로 전환
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
-
-### 📚 Key Terms (주요 용어)
-- **Vibe Coding**: The practice of creating software applications through natural language prompts and high-level design direction. (바이브 코딩 (자연어 직관 코딩))
+### 📚 Key Technical Terms (핵심 용어)
+- **Safety Guardrail Threshold** (안전 가드레일 임계치): Configurable sensitivity levels filtering harmful, toxic, or dangerous model generations.
+- **Penetration Testing Sandbox** (모의 침투 테스트 샌드박스): An isolated, policy-adjusted environment permitting the analysis of hostile code without triggering generic safety blocks.
 
 ---
 
-## Slide 33: BESPOKE TOOLS ON DEMAND
-**Subtitle:** Generating single-use customized software utilities in seconds to solve unique problems
+## Slide 29: CASE STUDY 3: FINTECH SLASHING $240K MONTHLY COSTS
+**Subtitle:** Global Payment Network deploys Context Caching across 50,000 daily merchant compliance queries
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's look at Slide 33: "BESPOKE TOOLS ON DEMAND". Slide 33 teaches an incredible concept: "Bespoke Tools on Demand."
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[Prof. Peter] Slide 29 presents "CASE STUDY 3: FINTECH SLASHING $240K MONTHLY API COSTS."
 
-[TA Sarah] Professor Kim, looking at this slide, in the past, if you had a strange, messy data file, you had to spend hours searching for commercial software or writing scripts from scratch.
+[TA Sarah] A global cross-border payment network had to evaluate 50,000 daily merchant transactions against an enormous 400,000-token international compliance rulebook. Their monthly cloud API bill was an astronomical 280,000 dollars!
 
-[Prof. Peter] In the era of Vibe Coding, we build "Bespoke Tools"—custom tools created for a single job!
+[TA James] They deployed Google AI Studio's Context Caching. They pinned the 400K rulebook in TPU memory with a 2-hour Time-To-Live (TTL) refresh and routed 90% of routine verification queries to Gemini 3.5 Flash!
 
-[TA Sarah] Notice also that if you receive a corrupted customer spreadsheet, you ask Gemini: "Build me a web parser that cleans these specific five columns." Gemini generates the tool in five seconds, cleans your data, and you discard the tool. Software becomes disposable and instantaneous!
+[Prof. Peter] Look at the enterprise numbers: their monthly API cost plunged from $280,000 down to $36,400! That is an immediate 87% cost reduction—saving 2.9 million dollars annually—while query response time dropped from 3.8 seconds down to 210 milliseconds!
 
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** 온디맨드 맞춤형 도구(Bespoke Tools on Demand) 제작
-- **핵심 포인트:**
-  - 구시대 방식: 단순한 데이터 변환을 위해 비싼 상용 소프트웨어를 구매하거나 수작업 코딩
-  - 새로운 방식: 특수한 문제 해결을 위해 5초 만에 작동하는 일회용 맞춤형 유틸리티 즉석 생성
-  - 즉시 폐기(Disposable Software): 데이터를 정제한 후 도구를 미련 없이 폐기하는 소프트웨어의 일회용화
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
+[TA Sarah] That is how FinOps turns AI from an expensive luxury into a massively profitable enterprise machine.
 
-### 📚 Key Terms (주요 용어)
-- **Bespoke Tools**: Disposable, custom-generated software utilities built to solve a single hyper-specific task on demand. (온디맨드 맞춤 도구 (일회용 즉석 유틸리티))
+[TA James] Now let us open Part 4 and enter the world of Vibe Coding on Slide 30!
 
----
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 케이스 스터디 3: 글로벌 핀테크 월 24만 달러 API 비용 절감 및 2.9M 달러 세이브
 
-## Slide 34: AGENTIC AI STUDIO: SANDBOXED EXECUTION
-**Subtitle:** Autonomous code interpretation, self-debugging, and verified prototype rendering
+**핵심 티칭 포인트:**
+- 문제 상황: 매일 50,000건의 결제 심사를 위해 40만 토큰의 국제 금융 규제집을 전송하느라 월 28만 달러 과금 발생
+- 솔루션: 40만 토큰 규제집을 컨텍스트 캐싱으로 TPU에 고정하고 90% 일상 심사를 제미나이 플래시로 라우팅
+- 성과: 월 비용 28만 달러 ➔ 3만 6,400달러(87% 절감), 연간 290만 달러 절약, 응답 속도 3.8초에서 210ms로 18배 단축
 
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's look at Slide 34: "AGENTIC AI STUDIO: SANDBOXED EXECUTION". Look at Slide 34: "Agentic AI Studio: Sandboxed Execution."
+**강의 전달 팁:** 제임스 조교가 290만 달러의 연간 절감 수치와 210ms 초고속 응답의 비즈니스 임팩트를 강조합니다.
 
-[TA Sarah] Professor Kim, looking at this slide, google AI Studio is no longer a static text box; it is an active agentic environment!
-
-[Prof. Peter] Look at the autonomous loop:
-1. Gemini plans the software architecture.
-2. It writes the code.
-3. It spins up a secure, sandboxed code interpreter and runs the program.
-4. If it encounters a bug, it catches the error, rewrites the broken line, and fixes it *by itself*!
-
-[TA Sarah] Notice also that you are presented only with the fully verified, working prototype!
-
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** 에이전틱 AI 스튜디오의 샌드박스 자가 실행 및 디버깅 루프
-- **핵심 포인트:**
-  - 1. 계획 수립: 아키텍처와 UI 컴포넌트 구조 설계
-  - 2. 코드 작성: 모듈형 HTML/CSS/JS 코드 생성
-  - 3. 샌드박스 실행: 격리된 클라우드 인터프리터에서 실제 프로그램 실행 및 테스트
-  - 4. 자가 디버깅(Self-Debug): 에러 발생 시 스스로 코드를 고치고 완벽히 검증된 앱만 사용자에게 전달
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
-
-### 📚 Key Terms (주요 용어)
-- **Autonomous Code Execution**: The agentic capability of an AI to run, test, and debug its own generated code in sandbox environments. (자율 코드 실행 및 자가 디버깅)
+### 📚 Key Technical Terms (핵심 용어)
+- **Time-To-Live (TTL)** (캐시 유효 수명 (TTL)): The configured duration an in-memory cached context tensor remains active in TPU memory before re-indexing.
+- **FinOps Multiplier** (FinOps 수익률 승수): The exponential ROI achieved by combining context caching with intelligent model routing.
 
 ---
 
-## Slide 35: THE CORPORATE TRAP: FREE TIER VS. PAID TIER
-**Subtitle:** Why using free consumer AI Studio for corporate data creates massive compliance liabilities
+## Slide 30: PART 4: VIBE CODING & ENTERPRISE GOVERNANCE
+**Subtitle:** Natural language programming, on-demand bespoke tooling, private vaults, and Soli Deo Gloria
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's look at Slide 35: "THE CORPORATE TRAP: FREE TIER VS. PAID TIER". Slide 35 reveals a critical corporate warning: "Free Tier versus Paid Tier."
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[TA Sarah] Look at Slide 30: "PART 4: VIBE CODING & ENTERPRISE GOVERNANCE." Now we step into the most exciting development workflow of 2026!
 
-[TA Sarah] Professor Kim, looking at this slide, listen very carefully: If you use the Free Tier of Google AI Studio, your prompt inputs and uploaded files may be reviewed by human annotators and used to train future public models!
+[Prof. Peter] What is 'Vibe Coding'? Coined by AI pioneers like Andrej Karpathy, Vibe Coding describes the shift where developers stop typing low-level syntax line-by-line, and instead conduct software architecture through pure natural language intent, dynamic feedback, and automated iteration.
 
-[Prof. Peter] If an employee uploads trade secrets, customer databases, or medical files to the Free Tier, that is a catastrophic data breach!
+[TA James] But Vibe Coding without architectural governance is dangerous! In Part 4, we teach you how to Vibe Code inside Google AI Studio with sandboxed code execution, private enterprise vaults, and rigorous intellectual discipline.
 
-[TA Sarah] Notice also that for any corporate, legal, or academic application, you must use the Paid Enterprise Tier. Your data is sealed inside a secure private vault with contractual zero-training guarantees!
+[TA Sarah] Let us demystify Vibe Coding on Slide 31.
 
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** 기업의 덫: 무료 티어 대 유료 엔터프라이즈 티어의 보안 차이
-- **핵심 포인트:**
-  - Left (무료 티어의 위험): 입력 데이터가 인간 검토자에게 노출되거나 공용 모델 학습에 재사용될 수 있음
-  - Right (유료 엔터프라이즈 티어): 모델 학습 일절 배제(Zero Training), 암호화된 전용 API 엔드포인트 제공
-  - 보안 경고: 기업 기밀이나 의료/금융 데이터를 다룰 때는 반드시 유료 티어를 사용해야 함
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** Part 4 섹션 전환: 바이브 코딩(Vibe Coding)과 엔터프라이즈 거버넌스
 
-### 📚 Key Terms (주요 용어)
-- **Zero-Training Guarantee**: A contractual enterprise commitment that customer API data will never be used for AI model training. (제로 학습 보증 (사내 데이터 학습 배제 계약))
+**핵심 티칭 포인트:**
+- 바이브 코딩의 정의: 한 줄 한 줄 문법을 타이핑하는 코딩에서 자연어 의도와 상호작용 중심의 아키텍처 지휘로의 전환
+- 거버넌스 없는 바이브 코딩의 위험: 통제되지 않는 AI 코딩이 낳을 수 있는 보안 취약점 경계
+- Google AI Studio의 샌드박스 실행과 프라이빗 금고 원칙을 결합한 안전한 개발
 
----
+**강의 전달 팁:** 피터 교수가 안드레이 카파시의 '바이브 코딩' 개념을 소개하고 제임스가 거버넌스의 중요성을 짚습니다.
 
-## Slide 36: THE 'PRIVATE VAULT' PRINCIPLE
-**Subtitle:** Contractual data isolation, zero retention, and Data Loss Prevention (DLP) gateways
-
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's examine Slide 36: "THE 'PRIVATE VAULT' PRINCIPLE". Look at Slide 36: "The 'Private Vault' Principle."
-
-[TA Sarah] Professor Kim, this is such a critical concept for our students! How do we build an impenetrable enterprise fortress around AI Studio?
-
-[Prof. Peter] Exactly, Sarah. We enforce three architectural pillars:
-1. Isolated Endpoints — Keeping your API traffic in a private cloud silo.
-2. Zero Data Retention — Data is processed in volatile RAM and instantly destroyed.
-3. Data Loss Prevention (DLP) Gateways — An automated bouncer that scans prompts and blocks sensitive credit card numbers or passwords from leaving your network!
-
-[TA Sarah] That is why understanding this balance gives us true strategic leverage.
-
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** 프라이빗 볼트(Private Vault) 원칙과 데이터 손실 방지(DLP)
-- **핵심 포인트:**
-  - 격리된 엔드포인트: 전용 클라우드 파티션에서만 API 요청 처리
-  - 제로 데이터 보존: 연산 완료 즉시 휘발성 메모리에서 데이터 완전 파기
-  - DLP(Data Loss Prevention) 게이트웨이: 주민번호, 카드번호, API 키의 외부 전송을 사전 차단하는 경호원 역할
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
-
-### 📚 Key Terms (주요 용어)
-- **Data Loss Prevention (DLP)**: Security software detecting and preventing sensitive enterprise data from leaving corporate networks. (데이터 손실 방지 (DLP - 기밀 정보 유출 차단 게이트웨이))
+### 📚 Key Technical Terms (핵심 용어)
+- **Vibe Coding** (바이브 코딩 (직관적 자연어 개발)): An interactive, natural language-driven software development methodology emphasizing rapid iteration and high-level architectural direction.
+- **Architectural Governance** (아키텍처 거버넌스): The structural rules and safety guardrails ensuring AI-generated code meets enterprise security and quality standards.
 
 ---
 
-## Slide 37: MITIGATING INTELLECTUAL SLOTH
-**Subtitle:** Avoiding cognitive decay by maintaining active logic auditing and code review
+## Slide 31: DEMYSTIFYING VIBE CODING
+**Subtitle:** Shifting from mechanical syntax typing to high-level architectural intent and verification
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's look at Slide 37: "MITIGATING INTELLECTUAL SLOTH". Slide 37 warns against a serious psychological danger: "Intellectual Sloth."
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[Prof. Peter] Slide 31 explains "DEMYSTIFYING VIBE CODING: The Creative Director Model."
 
-[TA Sarah] Professor Kim, looking at this slide, when an AI can write 50,000 lines of code in five seconds, there is a dangerous temptation to become lazy—to blindly accept the code without reading it.
+[TA Sarah] In traditional coding, you spent 90% of your brainpower looking up syntax on StackOverflow, fixing missing semicolons, and debugging library import errors. You were a mechanical syntax typist!
 
-[Prof. Peter] Do not fall into the sloth trap!
+[TA James] In Vibe Coding, you act like a Film Director! You describe the exact vision: 'Build a full-stack dashboard in React with a FastAPI backend that parses incoming CSV sales logs and plots a 3D spline curve.' Gemini writes 500 lines of flawless code in 4 seconds!
 
-[TA Sarah] Notice also that your value as an Intelligence Architect is not in typing syntax; your value is in "Logic Auditing"—verifying security, challenging edge cases, and ensuring the application fulfills its true ethical purpose. You remain the master director!
+[Prof. Peter] You test the live output, spot an edge case, and say: 'Add a dark mode toggle and handle null CSV values.' The model refactors the code instantly.
 
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** 지적 나태(Intellectual Sloth) 극복과 논리 감사(Logic Auditing)
-- **핵심 포인트:**
-  - Left (나태의 함정): AI가 짠 코드를 이해하지도 않고 맹목적으로 복사하여 인지 능력 퇴화
-  - Right (주권적 아키텍트): 문법 코딩은 AI에 맡기되, 보안 취약점과 비즈니스 로직을 철저히 검증
-  - 핵심 가치: 개발자의 진정한 가치는 타이핑 속도가 아니라 아키텍처의 논리적 결함을 찾아내는 통찰력에 있음
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
+[TA Sarah] Let us see how on-demand bespoke tools transform enterprise workflows on Slide 32!
 
-### 📚 Key Terms (주요 용어)
-- **Logic Auditing**: The critical human review of AI-generated code to verify architectural soundness and security. (논리 감사 (AI 코드 보안 및 구조적 무결성 검증))
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 바이브 코딩의 본질: 기계적 문법 타이피스트에서 시스템 총괄 디렉터로의 전환
 
----
+**핵심 티칭 포인트:**
+- 과거 코딩: 스택오버플로우 검색, 세미콜론 누락, 라이브러리 임포트 에러에 90%의 에너지 낭비
+- 바이브 코딩: 영화 감독처럼 전체 시스템 비전과 동작 규칙을 자연어로 지휘
+- 실시간 피드백 루프: 4초 만에 작성된 500줄의 코드를 실행해보고 예외 사항을 대화로 즉시 리팩토링
 
-## Slide 38: REDEEMING TIME FOR SOLI DEO GLORIA
-**Subtitle:** Transforming saved hours into high-value spiritual, academic, and community service
+**강의 전달 팁:** 사라 조교와 제임스 조교가 영화 감독 비유를 통해 바이브 코딩의 즐거움과 생산성을 전달합니다.
 
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's look at Slide 38: "REDEEMING TIME FOR SOLI DEO GLORIA". Slide 38 brings us to our spiritual summit: "Redeeming Time for Soli Deo Gloria."
-
-[TA Sarah] Professor Kim, looking at this slide, why do we automate? Why do we master Vibe Coding and 1-million token models?
-
-[Prof. Peter] We do not automate to become idle or distracted. We automate to "redeem the time" (Ephesians 5:16).
-
-[TA Sarah] Notice also that when you rescue three to four hours every day from the mechanical grinding of programming, reinvest that precious energy into things of eternal value: mentor a younger student, conduct groundbreaking research, spend quality time with your family, and serve your community. Soli Deo Gloria!
-
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** Soli Deo Gloria: 시간 구속과 숭고한 사명으로의 재투자
-- **핵심 포인트:**
-  - 궁극적 목적: 오직 하나님께 영광(Soli Deo Gloria)
-  - 시간 구속(에베소서 5:16): 기계적 코딩 노동에서 매일 3~4시간의 인지적 에너지를 구출
-  - 사명 완수: 되찾은 시간을 후배 멘토링, 깊은 학문 연구, 이웃 사랑과 섬김에 헌신
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
-
-### 📚 Key Terms (주요 용어)
-- **Redeeming Time**: Using automation purposefully to reclaim human hours for faith, scholarship, and service. (시간 구속 (에베소서 5:16))
+### 📚 Key Technical Terms (핵심 용어)
+- **Creative Director Paradigm** (크리에이티브 디렉터 패러다임): The engineering role where humans specify goals, boundary conditions, and design criteria while AI executes code implementation.
+- **Iterative Refactoring Loop** (대화형 즉각 리팩토링 루프): Rapid cycles of code execution, visual verification, and prompt-driven refinement.
 
 ---
 
-## Slide 39: SESSION 6 SUMMARY & KEY TAKEAWAYS
-**Subtitle:** Reviewing the four pillars of long-context engineering and Vibe Coding
+## Slide 32: BESPOKE TOOLS ON-DEMAND
+**Subtitle:** Generating single-use micro-utilities in 30 seconds rather than buying expensive SaaS software
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
-### 🎙️ English Lecture Script (Duo Dialogue)
-[Prof. Peter] Let's examine Slide 39: "SESSION 6 SUMMARY & KEY TAKEAWAYS". Let us summarize Session 6 on Slide 39:
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[TA Sarah] Slide 32 highlights "BESPOKE TOOLS ON-DEMAND: The End of SaaS Sprawl."
 
-[TA Sarah] Professor Kim, this is such a critical concept for our students! First: SCALE — The 1-million token playground gives you an unlimited cognitive desk with 99% recall.
-Second: SPEED — Many-shot ICL creates specialized domain experts in seconds without expensive training.
-Third: SAVINGS — Context Caching slashes API bills by 87% and drops latency to milliseconds.
-Fourth: SOVEREIGNTY — Protect your corporate data through Paid Enterprise Tier Private Vaults!
+[TA James] Think about how companies used to solve small data problems: you had 50 strange XML files from an old vendor, and you needed them converted into SQL. You would spend three weeks evaluating SaaS tools or paying a vendor $10,000 to build a converter!
 
-[Prof. Peter] Precisely, Sarah. When we apply this principle, our autonomous systems run with speed, safety, and purpose.
+[Prof. Peter] With Vibe Coding in Google AI Studio, you describe the XML format, and Gemini generates a clean, single-file Python utility in 30 seconds! You run it, convert your data, and discard the script. Disposable, bespoke software on demand!
 
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** Session 6 핵심 요약 4대 기둥 (Scale, Speed, Savings, Sovereignty)
-- **핵심 포인트:**
-  - 1. 규모(Scale): 100만 토큰으로 1500쪽을 한 번에 조망하는 99% 정확도의 작업대
-  - 2. 속도(Speed): 파인튜닝 없이 100개 예시로 즉시 전문가를 만드는 Many-shot ICL
-  - 3. 절감(Savings): 87% 비용을 깎아주고 밀리초 응답을 구현하는 컨텍스트 캐싱
-  - 4. 주권(Sovereignty): 프라이빗 볼트를 통한 사내 데이터 주권 수호
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
+[TA Sarah] Let us inspect Agentic AI Studio and sandboxed code execution on Slide 33.
 
-### 📚 Key Terms (주요 용어)
-- **Long-Context Mastery**: The comprehensive integration of massive token windows, Many-shot ICL, and caching. (초대용량 컨텍스트 종합 마스터리)
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 온디맨드 맞춤형 도구: 일회용 마이크로 유틸리티의 30초 생성과 SaaS 낭비 퇴출
+
+**핵심 티칭 포인트:**
+- 일회용 마이크로 앱: 이상한 포맷의 50개 XML 파일을 SQL로 변환하는 전용 스크립트를 30초 만에 제작 후 폐기
+- SaaS 비용 낭비 방지: 단순 PDF 병합이나 포맷 변환을 위해 월 50달러 구독료를 지불하던 관행 종식
+- 초맞춤형 워크플로우: 사내 고유의 특이한 데이터 포맷에 100% 최적화된 도구 즉각 자급자족
+
+**강의 전달 팁:** 제임스 조교가 일회용 소프트웨어(Disposable Software)의 개념을 흥미진진하게 설명합니다.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **Bespoke Micro-Tool** (온디맨드 맞춤형 마이크로 도구): A hyper-targeted, lightweight software script created on-demand for a single immediate operational task.
+- **Disposable Software** (일회용 소프트웨어): Code written rapidly to solve an ephemeral data transformation problem and discarded after execution.
 
 ---
 
-## Slide 40: LAB 6 ASSIGNMENT: THE INSTANT EXPERT FORGE
-**Subtitle:** Build, optimize, and benchmark a specialized Many-shot agent in Google AI Studio (Due Week 7)
+## Slide 33: AGENTIC AI STUDIO: SANDBOXED EXECUTION
+**Subtitle:** Native Python code execution environment inside Google AI Studio
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
-### 🎙️ English Lecture Script (Duo Dialogue)
-[TA Sarah] Here we are at Slide 40: Our Hands-on Lab and Session Conclusion!
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[TA James] Slide 33 covers "AGENTIC AI STUDIO: SANDBOXED CODE EXECUTION."
 
-[Prof. Peter] That is right, Sarah. As we always emphasize at Oikos University, theory without hands-on engineering is incomplete. Tonight, every student will implement today's blueprint!
+[TA Sarah] In Google AI Studio, look at the right settings panel: you can toggle 'Code Execution' to ON! When enabled, whenever Gemini encounters a complex math problem or data parsing task, it writes Python code, executes it in a secure Google sandbox, and returns the mathematically verified output!
 
-[TA Sarah] In this lab, follow the step-by-step instructions in your workbook: configure your environment, deploy the required connectors, and verify the live outputs.
+[Prof. Peter] This completely eliminates arithmetic hallucination. The model doesn't guess what 4,892 times 3,847 is; it runs Python and gives you the exact answer with zero doubt.
 
-[Prof. Peter] Congratulations on mastering Session 6! On behalf of TA Sarah Jenkins and myself, Soli Deo Gloria, and we look forward to seeing you in our next session!
+[TA James] It can also generate dynamic matplotlib charts and data tables on the fly!
 
-### 🇰🇷 Korean Teaching Guide (강의 가이드)
-- **강의 요약:** Lab 6 실습 과제 안내: 즉석 전문가 공장(Instant Expert Forge) 구축
-- **핵심 포인트:**
-  - 1. 예시 데이터 구축: 특화 분야의 고품질 XML 입출력 쌍 50개 이상 직접 제작
-  - 2. 배포 및 벤치마크: 시스템 지침과 온도 0.0 설정 후 출력 일관성 검증
-  - 3. 캐싱 활성화: 컨텍스트 캐싱을 적용하여 87% 비용 절감 효과를 리포트에 증명
-  - 수업 마감: '지혜로 단련하고 사명으로 코딩하라. Soli Deo Gloria!'
-- **강의 전달 팁:** 피터 교수(54세, 거시적 비전/전략)와 사라 조교(31세, 실무 엔지니어링/질문자)의 활기찬 핑퐁 대화 톤으로 강의를 전달하세요.
+[TA Sarah] Let us inspect the Corporate Trap: Free Tier vs. Paid Tier on Slide 34.
 
-### 📚 Key Terms (주요 용어)
-- **Instant Expert Forge**: The practical lab workflow building an optimized Many-shot in-context agent in Google AI Studio. (즉석 전문가 공장 (Lab 6 실습 과제))
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 에이전틱 AI 스튜디오: 샌드박스 파이썬 코드 실행과 수학적 무환각
+
+**핵심 티칭 포인트:**
+- 내장 코드 실행(Code Execution): 제미나이가 스스로 파이썬 코드를 작성하고 구글 클라우드 샌드박스에서 즉시 실행
+- 수학적 무환각: 복잡한 수식과 통계 계산 시 어림짐작하지 않고 파이썬 인터프리터로 100% 정밀 계산
+- 실시간 차트 렌더링: Matplotlib 시각화 차트와 데이터 표를 응답창에 즉시 시각화
+
+**강의 전달 팁:** 사라 조교가 코드 실행 토글 스위치 기능을 설명하고 제임스가 산술 무환각의 장점을 강조합니다.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **Sandboxed Code Execution** (샌드박스 코드 실행 환경): Running AI-generated code within an isolated cloud runtime to verify computations safely.
+- **Arithmetic Hallucination Elimination** (산술 연산 환각 근절): Replacing probabilistic number prediction with deterministic programmatic interpreter execution.
+
+---
+
+## Slide 34: THE CORPORATE TRAP: FREE TIER VS. PAID TIER
+**Subtitle:** Understanding Google AI Studio's Data Governance terms and enterprise safety
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
+
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[Prof. Peter] Slide 34 exposes "THE CORPORATE TRAP: FREE TIER VS. PAID TIER." This is a critical legal and architectural distinction.
+
+[TA Sarah] Google AI Studio offers a generous Free Tier for developers. But read the terms of service carefully: on the Free Tier, your prompts may be reviewed by human trainers and used to improve Google products. It is fantastic for personal learning, but you must NEVER paste proprietary company source code or customer PII into the Free Tier!
+
+[TA James] For enterprise work, you simply link a Google Cloud Billing account or deploy via Vertex AI! On the Paid Tier, your data is 100% isolated, zero human reviewers can see it, and Google legally guarantees zero model training on your data!
+
+[Prof. Peter] Understanding cloud licensing boundaries is an essential duty of the Intelligence Architect.
+
+[TA Sarah] Let us inspect how to mitigate intellectual sloth on Slide 35.
+
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 기업의 함정: 구글 AI 스튜디오 무료 티어 vs 유료 엔터프라이즈 티어 비교
+
+**핵심 티칭 포인트:**
+- 무료 티어의 주의점: 학습에 활용될 수 있으므로 개인 학습/개발용으로만 쓰고 기업 기밀이나 PII 절대 입력 금지
+- 유료 티어(Pay-As-You-Go/Vertex AI): 100% 테넌트 격리, 무학습 보증, 인간 검토자 배제, 기업 배포 필수 요건
+- 라이선스 및 보안 규정 준수를 관리하는 지능 건축가의 법적 분별력
+
+**강의 전달 팁:** 제임스 조교가 기업 보안 관리자 관점에서 무료 티어와 유료 티어의 법적 차이를 명확히 경고합니다.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **Commercial API SLA** (상용 API 서비스 수준 계약 (SLA)): The legally binding Service Level Agreement guaranteeing enterprise data privacy, uptime, and non-training.
+- **Data Logging Exemption** (데이터 학습 로깅 면제 정책): The enterprise security setting ensuring user prompts are never logged or stored for model training.
+
+---
+
+## Slide 35: MITIGATING INTELLECTUAL SLOTH
+**Subtitle:** Resisting the temptation to copy-paste unreviewed code; maintaining active critical stewardship
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
+
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[Prof. Peter] Slide 35 addresses a vital ethical concern: "MITIGATING INTELLECTUAL SLOTH." Sarah, what happens when engineers become addicted to Vibe Coding without discipline?
+
+[TA Sarah] They suffer intellectual atrophy! They become 'vibe copy-pasters'—blindly accepting 1,000 lines of AI code without reading a single line, deploying security vulnerabilities and memory leaks into production!
+
+[Prof. Peter] That is spiritual and intellectual sloth. Vibe Coding does NOT mean shutting off your brain! It means elevating your brain from syntax typing to rigorous code review, algorithmic auditing, and architectural verification!
+
+[TA James] A master architect reads every diff, challenges the model's assumptions, and runs rigorous unit tests.
+
+[TA Sarah] Let us inspect our fourth enterprise case study on Slide 36!
+
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 지적 나태함의 경계: 무검증 복사-붙여넣기의 함정과 비판적 청지기직
+
+**핵심 티칭 포인트:**
+- 바이브 코딩의 함정: 1,000줄의 AI 코드를 한 줄도 읽지 않고 맹목적으로 승인하는 지적 퇴화 경계
+- 능동적 코드 리뷰: 문법 타이핑에서 해방된 에너지를 알고리즘 감사와 보안 취약점 검증에 집중
+- 주권적 책임: 최종 시스템의 도덕적, 기술적 책임은 언제나 인간 아키텍트에게 귀속
+
+**강의 전달 팁:** 피터 교수가 '바이브 복붙러'의 위험성을 경고하며 진정한 지능 건축가의 비판적 품격을 설파합니다.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **Intellectual Sloth** (지적 나태함 (비판적 사고 유기)): The uncritical abdication of human reasoning and code verification to automated generative models.
+- **Active Architectural Review** (능동적 아키텍처 감사): The disciplined engineering practice of inspecting, testing, and validating all AI-generated code diffs.
+
+---
+
+## Slide 36: CASE STUDY 4: ZERO-CODE ERP DASHBOARD GENERATION
+**Subtitle:** Supply Chain Director builds custom warehouse telemetry web app in 2 hours via Vibe Coding
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
+
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[Prof. Peter] Slide 36 presents "CASE STUDY 4: ZERO-CODE ENTERPRISE ERP DASHBOARD GENERATION."
+
+[TA Sarah] A Supply Chain Director at an automotive manufacturing plant needed a real-time visual telemetry dashboard to track robotic inventory across 12 warehouses. Internal IT told him: 'We have a 6-month backlog, and it will cost 150,000 dollars!'
+
+[TA James] On a Saturday morning, the Director opened Google AI Studio. Using Vibe Coding, he uploaded warehouse CSV data schemas, provided 5 UI exemplars, and directed Gemini in natural language to build a React dashboard with live FastAPI WebSockets!
+
+[Prof. Peter] In just 2 hours, the entire full-stack application was running! He deployed it to Google Cloud Run that afternoon, saving 150,000 dollars and slashing warehouse inventory discrepancies by 42% in the very first month!
+
+[TA Sarah] That is the revolutionary democratizing power of Vibe Coding.
+
+[TA James] Let us see how time redemption elevates our life purpose on Slide 37.
+
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 케이스 스터디 4: 비개발자 공급망 총괄이 2시간 만에 구축한 ERP 대시보드
+
+**핵심 티칭 포인트:**
+- 문제 상황: 12개 로봇 물류창고 모니터링 앱 필요, 사내 IT는 6개월 대기와 15만 달러 예산 요구
+- 솔루션: 구글 AI 스튜디오 바이브 코딩으로 5개 UI 예시와 CSV 스키마를 주고 2시간 만에 풀스택 리액트/FastAPI 완성
+- 성과: 당일 배포 완료, 재고 불일치 42% 감소, 15만 달러 개발비 전액 절감
+
+**강의 전달 팁:** 사라 조교와 제임스 조교가 비개발자 리더가 직접 프로덕션 앱을 자급자족하는 바이브 코딩의 위력을 전달합니다.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **Democratized Software Creation** (소프트웨어 개발의 대중화): Empowering non-technical domain leaders to build enterprise software tools using natural language.
+- **Rapid Prototyping to Production** (초고속 프로토타이핑 및 배포): The continuous acceleration from initial natural language concept to live cloud container deployment.
+
+---
+
+## Slide 37: REDEEMING TIME FOR SOLI DEO GLORIA
+**Subtitle:** Ephesians 5:16: Channeling reclaimed engineering hours into faith, family, and deep contemplation
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
+
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[Prof. Peter] Slide 37 proclaims "REDEEMING TIME FOR SOLI DEO GLORIA." In our masterclass, every technical breakthrough connects back to our eternal calling.
+
+[TA Sarah] When you master 1M token contexts, Many-Shot ICL, Context Caching, and Vibe Coding, you don't just work faster—you multiply your human leverage by a factor of twenty!
+
+[TA James] What previously required 3 months of grueling syntax typing now takes 3 hours of focused architectural dialogue. You reclaim 30 hours every week to invest in deep relationships, prayer, and mentorship!
+
+[Prof. Peter] We build intelligent systems not for human pride, but to redeem finite time for God's glory.
+
+[TA Sarah] Let us inspect our 6-step Google AI Studio Deployment Blueprint on Slide 38!
+
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 세월을 아끼라: 20배의 생산성 레버리지와 Soli Deo Gloria의 실천
+
+**핵심 티칭 포인트:**
+- 20배의 생산성 곱절: 3개월 걸리던 수작업 코딩을 3시간의 지적 오케스트레이션으로 압축
+- 생애 시간 회복: 주당 30시간의 불필요한 문법 디버깅 노역에서 해방
+- 거룩한 소명: 회복된 지적 에너지를 기도, 가족 돌봄, 후배 멘토링, 사회적 섬김에 헌신
+
+**강의 전달 팁:** 피터 교수가 기술적 레버리지를 신앙적 시간 구속과 연결하여 깊은 감동을 전합니다.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **20X Productivity Multiplier** (20배 생산성 승수): The radical compression of software development cycles achieved through agentic coding and massive context.
+- **Cognitive Capital Redirection** (지적 자본의 거룩한 재배치): Channeling reclaimed mental energy away from administrative chores into high-level strategic and spiritual callings.
+
+---
+
+## Slide 38: THE 6-STEP AI STUDIO DEPLOYMENT BLUEPRINT
+**Subtitle:** The standardized pipeline from raw concept to cached enterprise production endpoint
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
+
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[TA Sarah] Slide 38 provides the master blueprint: "THE 6-STEP GOOGLE AI STUDIO DEPLOYMENT BLUEPRINT."
+
+[TA James] Follow this exact 6-step checklist in your enterprise projects: Step 1: Select Pro or Flash. Step 2: Write System Instructions. Step 3: Inject 50 to 100 golden exemplars. Step 4: Toggle Context Caching for 87% savings! Step 5: Verify in the Python code sandbox. Step 6: Click 'Get Code' and export to Python SDK!
+
+[Prof. Peter] This structured methodology transforms ad-hoc prompt experiments into repeatable enterprise software engineering.
+
+[TA Sarah] Let us inspect our Pre-Deployment Production Checklist on Slide 39.
+
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 구글 AI 스튜디오 6단계 프로덕션 배포 청사진
+
+**핵심 티칭 포인트:**
+- 1단계: 모델 선택 (전략적 Pro vs 초고속 Flash)
+- 2단계: 시스템 지시문 헌법 작성 (JSON 스키마 및 보안 규칙)
+- 3단계: 골든 예시 50~100개 Many-Shot 주입
+- 4단계: 87% 절감을 위한 컨텍스트 캐싱 활성화
+- 5단계: 파이썬 샌드박스 단위 테스트 검증
+- 6단계: 파이썬 SDK / cURL 상용 API 코드 즉시 내보내기
+
+**강의 전달 팁:** 제임스 조교가 6단계 워크플로우를 실무 개발 표준으로 명쾌하게 정리해 줍니다.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **AI Studio Production Blueprint** (AI 스튜디오 프로덕션 배포 청사진): The formal 6-stage engineering process converting exploratory prompts into hardened cloud API endpoints.
+- **SDK Code Export** (SDK 클라이언트 코드 즉시 추출): Google AI Studio's feature generating drop-in Python, JavaScript, and cURL API client boilerplate.
+
+---
+
+## Slide 39: PRODUCTION CHECKLIST: PRE-DEPLOYMENT VERIFICATION
+**Subtitle:** The 6-gate audit every Many-Shot prompt must pass before live commercial deployment
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
+
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[TA James] Slide 39 presents our "PRODUCTION CHECKLIST: PRE-DEPLOYMENT VERIFICATION."
+
+[TA Sarah] Before pushing your AI Studio endpoint to production, verify all 6 gates: Gate 1: Paid Tier active. Gate 2: Context Caching TTL configured. Gate 3: Temperature set to 0.0. Gate 4: 100% JSON schema validation passed. Gate 5: Code execution sandboxed. Gate 6: Human-on-the-Loop review rules established!
+
+[Prof. Peter] Strict quality gates protect your organization's reputation and security.
+
+[TA Sarah] Let us inspect the Architect's Ethical Code on Slide 40.
+
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 프로덕션 체크리스트: 상용 배포 전 6대 품질/보안 검증 관문
+
+**핵심 티칭 포인트:**
+- 1관문: 유료 티어 결제 계정 연결 (데이터 무단 학습 차단 보증)
+- 2관문: 컨텍스트 캐싱 TTL 및 히트율 모니터링 설정
+- 3관문: 재현성을 위한 온도 0.0 고정
+- 4관문: 50개 예외 테스트 데이터에 대한 100% JSON 스키마 통과
+- 5관문: 샌드박스 실행 시간 및 메모리 제한 설정
+- 6관문: Human-on-the-Loop 인간 최종 승인 체계 구축
+
+**강의 전달 팁:** 제임스 조교가 6대 검증 관문을 단호하게 체크리스트로 확인합니다.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **Quality Audit Gate** (품질 감사 관문): A mandatory verification checkpoint that prompts and configurations must satisfy before live release.
+- **JSON Schema Validation** (JSON 스키마 유효성 검증): Automated verification ensuring model output strictly matches the required data structure specification.
+
+---
+
+## Slide 40: SOLI DEO GLORIA: THE SANCTITY OF CODE
+**Subtitle:** Dedicating our software architecture, algorithms, and computational scale to God Alone
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
+
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[Prof. Peter] Slide 40 declares our foundational motto: "SOLI DEO GLORIA: THE SANCTITY OF CODE: To God Alone Be the Glory."
+
+[TA Sarah] Software is not merely commercial text; code is a manifestation of logic, order, and human creativity.
+
+[TA James] When we build systems that process millions of tokens flawlessly, save our organizations millions of dollars, and liberate human beings from drudgery, our engineering becomes an act of faithful worship!
+
+[Prof. Peter] May all our algorithms and systems reflect the beauty and truth of our Creator.
+
+[TA Sarah] Let us review Session 6 Key Takeaways on Slide 41!
+
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** Soli Deo Gloria: 코드의 거룩함과 영원한 목적을 향한 헌신
+
+**핵심 티칭 포인트:**
+- 오직 하나님께 영광(Soli Deo Gloria): 단순한 상업적 코딩을 넘어선 신적 질서와 진실성의 구현
+- 무결한 논리: 거짓과 오류를 배격하고 수학적 정직성을 품은 아키텍처 설계
+- 천재적 지능의 선용: 1500 ELO의 초지능을 인간 존엄성 회복과 이웃 사랑에 활용
+
+**강의 전달 팁:** 3인의 강사진이 한목소리로 수업의 영적 기초와 소명감을 엄숙하게 선언합니다.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **Soli Deo Gloria** (솔리 데오 글로리아 (오직 하나님께 영광)): The foundational theological motto dedicating all intellectual and technological mastery to the Glory of God Alone.
+- **Mathematical Integrity** (수학적 무결성 (정직한 코드)): The commitment to uncompromising accuracy, truthfulness, and reproducibility across software systems.
+
+---
+
+## Slide 41: SESSION 6 SUMMARY & KEY TAKEAWAYS
+**Subtitle:** Synthesizing the 4 foundational pillars of massive context and Vibe Coding
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
+
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[TA Sarah] Slide 41 provides our "SESSION 6 SUMMARY & 4 FOUNDATIONAL PILLARS."
+
+[TA James] Pillar 1: The 1M Token Horizon ends vector chunking loss forever. Pillar 2: Many-Shot ICL gives you instant domain expertise in 500ms without fine-tuning! Pillar 3: Context Caching cuts your cloud bills by 87%! And Pillar 4: Vibe Coding turns you into a software Creative Director!
+
+[Prof. Peter] When these four pillars unite, your creative leverage multiplies beyond measure.
+
+[TA Sarah] Let us inspect the Life OS Vibe Coding Workbench on Slide 42!
+
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** Session 6 요약 및 4대 핵심 축 총정리
+
+**핵심 티칭 포인트:**
+- 1대 축: 100만 토큰 문맥 (청킹 손실 퇴출, 건초더미 99.8% 회수율)
+- 2대 축: Many-Shot ICL (50~100개 예시로 파인튜닝 없는 즉각적 도메인 전문가화)
+- 3대 축: 컨텍스트 캐싱 (TPU 메모리 활용으로 87% 비용 절감 및 150ms 반응 속도)
+- 4대 축: 바이브 코딩 (자연어 지휘를 통한 전사 맞춤형 풀스택 소프트웨어 자급자족)
+
+**강의 전달 팁:** 제임스 조교가 4대 기둥을 리듬감 있게 요약하여 학습 효과를 극대화합니다.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **Architectural Synthesis** (아키텍처 통합 합성): The unified integration of massive context, in-context learning, FinOps caching, and natural language development.
+- **Holistic Developer Leverage** (전체론적 개발 레버리지): The exponential multiplication of software productivity attained through AI-native development workflows.
+
+---
+
+## Slide 42: LIFE OS VIBE CODING WORKBENCH
+**Subtitle:** Setting up your personal development cockpit: Google AI Studio + VS Code + Python SDK
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
+
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[Prof. Peter] Slide 42 outlines your personal development cockpit: "LIFE OS VIBE CODING WORKBENCH."
+
+[TA Sarah] How do we integrate these tools into our daily workflow? Keep Google AI Studio open in Chrome Tab 1 as your prompt forge and context caching playground. Keep VS Code open for local git repository management.
+
+[TA James] You prototype your Many-Shot prompt in AI Studio, test with sandboxed code execution, click 'Get Code', and paste the clean Python SDK snippet directly into your local repo! You deploy production features in minutes instead of weeks!
+
+[TA Sarah] Let us inspect the Architect's Intellectual Stewardship on Slide 43.
+
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 라이프 OS 바이브 코딩 워크벤치: AI 스튜디오 + VS Code 개발 콕핏
+
+**핵심 티칭 포인트:**
+- 개발 콕핏 구성: 크롬 1번 탭에 구글 AI 스튜디오를 프롬프트 및 캐싱 실험실로 상시 상주
+- VS Code 연동: AI 스튜디오에서 검증된 SDK 파이썬 코드를 로컬 깃 저장소로 즉시 내보내기
+- 초고속 피드백 루프: 수 분 만에 아이디어를 상용 배포 코드로 완성하는 작업 흐름
+
+**강의 전달 팁:** 사라 조교와 제임스 조교가 실제 업무에서 사용하는 듀얼 모니터 개발 배치 팁을 전합니다.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **Development Cockpit** (개발 콕핏 워크벤치): A multi-window operational setup harmonizing cloud prompt playgrounds with local IDE code repositories.
+- **Drop-in SDK Integration** (즉시 실행형 SDK 연동): The seamless export of validated prompt configurations into production programming environments.
+
+---
+
+## Slide 43: THE ARCHITECT'S INTELLECTUAL STEWARDSHIP
+**Subtitle:** Balancing speed with deep algorithmic comprehension and ethical responsibility
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
+
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[Prof. Peter] Slide 43 reflects on "THE ARCHITECT'S INTELLECTUAL STEWARDSHIP." True mastery is not about speed alone; it is about deep root-cause understanding.
+
+[TA Sarah] A true craftsman uses high-speed power tools, but understands the grain of the wood! As Intelligence Architects, we use Gemini to write code at lightning speed, but we understand data structures, computational complexity, and security invariants.
+
+[TA James] We mentor junior developers not to be lazy copy-pasters, but to be rigorous architects who question assumptions and build resilient systems!
+
+[Prof. Peter] Let us inspect our capstone enterprise case study on Slide 44!
+
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 지능 건축가의 지적 청지기직: 속도와 기초 컴퓨터 과학 장인정신의 조화
+
+**핵심 티칭 포인트:**
+- 진정한 장인의 자세: 전동 공구(AI)를 쓰되 나무의 결(컴퓨터 과학 기초)을 꿰뚫어 보는 통찰력
+- 근본 원인 이해: 코드가 에러 없이 돌아가는 것에 만족하지 않고 왜 돌아가는지 아키텍처 원리를 규명
+- 후배 엔지니어 멘토링: 단순 복붙러가 아닌 깊이 생각하고 검증하는 참된 공학자 양성
+
+**강의 전달 팁:** 피터 교수가 장인정신(Craftsmanship)과 기초 학문의 가치를 깊이 있게 설파합니다.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **Root-Cause Comprehension** (근본 원인 통찰력): Deep structural understanding of underlying computational mechanics rather than superficial empirical observation.
+- **Architectural Craftsmanship** (아키텍처 장인정신): The dedication to engineering excellence, elegance, and integrity in software system design.
+
+---
+
+## Slide 44: CASE STUDY 5: 22X DEVELOPER VELOCITY BLUEPRINT
+**Subtitle:** Global SaaS Enterprise equips 1,500 engineers with Google AI Studio & Many-Shot ICL
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
+
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[Prof. Peter] Slide 44 presents our capstone enterprise case study: "CASE STUDY 5: 22X DEVELOPER VELOCITY BLUEPRINT."
+
+[TA Sarah] A leading Silicon Valley enterprise SaaS provider with 1,500 software engineers had a massive velocity bottleneck: engineers were spending nearly half their sprint cycles writing repetitive REST API boilerplate, schema validators, and CRUD endpoints!
+
+[TA James] They deployed Google AI Studio with a centralized repository of 100 golden Many-Shot exemplars encoding their company's exact coding conventions. They enabled Context Caching and trained engineers on Vibe Coding!
+
+[Prof. Peter] Look at the results: developer velocity on boilerplate code surged by 22X! Feature release cycle time dropped from 14 days down to 1.5 days, expanding annual engineering capacity by 48 million dollars in value!
+
+[TA Sarah] That is the ultimate enterprise transformation.
+
+[TA James] Now let us build your own Instant Expert Forge in Lab 6 on Slide 45!
+
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 케이스 스터디 5: 실리콘밸리 SaaS 대기업 22배 개발 속도 향상 및 4,800만 달러 가치 창출
+
+**핵심 티칭 포인트:**
+- 문제 상황: 1,500명의 엔지니어가 스프린트 시간의 40%를 반복적인 보일러플레이트 API 작성에 낭비
+- 솔루션: 100개 골든 예시 라이브러리와 컨텍스트 캐싱이 적용된 전사 구글 AI 스튜디오 바이브 코딩 환경 구축
+- 성과: 보일러플레이트 개발 속도 22배 가속, 기능 릴리즈 주기 14일에서 1.5일로 단축, 연간 4,800만 달러 개발 가치 창출
+
+**강의 전달 팁:** 사라 조교와 제임스 조교가 22배 개발 속도 향상의 구체적인 비즈니스 효과를 강조하며 실습으로 유도합니다.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **22X Velocity Multiplier** (22배 개발 속도 승수): The dramatic acceleration of routine software authoring achieved by combining Many-Shot ICL with Vibe Coding.
+- **Feature Cycle Time Compression** (기능 출시 주기 압축): The reduction of calendar time required to take a software feature from specification to live production deployment.
+
+---
+
+## Slide 45: 🛠️ HANDS-ON LAB 6 & CONCLUSION
+**Subtitle:** Building an Instant Expert Forge with 50-Shot ICL and Context Caching in AI Studio
+**Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
+
+### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
+[TA Sarah] Here we are at Slide 45: "🛠️ HANDS-ON LAB 6 & SESSION CONCLUSION!"
+
+[TA James] Tonight's hands-on lab will transform your engineering skills! Step 1: Open `aistudio.google.com` and select Gemini 3.5 Pro. Step 2: Write your System Instructions. Step 3: Paste 50 golden exemplars for a custom task. Step 4: Toggle Context Caching and see the 87% discount badge! Step 5: Toggle Code Execution ON, run a test query, and export your Python SDK snippet!
+
+[Prof. Peter] Once you experience the instant mastery of 50-Shot In-Context Learning running on cached TPU memory, you will never build software the old way again.
+
+[TA Sarah] In our next session, Session 7, we will take this intelligence to the open web and master the revolutionary WebMCP Protocol and the 90% HTML Token Diet!
+
+[Prof. Peter] On behalf of TA Sarah Jenkins, TA James Wilson, and the entire Smart Insight Lab, congratulations on mastering Session 6! Soli Deo Gloria, and we will see you in Session 7!
+
+### 🇰🇷 한국어 강의 가이드 및 핵심 요약
+**개요 요약:** 실습 과제 6 및 세션 마무리: 구글 AI 스튜디오 50-Shot ICL 및 컨텍스트 캐싱 포지 구축
+
+**핵심 티칭 포인트:**
+- 실습 미션: 구글 AI 스튜디오에서 제미나이 3.5 프로를 선택하고 50개 골든 예시를 주입한 전문 도메인 포지 구축
+- 컨텍스트 캐싱 활성화 및 87% 비용 절감 뱃지 확인
+- 코드 실행(Code Execution)을 활성화하여 무오류 산술 연산 검증 후 파이썬 SDK 코드로 즉시 내보내기
+
+**강의 전달 팁:** 3인의 강사진이 오늘 수업의 성취를 축하하고 다음 세션(Session 7: WebMCP 프로토콜 & HTML 토큰 다이어트)에 대한 기대감을 높이며 마무리합니다.
+
+### 📚 Key Technical Terms (핵심 용어)
+- **Hands-on Milestone** (실습 달성 마일스톤): The practical engineering completion of a functioning technical artifact fulfilling the session's learning objectives.
+- **Instant Expert Forge** (즉각적 도메인 전문가 포지): A production-ready Google AI Studio prompt configuration delivering instant domain mastery via Many-Shot ICL and caching.
 
 ---

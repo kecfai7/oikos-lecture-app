@@ -31,6 +31,10 @@ And Card 3: Unfiltered Native Interop. Never expose raw C# functions directly to
 You must wrap every bridge call with strict Pydantic validation schemas!
 
 9
-00:01:04,420 --> 00:01:11,840
+00:01:04,420 --> 00:01:10,060
+If you don't validate, one rogue JavaScript payload can wipe your entire user directory!
+
+10
+00:01:10,460 --> 00:01:17,880
 Bridging web technologies to operating systems requires ironclad cryptographic and schema validation gates.
 

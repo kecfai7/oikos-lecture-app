@@ -51,6 +51,10 @@ HOTL supervisory launch!
 Follow this blueprint, and you deploy world-class desktop intelligence that CISOs and CFOs celebrate!
 
 14
-00:01:20,560 --> 00:01:28,140
+00:01:20,560 --> 00:01:23,870
+You are now ready to build your own local agent!
+
+15
+00:01:24,270 --> 00:01:31,850
 You are now fully prepared to build and deploy your own local file sorting agent in Lab 3 on Slide 45!
 

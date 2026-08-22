@@ -27,6 +27,10 @@ Zero battery drain on your laptop, 400ms local SSD file search, and full enterpr
 You get the best of both worlds: David's agile sling on your local machine, backed by the infinite computational power of Google Cloud TPU clusters!
 
 8
-00:00:55,360 --> 00:01:00,180
+00:00:55,360 --> 00:00:58,580
+That is how you win the Battle for the OS Shell!
+
+9
+00:00:58,980 --> 00:01:03,800
 That is the architectural blueprint for the master Intelligence Architect.
 

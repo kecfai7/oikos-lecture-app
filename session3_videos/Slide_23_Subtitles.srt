@@ -19,6 +19,14 @@ In Part 3, we analyze screen scraping via Google Lens, real-time desktop transla
 And we will dissect our third enterprise case study on migrating 40-year-old legacy COBOL terminal screens into modern Python code in real time!
 
 6
-00:00:45,070 --> 00:00:50,040
+00:00:45,070 --> 00:00:48,440
+Reading green-screen terminals with vision AI?
+
+7
+00:00:48,440 --> 00:00:53,350
+That sounds like science fiction, but it's 100% production reality!
+
+8
+00:00:53,750 --> 00:00:58,720
 Let us examine the mechanics of screen perception on Slide 24!
 

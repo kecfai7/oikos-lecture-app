@@ -23,6 +23,10 @@ We build lean, elegant, rock-solid systems with disciplined craftsmanship!
 And Card 3: Serving Higher Purpose. Using our technological leverage to create tools that bless our colleagues, empower students, and honor our Creator.
 
 7
-00:00:49,220 --> 00:00:56,920
+00:00:49,220 --> 00:00:52,960
+Every clean line of code is an expression of integrity!
+
+8
+00:00:53,360 --> 00:01:01,060
 Soli Deo Gloria: When engineering excellence meets holy purpose, every keystroke becomes an act of worship.
 

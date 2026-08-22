@@ -27,6 +27,10 @@ And Rule 3: DLP Window-Masking is enforced so screen capture is restricted stric
 You give your employees world-class AI superpowers while keeping your corporate security posture 100% airtight!
 
 8
-00:00:50,039 --> 00:00:56,779
+00:00:50,039 --> 00:00:54,619
+No shadow IT, no data leaks, and zero IT helpdesk chaos!
+
+9
+00:00:55,019 --> 00:01:01,759
 Let us inspect our final enterprise ROI analysis and production audit on Slide 44!
 

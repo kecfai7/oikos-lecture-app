@@ -23,6 +23,10 @@ And Step 3: That structured visual region is streamed to Gemini 3.5 Flash, which
 That is how an agent can read an unselectable error message inside a 30-year-old legacy software window and tell you exactly how to fix it!
 
 7
-00:00:58,140 --> 00:01:04,190
+00:00:58,140 --> 00:01:04,600
+No APIs needed—if human eyes can see it on the monitor, the vision agent can parse and solve it!
+
+8
+00:01:05,000 --> 00:01:11,050
 Pixel-level perception eliminates the boundary between modern AI and legacy software.
 

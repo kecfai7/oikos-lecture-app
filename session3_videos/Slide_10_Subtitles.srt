@@ -1,6 +1,6 @@
 1
 00:00:00,400 --> 00:00:09,540
-Slide 10 summarizes PART 1 SUMMARY & FOUNDATIONAL RULES. James, recap our three core takeaways.
+Slide 10 summarizes PART 1 SUMMARY & FOUNDATIONAL RULES. James, Sarah, recap our three core takeaways.
 
 2
 00:00:09,940 --> 00:00:12,359
@@ -35,6 +35,10 @@ Build tools that serve human dignity and keep proprietary data safe on local dis
 And now, let's see how an accounting firm solved 4TB of local file chaos in our first enterprise case study on Slide 11!
 
 10
-00:00:51,690 --> 00:00:55,550
+00:00:51,690 --> 00:00:56,470
+This case study is wild—wait until you hear how much time CPAs were wasting!
+
+11
+00:00:56,870 --> 00:01:00,730
 Let us examine Case Study 1 on Slide 11!
 

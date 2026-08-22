@@ -31,10 +31,14 @@ Layer 3: Gemini 3.5 Flash reverse-engineered the mathematical logic and wrote cl
 The entire 1,400-routine migration finished in just 3 weeks instead of 2 years, saving the bank $2.4 million in consulting fees!
 
 9
-00:01:18,450 --> 00:01:25,011
-When multimodal vision meets legacy systems, decades of technical debt dissolve in weeks.
+00:01:18,450 --> 00:01:23,300
+That is why multimodal vision is the ultimate legacy modernization tool!
 
 10
-00:01:25,011 --> 00:01:28,550
+00:01:23,700 --> 00:01:30,261
+When multimodal vision meets legacy systems, decades of technical debt dissolve in weeks.
+
+11
+00:01:30,261 --> 00:01:33,800
 Now let us address the Shadow Kingdom in Part 4!
 

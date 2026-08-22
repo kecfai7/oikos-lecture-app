@@ -1,40 +1,44 @@
 1
-00:00:00,400 --> 00:00:09,020
-Slide 4 dissects THE TROJAN HORSE: Google App for Windows. James, why do we call this sleek search bar a Trojan Horse?
+00:00:00,400 --> 00:00:09,140
+Slide 4 dissects THE TROJAN HORSE: Google App for Windows. James, why do we call this innocent search bar a Trojan Horse?
 
 2
-00:00:09,420 --> 00:00:15,363
-Because it disguises massive surveillance and platform capture as a harmless, pretty search bar!
+00:00:09,540 --> 00:00:13,921
+Because it disguises deep system capture as a harmless utility!
 
 3
-00:00:15,363 --> 00:00:18,830
-Look at the three hidden strategic objectives on screen:
+00:00:13,921 --> 00:00:17,120
+Look at the three hidden objectives on screen:
 
 4
-00:00:19,230 --> 00:00:21,220
+00:00:17,520 --> 00:00:19,591
 Objective 1: Hotkey Hijacking.
 
 5
-00:00:21,220 --> 00:00:31,570
-By taking over `Alt + Space` (which used to be PowerToys Run or the window menu), Google intercepts your mental intent the millisecond you decide to search!
+00:00:19,591 --> 00:00:27,530
+By seizing `Alt + Space`, Google catches your mental search intent before you ever touch Windows Search or Copilot!
 
 6
-00:00:31,970 --> 00:00:34,239
-Objective 2: Perpetual Residency.
+00:00:27,930 --> 00:00:30,673
+Objective 2: Perpetual Memory Residency!
 
 7
-00:00:34,239 --> 00:00:43,730
-It adds itself to Windows Startup registry, keeping an entire Chromium process resident in your RAM 24/7 so it pops up in 20 milliseconds!
+00:00:30,673 --> 00:00:40,070
+It configures itself in Windows Startup registry, keeping an entire Chromium instance alive in RAM 24/7 so it pops up in 20 milliseconds!
 
 8
-00:00:44,130 --> 00:00:46,746
-And Objective 3: Screen Vision Portal!
+00:00:40,470 --> 00:00:44,377
+And Objective 3 is the most aggressive: Screen Vision Portal!
 
 9
-00:00:46,746 --> 00:00:57,280
-It gives Google Lens the power to capture your entire desktop screen with one click—reading your confidential Excel models, proprietary code, and emails!
+00:00:44,377 --> 00:00:54,370
+It puts Google Lens directly on your desktop, allowing one-click capture of every pixel on your screen—including confidential spreadsheets and private code!
 
 10
-00:00:57,680 --> 00:01:05,120
+00:00:54,770 --> 00:01:01,440
+You think you installed a calculator search bar, but you actually installed a 24/7 screen surveillance portal!
+
+11
+00:01:01,840 --> 00:01:09,280
 When you install a Trojan Horse, you are trading your system resources and visual privacy for fractional convenience.
 

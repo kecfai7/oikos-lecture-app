@@ -43,6 +43,10 @@ The second the user opens a 20MB Excel spreadsheet, Windows runs out of physical
 The laptop fans scream, the mouse cursor stutters, and the employee thinks their computer has a virus!
 
 12
-00:01:07,390 --> 00:01:13,270
+00:01:07,390 --> 00:01:16,990
+Meanwhile, on the right card, the developer on a 32GB rig says: Works fine on my machine! That is the ultimate developer disconnect!
+
+13
+00:01:17,390 --> 00:01:23,270
 Empathy for the end-user's hardware constraints is the mark of a mature intelligence architect.
 

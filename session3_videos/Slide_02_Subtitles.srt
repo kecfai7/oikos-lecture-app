@@ -1,36 +1,44 @@
 1
-00:00:00,400 --> 00:00:11,610
-Look at Slide 2: PART 1: THE LOCAL-FIRST PARADIGM & OS SHELL CONTROL. Professor, how does our motto of Soli Deo Gloria connect with operating system hotkeys?
+00:00:00,400 --> 00:00:11,750
+Look at Slide 2: PART 1: THE LOCAL-FIRST PARADIGM & OS SHELL CONTROL. Professor, how does our Christian theological foundation connect with operating system hotkeys?
 
 2
-00:00:12,010 --> 00:00:16,198
-Sarah, intellectual stewardship begins at the point of action.
+00:00:12,150 --> 00:00:15,495
+Sarah, Scripture calls us to faithful stewardship.
 
 3
-00:00:16,198 --> 00:00:25,860
-For 30 years, big tech platforms tried to trap users inside proprietary graphical walls where you are just a passive consumer clicking buttons.
+00:00:15,495 --> 00:00:26,000
+For thirty years, big tech platforms tried to trap users inside proprietary graphical user interfaces where you are just a passive consumer clicking buttons.
 
 4
-00:00:26,260 --> 00:00:30,611
-But a master intelligence architect never surrenders the terminal shell!
+00:00:26,400 --> 00:00:30,168
+But a real intelligence architect commands the terminal shell!
 
 5
-00:00:30,611 --> 00:00:39,920
+00:00:30,168 --> 00:00:39,530
 When you control the first keystroke, you can direct local file systems, query databases, and route cloud LLMs on YOUR terms, not Microsoft's or Google's!
 
 6
-00:00:40,320 --> 00:00:42,727
-In Part 1, we dismantle the 'Guest vs.
+00:00:39,930 --> 00:00:44,470
+Wait James, but isn't a browser search bar good enough for most people?
 
 7
-00:00:42,727 --> 00:00:52,990
-Landlord' conflict between Windows and Google, and show why controlling the OS hotkey (`Alt + Space`) is worth billions of dollars in enterprise search dominance.
+00:00:44,870 --> 00:00:46,070
+No way, Sarah!
 
 8
-00:00:53,390 --> 00:01:01,190
-And we'll examine how power users and sysadmins can build lightweight local search agents that beat Google's bloated 1.2GB app!
+00:00:46,070 --> 00:00:49,077
+In a browser, you are trapped in a sandbox.
 
 9
-00:01:01,590 --> 00:01:06,850
-Let us examine the battlefield on Slide 3: Guest versus Landlord!
+00:00:49,077 --> 00:00:56,410
+You can't index your local code, you can't see your local files, and you have to upload everything manually!
+
+10
+00:00:56,810 --> 00:01:03,360
+That's why controlling `Alt + Space` on the desktop is worth billions of dollars in enterprise search dominance!
+
+11
+00:01:03,760 --> 00:01:09,500
+Let us examine the battlefield on Slide 3: the Landlord versus the Guest!
 

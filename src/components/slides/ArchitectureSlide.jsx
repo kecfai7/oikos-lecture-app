@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Folder, HardDrive, Shield, Terminal, Cpu, ArrowRight, CheckCircle2 } from 'lucide-react';
+import { Folder, HardDrive, Shield, Terminal, Cpu } from 'lucide-react';
 
 export default function ArchitectureSlide({ slideData }) {
   const hasLayers = Array.isArray(slideData.layers) && slideData.layers.length > 0;

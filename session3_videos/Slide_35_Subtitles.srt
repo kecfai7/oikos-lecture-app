@@ -31,6 +31,10 @@ You review the diff, tap Approve, and the agent resumes safely!
 You get 99% automation with 100% human control!
 
 9
-00:00:55,400 --> 00:01:01,380
+00:00:55,400 --> 00:00:59,290
+No micromanagement, and zero runaway disasters!
+
+10
+00:00:59,690 --> 00:01:05,670
 HOTL governance preserves human leadership while unlocking massive autonomous scale.
 

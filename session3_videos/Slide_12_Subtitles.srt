@@ -23,6 +23,10 @@ We will dissect GPU acceleration vs.
 CPU software rasterization, inspect sandbox security limits, and analyze our second case study on a FinTech trading desk memory leak rescue!
 
 7
-00:00:50,790 --> 00:00:56,240
-Let us begin by inspecting the WebView2 architecture on Slide 13!
+00:00:50,790 --> 00:00:57,530
+Get ready, students—we are opening Task Manager and showing you the hidden processes big tech doesn't want you to see!
+
+8
+00:00:57,930 --> 00:01:04,120
+Let us begin by inspecting the WebView2 multi-process architecture on Slide 13!
 

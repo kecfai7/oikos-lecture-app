@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ShieldCheck, Sparkles, Award } from 'lucide-react';
+import { ShieldCheck, Award } from 'lucide-react';
 
 export default function TitleSlide({ slideData }) {
   return (

@@ -23,6 +23,10 @@ And Step 3: Zero-Copy Context Injection streams the file directly into Gemini's 
 You drop a 400-page contract, type Find all indemnity clauses, and get the exact answer in 2 seconds flat!
 
 7
-00:00:51,750 --> 00:00:57,370
+00:00:51,750 --> 00:00:57,460
+No uploading, no waiting for slow parsing—just drag, drop, and get executive answers!
+
+8
+00:00:57,860 --> 00:01:03,480
 Fluid physical interaction with software accelerates human intellectual momentum.
 
