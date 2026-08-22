@@ -1,0 +1,36 @@
+1
+00:00:00,400 --> 00:00:09,540
+Slide 17 highlights WEBVIEW2 SECURITY SANDBOXING LIMITS. James, what happens when a web page talks directly to Windows?
+
+2
+00:00:09,940 --> 00:00:13,788
+It is the most dangerous bridge in software engineering!
+
+3
+00:00:13,788 --> 00:00:18,392
+In a normal browser, JavaScript cannot touch your local hard drive.
+
+4
+00:00:18,392 --> 00:00:23,960
+But in WebView2, developers create a bridge to call local C# and Win32 functions!
+
+5
+00:00:24,360 --> 00:00:36,530
+Look at Card 1: Cross-Site Injection. If an attacker tricks your web app into loading a malicious iframe, that iframe can send a `postMessage` to the host and execute local PowerShell commands!
+
+6
+00:00:36,930 --> 00:00:51,400
+Look at Card 2: Local File Scheme Exploits. Attackers use `file:///C:/Users/` links to bypass web security origins and read your private SSH keys and browser passwords!
+
+7
+00:00:51,800 --> 00:00:58,719
+And Card 3: Unfiltered Native Interop. Never expose raw C# functions directly to JavaScript!
+
+8
+00:00:58,719 --> 00:01:04,020
+You must wrap every bridge call with strict Pydantic validation schemas!
+
+9
+00:01:04,420 --> 00:01:11,840
+Bridging web technologies to operating systems requires ironclad cryptographic and schema validation gates.
+

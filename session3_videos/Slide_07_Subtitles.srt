@@ -1,0 +1,56 @@
+1
+00:00:00,400 --> 00:00:04,195
+Slide 7 compares POWERTOYS RUN VS.
+
+2
+00:00:04,195 --> 00:00:07,014
+GOOGLE APP: Native C++ vs.
+
+3
+00:00:07,014 --> 00:00:09,400
+1.2GB Chromium Shell.
+
+4
+00:00:09,800 --> 00:00:12,995
+Look at this benchmark comparison, students!
+
+5
+00:00:12,995 --> 00:00:15,682
+On the left: Microsoft PowerToys Run.
+
+6
+00:00:15,682 --> 00:00:18,224
+It is written in native C++ and C#.
+
+7
+00:00:18,224 --> 00:00:29,410
+It uses just 35MB of RAM, launches in 4 milliseconds, and does local math, app launching, and unit conversions without sending a single byte to the cloud!
+
+8
+00:00:29,810 --> 00:00:33,711
+But on the right: The Google App for Windows!
+
+9
+00:00:33,711 --> 00:00:40,300
+It consumes over 1,200MB of RAM—that is 34 times more memory than PowerToys!
+
+10
+00:00:40,700 --> 00:00:41,900
+Why?
+
+11
+00:00:41,900 --> 00:00:47,928
+Because Google shoved a complete Chromium browser engine into that search bar!
+
+12
+00:00:47,928 --> 00:00:54,380
+On a 16GB laptop running Photoshop and VS Code, that 1.2GB footprint causes noticeable stutter!
+
+13
+00:00:54,780 --> 00:01:04,600
+But to be fair, Google gives you Gemini Flash multimodal intelligence, live screen translation, and cloud synthesis that PowerToys cannot do on its own!
+
+14
+00:01:05,000 --> 00:01:12,200
+That is the fundamental architectural trade-off: lean local responsiveness versus heavy cloud intelligence.
+

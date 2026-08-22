@@ -1,0 +1,44 @@
+1
+00:00:00,400 --> 00:00:11,680
+Slide 13 reveals THE WEBVIEW2 MULTI-PROCESS ENGINE. Sarah, James, why does one floating search bar spawn so many separate processes?
+
+2
+00:00:12,080 --> 00:00:14,207
+Look at the breakdown on screen!
+
+3
+00:00:14,207 --> 00:00:19,259
+When you launch a WebView2 application, it does NOT run as a single program.
+
+4
+00:00:19,259 --> 00:00:25,110
+Chromium's security architecture forces it to spawn at least four separate OS processes!
+
+5
+00:00:25,510 --> 00:00:32,612
+Process 1: The Browser Host Process takes 350MB just to manage window positioning and network I/O!
+
+6
+00:00:32,612 --> 00:00:39,570
+Process 2: The V8 JavaScript Renderer eats 500MB running the React virtual DOM and client state!
+
+7
+00:00:39,970 --> 00:00:50,170
+And Process 3 and 4: The GPU Compositor and Utility processes take another 350MB for DirectX hardware blending and video codecs!
+
+8
+00:00:50,570 --> 00:00:59,640
+Add them together: 350 + 500 + 350 = 1.2 GIGABYTES of RAM before you even type your very first search letter!
+
+9
+00:01:00,040 --> 00:01:06,907
+If a native C++ developer used 1.2GB for a search input box, they would be fired on the spot!
+
+10
+00:01:06,907 --> 00:01:11,560
+But in modern web-wrapped software, people accept it as normal!
+
+11
+00:01:11,960 --> 00:01:18,920
+Knowing the true cost of multi-process architectures allows architects to make disciplined design choices.
+

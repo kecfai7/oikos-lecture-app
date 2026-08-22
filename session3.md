@@ -61,31 +61,33 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Sarah, James, let me ask you both a strategic question: who truly owns your computer—you, Microsoft, or Google?
+[Prof. Peter] Sarah, James, let me ask you both a blunt question: who truly owns your computer—you, Microsoft, or Google?
 
-[TA Sarah] Well, on paper, we purchased the hardware! But in reality, the company that controls the operating system shell and your first keystroke controls your entire digital existence!
+[TA Sarah] Well, on paper, Professor, I paid $2,000 for my laptop! But in software reality, whoever controls the operating system shell and your very first keystroke controls your entire digital life!
 
-[TA James] Haha, exactly, Sarah! And right now, the biggest war in tech isn't happening on smartphones—it's happening directly on your Windows desktop between Microsoft Copilot and Google's new 1.2GB desktop application!
+[TA James] Haha, exactly Sarah! And right now, the fiercest war in tech isn't happening on smartphones—it's happening directly on your Windows desktop between Microsoft Copilot and Google's new 1.2GB desktop application!
 
-[TA Sarah] Many users just see a sleek `Alt + Space` search bar popping up on their screen. But behind that innocent bar is a full-blown WebView2 browser engine consuming 1.2GB of RAM!
+[TA Sarah] Most users just see a sleek floating `Alt + Space` search bar popping up on their screen and think: "Oh, how convenient!"
 
-[TA James] In enterprise IT, we call this the 'Trojan Horse Strategy.' Google wants to bypass the Chrome browser sandbox and take over Windows OS-level file search, screen scraping, and hotkeys!
+[TA James] But wait until you open Windows Task Manager! Behind that tiny search bar is a monster—an entire Chromium WebView2 browser engine eating 1.2 gigabytes of your RAM!
+
+[TA Sarah] In enterprise IT, we call this the 'Trojan Horse Strategy.' Google wants to escape the Chrome browser sandbox and take over Windows OS-level file search, screen vision, and hotkeys!
 
 [Prof. Peter] Welcome, global students, to Session 3 on Slide 1: "The Battle for the OS Shell: Windows Dominance and the 1.2GB Trojan Horse."
 
-[TA Sarah] In this session, we dissect the architecture of desktop AI, analyze the heavy memory trade-offs, and master local-first command-line sovereignty under Soli Deo Gloria!
+[TA James] Today, Sarah and I are going to show you why your laptop battery dies on flights, why 8GB PCs freeze, and how to build lean, lightning-fast local agents that defeat big tech bloat!
 
-[Prof. Peter] Let us open Part 1 on Slide 2 and examine the landlord versus guest desktop schism!
+[Prof. Peter] Under our motto 'SOLI DEO GLORIA—To God Alone Be the Glory,' let us open Part 1 on Slide 2 and reclaim command of the desktop!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
-**개요 요약:** Session 3 개요 및 윈도우 OS 셸 장악 전쟁과 구글 1.2GB 트로이 목마 아키텍처 개요
+**개요 요약:** Session 3 개요: 윈도우 OS 셸 장악 전쟁과 1.2GB 트로이 목마 아키텍처 개요
 
 **핵심 티칭 포인트:**
-- 강의 주제: 데스크톱 화면의 주도권을 둘러싼 마이크로소프트(집주인)와 구글(세입자)의 OS 셸 장악 전쟁
+- 강의 주제: 데스크톱 화면의 첫 번째 키스트로크(Alt+Space)를 둘러싼 MS(집주인)와 구글(세입자)의 OS 셸 장악 전쟁
 - 웹 브라우저 샌드박스를 탈출하여 OS 레벨로 진입하는 구글 윈도우 앱의 구조와 1.2GB RAM 소모의 실체
 - 로컬 퍼스트 셸 통제권과 엔터프라이즈 보안 거버넌스(섀도우 IT 방어)의 핵심 원리 제시
 
-**강의 전달 팁:** 피터 교수의 '내 PC의 진짜 주인은 누구인가'라는 질문으로 학생들의 지적 호기심을 강하게 자극하세요.
+**강의 전달 팁:** 피터 교수의 직관적 질문과 사라-제임스의 유쾌한 태스크 매니저 실태 고발로 학생들의 호기심을 극대화하세요.
 
 ### 📚 Key Technical Terms (핵심 용어)
 - **OS Shell** (OS 셸 (운영체제 사용자 인터페이스 최상위 계층)): The outermost layer of an operating system managing user interface, window management, and process execution.
@@ -98,17 +100,19 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[TA Sarah] Look at Slide 2: "PART 1: THE LOCAL-FIRST PARADIGM & OS SHELL CONTROL." Professor, how does our motto of Soli Deo Gloria connect with operating system hotkeys?
+[TA Sarah] Look at Slide 2: "PART 1: THE LOCAL-FIRST PARADIGM & OS SHELL CONTROL." Professor, how does our Christian theological foundation connect with operating system hotkeys?
 
-[Prof. Peter] Sarah, intellectual stewardship begins at the point of action. For 30 years, big tech platforms tried to trap users inside proprietary graphical walls where you are just a passive consumer clicking buttons.
+[Prof. Peter] Sarah, Scripture calls us to faithful stewardship. For thirty years, big tech platforms tried to trap users inside proprietary graphical user interfaces where you are just a passive consumer clicking buttons.
 
-[TA James] But a master intelligence architect never surrenders the terminal shell! When you control the first keystroke, you can direct local file systems, query databases, and route cloud LLMs on YOUR terms, not Microsoft's or Google's!
+[TA James] But a real intelligence architect commands the terminal shell! When you control the first keystroke, you can direct local file systems, query databases, and route cloud LLMs on YOUR terms, not Microsoft's or Google's!
 
-[TA Sarah] In Part 1, we dismantle the 'Guest vs. Landlord' conflict between Windows and Google, and show why controlling the OS hotkey (`Alt + Space`) is worth billions of dollars in enterprise search dominance.
+[TA Sarah] Wait James, but isn't a browser search bar good enough for most people?
 
-[TA James] And we'll examine how power users and sysadmins can build lightweight local search agents that beat Google's bloated 1.2GB app!
+[TA James] No way, Sarah! In a browser, you are trapped in a sandbox. You can't index your local code, you can't see your local files, and you have to upload everything manually!
 
-[Prof. Peter] Let us examine the battlefield on Slide 3: Guest versus Landlord!
+[TA Sarah] That's why controlling `Alt + Space` on the desktop is worth billions of dollars in enterprise search dominance!
+
+[Prof. Peter] Let us examine the battlefield on Slide 3: the Landlord versus the Guest!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** Part 1 섹션 전환: 로컬 퍼스트 패러다임과 OS 셸 통제권의 신학적/공학적 의의
@@ -118,7 +122,7 @@
 - 집주인(MS 윈도우) vs 세입자(구글): 데스크톱 시작 화면과 단축키(Alt+Space)를 둘러싼 조 단위 플랫폼 전쟁
 - 로컬 퍼스트 검색과 경량 에이전트를 통한 데이터 주권 확보
 
-**강의 전달 팁:** 사라 조교와 제임스 조교가 OS 단축키 하나가 왜 조 단위 가치를 지니는지 흥미진진하게 설명합니다.
+**강의 전달 팁:** 사라 조교의 질문을 받아 피터 교수와 제임스가 첫 번째 키스트로크가 지닌 전략적 주권을 힘차게 설명합니다.
 
 ### 📚 Key Technical Terms (핵심 용어)
 - **First Keystroke Sovereignty** (첫 번째 키스트로크 주권 (입력 시작점 통제권)): The strategic control over the primary hotkey and interface where a user initiates computation.
@@ -131,17 +135,19 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 3 illustrates "GUEST VS. LANDLORD: The Desktop Schism." James, explain this landlord analogy to our students.
+[Prof. Peter] Slide 3 illustrates "GUEST VS. LANDLORD: The Desktop Schism." James, break down this landlord analogy for our students.
 
-[TA James] Think of Microsoft as the building landlord: they own the foundation, the walls, the electricity, and the front door lock—which is the Windows kernel and Win32 APIs!
+[TA James] Think of Microsoft as the landlord who owns the apartment building: they control the foundation, the plumbing, the taskbar, and the Win32 kernel APIs on the left card!
 
-[TA Sarah] And Google is the tenant living in the building! For 15 years, Google was content just staying inside the Chrome browser apartment. But now, Microsoft put Copilot directly on the taskbar and on the physical keyboard!
+[TA Sarah] And for fifteen years, Google was just a happy tenant living inside the Chrome browser room! But then, Microsoft put Copilot directly onto the taskbar and added a physical Copilot key to new laptop keyboards!
 
-[TA James] So Google panicked! If users ask Copilot on their desktop, they stop searching on google.com! So Google created the Google App for Windows—a desktop search bar that hijacks `Alt + Space`!
+[TA James] Exactly! Google looked at that and said: "Wait! If users click Copilot on their taskbar, they will never open google.com again! Our ad revenue will evaporate!"
 
-[TA Sarah] But look at the technical cost on the right card: because Google is a guest, they can't use native Windows UI controls easily. They had to pack an entire WebView2 Chromium browser into that tiny search bar, eating 1.2GB of RAM!
+[TA Sarah] So Google launched a counter-offensive on the right card: they built the Google App for Windows, intercepting `Alt + Space` right at the front door!
 
-[TA James] Imagine renting a room and bringing in a massive 2-ton diesel generator just to turn on a single light bulb! That is what Google did!
+[TA James] But because Google is a tenant, they don't have native Win32 UI privileges. So they had to drag a massive 1.2GB WebView2 Chromium engine into that tiny search bar!
+
+[TA Sarah] Haha! It's like bringing a 2-ton diesel generator into your apartment just to power a single reading lamp!
 
 [Prof. Peter] Platform friction forces architectural bloat. Let us examine the Trojan Horse mechanics on Slide 4.
 
@@ -153,7 +159,7 @@
 - 세입자 구글의 반격: 크롬을 벗어나 Alt+Space 단축키를 탈취하는 윈도우용 데스크톱 앱 출시
 - 기술적 대가: 네이티브 Win32 권한이 없어 미니 검색창 하나 띄우는 데 1.2GB짜리 WebView2 브라우저 전체를 상주
 
-**강의 전달 팁:** 제임스 조교의 2톤 디젤 발전기 비유를 통해 학생들이 1.2GB 메모리 소모의 구조적 원인을 쉽게 이해하도록 돕습니다.
+**강의 전달 팁:** 사라와 제임스가 디젤 발전기 비유와 코파일럿 전용 키에 맞선 구글의 다급한 반격을 유쾌하게 연출합니다.
 
 ### 📚 Key Technical Terms (핵심 용어)
 - **Desktop Schism** (데스크톱 분열 (OS 셸 점유 경쟁)): The strategic conflict between OS platform vendors and web giants over desktop interface dominance.
@@ -166,15 +172,17 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[TA Sarah] Slide 4 dissects "THE TROJAN HORSE: Google App for Windows." James, why do we call this sleek search bar a Trojan Horse?
+[TA Sarah] Slide 4 dissects "THE TROJAN HORSE: Google App for Windows." James, why do we call this innocent search bar a Trojan Horse?
 
-[TA James] Because it disguises massive surveillance and platform capture as a harmless, pretty search bar! Look at the three hidden strategic objectives on screen:
+[TA James] Because it disguises deep system capture as a harmless utility! Look at the three hidden objectives on screen:
 
-[TA Sarah] Objective 1: Hotkey Hijacking. By taking over `Alt + Space` (which used to be PowerToys Run or the window menu), Google intercepts your mental intent the millisecond you decide to search!
+[TA Sarah] Objective 1: Hotkey Hijacking. By seizing `Alt + Space`, Google catches your mental search intent before you ever touch Windows Search or Copilot!
 
-[TA James] Objective 2: Perpetual Residency. It adds itself to Windows Startup registry, keeping an entire Chromium process resident in your RAM 24/7 so it pops up in 20 milliseconds!
+[TA James] Objective 2: Perpetual Memory Residency! It configures itself in Windows Startup registry, keeping an entire Chromium instance alive in RAM 24/7 so it pops up in 20 milliseconds!
 
-[TA Sarah] And Objective 3: Screen Vision Portal! It gives Google Lens the power to capture your entire desktop screen with one click—reading your confidential Excel models, proprietary code, and emails!
+[TA Sarah] And Objective 3 is the most aggressive: Screen Vision Portal! It puts Google Lens directly on your desktop, allowing one-click capture of every pixel on your screen—including confidential spreadsheets and private code!
+
+[TA James] You think you installed a calculator search bar, but you actually installed a 24/7 screen surveillance portal!
 
 [Prof. Peter] When you install a Trojan Horse, you are trading your system resources and visual privacy for fractional convenience.
 
@@ -186,7 +194,7 @@
 - 2. 영구 메모리 상주: 부팅 시 자동 실행되어 1.2GB를 상시 점유하며 20ms 즉시 응답성 유지
 - 3. 화면 시각 포털: 구글 렌즈를 통해 화면 전체 픽셀을 캡처하여 비공개 사내 문서와 코드를 AI 토큰으로 변환
 
-**강의 전달 팁:** 사라와 제임스가 편리한 검색창 이면에 숨겨진 단축키 탈취와 화면 캡처의 보안 위험을 경고합니다.
+**강의 전달 팁:** 사라와 제임스가 단순 검색창 이면에 숨겨진 단축키 선점과 화면 캡처의 보안 위험을 경고합니다.
 
 ### 📚 Key Technical Terms (핵심 용어)
 - **Perpetual Memory Residency** (영구 메모리 상주 (상시 백그라운드 대기)): A software daemon configured to run continuously in system RAM from boot to eliminate cold-start latency.
@@ -199,17 +207,19 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 5 illustrates "THE HOTKEY OF POWER: ALT + SPACE." Sarah, James, why is `Alt + Space` the most contested keyboard shortcut in computing history?
+[Prof. Peter] Slide 5 diagrams "THE HOTKEY OF POWER: ALT + SPACE." Sarah, James, why is `Alt + Space` the most contested shortcut in computing?
 
-[TA Sarah] Because human muscle memory is the ultimate real estate! For 20 years, Mac users pressed `Cmd + Space` for Spotlight, and Windows power users used `Alt + Space` for PowerToys Run. It is an unconscious reflex!
+[TA Sarah] Because human muscle memory is the ultimate psychological real estate! Mac users press `Cmd + Space` for Spotlight, and Windows power users press `Alt + Space` for PowerToys Run. It is an unconscious reflex!
 
-[TA James] Look at the 3-step kernel journey on screen: Step 1: When you tap `Alt + Space`, a Win32 Low-Level Keyboard Hook intercepts the signal in 1 millisecond.
+[TA James] Look at the 3-step kernel execution pipeline on screen: Step 1: When you tap `Alt + Space`, a Win32 Low-Level Keyboard Hook intercepts the raw hardware keycode in 1 millisecond.
 
-[TA Sarah] Step 2: The borderless WebView2 overlay renders a beautiful floating search bar in 18 milliseconds on your active monitor.
+[TA Sarah] Step 2: A borderless, transparent WebView2 overlay window pops up at the center of your active monitor in just 18 milliseconds.
 
-[TA James] And Step 3: That floating bar routes your query: if it's a web search, it goes to Google Cloud; if it's a screenshot, it goes to Google Lens!
+[TA James] And Step 3: That floating bar routes your input: text queries go to Gemini Flash in the cloud, file searches query the local index, and screen captures trigger Google Lens!
 
-[Prof. Peter] Whoever controls the first 100 milliseconds of user intent captures the entire stream of human curiosity.
+[TA Sarah] Whoever controls those first 100 milliseconds captures 100% of the user's daily search curiosity and commercial intent!
+
+[Prof. Peter] Controlling the input gateway is controlling the cognitive flow of the human architect.
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 권력의 단축키 Alt+Space: 사용자의 첫 100ms 입력을 가로채는 3단계 핫키 후킹 파이프라인
@@ -233,15 +243,17 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[TA Sarah] Slide 6 reveals the technical rationale: "BYPASSING THE BROWSER SANDBOX."
+[TA Sarah] Slide 6 reveals the technical dilemma: "BYPASSING THE BROWSER SANDBOX."
 
-[Prof. Peter] For years, web browsers were built as airtight security prisons. Why did Google break out of their own Chrome prison, James?
+[Prof. Peter] For twenty years, web browsers were engineered as airtight security prisons. Why did Google break out of their own Chrome prison, James?
 
-[TA James] Because the browser sandbox has strict security handcuffs! Look at the left card: a website in Chrome cannot touch your local `C:\` drive, cannot capture your desktop screen without explicit permissions, and cannot listen for global system hotkeys!
+[TA James] Because the browser sandbox has strict security handcuffs! Look at the left card: a webpage inside Chrome cannot touch your local `C:\` drive, cannot capture your desktop screen without annoying popups, and cannot listen for global keyboard hotkeys!
 
 [TA Sarah] Exactly! If you want an AI that can organize your local Downloads folder, inspect your VS Code editor, and summarize a PDF sitting on your desktop, you MUST have native OS shell privileges on the right card!
 
-[TA James] But with great OS privilege comes massive security danger! If a malicious prompt compromises a desktop agent, it has access to your entire local hard drive!
+[TA James] But with great OS privilege comes massive security danger! If a malicious prompt injection compromises a desktop agent, it has access to your entire local hard drive and all your SSH keys!
+
+[TA Sarah] That's why desktop agents require ten times more security hardening than simple web chatbots!
 
 [Prof. Peter] That is why local-first architecture requires strict tenant boundaries and cryptographic audits.
 
@@ -266,17 +278,19 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 7 compares "POWERTOYS RUN VS. GOOGLE APP: Native C++ vs. 1.2GB Chromium Shell."
+[Prof. Peter] Slide 7 contrasts "POWERTOYS RUN VS. GOOGLE APP: Native C++ vs. 1.2GB Chromium Shell."
 
-[TA James] Look at this benchmark comparison, students! On the left: Microsoft PowerToys Run. It is written in native C++ and C#. It uses just 35MB of RAM, launches in 4 milliseconds, and does local math, app launching, and unit conversions without sending a single byte to the cloud!
+[TA James] Look at this raw benchmark comparison, students! On the left: Microsoft PowerToys Run. Written in native C++ and C#. It uses just 35MB of RAM, pops up in 4 milliseconds, and handles math, app launching, and unit conversions with zero cloud telemetry!
 
-[TA Sarah] But on the right: The Google App for Windows! It consumes over 1,200MB of RAM—that is 34 times more memory than PowerToys!
+[TA Sarah] But look at the right card: The Google App for Windows! It eats over 1,200MB of RAM—that is literally thirty-four times more memory than PowerToys!
 
-[TA James] Why? Because Google shoved a complete Chromium browser engine into that search bar! On a 16GB laptop running Photoshop and VS Code, that 1.2GB footprint causes noticeable stutter!
+[TA James] Thirty-four times! If you run that on a 16GB laptop while compiling code or editing video, that 1.2GB bloat causes real system stutter!
 
-[TA Sarah] But to be fair, Google gives you Gemini Flash multimodal intelligence, live screen translation, and cloud synthesis that PowerToys cannot do on its own!
+[TA Sarah] But to be fair, James, Google gives you Gemini Flash multimodal vision, live screen translation, and cloud synthesis that PowerToys cannot do on its own!
 
-[Prof. Peter] That is the fundamental architectural trade-off: lean local responsiveness versus heavy cloud intelligence.
+[TA James] Exactly, Sarah! So the architectural question is: can we get Google's frontier intelligence without paying the 1.2GB memory tax? That is what we solve in this course!
+
+[Prof. Peter] That is the fundamental architectural challenge: lean local responsiveness combined with heavy cloud intelligence.
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** PowerToys Run(네이티브 C++) vs 구글 앱(1.2GB WebView2)의 아키텍처 및 성능 대조
@@ -299,17 +313,17 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[TA Sarah] Slide 8 paints "THE UNIFIED SEARCH VISION: Bridging Local, Enterprise, and Web."
+[TA Sarah] Slide 8 presents "THE UNIFIED SEARCH VISION: Bridging Local, Enterprise, and Web."
 
-[Prof. Peter] What is the holy grail of desktop search? Look at the three connected pillars on screen.
+[Prof. Peter] What is the holy grail of desktop intelligence? Look at the three connected pillars on screen.
 
-[TA Sarah] Pillar 1: Local Disk Index. Finding a Python script or PDF contract on your local SSD in under 5 milliseconds without waiting for slow Windows indexing.
+[TA Sarah] Pillar 1: Local Disk Index. Finding a Python script or PDF contract on your local SSD in under 5 milliseconds without waiting for slow Windows indexing!
 
-[TA James] Pillar 2: Enterprise Repositories! Seamlessly querying company Google Drive folders, Jira issues, and team Slack threads from the exact same search bar!
+[TA James] Pillar 2: Enterprise Repositories! Querying company Google Drive folders, Jira tickets, and Slack channels from the exact same search bar without opening five browser tabs!
 
-[TA Sarah] And Pillar 3: Frontier Web AI! Asking Gemini 3.5 Flash to synthesize the latest research papers and news in real time.
+[TA Sarah] And Pillar 3: Frontier Web AI! Asking Gemini 3.5 Flash to synthesize breaking research papers and financial tables in real time.
 
-[TA James] When all three are unified in one lightweight keystroke, you never have to remember where a file is stored—you just ask, and the system resolves it instantly!
+[TA James] When all three are unified in one lightweight keystroke, you never have to remember where a document is stored—you just ask, and the system resolves it instantly!
 
 [Prof. Peter] That is true intellectual agility under Soli Deo Gloria.
 
@@ -343,6 +357,8 @@
 
 [TA Sarah] And Card 3: "Focus Restoration." By disabling manipulative promotional popups and notification badges, we protect sacred quiet time for contemplation, prayer, and deep design.
 
+[TA James] Amen, Sarah! A peaceful desktop creates a peaceful mind.
+
 [Prof. Peter] Stewardship means exercising conscious moral control over the digital environment where we work every day.
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
@@ -366,7 +382,7 @@
 **Instructor:** Prof. Peter Kim • TA Sarah Jenkins • TA James Wilson • Smart Insight Lab
 
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
-[Prof. Peter] Slide 10 summarizes "PART 1 SUMMARY & FOUNDATIONAL RULES." James, recap our three core takeaways.
+[Prof. Peter] Slide 10 summarizes "PART 1 SUMMARY & FOUNDATIONAL RULES." James, Sarah, recap our three core takeaways.
 
 [TA James] Takeaway 1: The Hotkey is Power! Whoever owns `Alt + Space` owns your first keystroke. Don't surrender it to bloated 1.2GB web apps when lightweight tools exist!
 
@@ -375,6 +391,8 @@
 [TA James] Takeaway 3: Stewardship First! Build tools that serve human dignity and keep proprietary data safe on local disk!
 
 [TA Sarah] And now, let's see how an accounting firm solved 4TB of local file chaos in our first enterprise case study on Slide 11!
+
+[TA James] This case study is wild—wait until you hear how much time CPAs were wasting!
 
 [Prof. Peter] Let us examine Case Study 1 on Slide 11!
 
@@ -445,7 +463,9 @@
 
 [TA Sarah] We will dissect GPU acceleration vs. CPU software rasterization, inspect sandbox security limits, and analyze our second case study on a FinTech trading desk memory leak rescue!
 
-[Prof. Peter] Let us begin by inspecting the WebView2 architecture on Slide 13!
+[TA James] Get ready, students—we are opening Task Manager and showing you the hidden processes big tech doesn't want you to see!
+
+[Prof. Peter] Let us begin by inspecting the WebView2 multi-process architecture on Slide 13!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** Part 2 섹션 전환: 1.2GB 무거운 무구(WebView2)의 내부 구조와 하드웨어 리소스 충돌 분석
@@ -515,6 +535,8 @@
 
 [TA Sarah] The laptop fans scream, the mouse cursor stutters, and the employee thinks their computer has a virus!
 
+[TA James] Meanwhile, on the right card, the developer on a 32GB rig says: "Works fine on my machine!" That is the ultimate developer disconnect!
+
 [Prof. Peter] Empathy for the end-user's hardware constraints is the mark of a mature intelligence architect.
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
@@ -551,6 +573,8 @@
 
 [TA James] Look at Card 3: a 40% battery penalty just to keep an idle search bar waiting in the background!
 
+[TA Sarah] You didn't even use the app during the flight, but it sucked half your battery life away!
+
 [Prof. Peter] Efficiency is not just a software metric; it is the physical stewardship of battery life and energy.
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
@@ -583,6 +607,8 @@
 [TA Sarah] Look at the right card: If you disable GPU acceleration, the CPU has to calculate every single transparent pixel in software. CPU usage spikes to 30%, but it guarantees stability on virtual desktop infrastructure (VDI) like Citrix!
 
 [TA James] As enterprise architects, you must know when to enable GPU offload for local workstations and when to force software rasterization for enterprise VDI fleets!
+
+[TA Sarah] One size does NOT fit all in enterprise desktop engineering!
 
 [Prof. Peter] True engineering mastery lies in understanding the trade-offs across diverse hardware environments.
 
@@ -617,6 +643,8 @@
 
 [TA Sarah] And Card 3: "Unfiltered Native Interop." Never expose raw C# functions directly to JavaScript! You must wrap every bridge call with strict Pydantic validation schemas!
 
+[TA James] If you don't validate, one rogue JavaScript payload can wipe your entire user directory!
+
 [Prof. Peter] Bridging web technologies to operating systems requires ironclad cryptographic and schema validation gates.
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
@@ -642,13 +670,15 @@
 ### 🎙️ English Lecture Script (Full 75-Min Broadcast Trio Dialogue)
 [Prof. Peter] Slide 18 brings a profound biblical and architectural lesson: "THE 'HEAVY ARMOR' PHILOSOPHICAL LESSON: 1 Samuel 17."
 
-[TA Sarah] In 1 Samuel 17, before young David went out to fight Goliath, King Saul dressed David in his own royal armor—a heavy bronze helmet and a massive bronze coat of armor!
+[TA Sarah] In 1 Samuel 17, before young David went out to fight Goliath, King Saul dressed David in his own royal armor—a heavy bronze helmet and a massive bronze coat of scale armor!
 
 [TA James] And the Bible says David tried to walk, but he couldn't move because he was weighed down by Saul's heavy armor! So David took off the heavy armor!
 
-[TA Sarah] Look at the left card: Web-wrapped 1.2GB applications are Saul's heavy armor! They are bulky, slow, and weigh down your machine with someone else's bloat!
+[TA Sarah] Look at the left card: Web-wrapped 1.2GB applications are Saul's heavy bronze armor! They are bulky, slow, and weigh down your machine with someone else's bloat!
 
 [TA James] But look at David's sling on the right: a lightweight, native command-line tool—just five smooth stones, maximum speed, precision, and complete agility!
+
+[TA Sarah] David didn't need Saul's heavy armor to defeat Goliath; he needed a lean weapon guided by divine precision!
 
 [Prof. Peter] In intelligence architecture, victory belongs not to the heaviest framework, but to the leanest, most disciplined tool guided by wisdom under Soli Deo Gloria.
 
@@ -684,6 +714,8 @@
 
 [TA Sarah] But many executives and business analysts prefer Option C because they want rich visual charts and interactive floating windows!
 
+[TA James] And that's fine—until their 8GB laptop freezes during a client presentation!
+
 [Prof. Peter] Knowing your user persona dictates your architectural footprint. Let us see the synthesis on Slide 20!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
@@ -718,6 +750,8 @@
 
 [TA Sarah] And now, let's see how a FinTech trading desk rescued their 8GB laptops from crashing in Case Study 2 on Slide 22!
 
+[TA James] This trading desk incident cost $620,000 in delayed orders—let's see how we fixed it!
+
 [Prof. Peter] Let us examine our second production case study on Slide 22!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
@@ -748,6 +782,8 @@
 [TA James] Guardrail 2: Clipboard Purge Hook! Never let an agent hold clipboard data forever! After 30 seconds, the agent wipes its memory buffer so your copied passwords and credit cards don't linger in RAM!
 
 [TA Sarah] And Guardrail 3: Power-Aware Throttle! The instant your laptop unplugged from the wall, the agent throttles heavy OCR screen scraping to preserve 100% of your battery for flights!
+
+[TA James] When you enforce these three guardrails, your IT helpdesk tickets for frozen PCs drop to zero!
 
 [Prof. Peter] Strict operational guardrails ensure your desktop agent remains a servant, not a resource-hogging tyrant.
 
@@ -818,6 +854,8 @@
 
 [TA Sarah] And we will dissect our third enterprise case study on migrating 40-year-old legacy COBOL terminal screens into modern Python code in real time!
 
+[TA James] Reading green-screen terminals with vision AI? That sounds like science fiction, but it's 100% production reality!
+
 [Prof. Peter] Let us examine the mechanics of screen perception on Slide 24!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
@@ -850,6 +888,8 @@
 [TA Sarah] And Step 3: That structured visual region is streamed to Gemini 3.5 Flash, which converts the visual layout into clean structured JSON and code explanations!
 
 [TA James] That is how an agent can read an unselectable error message inside a 30-year-old legacy software window and tell you exactly how to fix it!
+
+[TA Sarah] No APIs needed—if human eyes can see it on the monitor, the vision agent can parse and solve it!
 
 [Prof. Peter] Pixel-level perception eliminates the boundary between modern AI and legacy software.
 
@@ -885,7 +925,9 @@
 
 [TA Sarah] And Step 3: DirectWrite matches the original font's exact size, weight, color, and drop-shadow, rendering the English translation directly over the original image!
 
-[Prof. Peter] You look at a Japanese engineering blueprint or German medical manual, and it appears seamlessly in English as if it were originally printed that way.
+[TA James] You look at a Japanese engineering blueprint or German medical manual, and it appears seamlessly in English as if it were originally printed that way!
+
+[Prof. Peter] Eliminating language friction through visual inpainting expands the global reach of human knowledge.
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
 **개요 요약:** 실시간 화면 번역 파이프라인: 원본 폰트와 배경 질감을 보존하며 글자를 실시간 대체하는 인페인팅 기술
@@ -918,6 +960,8 @@
 [TA James] Why? Because frontier models live on cloud servers thousands of miles away! They know everything about human history, but zero about your local hard drive!
 
 [TA Sarah] That is why local-first agentic IT is so revolutionary: by grounding the cloud genius with local SQLite indices and Win32 file hooks, you get a system that knows quantum physics AND finds your lost PDF in 4 milliseconds!
+
+[TA James] Finally, an AI that actually knows where your files are!
 
 [Prof. Peter] Bridging cosmic cloud knowledge with granular local reality is the core mission of the Intelligence Architect.
 
@@ -952,6 +996,8 @@
 
 [TA Sarah] You drop a 400-page contract, type "Find all indemnity clauses," and get the exact answer in 2 seconds flat!
 
+[TA James] No uploading, no waiting for slow parsing—just drag, drop, and get executive answers!
+
 [Prof. Peter] Fluid physical interaction with software accelerates human intellectual momentum.
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
@@ -984,7 +1030,9 @@
 
 [TA Sarah] And here's the magic: if you copy a raw Python function, the agent automatically generates clean docstrings and unit tests in the background!
 
-[TA James] And if you copy a sensitive AWS secret key or credit card number, the agent redacts it and issues an instant warning alert!
+[TA James] And if you accidentally copy a sensitive AWS secret key or credit card number, the agent redacts it and issues an instant warning alert!
+
+[TA Sarah] You never lose copied research snippets, and your credentials stay safe!
 
 [Prof. Peter] An active clipboard transforms everyday copying into an ambient knowledge synthesis engine.
 
@@ -1021,6 +1069,8 @@
 
 [TA Sarah] The entire 1,400-routine migration finished in just 3 weeks instead of 2 years, saving the bank $2.4 million in consulting fees!
 
+[TA James] That is why multimodal vision is the ultimate legacy modernization tool!
+
 [Prof. Peter] When multimodal vision meets legacy systems, decades of technical debt dissolve in weeks. Now let us address the Shadow Kingdom in Part 4!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
@@ -1051,6 +1101,8 @@
 [TA James] In Part 4, we enter the enterprise battlefield! We confront the rise of unapproved 'Shadow IT', dissect screen-capture data leaks, and establish strict Data Loss Prevention (DLP) kernel firewalls!
 
 [TA Sarah] We will analyze how healthcare networks protect patient privacy, master Human-on-the-Loop audit logging, and launch our hands-on Lab 3 assignment!
+
+[TA James] If you deploy desktop AI without security guardrails, your corporate CISO will pull the plug on your project in 5 minutes!
 
 [Prof. Peter] Let us begin by examining the corporate sandbox blockade on Slide 31!
 
@@ -1084,6 +1136,8 @@
 [TA James] But look at the right card: "THE ENTERPRISE WORKSPACE PATH." We package our Spark agent into a signed MSI installer governed by GPO. It enforces a strict zero-data-training policy under Google Cloud enterprise SLAs!
 
 [TA Sarah] All network egress is routed through corporate proxy firewalls with Customer-Managed Encryption Keys!
+
+[TA James] You get all the AI power, and your CISO sleeps peacefully at night!
 
 [Prof. Peter] True enterprise AI adoption requires aligning technical capability with corporate legal compliance.
 
@@ -1120,6 +1174,8 @@
 
 [TA James] The employee didn't mean to leak data, but the unconstrained vision agent sent sensitive PII straight into the cloud pipeline!
 
+[TA Sarah] That's why unconstrained full-screen capture is completely banned in our Spark OS architecture!
+
 [Prof. Peter] Visual AI must be bounded by window-specific capture filters and real-time PII redaction shields.
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
@@ -1153,6 +1209,8 @@
 [TA James] Now the company has the worst of both worlds: zero official productivity gain AND complete loss of security visibility!
 
 [TA Sarah] The solution is NOT prohibition—it is providing a secure, hardened, approved enterprise platform like Spark OS that employees LOVE to use!
+
+[TA James] When you give them a fast, sanctioned tool, shadow IT disappears overnight!
 
 [Prof. Peter] True leadership provides safe, sanctioned rivers for human ingenuity to flow.
 
@@ -1222,6 +1280,8 @@
 
 [TA James] You review the diff, tap "Approve," and the agent resumes safely! You get 99% automation with 100% human control!
 
+[TA Sarah] No micromanagement, and zero runaway disasters!
+
 [Prof. Peter] HOTL governance preserves human leadership while unlocking massive autonomous scale.
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
@@ -1259,6 +1319,8 @@
 
 [TA Sarah] The hospital compliance officer received an instant alert with the nurse's terminal ID, and exactly ZERO patient medical records leaked outside the hospital perimeter!
 
+[TA James] That 2-millisecond kill-switch saved the hospital from a $4 million HIPAA fine!
+
 [Prof. Peter] Architectural vigilance is the sacred duty of the Intelligence Architect protecting human dignity.
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
@@ -1293,6 +1355,8 @@
 
 [TA Sarah] And Setting 3: Model Tier Routing! Route simple file searches and calculator math to an on-device 2B model, and route complex multimodal synthesis to Gemini 3.5 Flash!
 
+[TA James] That cuts your cloud token costs by 60% while giving you lightning speed on local tasks!
+
 [Prof. Peter] Clean configuration architecture gives you maximum flexibility while preserving strict enterprise boundaries.
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
@@ -1326,6 +1390,8 @@
 
 [TA James] You get the best of both worlds: David's agile sling on your local machine, backed by the infinite computational power of Google Cloud TPU clusters!
 
+[TA Sarah] That is how you win the Battle for the OS Shell!
+
 [Prof. Peter] That is the architectural blueprint for the master Intelligence Architect.
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
@@ -1356,6 +1422,8 @@
 [TA James] Look at Card 2: "Diligent Craftsmanship." We don't write sloppy, bloated code that burns user battery life! We build lean, elegant, rock-solid systems with disciplined craftsmanship!
 
 [TA Sarah] And Card 3: "Serving Higher Purpose." Using our technological leverage to create tools that bless our colleagues, empower students, and honor our Creator.
+
+[TA James] Every clean line of code is an expression of integrity!
 
 [Prof. Peter] Soli Deo Gloria: When engineering excellence meets holy purpose, every keystroke becomes an act of worship.
 
@@ -1390,6 +1458,8 @@
 
 [TA James] That is how real master architects build longevity without burning out!
 
+[TA Sarah] Rest is not a luxury—it is an architectural requirement for wisdom!
+
 [Prof. Peter] Sabbath rest is God's ordained rhythm for sustained human flourishing and wisdom.
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
@@ -1420,6 +1490,8 @@
 [TA James] Declaration 2: "I GUARD THE DATA!" I will protect local proprietary code, screen pixels, and client privacy with strict DLP firewalls and zero-data-training policies!
 
 [TA Sarah] And Declaration 3: "I REDEEM THE TIME!" I will deploy automation not for selfish laziness, but to redeem finite human hours for scholarship, community service, and God's eternal glory!
+
+[TA James] When you live by these three covenants, you become an unstoppable intelligence architect!
 
 [Prof. Peter] When an architect lives by this manifesto, technology becomes a glorious instrument of blessing.
 
@@ -1454,6 +1526,8 @@
 
 [TA Sarah] You give your employees world-class AI superpowers while keeping your corporate security posture 100% airtight!
 
+[TA James] No shadow IT, no data leaks, and zero IT helpdesk chaos!
+
 [Prof. Peter] Let us inspect our final enterprise ROI analysis and production audit on Slide 44!
 
 ### 🇰🇷 한국어 강의 가이드 및 핵심 요약
@@ -1484,6 +1558,8 @@
 [TA James] Principle 2: "PERCEPTION REQUIRES PRIVACY." The moment you give an agent eyes to see your screen, you must give it ironclad DLP guardrails to protect human dignity and privacy!
 
 [TA Sarah] And Principle 3: "STEWARDSHIP GLORIFIES GOD." We manage every megabyte of RAM, every watt of battery, and every hour of time as faithful stewards under Soli Deo Gloria!
+
+[TA James] That is how engineering becomes a calling of excellence!
 
 [Prof. Peter] Let us examine our final enterprise ROI analysis and production blueprint on Slide 44!
 
@@ -1517,6 +1593,8 @@
 [TA Sarah] And look at Card 3: The 7-Step Desktop Hardening Audit Checklist: 1. GPO MSI deployment -> 2. 200MB memory ceiling -> 3. Local SQLite indexing -> 4. On-device DLP masking -> 5. Conflict-free hotkey binding -> 6. SHA-256 audit ledger -> 7. HOTL supervisory launch!
 
 [TA James] Follow this blueprint, and you deploy world-class desktop intelligence that CISOs and CFOs celebrate!
+
+[TA Sarah] You are now ready to build your own local agent!
 
 [Prof. Peter] You are now fully prepared to build and deploy your own local file sorting agent in Lab 3 on Slide 45!
 

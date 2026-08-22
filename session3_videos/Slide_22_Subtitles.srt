@@ -1,0 +1,52 @@
+1
+00:00:00,400 --> 00:00:10,480
+Slide 22 presents our second deep-dive 실전 사례: CASE STUDY 2: WEBVIEW2 MEMORY LEAK RESCUE: Saving a FinTech Trading Desk from Disaster.
+
+2
+00:00:10,880 --> 00:00:19,278
+Listen to this high-stakes Wall Street nightmare, students: a proprietary trading firm had 40 equity traders using 8GB workstations.
+
+3
+00:00:19,278 --> 00:00:24,560
+They installed an unconstrained WebView2 desktop AI app to summarize earnings news.
+
+4
+00:00:24,960 --> 00:00:30,140
+And what happened on Monday morning at 9:30 AM when the market opened, James?
+
+5
+00:00:30,540 --> 00:00:36,072
+The opening bell rang, and thousands of live market feeds flooded the system!
+
+6
+00:00:36,072 --> 00:00:43,330
+The unconstrained WebView2 renderer began leaking memory, swelling from 1.2GB to 3.8GB in 60 seconds!
+
+7
+00:00:43,730 --> 00:00:46,785
+The physical RAM was completely exhausted!
+
+8
+00:00:46,785 --> 00:00:57,770
+The Bloomberg trading terminals froze for 45 seconds, traders couldn't execute stop-loss orders, and the firm lost $620,000 in delayed order execution!
+
+9
+00:00:58,170 --> 00:01:10,050
+Look at our Spark Process Governor solution on the right: we locked every agent instance inside a Windows Job Object with a hard 200MB memory ceiling and replaced the heavy web view with native C++ IPC!
+
+10
+00:01:10,450 --> 00:01:14,198
+Memory usage dropped from 3.8GB to 85MB!
+
+11
+00:01:14,198 --> 00:01:21,320
+100% terminal uptime during market open, and zero trading delays ever again!
+
+12
+00:01:21,720 --> 00:01:28,853
+Rigorous memory governance is not just good coding—it protects millions of dollars in enterprise value.
+
+13
+00:01:28,853 --> 00:01:32,040
+Now let us enter the Omniscient Eye in Part 3!
+

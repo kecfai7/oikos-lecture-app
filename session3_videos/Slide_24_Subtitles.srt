@@ -1,0 +1,28 @@
+1
+00:00:00,400 --> 00:00:10,530
+Slide 24 diagrams SCREEN SCRAPING VIA GOOGLE LENS. Sarah, James, how does the agent capture the screen so fast?
+
+2
+00:00:10,930 --> 00:00:21,256
+Look at Step 1 on screen: Instead of taking slow GDI screenshots like old Windows tools, modern vision agents use DirectX Desktop Duplication (DXGI).
+
+3
+00:00:21,256 --> 00:00:26,940
+It grabs the raw GPU frame buffer in just 2 milliseconds with zero screen flicker!
+
+4
+00:00:27,340 --> 00:00:38,430
+Step 2: An on-device neural OCR engine processes the pixels in 45 milliseconds, drawing tight bounding boxes around text, error dialog boxes, code editors, and financial tables!
+
+5
+00:00:38,830 --> 00:00:49,490
+And Step 3: That structured visual region is streamed to Gemini 3.5 Flash, which converts the visual layout into clean structured JSON and code explanations!
+
+6
+00:00:49,890 --> 00:00:57,740
+That is how an agent can read an unselectable error message inside a 30-year-old legacy software window and tell you exactly how to fix it!
+
+7
+00:00:58,140 --> 00:01:04,190
+Pixel-level perception eliminates the boundary between modern AI and legacy software.
+

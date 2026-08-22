@@ -1,0 +1,32 @@
+1
+00:00:00,400 --> 00:00:06,060
+Slide 25 breaks down REAL-TIME SCREEN TRANSLATION: Preserving Visual Harmony.
+
+2
+00:00:06,460 --> 00:00:09,802
+Look at how advanced this pipeline is, students!
+
+3
+00:00:09,802 --> 00:00:13,492
+It doesn't just pop up a boring text translation box.
+
+4
+00:00:13,492 --> 00:00:17,810
+It performs in-place pixel inpainting directly on your screen!
+
+5
+00:00:18,210 --> 00:00:26,830
+Step 1: The Frame Difference Detector monitors screen changes, ignoring static wallpaper and processing only active window text.
+
+6
+00:00:27,230 --> 00:00:36,110
+Step 2: Neural Inpainting erases foreign language characters (like Japanese or German) and seamlessly restores the background texture behind the letters!
+
+7
+00:00:36,510 --> 00:00:47,170
+And Step 3: DirectWrite matches the original font's exact size, weight, color, and drop-shadow, rendering the English translation directly over the original image!
+
+8
+00:00:47,570 --> 00:00:56,160
+You look at a Japanese engineering blueprint or German medical manual, and it appears seamlessly in English as if it were originally printed that way.
+

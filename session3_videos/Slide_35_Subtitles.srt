@@ -1,0 +1,36 @@
+1
+00:00:00,400 --> 00:00:06,589
+Slide 35 contrasts HUMAN-ON-THE-LOOP (HOTL) AUDITS: Autonomy vs.
+
+2
+00:00:06,589 --> 00:00:08,780
+Supervisory Oversight.
+
+3
+00:00:09,180 --> 00:00:12,715
+Look at the left card: Unmonitored Autonomy is reckless!
+
+4
+00:00:12,715 --> 00:00:22,690
+If you let a desktop agent delete files or click buttons with zero telemetry, a single logic bug can wipe out your entire project directory before you notice!
+
+5
+00:00:23,090 --> 00:00:32,860
+But look at the right card: HOTL Governance. The agent handles routine low-risk actions autonomously—like searching files or summarizing PDFs.
+
+6
+00:00:33,260 --> 00:00:45,480
+But the moment it attempts a high-risk operation—like deleting more than 3 files or making an AP2 transaction over $50—it pauses and sends a 1-click push notification to your phone!
+
+7
+00:00:45,880 --> 00:00:51,172
+You review the diff, tap Approve, and the agent resumes safely!
+
+8
+00:00:51,172 --> 00:00:55,000
+You get 99% automation with 100% human control!
+
+9
+00:00:55,400 --> 00:01:01,380
+HOTL governance preserves human leadership while unlocking massive autonomous scale.
+

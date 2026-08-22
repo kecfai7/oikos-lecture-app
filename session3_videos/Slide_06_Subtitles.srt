@@ -1,0 +1,40 @@
+1
+00:00:00,400 --> 00:00:05,700
+Slide 6 reveals the technical rationale: BYPASSING THE BROWSER SANDBOX.
+
+2
+00:00:06,100 --> 00:00:10,918
+For years, web browsers were built as airtight security prisons.
+
+3
+00:00:10,918 --> 00:00:15,360
+Why did Google break out of their own Chrome prison, James?
+
+4
+00:00:15,760 --> 00:00:19,418
+Because the browser sandbox has strict security handcuffs!
+
+5
+00:00:19,418 --> 00:00:31,340
+Look at the left card: a website in Chrome cannot touch your local `C:\` drive, cannot capture your desktop screen without explicit permissions, and cannot listen for global system hotkeys!
+
+6
+00:00:31,740 --> 00:00:32,940
+Exactly!
+
+7
+00:00:32,940 --> 00:00:44,940
+If you want an AI that can organize your local Downloads folder, inspect your VS Code editor, and summarize a PDF sitting on your desktop, you MUST have native OS shell privileges on the right card!
+
+8
+00:00:45,340 --> 00:00:49,111
+But with great OS privilege comes massive security danger!
+
+9
+00:00:49,111 --> 00:00:55,420
+If a malicious prompt compromises a desktop agent, it has access to your entire local hard drive!
+
+10
+00:00:55,820 --> 00:01:02,080
+That is why local-first architecture requires strict tenant boundaries and cryptographic audits.
+

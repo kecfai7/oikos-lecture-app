@@ -1,0 +1,40 @@
+1
+00:00:00,400 --> 00:00:11,870
+Slide 21 outlines OPERATIONAL DESKTOP SAFETY GUARDRAILS. Sarah, James, what guardrails must we enforce on every desktop agent?
+
+2
+00:00:12,270 --> 00:00:14,797
+Guardrail 1: RAM Ceiling Governor.
+
+3
+00:00:14,797 --> 00:00:21,263
+We bind the desktop agent inside a Windows Job Object with a hard 200MB memory ceiling.
+
+4
+00:00:21,263 --> 00:00:27,730
+If a subprocess starts leaking memory, the OS kills and restarts it in 50 milliseconds!
+
+5
+00:00:28,130 --> 00:00:30,435
+Guardrail 2: Clipboard Purge Hook!
+
+6
+00:00:30,435 --> 00:00:33,621
+Never let an agent hold clipboard data forever!
+
+7
+00:00:33,621 --> 00:00:41,350
+After 30 seconds, the agent wipes its memory buffer so your copied passwords and credit cards don't linger in RAM!
+
+8
+00:00:41,750 --> 00:00:44,316
+And Guardrail 3: Power-Aware Throttle!
+
+9
+00:00:44,316 --> 00:00:53,770
+The instant your laptop unplugged from the wall, the agent throttles heavy OCR screen scraping to preserve 100% of your battery for flights!
+
+10
+00:00:54,170 --> 00:01:01,180
+Strict operational guardrails ensure your desktop agent remains a servant, not a resource-hogging tyrant.
+

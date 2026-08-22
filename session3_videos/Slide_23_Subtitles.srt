@@ -1,0 +1,24 @@
+1
+00:00:00,400 --> 00:00:06,780
+Slide 23 announces PART 3: THE OMNISCIENT EYE: GOOGLE LENS & DESKTOP GEMINI.
+
+2
+00:00:07,180 --> 00:00:12,685
+In Parts 1 and 2, we mastered shell control and disciplined our memory footprint.
+
+3
+00:00:12,685 --> 00:00:22,200
+Now we explore the visual perceptual power of desktop intelligence: when an agent can see every pixel on your screen, what becomes possible?
+
+4
+00:00:22,600 --> 00:00:35,680
+In Part 3, we analyze screen scraping via Google Lens, real-time desktop translation pipelines, over-the-shoulder AI tutoring, and the local indexing dilemma: why AI is a genius in the cloud but often a novice on local disk!
+
+5
+00:00:36,080 --> 00:00:44,670
+And we will dissect our third enterprise case study on migrating 40-year-old legacy COBOL terminal screens into modern Python code in real time!
+
+6
+00:00:45,070 --> 00:00:50,040
+Let us examine the mechanics of screen perception on Slide 24!
+

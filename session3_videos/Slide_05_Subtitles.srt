@@ -1,0 +1,32 @@
+1
+00:00:00,400 --> 00:00:12,450
+Slide 5 illustrates THE HOTKEY OF POWER: ALT + SPACE. Sarah, James, why is `Alt + Space` the most contested keyboard shortcut in computing history?
+
+2
+00:00:12,850 --> 00:00:16,992
+Because human muscle memory is the ultimate real estate!
+
+3
+00:00:16,992 --> 00:00:26,017
+For 20 years, Mac users pressed `Cmd + Space` for Spotlight, and Windows power users used `Alt + Space` for PowerToys Run.
+
+4
+00:00:26,017 --> 00:00:28,090
+It is an unconscious reflex!
+
+5
+00:00:28,490 --> 00:00:37,830
+Look at the 3-step kernel journey on screen: Step 1: When you tap `Alt + Space`, a Win32 Low-Level Keyboard Hook intercepts the signal in 1 millisecond.
+
+6
+00:00:38,230 --> 00:00:46,370
+Step 2: The borderless WebView2 overlay renders a beautiful floating search bar in 18 milliseconds on your active monitor.
+
+7
+00:00:46,770 --> 00:00:54,790
+And Step 3: That floating bar routes your query: if it's a web search, it goes to Google Cloud; if it's a screenshot, it goes to Google Lens!
+
+8
+00:00:55,190 --> 00:01:02,560
+Whoever controls the first 100 milliseconds of user intent captures the entire stream of human curiosity.
+

@@ -1,0 +1,60 @@
+1
+00:00:00,400 --> 00:00:03,015
+Slide 3 illustrates GUEST VS.
+
+2
+00:00:03,015 --> 00:00:10,340
+LANDLORD: The Desktop Schism. James, explain this landlord analogy to our students.
+
+3
+00:00:10,740 --> 00:00:20,340
+Think of Microsoft as the building landlord: they own the foundation, the walls, the electricity, and the front door lock—which is the Windows kernel and Win32 APIs!
+
+4
+00:00:20,740 --> 00:00:23,931
+And Google is the tenant living in the building!
+
+5
+00:00:23,931 --> 00:00:29,383
+For 15 years, Google was content just staying inside the Chrome browser apartment.
+
+6
+00:00:29,383 --> 00:00:34,970
+But now, Microsoft put Copilot directly on the taskbar and on the physical keyboard!
+
+7
+00:00:35,370 --> 00:00:36,703
+So Google panicked!
+
+8
+00:00:36,703 --> 00:00:41,824
+If users ask Copilot on their desktop, they stop searching on google.com!
+
+9
+00:00:41,824 --> 00:00:48,350
+So Google created the Google App for Windows—a desktop search bar that hijacks `Alt + Space`!
+
+10
+00:00:48,750 --> 00:00:57,140
+But look at the technical cost on the right card: because Google is a guest, they can't use native Windows UI controls easily.
+
+11
+00:00:57,140 --> 00:01:03,800
+They had to pack an entire WebView2 Chromium browser into that tiny search bar, eating 1.2GB of RAM!
+
+12
+00:01:04,200 --> 00:01:11,089
+Imagine renting a room and bringing in a massive 2-ton diesel generator just to turn on a single light bulb!
+
+13
+00:01:11,089 --> 00:01:12,620
+That is what Google did!
+
+14
+00:01:13,020 --> 00:01:16,656
+Platform friction forces architectural bloat.
+
+15
+00:01:16,656 --> 00:01:20,940
+Let us examine the Trojan Horse mechanics on Slide 4.
+

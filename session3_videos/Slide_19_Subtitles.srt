@@ -1,0 +1,44 @@
+1
+00:00:00,400 --> 00:00:08,460
+Slide 19 is our interactive poll: DESKTOP AI MEMORY ALLOCATION! Students, cast your vote on screen!
+
+2
+00:00:08,860 --> 00:00:14,120
+How much RAM should a background desktop AI assistant be allowed to consume on your machine?
+
+3
+00:00:14,520 --> 00:00:19,461
+Option A: Ultra-Lean (< 50MB) native C++/Rust.
+
+4
+00:00:19,461 --> 00:00:25,369
+Option B: Moderate (100MB to 300MB) lightweight widget.
+
+5
+00:00:25,369 --> 00:00:31,599
+Option C: Full Web Engine (1GB to 2GB) with rich WebView2.
+
+6
+00:00:31,599 --> 00:00:37,510
+Or Option D: 100% Cloud Headless with zero desktop RAM!
+
+7
+00:00:37,910 --> 00:00:39,766
+I'm voting for Option A or D!
+
+8
+00:00:39,766 --> 00:00:47,510
+When I'm compiling kernel code, I want every single megabyte of RAM dedicated to my build, not background search widgets!
+
+9
+00:00:47,910 --> 00:00:55,660
+But many executives and business analysts prefer Option C because they want rich visual charts and interactive floating windows!
+
+10
+00:00:56,060 --> 00:01:00,970
+Knowing your user persona dictates your architectural footprint.
+
+11
+00:01:00,970 --> 00:01:03,810
+Let us see the synthesis on Slide 20!
+

@@ -1,0 +1,40 @@
+1
+00:00:00,400 --> 00:00:09,020
+Slide 4 dissects THE TROJAN HORSE: Google App for Windows. James, why do we call this sleek search bar a Trojan Horse?
+
+2
+00:00:09,420 --> 00:00:15,363
+Because it disguises massive surveillance and platform capture as a harmless, pretty search bar!
+
+3
+00:00:15,363 --> 00:00:18,830
+Look at the three hidden strategic objectives on screen:
+
+4
+00:00:19,230 --> 00:00:21,220
+Objective 1: Hotkey Hijacking.
+
+5
+00:00:21,220 --> 00:00:31,570
+By taking over `Alt + Space` (which used to be PowerToys Run or the window menu), Google intercepts your mental intent the millisecond you decide to search!
+
+6
+00:00:31,970 --> 00:00:34,239
+Objective 2: Perpetual Residency.
+
+7
+00:00:34,239 --> 00:00:43,730
+It adds itself to Windows Startup registry, keeping an entire Chromium process resident in your RAM 24/7 so it pops up in 20 milliseconds!
+
+8
+00:00:44,130 --> 00:00:46,746
+And Objective 3: Screen Vision Portal!
+
+9
+00:00:46,746 --> 00:00:57,280
+It gives Google Lens the power to capture your entire desktop screen with one click—reading your confidential Excel models, proprietary code, and emails!
+
+10
+00:00:57,680 --> 00:01:05,120
+When you install a Trojan Horse, you are trading your system resources and visual privacy for fractional convenience.
+

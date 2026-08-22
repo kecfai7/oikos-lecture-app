@@ -1,0 +1,36 @@
+1
+00:00:00,400 --> 00:00:07,790
+Slide 31 reveals THE CORPORATE SANDBOX BLOCKADE: Why CISOs Block Consumer AI Apps.
+
+2
+00:00:08,190 --> 00:00:16,982
+If you install the consumer Google App for Windows on a corporate bank laptop, your Chief Information Security Officer (CISO) will have a heart attack!
+
+3
+00:00:16,982 --> 00:00:24,319
+Look at the left card: consumer apps stream screen pixels directly to public cloud servers with zero contractual data privacy!
+
+4
+00:00:24,719 --> 00:00:29,759
+That triggers immediate multi-million-dollar fines under GDPR and HIPAA!
+
+5
+00:00:29,759 --> 00:00:38,159
+That is why corporate IT uses Active Directory Group Policy (GPO) to block consumer installers on all corporate laptops.
+
+6
+00:00:38,559 --> 00:00:47,515
+But look at the right card: THE ENTERPRISE WORKSPACE PATH. We package our Spark agent into a signed MSI installer governed by GPO.
+
+7
+00:00:47,515 --> 00:00:53,079
+It enforces a strict zero-data-training policy under Google Cloud enterprise SLAs!
+
+8
+00:00:53,479 --> 00:00:59,599
+All network egress is routed through corporate proxy firewalls with Customer-Managed Encryption Keys!
+
+9
+00:00:59,999 --> 00:01:06,649
+True enterprise AI adoption requires aligning technical capability with corporate legal compliance.
+

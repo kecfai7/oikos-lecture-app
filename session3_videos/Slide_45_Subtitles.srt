@@ -1,0 +1,36 @@
+1
+00:00:00,400 --> 00:00:08,390
+Here we are at Slide 45: 🛠️ LAB 3 ASSIGNMENT: Local File Sorting & OS Shell Agent.
+
+2
+00:00:08,790 --> 00:00:20,410
+Look at our three practical engineering milestones on screen: Step 1: Write a lightweight local file crawler that indexes your Downloads folder into a local SQLite database in under 2 seconds!
+
+3
+00:00:20,810 --> 00:00:31,030
+Step 2: Bind your global hotkey to `Alt + Space` or `Win + Shift + Space`, and attach our local DLP masking filter to redact passwords and credit card numbers automatically!
+
+4
+00:00:31,430 --> 00:00:47,530
+And Step 3: Connect your local search index to Gemini 3.5 Flash, verify that your agent consumes less than 200MB of RAM, confirm your SHA-256 audit ledger, and submit your verified execution logs to the portal!
+
+5
+00:00:47,930 --> 00:00:54,460
+James and I will be in the lab all week to help you optimize your file crawlers and test your DLP filters.
+
+6
+00:00:54,860 --> 00:01:00,570
+Build a lean, razor-sharp local agent that David would be proud of—no heavy bronze armor allowed!
+
+7
+00:01:00,970 --> 00:01:02,288
+Soli Deo Gloria.
+
+8
+00:01:02,288 --> 00:01:11,020
+Thank you for your dedication, work diligently as Intelligence Architects, and may God bless your studies!
+
+9
+00:01:11,020 --> 00:01:12,750
+See you in Session 4!
+

@@ -1,0 +1,40 @@
+1
+00:00:00,400 --> 00:00:11,300
+Slide 29 presents our third major 실전 사례: CASE STUDY 3: LEGACY COBOL TO MODERN PYTHON MIGRATION: Saving a State Bank $2.4 Million.
+
+2
+00:00:11,700 --> 00:00:25,099
+Students, look at this incredible legacy modernization case: a major state bank had 1,400 interest rate calculation routines locked inside a 40-year-old IBM 3270 green-screen mainframe terminal.
+
+3
+00:00:25,099 --> 00:00:31,040
+The original programmers had retired decades ago, and the source code files were lost!
+
+4
+00:00:31,440 --> 00:00:37,630
+IT consulting firms quoted them $3 million and two years to reverse-engineer the system by hand!
+
+5
+00:00:38,030 --> 00:00:47,401
+Look at what our Spark Desktop Vision Agent did in Layer 2: we connected Google Lens screen scraping via DXGI directly to the mainframe terminal.
+
+6
+00:00:47,401 --> 00:00:55,480
+As bank operators ran test calculations, the agent read the green-screen variable grids and formulas at 60 frames per second!
+
+7
+00:00:55,880 --> 00:01:07,280
+Layer 3: Gemini 3.5 Flash reverse-engineered the mathematical logic and wrote clean, modern, fully tested Python 3.12 microservices with 100% mathematical parity!
+
+8
+00:01:07,680 --> 00:01:18,050
+The entire 1,400-routine migration finished in just 3 weeks instead of 2 years, saving the bank $2.4 million in consulting fees!
+
+9
+00:01:18,450 --> 00:01:25,011
+When multimodal vision meets legacy systems, decades of technical debt dissolve in weeks.
+
+10
+00:01:25,011 --> 00:01:28,550
+Now let us address the Shadow Kingdom in Part 4!
+

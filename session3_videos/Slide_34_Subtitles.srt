@@ -1,0 +1,48 @@
+1
+00:00:00,400 --> 00:00:06,520
+Slide 34 diagrams THE WORKSPACE COMPLIANCE PATH: The 3 Pillars of Safe AI.
+
+2
+00:00:06,920 --> 00:00:11,913
+How do we turn the dangerous shadow kingdom into an enterprise fortress?
+
+3
+00:00:11,913 --> 00:00:14,410
+Look at the three pillars on screen.
+
+4
+00:00:14,810 --> 00:00:17,076
+Pillar 1: Enterprise Tenant Lock.
+
+5
+00:00:17,076 --> 00:00:22,295
+All employee desktop agents authenticate through corporate Google Cloud IAM.
+
+6
+00:00:22,295 --> 00:00:26,760
+Every query is bound by zero-data-training enterprise agreements!
+
+7
+00:00:27,160 --> 00:00:29,118
+Pillar 2: Local DLP Redaction.
+
+8
+00:00:29,118 --> 00:00:39,500
+Before any screen snapshot or clipboard text leaves the laptop, an on-device regex and NER model masks social security numbers and passwords with `[REDACTED]`!
+
+9
+00:00:39,900 --> 00:00:42,646
+And Pillar 3: Immutable Audit Trail.
+
+10
+00:00:42,646 --> 00:00:51,420
+Every single action, screen region inspected, and tool call is recorded into a tamper-evident SHA-256 JSONL ledger!
+
+11
+00:00:51,820 --> 00:00:58,760
+If a compliance auditor asks what the AI did six months ago, you hand them the cryptographic ledger in 3 seconds!
+
+12
+00:00:59,160 --> 00:01:06,500
+Compliance is not an obstacle to innovation; it is the structural integrity that allows innovation to scale safely.
+

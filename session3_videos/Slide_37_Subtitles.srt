@@ -1,0 +1,44 @@
+1
+00:00:00,400 --> 00:00:06,300
+Slide 37 covers CUSTOMIZING THE AGENT PORTAL: Configuration by Discipline.
+
+2
+00:00:06,700 --> 00:00:09,564
+In Spark OS, you never hardcode settings!
+
+3
+00:00:09,564 --> 00:00:15,153
+Everything is configured through a clean, version-controlled `config.yaml` file.
+
+4
+00:00:15,153 --> 00:00:17,740
+Look at the three settings on screen:
+
+5
+00:00:18,140 --> 00:00:20,190
+Setting 1: Hotkey Re-binding.
+
+6
+00:00:20,190 --> 00:00:30,090
+You can re-bind the trigger key to `Win + Shift + Space` or `Alt + J` so it never collides with PowerToys Run or existing developer hotkeys.
+
+7
+00:00:30,490 --> 00:00:32,369
+Setting 2: Domain Whitelists!
+
+8
+00:00:32,369 --> 00:00:40,470
+You lock the agent's network egress strictly to authorized enterprise endpoints, blocking all third-party analytics trackers.
+
+9
+00:00:40,870 --> 00:00:43,401
+And Setting 3: Model Tier Routing!
+
+10
+00:00:43,401 --> 00:00:53,230
+Route simple file searches and calculator math to an on-device 2B model, and route complex multimodal synthesis to Gemini 3.5 Flash!
+
+11
+00:00:53,630 --> 00:01:00,470
+Clean configuration architecture gives you maximum flexibility while preserving strict enterprise boundaries.
+
