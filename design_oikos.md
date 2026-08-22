@@ -3,7 +3,7 @@
 > **Institution:** Oikos University (www.oikos.edu) • Smart Insight Lab  
 > **Course:** The Architect of Intelligence: Mastering Agentic IT & Strategic Wisdom  
 > **Core Motto:** *Soli Deo Gloria* (오직 하나님께 영광) • Ephesians 5:16 (세월을 아끼라)  
-> **Version:** 2.0 (Master 3-Presenter Broadcast Edition)
+> **Version:** 3.0 (Ultra-Vibrant 3-Presenter Broadcast Edition)
 
 ---
 
@@ -18,12 +18,12 @@
 
 ## 2. 👥 3-PRESENTER TRIO PERSONA & TIKI-TAKA DIALOGUE RULES (3인 강사진 규약)
 
-모든 슬라이드의 대본은 **단순 순차 낭독을 엄격히 금지**하며, 세 사람 간의 실시간 토론, 반론, 위트 있는 현장 경험담, 심층 질문이 오가는 **6~9턴의 고에너지 핑퐁 티키타카(Tiki-Taka)**로 작성합니다.
+모든 슬라이드의 대본은 **단순 카드 낭독(Card-Reading)이나 순차적 요약을 엄격히 금지**하며, 세 사람 간의 실시간 토론, 반론, 위트 있는 현장 실패담, 심층 질문이 오가는 **7~10턴의 고에너지 핑퐁 티키타카(Tiki-Taka)**로 작성합니다.
 
 ```mermaid
 graph LR
-    P["👨‍🏫 Prof. Peter Kim<br/>(전략/철학/앵커링)"] <--> S["👩‍💻 TA Sarah Jenkins<br/>(아키텍처/정밀 분석)"]
-    S <--> J["👨‍💻 TA James Wilson<br/>(데브옵스/현장 위트)"]
+    P["👨‍🏫 Prof. Peter Kim<br/>(전략/철학/앵커링)"] <--> S["👩‍💻 TA Sarah Jenkins<br/>(아키텍처/정밀 분석/질문)"]
+    S <--> J["👨‍💻 TA James Wilson<br/>(데브옵스/현장 위트/실화)"]
     J <--> P
 ```
 
@@ -31,14 +31,21 @@ graph LR
 
 | 강사 | 역할 및 성격 | 주요 대화 기여 포인트 | 음성 합성 사양 |
 | :--- | :--- | :--- | :--- |
-| **👨‍🏫 Prof. Peter Kim** (54세, 디렉터/석좌교수) | • 거시적 시스템 비전<br/>• 신학적/윤리적 앵커링<br/>• 총괄 아키텍처 제시 | • 도발적인 오프닝 질문 던지기<br/>• 에베소서 5:16 및 신앙적 의미 해석<br/>• 슬라이드 핵심 지혜 및 종강 축복 | `en-US-ChristopherNeural`<br/>(Rate: -2%, Pitch: -2Hz)<br/>+ RVC 포먼트 모핑 |
-| **👩‍💻 TA Sarah Jenkins** (31세, 수석 연구원) | • 시스템 명세 및 아키텍처<br/>• Pydantic/JSON 스키마 분석<br/>• 워크스페이스 연동 설계 | • 기술적 원리와 예리한 질문 제기<br/>• 제임스의 실패담에 대한 아키텍처적 해법 제시<br/>• 학생들을 위한 단계별 로드맵 안내 | `en-US-JennyNeural`<br/>(Rate: +2%, Pitch: +1Hz) |
-| **👨‍💻 TA James Wilson** (28세, 인프라 조교) | • 실무 데브옵스 & 클라우드<br/>• 온콜 장애 회고 및 보안<br/>• 유쾌한 비유와 현장 고발 | • 맥북 커피잔 받침대 등 초보적 실수 고발<br/>• 3:00 AM 서버 폭파 및 429 에러 악몽 공유<br/>• AP2 바가지 요금 차단 실전 노하우 | `en-US-GuyNeural`<br/>(Rate: +3%, Pitch: +0Hz) |
+| **👨‍🏫 Prof. Peter Kim** (54세, 디렉터/석좌교수) | • 거시적 시스템 비전<br/>• 신학적/윤리적 앵커링<br/>• 총괄 아키텍처 제시 | • 도발적인 오프닝 질문 던지기<br/>• 에베소서 5:16 및 신앙적 의미 해석<br/>• 사울의 놋갑옷 vs 다윗의 물맷돌 등 성경적 지혜<br/>• 슬라이드 핵심 지혜 및 종강 축복 | `en-US-ChristopherNeural`<br/>(Rate: -2%, Pitch: -2Hz)<br/>+ RVC 포먼트 모핑 |
+| **👩‍💻 TA Sarah Jenkins** (31세, 수석 연구원) | • 시스템 명세 및 아키텍처<br/>• Pydantic/JSON 스키마 분석<br/>• 워크스페이스 연동 설계 | • 날카로운 질문 던지기 ("제임스, 하지만 일반 사용자에게 브라우저면 충분하지 않나요?")<br/>• 원리 및 레이턴시 분석 (< 350ms, 1M Context)<br/>• 제임스의 실패담에 대한 아키텍처적 해법 제시 | `en-US-JennyNeural`<br/>(Rate: +2%, Pitch: +1Hz) |
+| **👨‍💻 TA James Wilson** (28세, 인프라 조교) | • 실무 데브옵스 & 클라우드<br/>• 온콜 장애 회고 및 보안<br/>• 유쾌한 비유와 현장 고발 | • 맥북 커피잔 받침대, 2톤 디젤 발전기 비유<br/>• 3:00 AM 서버 폭파 및 429 에러 악몽 공유<br/>• 8GB 랩톱의 SSD 페이징 비명 소리 생생 묘사<br/>• AP2 바가지 요금 차단 실전 노하우 | `en-US-GuyNeural`<br/>(Rate: +3%, Pitch: +0Hz) |
 
-### 2.2. 티키타카 작성 불변 규칙 (Tiki-Taka Guidelines)
-1. **상호 작용 필수:** 한 사람이 말하면 다음 사람은 이전 사람의 발언을 직접 언급하거나 반박/보완하며 대화를 이어갈 것 ("Wait, James, but what happens if...", "Haha, exactly Sarah! In my previous startup...")
-2. **슬라이드 번호 명시:** 대화 초반이나 전개 중에 현재 슬라이드 번호를 자연스럽게 언급할 것 ("Look at Slide 11...", "Here we are on Slide 22...")
-3. **구체적 수치와 고유명사:** 모호한 설명 대신 350ms, 100만 토큰, $4.20/월, Ed25519, SQLite, Gmail Drafts 등 명확한 엔지니어링 용어를 사용할 것.
+### 2.2. 🚫 "단순 카드 낭독 금지(Anti-Card-Reading)" 및 티키타카 불변 규칙
+
+1. **단순 나열식 낭독 완전 배제:**  
+   - ❌ 잘못된 예: *"Card 1은 이것이고, Card 2는 이것이며, Card 3은 이것입니다."*  
+   - ✅ 올바른 예: *"사라, 8GB 노트북 쓰는 직원이 이 앱을 켜면 어떻게 되는지 알아요?", "어떻게 되는데요, 제임스?", "마우스가 굳고 SSD가 비명을 지릅니다! Windows 11만 해도 3.5GB를 먹는데 1.2GB 웹앱이 얹어지니까요!"*
+2. **슬라이드당 7~10턴의 고밀도 상호작용:**  
+   - 한 사람이 발언하면 다음 사람은 반드시 앞사람의 말을 받거나 의문을 제기하며 자연스러운 핑퐁을 형성할 것.
+3. **생생한 비유와 개발자 실패담(Blunders) 적극 활용:**  
+   - 커피잔으로 노트북 뚜껑 받쳐두던 일화, 2톤 발전기로 전등 켜는 꼴인 웹 래퍼, 비행기 4시간 만에 배터리 5% 찍고 꺼진 썰 등 학생들이 공감하고 웃을 수 있는 생생한 실화를 포함할 것.
+4. **구체적 엔지니어링 수치 필수:**  
+   - 모호한 표현 대신 `350ms`, `1.2GB`, `400ms`, `Ed25519`, `35MB vs 1,200MB`, `SHA-256`, `DXGI 2ms` 등 명확한 엔지니어링 팩트를 대화 속에 자연스럽게 녹여낼 것.
 
 ---
 
@@ -75,10 +82,10 @@ graph TD
 ```
 
 ### 3.1. 5대 실전 사례(Enterprise Case Studies) 배치 원칙
-- **Case Study 1 (Slide 11):** Part 1의 철학이 실제 비즈니스 병목을 어떻게 뚫어냈는지 증명 (예: 물류 통관 92% 단축)
-- **Case Study 2 (Slide 22):** Part 2의 엔진/메모리 기술이 대규모 복잡도를 어떻게 해결했는지 증명 (예: 400페이지 법률집 무환각 RAG)
-- **Case Study 3 (Slide 29):** Part 3의 크로스 앱 자동화가 위기 상황을 어떻게 극복했는지 증명 (예: 버진 보이지 1만 명 4분 자율 대응)
-- **Case Study 4 (Slide 36):** Part 4의 보안 프로토콜이 실제 금전적/데이터 공격을 어떻게 분쇄했는지 증명 (예: 120달러 바가지 요금 4ms 차단)
+- **Case Study 1 (Slide 11):** Part 1의 철학이 실제 비즈니스 병목을 어떻게 뚫어냈는지 증명 (예: 물류 통관 92% 단축, 4TB 회계 검색 400ms)
+- **Case Study 2 (Slide 22):** Part 2의 엔진/메모리 기술이 대규모 복잡도를 어떻게 해결했는지 증명 (예: 400페이지 법률집 무환각 RAG, 핀테크 메모리 85MB 안정화)
+- **Case Study 3 (Slide 29):** Part 3의 크로스 앱/시각 인지가 위기 상황을 어떻게 극복했는지 증명 (예: 버진 보이지 1만 명 4분 대응, 40년 COBOL 파이썬 3주 전환)
+- **Case Study 4 (Slide 36):** Part 4의 보안 프로토콜이 실제 금전적/데이터 공격을 어떻게 분쇄했는지 증명 (예: 항공권 120달러 바가지 요금 4ms 차단, 병원 환자 기록 캡처 차단)
 - **Case Study 5 (Slide 44):** 전체 아키텍처의 정량적 ROI(비용 레버리지)와 7단계 무결점 프로덕션 감사 체크리스트 제시
 
 ---
@@ -95,7 +102,7 @@ React 프론트엔드(`src/components/slides/`)는 다음 7가지 정형화된 �
 | `comparison` | `leftCard: {tag, title, points: []}`, `rightCard: {tag, title, points: []}` | Slide 03, 06, 09, 19, 22, 26, 28, 31, 34, 35, 36, 39, 42 | 기존 방식(위험/수동) vs Spark 방식(혁신/안전) 대비 |
 | `architecture` | `layers: [{step, name, role}, ...]` (3~4개) 또는 `tree: [{folder, desc}, ...]` | Slide 05, 11, 14, 15, 16, 18, 20, 24, 25, 29, 32, 37, 45 | 시스템 3~4계층 흐름도 또는 대화형 디렉토리 트리 |
 | `metric` | `metrics: [{value, label, desc}, ...]` (정확히 3개) | Slide 13 | 3대 정량 지표 대형 폰트 강조 |
-| `poll` | `options: [{tag, text}, ...]` (정확히 4개: A, B, C, D) | Slide 08 | 학생 참여형 설문 선택지 카드 |
+| `poll` | `options: [{tag, text}, ...]` (정확히 4개: A, B, C, D) | Slide 08, 19 | 학생 참여형 설문 선택지 카드 |
 
 ---
 
@@ -138,12 +145,12 @@ React 프론트엔드(`src/components/slides/`)는 다음 7가지 정형화된 �
 1. **디렉토리 분리:** 세션별 독립 폴더 유지 (`session1` ➔ `duo_videos`, `session2` ➔ `session2_videos`, `session3` ➔ `session3_videos`)
 2. **슬라이드 캡처 (1080p Full HD):** Playwright 헤드리스 브라우저로 `https://oikos-lecture-app.vercel.app/?session={N}&slide={S}` 화면 캡처 (`1920x1080`)
 3. **음성 합성 & 모핑:**
-   - Prof. Peter Kim: `edge-tts` (`en-US-ChristopherNeural`) + `voice_morphing_engine.py` (RVC 포먼트 필터)
-   - TA Sarah Jenkins: `edge-tts` (`en-US-JennyNeural`)
-   - TA James Wilson: `edge-tts` (`en-US-GuyNeural`)
+   - Prof. Peter Kim: `edge-tts` (`en-US-ChristopherNeural`, Rate: -2%, Pitch: -2Hz) + `voice_morphing_engine.py` (RVC 포먼트 필터)
+   - TA Sarah Jenkins: `edge-tts` (`en-US-JennyNeural`, Rate: +2%, Pitch: +1Hz)
+   - TA James Wilson: `edge-tts` (`en-US-GuyNeural`, Rate: +3%, Pitch: +0Hz)
 4. **자막 영구 번인 (Burned-in Subtitles):**
    - 문장 단위 타임스탬프가 적용된 Clean SRT 생성 (화자 태그 제거)
-   - FFmpeg 자막 필터로 영상 하단 영구 번인 (`FontSize=16, PrimaryColour=&H00FFFFFF`)
+   - FFmpeg 자막 필터로 영상 하단 영구 번인 (`FontName=Paperlogy/Arial, FontSize=16, MarginV=32`)
 5. **결과물 세트 구성:**
    - 45개 개별 슬라이드 MP4 (`Session{N}_Slide_{01~45}_DuoLecture.mp4`)
    - 4개 모듈 분할 비디오 (`Session{N}_Part{1~4}_*.mp4`)
@@ -153,13 +160,13 @@ React 프론트엔드(`src/components/slides/`)는 다음 7가지 정형화된 �
 
 ## 7. 🚀 VERIFICATION & CI/CD DEPLOYMENT WORKFLOW (검증 및 배포 절차)
 
-새로운 세션을 제작하거나 기존 세션을 업데이트할 때는 다음 4단계 검증 루프를 반드시 거칩니다.
+새로운 세션을 제작하거나 기존 세션을 업데이트할 때는 다음 5단계 검증 루프를 반드시 거칩니다.
 
 ```bash
-# 1단계: 세션 슬라이드 생성 및 동기화
+# 1단계: 세션 슬라이드 생성 및 동기화 (7~10턴 티키타카 반영)
 python build_clean_session{N}_45_slides.py
 
-# 2단계: 45개 슬라이드 전수 유효성 검사 (오류 0건 필수)
+# 2단계: 45개 슬라이드 전수 유효성 검사 (오류 0건, 경고 0건 필수)
 python validate_session{N}_slides.py
 
 # 3단계: 프론트엔드 프로덕션 빌드 무결성 확인
@@ -171,7 +178,7 @@ git commit -m "feat: Deploy Session {N} 45-slide master curriculum"
 git push origin main
 
 # 5단계: 3인 티키타카 동영상 및 자막 렌더링 가동
-python build_session{N}_lecture_mp4.py --all
+python build_session{N}_lecture_mp4.py
 ```
 
 ---
