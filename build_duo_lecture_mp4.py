@@ -27,7 +27,6 @@ if hasattr(sys.stderr, 'reconfigure'):
 import imageio_ffmpeg
 import edge_tts
 from playwright.async_api import async_playwright
-from generate_duo_session1 import SESSION_1_DUO_SLIDES
 
 # Paths
 BASE_DIR = r"c:\Oikos Univ"
