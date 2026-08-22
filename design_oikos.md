@@ -182,7 +182,7 @@ python build_session{N}_lecture_mp4.py --all
 | :---: | :--- | :--- | :---: |
 | **Session 1** | **The Paradigm Shift: Chatbots to Autonomous Avatars** | 3인 강사진 출범, 'Ask Me' vs 'Run It', 비동기 데몬 기초, AP2 다중서명 보안 | ✅ 완료 (45장 / 비디오 완료) |
 | **Session 2** | **24/7 Sleep-Free Guardian: Gemini Spark Architecture** | 브라우저 탭 탈출, 350ms Gemini Flash, 3계층 메모리, Workspace 연동, HNP 무인 결제 | ✅ 완료 (45장 / 비디오 완료) |
-| **Session 3** | **The Battle for the OS Shell: Windows Dominance and the 1.2GB Trojan Horse** | OS 셸 장악 전쟁, WebView2 1.2GB 해체, 구글 렌즈 화면 인식, 섀도우 IT 방어, Lab 3 | ✅ 완료 (45장 / 비디오 렌더링 중) |
+| **Session 3** | **The Battle for the OS Shell: Windows Dominance and the 1.2GB Trojan Horse** | OS 셸 장악 전쟁, WebView2 1.2GB 해체, 구글 렌즈 화면 인식, 섀도우 IT 방어, Lab 3 | ✅ 완료 (45장 / 비디오 완료) |
 | **Session 4** | **Next Session Blueprint** | *(다음 세션 기획 시 본 가이드라인 엄격 적용)* | ⏳ 대기 중 |
 
 ---
